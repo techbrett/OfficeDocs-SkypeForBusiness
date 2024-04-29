@@ -51,7 +51,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
-> This feature is currently available in the Netherlands, New Zealand, Norway, and the United States. Your users can send SMS text notifications to people who have a valid Netherlands (+31 country code), New Zealand (+64 country code), Norway (+47 country code), or United States phone number (+1 country code).
+> This feature is currently available in the Netherlands, New Zealand, Norway, and the United States. Your users can send SMS text notifications to people who have a valid Netherlands (+31 country code), New Zealand (+64 country code), Norway (+47 country code), or United States (+1 country code) phone number.
 >
 > The text notifications are sent in the language of the meeting organizer.
 
