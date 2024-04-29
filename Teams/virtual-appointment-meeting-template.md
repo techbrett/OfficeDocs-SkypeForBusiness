@@ -51,7 +51,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
-> This feature is currently only available in the United States. Your users can only send SMS text notifications to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
+> This feature is currently available in the Netherlands, New Zealand, Norway, and the United States. Your users can only send SMS text notifications to people who have a valid Netherlands (+31 country code), New Zealand (+64 country code), Norway (+47 country code), or United States phone number (+1 country code). SMS text notifications are sent in English.
 
 You can control whether your users can choose to send SMS text notifications to external guests in appointments that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
 
@@ -102,7 +102,7 @@ To get an overview of SMS notifications usage across your organization, view the
 
 When users in your organization use the template to schedule a virtual appointment, external guests get a tailored meeting invitation that includes a **Join appointment as a guest** button and other appointment details. They can use this button to easily join from any device without having to download and install Teams.
 
-Keep in mind that some Teams meeting options may not apply to external guests or to any person who joins using the **Join appointment as a guest** button. The following meeting options are supported for guests to join:
+Keep in mind that some Teams meeting options might not apply to external guests or to any person who joins using the **Join appointment as a guest** button. The following meeting options are supported for guests to join:
 
 - **Who can bypass the lobby**: The **Everyone** setting allows external guests to bypass the lobby.
 - **Choose co-organizers**
