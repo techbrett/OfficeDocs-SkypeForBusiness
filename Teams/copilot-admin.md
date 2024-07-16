@@ -188,124 +188,72 @@ Learn more: [Certified Hardware\]([/microsoftteams/rooms/certified-hardware?tabs
 
 ### Copilot across Microsoft Teams
 
-You can make Copilot available to users in Microsoft Teams. This way
-you, your teammates, and your broader organization can interact with it
-when you assign a Copilot license to a user.  When you add Copilot to
-Microsoft Teams, some of your data, such as copilot content and end-user
-chat content, is shared with Microsoft Teams.
+You can make Copilot available to users in Microsoft Teams. This way you, your teammates, and your broader organization can interact with it when you assign a Copilot license to a user.  When you add Copilot to Microsoft Teams, some of your data, such as copilot content and end-user chat content, is shared with Microsoft Teams.
 
-By buying the Copilot licenses, adding it to Microsoft Teams, and
-connecting the bot, it enables features that can be used by end users
-including adding a bot to teams and channels so they can interact with
-it, and be able to use Copilot:
+By buying the Copilot licenses, adding it to Microsoft Teams, and connecting the bot, it enables features that can be used by end users including adding a bot to teams and channels so they can interact with it, and be able to use Copilot:
 
--   During a meeting to summarize discussion points, including who said
-    what and any action items in real time. Transcription must be turned
-    on.
-
--   To catch up on what was missed in the meeting. They will see and
-    select the Copilot icon from the meeting controls and a meeting
-    summary will appear in the right side of the meeting window.
-
--   After the meeting is done. Copilot can help wrap up a meeting with
-    clear next steps. They will also have other options including a
-    meeting recap, action items listed, follow-up questions, main items
-    that are discussed, and meeting notes.
+- During a meeting to summarize discussion points, including who said what and any action items in real time. Transcription must be turned on.
+- To catch up on what was missed in the meeting. They will see and select the Copilot icon from the meeting controls and a meeting summary will appear in the right side of the meeting window.
+- After the meeting is done. Copilot can help wrap up a meeting with clear next steps. They will also have other options including a meeting recap, action items listed, follow-up questions, main items that are discussed, and meeting notes.
 
 When you add Copilot in Microsoft Teams, you can:
 
--   Add Copilot to Microsoft team channels, teams, meetings, and chats.
-
--   Customize your Copilot's appearance in Microsoft Teams.
-
--   Install the Copilot app for yourself in Microsoft Teams.
-
--   Share Copilot\'s installation link with other users so they can
-    install it.
-
--   Show the Copilot app in Microsoft Teams app store.
-
--   Download the pregenerated Teams app manifest to distribute it within
-    your Microsoft Teams tenant.
+- Add Copilot to Microsoft team channels, teams, meetings, and chats.
+- Customize your Copilot's appearance in Microsoft Teams.
+- Install the Copilot app for yourself in Microsoft Teams.
+- Share Copilot\'s installation link with other users so they can install it.
+- Show the Copilot app in Microsoft Teams app store.
+- Download the pregenerated Teams app manifest to distribute it within your Microsoft Teams tenant.
 
 In Microsoft Teams, you can [Add Copilot to Microsoft
 teams](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet).
 When you add Copilot, team members can @mention the Copilot bot in any
 team channels, and all teammates will see the response from the bot.
 
-**Learn more:**
-\[Bots\]([/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet))
+Learn more: [Bots](/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet)
 
-Also, after you add Copilot to Teams, any user, who installs Copilot
-from the [Teams app
-store](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#install-a-copilot-as-an-app-in-microsoft-teams) or
-the \[installation
-link\](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#share-a-link-so-others-can-install-the-copilot0,
+Also, after you add Copilot to Teams, any user, who installs Copilot from the [Teams app
+store](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#install-a-copilot-as-an-app-in-microsoft-teams) or the \[installation
+link](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#share-a-link-so-others-can-install-the-copilot0),
 will:
 
--   Have the option to add Copilot to a channel they own.
+- Have the option to add Copilot to a channel they own.
+- Have the option to add Copilot to group and meeting chats in Microsoft Teams.
 
--   Have the option to add Copilot to group and meeting chats in
-    Microsoft Teams.
-
-**Learn more:** \[Add a bot to Microsoft
-Teams\]([/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams](https://learn.microsoft.com/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams))
+Learn more: [Add a bot to Microsoft Teams](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
 
 ## Admin set up
 
-Within your organization there are several settings that you will either
-need to turn on (they are off by default) or verify that they are turned
-on to let end users get the full advantages of Copilot in Microsoft
-Teams. Settings like transcriptions, captioning, recording, voice
-isolation, voice enrollment are a few of the settings that you will want
-to set up or turn on for your end users in your organization.
+Within your organization there are several settings that you will either need to turn on (they are off by default) or verify that they are turned on to let end users get the full advantages of Copilot in Microsoft Teams. Settings like transcriptions, captioning, recording, voice isolation, voice enrollment are a few of the settings that you will want to set up or turn on for your end users in your organization.
 
 ### Turning on Copilot for your Teams users
 
-After you have added CoPilot to Teams, you will need to turn it on,
-enable transcriptions, and meeting recordings for your end users. By
-turning it on, users will see the Copilot icon and options but
+After you have added CoPilot to Teams, you will need to turn it on, enable transcriptions, and meeting recordings for your end users. By turning it on, users will see the Copilot icon and options but
 transcription for meetings will also need to be turned on as well.
 
 To turn on Copilot for your Teams users.
 
--   In the [Teams admin center](https://admin.teams.microsoft.com/), go
-    to **Meetings** from the navigation pane \> **Meeting Policies**.
-    Either select an existing policy or create a new one.
-    Select **On** or **On only with retained transcript** from the
-    dropdown for the **Copilot** setting.
+1. In the [Teams admin center](https://admin.teams.microsoft.com/), go to **Meetings** from the navigation pane \> **Meeting Policies**.
+2. Either select an existing policy or create a new one. Select **On** or **On only with retained transcript** from the dropdown for the **Copilot** setting.
 
 You can use PowerShell to turn this on:
 
-**\
-***Set-CsTeamsMeetingPolicy -Identity \<policy name\> -Copilot Enabled*
-
-**Learn more:** \[Meeting
-transcription\]([/microsoftteams/copilot-teams-transcription](https://learn.microsoft.com/en-us/microsoftteams/copilot-teams-transcription))
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity \<policy name\> -Copilot Enabled
+```
+Learn more: [Meeting transcription](/microsoftteams/copilot-teams-transcription)
 
 ### Noise suppression
 
-Noise suppression is identifying non human voices or noise in an
-environment and then minimizing or completely eliminating them from an
-audio stream. Part of the AI processes for voice isolation is telling
-the difference between background chatter in a café and a user is simply
-listening in and if they also want to be heard clearly if they are
-speaking in the meeting from their laptop.
+Noise suppression is identifying non human voices or noise in an environment and then minimizing or completely eliminating them from an audio stream. Part of the AI processes for voice isolation is telling the difference between background chatter in a café and a user is simply listening in and if they also want to be heard clearly if they are speaking in the meeting from their laptop.
 
-Noise suppression of background noise is turned on by default when you
-install the Microsoft Teams app but their microphone must also support
-it. If it does, noise suppression of background noise will significantly
-reduce the amount of background noise from a meeting participant and it
-will greatly enhance the microphone's audio quality.
+Noise suppression of background noise is turned on by default when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant and it will greatly enhance the microphone's audio quality.
 
 ![A screenshot of a black screen Description automatically
 generated](media/image1.png){width="3.35419072615923in"
 height="1.7864709098862641in"}
 
-However, if you want to also isolate or have Teams be able to tell the
-difference between background nose and a human's voice, you will need
-have user then set up a voice profile and enable voice isolation in the
-Teams app.
+However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, you will need have user then set up a voice profile and enable voice isolation in the Teams app.
 
 ### Enable voice isolation
 
