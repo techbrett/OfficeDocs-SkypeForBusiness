@@ -1,6 +1,8 @@
 items:
 - name: Welcome to Teams
   href: teams-overview.md
+- name: Admin guide for Copilot
+  href: copilot-admin.md
 - name: Teams Premium overview
   href: enhanced-teams-experience.md
 - name: Get started
