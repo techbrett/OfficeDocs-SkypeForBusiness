@@ -23,27 +23,16 @@ description: Learn more about how to set up Copilot and AI-based features in Mic
 ---
 # Admin guide for Teams and Copilot
 
-When you are considering deploying Copilot and AI-based features for
-your Teams users there are many things to consider. The number and type
-of AI-based features is dependent on the type of license or licenses
-that you assign to your Teams users, the hardware you are using for
-Teams Rooms consoles, and the type of license assigned to your Microsoft
-Teams Rooms consoles.
+When you are considering deploying Copilot and AI-based features for your Teams users there are many things to consider. The number and type of AI-based features is dependent on the type of license or licenses
+that you assign to your Teams users, the hardware you are using for Teams Rooms consoles, and the type of license assigned to your Microsoft Teams Rooms consoles.
 
-There are four separate sets of AI-based features that can be deployed
-to your users when you assign a specific license for those users or
-Teams Rooms consoles.
+There are four separate sets of AI-based features that can be deployed to your users when you assign a specific license for those users or Teams Rooms consoles.
 
-1.  **Copilot** (Copilot bot integration. Adding it to all the apps
-    including Teams. Ask questions to resolve topics, catch up during
+1. **Copilot** (Copilot bot integration. Adding it to all the apps including Teams. Ask questions to resolve topics, catch up during
     meetings (meeting recap), organize meeting points.)
-2.  **Teams Rooms** (Live transcripts and captions. Intelligent
-    Speaker - identify in-room participants)
-3.  **Meetings and collaboration** (Policy changes for transcription,
-    captions, and recording.)
-4.  **Microsoft Teams** (AI-based noise suppression and video
-    optimization. Cameo overlay. Voice isolation. Speaker attribution,
-    Face and voice enrollment.)
+2. **Teams Rooms** (Live transcripts and captions. Intelligent Speaker - identify in-room participants)
+3. **Meetings and collaboration** (Policy changes for transcription, captions, and recording.)
+4. **Microsoft Teams** (AI-based noise suppression and video optimization. Cameo overlay. Voice isolation. Speaker attribution, face and voice enrollment.)
 
 ## Getting started with Copilot
 
@@ -51,8 +40,7 @@ Teams Rooms consoles.
 
 Microsoft Copilot for Microsoft 365 provides the ability for users to find and access their content through natural language prompting. Copilot ensures data security and privacy by adhering to existing obligations and integrating with your organization\'s policies. To get the most out of Copilot, you should consider optimizing data and content for Search, to ensure optimal secure access. To learn more about privacy with Microsoft Copilot for Microsoft 365, see [Data, Privacy, andSecurity for Microsoft Copilot for Microsoft 365](/copilot/microsoft-365/microsoft-365-copilot-privacy).
 
-Copilot features for Excel, Word, PowerPoint, and OneNote will work seamlessly for users who have multiple Microsoft accounts (work/school account or personal account) signed into a single Windows session when one of those accounts has a Copilot Pro or Copilot for Microsoft 365 license assigned. For example, when a user on their work machine with a Copilot for Microsoft 365 license opens a document from their personal OneDrive, they'll be able to use Copilot in the document. Or when a
-Copilot Pro user signs in on their work device with their Microsoft account (MSA), they'll be able to use Copilot with Office files stored on their OneDrive or in SharePoint document libraries.
+Copilot features for Excel, Word, PowerPoint, and OneNote will work seamlessly for users who have multiple Microsoft accounts (work/school account or personal account) signed into a single Windows session when one of those accounts has a Copilot Pro or Copilot for Microsoft 365 license assigned. For example, when a user on their work machine with a Copilot for Microsoft 365 license opens a document from their personal OneDrive, they'll be able to use Copilot in the document. Or when a Copilot Pro user signs in on their work device with their Microsoft account (MSA), they'll be able to use Copilot with Office files stored on their OneDrive or in SharePoint document libraries.
 
 Microsoft Copilot for Microsoft 365 ensures data security and privacy by adhering to existing obligations and integrating with your organization's policies. It utilizes your Microsoft Graph content with the same access controls as other Microsoft 365 services. To learn more about privacy with Microsoft Copilot for Microsoft 365, see [Data, Privacy, and Security for Microsoft Copilot for Microsoft 365](/copilot/microsoft-365/microsoft-365-copilot-privacy).
 
@@ -62,7 +50,7 @@ The integration of Microsoft Copilot for Microsoft 365 and Microsoft 365 Apps en
 
 To see more videos on [CoPilot, see Microsoft Mechanics -- Podcast](<https://www.youtube.com/playlist?list=PLXtHYVsvn_b8MTl8mD8FBJIB_cSGkEaT9>).
 
-Learn more: [Service Descriptions for Copilot\]([/copilot/microsoft-365/microsoft-365-copilot-requirements](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-requirements).
+Learn more: [Service Descriptions for Copilot](/copilot/microsoft-365/microsoft-365-copilot-requirements).
 
 ### Provisioning users to use AI-based features in Teams
 
@@ -70,92 +58,29 @@ After you've prepared your organization for Copilot, you can manage your Microso
 
 In Teams, there are four types of licenses that you can assign. First, you must assign at least one user license to your users (depending on what features you want available to your Teams users). Second, to take advantage of all of the AI-based features you must assign a Microsoft Teams Pro license to each Teams Rooms console in your organization.
 
-Here is a feature comparison between each of the user licenses that youmust assign:
-
 ### Feature vs license comparison
 
-+-----------------+-----------------+-----------------+-----------------+
-| Feature         | Microsoft Teams | Microsoft Teams | Copilot for     |
-|                 |                 | Premium         | Microsoft 365   |
-+=================+:===============:+:===============:+:===============:+
-| AI-based noise  | Yes             |                 |                 |
-| suppression     |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| AI-based video  | Yes             |                 |                 |
-| optimization    |                 |                 |                 |
-| (brightness and |                 |                 |                 |
-| backgrounds)    |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Suggested       | Yes             |                 |                 |
-| replies         |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Live meeting    | Yes             |                 |                 |
-| captions and    |                 |                 |                 |
-| transcript      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Cameo video     | Yes             |                 |                 |
-| overlay on      |                 |                 |                 |
-| screen share    |                 |                 |                 |
-| and PowerPoint  |                 |                 |                 |
-| Live            |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Real-time       |                 | Yes             |                 |
-| translation of  |                 |                 |                 |
-| meeting         |                 |                 |                 |
-| captions and    |                 |                 |                 |
-| transcript      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Intelligent     |                 | Yes             | Yes             |
-| recap (after    |                 |                 |                 |
-| meeting) --     |                 |                 | **NOTE:**       |
-| standardized AI |                 |                 | Coming soon to  |
-| notes and AI    |                 |                 | Copilot         |
-| tasks           |                 |                 | license.        |
-+-----------------+-----------------+-----------------+-----------------+
-| Intelligent     |                 | Yes             | Yes             |
-| recap (after    |                 |                 |                 |
-| meeting) --     |                 |                 |                 |
-| video, speaker, |                 |                 |                 |
-| chapter markers |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Ask any         |                 |                 | Yes             |
-| question during |                 |                 |                 |
-| meeting?        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| How did the     |                 |                 | Yes             |
-| team react to   |                 |                 |                 |
-| the proposal?   |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Does this       |                 |                 | Yes             |
-| plan's timeline |                 |                 |                 |
-| have any        |                 |                 |                 |
-| conflicts?      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Create a table  |                 |                 | Yes             |
-| with pros and   |                 |                 |                 |
-| cons.           |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Other:          |                 |                 | Yes             |
-| Microsoft       |                 |                 |                 |
-| Copilot UX      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Other:          |                 |                 | Yes             |
-| AI-powered web  |                 |                 |                 |
-| groundling and  |                 |                 |                 |
-| Microsoft 365   |                 |                 |                 |
-| Graph           |                 |                 |                 |
-| groundling      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Other:          |                 |                 | Yes             |
-| Microsoft       |                 |                 |                 |
-| Copilot and     |                 |                 |                 |
-| Copilot Studio  |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Other: Copilot  |                 |                 | Yes             |
-| in core         |                 |                 |                 |
-| Microsoft 365   |                 |                 |                 |
-| app             |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
+|**Feature**|**Microsoft Teams**|**Microsoft Teams Premimum**|**Copilot for M365**|
+|:-----|:-----|:-----|:-----|
+|AI-based noise suppression|Yes|||
+|AI-based video optimization (brightness and backgrounds)|Yes|||
+|Suggested replies|Yes|||
+|Live meeting captions and transcript|Yes|||
+|Cameo video overlay on screenshare and PowerPoint Live|Yes|||
+|Real-time translation of  meeting captions and transcripts||Yes||
+|Intelligent recap (after recording) - standardized AI notes and AI tasks||Yes|Yes|
+|Intelligent recap (after recording) - video, speaker, chapter markers||Yes|Yes|
+|Ask any question during meeting?|||Yes|
+|How did the team react to proposal?|||Yes|
+|Does this plan's timeline have any conflicts?|||Yes|
+|Create a table with pros and cons|||Yes|
+|Microsoft Copilot UX|||Yes|
+|Other: AI-powered web groundling and M365 Graph groudling|||Yes|
+|Other: Microsoft Copilot and Copilot Studio|||Yes|
+|Other: Copilot in core Microsotft 365 apps|||Yes|
+
+> [!NOTE]
+> Intelligent recap (after recording) - standardized AI notes and AI tasks is coming soon to the Copilot license.
 
 Learn more: [Set up Copilot in Microsoft 365](/copilot/microsoft-365/microsoft-365-copilot-setup).
 
@@ -175,16 +100,14 @@ Microsoft Teams Rooms supports speaker recognition in meeting transcripts. Howev
 To support these features, you want to verify that all Teams Rooms consoles:
 
 - Updated and have the hardware to support speaker recognition.
-- Resource account has a Teams Rooms Pro license assigned to it. For more information on licensing, see [Overview of Teams Rooms licensing](/microsoftteams/rooms/rooms-licensing) .
+- Resource account has a Teams Rooms Pro license assigned to it. For more information on licensing, see [Overview of Teams Rooms licensing](/microsoftteams/rooms/rooms-licensing).
 
 To assign a Microsoft Teams Rooms Pro license, you can use the Microsoft 365 admin center.
 
-1. Sign in to the Microsoft 365 admin center and go to **Users** >
-    **Active users** > Select the **resource account** you created
-    earlier.
+1. Sign in to the Microsoft 365 admin center and go to **Users** > **Active users** > Select the **resource account** you created earlier.
 2. In the right pane, select **Licenses and Apps**.
 
-Learn more: [Certified Hardware\]([/microsoftteams/rooms/certified-hardware?tabs=Windows](https://learn.microsoft.com/microsoftteams/rooms/certified-hardware?tabs=Windows) and [Release notes](/microsoftteams/rooms/rooms-release-note?tabs=Windows).
+Learn more: [Certified Hardware](/microsoftteams/rooms/certified-hardware?tabs=Windows) and [Release notes](/microsoftteams/rooms/rooms-release-note?tabs=Windows).
 
 ### Copilot across Microsoft Teams
 
@@ -205,16 +128,12 @@ When you add Copilot in Microsoft Teams, you can:
 - Show the Copilot app in Microsoft Teams app store.
 - Download the pregenerated Teams app manifest to distribute it within your Microsoft Teams tenant.
 
-In Microsoft Teams, you can [Add Copilot to Microsoft
-teams](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet).
-When you add Copilot, team members can @mention the Copilot bot in any
-team channels, and all teammates will see the response from the bot.
+In Microsoft Teams, you can [Add Copilot to Microsoft Teams](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet). When you add Copilot, team members can @mention the Copilot bot in any team channels, and all teammates will see the response from the bot.
 
 Learn more: [Bots](/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet)
 
-Also, after you add Copilot to Teams, any user, who installs Copilot from the [Teams app
-store](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#install-a-copilot-as-an-app-in-microsoft-teams) or the \[installation
-link](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#share-a-link-so-others-can-install-the-copilot0),
+Also, after you add Copilot to Teams, any user, who installs Copilot from the [Teams app store](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#install-a-copilot-as-an-app-in-microsoft-teams) or the [installation
+link](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#share-a-link-so-others-can-install-the-copilot)
 will:
 
 - Have the option to add Copilot to a channel they own.
@@ -233,7 +152,7 @@ transcription for meetings will also need to be turned on as well.
 
 To turn on Copilot for your Teams users.
 
-1. In the [Teams admin center](https://admin.teams.microsoft.com/), go to **Meetings** from the navigation pane \> **Meeting Policies**.
+1. In the [Teams admin center](https://admin.teams.microsoft.com/), go to **Meetings** from the navigation pane > **Meeting Policies**.
 2. Either select an existing policy or create a new one. Select **On** or **On only with retained transcript** from the dropdown for the **Copilot** setting.
 
 You can use PowerShell to turn this on:
@@ -249,243 +168,161 @@ Noise suppression is identifying non human voices or noise in an environment and
 
 Noise suppression of background noise is turned on by default when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant and it will greatly enhance the microphone's audio quality.
 
-![A screenshot of a black screen Description automatically
-generated](media/image1.png){width="3.35419072615923in"
-height="1.7864709098862641in"}
-
 However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, you will need have user then set up a voice profile and enable voice isolation in the Teams app.
 
 ### Enable voice isolation
 
-You can manage how voice and face profiles are used to turn off voice
-Isolation for users to enhance noise and voice background reduction
-admins can switch off voice isolation with PowerShell in the meeting
-policy or users can turn it on themselves in the Teams app.
+You can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy or users can turn it on themselves in the Teams app.
 
-**Learn more:** \[Manage voice isolation for your
-users\]/microsoftteams/voice-isolation)
+**Learn more:** [Manage voice isolation for your users](/microsoftteams/voice-isolation)
 
-Voice isolation is on by default in an organization. Check to make sure
-that it's turned on and if it isn't, you can use PowerShell to turn it
-on for all of your users.
+Voice Isolation is on by default in an organization. Check to make sure that it's turned on and if it isn't, you can use PowerShell to turn it on for all of your users.
 
-*Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled*
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled*
+```
 
-Each user must set up a voice profile to turn it on in their Teams app.
-This can be turned off or on either before or during a meeting.
-
-![A screenshot of a computer Description automatically
-generated](media/image2.png){width="3.117985564304462in"
-height="1.4899048556430445in"}
+Each user must set up a voice profile to turn it on in their Teams app. This can be turned off or on either before or during a meeting.
 
 ### Manage meeting transcription and captions
 
-Transcription allows users to play back meeting recordings with closed
-captions and review important discussion items in the transcript.
-Transcription and captions help create inclusive content for viewers. It
-also helps Copilot to create meeting summaries, recaps, action items,
-and other features.
+Transcription allows users to play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers. It
+also helps Copilot to create meeting summaries, recaps, action items, and other features.
 
-To turn on Copilot for your Teams users.
+**To turn on Copilot for your Teams users**
 
-In the [Teams admin center](https://admin.teams.microsoft.com/) go to
-**Meetings** \> select **Meeting Policies**. Either select an existing
-policy or create a new one. On the meeting policy page, under
-**Recording & transcription**, turn on **Meeting recording**. This
-setting is off by default.
+1. In the [Teams admin center](https://admin.teams.microsoft.com/) go to **Meetings** > select **Meeting Policies**.
+2. Either select an existing policy or create a new one. 
+3. On the meeting policy page, under
+**Recording & transcription**, turn on **Meeting recording**. This setting is off by default.
 
-**Note**: Under **Recording & transcription**, there are several other
-recording options that are available for you to set. Review all of the
-settings to ensure that they meet the needs of your organization.
+> [!NOTE]
+> Under **Recording & transcription**, there are several other recording options that are available for you to set. Review all of the settings to ensure that they meet the needs of your organization.
 
 You can use PowerShell to turn this on:
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity \<policy name\> -AllowTranscription \$true*
+```
 
-*Set-CsTeamsMeetingPolicy -Identity \<policy name\> --
-AllowTranscription \$true*
-
-**Learn more:** \[Meeting
-transcription\]([/microsoftteams/meeting-transcription-captions](https://learn.microsoft.com/en-us/microsoftteams/meeting-transcription-captions))
+Learn more: [Meeting transcription](/microsoftteams/meeting-transcription-captions)
 
 ### Turn on Live captioning
 
-Teams has built-in closed captioning you can turn on from the meeting
-controls. Live captions can make your meeting more productive
-and inclusive for participants who are deaf or hard-of-hearing,
-have different levels of language proficiency, or the meeting
-participant is in a noisy place during a meeting will all benefit from
-live captions.
+Teams has built-in closed captioning you can turn on from the meeting controls. Live captions can make your meeting more productive and inclusive for participants who are deaf or hard-of-hearing, have different levels of language proficiency, or the meeting participant is in a noisy place during a meeting will all benefit from live captions.
 
-Live captions and transcriptions can show you the text of a conversation
-in a Teams meeting. They can help you keep records or better understand
-what others are saying during a meeting.
+Live captions and transcriptions can show you the text of a conversation in a Teams meeting. They can help you keep records or better understand what others are saying during a meeting.
 
-It is available in the desktop version of the Teams app but users can
-set transcription and captioning options under **Settings** \>
-**Captions and transcripts** in the Teams app.
+It is available in the desktop version of the Teams app but users can set transcription and captioning options under **Settings** > **Captions and transcripts** in the Teams app.
 
-![A screenshot of a black screen Description automatically
-generated](media/image3.png){width="3.5954330708661417in"
-height="1.837665135608049in"}
+Learn more: [Live transcriptions](<https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b>)
 
-**Learn more:** \[Live
-transcriptions\](<https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b>)
+If your organization is using OneDrive for Business and SharePoint for meeting recordings, you should turn on **Allow transcription** in the Teams meeting policy and turn on the **Always show live captions in
+meeting** in the Teams app and encourage your users to start transcription in every meeting. This will make captions available in the post-meeting recording when it's generated by Copilot as well.
 
-If your organization is using OneDrive for Business and SharePoint for
-meeting recordings, you should turn on **Allow transcription** in the
-Teams meeting policy and turn on the **Always show live captions in
-meeting** in the Teams app and encourage your users to start
-transcription in every meeting. This will make captions available in the
-post-meeting recording when it's generated by Copilot as well.
-
-In the [Teams admin center](https://admin.teams.microsoft.com/),
-Under **Meetings**, select **Meeting Policies**. Either select an
-existing policy or create a new one. On the meeting policy page, under
-**Recording & transcription**, set **Live captions** to **Off, but
-organizers and co-organizers can turn them on**.
+1. In the [Teams admin center](https://admin.teams.microsoft.com/).
+2. Under **Meetings**, select **Meeting Policies**. Either select an
+existing policy or create a new one.
+3. On the meeting policy page, under **Recording & transcription**, set **Live captions** to **Off, but
+organizers and co-organizers can turn them on.
 
 You can use PowerShell to turn this on:
 
-*Set-CsTeamsMeetingPolicy -Identity \<policy name\> --
-AllowTranscription \$true*
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity \<policy name\> -AllowTranscription \$true
+```
 
 ### Turn on Live transcriptions
 
-By default, transcripts are shown in the language spoken during a
-meeting or event. Live translated transcription allows your users to
-translate the meeting or event transcript into the language they\'re
+By default, transcripts are shown in the language spoken during a meeting or event. Live translated transcription allows your users to translate the meeting or event transcript into the language they\'re
 most comfortable with.
 
-You can use a new meeting policy you create or use the Global (Org-wide
-default) policy to turn this on using the Teams admin center or
-PowerShell.
+You can use a new meeting policy you create or use the Global (Org-wide default) policy to turn this on using the Teams admin center or PowerShell.
 
 To turn on Live transcription, **Transcription** but be set to **On**
 first.
 
-In the [Teams admin center](https://admin.teams.microsoft.com/), under
-**Meetings**, select **Meeting Policies**. Either select an existing
-policy or create a new one. On the meeting policy page, under
-**Recording & transcription**, turn on **Meeting recording**. This
+1. In the [Teams admin center](https://admin.teams.microsoft.com/).
+2. Under **Meetings**, select **Meeting Policies**. Either select an existing
+policy or create a new one.
+3. On the meeting policy page, under **Recording & transcription**, turn on **Meeting recording**. This
 setting is off by default.
 
 You can use PowerShell to turn this on:
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity \<policy name\> -Copilot Enabled -AllowTranscription $true
+```
 
-*Set-CsTeamsMeetingPolicy -Identity \<policy name\> -Copilot Enabled --
-AllowTranscription \$true*
-
-**Learn more:** \[Meeting transcription and
-captions\](/microsoftteams/meeting-transcription-captions)
+Learn more: [Meeting transcription and captions](/microsoftteams/meeting-transcription-captions)
 
 ### Turn on meeting recording
 
-Recording meetings is optional, however, there are many cases that you
-will want to allow meetings to be recorded. Meeting recordings as you
-imagine is recording a stream of audio and video for a meeting, but in
-the case with CoPilot, it is used to help generate meeting summaries,
-recaps, and other information after the meeting has ended. When a
-meeting is recorded:
+Recording meetings is optional, however, there are many cases that you will want to allow meetings to be recorded. Meeting recordings as you imagine is recording a stream of audio and video for a meeting, but in
+the case with CoPilot, it is used to help generate meeting summaries, recaps, and other information after the meeting has ended. When a meeting is recorded:
 
--   It gets uploaded to OneDrive (private meetings) or SharePoint
-    (channel meetings).
+- It gets uploaded to OneDrive (private meetings) or SharePoint (channel meetings).
+- People invited to the meeting have permissions to the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them).
+- Microsoft Purview compliance features apply to the meeting recording files the same as with other files.
+- It's linked in the chat for the meeting.
+- It's displayed in the Recordings and Transcripts tab for thew meeting in Teams calendar.
+- It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
+- Microsoft 365 Search indexes it.
 
--   People invited to the meeting have permissions to the recording
-    (guests and external attendees can view the recording only if the
-    recording is explicitly shared with them).
+There's also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript.
 
--   Microsoft Purview compliance features apply to the meeting recording
-    files the same as with other files.
+You can use a new meeting policy you create or use the Global (Org-wide default) policy to turn this on using the Teams admin center or PowerShell.
 
--   It\'s linked in the chat for the meeting.
-
--   It\'s displayed in the Recordings and Transcripts tab for the
-    meeting in Teams calendar.
-
--   It\'s added to various file lists across Microsoft 365: Shared with
-    me, office.com, Recommended, Recent, etc.
-
--   Microsoft 365 Search indexes it.
-
-There\'s also an option for recordings to have automatic transcription,
-so that users can play back meeting recordings with closed captions and
-review important discussion items in the transcript.
-
-You can use a new meeting policy you create or use the Global (Org-wide
-default) policy to turn this on using the Teams admin center or
-PowerShell.
-
-In the [Teams admin center](https://admin.teams.microsoft.com/),
-under **Meetings** \> **Meeting policies**. Select the policy that you
-want to edit. Turn **Meeting recording** On or Off.
+1. In the [Teams admin center](https://admin.teams.microsoft.com/), under **Meetings** > **Meeting policies**.
+2. Select the policy that you want to edit. Turn **Meeting recording** On or Off.
 
 You can use PowerShell to turn this on:
-
-*Set-CsTeamsMeetingPolicy -Identity \<policy name\> -AllowCloudRecording
-Enabled*
-
-**Learn more:** [\[Meeting
-recording\](/microsoftteams/meeting-recording?tabs=meeting-policy](https://learn.microsoft.com/en-us/microsoftteams/meeting-recording?tabs=meeting-policy))
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity \<policy name\> -AllowCloudRecording Enabled
+```
+Learn more: [Meeting recording](/microsoftteams/meeting-recording?tabs=meeting-policy)
 
 ### Turn it on so speakers will be identified in meetings
 
-In meeting transcripts, live transcripts, captions and in meeting recaps
-using Copilot, you will want users to be able to identify the person
-that is talking during the meeting. By default, this is turned on at the
-organization level (Global (Org-wide default) policy), but in the case
-you want to turn this off for another part of your organization, you can
-create a new meeting policy.
+In meeting transcripts, live transcripts, captions and in meeting recaps using Copilot, you will want users to be able to identify the person that is talking during the meeting. By default, this is turned on at the
+organization level (Global (Org-wide default) policy), but in the case you want to turn this off for another part of your organization, you can create a new meeting policy.
 
 You can use PowerShell to set this:
-
-*Set-CsTeamsMeetingPolicy -Identity Global -SpeakerAttributionMode
-automatic*
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity Global -SpeakerAttributionMode
+automatic
+```
 
 **Speaker Attribution Modes**:
 
-> **Automatic**: In this mode, Teams automatically detects and
-> attributes the speaker based on audio input. It identifies who is
-> speaking and displays their name next to their audio stream.
->
-> **Manual**: In manual mode, the meeting organizer or participants can
-> manually attribute the speaker by selecting their name from the
-> participant list.
->
-> **Off**: Disabling speaker attribution means that Teams won't display
-> speaker names next to audio streams.
+- **Automatic**: In this mode, Teams automatically detects and attributes the speaker based on audio input. It identifies who is speaking and displays their name next to their audio stream.
+- **Manual**: In manual mode, the meeting organizer or participants can manually attribute the speaker by selecting their name from the participant list.
+- **Off**: Disabling speaker attribution means that Teams won't display speaker names next to audio streams.
 
-You can optionally tell users to go verify that it's turned on by going
-to in the Teams app to **Settings** \> **Captions and transcripts** \>
-**Automatically identify me in meeting captions and transcripts** and
+You can optionally tell users to go verify that it's turned on by going to in the Teams app to **Settings** > **Captions and transcripts** > **Automatically identify me in meeting captions and transcripts** and
 make sure it's turned on.
-
-![](media/image4.png){width="4.030641951006125in"
-height="1.6751279527559055in"}
 
 ### Turn on voice and face enrollment
 
-Admins can turn on or off voice and face enrollment for specific users,
-or groups using the [Team meeting
-policy](https://learn.microsoft.com/en-us/powershell/module/teams/set-csteamsmeetingpolicy).
-You can use a new meeting policy you create or use the Global (Org-wide
-default) policy to turn this on using the Teams admin center or
-PowerShell.
+You can turn on or off voice and face enrollment for specific users, or groups using the [Team meeting
+policy](/powershell/module/teams/set-csteamsmeetingpolicy).
 
-By default, voice and face enrollment is disabled for all users in the
-organization, but admins can change this setting using PowerShell.
+You can use a new meeting policy you create or use the Global (Org-wide default) policy to turn this on using the Teams admin center or PowerShell.
+
+By default, voice and face enrollment is disabled for all users in the organization, but admins can change this setting using PowerShell.
 
 To use PowerShell to turn this on:
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled -automatic
+```
 
-*Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled*
-
-To enable or disable voice and face enrollment for specific users,
-admins can either assign a custom meeting policy to the users or use the
-following PowerShell cmdlet.
+To enable or disable voice and face enrollment for specific users, admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet.
 
 You can use PowerShell to apply the setting to a custom policy:
+```PowerShell
+Grant-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Enabled
+```
 
-*Grant-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride
-Enabled*
-
-**Note:** There isn't a way to set this in Teams admin center.
+> [!NOTE]
+> There isn't a way to set this in Teams admin center.
 
 Learn more: [Voice recognition](/microsoftteams/rooms/voice-recognition)
 
@@ -494,24 +331,20 @@ Learn more: [Voice recognition](/microsoftteams/rooms/voice-recognition)
 Tell your users to set up a voice profile in the Teams app. Each person who will be attending in the meeting room (as opposed to remotely) sets up their digital voice profile in the system so that they will be
 identified in the transcription.
 
-1. Go to your profile picture select **More options**  **Settings **and look
-    under **Language** and make sure that your Teams language is set
-    to **English**.** **You can enroll your voice profile in EN-US,
-    EN-GB, EN-CA, EN-AU, IE (Indian English), or NZE (New Zealand
-    English).
+1. Go to your profile picture select **More options**  **Settings** and look under **Language** and make sure that your Teams language is set to **English**. You can enroll your voice profile in EN-US, EN-GB, EN-CA, EN-AU, IE (Indian English), or NZE (New Zealand English).
 2. Under **Settings** again, select **Recognition** and then **Create voice profile.**
 3. On the next screen, select the microphone, select **Create voice profile** and read the text that is in the box.
 
 If have turned on Face profiles in your organization, the **Create face profile** button will be available to end users. By selecting the button, they can set up their face profile that will be used in
 meetings.
 
-Learn more: [Identify in-room meeting participants](https://support.microsoft.com/en-us/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
+Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
 ### Set up and use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription (Optional)
 
-If your organization\'s [Microsoft Teams Rooms](https://rooms.microsoft.com/) are equipped with Intelligent Speakers, you can hold meetings where in-room participants can be identified in live transcription. During the meeting, all participants can then easily see who's saying what, and the post-meeting transcript identifies both remote and in-room attendees.
+If your organization's [Microsoft Teams Rooms](https://rooms.microsoft.com/) are equipped with Intelligent Speakers, you can hold meetings where in-room participants can be identified in live transcription. During the meeting, all participants can then easily see who's saying what, and the post-meeting transcript identifies both remote and in-room attendees.
 
-Learn more: [Identify in-room meeting participants](https://support.microsoft.com/en-us/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
+Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
 ### Enable Intelligent Speaker user recognition
 
@@ -520,7 +353,7 @@ Voice profile data can be used in any meeting with an Intelligent Speaker. See 
 You can use PowerShell to turn this on:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity PolicyName -roomAttributeUserOverride Attribute -AllowTranscription \$true*
+Set-CsTeamsMeetingPolicy -Identity PolicyName -roomAttributeUserOverride Attribute -AllowTranscription \$true
 ```
 
 ## Connect to the Microsoft Copilot Dashboard
