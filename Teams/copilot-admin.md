@@ -487,122 +487,63 @@ Enabled*
 
 **Note:** There isn't a way to set this in Teams admin center.
 
-**Learn more:** [\[Voice
-recognition\](/microsoftteams/rooms/voice-recognition](https://learn.microsoft.com/en-us/microsoftteams/rooms/voice-recognition))
+Learn more: [Voice recognition](/microsoftteams/rooms/voice-recognition)
 
 ### Set up voice and face recognition profiles
 
-Tell your users to set up a voice profile in the Teams app. Each person
-who will be attending in the meeting room (as opposed to remotely) sets
-up their digital voice profile in the system so that they will be
-identified in the transcription. 
+Tell your users to set up a voice profile in the Teams app. Each person who will be attending in the meeting room (as opposed to remotely) sets up their digital voice profile in the system so that they will be
+identified in the transcription.
 
-1.  Go to your profile picture select **More options**  ![Microsoft
-    Teams more options
-    icon](media/image5.png){width="0.20833333333333334in"
-    height="0.20833333333333334in"}  \> **Settings **and look
+1. Go to your profile picture select **More options**  **Settings **and look
     under **Language** and make sure that your Teams language is set
     to **English**.** **You can enroll your voice profile in EN-US,
     EN-GB, EN-CA, EN-AU, IE (Indian English), or NZE (New Zealand
     English).
+2. Under **Settings** again, select **Recognition** and then **Create voice profile.**
+3. On the next screen, select the microphone, select **Create voice profile** and read the text that is in the box.
 
-2.  Under **Settings** again, select **Recognition **and then **Create
-    voice profile.**
-
-3.  On the next screen, select the microphone, select **Create voice
-    profile** and read the text that is in the box.
-
-![A screenshot of a computer Description automatically
-generated](media/image6.png){width="3.820774278215223in"
-height="2.3361417322834646in"}
-
-If have turned on Face profiles in your organization, the **Create face
-profile** button will be available to end users. By selecting the
-button, they can set up their face profile that will be used in
+If have turned on Face profiles in your organization, the **Create face profile** button will be available to end users. By selecting the button, they can set up their face profile that will be used in
 meetings.
 
-**Learn more:** \[Identify in-room meeting
-participants\]([/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile](https://support.microsoft.com/en-us/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile))
+Learn more: [Identify in-room meeting participants](https://support.microsoft.com/en-us/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
 ### Set up and use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription (Optional)
 
-If your organization\'s [Microsoft Teams
-Rooms](https://rooms.microsoft.com/) are equipped with Intelligent
-Speakers, you can hold meetings where in-room participants can be
-identified in live transcription. During the meeting, all participants
-can then easily see who's saying what, and the post-meeting transcript
-identifies both remote and in-room attendees.
+If your organization\'s [Microsoft Teams Rooms](https://rooms.microsoft.com/) are equipped with Intelligent Speakers, you can hold meetings where in-room participants can be identified in live transcription. During the meeting, all participants can then easily see who's saying what, and the post-meeting transcript identifies both remote and in-room attendees.
 
-**Learn more:** \[Identify in-room meeting
-participants\]([/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile](https://support.microsoft.com/en-us/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile))
+Learn more: [Identify in-room meeting participants](https://support.microsoft.com/en-us/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
 ### Enable Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent
-Speaker. See [Teams meetings
-policies](/microsoftteams/rooms/voice-and-face-recognition) and
-the [PowerShell meeting
-cmdlets](/microsoftteams/teams-powershell-overview) for information on
-the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](/microsoftteams/rooms/voice-and-face-recognition) and the [PowerShell meeting cmdlets](/microsoftteams/teams-powershell-overview) for information on the meeting settings.
 
 You can use PowerShell to turn this on:
 
-*Set-CsTeamsMeetingPolicy -Identity PolicyName
--roomAttributeUserOverride Attribute -AllowTranscription \$true*
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity PolicyName -roomAttributeUserOverride Attribute -AllowTranscription \$true*
+```
 
 ## Connect to the Microsoft Copilot Dashboard
 
-If you have assigned a Copilot license to your users, you can use the
-Copilot Dashboard. The Microsoft Copilot Dashboard provides actionable
-insights to help your organization get ready to deploy AI, drive
-adoption based on how AI is transforming workplace behavior, and measure
-the impact of Copilot.
+If you have assigned a Copilot license to your users, you can use the Copilot Dashboard. The Microsoft Copilot Dashboard provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
-Some of the dashboard's metrics and functionalities are available to any
-customer with a Microsoft 365 or Office 365 subscription for business or
-enterprise. Learn about these features in [Connect to the Microsoft
-Copilot Dashboard for Microsoft 365
-customers](https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard).
+Some of the dashboard's metrics and functionalities are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. Learn about these features in [Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers](/viva/insights/org-team-insights/copilot-dashboard).
 
-If you have access to the Copilot Dashboard, you can find it in
-the [Teams or web
-app](https://insights.cloud.microsoft/#/CopilotDashboard).
+If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard).
 
-1.  Open the Teams app on desktop or the web. If you have the Viva
-    Insights app pinned, select it from the left bar.
-
-If you don't have the Viva Insight app pinned, select the ellipses on
-the left. Then in the search field, enter Microsoft Viva Insights, and
-select it.
-
-2.  On the left navigation panel, select Copilot Dashboard.
-
-3.  To learn more about the data in the dashboard, refer
-    to [Interpreting the dashboard
-    data](https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard#interpreting-the-data).
+1. Open the Teams app on desktop or the web. If you have the Viva
+    Insights app pinned, select it from the left bar. If you don't have the Viva Insight app pinned, select the ellipses on the left. Then in the search field, enter Microsoft Viva Insights, and select it.
+2. On the left navigation panel, select Copilot Dashboard.
+3. To learn more about the data in the dashboard, refer to [Interpreting the dashboard data](/viva/insights/org-team-insights/copilot-dashboard#interpreting-the-data).
 
 If you need to let individual users access the Copilot Dashboard:
 
-In the [Microsoft 365 admin
-center](https://admin.microsoft.com/adminportal/home?#/viva/insights):
-
 To enable access for new report users:
 
-1.  Go to the **Settings** tab and select **Microsoft Viva**,
-    then **Viva Insights**. You need to enter your credentials if
-    you\'re not already signed in.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights) go to the **Settings** tab and select **Microsoft Viva**, then **Viva Insights**. You need to enter your credentials if you\'re not already signed in.
+2. Under **Viva Insights** in Microsoft 365, select **Manage settings** for viewing the Copilot dashboard.
+3. Select **Add users**.
+4. Search for the people you\'d like to add and select them from the list.
+5. At the bottom, select **Add**.
 
-2.  Under **Viva Insights** in Microsoft 365, select **Manage settings**
-    for viewing the Copilot dashboard.
-
-3.  Select **Add users**.
-
-4.  Search for the people you\'d like to add and select them from the
-    list.
-
-5.  At the bottom, select **Add**.
-
-**Learn more:** [\[Copilot
-Dashboard\](/viva/insights/org-team-insights/copilot-dashboard](https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard))
-
-
+Learn more: [Copilot Dashboard\](/viva/insights/org-team-insights/copilot-dashboard](/viva/insights/org-team-insights/copilot-dashboard)
