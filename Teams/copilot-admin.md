@@ -1,5 +1,5 @@
 ---
-title: Admin guide to CoPilot in Teams
+title: Admin guide to Copilot in Teams
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -21,24 +21,23 @@ search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn more about how to set up Copilot and AI-based features in Microsoft Teams.
 ---
-# Admin guide for Teams and Copilot
+# Teams and Copilot overview
 
 When you are considering deploying Copilot and AI-based features for your Teams users there are many things to consider. The number and type of AI-based features is dependent on the type of license or licenses
 that you assign to your Teams users, the hardware you are using for Teams Rooms consoles, and the type of license assigned to your Microsoft Teams Rooms consoles.
 
 There are four separate sets of AI-based features that can be deployed to your users when you assign a specific license for those users or Teams Rooms consoles.
 
-1. **Copilot** (Copilot bot integration. Adding it to all the apps including Teams. Ask questions to resolve topics, catch up during
-    meetings (meeting recap), organize meeting points.)
-2. **Teams Rooms** (Live transcripts and captions. Intelligent Speaker - identify in-room participants)
-3. **Meetings and collaboration** (Policy changes for transcription, captions, and recording.)
-4. **Microsoft Teams** (AI-based noise suppression and video optimization. Cameo overlay. Voice isolation. Speaker attribution, face and voice enrollment.)
+1. **Copilot** - Copilot bot integration. Adding it to all the apps including Teams. Ask questions to resolve topics, catch up during meetings (meeting recap), organize meeting points.
+2. **Teams Rooms** - Live transcripts and captions. Intelligent Speaker - identify in-room participants.
+3. **Meetings and collaboration** - Policy changes for transcription, captions, and recording.
+4. **Microsoft Teams** - AI-based noise suppression and video optimization. Cameo overlay. Voice isolation. Speaker attribution, face and voice enrollment.
 
 ## Getting started with Copilot
 
 [Microsoft Copilot for Microsoft 365](https://www.microsoft.com/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work) is an AI-powered productivity tool that uses large language models (LLMs) and integrates your data with the Microsoft Graph and Microsoft 365 Apps.
 
-Microsoft Copilot for Microsoft 365 provides the ability for users to find and access their content through natural language prompting. Copilot ensures data security and privacy by adhering to existing obligations and integrating with your organization\'s policies. To get the most out of Copilot, you should consider optimizing data and content for Search, to ensure optimal secure access. To learn more about privacy with Microsoft Copilot for Microsoft 365, see [Data, Privacy, andSecurity for Microsoft Copilot for Microsoft 365](/copilot/microsoft-365/microsoft-365-copilot-privacy).
+Microsoft Copilot for Microsoft 365 provides the ability for users to find and access their content through natural language prompting. Copilot ensures data security and privacy by adhering to existing obligations and integrating with your organization's policies. To get the most out of Copilot, you should consider optimizing data and content for Search, to ensure optimal secure access. To learn more about privacy with Microsoft Copilot for Microsoft 365, see [Data, Privacy, andSecurity for Microsoft Copilot for Microsoft 365](/copilot/microsoft-365/microsoft-365-copilot-privacy).
 
 Copilot features for Excel, Word, PowerPoint, and OneNote will work seamlessly for users who have multiple Microsoft accounts (work/school account or personal account) signed into a single Windows session when one of those accounts has a Copilot Pro or Copilot for Microsoft 365 license assigned. For example, when a user on their work machine with a Copilot for Microsoft 365 license opens a document from their personal OneDrive, they'll be able to use Copilot in the document. Or when a Copilot Pro user signs in on their work device with their Microsoft account (MSA), they'll be able to use Copilot with Office files stored on their OneDrive or in SharePoint document libraries.
 
@@ -160,6 +159,7 @@ You can use PowerShell to turn this on:
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity \<policy name\> -Copilot Enabled
 ```
+
 Learn more: [Meeting transcription](/microsoftteams/copilot-teams-transcription)
 
 ### Noise suppression
@@ -189,7 +189,7 @@ Each user must set up a voice profile to turn it on in their Teams app. This can
 Transcription allows users to play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers. It
 also helps Copilot to create meeting summaries, recaps, action items, and other features.
 
-**To turn on Copilot for your Teams users**
+To turn on Copilot for your Teams users:
 
 1. In the [Teams admin center](https://admin.teams.microsoft.com/) go to **Meetings** > select **Meeting Policies**.
 2. Either select an existing policy or create a new one. 
@@ -200,6 +200,7 @@ also helps Copilot to create meeting summaries, recaps, action items, and other 
 > Under **Recording & transcription**, there are several other recording options that are available for you to set. Review all of the settings to ensure that they meet the needs of your organization.
 
 You can use PowerShell to turn this on:
+
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity \<policy name\> -AllowTranscription \$true*
 ```
@@ -248,6 +249,7 @@ policy or create a new one.
 setting is off by default.
 
 You can use PowerShell to turn this on:
+
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity \<policy name\> -Copilot Enabled -AllowTranscription $true
 ```
@@ -275,9 +277,11 @@ You can use a new meeting policy you create or use the Global (Org-wide default)
 2. Select the policy that you want to edit. Turn **Meeting recording** On or Off.
 
 You can use PowerShell to turn this on:
+
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity \<policy name\> -AllowCloudRecording Enabled
 ```
+
 Learn more: [Meeting recording](/microsoftteams/meeting-recording?tabs=meeting-policy)
 
 ### Turn it on so speakers will be identified in meetings
@@ -286,6 +290,7 @@ In meeting transcripts, live transcripts, captions and in meeting recaps using C
 organization level (Global (Org-wide default) policy), but in the case you want to turn this off for another part of your organization, you can create a new meeting policy.
 
 You can use PowerShell to set this:
+
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -SpeakerAttributionMode
 automatic
@@ -310,6 +315,7 @@ You can use a new meeting policy you create or use the Global (Org-wide default)
 By default, voice and face enrollment is disabled for all users in the organization, but admins can change this setting using PowerShell.
 
 To use PowerShell to turn this on:
+
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled -automatic
 ```
@@ -317,6 +323,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled -automatic
 To enable or disable voice and face enrollment for specific users, admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet.
 
 You can use PowerShell to apply the setting to a custom policy:
+
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Enabled
 ```
@@ -373,10 +380,10 @@ If you need to let individual users access the Copilot Dashboard:
 
 To enable access for new report users:
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights) go to the **Settings** tab and select **Microsoft Viva**, then **Viva Insights**. You need to enter your credentials if you\'re not already signed in.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights) go to the **Settings** tab and select **Microsoft Viva**, then **Viva Insights**. You need to enter your credentials if you're not already signed in.
 2. Under **Viva Insights** in Microsoft 365, select **Manage settings** for viewing the Copilot dashboard.
 3. Select **Add users**.
-4. Search for the people you\'d like to add and select them from the list.
+4. Search for the people you'd like to add and select them from the list.
 5. At the bottom, select **Add**.
 
 Learn more: [Copilot Dashboard\](/viva/insights/org-team-insights/copilot-dashboard](/viva/insights/org-team-insights/copilot-dashboard)
