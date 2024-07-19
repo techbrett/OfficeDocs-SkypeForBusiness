@@ -167,7 +167,7 @@ Noise suppression is identifying non human voices or noise in an environment and
 
 Noise suppression of background noise is turned on by default (and can't be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant and it will greatly enhance the microphone's audio quality.
 
-:::image type="content" source="/media/mtr-devices/noise-suppression.png" alt-text="An image of the noise suppression setting that is turned on." lightbox="/media/mtr-devices/noise-suppression.png":::
+:::image type="content" source="./media/mtr-devices/noise-suppression.png" alt-text="An image of the noise suppression setting that is turned on." lightbox="./media/mtr-devices/noise-suppression.png":::
 
 However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, you'll need have user then set up a voice profile and enable voice isolation in the Teams app.
 
