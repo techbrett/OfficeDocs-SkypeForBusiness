@@ -28,10 +28,10 @@ that you assign to your Teams users, the hardware you're using for Teams Rooms c
 
 There are four separate sets of AI-based features that can be deployed to your users when you assign a specific license for those users or Teams Rooms consoles.
 
-1. **Copilot** - Copilot bot integration. Adding it to all the apps including Teams. Ask questions to resolve topics, catch up during meetings (meeting recap), organize meeting points.
-2. **Teams Rooms** - Live transcripts and captions. Intelligent Speaker - identify in-room participants.
-3. **Meetings and collaboration** - Policy changes for transcription, captions, and recording.
-4. **Microsoft Teams** - AI-based noise suppression and video optimization. Cameo overlay. Voice isolation. Speaker attribution, face and voice enrollment.
+- **Copilot** - Copilot bot integration. Adding it to all the apps including Teams. Ask questions to resolve topics, catch up during meetings (meeting recap), organize meeting points.
+- **Teams Rooms** - Live transcripts and captions. Intelligent Speaker - identify in-room participants.
+- **Meetings and collaboration** - Policy changes for transcription, captions, and recording.
+- **Microsoft Teams** - AI-based noise suppression and video optimization. Cameo overlay. Voice isolation. Speaker attribution, face and voice enrollment.
 
 ## Getting started with Copilot
 
@@ -127,7 +127,7 @@ When you add Copilot in Microsoft Teams, you can:
 - Show the Copilot app in Microsoft Teams app store.
 - Download the pregenerated Teams app manifest to distribute it within your Microsoft Teams tenant.
 
-In Microsoft Teams, you can [Add Copilot to Microsoft Teams](/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet). When you add Copilot, team members can @mention the Copilot bot in any team channels, and all teammates will see the response from the bot.
+In Microsoft Teams, you can [Add Copilot to Microsoft Teams](../microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet). When you add Copilot, team members can @mention the Copilot bot in any team channels, and all teammates will see the response from the bot.
 
 Learn more: [Bots](/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet)
 
@@ -175,7 +175,7 @@ However, if you want to also isolate or have Teams be able to tell the differenc
 
 You can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy or users can turn it on themselves in the Teams app.
 
-:::image type="content" source="/media/mtr-devices/voice-isolation.png" alt-text="An image showing the setting for voice isolation in the Teams app." lightbox="/media/mtr-devices/voice-isolation.png":::
+:::image type="content" source="./media/mtr-devices/voice-isolation.png" alt-text="An image showing the setting for voice isolation in the Teams app." lightbox="./media/mtr-devices/voice-isolation.png":::
 
 **Learn more:** [Manage voice isolation for your users](/microsoftteams/voice-isolation)
 
@@ -187,13 +187,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled*
 
 Each user must set up a voice profile to turn it on in their Teams app. This can be turned off or on either before or during a meeting.
 
-:::image type="content" source="/media/mtr-devices/voice-profile.png" alt-text="An image of the button that is used to set up a voice profile." lightbox="/media/mtr-devices/voice-profile.png":::
+:::image type="content" source="./media/mtr-devices/voice-profile.png" alt-text="An image of the button that is used to set up a voice profile." lightbox="./media/mtr-devices/voice-profile.png":::
 
 ### Manage meeting transcription and captions
 
 Transcription allows users to play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers. It also helps Copilot to create meeting summaries, recaps, action items, and other features.
 
-:::image type="content" source="/media/mtr-devices/captions-transcripts.png" alt-text="An image with captions and transcriptions settings in the Teams app." lightbox="/media/mtr-devices/captions-transcripts.png":::
+:::image type="content" source="./media/mtr-devices/captions-transcripts.png" alt-text="An image with captions and transcriptions settings in the Teams app." lightbox="./media/mtr-devices/captions-transcripts.png":::
 
 To turn on Copilot for your Teams users:
 
@@ -221,7 +221,7 @@ Live captions and transcriptions can show you the text of a conversation in a Te
 
 It's available in the desktop version of the Teams app but users can set transcription and captioning options under **Settings** > **Captions and transcripts** in the Teams app.
 
-:::image type="content" source="/media/mtr-devices/captions-transcripts.png" alt-text="An image with the captions and transcriptions settings." lightbox="/media/mtr-devices/captions-transcripts.png":::
+:::image type="content" source="./media/mtr-devices/captions-transcripts.png" alt-text="An image with the captions and transcriptions settings." lightbox="./media/mtr-devices/captions-transcripts.png":::
 
 Learn more: [Live transcriptions](<https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b>)
 
@@ -312,7 +312,7 @@ automatic
 You can optionally tell users to go verify that it's turned on by going to in the Teams app to **Settings** > **Captions and transcripts** > **Automatically identify me in meeting captions and transcripts** and
 make sure it's turned on.
 
-:::image type="content" source="/media/mtr-devices/auto-id.png" alt-text="An image with the automatically ID me in meetings setting." lightbox="/media/mtr-devices/auto-id.png":::
+:::image type="content" source="./media/mtr-devices/auto-id.png" alt-text="An image with the automatically ID me in meetings setting." lightbox="./media/mtr-devices/auto-id.png":::
 
 ### Turn on voice and face enrollment
 
@@ -352,7 +352,7 @@ Tell your users to set up a voice profile in the Teams app. Each person who will
 
 If have turned on Face profiles in your organization, the **Create face profile** button will be available to end users. By selecting the button, they can set up their face profile that will be used in meetings.
 
-:::image type="content" source="/media/mtr-devices/voice-profile.png" alt-text="An image of how to set up a voice profile." lightbox="/media/mtr-devices/voice-profile.png":::
+:::image type="content" source="./media/mtr-devices/voice-profile.png" alt-text="An image of how to set up a voice profile." lightbox="./media/mtr-devices/voice-profile.png":::
 
 Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
