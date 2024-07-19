@@ -127,7 +127,7 @@ When you add Copilot in Microsoft Teams, you can:
 - Show the Copilot app in Microsoft Teams app store.
 - Download the pregenerated Teams app manifest to distribute it within your Microsoft Teams tenant.
 
-In Microsoft Teams, you can [Add Copilot to Microsoft Teams](../microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet). When you add Copilot, team members can @mention the Copilot bot in any team channels, and all teammates will see the response from the bot.
+In Microsoft Teams, you can add Copilot directly into the Teams app. When you add Copilot, team members can @mention the Copilot bot in any team channels, and all teammates will see the response from the bot.
 
 Learn more: [Bots](/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet)
 
@@ -193,7 +193,7 @@ Each user must set up a voice profile to turn it on in their Teams app. This can
 
 Transcription allows users to play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers. It also helps Copilot to create meeting summaries, recaps, action items, and other features.
 
-:::image type="content" source="./media/mtr-devices/captions-transcripts.png" alt-text="An image with captions and transcriptions settings in the Teams app." lightbox="./media/mtr-devices/captions-transcripts.png":::
+:::image type="content" source="./media/mtr-devices/captions-and-transcripts.png" alt-text="An image with captions and transcriptions settings in the Teams app." lightbox="./media/mtr-devices/captions-and-transcripts.png":::
 
 To turn on Copilot for your Teams users:
 
