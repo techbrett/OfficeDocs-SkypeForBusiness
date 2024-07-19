@@ -127,7 +127,7 @@ When you add Copilot in Microsoft Teams, you can:
 - Show the Copilot app in Microsoft Teams app store.
 - Download the pregenerated Teams app manifest to distribute it within your Microsoft Teams tenant.
 
-In Microsoft Teams, you can [Add Copilot to Microsoft Teams](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet). When you add Copilot, team members can @mention the Copilot bot in any team channels, and all teammates will see the response from the bot.
+In Microsoft Teams, you can [Add Copilot to Microsoft Teams](/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet). When you add Copilot, team members can @mention the Copilot bot in any team channels, and all teammates will see the response from the bot.
 
 Learn more: [Bots](/microsoftteams/platform/bots/how-to/conversations/channel-and-group-conversations?tabs=dotnet)
 
@@ -187,7 +187,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled*
 
 Each user must set up a voice profile to turn it on in their Teams app. This can be turned off or on either before or during a meeting.
 
-:::image type="content" source="../media/mtr-devices/voice-profile.png" alt-text="An image of the button that is used to set up a voice profile." lightbox="../media/mtr-devices/voice-profile.png":::
+:::image type="content" source="/media/mtr-devices/voice-profile.png" alt-text="An image of the button that is used to set up a voice profile." lightbox="/media/mtr-devices/voice-profile.png":::
 
 ### Manage meeting transcription and captions
 
@@ -312,7 +312,7 @@ automatic
 You can optionally tell users to go verify that it's turned on by going to in the Teams app to **Settings** > **Captions and transcripts** > **Automatically identify me in meeting captions and transcripts** and
 make sure it's turned on.
 
-:::image type="content" source="../media/mtr-devices/auto-id.png" alt-text="An image with the automatically ID me in meetings setting." lightbox="../media/mtr-devices/auto-id.png":::
+:::image type="content" source="/media/mtr-devices/auto-id.png" alt-text="An image with the automatically ID me in meetings setting." lightbox="/media/mtr-devices/auto-id.png":::
 
 ### Turn on voice and face enrollment
 
@@ -352,7 +352,7 @@ Tell your users to set up a voice profile in the Teams app. Each person who will
 
 If have turned on Face profiles in your organization, the **Create face profile** button will be available to end users. By selecting the button, they can set up their face profile that will be used in meetings.
 
-:::image type="content" source="../media/mtr-devices/voice-profile.png" alt-text="An image of how to set up a voice profile." lightbox=""::../media/mtr-devices/voice-profile.png:::
+:::image type="content" source="/media/mtr-devices/voice-profile.png" alt-text="An image of how to set up a voice profile." lightbox="/media/mtr-devices/voice-profile.png":::
 
 Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
