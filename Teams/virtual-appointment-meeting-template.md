@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
 audience: admin
-description: Learn how to manage the Virtual appointment meeting template for Teams to provide a default meeting configuration for your organization.
+description: Learn how to manage the Virtual appointment meeting template, which your users can use to schedule virtual appointments with people outside your organization. 
 ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
@@ -55,7 +55,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 >
 > The text notifications are sent in the language of the meeting organizer.
 
-You can control whether your users can choose to send SMS text notifications to external guests in appointments that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
+You can control whether your users can choose to send SMS text notifications to external guests in appointments that they schedule using the template. When this feature is enabled for a user, they see the SMS notifications option in the template.
 
 - If the user chooses **Send text notifications** (the default setting), external guests will receive appointment confirmation, update, and reminder text messages that include the Teams meeting join link and appointment details.
 - If the user chooses **Don't send text notifications**, external guests won't receive text messages about their appointment.
