@@ -30,10 +30,10 @@ description: Learn how to require verification checks for Microsoft Teams meetin
 
 For a seamless experience, it's important to manage how anonymous participants join meetings and webinars in your org. Anonymous participants include users who join a Teams meeting without signing in, via the Teams web app, Azure Communication Services (ACS) platform, or through external meeting platforms.
 
-If your meeting and webinar organizers have a setting in their Meeting options that allows anonymous users to bypass the lobby, there's a risk of web based bots entering and disrupting the sessions. As an admin, you can require human verification checks for anonymous users to join meetings in your org. Requiring a completely automated public Turing test to tell computers and humans apart (CAPTCHA) can prevent unwanted web-based bots from joining, recording, and causing disturbances in meetings and webinars.
+If your organizers allow anonymous users to bypass the lobby, web bots might join and disrupt their meetings and webinars. As an admin, you can require human verification checks for anonymous users to join meetings in your org. Requiring a CAPTCHA challenge can prevent unwanted web-based bots from joining, recording, and causing disturbances in meetings and webinars.
 
 :::image type="content" source="media/captcha-audio-small.png" alt-text="Screenshot of a user named Daniela completing an audio CAPTCHA challenge to join a meeting." lightbox="media/captcha-audio-expand.png":::
-:::image type="content" source="media/captcha-text-small.png" alt-text="Screenshot of a user named Daniela completing an text CAPTCHA challenge to join a meeting." lightbox="media/captcha-text-expand.png":::
+:::image type="content" source="media/captcha-text-small.png" alt-text="Screenshot of a user named Daniela completing a text CAPTCHA challenge to join a meeting." lightbox="media/captcha-text-expand.png":::
 
 ## Manage verification checks for meetings and webinars in your org
 
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -?? ??
 Requiring verification checks is supported on the following surfaces and clients:
 
 **Clients:** Teams (T2.1, T2.2), Outlook, ACS based clients
-**Platforms:** Desktop, Web, VDI, and mobile application (iOS and Android)
+**Platforms:** Desktop, Web, Virtualized Desktop Infrastructure (VDI), and mobile application (iOS and Android)
 
 ## Related articles
 
