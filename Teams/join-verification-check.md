@@ -73,9 +73,23 @@ Use the following script to require anonymous users and users from untrusted org
 Set-CsTeamsMeetingPolicy -Identity <policy name> -?? ??
 ```
 
+## Supported surfaces and clients
+
+Requiring verification checks is supported on the following surfaces and clients:
+
+**Clients:** Teams (T2.1, T2.2), Outlook, ACS based clients
+**Platforms:** Desktop, Web, VDI, and mobile application (iOS and Android)
+
 ## Related articles
 
-- 
+- [Manage meeting templates in Microsoft Teams - Microsoft Teams | Microsoft Learn](manage-meeting-templates.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Configure Teams meetings with baseline protection - Microsoft Teams | Microsoft Learn](configure-meetings-baseline-protection.md)
+- [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md)
+- [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md)
+- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
+- [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
+- [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/purview/sensitivity-labels-meetings.md)
 - [Plan for Teams meetings](plan-meetings.md)
 - [Plan for Teams webinars](plan-webinars.md)
 - [Plan for Teams town halls](plan-town-halls.md)
