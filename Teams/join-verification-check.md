@@ -1,0 +1,74 @@
+---
+title: Require verification checks to join Teams meetings and webinars in your org
+ms.author: wlibebe
+author: wlibebe
+manager: pamgreen
+ms.reviewer: nraghavan
+ms.date: 9/11/2024
+ms.topic: how-to
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+appliesto: 
+  - Microsoft Teams
+ms.localizationpriority: medium
+search.appverid: MET150
+f1.keywords:
+- CSH
+ms.custom: 
+ms.collection: 
+  - M365-collaboration
+  - m365initiative-meetings
+  - highpri
+  - Tier1
+description: Learn how to require verification checks for Microsoft Teams meetings and webinars in your org to prevent bots from joining.
+---
+
+# Require verification checks to join Teams meetings and webinars in your org
+
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
+
+For a seamless experience, it's important to manage how anonymous participants join meetings and webinars in your org. Anonymous participants include users who join a Teams meeting without signing in, via the Teams web app, Azure Communication Services (ACS) platform, or through external meeting platforms.
+
+If your meeting and webinar organizers have a setting in their Meeting options that allows anonymous users to bypass the lobby, there's a risk of web based bots entering and disrupting the sessions. As an admin, you can require human verification checks for anonymous users to join meetings in your org. Requiring a completely automated public Turing test to tell computers and humans apart (CAPTCHA) can prevent unwanted web-based bots from joining, recording, and causing disturbances in meetings and webinars.
+
+:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
+:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
+
+## Manage  verification checks for meetings and webinars in your org
+
+You can use the Teams admin center or PowerShell manage verification checks for meetings and webinars in your org. You could also use a sensitivity label  in Purview or a meeting template to require verification checks. To use meeting templates and sensitivity labels, you must have a Teams Premium license.
+
+The following table shows the behaviors of the settings for the **`-Copilot`** parameter:
+
+|Teams admins center policy value |PowerShell setting value | Behavior|
+|---------|---------|---------------|
+|Not required|??| **This is the default value**. When organizers with this policy create meetings and webinars, no users in that meeting complete a verification check before joining the meeting.|
+|Anonymous users|??| When organizers with this policy create meetings and webinars, anonymous users must complete a verification check before joining the meeting.|
+|Anonymous users and people from untrusted organizations|??| When organizers with this policy create meetings and webinars, anonymous users and people from untrusted organizations must complete a verification check before joining the meeting.  |
+
+### Manage verification checks in the Teams admin center
+
+1. Open the Teams admin center.
+2. Expand **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Meeting Policies**.
+4. Either select an existing policy or create a new one.
+5. Select **On** or **On only with retained transcript** from the dropdown for the **Copilot** setting.
+6. Select **Save**
+
+### Manage verification checks using PowerShell
+
+To  manage how users in your org use Copilot for Teams meetings and events, use the **`-??`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
+
+To allow users in meetings and events that organizers with this policy create to use Copilot **Only during the meeting**, use the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Enabled
+```
+
+## Related articles
+
+- 
+- [Plan for Teams meetings](plan-meetings.md)
+- [Plan for Teams webinars](plan-webinars.md)
+- [Plan for Teams town halls](plan-town-halls.md)
