@@ -73,13 +73,23 @@ Use the following script to require anonymous users and users from untrusted org
 Set-CsTeamsMeetingPolicy -Identity <policy name> -?? ??
 ```
 
-## Supported surfaces and clients
+## Client and platform support
+
+### Supported
 
 Requiring verification checks is supported on the following surfaces and clients:
 
 **Clients:** Teams (T2.1, T2.2), Outlook, ACS based clients
 
 **Platforms:** Desktop, Web, Virtualized Desktop Infrastructure (VDI), and mobile application (iOS and Android)
+
+### Not supported
+
+Requiring verification checks aren't supported on the following surfaces and clients:
+
+**Clients:** Cloud Video Interop (CVI)
+
+**Platforms:** Third party devices
 
 ## Related articles
 
