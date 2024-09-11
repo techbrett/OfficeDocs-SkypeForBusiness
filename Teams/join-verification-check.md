@@ -39,8 +39,6 @@ If your meeting and webinar organizers have a setting in their Meeting options t
 
 You can use the Teams admin center or PowerShell manage verification checks for meetings and webinars in your org. You could also use a sensitivity label  in Purview or a meeting template to require verification checks. To use meeting templates and sensitivity labels, you must have a Teams Premium license.
 
-The following table shows the behaviors of the settings for the **`-??`** parameter:
-
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
 |Not required|??| **This is the default value**. When organizers with this policy create meetings and webinars, no users in that meeting complete a verification check before joining the meeting.|
