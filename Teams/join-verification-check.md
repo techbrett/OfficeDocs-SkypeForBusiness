@@ -32,14 +32,14 @@ For a seamless experience, it's important to manage how anonymous participants j
 
 If your meeting and webinar organizers have a setting in their Meeting options that allows anonymous users to bypass the lobby, there's a risk of web based bots entering and disrupting the sessions. As an admin, you can require human verification checks for anonymous users to join meetings in your org. Requiring a completely automated public Turing test to tell computers and humans apart (CAPTCHA) can prevent unwanted web-based bots from joining, recording, and causing disturbances in meetings and webinars.
 
-:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
-:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
+:::image type="content" source="media/captcha-audio-small.png" alt-text="Screenshot of a user named Daniela completing an audio CAPTCHA challenge to join a meeting." lightbox="media/captcha-audio-expand.png":::
+:::image type="content" source="media/captcha-text-small.png" alt-text="Screenshot of a user named Daniela completing an text CAPTCHA challenge to join a meeting." lightbox="media/captcha-text-expand.png":::
 
-## Manage  verification checks for meetings and webinars in your org
+## Manage verification checks for meetings and webinars in your org
 
 You can use the Teams admin center or PowerShell manage verification checks for meetings and webinars in your org. You could also use a sensitivity label  in Purview or a meeting template to require verification checks. To use meeting templates and sensitivity labels, you must have a Teams Premium license.
 
-The following table shows the behaviors of the settings for the **`-Copilot`** parameter:
+The following table shows the behaviors of the settings for the **`-??`** parameter:
 
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
