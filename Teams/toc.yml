@@ -699,6 +699,8 @@ items:
           items: 
             - name: Manage Copilot for Teams
               href: copilot-teams-transcription.md
+            - name: Require verification checks
+              href: join-verification-check.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
