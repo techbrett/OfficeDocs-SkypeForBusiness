@@ -53,17 +53,26 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 2. Expand **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
-5. Select **On** or **On only with retained transcript** from the dropdown for the **Copilot** setting.
+5. Navigate to the **Meeting join & lobby** section and select one of the following options for **Require a verification check from:**
+   - Not required (default)
+   - Anonymous users
+   - Anonymous users and people from untrusted organizations
 6. Select **Save**
 
 ### Manage verification checks using PowerShell
 
 To  manage how users in your org use Copilot for Teams meetings and events, use the **`-??`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
-To allow users in meetings and events that organizers with this policy create to use Copilot **Only during the meeting**, use the following script:
+To require anonymous users to complete a verification check before joining the meetings and webinars created by organizers with this policy, use the following script:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Enabled
+Set-CsTeamsMeetingPolicy -Identity <policy name> -?? ??
+```
+
+Use the following script to require anonymous users and users from untrusted organizations to complete a verification check before joining meetings and webinars created by organizers under this policy:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -?? ??
 ```
 
 ## Related articles
