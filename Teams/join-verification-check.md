@@ -78,6 +78,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -?? ??
 Requiring verification checks is supported on the following surfaces and clients:
 
 **Clients:** Teams (T2.1, T2.2), Outlook, ACS based clients
+
 **Platforms:** Desktop, Web, Virtualized Desktop Infrastructure (VDI), and mobile application (iOS and Android)
 
 ## Related articles
