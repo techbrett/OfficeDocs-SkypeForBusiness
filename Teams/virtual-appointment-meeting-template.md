@@ -6,12 +6,12 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jewilcze
-ms.date: 10/26/2023
+ms.date: 09/13/2024
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
 audience: admin
-description: Learn how to manage the Virtual appointment meeting template, which your users can use to schedule virtual appointments with people outside your organization. 
+description: Learn how to manage the Virtual appointment meeting template in Teams for your organization. Your users can use this template to schedule virtual appointments with external guests, such as customers, clients, and other people outside your organization.
 ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
@@ -51,9 +51,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
-> This feature is currently available in the Netherlands, New Zealand, Norway, and the United States. Your users can send SMS text notifications to people who have a valid Netherlands (+31 country code), New Zealand (+64 country code), Norway (+47 country code), or United States (+1 country code) phone number.
->
-> The text notifications are sent in the language of the meeting organizer.
+> This feature is currently available in Canada, the Netherlands, New Zealand, Norway, the United Kingdom, and the United States. Your users can send SMS text notifications to people who have a valid Canada (+1 country code), Netherlands (+31 country code), New Zealand (+64 country code), Norway (+47 country code), United Kingdom (+44 country code), or United States phone number (+1 country code). The text notifications are sent in the language of the meeting organizer.
 
 You can control whether your users can choose to send SMS text notifications to external guests in appointments that they schedule using the template. When this feature is enabled for a user, they see the SMS notifications option in the template.
 
