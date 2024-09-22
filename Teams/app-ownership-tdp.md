@@ -20,29 +20,37 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# H1
-
+# Manage Microsoft Teams app ownership in Developer Portal
 
 <!--- 
 > [!NOTE]
 > This feature is available only for the Commercial environments and not for GCC, GCC(H), and DoD environments.
 --->
 
-What is TDP?
-What devs do in TDP and how ownership works?
-What happens with ownership if dev leaves or deletes app?
+App developers use [Developer Portal](/microsoftteams/platform/concepts/build-and-test/teams-developer-portal) to configure, distribute, and manage their Teams apps. Developers who create or import an app in Developer Portal becomes the owner of the app. The owner can add other org users as owners. A developer may leave the organization or can delete the app from the portal after the app is published. In such cases, a Global Administrator can help with either taking ownership and adding other developers to continue to manage the app.
 
-Custom app vs Store app.
+A Global Administrator can take ownership of an app. It is useful in scenarios when a developer is not available or leaves an org and another developer must work further on the app. Then an admin can add the other developer as an owner of the app after taking over the ownership themselves.
 
+A Global Administrator can add an app to the portal. It is useful when the developer deleted the app after creating it in the portal or if the app was created outside the portal and must now be imported into the portal to work on it.
 
-
-
-## H2
+## Admin takes ownership of a custom app
 
 
 
 
-## H2
+## Admin takes ownership of a Store app
+
+An app can be published to [Microsoft AppStore]() from Partner Center by the organization. It may not be available in Developer Portal for one of the following reasons:
+
+* The app was created using some other tools and not Developer Portal.
+* The app was created using Developer Portal but later removed from the portal.
+
+In the above cases, an admin can reclaim the ownership of the app in Developer Portal by contacting Microsoft Support.
+
+
+
+
+Proof of ownership - screenshot from email exchange with Microsoft after submitting the app for validation. Look for email from teamsubm.
 
 
 
