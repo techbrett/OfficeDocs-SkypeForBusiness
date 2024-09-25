@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 ms.date: 04/04/2024
 manager: pamgreen
-ms.reviewer: altsou
+ms.reviewer: kimmatlock
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -23,7 +23,7 @@ f1keywords:
 
 # Multitenant customer management for partners
 
-Multitenant management (MTM) in the Teams Rooms Pro Management helps partner organizations manage multiple customers in one place with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It's possible to apply custom roles for each customer in the MTM portal which will give partner organizations granular control of permissions to the customer’s resources.
+Multitenant management (MTM) in the Teams Rooms Pro Management helps partner organizations manage multiple customers in one place with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It's possible to apply custom roles for each customer in the MTM portal which will give partner organizations granular control of permissions to the customer’s resources. This feature is only available in public or commercial cloud. It's not available in GCC, GCC-H, or DoD government clouds.
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
@@ -46,7 +46,7 @@ It's recommended to configure this role so designated Tenant managers can accept
 
 **To configure tenant managers**
 
-1. Log in to the Teams Rooms Pro Management-MTM portal as either a Global admin or Teams Rooms Pro Manager role.
+1. Log in to the Teams Rooms Pro Management-MTM portal Teams Rooms Pro Manager role.
 2.	Go to Tenant managers.
 3.	Select **Add tenant managers**.
 4.	In the detail pane, search for the users or security groups.
@@ -57,6 +57,9 @@ It's recommended to configure this role so designated Tenant managers can accept
 
 The partner will provide the domain name to customers. Only the Global admin, Teams Rooms Pro Manager, and Tenant managers roles can see and will accept the invitation when they log in to the Teams Rooms Pro Management-MTM portal.
 
+> [IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 > [!Note]
 > Even though these roles can see invitations and high-level Tenant metadata, you won't see the customer’s data until you are assigned a role with that customer.
 
@@ -64,9 +67,9 @@ Details on the customer invitation are outlined in [Multitenant management for C
 
 **To accept a pending invite**
 
-1. Log in to the Teams Rooms Pro Management-MTM portal as either a Global admin, Teams Rooms Pro Manager, or Tenant manager.
+1. Log in to the Teams Rooms Pro Management-MTM portal as either Teams Rooms Pro Manager, or Tenant manager.
 1. Go to **Tenants**.
-1. Select the invitation that shows a **Pendin** status.
+1. Select the invitation that shows a **Pending** status.
 1. Review the invitation details.
 1. Assign the users that will be part of the admins for the customer.
 1. Select **Accept** to establish the partner-customer relationship.
@@ -76,8 +79,7 @@ Details on the customer invitation are outlined in [Multitenant management for C
    > [!Note]
    > There is no permanent association with the user that accepts the invitation.
 
-   > [!Note]
-   > If the invitation is accidentally denied the invitation, the customer must then create a new invitation.
+   >
 
 **To review the configuration or add more primary admins for a tenant**
 

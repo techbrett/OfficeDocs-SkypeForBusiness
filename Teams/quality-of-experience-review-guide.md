@@ -6,19 +6,21 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: siunies, gageames
-ms.date: 04/09/2018
+ms.date: 05/06/2024
 audience: admin
 description: Learn how to analyze and manage real-time media performance in Microsoft Teams by using the Call Quality Dashboard (CQD).
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - ContentFreshnessFY24
+  - m365initiative-voice
 f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.custom: 
-  - seo-marvel-mar2020
+  - seo-marvel-mar2020 
 ---
 
 #  Use CQD to manage call and meeting quality in Microsoft Teams 
@@ -120,10 +122,12 @@ Service metrics consist of specific client-based metrics. During each call, the 
 
 The poor stream rate (PSR) represents the organization's overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-versus-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
-The actual measurement in CQD varies by workload, but for the purposes of this article, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the "Poor Due To..." measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
+The actual measurement in CQD varies by workload, but for the purposes of this article, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the three network metric averages described in the following table. For a stream to be classified as poor, a stream must exceed a packet utilization of 500, and only one metric needs to exceed the defined threshold. CQD provides the "Poor Due To..." measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
 > CQD provides the "Poor due to..." measurements to better understand what condition caused the stream to be classified as poor.
+>
+> Although the audio will be marked Poor if any one of the thresholds are broken, this does not mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users.
 
 
 ##### Audio poor quality metrics
@@ -288,7 +292,7 @@ CQD, although useful for analyzing trends and subnets, doesn't always provide a 
 
 ### CQD reports overview
 
-Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, read [Data available in CQD reports](CQD-data-and-reports.md#data-available-in-cqd-reports).
+Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, read [Data available in CQD reports](cqd-data-and-reports.md#data-available-in-cqd-reports).
 
 New in January 2020: [Download Power BI query templates for CQD](https://download.microsoft.com/download/f/b/f/fbf2527c-f392-410e-aeb6-1a02ac1b5dd1/CQD-Power-BI-query-templates.zip). Customizable Power BI templates you can use to analyze and report your CQD data.
 
@@ -315,7 +319,7 @@ To filter all detailed reports, in the browser bar, append the following to the 
 
 ```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
-For more information about URL filters, read [Filtering reports](CQD-data-and-reports.md#report-filters) later in this section.
+For more information about URL filters, read [Filtering reports](cqd-data-and-reports.md#report-filters) later in this section.
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False.
 
@@ -674,7 +678,7 @@ These reports focus on identifying Skype for Business client versions in use and
 > [!IMPORTANT]
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. As a result, you don't need to monitor Teams client versions (unless you turn off the auto updating, which we don't recommend).
 
-Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
+Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](cqd-data-and-reports.md#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](cqd-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
 
 
@@ -718,7 +722,7 @@ By supplying users with devices certified for Teams and Skype for Business, you 
 The device reports are used to assess device usage by volume and MOS score (audio only), and can be found in the accompanying templates under Clients & Devices. 
 
 > [!IMPORTANT]
-> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). ALternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
+> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](cqd-data-and-reports.md#how-to-find-your-tenant-id). ALternatively, you can use a [URL filter](cqd-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
 
 > [!Note]
@@ -765,7 +769,7 @@ Wi-Fi drivers also need to be patched on a regular cadence as well and should be
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

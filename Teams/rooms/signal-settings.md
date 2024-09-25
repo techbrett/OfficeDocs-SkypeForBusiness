@@ -3,8 +3,8 @@ title: Signal settings
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: tonysmit
-ms.date: 12/20/2023
+ms.reviewer: altsou
+ms.date: 09/17/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,7 +13,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.date: 08/15/2023
-description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export APIs.
+description: In this article, you learn about how to export Teams content using the Microsoft Teams Export APIs.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -26,32 +26,36 @@ Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channe
 
 Here are some examples on how you can use these export APIs:
 
-- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user or team.
+- **Example 1**: If you enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user or team.
 
 - **Example 2**: If you want to programmatically export all user or team messages daily by providing a date range. Export APIs can retrieve all the messages created or updated during the given date range.
 
-- **(Beta) Example 3**: If you want to programmatically export the links to Teams meeting recordings for a given meeting organizer, and then download the actual recordings.
+- **Example 3**: If you want to programmatically export the links to Teams meeting recordings for a given meeting organizer, and then download the actual recordings.
 
-- **(Beta) Example 4**: If you want to programmatically export the links to Teams meeting transcripts for a given meeting organizer, and then download the actual transcripts. 
+- **Example 4**: If you want to programmatically export the links to Teams meeting transcripts for a given meeting organizer, and then download the actual transcripts. 
 
 ## What is supported by the Teams Export APIs?
 
 - **Bulk Export of Teams Message:** Teams Export APIs support up to 200 RPS Per App Per tenant and 600 RPS for an Application, with these limits you should be able to bulk export of Teams messages.
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
 
-    If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
-- **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
+    If you're already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
+- **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment are accessible using Export APIs.
 - **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
-- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History which includes changes and updates made to a reaction on a message.
+- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History, which includes changes and updates made to a reaction on a message.
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
 - **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels.
+- **Deleted Users**: Export API supports capturing messages for deleted users up to 30 days from the time the user was deleted. To find the list of deleted users, see [Deleted Items](/graph/api/directory-deleteditems-list).
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events).
+- **(Beta) Edited History:** Provided that [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
 
-## What is not supported by the Teams Export APIs?
+    To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
 
-- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API does not support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
+## What isn't supported by the Teams Export APIs?
+
+- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API doesn't support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
 
 ## How to access Teams Export APIs
 
@@ -75,19 +79,31 @@ Here are some examples on how you can use these export APIs:
   GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
   ```
 
-- **(Beta) Example 3** is a sample query to retrieve the links to all the available Teams meetings recordings of a user. TOP n filter is supported similar to Chat messages:
+- **Example 3** is a sample query to retrieve the links to all the available Teams meetings recordings of a user. Date-range filtering is supported. TOP n filter is supported similar to Chat messages:
 
   ```HTTP
-  GET https://graph.microsoft.com/beta/users/{id}/onlineMeetings/getAllRecordings?$filter=MeetingOrganizerId eq ‘{id}’
+  GET https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllRecordings?$filter=MeetingOrganizer/User/Id eq ‘{id}’
   ```
-- **(Beta) Example 4** is a sample query to retrieve the links to all the available Teams meetings transcripts of a user. TOP n filter is supported similar to Chat messages: 
+
+  ``` http
+  GET  https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllRecordings(meetingOrganizerUserId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})
+  ```
+- **Example 4** is a sample query to retrieve the links to all the available Teams meetings transcripts of a user. Date-range filtering is supported. TOP n filter is supported similar to Chat messages: 
 
   ```HTTP
-  GET https://graph.microsoft.com/beta/users/{id}/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizerId eq ‘{id}’
+  GET https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizer/User/Id eq ‘{id}’
   ```
+
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllTranscripts(meetingOrganizerUserId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})
+  ```
+
 
 > [!NOTE]
-> The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+> The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink isn't present or null then all messages are retrieved.
+
+> [!NOTE]
+> The order of messages in the response isn't guaranteed to be sorted by any datetime, such as createdDateTime nor lastModifiedDateTime.
 
 ## Prerequisites to access Teams Export APIs
 
@@ -122,7 +138,7 @@ Restricted to applications performing security and/or compliance functions, user
 
 ### General usage/Model B scenarios
 
-Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
+Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners are charged for all monthly API calls.
 
 The following partners are certified. Your company may choose to work with any combination of these partners within your enterprise.  
 
@@ -132,7 +148,7 @@ The following partners are certified. Your company may choose to work with any c
 |![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/backup-microsoft-office-365.html) |
 
 ### Next steps
-If you're a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide additional context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
+If you're a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide more context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
 
 ### Evaluation Mode (default)
 
@@ -187,9 +203,9 @@ No model declaration enables access to APIs with limited usage per each requesti
 
     ```JSON
     {
-     "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(meetingRecording)", 
+     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(meetingRecording)", 
      "@odata.count": 2, 
-     "@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllRecordings?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
+     "@odata.nextLink": "https://graph.microsoft.com/v1.0/users('{userId}')/onlineMeetings/getAllRecordings?$filter=MeetingOrganizer%2fUser%2fId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
      "value":
        [ 
          { 
@@ -198,7 +214,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "meetingId": "MSoxMjczYTAxNi0yMDFkRLTmOTUtODA5My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1BBXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy", 
           "meetingOrganizerId": "{userId}", 
           "createdDateTime": "2022-08-03T20:43:36.2573447Z", 
-          "recordingContentUrl":    "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/recordings/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content" 
+          "recordingContentUrl":    "https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/recordings/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content" 
          }, 
          { 
           "@odata.type": "#microsoft.graph.meetingRecording", 
@@ -206,7 +222,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "meetingId": "{meetingId}", 
           "meetingOrganizerId": "{userId}", 
           "createdDateTime": "2022-08-03T20:44:11.2635254Z", 
-          "recordingContentUrl": " https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/{meetingId}/recordings/{recordingId}/content" 
+          "recordingContentUrl": " https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/{meetingId}/recordings/{recordingId}/content" 
           },
         ] 
        }
@@ -218,7 +234,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - `<meetingId>` represents a meeting or call identifier. 
 
-   - `<meetingOrganizerId>` represents the organizer of the meeting.
+   - `<meetingOrganizer/user/id>` represents the organizer of the meeting.
 
    - `<createdDateTime>` indicates the start time of the meeting. 
 
@@ -256,9 +272,9 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    ```JSON
    {
-     "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(callTranscript)",  
+     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(callTranscript)",  
      "@odata.count": 2, 
-     "@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d",  
+     "@odata.nextLink": "https://graph.microsoft.com/v1.0/users('{userId}')/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizer%2fUser%2fId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d",  
      "value":
        [ 
          { 
@@ -266,7 +282,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "id": "MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh", 
           "meetingId": "MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy", 
           "meetingOrganizerId": "{userId}", 
-          "transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/transcripts/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content", 
+          "transcriptContentUrl": "https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/transcripts/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content", 
          "createdDateTime": "2022-08-03T20:43:36.6248355Z" 
          }, 
          { 
@@ -274,7 +290,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "id": "{transcriptId}", 
           "meetingId": "{meetingId}", 
           "meetingOrganizerId": "{userId}", 
-          "transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/{meetingId}/transcripts/{transcriptId}/content",   
+          "transcriptContentUrl": "https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/{meetingId}/transcripts/{transcriptId}/content",   
           },
         ] 
        }
@@ -286,7 +302,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - `<meetingId>` represents a meeting or call identifier. 
 
-   - `<meetingOrganizerId>` represents the organizer of the meeting. 
+   - `<meetingOrganizer/user/id>` represents the organizer of the meeting. 
 
    - `<createdDateTime>` indicates the start time of the meeting. 
 
@@ -294,9 +310,9 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - Transcript content, by default, will be in VTT format. But, using an Accept header value of `application/vnd.openxmlformats-officedocument.wordprocessingml.document`, DOCX format can also be obtained.
 
-   - The average size of the transcript content itself in JSON/VTT format is about 300 KB, based on averages we are seeing for meetings that are in range of 30 mins – 60 mins. 
+   - The average size of the transcript content itself in JSON/VTT format is about 300 KB, based on averages we're seeing for meetings that are in range of 30 mins – 60 mins. 
 
-   - Results are not guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
+   - Results aren't guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
 
    - Results are guaranteed to be present only after the associated meeting recordings are available. In other words, no additional polling for availability is required by the caller. 
 

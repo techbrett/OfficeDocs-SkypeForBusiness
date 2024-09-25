@@ -3,7 +3,7 @@ title: Manage Q&A in Teams meetings and events
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
-ms.date: 2/9/2024
+ms.date: 4/18/2024
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -21,21 +21,22 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. The Q&A policy is a per-organizer setting.
+Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. Town hall and webinar organizers and co-organizers can export the event's questions and answers to a CSV file.
 
 Your organization might have requirements to limit which organizers can use Q&A. As an admin, you can control whether an organizer can enable Q&A in their meetings and events.
 
 To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](https://support.microsoft.com/office/q-a-in-microsoft-teams-meetings-f3c84c72-57c3-4b6d-aea5-67b11face787).
 
 > [!NOTE]
-> Q&A isn't available for GCC.
+> Q&A is available in GCC, but not in GCC-High.
 
 ## Prerequisites
 
-- Verify that you haven’t blocked access to [Viva Engage’s IPs and URLs.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- Verify that access to [Viva Engage’s IPs and URLs](/microsoft-365/enterprise/urls-and-ip-address-ranges) isn't blocked.
+  - If you have a GCC tenant, verify that your firewall isn't blocking access to GCC services hosted from <https://web.gov.yammer.com>.
 - To allow users in your organization to add Q&A to Teams meetings and events, you must confirm that sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID.
 Follow these steps to confirm that sign-ins are enabled:
-  - Go to the **Microsoft Entra admin center** > **All services** > **Enterprise Applications** > **Office 365 Viva Engage** > **Properties**.
+  - Go to the **Microsoft Entra admin center** > **Identity** > **Applications** > **Enterprise Applications** > **Viva Engage** > **Properties**.
   - For the **Enabled for users to sign-in?** option, select **Yes** if necessary.
 
 When you enable Q&A, organizers can turn on Q&A in their Meeting options when creating or updating meetings and events. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to prevent attendees from using the feature.
@@ -70,27 +71,6 @@ To prevent organizers with this policy from using Q&A in meetings and events the
 Set-CsTeamsMeetingPolicy -Identity Global -QnAEngagementMode Disabled
 ```
 
-## Delete an individual message from Q&A in Teams
-
-To delete a question or answer posted in the Q&A application, follow these steps:
-
-1. Sign in to the Exchange Admin Center as a Global Administrator.
-2. Go to **Recipients** > **Mailboxes** and search by name for the user who organized the meeting or event.
-3. Select the organizer and select **Manage mailbox delegation**. In the **Read and manage** section, select **Edit** > **Add permissions**.
-4. Add yourself as a delegate of the meeting organizer and select **Save**.
-5. Open Outlook Calendar in the Outlook Web App (not desktop) and select **Add calendar** and then **Add from directory**.
-6. Search for the meeting organizer and add their calendar to **My calendars**. Meetings for the selected user are now shown on your calendar.
-7. In your calendar, find the meeting you want to delete content for, open the meeting record, and select **Chat with participants**. Selecting chat with participants opens the meeting chat in Teams.
-8. Navigate to the **Q&A** application in the Teams app bar.
-9. Find any questions or answers you want to delete and select **Delete**.
-10. Once you’re finished deleting content, go back to the Exchange Admin Center and remove yourself as a delegate of the meeting organizer.
-
-If you delete a question before removing the answers, the first answer to the question becomes the question. To avoid this scenario, follow these steps in order:
-
-1. Identify the question you’d like to delete
-2. Delete the answers to the question
-3. Delete the question
-
 ## Available languages for Viva Engage vs Teams
 
 Q&A defaults to the user’s language for Teams. When there’s a difference in the languages available for Teams versus Viva Engage, the following language defaults occur:
@@ -103,9 +83,11 @@ Q&A defaults to the user’s language for Teams. When there’s a difference in 
 eDiscovery for Q&A works the same as eDiscovery for any other Viva Engage content.
 
 - If you use Q&A in your tenant’s Teams application, this content is available in eDiscovery regardless of the configuration or existence of your Viva Engage network. To use eDiscovery for standard Viva Engage content, your Viva Engage network needs to be in [Native Mode](/viva/engage/overview-native-mode).
+- All GCC tenants using Teams Q&A are automatically in native mode. No action is required to activate native mode for these tenants.
 - When you perform eDiscovery, you can determine whether messages were generated in Viva Engage or through Q&A in Teams. In the File Metadata section, you can find that information in the Item Class field.
 - If your organization uses the Q&A, powered by Viva Engage, the content Q&A generates is considered Viva Engage content and is discoverable. For more information about eDiscovery in Microsoft 365 apps, see [eDiscovery solutions in Microsoft 365.](/microsoft-365/compliance/ediscovery)
 - If the meeting organizer enables anonymous posting, the questions attendees post are ingested into the organizer’s mailbox for eDiscovery.
+- When external participants (users from an external organization using external access) from a different Microsoft 365 tenant, or guests join a Teams meeting that is hosted in your Microsoft 365 tenant, any questions they post into Q&A are ingested within your Microsoft 365 tenant.
 
 ## Data Storage
 
@@ -115,13 +97,22 @@ Files are always stored in SharePoint, which handles all the data rest policies 
 The following guidance explains how messaging data is stored:
 
 - Q&A content is searchable via eDiscovery at the user level.
-- Message data (which includes message content) is stored in North America or EU by default (depending on your Viva Engage network location).
-- For orgs that don’t have an existing Viva Engage network, the Q&A Viva Engage network is created in the United States Viva Engage region. Your organization's messages for Q&A are always stored in the US.
-- Similar to OneNote tabs, removing the Q&A from a meeting doesn't delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If you add the Q&A tab back, you can see the meeting conversations again.
+- Teams Q&A data for GCC customers is stored in Microsoft's GCC data centers.
+- Depending on your Viva Engage network location, if you don't have the Advanced Data Residency (ADR) add-on license, your message data is stored in North America or EU by default.
+- If you have the ADR add-on license, or Go-Locals, your message content is stored in the same region as their Teams Go-Local content.
+- Depending on your Viva Engage network location, message data, including message content is stored in North America or EU by default.
+- For orgs without an existing Viva Engage network, the Q&A Viva Engage network is created in the United States Viva Engage region. Your org's messages for Q&A are always stored in the US, unless they have the ADR add-on license.
+- Similar to OneNote tabs, removing the Q&A from a meeting doesn't delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If your users add the Q&A tab back, they can see the meeting conversations again.
 
-## GDPR for Q&A in Teams
+For details on the Advanced Data Residency (ADR) add-on license, see [Advanced Data Residency in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency).
 
-When you complete a Data Subject Request through the Microsoft 365 Admin Center, it automatically removes users’ contact information from all their content in the Q&A.
+## Data subject requests and Q&A
+
+When you complete a data subject request through the Microsoft 365 Admin Center, it automatically removes users’ contact information from all their content in the Q&A.
+
+For more information on data subject requests, see [Azure Data Subject Requests for the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-Azure).
+
+For more information about GDPR, see the [GDPR section of the Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy/gdpr-overview) and the [GDPR section of the Service Trust portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 ## Data lifecycle for Q&A in Teams
 

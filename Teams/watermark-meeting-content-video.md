@@ -23,6 +23,8 @@ description: Learn how to enable or require watermarks on attendee video and sha
 
 # Require a watermark for sensitive Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
+
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Each participant will see their own email address overlaid on the meeting video or shared content. This deters participants from taking unauthorized screenshots of the meeting content.
@@ -31,15 +33,13 @@ Watermarks are supported on Teams desktop, mobile, and Microsoft Teams Rooms. Pe
 
 The following participants have an audio-only experience when a watermark is in use:
 
-- Participants using the Teams web client
 - Virtual Desktop Infrastructure (VDI) participants
 - Anonymous participants
 - Overflow participants
 - Older Teams clients
 - [Direct Guest Join on Microsoft Teams Rooms devices](/microsoftteams/rooms/third-party-join)
-- [Cloud Video Interop (CVI)](cloud-video-interop.md). Check with your CVI partner for watermark support information.
 
-> [!Note]
+> [!NOTE]
 > Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
 
 Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer (the organizer must have a Teams Premium license) or enforced by a template or sensitivity label.
@@ -56,10 +56,6 @@ When a watermark is being used in a meeting, the following features are turned o
 - Large gallery
 
 - Together mode
-
-- PowerPoint Live
-
-- Whiteboard
 
 - Content from camera
 
@@ -83,15 +79,13 @@ For watermarks to be available to the meeting organizer, they must be enabled in
 
 To configure watermarking for meetings
 
-1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
+1. In the Teams admin center, expand **Meetings** and select **Meeting policies** > **Content Protection**.
 
 1. Select the policy you want to update.
 
 1. To configure watermark on attendee video, set **Watermark videos** to **On** or **Off**.
 
 1. To configure watermark on content shared on screen in a meeting, set **Watermark shared content** to **On** or **Off**.
-
-    :::image type="content" alt-text="Screenshot of Teams admin policy for watermarks" source="media/watermark-admin-policy.png":::
 
 1. To set the watermark pattern or transparency, or see a preview, select **Edit settings**. Select **Apply** if you make changes.
 
@@ -109,8 +103,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowWatermarkForScreenSharing $True
 
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+- [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
-[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
-[Teams policies reference - Watermark](settings-policies-reference.md#watermark)
+- [Teams policies reference - Watermark](settings-policies-reference.md#content-protection)

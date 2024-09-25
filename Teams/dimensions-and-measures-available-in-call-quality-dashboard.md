@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp
-ms.date: 04/02/2024
+ms.date: 06/17/2024
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -13,6 +13,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -24,12 +25,12 @@ f1.keywords:
 ms.custom: 
  - Reporting
  - seo-marvel-mar2020
-description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
+description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams."
 ---
 
 # Dimensions and measurements available in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to understand the quality of calls made with these services. This article describes the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams allows you to understand the quality of calls made with these services. This article describes the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## First and Second endpoint classification
 
@@ -41,7 +42,7 @@ Many of the dimensions and measurements in CQD are labeled as first or second. T
 
 In the following example, each row represents a pair of User Agents involved in a stream:
 
-|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller
+|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller|
 |:--- |:--- |:--- |:--- |:--- |
 |AV-MCU |OC (Skype for Business client) |AV-MCU |OC (Skype for Business client) |TRUE |
 |OC (Skype for Business client) |AV-MCU |AV-MCU |OC (Skype for Business client) |FALSE |
@@ -78,7 +79,6 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 |064: [1 - 2) |1 minute < = stream duration < 2 minutes |
 |065: [2 - 3) |2 minutes < = stream duration < 3 minutes |
 |066: [3–4) |3 minutes < = stream duration < 4 minutes |
-|  | |
 
 The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
 
@@ -104,13 +104,12 @@ For example, the Network Connection Detail Pair shows the Network Connection Det
 |Wired : Wired |First and second endpoints both used wired ethernet connections. |
 |Wired : wifi | One endpoint used a wired ethernet connection and the other endpoint used a Wi-Fi connection. |
 |: wifi |One endpoint used a WiFi connection and the network connection used by the other endpoint is unknown. |
-| | |
 
 #### Blank values
 
 The table below describes why a dimension might be blank. Many dimensions and measurements are blank if the QoE Record Available dimension is false. Missing QoE typically occurs when the call isn't successfully established, or when the client fails to send its telemetry to the service.
 
-### Available dimensions 
+### Available dimensions
 
 The following table lists the dimensions currently available in CQD, in the order listed in the Query Editor used to create reports or edit previously defined reports.
 
@@ -277,8 +276,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Mediation Server Bypass Flag  | Boolean  | True if the media stream bypassed the Mediation Server and went straight between client and PSTN Gateway/PBX, False otherwise.   | &bull; Transport type wasn't reported <br/>&bull; The media path wasn't established    |
 | First CDR Connectivity Type  | Enumeration <br/>**Possible values:** <br/>&bull; OS <br/>&bull; PeerDerived <br/>&bull; Stun <br/>&bull; Turn  | Identifies the ICE connectivity path selected by the first endpoint for use for this stream. <br/> **Example value:** OS  | &bull; Transport type wasn't reported <br/>&bull; The media path wasn't established   |
 | Second CDR Connectivity Type  | Enumeration <br/>**Possible values:** <br/>&bull; OS <br/>&bull; PeerDerived <br/>&bull; Stun <br/>&bull; Turn  | Identifies the ICE connectivity path selected by the second endpoint for use for this stream.  <br/> **Example value:** OS   | &bull; Transport type wasn't reported <br/>&bull; The media path wasn't established   |
-|First BSSID|String | The Wireless LAN basic service set identifier of the First endpoint used to connect to the network.| |
-| Second BSSID| String|The Wireless LAN basic service set identifier of the Second endpoint used to connect to the network.| |
+|First BSSID|String | The Wireless LAN basic service set identifier of the First endpoint used to connect to the network. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| |
+| Second BSSID| String|The Wireless LAN basic service set identifier of the Second endpoint used to connect to the network. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| |
 | First Base Address | String | IP address of the interface that the first endpoint used for allocating media relay candidates. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. <br/> **Example value:** 10.0.0.10 | &bull; Transport Diagnostic type wasn't reported <br/>&bull; The media path wasn't established |
 | Second Base Address | String | IP address of the interface that the second endpoint used for allocating media relay candidates. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. <br/> **Example value:** 10.0.0.10 | &bull; Transport Diagnostic type wasn't reported <br/>&bull; The media path wasn't established |
 | First Local Address | String | IP address that the first endpoint used for media flow at the end of media connectivity checks. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. <br/> **Example value:** 10.0.0.10 | &bull; Transport Diagnostic type wasn't reported <br/>&bull; The media path wasn't established |
@@ -317,6 +316,14 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Recv AV Sync Distance Std Dev| Milliseconds | The standard deviation of the difference in audio/video sync delay for the second endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission.||
 | Outbound Bit Rate Avg | Kilobits per second (Integer) | The average bit rate of the outbound audio stream in kbps. Must be used with Stream Direction. | &bull; The stream wasn't an audio stream.|
 | Network Score | Range (Decimal) | Network Score is a value computed from network round-trip time, packet loss, and jitter. It is a ranking of the network quality for a Teams call or stream in a single number, with higher values being better.||
+| First Web Network Receive Good Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as good on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Receive Good Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as good on the second endpoint | &bull; Endpoint wasn't using the Teams Web client | 
+| First Web Network Receive Bad Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as bad on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Receive Bad Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as bad on the second endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| First Web Network Send Good Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as good on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Send Good Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as good on the second endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| First Web Network Send Bad Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as bad on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Send Bad Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as bad on the second endpoint | &bull; Endpoint wasn't using the Teams Web client |
 |**Device**| |||
 | First Capture Dev  | String  | Name of the capture device used by the first endpoint. For: <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000)  | &bull; The endpoint didn't report the data <br/>&bull; The media path wasn't established <br/>&bull; The stream was video-based screen sharing or application sharing.  |
 | Second Capture Dev  | String  | Name of the capture device used by the second endpoint.  <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000) | <br/>&bull; The endpoint didn't report data <br/>&bull; Media path wasn't established <br/>&bull; The stream was video-based screen sharing or application sharing   |
@@ -372,6 +379,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | First WiFi Battery Charge  | Range (percentage)  | Estimated remaining battery charge in percentage [0-99] reported by the first endpoint. Values grouped by range. 0 indicates that the device was plugged in. <br/> **Example value:** 081: [90 - 100) | &bull; WiFi wasn't used <br/>&bull; The charge value wasn't reported   |
 | Second WiFi Battery Charge  | Range (percentage)  | Estimated remaining battery charge in percentage [0-99] reported by the second endpoint. Values grouped by range. 0 indicates that the device was plugged in.  <br/> **Example value:** 081: [90 - 100) | &bull; WiFi wasn't used <br/>&bull; The charge value wasn't reported  |
 |**Metrics**||||
+| First Web Max Session Bandwidth | Range (Kbps) | Displays the lower of either the default bandwidth limit or the bandwidth limit set by tenant policy for the Teams web client on the first endpoint | &bull; Endpoint wasn't using the Teams Web client. |
+| Second Web Max Session Bandwidth | Range (Kbps) | Displays the lower of either the default bandwidth limit or the bandwidth limit set by tenant policy for the Teams web client on the second endpoint | &bull; Endpoint wasn't using the Teams Web client. |
 | Audio Degradation Avg  | Range (Mean opinion score 0-5) | Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter impact the quality of received audio. Not for use with SATIN or WebRTC/VDI. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02) | &bull; The endpoint receiving the stream reported no network MOS degradation <br/>&bull; The stream isn't an audio stream.   |
 | Jitter  | Range (millisecond)  | Average jitter for stream in milliseconds. Values grouped by range. <br/> **Example value:** 065: [2 - 3)  | &bull; The endpoint receiving the stream reported no jitter data |
 | Jitter Max  | Range (millisecond)  | Maximum jitter for stream in milliseconds. Values grouped by range. <br/> **Example value:** 065: [2 - 3) | &bull; The endpoint receiving the stream reported no jitter data   |
@@ -431,6 +440,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second System Memory Resource Usage Max|	Range (percentage)|	The maximum value of the system's overall memory usage measured for the second endpoint.||
 | First Process Memory Resource Usage Max	|Range (percentage)	|The maximum value of the memory usage by the Teams process measured for the first endpoint.||
 | Second Process Memory Resource Usage Max|	Range (percentage)|	The maximum value of the memory usage by the Teams process measured for the second endpoint.||
+| First Web Time Muted In Client | Range (milliseconds) | The amount of time in milliseconds the user was muted in the Teams web client on the first endpoint. | &bull; Endpoint wasn't using the Teams Web client. |
+| Second Web Time Muted In Client | Range (milliseconds) | The amount of time in milliseconds the user was muted in the Teams web client on the first endpoint. | &bull; Endpoint wasn't using the Teams Web client. |
 |**Audio**||||
 | Audio FEC Used  | Boolean  | True indicates that audio forward error correction (FEC) is used at some point during the call. False otherwise     | &bull; The stream wasn't an audio stream <br/>&bull; The endpoint sending the stream didn't report the data  |
 | First Audio Render Device In Use  | String  | Indicates which hardware device is used for playback of the audio stream on the first endpoint.  | <br/>&bull; The endpoint didn't report the data  |
@@ -548,6 +559,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Device Multiple Endpoints Event Count  | Range (ratio)  | Number of times during the call that the second endpoint detected multiple endpoints in the same room or acoustic environment. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; The second endpoint didn't report data |
 | First Device Howling Event Count  | Range (ratio)  | Number of times during the call that the first endpoint detected two or more endpoints in the same room that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Stream was a non-audio stream <br/>&bull; The first endpoint didn't report data |
 | Second Device Howling Event Count  | Range (ratio)  | Number of times during the call that the second endpoint detected two or more endpoints in the same room or acoustic environment that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; The second endpoint didn't report data |
+| First Web Video Capture Device Failure Event Count | Integer | The number of times the video capture device reported a failure on the first Teams web client endpoint. | &bull; User wasn't using the Teams Web client. |
+| Second Web Video Capture Device Failure Event Count | Integer | The number of times the video capture device reported a failure on the second Teams web client endpoint. | &bull; User wasn't using the Teams Web client. |
 |**Call Diagnostic**||||
 | Error Report Sender  | String  | Indicates which endpoint sent the call error report for the stream. This report contains telemetry that might indicate call setup or call drop issues with the call. <br/> **Example value:** First | &bull; Indicates no call error report was received.  |
 | Is Media Error  | String  | Indicates if the call error report for the stream was a media level error or not. This report contains telemetry that might indicate call setup or call drop issues with the call.    | &bull; Indicates no call error report was received. |
@@ -564,6 +577,7 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Call Setup Failure Reason  | Enumeration  | Classification of why media connection couldn't be established for a call. <br/>**Possible values:** <br/> **Missing FW Deep Packet Inspection Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established due to deep packet inspection rules, possibly due to proxy or firewall rules not being correctly configured. <br/> **Missing FW IP Block Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established to the Office 365 network, possibly due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Skype for Business traffic. <br/> **Other** - indicates the media path for the call couldn't be established but the root cause couldn't be classified. <br/> Not Media Failure - indicates no issue is detected with the establishment of the media path.  | &bull; Call setup failed due to an unknown media issue  |
 | Session Type  | Enumeration <br/>**Possible values:** <br/> Conf, P2P  | Indicates if the call session type was a meeting (Conf) or peer-to-peer call (P2P) scenario. <br/> **Example value:** Conf | |
 | CDR Response Reason  | Enumeration <br/>**Possible values:** <br/> 0 or 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" <br/> All other CDR codes = "Other" | Provides the reason for a call session concluding, whether the call was successful or not, and allows for differentiation between incomplete calls (no answer, busy, declined) and failed calls (media establishment). 410 errors might not always correlate with a 'Failure' classification; due to identified exclusions, they might not be considered an impacting media failure. <br/> **Example value:** OK | <br/>&bull; A value of "Other" implies response code isn't diagnostically useful outside of Microsoft's engineering teams |
+| Session Id  | String  | Unique identifier for the session. A session represents communication between two endpoints, either user-user in peer-to-peer calls or user-server in group calls/meetings. | |
 |**DNS**||||
 | First DNS Suffix  | String  | DNS suffix associated with the network adapter reported by the first endpoint. Note this value might be reported for any type of network adapter. **Example value:** corp<span></span>.contoso<span></span>.com  | <br/>&bull; This value wasn't reported by the endpoint <br/>  |
 | Second DNS Suffix  | String  | DNS suffix associated with the network adapter reported by the second endpoint. Note this value might be reported for any type of network adapter.<br/> **Example value:** corp<span></span>.contoso<span></span>.com   | <br/>&bull; This value wasn't reported by the endpoint  |
@@ -595,6 +609,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
 | Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 | PII Scrubbed | Boolean | Indicates if the end-user identifiable information was scrubbed from the record. This happens automatically after a record is 28 days old. ||
+| First Is VPN Combined | Boolean | Indicates if Teams determined the first endpoint was connected to a VPN when it received the stream, combining several detection criteria | |
+| Second Is VPN Combined | Boolean | Indicates if Teams determined the second endpoint was connected to a VPN when it received the stream, combining several detection criteria | |
 |**Devices**||||
 | First Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
@@ -617,6 +633,10 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Video Frame Rate Avg | Range (frames per second) | Average rate in frames-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
 | First Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the first endpoint. | &bull; Stream isn't a video stream |
 | Second Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
+| First Time To First Frame | Range (milliseconds) | The number of milliseconds between the video subscription and the first frame of the stream received by the first endpoint. | &bull; Stream is not a video stream |
+| Second Time To First Frame | Range (milliseconds) | The number of milliseconds between the video subscription and the first frame of the stream received by the second endpoint. | &bull; Stream is not a video stream |
+| First Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the first endpoint at any point of the call. | &bull; Stream is not a video stream|
+| Second Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the second endpoint at any point of the call. | &bull; Stream is not a video stream|
 |**PSTN**||||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it's false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Second PSTN Country Region|String|If FirstIsCaller is false, Second PSTN Country Region is the caller's country. If it's true, then First PSTN Country region is the caller's country.<br/>**Example:** US||
@@ -672,16 +692,22 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |Teams Events Attendee Stream Buffering Rate|Range (Ratio)|Indicates the ratio of the stream spent waiting for video buffering versus the overall stream playback time.||
 |Teams Events Attendee Average Stream Download Bit Rate|Integer (bits/second)|The length of the stream viewed by the user, in seconds.||
 |**VDI**||||
-|First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Provider Version| String | The VDI provider client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Is Optimized| String | Indicates if the first endpoint's VDI client is operating in optimized mode. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Is Optimized| String | Indicates if the second endpoint's VDI client is operating in optimized mode. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. <br/> **Example:** 24165.1414.2987.41 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. <br/> **Example:** 24165.1414.2987.41 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix]` `[3 for VMware]` `[5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]` `[1 optimized with WebRTC]` `[2 optimized with SlimCore]`| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix]` `[3 for VMware]` `[5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]` `[1 optimized with WebRTC]` `[2 optimized with SlimCore]` | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint. <br/> **Example:** Connected | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint. <br/> **Example:** Connected | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. <br/> **Example:** 24.2.0.187 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Provider Version| String | The VDI provider client version of the second endpoint. <br/> **Example:** 24.2.0.187 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Is Optimized| String | Indicates if the first endpoint's VDI client is operating in optimized mode. <br/> **Example:** VDI 2.0 Optimized | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Is Optimized| String | Indicates if the second endpoint's VDI client is operating in optimized mode. <br/> **Example:** VDI 2.0 Optimized | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI OS Version| String | Version of the operating system running on the first VDI client endpoint. <br/> **Example:** 10.0.19045 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI OS Version| String | Version of the operating system running on the second VDI client endpoint. <br/> **Example:** 10.0.19045 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Media Stack Version| String | Version of the SlimCore media engine running on the first VDI client endpoint. <br/> **Example:** 2024.14.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Media Stack Version| String | Version of the SlimCore media engine running on the second VDI client endpoint. <br/> **Example:** 2024.14.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Plugin Version| String | Version of the Teams plugin for the first VDI client endpoint. <br/> **Example:** 2024.15.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Plugin Version| String | Version of the Teams plugin for the second VDI client endpoint. <br/> **Example:** 2024.15.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |**Datapair**||||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This might happen if the call couldn't be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent wasn't a known type  |
@@ -796,6 +822,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |Second Speaker Device Failure Rate |Percentage |Percentage of all audio stream in which an audio render device failure is detected on the second endpoint. |
 |Avg Call Duration |Seconds |Average duration of streams in seconds. |
 |Total Audio Stream Duration (Minutes) |Minutes |Total audio stream duration in minutes in the selected time range. |
+|Total Stream Duration (Minutes) | Minutes | The total duration of streams as measured in minutes based on the selected filters. Can be filtered to specific Media Types and Stream Directions for increased precision.|
 |First Feedback Rating Avg |User rating (1-5) |Average rating of streams reported by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
 |Second Feedback Rating Avg |User rating (1-5) |Average rating of streams reported by the user using the second endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
 |First Feedback Rating Count |Number of rated streams |Number of streams rated by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
@@ -887,6 +914,22 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg First Send Mute Percent |Percentage|Average of the percentage of the audio stream that's muted from the first endpoint. |
 | Avg Second Send Mute Percent |Percentage|Average of the percentage of the audio stream that's muted from the second endpoint. |
+| Avg First System CPU Resource Usage Average | Percentage | The average of the system's average overall CPU usage measured for the first endpoint. |
+| Avg Second System CPU Resource Usage Average | Percentage | The average of the system's average overall CPU usage measured for the second endpoint. |
+| Avg First Process Memory Resource Usage Average | Percentage | The average of the average memory usage by the Teams process measured for the first endpoint. |
+| Avg Second Process Memory Resource Usage Average | Percentage | The average of the average memory usage by the Teams process measured for the second endpoint. |
+| Avg First System CPU Resource Usage Max | Percentage | The average of the maximum values of the system's overall CPU usage measured for the first endpoint. |
+| Avg Second System CPU Resource Usage Max | Percentage | The average of the maximum values of the system's overall CPU usage measured for the second endpoint. |
+| Avg First Process Memory Resource Usage Max | Percentage | The average of the maximum value of the memory usage by the Teams process measured for the first endpoint. |
+| Avg Second Process Memory Resource Usage Max | Percentage | The average of the maximum value of the memory usage by the Teams process measured for the second endpoint. |
+| Avg First System Memory Resource Usage Average | Percentage | The average of the system's average overall memory usage measured for the first endpoint. |
+| Avg Second System Memory Resource Usage Average | Percentage | The average of the system's average overall memory usage measured for the second endpoint. |
+| Avg First System Memory Resource Usage Max | Percentage | The average of maximum values of the system's overall memory usage measured for the first endpoint. |
+| Avg Second System Memory Resource Usage Max | Percentage | The average of maximum values of the system's overall memory usage measured for the second endpoint. |
+| Avg First Process CPU Resource Usage Average | Percentage | The average of the average CPU usage by the Teams process measured for the first endpoint. |
+| Avg Second Process CPU Resource Usage Average | Percentage | The average of the average CPU usage by the Teams process measured for the second endpoint. |
+| Avg First Process CPU Resource Usage Max | Percentage | The average of the maximum values of the CPU usage by the Teams process measured for the first endpoint. |
+| Avg Second Process CPU Resource Usage Max | Percentage | The average of the maximum values of the CPU usage by the Teams process measured for the second endpoint. |
 | First User Count|Number | Number of unique or distinct first endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Second User Count|Number|Number of unique or distinct second endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
@@ -928,6 +971,18 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Healed Data Ratio Value | Percentage (Decimal) | Percentage of the audio stream in which the audio healer on the second endpoint is invoked, averaged across the number of streams in a given row. High HDR indicates that the client expected audio but Teams didn't have any content to play back. High healer usage is experienced by end-users as choppy audio. This measurement isn't currently reported by WebRTC-based clients. |
 | Avg First Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the first endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
 | Avg Second Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the second endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
+| Avg First Roaming Count | Integer | Average of instances where the first endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
+| Avg Second Roaming Count | Integer | Average of instances where the second endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
+| Avg First Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the first endpoint. |
+| Avg Second Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the second endpoint. |
+| Avg First Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the first endpoint. A positive value would mean that audio arrived later than the video. |
+| Avg Second Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the second endpoint. A positive value would mean that audio arrived later than the video. |
+| Avg First Recv AV Sync Distance Max | Milliseconds | The average of the maximum difference value of how much video or VBSS is ahead of the audio for the first endpoint in milliseconds. |
+| Avg Second Recv AV Sync Distance Max | Milliseconds | The average of the maximum difference value of how much video or VBSS is ahead of the audio for the second endpoint in milliseconds. |
+| Avg First Recv AV Sync Distance Min | Milliseconds | The average of the minimum difference value of how much video or VBSS is ahead of the audio for the first endpoint in milliseconds. |
+| Avg Second Recv AV Sync Distance Min | Milliseconds | The average of the minimum difference value of how much video or VBSS is ahead of the audio for the second endpoint in milliseconds. |
+| Avg First Recv AV Sync Distance Std Dev | Milliseconds | The average of the standard deviation of the difference in audio/video sync delay for the first endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission. |
+| Avg Second Recv AV Sync Distance Std Dev | Milliseconds | The average of the standard deviation of the difference in audio/video sync delay for the second endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission. |
 | Avg First Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the first capture device as measured in dBFS. |
 | Avg Second Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the second capture device as measured in dBFS. |
 | Avg First Input Speech Level | dBFS (Decimal) |The RMS level of the speech detected in the audio signal Teams receives from the first capture device as measured in dBFS. |
@@ -951,7 +1006,7 @@ You can use many Dimension and Measurement values as filters. You can use filter
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 

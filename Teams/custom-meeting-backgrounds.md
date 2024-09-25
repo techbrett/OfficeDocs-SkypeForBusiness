@@ -93,6 +93,9 @@ You can find previews of your uploaded images in a new table under the **Meeting
 
 ## Choose a preset background
 
+> [!IMPORTANT]
+> You can't configure the **Set as required** and **Apply background blur when no effect is selected** settings within a single policy.
+
 You can choose a preset background for your users in the Teams admin center. Users with this policy are restricted to the chosen background and can't change it.
 
 To choose a preset background, follow these steps:
@@ -101,7 +104,7 @@ To choose a preset background, follow these steps:
 2. Under Meetings, select **Customization policies** to select an existing policy or create a new one.
 3. Within your chosen policy, navigate to the **Meeting backgrounds** section.
 4. Select your desired uploaded background in the table.
-5. Next to the +Add button, select the **Set as default** button.
+5. Next to the +Add button, select the **Set as required** button.
 6. Select **Save**.
 
 ## Require users to only use the backgrounds you upload
@@ -120,6 +123,10 @@ To only show the custom backgrounds that you upload, follow these steps:
 
 > [!NOTE]
 > You must set **Participants can use video effects** to **Off** or **Only background blur** to only show your custom backgrounds in your users' gallery.
+
+When custom backgrounds are required, users with this assigned policy can't view their own uploaded backgrounds. For your users to access and delete their personally uploaded images, they can navigate to the following file path and delete their images from there:  
+
+`C:\Users\{username}\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds\Uploads`
 
 ## Apply a blur for users with no backgrounds
 
