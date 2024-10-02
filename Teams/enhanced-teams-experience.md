@@ -244,6 +244,41 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
 | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
+## Advanced Places Workplace Collaboration
+
+With a Teams Premium license, your users can experience [PLACEHOLDER EDIT LATER: advanced features that support advanced booking, space analytics] in Places. [PLACEHOLDER EDIT LATER: As an admin, you get advanced management capabilities].
+
+Teams Premium provides the following advanced capabilities in Places:
+
+- **Places finder** - Your users can book and check into workspaces, as well as use seat assignments to sit near collaborators.
+- **AI Suggestion prompts** - ?? [ CANT FIND DOCS ON THIS OR COPILOT IN PLACES- IS THIS BAKED INTO OTHER DOCS?]
+- **Places analytics** - You can learn which desks and rooms are most frequently used, and get suggestions on how to optimize space management. You can also identify trends for key buildings, bookable rooms, and shared work spaces
+- **Connect building occupancy signals** - Use existing sensor data to enhance Microsoft Places analytics reports by combining the actual and intended usage of your users' conference rooms and buildings.
+- **Auto release for rooms** - If a room that you enable for auto release isn't being used, Teams and Places free up the room for others to reserve.
+- **Create desk pools and workspaces** - Create groups of desks to manage together. Your users can reserve desk pools to work when they visit the office.
+- **Places explorer** - ?? [ CANT FIND DOCS ON THIS]
+- **Integrate with Viva's Team execution dashboard** - ?? [ CANT FIND DOCS ON THIS]
+- **Integrate with Viva Pulse** - ?? [ CANT FIND DOCS ON THIS]
+- **Integrate with Viva Insights** - ?? [ CANT FIND DOCS ON THIS]
+- **Microsoft 365 Copilot in Places** - ?? [ CANT FIND DOCS ON THIS]
+
+This article helps you create desk pools to enable desk booking for your organization. Once you know how your desk pools look, and how many desks are in each pool, you can create them for your users to book in-office workdays. Changes to desk pools reflect in approximately 24 to 48 hours.
+
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
+| -------------------- | ----------- | ----------- |----------- |
+| Places finder| Yes| [Enabling Microsoft Places Finder in Outlook](/microsoft-365/places/enabling-places-finder) | [Where will I see Microsoft Places Finder when enabled?](/microsoft-365/places/enabling-places-finder#where-will-i-see-microsoft-places-finder-when-enabled)|
+| Places analytics| Yes, remove places from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | No end user control|
+| Connect building occupancy signals| Yes, remove places from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Connecting building occupancy signals](/microsoft-365/places/connected-buildings) | No end user control|
+| Auto release for rooms| Yes??[IS THIS TRUE?]|[How to enable specific rooms for Auto Release](/microsoft-365/places/enable-auto-release#how-to-enable-specific-rooms-for-auto-release) | [Overview of Auto Release](/microsoft-365/places/enable-auto-release#overview-of-auto-release)|
+| Create desk pools and workspaces| Yes??[IS THIS TRUE?]|[Configure desk pools and workspaces (optional)](/microsoft-365/places/setting-up-desk-workspaces-in-places-finder) | [IS THERE AN END USER DOC ON RESERVING DESKS/ DESK POOLS??](??)|
+| AI suggestion prompts| ??| [??](??) | [??](??)|
+| Places explorer| ??| [??](??) | [??](??)|
+| Integrate with Viva's Team execution dashboard| ??| [??](??) | [??](??)|
+| Integrate with Viva Pulse| ??| [??](??) | [??](??)|
+| Integrate with Viva Insights| ??| [??](??) | [??](??)|
+| Microsoft 365 Copilot in Places| ??| [??](??) | [??](??)|
+
+
 ## Calls
 
 ### Intelligent call recap
