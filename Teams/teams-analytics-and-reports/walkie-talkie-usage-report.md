@@ -24,9 +24,10 @@ appliesto:
 ---
 # Walkie Talkie usage and performance report
 
-The Walkie Talkie usage and performance report in the Microsoft Teams admin center gives you an overview of [Walkie Talkie](../walkie-talkie.md) activity in your organization. The report provides information such as the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details. You can choose a predefined date range or set a custom date and time range for the report.
+The Walkie Talkie usage and performance report in the Microsoft Teams admin center gives you an overview of [Walkie Talkie](../walkie-talkie.md) activity in your organization. The report provides information such as the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.
 
-Use this report to gain insight into Walkie Talkie usage trends and performance in your organization.
+You can choose a predefined date range or set your own custom date and time range for the report. Use this report to gain insight into Walkie Talkie usage trends and performance in your organization.
+
 To access the report, you must be a Teams Administrator, Global Reader, Report Reader, or Global Administrator.
 
 > [!IMPORTANT]
@@ -35,7 +36,7 @@ To access the report, you must be a Teams Administrator, Global Reader, Report R
 ## Download and view the report
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Walkie Talkie usage and performance**.
-1. Under **Date range**, select a predefined range or set a custom date and time range. You can set a custom range to show data up to 30 days before the current date.
+1. Under **Date range**, select a predefined range or set a custom date and time range. You can set a range to show data up to 30 days before the current date.
 1. Select **Run report**.
 1. On the **Downloads** tab, under **Status**, choose **Download** to download the report in CSV format.
 
