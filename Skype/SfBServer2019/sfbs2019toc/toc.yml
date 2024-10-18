@@ -985,7 +985,7 @@
           href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Emergency Mitigation Service
           href: ../emergency-mitigation-service-overview.md
-        - name: Control Panel
+        - name: Modern Admin Control Panel
           href: ../../SfbServer2019/control-panel-overview.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Authentication
           href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
