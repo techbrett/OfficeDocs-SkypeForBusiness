@@ -29,9 +29,6 @@ You can specify several options for Persistent Chat Server that can be applied g
     
 - Room Management URL. The URL used for custom chat room management. The setting allows the use of a custom room management solution. 
    
-> [!NOTE] 
-> Persistent chat is available in Skype for Business Server but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server.
- 
 ## Configure Persistent Chat Server global options
 
 To configure Persistent Chat Server global options:
