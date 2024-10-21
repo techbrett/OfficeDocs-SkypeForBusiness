@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: dimehta
-ms.date: 09/17/2024
+ms.date: 09/30/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -40,17 +40,17 @@ Shared Teams devices can't use the same requirements for enrollment and complian
 
 1.  **Devices are signed out due to password policies.**
 
-Accounts used on Teams devices have a password-expiration policy. The accounts used with shared devices don't have a specific user to update and restore them to a working state when their passwords expire. If your organization requires passwords to expire and reset occasionally, these accounts stop working on Teams devices until a Teams administrator resets the password and signs back in.
+    Accounts used on Teams devices have a password-expiration policy. The accounts used with shared devices don't have a specific user to update and restore them to a working state when their passwords expire. If your organization requires passwords to expire and reset occasionally, these accounts stop working on Teams devices until a Teams administrator resets the password and signs back in.
 
-**Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
+    **Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
 
-When your organization requires a password reset or enforces password expiration, be sure a Teams administrator is prepared to reset the password so these shared accounts can sign back in.
+    When your organization requires a password reset or enforces password expiration, be sure a Teams administrator is prepared to reset the password so these shared accounts can sign back in.
 
 2.  **Devices fail to sign in due to conditional access policies.**
 
-**Challenge**: Shared devices can't comply with Microsoft Entra Conditional Access policies for user accounts or personal devices. If shared devices are grouped with user accounts or personal devices for a Conditional Access policy, the sign-in will *fail*.
+    **Challenge**: Shared devices can't comply with Microsoft Entra Conditional Access policies for user accounts or personal devices. If shared devices are grouped with user accounts or personal devices for a Conditional Access policy, the sign-in will *fail*.
 
-For example, if multifactor authentication is required for accessing Teams, user entry of a code is needed to complete that authentication. Shared devices don't generally have a single user that can configure and complete multifactor authentication. Also, if the account must reauthenticate every X days, a shared device can't resolve the challenge without a user's intervention.
+    For example, if multifactor authentication is required for accessing Teams, user entry of a code is needed to complete that authentication. Shared devices don't generally have a single user that can configure and complete multifactor authentication. Also, if the account must reauthenticate every X days, a shared device can't resolve the challenge without a user's intervention.
 
 ## Best practices for the deployment of shared android devices with Teams
 
@@ -86,7 +86,7 @@ If shared devices are provisioned in a well-defined location that can be identif
 
 If you're enrolling shared devices into Intune, you can configure device compliance as a control in Conditional Access so that only compliant devices can access your corporate resources. Teams devices can be configured for Conditional Access policies based on device compliance. For more information, see [Conditional Access: Require compliant or Microsoft Entra hybrid joined device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
 
-To set compliance setting for your devices using Intune, see [Use compliance policies to set rules for devices you manage with Intune](/intune/protect/device-compliance-get-started).
+To set compliance setting for your devices using Intune, see [Use compliance policies to set rules for devices you manage with Intune](/mem/intune/protect/device-compliance-get-started).
 
 >[!NOTE]
 > Shared devices being used for *hot-desking* should be excluded from compliance policies. Compliance polices prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
