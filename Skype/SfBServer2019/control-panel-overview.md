@@ -25,6 +25,6 @@ The legacy Control Panel might not work as Silverlight technology reached the "e
 > [!NOTE]
 > We recommend you don't use the legacy Control Panel anymore, and disable it. For information on how to disable the legacy Control Panel, see [Disable Legacy Control Panel (CSCP)](/SkypeForBusiness/plan/disable-legacy-control-panel).
 
-## Access Control Panel
+## Access Modern Admin Control Panel
 
-To launch the new Control Panel in the browser, enter https://&lt;pool-FQDN&gt;/macp or a configured simple URL.
+To launch Modern Admin Control Panel in the browser, enter https://&lt;pool-FQDN&gt;/macp or a configured simple URL.
