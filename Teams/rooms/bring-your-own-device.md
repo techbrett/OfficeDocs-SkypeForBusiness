@@ -152,6 +152,10 @@ At launch, only displays are supported, but USB audio/video peripherals will fol
 
 Be aware that Microsoft can't guarantee that devices provide unique data like serial numbers, and this may cause errors or overcounting of usage. We recommend working with your OEM partners to ensure that their devices are providing unique serial numbers to the operating system via the USB descriptor or EDID.
 
+### Enabling automatic work location updates
+
+You have the option to [enable the automatic work location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy) for your organization or for a group of users. Automatic work location updates are designed to enhance the end user experience by making it easier to keep their work location up-to-date and connect with others when they are in the office. With the policy enabled, users will have the option to enable automatic work location updates. They can do so in Teams desktop client under **Settings** > **Privacy** > **Sharing your work location**. After users have opted-in, their work location will automatically update to **In the office** when they connect to a BYOD room, provided their work location was previously set to unknown or remote. The detected location will last until the end of their working hours. If they plug in after work hours, the location will be set until 11:59pm that day. This feature allows for a seamless transition between remote and in-office work, which enhances collaboration and communication within your team and other users.
+
 ## Bring Your Own Device Usage Report 
 
 > [!IMPORTANT]
@@ -225,7 +229,3 @@ This setting option enables admins to delete all device management data for a sp
 ### Inventory management permission
 
 The inventory management permission in Teams Pro Management portal allows other users to view and manage the inventory management. You can create roles and grant other users permission to access inventory management and associate peripherals to rooms or desks.
-### Enabling automatic work location updates
-
-You have the option to [enable the automatic work location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy) for your organization or for a group of users. Automatic work location updates are designed to enhance the end user experience by making it easier to keep their work location up-to-date and connect with others when they are in the office. With the policy enabled, users will have the option to enable automatic work location updates. They can do so in Teams desktop client under **Settings** > **Privacy** > **Sharing your work location**. After users have opted-in, their work location will automatically update to **In the office** when they connect to a BYOD room, provided their work location was previously set to unknown or remote. The detected location will last until the end of their working hours. If they plug in after work hours, the location will be set until 11:59pm that day. This feature allows for a seamless transition between remote and in-office work, which enhances collaboration and communication within your team and other users.
-
