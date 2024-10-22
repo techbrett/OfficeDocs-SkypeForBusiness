@@ -22,8 +22,14 @@ description: Learn about Copilot in Microsoft Teams
 
 # Copilot in Microsoft Teams
 
-Team Copilot is inherently multiplayer in that it includes shared output, where all users in the mode see the exact same synthesis.
+XXX COPILOT FOR TEAMS, OR TEAMS COPILOT? TARGET THE NAME
 
+Teams Copilot is a collaborative meeting agent available to you and your team to use in meeting scenarios. It combines the power of large language models (LLMs) with Teams data to provide summaries and answer questions in real-time to help you stay productive in the work place.  
+
+- Chat 
+- Meetings
+
+XXX DISTILLED FROM THE SPEC:
 
 Microsoft Teams is introducing Copilot to provide a shared summary, or a synthesis, of a of the most important information in a single mode (one chat, channel post, or meeting). Information from that mode is synthesized into a shared canvas, which keeps everyone in the mode on the same page as the conversation happens. Users focus on communicating naturally and Team Copilot synthesizes that communication into output. Team Copilot is an active synthesis of ongoing work.
 
@@ -40,13 +46,29 @@ A synthesis of information refers to the process of combining multiple sources o
 
 The goal of information synthesis is to create a more complete and nuanced understanding of a topic or subject by pulling together diverse strands of evidence or perspectives.
 
+## Prerequisites
+
+Copilot for Teams requires a copilot license for all users (XXX is it a per-org license or a per-user license?). It also requires admins opt-in to turn on group copilot skills for copilot license users.
+
+### Opt-in steps
+
+XXX WHAT ARE OPT-IN STEPS
+
+## Turn on Copilot for Teams for chats and meetings
+
+- Manage App: https://learn.microsoft.com/en-us/microsoftteams/manage-apps.
+  - Under **Teams Apps**, select **Manage Apps**.
+  - Enter **Copilot** or **Teams Copilot**.
+  - AI Notes is enabled when GCP is enabled. XXX WE NEED TO DEFINE GCP
+- App polices (for the whole tenant or select group of users): https://learn.microsoft.com/en-us/microsoftteams/teams-app-permission-policies.
+  - Add to the specific set of users.
+- Refer to video recording for more details. XXX WHAT VIDEO RECORDING?
+
 ## Security, Purview, and Privacy
 
-XXX Probably going to need some of this in here. Point to all-up MS policy links?
 
-## Configuring Copilot in Microsoft Teams
+XXX MORE NEEDED HERE.
 
-XXX Steps an admin will need to take to configure Copilot. Probably steps for permissioning in here at a minimum.
+GCP can use the same terms and conditions as PCP.
 
-
-
+[End-user link.](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-microsoft-teams-e8737767-4087-4ae6-b1d8-10264152b05a)
