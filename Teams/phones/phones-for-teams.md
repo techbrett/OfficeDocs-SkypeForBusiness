@@ -30,7 +30,7 @@ To deliver a high-quality and reliable Microsoft Teams experience on phones, we 
 
 To manage phones, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Features supported by Teams phones
@@ -64,19 +64,18 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 ## Deploy your phones using Intune
 
-To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams panels](phones-panels-deploy.md).
+To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams panels](../phones/phones-deploy.md).
 
 ## Manage your phones
 
-Manage and keep your Teams phones up-to-date using the Microsoft Teams admin center. For more information, see [Manage your devices in Teams](device-management.md).
+Manage and keep your Teams phones up-to-date using the Microsoft Teams admin center. For more information, see [Manage your devices in Teams](../devices/device-management.md).
 
 ## Upgrade your phones to Teams displays
 
-[Microsoft Teams displays](teams-displays.md) are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
+[Microsoft Teams displays](../devices/teams-displays.md) are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
 
 ## See also
 
 [Teams Marketplace](https://office.com/teamsdevices)
 
-[IP phones certified for Microsoft Teams](teams-ip-phones.md)
-
+[Certified Teams phones](../devices/teams-phones-certified-hardware.md)
