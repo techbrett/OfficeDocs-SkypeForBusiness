@@ -56,11 +56,11 @@ XXX WHAT ARE OPT-IN STEPS
 
 ## Turn on Copilot for Teams for chats and meetings
 
-- Manage App: https://learn.microsoft.com/en-us/microsoftteams/manage-apps.
+- [Manage App](manage-apps.md).
   - Under **Teams Apps**, select **Manage Apps**.
   - Enter **Copilot** or **Teams Copilot**.
   - AI Notes is enabled when GCP is enabled. XXX WE NEED TO DEFINE GCP
-- App polices (for the whole tenant or select group of users): https://learn.microsoft.com/en-us/microsoftteams/teams-app-permission-policies.
+- [App polices](teams-app-permission-policies.md) (for the whole tenant or select group of users).
   - Add to the specific set of users.
 - Refer to video recording for more details. XXX WHAT VIDEO RECORDING?
 
