@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: elaineho
-ms.date: 07/16/2024
+ms.date: 10/23/2024
 ms.topic: article
 audience: admin
 appliesto: 
@@ -19,9 +19,10 @@ f1.keywords:
   - NOCSH                           
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Learn more about how to set up Copilot and AI-based features in Microsoft Teams.
+description: Learn more about how to set up Copilot and AI-based features in Microsoft Teams Rooms.
 ---
-# Teams and Copilot overview
+
+# Teams Rooms and Copilot overview
 
 When you're considering deploying Copilot and AI-based features for your Teams users, there are many things to consider. The number and type of AI-based features is dependent on the type of license or licenses that you assign to your Teams users, the hardware you're using for Teams Rooms consoles, and the type of license assigned to your Microsoft Teams Rooms consoles.
 
@@ -50,13 +51,15 @@ To see more videos on [CoPilot, see Microsoft Mechanics--Podcast](<https://www.y
 
 Learn more: [Service Descriptions for Copilot](/copilot/microsoft-365/microsoft-365-copilot-requirements).
 
-### Provisioning users to use AI-based features in Teams Rooms
+## Admin set up
+
+Within your organization there are several settings that you'll either need to turn on (they're off by default) or verify that they're turned on to let end users get the full advantages of Copilot in Microsoft Teams. Settings like transcriptions, captioning, recording, voice isolation, voice enrollment are a few of the settings that you'll want to set up or turn on for your end users in your organization.
+
+### Assign your licenses
 
 After you've prepared your organization for Copilot, you can manage your Microsoft 365 licenses from the Microsoft 365 admin center. You can assign licenses to individual users or to groups of users, and reassign licenses to other users depending on the level of AI support that would be needed.
 
-In Teams, there are different types of user licenses that you must assign. First, you must assign at least one user license to your users (depending on what features you want available to your Teams users see in the table below). Second, to take advantage of all of the AI-based features you must assign a Microsoft Teams Pro license to each Teams Rooms console in your organization.
-
-### Feature vs license comparison
+#### Feature vs license comparison
 
 |**Feature**|**Microsoft Teams**|**Microsoft Teams Premium**|**Copilot for M365**|
 |:-----|:-----|:-----|:-----|
@@ -82,11 +85,7 @@ In Teams, there are different types of user licenses that you must assign. First
 
 Learn more: [Set up Copilot in Microsoft 365](/copilot/microsoft-365/microsoft-365-copilot-setup).
 
-## Admin set up
-
-Within your organization there are several settings that you'll either need to turn on (they're off by default) or verify that they're turned on to let end users get the full advantages of Copilot in Microsoft Teams. Settings like transcriptions, captioning, recording, voice isolation, voice enrollment are a few of the settings that you'll want to set up or turn on for your end users in your organization.
-
-### Assign your licenses
+In Teams, there are different types of user licenses that you must assign. First, you must assign at least one user license to your users depending on what features you want available to your Teams users. Second, to take advantage of all of the AI-based features you must then assign a Microsoft Teams Pro license to each Teams Rooms console in your organization.
 
 #### Assign user licenses
 
