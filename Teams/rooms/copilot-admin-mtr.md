@@ -166,7 +166,7 @@ Tell your users to set up a voice and face profile in the Teams app. Each person
 
 If you have turned on Face profiles in your organization, the **Create face profile** button is available to end users. By selecting the button, they can set up their face profile that is used in meetings.
 
-:::image type="content" source="../media/mtr-devices/voice-profile.png" alt-text="An image showing the setting for voice isolation in the Teams app." lightbox="../media/mtr-devices/voice-profile.png":::
+:::image type="content" source="../media/mtr-devices/voice-profile.png" alt-text="An image showing the setting for voice profile in the Teams app." lightbox="../media/mtr-devices/voice-profile.png":::
 
 Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
