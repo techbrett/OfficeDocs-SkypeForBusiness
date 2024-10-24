@@ -43,7 +43,7 @@ Copilot features for Excel, Word, PowerPoint, and OneNote work seamlessly for us
 
 Microsoft 365 Copilot ensures data security and privacy by adhering to existing obligations and integrating with your organization's policies. It utilizes your Microsoft Graph content with the same access controls as other Microsoft 365 services. To learn more about privacy with Microsoft 365 Copilot, see [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy).
 
-To get started with Microsoft 365 Copilot, see (Get started with Microsoft 365 Copilot - admin guide)[/copilot/microsoft-365/microsoft-365-copilot-setup].
+To get started with Microsoft 365 Copilot, see [Get started with Microsoft 365 Copilot - admin guide](/copilot/microsoft-365/microsoft-365-copilot-setup).
 
 ## Requirements for Microsoft 365 Copilot
 
@@ -86,7 +86,7 @@ Learn more: [Set up Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-
 
 In Teams, there are different types of user licenses that you must assign. First, you must assign at least one user license to your users depending on what features you want available to your Teams users. Second, to take advantage of all of the AI-based features you must then assign a Microsoft Teams Pro license to each Teams Rooms console in your organization.
 
-Learn more: (Understand licensing requirements for Microsoft 365 Copilot)[/copilot/microsoft-365/microsoft-365-copilot-licensing]
+Learn more: [Understand licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing)
 
 #### Assign user licenses
 
@@ -94,9 +94,9 @@ For business users, a user must have a Microsoft 365 Business Basic, Business 
 
 To assign and manage licenses, you can use the Microsoft 365 admin center.
 
-1. Sign in to the Microsoft 365 admin center, go to Marketplace and purchase Microsoft 365 Copilot from the list. 
+1. Sign in to the Microsoft 365 admin center, go to Marketplace and purchase Microsoft 365 Copilot from the list. =
 
-1.  After you purchase the subscription, go to **Billing** > **Licenses** > select **Microsoft 365 Copilot.**
+1. After you purchase the subscription, go to **Billing** > **Licenses** > select **Microsoft 365 Copilot.**
 
 1. In the product details page, assign the licenses to users and manage their access to Microsoft 365 Copilot and other apps and services.
 
@@ -116,7 +116,7 @@ To assign a Microsoft Teams Rooms Pro license, you can use the Microsoft 365 adm
    1. Sign in to the Microsoft 365 admin center and go to **Users** > **Active users** > Select the **resource account** you created earlier.
    1. In the right pane, select **Licenses and Apps**.
 
-Learn more: (Enable users for Microsoft 365 Copilot)[/copilot/microsoft-365/microsoft-365-copilot-enable-users].
+Learn more: [Enable users for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-enable-users).
 
 ### Update your Teams Rooms devices
 
@@ -124,13 +124,14 @@ Microsoft Teams Rooms supports speaker recognition in meeting transcripts. Howev
 
 To support these features, you want to verify that all Teams Rooms devices are updated and have the hardware to support speaker recognition.
 
-To update Teams Rooms running Windows, see Teams Rooms app and Windows versioning support -  [https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support](/microsoftteams/rooms/rooms-lifecycle-support).  Verify that all of your Teams Rooms are running the latest Windows updates.
+To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioning support](/microsoftteams/rooms/rooms-lifecycle-support).  Verify that all of your Teams Rooms are running the latest Windows updates.
 
-To update Teams Rooms running Android, see Teams Rooms on Android certified devices -  [https://learn.microsoft.com/en-us/microsoftteams/devices/certified-hardware-android?tabs=Android](/microsoftteams/devices/certified-hardware-android?tabs=Android). Verify that your consoles are running the latest firmware versions.
+To update Teams Rooms running Android, see [Teams Rooms on Android certified devices](/microsoftteams/devices/certified-hardware-android?tabs=Android). Verify that your consoles are running the latest firmware versions.
 
 > [!IMPORTANT]
 > Microsoft Teams Rooms on Android don't support Intelligent Speaker hardware or features.
-Learn more: [Certified Hardware](/microsoftteams/rooms/certified-hardware?tabs=Windows) and [Release notes](/microsoftteams/rooms/rooms-release-note?tabs=Windows).
+>
+>Learn more: [Certified Hardware](/microsoftteams/rooms/certified-hardware?tabs=Windows) and [Release notes](/microsoftteams/rooms/rooms-release-note?tabs=Windows).
 
 ### Voice and face enrollment
 
@@ -181,7 +182,8 @@ You can manage how voice and face profiles are used to turn off Voice Isolation 
 
 > [!CAUTION]
 > You need to turn off voice isolation if you are using Bring Your Own Device (BYOD) meeting rooms. If you don't, only one voice will be recognized and heard in the meeting.
-**Learn more:** [Manage voice isolation for your users](/microsoftteams/voice-isolation)
+>
+> Learn more: [Manage voice isolation for your users](/microsoftteams/voice-isolation)
 
 Voice Isolation is on by default in an organization. Check to make sure that it's on and if it isn't, you can use PowerShell to turn it on for all of your users.
 
@@ -349,13 +351,13 @@ You can use PowerShell to set this:
 Set-CsTeamsMeetingPolicy -Identity Global -SpeakerAttributionMode automatic
 ```
 
-## Set up and use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription
+### Set up and use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription
 
 If your organization's [Microsoft Teams Rooms](https://rooms.microsoft.com/) are equipped with Intelligent Speakers, you can hold meetings where in-room participants can be identified in live transcription. During the meeting, all participants can then easily see who's saying what, and the post-meeting transcript identifies both remote and in-room attendees.
 
 Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
-### Enable Intelligent Speaker user recognition
+#### Enable Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](/microsoftteams/rooms/voice-and-face-recognition) and the [PowerShell meeting cmdlets](/microsoftteams/teams-powershell-overview) for information on the meeting settings.
 
@@ -366,6 +368,6 @@ Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomAttributeUserOverride Attri
 ```
 ## Related articles
 
-- (Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center)[/copilot/microsoft-365/microsoft-365-copilot-page]
-- (Manage Microsoft 365 Copilot in Teams meetings and events)[/microsoftteams/copilot-teams-transcription]
-- (Microsoft 365 reports in the admin center – Microsoft 365 Copilot usage)[/microsoft-365/admin/activity-reports/microsoft-365-copilot-usag]
+- [Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center]([/copilot/microsoft-365/microsoft-365-copilot-page)
+- [Manage Microsoft 365 Copilot in Teams meetings and events](/microsoftteams/copilot-teams-transcription)
+- [Microsoft 365 reports in the admin center – Microsoft 365 Copilot usage](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usag)
