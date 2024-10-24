@@ -370,4 +370,4 @@ Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomAttributeUserOverride Attri
 
 - [Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center]([/copilot/microsoft-365/microsoft-365-copilot-page)
 - [Manage Microsoft 365 Copilot in Teams meetings and events](/microsoftteams/copilot-teams-transcription)
-- [Microsoft 365 reports in the admin center – Microsoft 365 Copilot usage](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usag)
+- [Microsoft 365 reports in the admin center – Microsoft 365 Copilot usage](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
