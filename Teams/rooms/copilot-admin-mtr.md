@@ -39,10 +39,6 @@ There are four separate sets of AI-based features that can be deployed to your u
 
 Microsoft 365 provides the ability for users to find and access their content through natural language prompting. Copilot ensures data security and privacy by adhering to existing obligations and integrating with your organization's policies. To get the most out of Copilot, you should consider optimizing data and content for Search, to ensure optimal secure access. To learn more about privacy with Microsoft 365 Copilot, see [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy).
 
-Copilot features for Excel, Word, PowerPoint, and OneNote work seamlessly for users signed in with multiple Microsoft accounts (work/school account and a personal account) when one of those accounts has a Copilot Pro or Microsoft 365 Copilot license assigned. For example, when a user on their work machine with a Microsoft 365 Copilot license opens a document from their personal OneDrive, they're able to use Copilot in the document. Or when a Copilot Pro user signs in on their work device with their personal Microsoft account (MSA), they're able to use Copilot with Office files stored on their OneDrive or in SharePoint document libraries.
-
-Microsoft 365 Copilot ensures data security and privacy by adhering to existing obligations and integrating with your organization's policies. It utilizes your Microsoft Graph content with the same access controls as other Microsoft 365 services. To learn more about privacy with Microsoft 365 Copilot, see [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy).
-
 To get started with Microsoft 365 Copilot, see [Get started with Microsoft 365 Copilot - admin guide](/copilot/microsoft-365/microsoft-365-copilot-setup).
 
 ## Requirements for Microsoft 365 Copilot
@@ -120,18 +116,18 @@ Learn more: [Enable users for Microsoft 365 Copilot](/copilot/microsoft-365/micr
 
 ### Update your Teams Rooms devices
 
-Microsoft Teams Rooms supports speaker recognition in meeting transcripts. However, with Copilot, Teams Rooms not only enhance the overall meeting experience and enables better support for collaboration, it works together by adding support for meeting summaries and intelligent recap.
+Microsoft Teams Rooms on Windows supports Intelligent Speaker. Intelligent Speaker (speaker recognition or speaker attribution) is used in live meetings and in meeting transcripts to identify each the speaker. With Copilot, Teams Rooms not only enhance the overall meeting experience with Intelligent Speaker, it enables better support for collaboration and works together by adding meeting summaries and Intelligent Recap.
 
-To support these features, you want to verify that all Teams Rooms devices are updated and have the hardware to support speaker recognition.
+To support these features, you want to verify that all Teams Rooms on Windows devices are updated and have the hardware to support Intelligent Speaker or speaker recognition.
 
-To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioning support](/microsoftteams/rooms/rooms-lifecycle-support).  Verify that all of your Teams Rooms are running the latest Windows updates.
+To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioning support](/microsoftteams/rooms/rooms-lifecycle-support). Verify that all of your Teams Rooms are running the latest Windows updates.
 
-To update Teams Rooms running Android, see [Teams Rooms on Android certified devices](/microsoftteams/devices/certified-hardware-android?tabs=Android). Verify that your consoles are running the latest firmware versions.
+> [!CAUTION]
+> Intelligent Speaker isn't yet available for Teams Rooms on Android. It's only supported on Teams Rooms on Windows.
 
-> [!IMPORTANT]
-> Microsoft Teams Rooms on Android don't support Intelligent Speaker hardware or features.
->
->Learn more: [Certified Hardware](/microsoftteams/rooms/certified-hardware?tabs=Windows) and [Release notes](/microsoftteams/rooms/rooms-release-note?tabs=Windows).
+Although you don't get Intelligent Speaker as a features on Teams Rooms on Android yet, it's important that if you have Teams Rooms on Android devices you still will get other AI-based features like noise suppression and isolation. To see what features are available, see [Teams Rooms and panels feature comparison](/rooms/teams-devices-feature-comparison?tabs=Commercial).
+
+To support those features, make sure you have updated the firmware on all of your Teams Rooms on Android devices. See [Teams Rooms on Android supported firmware](/devices/certified-hardware-android?tabs=Android).
 
 ### Voice and face enrollment
 
@@ -146,7 +142,7 @@ By default, voice and face enrollment is disabled for all users in the organizat
 To use PowerShell to turn this on:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled -automatic
+Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled
 ```
 
 To turn on or off voice and face enrollment for specific users, you can either assign a custom meeting policy to the users.
@@ -190,6 +186,7 @@ Voice Isolation is on by default in an organization. Check to make sure that it'
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled
 ```
+
 Each user must set up a voice profile to turn it on in their Teams app. This can be turned off or on either before or during a meeting.
 
 If you have turned on Face profiles in your organization, the **Create face profile** button is available to end users. When they select the button, they can then set up their face profile that is used in meetings.
@@ -245,7 +242,7 @@ To turn on meeting transcription.
 You can use PowerShell to turn this on:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTranscription $true*
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTranscription $true
 ```
 
 Learn more: [Meeting transcription](/microsoftteams/meeting-transcription-captions)
@@ -338,34 +335,32 @@ You can optionally tell users to go verify that it's turned on by going to in th
 **Speaker Attribution Modes**:
 
 - **Enabled**: Speakers are identified in transcription.
-
 - **EnabledUserOverride**: Speakers are identified in transcription if enabled, however, users can change this setting and choose not to be identified in the Teams profile settings.
-
 - **DisabledUserOverride:** Speakers are not identified in the transcription. If enabled, users can change this setting and choose to be identified in their Teams profile settings.
-
 - **Disabled**: Teams won't identify and display speaker names next to audio streams in meetings.
 
 You can use PowerShell to set this:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -SpeakerAttributionMode automatic
+Set-CsTeamsMeetingPolicy -Identity Global -SpeakerAttributionMode Enabled
 ```
 
-### Set up and use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription
+### To identify in-room participants in a meeting transcription
 
-If your organization's [Microsoft Teams Rooms](https://rooms.microsoft.com/) are equipped with Intelligent Speakers, you can hold meetings where in-room participants can be identified in live transcription. During the meeting, all participants can then easily see who's saying what, and the post-meeting transcript identifies both remote and in-room attendees.
+Using [Microsoft Teams Rooms](https://rooms.microsoft.com/) on Windows you can hold meetings where in-room participants can be identified in live transcription and in meeting transcripts. When you enable Intelligent Speaker, during the meeting all participants can then easily see who's saying what, and the post-meeting transcript identifies both remote and in-room attendees.
 
 Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
-#### Enable Intelligent Speaker user recognition
+#### Enable Intelligent Speaker
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](/microsoftteams/rooms/voice-and-face-recognition) and the [PowerShell meeting cmdlets](/microsoftteams/teams-powershell-overview) for information on the meeting settings.
+Voice profile data is used in any meeting with an Intelligent Speaker. However, each user must set up a voice and face profile in the Teams app. See, [Voice and face recognition](/microsoftteams/rooms/voice-and-face-recognition) or [Set up voice and face profiles](/rooms/copilot-admin-mtr#set-up-voice-and-face-recognition-profiles).
 
-You can use PowerShell to turn this on:
+Use PowerShell to turn it on:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomAttributeUserOverride Attribute
+Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomAttributeUserOverride
 ```
+
 ## Related articles
 
 - [Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center]([/copilot/microsoft-365/microsoft-365-copilot-page)
