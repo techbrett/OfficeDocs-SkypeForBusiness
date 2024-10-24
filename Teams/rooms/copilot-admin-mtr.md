@@ -120,7 +120,7 @@ Microsoft Teams Rooms on Windows supports Intelligent Speaker. Intelligent Speak
 
 To support these features, you want to verify that all Teams Rooms on Windows devices are updated and have the hardware to support Intelligent Speaker or speaker recognition.
 
-To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioning support](/rooms-lifecycle-support.md). Verify that all of your Teams Rooms are running the latest Windows updates.
+To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioning support](rooms-lifecycle-support.md). Verify that all of your Teams Rooms are running the latest Windows updates.
 
 > [!CAUTION]
 > Intelligent Speaker isn't yet available for Teams Rooms on Android. It's only supported on Teams Rooms on Windows.
