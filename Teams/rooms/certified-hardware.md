@@ -202,7 +202,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/p/accessories-and-software/webcams-and-video/webcams-&-video_webcams/40cltscam1?orgRef=https%253A%252F%252Fwww.bing.com%252F) | 1.0.111.4 |  |  |||
 | [Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR) | 0.9.3 |  |  |||
 | Lenovo ThinkSmart Bar Expand XL | 5.9.5 |  |  |||
-| Lenovo Thinksmart Bar 180 | 6.5.1 | &#x2714; |  |  | &#x2714; |
+| Lenovo Thinksmart Bar 180 | 8.1.0 | &#x2714; | &#x2714; |  | &#x2714; |
 | [Logitech Brio](https://www.logitech.com/product/brio) | V2.2.50 | &#x2714; |  |||
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |||
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |||
