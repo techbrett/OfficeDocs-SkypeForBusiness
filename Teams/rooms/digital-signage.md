@@ -74,7 +74,7 @@ By default, Microsoft 365 Global Admins and Teams Rooms Pro Managers have the di
   - Set default signage source and settings for the tenant.
   
 - Digital signage *room* management permission
-  - Enable and disable digital signage for a room.
+  - Enable, disable, and reset digital signage for a room.
   - Select an existing signage source from the list of sources that has been added to the tenant for a room.
   - Modify signage settings for a room.
   
@@ -128,11 +128,11 @@ To add a web URL as signage source, from the digital signage tenant management p
 
 Once you've added signage source(s) for your tenant, you can now assign a signage source and settings to your rooms. If you're assigning one of the trusted third party providers as a signage source to a room, this step automatically registers that specific room onto the third-party content management system. You can assign a signage source and settings for multiple rooms or room groups at the tenant level or for individual rooms at a room level:
 
-- Tenant-level - from the digital signage tenant management page, choose a signage source > select **Assign to rooms** > confirm the pre-selected source that you intend to assign > select **Next** > review or modify signage settings > select **Next** > search or select room(s) and/or room group(s) where you'd like to assign your chosen source and settings > select **Next** > review and finish > select **Submit**.
-- Room-level - navigate to the specific room's settings. Go to **Rooms** > choose a specific room > select **Settings** > **Digital signage** > toggle ON **Digital signage** > modify signage settings as desired > choose a signage source from any of the sources added to the tenant > select **Apply**.
+- Tenant-level - from the digital signage tenant management page, choose a signage source > select **Assign to rooms** > confirm the pre-selected source that you intend to assign > select **Next** > review or modify signage settings > select **Next** > search or select room(s) and/or room group(s) where you'd like to assign your chosen source and settings > select **Next** > choose when the configuration will be applied > review and finish > select **Submit**.
+- Room-level - navigate to the specific room's settings. Go to **Rooms** > choose a specific room > select **Settings** > **Digital signage** > toggle ON **Digital signage** > modify signage settings as desired > choose a signage source from any of the sources added to the tenant > select **Apply** > choose when the configuration will be applied > select **Submit**.
 
 > [!NOTE]
-> Settings will only be applied during the maintenance window. To find the setting application results, go to **Rooms** > select **Export** **all** and filter through the rooms and settings in the CSV file.
+> To find the setting application results, go to **Rooms** > select **Export** **all** and filter through the rooms and settings in the CSV file.
 Once settings have been applied, rooms are now registered with the third party provider. You can manage and update the content that plays in the room directly from the third party content management system.
 
 > [!TIP]
@@ -178,6 +178,8 @@ If you have issues with configuring signage settings on your Teams Rooms device 
 
 |Issue or limitation|Workaround|
 | -------- | -------- |
-|Settings are only applied during the maintenance window.|There is no way to immediately apply the settings.|
-|Regardless of the signage source, the digital signage health signal isn't available.|If digital signage has been enabled but signage mode isn't activated after the maintenance window, submit an issue using **Report a problem**.|
-
+|Regardless of the signage source, the digital signage health signal isn't available on the Teams Rooms Pro Management portal.|There is no workaround. You will have to rely on users reporting issues with signage mode to be alerted of digital signage issues in the room.|
+|The room must be online and connected for settings to be applied. Otherwise, settings will fail to apply.|There is no workaround. Make sure that the room is online and connected before applying settings. Note that after a room restarts, it takes about 10-15 minutes for the Teams Rooms Pro Management agent to be connected.|
+|Settings can only be applied on rooms that are signed into the Skype mode. If the room has sign in issues or if the room is on the Admin mode, settings will fail to apply.|There is no workaround. Make sure that the room is signed in correctly on the Skype mode before applying settings.|
+|When the apply now option for applying settings is selected and the room is in use, the changes will not be applied immediately to avoid disruption in the room. Rather, we will retry applying the changes during the maintenance window.|When settings fail to apply immediately, you can either wait for the maintenance window or push another update when the room is no longer in use to override the previously scheduled change.|
+|In some instances, assigning an Appspace channel to a room for the first time results in a failure to load signage mode in the room.|To troubleshoot, run the clear Teams app cache action on the Teams Rooms Pro Management portal for the impacted room. If the issue persists, contact Appspace.|
