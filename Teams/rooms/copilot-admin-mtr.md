@@ -120,20 +120,21 @@ Microsoft Teams Rooms on Windows supports Intelligent Speaker. Intelligent Speak
 
 To support these features, you want to verify that all Teams Rooms on Windows devices are updated and have the hardware to support Intelligent Speaker or speaker recognition.
 
-To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioning support](/microsoftteams/rooms/rooms-lifecycle-support). Verify that all of your Teams Rooms are running the latest Windows updates.
+To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioning support](/rooms-lifecycle-support.md). Verify that all of your Teams Rooms are running the latest Windows updates.
 
 > [!CAUTION]
 > Intelligent Speaker isn't yet available for Teams Rooms on Android. It's only supported on Teams Rooms on Windows.
 
-Although you don't get Intelligent Speaker as a features on Teams Rooms on Android yet, it's important that if you have Teams Rooms on Android devices you still will get other AI-based features like noise suppression and isolation. To see what features are available, see [Teams Rooms and panels feature comparison](/rooms/teams-devices-feature-comparison?tabs=Commercial).
+Although you don't get Intelligent Speaker as a features on Teams Rooms on Android yet, it's important that if you have Teams Rooms on Android devices you still will get other AI-based features like noise suppression and isolation. To see what features are available, see [Teams Rooms and panels feature comparison](teams-devices-feature-comparison.md?tabs=Commercial).
 
-To support those features, make sure you have updated the firmware on all of your Teams Rooms on Android devices. See [Teams Rooms on Android supported firmware](/devices/certified-hardware-android?tabs=Android).
+To support those features, make sure you have updated the firmware on all of your Teams Rooms on Android devices. See [Teams Rooms on Android supported firmware](../devices/certified-hardware-android.md?tabs=Android).
 
 ### Voice and face enrollment
 
 #### Turn on voice and face enrollment
 
-You can turn on or off voice and face enrollment for specific users, or groups using the [Team meeting](/powershell/module/teams/set-csteamsmeetingpolicy) policy.
+You can turn on or off voice and face enrollment for specific users, or groups using the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) policy. You can see the meeting settings, [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy).
+
 
 You can use a new meeting policy you create or use the Global (Org-wide default) policy to turn on voice and face enrollment using the Teams admin center or PowerShell.
 
@@ -145,13 +146,18 @@ To use PowerShell to turn this on:
 Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled
 ```
 
+Learn more: [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+
 To turn on or off voice and face enrollment for specific users, you can either assign a custom meeting policy to the users.
 
 You can use PowerShell to apply the setting to a custom policy:
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -Identity <PolicyName> -EnrollUserOverride Enabled
+
 ```
+Learn more: [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+
 
 > [!NOTE]
 > There isn't a way to set this in Teams admin center.
@@ -353,7 +359,7 @@ Learn more: [Identify in-room meeting participants](https://support.microsoft.co
 
 #### Enable Intelligent Speaker
 
-Voice profile data is used in any meeting with an Intelligent Speaker. However, each user must set up a voice and face profile in the Teams app. See, [Voice and face recognition](/microsoftteams/rooms/voice-and-face-recognition) or [Set up voice and face profiles](/rooms/copilot-admin-mtr#set-up-voice-and-face-recognition-profiles).
+Voice profile data is used in any meeting with an Intelligent Speaker. However, each user must set up a voice and face profile in the Teams app. See, [Voice and face recognition](voice-and-face-recognition.md) or [Set up voice and face profiles](copilot-admin-mtr.md#set-up-voice-and-face-recognition-profiles).
 
 Enabling people recognition or Intelligent Speaker requires you to set the CsTeamsMeetingPolicy to let individual voice and face profiles to be used for recognition in meetings.
 
@@ -362,6 +368,8 @@ Use PowerShell to turn it on:
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomPeopleNameUserOverride On -RoomAttributeUserOverride Attribute
 ```
+
+Learn more: [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 ## Related articles
 
