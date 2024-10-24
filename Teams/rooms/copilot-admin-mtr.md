@@ -135,7 +135,6 @@ To support those features, make sure you have updated the firmware on all of you
 
 You can turn on or off voice and face enrollment for specific users, or groups using the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) policy. You can see the meeting settings, [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy).
 
-
 You can use a new meeting policy you create or use the Global (Org-wide default) policy to turn on voice and face enrollment using the Teams admin center or PowerShell.
 
 By default, voice and face enrollment is disabled for all users in the organization, but admins can change this setting using PowerShell.
@@ -213,7 +212,7 @@ Learn more: [Identify in-room meeting participants](https://support.microsoft.co
 
 When you want to add Copilot to Teams, you'll need to turn it on, enable transcriptions, and meeting recordings for your end users. After you turn it on, users will see the Copilot icon and options but transcription for meetings will also need to be turned on as well.
 
-To pin a Copilot icon to the Teams app, see (Pin Microsoft Copilot to the navigation bar)[/copilot/microsoft-365/pin-copilot].
+To pin a Copilot icon to the Teams app, see [Pin Microsoft Copilot to the navigation bar](/copilot/microsoft-365/pin-copilot).
 
 To turn on Copilot for your Teams users.
 
@@ -370,6 +369,9 @@ Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomPeopleNameUserOverride On -
 ```
 
 Learn more: [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+
+> [!NOTE]
+> There are also hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [](certified-hardwaremd?tabs=Devices).
 
 ## Related articles
 
