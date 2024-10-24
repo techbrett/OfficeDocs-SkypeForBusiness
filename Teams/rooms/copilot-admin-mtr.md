@@ -355,10 +355,12 @@ Learn more: [Identify in-room meeting participants](https://support.microsoft.co
 
 Voice profile data is used in any meeting with an Intelligent Speaker. However, each user must set up a voice and face profile in the Teams app. See, [Voice and face recognition](/microsoftteams/rooms/voice-and-face-recognition) or [Set up voice and face profiles](/rooms/copilot-admin-mtr#set-up-voice-and-face-recognition-profiles).
 
+Enabling people recognition or Intelligent Speaker requires you to set the CsTeamsMeetingPolicy to let individual voice and face profiles to be used for recognition in meetings.
+
 Use PowerShell to turn it on:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomAttributeUserOverride
+Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomPeopleNameUserOverride On -RoomAttributeUserOverride Attribute
 ```
 
 ## Related articles
