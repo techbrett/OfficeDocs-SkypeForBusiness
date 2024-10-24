@@ -371,7 +371,7 @@ Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomPeopleNameUserOverride On -
 Learn more: [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 > [!NOTE]
-> There are also hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [](certified-hardwaremd?tabs=Devices).
+> There are also hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [Certified Intelligent Speakers](certified-hardware.mdmd?tabs=Devices).
 
 ## Related articles
 
