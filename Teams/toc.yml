@@ -1308,7 +1308,7 @@ items:
   items:
     - name: Teams device store
       href: devices/device-store.md
-    - name: Admin guide for Copilot
+    - name: Copilot in Teams Rooms
       href: rooms/copilot-admin-mtr.md
     - name: Teams device certification
       items:
