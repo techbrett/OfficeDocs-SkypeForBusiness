@@ -26,7 +26,7 @@ XXX COPILOT FOR TEAMS, OR TEAMS COPILOT? TARGET THE NAME
 
 Teams Copilot is a collaborative meeting agent available to you and your team to use in meeting scenarios. It combines the power of large language models (LLMs) with Teams data to provide summaries and answer questions in real-time to help you stay productive in the work place.  
 
-- Chat 
+- Chat
 - Meetings
 
 XXX DISTILLED FROM THE SPEC:
@@ -35,7 +35,7 @@ Microsoft Teams is introducing Copilot to provide a shared summary, or a synthes
 
 Most importantly, Copilot for Teams provides users with key insights from the chat without the user having to ask Copilot for it. Currently, in order to get insights from Copilot, users need to either use a pre-built prompt or know what to ask. By having a pre-built synthesis, we make key information readily available for all users in the moment, without further action on their part.
 
-Teams Copilot also contiuously works as the chat progresses. Copilot is a shared view of the current state of the discussion, it ensures alignment across a group of collaborators. It shows options being considered and then replaces those with a single choice once the decision has been made.
+Teams Copilot also continuously works as the chat progresses. Copilot is a shared view of the current state of the discussion, it ensures alignment across a group of collaborators. It shows options being considered and then replaces those with a single choice once the decision has been made.
 
 > [!IMPORTANT]
 > While this information is communally shared to appropriate participants, when individual users query Copilot in regard to this information, those queries and responses from Copilot remain private to that user.
@@ -65,7 +65,6 @@ XXX WHAT ARE OPT-IN STEPS
 - Refer to video recording for more details. XXX WHAT VIDEO RECORDING?
 
 ## Security, Purview, and Privacy
-
 
 XXX MORE NEEDED HERE.
 
