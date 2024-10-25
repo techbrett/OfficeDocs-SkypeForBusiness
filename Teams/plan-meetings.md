@@ -30,16 +30,7 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-This article, designed for admins, introduces types of meetings, features and functionality, and provides links to more information. The following sections are included in this article:
-
-- [Meetings](#meetings)
-- [Audio Conferencing for meetings](#audio-conferencing-for-meetings)
-- [Guests and external participants](#meeting-options-for-guests-and-external-participants)
-- [Attendee limits and streaming options](#attendee-limits-and-streaming-options)
-- [Recordings](#recordings)
-- [Compliance features](#compliance-features)
-- [Apps for meetings](#apps-for-meetings)
-- [Admin and meeting organizer meeting options](#admin-and-meeting-organizer-meeting-options)
+This article, designed for admins, introduces types of meetings, features and functionality, and provides links to more information.
 
 > [!NOTE]
 > While meetings with registration are no longer supported, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md). Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
