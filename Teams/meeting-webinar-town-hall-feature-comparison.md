@@ -28,66 +28,63 @@ description: Learn which features are available in Teams meetings, webinars, and
 
 # Meetings, webinars, and town halls feature comparison
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](media/check-circle.png)Meetings ![Image of a checkmark for yes](media/check-circle.png)Webinars ![Image of a checkmark for yes](media/check-circle.png)Town halls
 
 The following table shows which features are available in meetings, webinars, and town halls.
 
 |Feature|Meetings|Webinars|Town halls|
 |:------|:-------|:-------|:---------|
-|[Announce when callers join or leave](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)|✔️|✔️|✔️|
-|[Anonymous attendees](anonymous-users-in-meetings.md)|✔️|✔️|✔️|
-|[Attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|✔️|✔️|✔️|
-|[Attendee mic and camera](meeting-policies-audio-and-video.md)|✔️|✔️|✖️|
-|[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|✔️|✖️<sup>1</sup>|✖️|
-|[CART Captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|✔️|✔️|✖️|
-|[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
-|[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
-|[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
+|[Announce when callers join or leave](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Anonymous attendees](anonymous-users-in-meetings.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Attendee mic and camera](meeting-policies-audio-and-video.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|![Image of a checkmark for yes](media/check-circle.png)|✖️<sup>1</sup>|✖️|
+|[CART Captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|![Image of a checkmark for yes](media/check-circle.png)|✖️|✖️|
+|[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Content sharing](meeting-policies-content-sharing.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
 |[Custom backgrounds](custom-meeting-backgrounds.md)|Premium|Premium|Premium|
-|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|For view-only meetings only.|✖️|✔️|
+|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|For view-only meetings only.|✖️|![Image of a checkmark for yes](media/check-circle.png)|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
-|[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
-|[Email communication for events](meeting-who-present-request-control.md)|✔️|✔️|✖️|
-|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
+|[External participants can give or request control](meeting-who-present-request-control.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Email communication for events](meeting-who-present-request-control.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
 |[Hide attendee names](hide-attendee-names.md)|Premium|Premium|✖️|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|✖️|
-|[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|✔️|✔️|✖️|
-|[Limit presenter role permissions](presenter-role-reduction.md)|✔️|✔️|✔️|
-|[Live captions](meeting-transcription-captions.md)|✔️|✔️|✔️|
-|[Live transcriptions](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|✔️|✔️|✔️|
-|[Lobby](who-can-bypass-meeting-lobby.md)|✔️|✔️|✖️|
-|[Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|Premium|Premium|✔️|
-|[Meeting chat](manage-meeting-chat.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
+|[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Limit presenter role permissions](presenter-role-reduction.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Live captions](meeting-transcription-captions.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Live transcriptions](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Lobby](who-can-bypass-meeting-lobby.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|Premium|Premium|![Image of a checkmark for yes](media/check-circle.png)|
+|[Meeting chat](manage-meeting-chat.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|For organizers, co-organizers, and presenters only.|
 |[Meeting themes](meeting-themes.md)|Premium|✖️|✖️|
-|[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
-|[Organizers and co-organizers can use video effects](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|✔️|✔️|✔️|
-|[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|✔️|✔️|✔️|
-|[Participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
-|[PowerPoint Live](https://support.microsoft.com/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad)|✔️|✔️|✖️|
-|[Q&A](manage-qna-for-teams.md)|✔️|✔️|✔️|
-|[Reactions](manage-reactions-meetings.md)|✔️|✔️|✖️|
-|[Recording](meeting-recording.md)|✔️|✔️|✔️|
-|[Record automatically](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_whocanstartorstoparecording)|✔️|✔️|✔️|
-|[Recordings automatically expire](meeting-recording.md)|✔️|✔️|✔️|
-|[Registration](set-up-webinars.md)| ✖️|✔️|✖️|
-|[RTMP-in](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|✔️|
-|[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
-|[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
+|[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|For organizers, co-organizers, and presenters only.|
+|[Organizers and co-organizers can use video effects](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Participants can give or request control](meeting-who-present-request-control.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[PowerPoint Live](https://support.microsoft.com/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Q&A](manage-qna-for-teams.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Reactions](manage-reactions-meetings.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[Recording](meeting-recording.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Record automatically](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_whocanstartorstoparecording)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Recordings automatically expire](meeting-recording.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Registration](set-up-webinars.md)| ✖️|![Image of a checkmark for yes](media/check-circle.png)|✖️|
+|[RTMP-in](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|![Image of a checkmark for yes](media/check-circle.png)|
+|[Shared notes](meeting-policies-content-sharing.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|Only for organizers and co-organizers.|
+|[Speaker coach](meeting-speaker-coach.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|For organizers and co-organizers.|
 |[Town hall attendee reactions](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|✖️|✖️|Premium|
 |[View-only attendees](view-only-meeting-experience.md)|10,000<sup>2</sup>|✖️|✖️|
-|[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
-|[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|
+|[VOD](manage-vod-publishing.md)|✖️|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
+|[Voice isolation](voice-isolation.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
-|[Whiteboard](meeting-policies-content-sharing.md)|:::image type="content" source="media/check-circle.png" alt-text="Alt text that describes the content of the image.":::|![Alt text that describes the content of the image.](media/check-circle.png)|✖️|
+|[Whiteboard](meeting-policies-content-sharing.md)|![Image of a checkmark for yes](media/check-circle.png)|![Image of a checkmark for yes](media/check-circle.png)|✖️|
 
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported. <br>
 
 <sup>2</sup> The usual maximum is increased to 20,000 through June 30, 2024.
 
-:::image type="content" source="media/check-circle.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors.":::
-:::image type="content" source="media/check-circle.png" alt-text="Alt text that describes the content of the image.":::
-
-![Alt text that describes the content of the image.](media/check-circle.png)
+![Image of a checkmark for yes](media/check-circle.png)
 
 ## Related topics
 
