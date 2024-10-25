@@ -1,6 +1,6 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
-ms.reviewer: bryannyce
+ms.reviewer: bryanyce
 ms.date: 10/25/2024
 ms.topic: article
 ms.author: wlibebe
@@ -35,8 +35,8 @@ The following table shows which features are available in meetings, webinars, an
 |Feature|Meetings|Webinars|Town halls|
 |:------|:-------|:-------|:---------|
 |[Announce when callers join or leave](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
-|[Anonymous attendees](anonymous-users-in-meetings.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
-|[Attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
+|[Anonymous participants](anonymous-users-in-meetings.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
+|[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Attendee mic and camera](meeting-policies-audio-and-video.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)<sup>1</sup>|![Image of a x for no](media/x-for-no.png)|
 |[CART Captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
@@ -65,7 +65,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Meeting chat](manage-meeting-chat.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|For organizers, co-organizers, and presenters only.|
 |[Meeting themes](meeting-themes.md)|Premium|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
 |[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|For organizers, co-organizers, and presenters only.|
-|[Organizers and co-organizers can use video effects](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
+|[Organizers and co-organizers can use video effects](/meeting-policies-audio-and-video.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Participants can give or request control](meeting-who-present-request-control.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[PowerPoint Live](https://support.microsoft.com/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
