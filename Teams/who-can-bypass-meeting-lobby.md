@@ -228,7 +228,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers Everyone
 
 #### Only allow people in my org, trusted orgs, and guests to bypass the lobby
 
-To only allow people in your org, trusted orgs, and guests to bypass to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+To only allow people in your org, trusted orgs, and guests to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers EveryoneInSameAndFederatedCompany 
@@ -236,7 +236,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers EveryoneInSam
 
 #### Only allow people in my org and guests to bypass the lobby
 
-To only allow people in your org and guests to bypass to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+To only allow people in your org and guests to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers EveryoneInCompany 
