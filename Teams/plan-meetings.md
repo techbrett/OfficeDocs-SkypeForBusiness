@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams meetings
 ms.reviewer: bryanyce
-ms.date: 11/13/2023
+ms.date: 10/25/2024
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
