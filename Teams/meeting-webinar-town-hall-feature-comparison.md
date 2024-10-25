@@ -78,7 +78,7 @@ The following table shows which features are available in meetings, webinars, an
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
-|[Whiteboard](meeting-policies-content-sharing.md)|:::image type="content" source="media/check-circle.png" alt-text="Alt text that describes the content of the image.":::|✔️|✖️|
+|[Whiteboard](meeting-policies-content-sharing.md)|:::image type="content" source="media/check-circle.png" alt-text="Alt text that describes the content of the image.":::|![Alt text that describes the content of the image.](media/check-circle.png)|✖️|
 
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported. <br>
 
@@ -86,6 +86,8 @@ The following table shows which features are available in meetings, webinars, an
 
 :::image type="content" source="media/check-circle.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors.":::
 :::image type="content" source="media/check-circle.png" alt-text="Alt text that describes the content of the image.":::
+
+![Alt text that describes the content of the image.](media/check-circle.png)
 
 ## Related topics
 
