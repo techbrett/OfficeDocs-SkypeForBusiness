@@ -25,7 +25,7 @@ description: IT admins - Learn to turn speaker coach on or off for Teams meeting
 
 # Manage Speaker Coach for Microsoft Teams meetings and events
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](media/circle-check.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a checkmark for yes](media/circle-check.png) Town halls
 
 ## Overview
 
