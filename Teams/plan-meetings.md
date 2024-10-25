@@ -28,7 +28,7 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 # Plan for Teams meetings
 
-**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](media/circle-check.png) Meetings ![Image of a x for no](media/x-for-no.png) Webinars ![Image of a x for no](media/x-for-no.png) Town halls
 
 This article, designed for admins, introduces types of meetings, features and functionality, and provides links to more information.
 
