@@ -47,6 +47,7 @@ The following table shows which features are available in meetings, webinars, an
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|For view-only meetings only.|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
 |[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
+|[Email communication for events](meeting-who-present-request-control.md)|✔️|✔️|✖️|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
 |[Hide attendee names](hide-attendee-names.md)|Premium|Premium|✖️|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|✖️|
@@ -77,11 +78,14 @@ The following table shows which features are available in meetings, webinars, an
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
-|[Whiteboard](meeting-policies-content-sharing.md)|✔️|✔️|✖️|
+|[Whiteboard](meeting-policies-content-sharing.md)|:::image type="content" source="media/check-circle.png" alt-text="Alt text that describes the content of the image.":::|✔️|✖️|
 
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported. <br>
 
 <sup>2</sup> The usual maximum is increased to 20,000 through June 30, 2024.
+
+:::image type="content" source="media/check-circle.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors.":::
+:::image type="content" source="media/check-circle.png" alt-text="Alt text that describes the content of the image.":::
 
 ## Related topics
 
