@@ -39,7 +39,7 @@ Recognizing that this might not be possible or practical in all scenarios, it's 
 
 Plans should be developed to adhere to guidelines as promptly as is possible.
 
-1. Make use of Operating System platform security capabilities.
+1. Use Operating System platform security capabilities.
     1. Ensure that the operating system is configured to install automatic updates from the Operating System provider (for Microsoft systems, this can be accomplished via [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq)). 
     1. Ensure that any device encryption capabilities such as [**bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-overview) are enabled, and the key used to access the device is secured.  Note that most modern [**Windows 10 devices support bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10).
     1. Use anti-virus capabilities such as those offered by [**Windows Defender**](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) on your devices.
