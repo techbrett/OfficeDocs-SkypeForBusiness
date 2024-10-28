@@ -23,8 +23,6 @@ description: Learn more about how
 ---
 # Configure digital signage on Teams Rooms
 
-This feature is only available for Technology Adoption Program (TAP) Preview and early adopter customers. 
-
 Digital signage on Microsoft Teams Rooms expands organizational communications into your meeting spaces, enabling you to inform, connect, and engage your teams. When your Teams Rooms devices are not used for meetings or presentations, they can be configured to display dynamic content and relevant information like how to guides, company or organizational news, upcoming events, and more in signage mode. You can adjust when signage mode is activated and deactivated, including whether signage mode will adhere to the operating system's screen time-out setting. When your Teams Rooms devices are in signage mode, signage content appears in full screen on the front-of-room displays. You have the option to show the Teams Rooms banner so that users can see the room information and calendar preview alongside the signage content on the front-of-room displays. Tapping the touch console during signage mode seamlessly returns the user to the home screen.
 
 :::image type="content" source="media/digital-signage/ds-meeting-enlarged-console.jpg" alt-text="Teasms Rooms homescreen." lightbox="media/digital-signage/ds-meeting-enlarged-console.jpg":::
@@ -106,7 +104,11 @@ Next, you'll need to add a signage source. You can add multiple signage sources 
 
 ## Step 3 - Adding an external signage source
 
-To enable a third party integration, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose the third party system of your choice > enter a valid integration ID that you must obtain from the third-party system > select **Validate** > **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**.
+To enable a third party integration, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose the third party system of your choice > enter a valid integration ID that you must obtain from the third-party system > select **Validate** > **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**. You can find the set up instructions for the following supported third party providers below:
+
+- [Appspace](https://docs.appspace.com/latest/devices-app/advanced-registration-microsoft-meeting-room-devices/)
+
+- [XOGO](https://www.xogo.io/microsoft-teams-rooms-setup)
 
 If you don’t use any of the supported third party providers, you can set web URLs as a signage source. To ensure the web application loads successfully on your Teams Rooms device, the URL must meet the following requirements:
 
@@ -178,9 +180,9 @@ If you have issues with configuring signage settings on your Teams Rooms device 
 
 |Issue or limitation|Workaround|
 | -------- | -------- |
-|Regardless of the signage source, the digital signage health signal isn't available on the Teams Rooms Pro Management portal.|There is no workaround. You will have to rely on users reporting issues with signage mode to be alerted of digital signage issues in the room.|
-|The room must be online and connected for settings to be applied. Otherwise, settings will fail to apply.|There is no workaround. Make sure that the room is online and connected before applying settings. Note that after a room restarts, it takes about 10-15 minutes for the Teams Rooms Pro Management agent to be connected.|
-|Settings can only be applied on rooms that are signed into the Skype mode. If the room has sign in issues or if the room is on the Admin mode, settings will fail to apply.|There is no workaround. Make sure that the room is signed in correctly on the Skype mode before applying settings.|
+|Regardless of the signage source, the digital signage health signal isn't available on the Teams Rooms Pro Management portal.|There is no workaround. You will have to rely on users reporting issues to be alerted of digital signage issues in the room.|
+|Regardless whether you choose to apply the settings now or during the maintenance window, the room must be online and connected for settings to be applied. Otherwise, settings will fail to apply.|There is no workaround. Make sure that the room is online and connected before applying settings. Note that after a room restarts, it takes about 10-15 minutes for the Teams Rooms Pro Management agent to be connected.|
+|Regardless whether you choose to apply the settings now or during the maintenance window, settings can only be applied on rooms that are signed into the Skype mode. If the room has sign in issues or if the room is on the Admin mode, settings will fail to apply.|There is no workaround. Make sure that the room is signed in correctly on the Skype mode before applying settings.|
 |When the apply now option for applying settings is selected and the room is in use, the changes will not be applied immediately to avoid disruption in the room. Rather, we will retry applying the changes during the maintenance window.|When settings fail to apply immediately, you can either wait for the maintenance window or push another update when the room is no longer in use to override the previously scheduled change.|
 |In some instances, assigning an Appspace channel to a room for the first time results in a failure to load signage mode in the room.|To troubleshoot, run the clear Teams app cache action on the Teams Rooms Pro Management portal for the impacted room. If the issue persists, contact Appspace.|
 |Rooms with dual displays that use Appspace may see a black screen on one of the displays when the Appspace player loads for the first time.|When a black screen is showing on of one of the dual displays, tap the touch consolee to exit signage mode. When the room goes back to the home screen, the next time signage mode loads, both screens will properly show signage mode.|
