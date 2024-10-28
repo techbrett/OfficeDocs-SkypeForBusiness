@@ -376,7 +376,7 @@ Set-CsTeamsMeetingPolicy -Identity <PolicyName> -RoomAttributeUserOverride Attri
 Learn more: [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 > [!NOTE]
-> No special microphones are needed to use this feature. Microphones that are included in Teams Rooms for Windows devices all support Intelligent Speaker. However, there are also addtional hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [Certified Intelligent Speakers](certified-hardware.mdmd?tabs=Devices).
+> No special microphones are needed to use this feature. Microphones that are included in Teams Rooms for Windows devices all support Intelligent Speaker. However, there are also addtional hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [Certified Intelligent Speakers](certified-hardware.md?tabs=Devices).
 
 ## Related articles
 
