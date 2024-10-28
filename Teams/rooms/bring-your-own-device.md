@@ -163,6 +163,7 @@ You have the option to [enable the automatic work location update policy](/power
 > A Teams Shared Device license is required to unlock the Bring Your Own Device room usage report. For more information about the Teams Shared Device, see [Microsoft Teams Shared Devices licensing - Microsoft Teams | Microsoft Learn](../teams-add-on-licensing/teams-shared-device-license.md).
 
 To view the Usage report for your Bring Your Own Device rooms:
+
 1. In the left navigation menu, select **Reports**.
 1. In the Reports page, select the **BYOD Usage** tab.  
 
@@ -196,7 +197,8 @@ To see the call utilization view for each room, select the specific Bring Your O
 
 > [!NOTE]
 > Only rooms with Teams Shared Devices or Pro licenses and which are associated with their peripherals are shown in the Bring Your Own Device usage report.
-> > Great news! for this first release, customers can utilize the Bring Your Own Device usage data without an additional Teams shared device license until April 8th, 2024.
+> 
+> Great news! for this first release, customers can utilize the Bring Your Own Device usage data without an additional Teams shared device license until April 8th, 2024.
 
 ## Settings
 
@@ -209,7 +211,7 @@ The Teams BYOD solution uses peripheral data crowdsourced from the Teams client 
 > [!WARNING]
 > Disabling this policy setting for certain users will cause BYOD and desk usage information to cease flowing to the service. The Teams BYOD and Desk solution requires peripheral data sent from users to calculate usage reports for peripherals, BYOD rooms, and desks.
 
-```
+```powershell
 Get-CsTeamsBYODAndDesksPolicy
 New-CsTeamsBYODAndDesksPolicy -Identity "Test"
 Set-CsTeamsBYODAndDesksPolicy -Identity "Test" -DeviceDataCollection Disabled
