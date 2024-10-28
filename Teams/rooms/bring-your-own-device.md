@@ -124,8 +124,8 @@ To associate a device with a room, the following two methods are available:
   5. Go back to the Inventory Devices page and click **Import** to upload the modified file.
   6. Verify that the device-room association is updated successfully.
 
-     > [!NOTE]
-     > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
+  > [!NOTE]
+  > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
 
 - **Manually associate discovered devices using Pro Management UI:** 
 
@@ -157,7 +157,7 @@ Be aware that Microsoft can't guarantee that devices provide unique data like se
 
 You have the option to [enable the automatic work location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy) for your organization or for a group of users. Automatic work location updates are designed to enhance the end user experience by making it easier to keep their work location up-to-date and connect with others when they are in the office. With the policy enabled, users will have the option to enable automatic work location updates. They can do so in Teams desktop client under **Settings** > **Privacy** > **Sharing your work location**. After users have opted-in, their work location will automatically update to **In the office** when they connect to a BYOD room, provided their work location was previously set to unknown or remote. The detected location will last until the end of their working hours. If they plug in after work hours, the location will be set until 11:59pm that day. This feature allows for a seamless transition between remote and in-office work, which enhances collaboration and communication within your team and other users.
 
-## Bring Your Own Device Usage Report 
+## Bring Your Own Device Usage Report
 
 > [!IMPORTANT]
 > A Teams Shared Device license is required to unlock the Bring Your Own Device room usage report. For more information about the Teams Shared Device, see [Microsoft Teams Shared Devices licensing - Microsoft Teams | Microsoft Learn](../teams-add-on-licensing/teams-shared-device-license.md).
