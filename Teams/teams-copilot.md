@@ -1,73 +1,108 @@
 ---
-title: Copilot in Microsoft Teams
+title: AI Notetaker in Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: andrewklutz
-ms.date: 11/15/2024
+ms.date: 11/18/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+ms.custom:
+  - admindeeplinkTEAMS
 f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn about Copilot in Microsoft Teams
+description: Learn about AI Notetaker powered by Copilot in Microsoft Teams.
 ---
 
-# Copilot in Microsoft Teams
+# AI Notetaker in Microsoft Teams
 
-XXX COPILOT FOR TEAMS, OR TEAMS COPILOT? TARGET THE NAME
+AI Notetaker is a collaborative communication agent available to your users in Teams conversations. It combines the power of large language models (LLMs) and Teams data to record notes in real time to help users be productive during collaboration. Stay in the flow of conversation and receive powerful, AI-generated notes within a single workspace. No need for users to switch from reference to reference or app to app.
 
-Teams Copilot is a collaborative meeting agent available to you and your team to use in meeting scenarios. It combines the power of large language models (LLMs) with Teams data to provide summaries and answer questions in real-time to help you stay productive in the work place.  
+Use AI Notetaker in peer-to-peer:
 
-- Chat
+- Chats
 - Meetings
 
-XXX DISTILLED FROM THE SPEC:
+Unlike an individual user's queries to Copilot in Teams, AI Notetaker displays Copilot's notes within the group's conversation. Users can focus on the conversation and let Copilot take care of the note-taking for everyone.
 
-Microsoft Teams is introducing Copilot to provide a shared summary, or a synthesis, of a of the most important information in a single mode (one chat, channel post, or meeting). Information from that mode is synthesized into a shared canvas, which keeps everyone in the mode on the same page as the conversation happens. Users focus on communicating naturally and Team Copilot synthesizes that communication into output. Team Copilot is an active synthesis of ongoing work.
-
-Most importantly, Copilot for Teams provides users with key insights from the chat without the user having to ask Copilot for it. Currently, in order to get insights from Copilot, users need to either use a pre-built prompt or know what to ask. By having a pre-built synthesis, we make key information readily available for all users in the moment, without further action on their part.
-
-Teams Copilot also continuously works as the chat progresses. Copilot is a shared view of the current state of the discussion, it ensures alignment across a group of collaborators. It shows options being considered and then replaces those with a single choice once the decision has been made.
+AI Notetaker also continuously updates as the conversation progresses. For example, AI Notetaker displays the options being considered by the team and then replaces those options with a single choice once the group decides. Now, that's intelligent collaboration right in Teams.
 
 > [!IMPORTANT]
-> While this information is communally shared to appropriate participants, when individual users query Copilot in regard to this information, those queries and responses from Copilot remain private to that user.
+> AI Notetaker's notes are communally shared between collaborators.
+>
+> However, when an individual user queries Copilot in Teams using the Copilot in Teams pane, their queries and responses from Copilot remain private to that user.
+>
+> Users are shown a notice in Copilot in Teams when their queries are private or shared with others.
 
-## Defining synthesis
+For more information about how users can integrate AI Notetaker into their Teams chats, see [getting from Yasmine]().
 
-A synthesis of information refers to the process of combining multiple sources or pieces of data into a coherent and integrated whole. This can involve analyzing, summarizing, and organizing information in a way that highlights important insights and connections between different elements of communication.
-
-The goal of information synthesis is to create a more complete and nuanced understanding of a topic or subject by pulling together diverse strands of evidence or perspectives.
-
-## Prerequisites
-
-Copilot for Teams requires a copilot license for all users (XXX is it a per-org license or a per-user license?). It also requires admins opt-in to turn on group copilot skills for copilot license users.
-
-### Opt-in steps
-
-XXX WHAT ARE OPT-IN STEPS
-
-## Turn on Copilot for Teams for chats and meetings
-
-- [Manage App](manage-apps.md).
-  - Under **Teams Apps**, select **Manage Apps**.
-  - Enter **Copilot** or **Teams Copilot**.
-  - AI Notes is enabled when GCP is enabled. XXX WE NEED TO DEFINE GCP
-- [App polices](teams-app-permission-policies.md) (for the whole tenant or select group of users).
-  - Add to the specific set of users.
-- Refer to video recording for more details. XXX WHAT VIDEO RECORDING?
+For more information about how users can integrate AI Notetaker into their Teams meetings, see [getting from Yasmine]().
 
 ## Security, Purview, and Privacy
 
-XXX MORE NEEDED HERE.
+XXX LINK TO CAROL'S DOC TOO XXX
 
-GCP can use the same terms and conditions as PCP.
+Copilot and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy. For more information about security and privacy in Microsoft 365 Copilot, see the following articles:
 
-[End-user link.](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-microsoft-teams-e8737767-4087-4ae6-b1d8-10264152b05a)
+- [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy) for Microsoft 365 Copilot in your organization (work or school).
+- [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+- [Copilot Pro: Microsoft 365 apps and your privacy](https://support.microsoft.com/office/copilot-pro-microsoft-365-apps-and-your-privacy-6f0d8d80-f4bb-4c9f-989e-64a4adfd62e5) for Microsoft 365 Copilot apps at home.
+
+For answers to frequently asked questions about security and privacy in Copilot in Teams, see [Frequently asked questions about Copilot in Microsoft Teams](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-microsoft-teams-e8737767-4087-4ae6-b1d8-10264152b05a).
+
+## Prerequisites and licensing
+
+In general, all Copilot in Teams features require a *Microsoft 365 Copilot* license and an eligible base license for all users because **Microsoft 365 Copilot** is licensed on a per-user subscription model. For a list of the eligible base licenses, see [Understand licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
+
+AI Notetaker features are license-checked at the user level; however, if one user in the conversation has a *Microsoft 365 Copilot* license, all members of the conversation can view and benefit from AI Notetaker's note-taking capabilities.
+
+We recommend purchasing *Microsoft 365 Copilot* licenses for all users who could benefit from Copilot in Teams features to ensure maximum coverage.
+
+## Turn on AI Notetaker for chats, posts, and meetings
+
+As an admin, you control whether AI Notetaker is available in your organization or to a certain group of users.
+
+AI Notetaker is blocked to users by default. To turn on AI Notetaker for users, complete the following steps:
+
+### 1. Turn on AI Notetaker
+
+XXX WHAT WILL BE THE STRING IN THE TEAMS ADMIN CENTER? XXX
+
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard) with your Teams admin credentials.
+1. In the left rail navigation, select **Teams apps** > **Manage apps**.
+1. In the apps list's search box, search for **AI Notetaker???**.
+1. Select **AI Notetaker???** from the app list.
+1. In the actions menu, select **Allow**.
+1. In the **Allow app?** pop-up, select the **Allow** button.
+    1. AI note-taking is turned on when **AI Notetaker???** is turned on.
+
+For more information about managing apps in Teams, see [Manage apps](manage-apps.md).
+
+### 2. Allow AI Notetaker for a group of users
+
+To allow AI Notetaker for users, a new app policy needs to be created and then assigned to users.
+
+Follow the instructions at [Use app permission policies to control user access to apps](teams-app-permission-policies.md) to create a new app policy for AI Notetaker.
+
+You can then assign the policy to your entire tenant or to a select group of users. Follow the instructions at [Add or modify app availability for users](/microsoftteams/app-centric-management#add-or-modify-app-availability-for-users) to assign the policy to users.
+
+### 3. Turn on Loop experiences in Teams for meeting AI notes
+
+Loop experiences in Teams need to be turned on in order for Copilot to generate notes in Teams meetings.
+
+To turn on Loop experiences in Teams, follow the instructions at [Settings management for Loop functionality in Teams](/microsoft-365/loop/loop-components-configuration#settings-management-for-loop-functionality-in-teams).
+
+## Related articles
+
+- [What is responsible AI?](https://support.microsoft.com/topic/what-is-responsible-ai-33fc14be-15ea-4c2c-903b-aa493f5b8d92)
+- [Frequently asked questions: AI, Microsoft Copilot, and Microsoft Designer](https://support.microsoft.com/topic/frequently-asked-questions-ai-microsoft-copilot-and-microsoft-designer-987b275d-f6f2-4d5d-94c5-e927cffae705)
+- [Where can I get Microsoft Copilot?](https://support.microsoft.com/topic/where-can-i-get-microsoft-copilot-40a622db-6d25-4266-b008-4bbcb55cf52f)
+- [Providing feedback about Microsoft Copilot with Microsoft 365 apps](https://support.microsoft.com/topic/providing-feedback-about-microsoft-copilot-with-microsoft-365-apps-c481c26a-e01a-4be3-bdd0-aee0b0b2a423?ocid=CopilotLab_SMC_Privacy_Feedback)
