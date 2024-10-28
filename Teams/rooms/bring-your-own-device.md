@@ -52,7 +52,7 @@ This page provides a comprehensive summary of your rooms, featuring the followin
 
   The following table describes the columns in the **Rooms** view of Inventory. 
 
-  | **Column** | **Description** |
+  | Column | Description |
   | --- | --- |
   | Display name | Name of the room |
   | Capacity | Illustrate the room's capacity number |
@@ -76,7 +76,7 @@ When you select a specific room, you'll see a new pane with two different pages,
 
 - **The Inventory page** displays detailed information about the room's devices:
 
-  | **Column** | **Description** |
+  | Column | Description |
   | --- | --- |
   | Name | Name of the device |
   | Type | Type of device (for example, Microsoft Teams Rooms, TeamsPanel, camera.) |
@@ -95,7 +95,7 @@ Select the device to view more details.<br>
 
 In the **Device group details** panel that opens up, a table displays all the devices in the group, allowing you to associate them with the specific room at once.
 
-| **Column** | **Description** |
+| Column | Description |
 | --- | --- |
 | Device display name | Name of the device |
 | Device type | The category of the device (for example, panel, speaker) |
@@ -182,7 +182,7 @@ To view the Usage report for your Bring Your Own Device rooms:
 
    Below the headline metrics, there's a table that provides a granular breakdown of individual Bring Your Own Device rooms, accompanied by specific metrics that illuminate each room’s usage and performance during the period selected. 
 
-   | **Column** | **Description** |
+   | Column | Description |
    |---|---|
    | **Display room name** | The designated name of the Bring Your Own Device room |
    | **Room Type** | Will show as “Bring Your Own Device Room” as room type |
