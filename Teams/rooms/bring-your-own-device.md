@@ -40,6 +40,7 @@ There are two main tabs under **Inventory**: **Rooms** and **Devices**.
 ### Rooms view
 
 :::image type="content" source="../media/byod/inventory-rooms-tab.png" alt-text="Screenshot of Inventory rooms tab." lightbox="../media/byod/inventory-rooms-tab.png"::: 
+
 This page provides a comprehensive summary of your rooms, featuring the following key insights:
 
 - The total number of rooms in your tenant categorized by type (Microsoft Teams Rooms, Bring Your Own Device).
