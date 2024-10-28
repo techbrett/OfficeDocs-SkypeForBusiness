@@ -23,7 +23,7 @@ appliesto:
 
 # Manage the attendance and engagement report for meetings and events in Microsoft Teams
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](../media/circle-check.png) Meetings ![Image of a checkmark for yes](../media/circle-check.png) Webinars ![Image of a checkmark for yes](../media/circle-check.png) Town halls
 
 [!INCLUDE[Teams Premium](../includes/teams-premium-ecm.md)]
 
