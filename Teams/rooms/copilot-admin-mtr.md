@@ -125,7 +125,7 @@ To update Teams Rooms running Windows, see [Teams Rooms app and Windows versioni
 > [!CAUTION]
 > Intelligent Speaker isn't yet available for Teams Rooms on Android. It's only supported on Teams Rooms on Windows.
 
-Although you don't get Intelligent Speaker as a features on Teams Rooms on Android yet, it's important that if you have Teams Rooms on Android devices you still will get other AI-based features like noise suppression and isolation. To see what features are available, see [Teams Rooms and panels feature comparison](teams-devices-feature-comparison.md?tabs=Commercial).
+Although you don't get Intelligent Speaker as a features on Teams Rooms on Android yet, it's important that if you have Teams Rooms on Android devices you still will get other AI-based features like noise suppression. To see what features are available, see [Teams Rooms and panels feature comparison](teams-devices-feature-comparison.md?tabs=Commercial).
 
 To support those features, make sure you have updated the firmware on all of your Teams Rooms on Android devices. See [Teams Rooms on Android supported firmware](../devices/certified-hardware-android.md?tabs=Android).
 
@@ -157,11 +157,13 @@ Grant-CsTeamsMeetingPolicy -Identity <PolicyName> -EnrollUserOverride Enabled
 ```
 Learn more: [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
 
-
 > [!NOTE]
 > There isn't a way to set this in Teams admin center.
 
 Learn more: [Voice recognition](/microsoftteams/rooms/voice-recognition)
+
+> [!NOTE]
+> Voice and face enrollment settings will be moving over to **TeamsAIPolicy** cmdlet.
 
 ### Setting up noise suppression and isolation
 
@@ -169,7 +171,7 @@ Learn more: [Voice recognition](/microsoftteams/rooms/voice-recognition)
 
 Noise suppression is identifying non human voices or noise in an environment and then minimizing or completely eliminating them from an audio stream. Part of the AI process for voice isolation is telling the difference between background chatter in a café and a user is simply listening in and if they also want to be heard clearly if they're speaking in the meeting from their device.
 
-Noise suppression of background noise is turned on by default (and can't be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant, and it greatly enhances the microphone's audio quality.
+Noise suppression of background noise is turned on by default (and can be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant, and it greatly enhances the microphone's audio quality.
 
 :::image type="content" source="../media/mtr-devices/noise-suppression.png" alt-text="An image of the noise suppression setting that is turned on." lightbox="../media/mtr-devices/noise-suppression.png":::
 
@@ -181,8 +183,8 @@ You can manage how voice and face profiles are used to turn off Voice Isolation 
 
 :::image type="content" source="../media/mtr-devices/voice-isolation.png" alt-text="An image showing the setting for voice isolation in the Teams app." lightbox="../media/mtr-devices/voice-isolation.png":::
 
-> [!CAUTION]
-> You need to turn off voice isolation if you are using Bring Your Own Device (BYOD) meeting rooms. If you don't, only one voice will be recognized and heard in the meeting.
+> [!TIP]
+> If you are using Bring Your Own Device (BYOD) meeting rooms and rooms audio we will turn on voice isolation automatically.
 >
 > Learn more: [Manage voice isolation for your users](/microsoftteams/voice-isolation)
 
@@ -200,7 +202,7 @@ If you have turned on Face profiles in your organization, the **Create face prof
 
 Tell your users to set up a voice and face profile in the Teams app. Each person who is attending in the meeting room (as opposed to remotely) sets up their digital voice profile in the system so that they'll be identified in the transcription.
 
-1. Go to your profile picture select **More options**  **Settings** and look under **Language** and make sure that your Teams language is set to **English**. You can enroll your voice profile in EN-US, EN-GB, EN-CA, EN-AU, IE (Indian English), or NZE (New Zealand English).
+1. Go to your profile picture select **More options**  **Settings** and look under **Language** and make sure that your Teams language is set to **English**. To see the languages that are supported, see [Suuported languages](voice-and-face-recognition.md#supported-languages-for-enrollment).
 2. Under **Settings** again, select **Recognition** and then **Create voice profile.**
 3. On the next screen, select the microphone, then select **Create voice profile** and read the text that is in the box.
 
@@ -360,18 +362,21 @@ Learn more: [Identify in-room meeting participants](https://support.microsoft.co
 
 Voice profile data is used in any meeting with an Intelligent Speaker. However, each user must set up a voice and face profile in the Teams app. See, [Voice and face recognition](voice-and-face-recognition.md) or [Set up voice and face profiles](copilot-admin-mtr.md#set-up-voice-and-face-recognition-profiles).
 
+> [!NOTE]
+> Intelligent Speaker is only available on Microsoft Teams Rooms for Windows.
+
 Enabling people recognition or Intelligent Speaker requires you to set the CsTeamsMeetingPolicy to let individual voice and face profiles to be used for recognition in meetings.
 
 Use PowerShell to turn it on:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <PolicyName> -roomPeopleNameUserOverride On -RoomAttributeUserOverride Attribute
+Set-CsTeamsMeetingPolicy -Identity <PolicyName> -RoomAttributeUserOverride Attribute
 ```
 
 Learn more: [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 > [!NOTE]
-> There are also hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [Certified Intelligent Speakers](certified-hardware.mdmd?tabs=Devices).
+> No special microphones are needed to use this feature. Microphones that are included in Teams Rooms for Windows devices all support Intelligent Speaker. However, there are also addtional hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [Certified Intelligent Speakers](certified-hardware.mdmd?tabs=Devices).
 
 ## Related articles
 
