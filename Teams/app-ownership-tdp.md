@@ -28,11 +28,11 @@ An owner may leave the organization or can delete the app from the portal after 
 * Take over the ownership of an app and add other developers as owners.
 * Import the app if it was created outside of Developer Portal or was deleted from the portal.
 
-This helps another developer to work on the app and manage it thereby maintaining business continuity.
+The above tasks help admins to let another developer work on the app and manage it, hence maintaining business continuity.
 
 ## Admin takes ownership of a custom app
 
-Your organization can use a custom app that is available just within your org and not on the Teams store. It is created for and managed within your org.
+Your organization can use a custom app that is available just within your org and not on the Teams store. It's created for and managed within your org.
 Admins can take ownership of a custom app in the following scenarios:
 
 * Custom app that is available in the portal.
@@ -40,7 +40,7 @@ Admins can take ownership of a custom app in the following scenarios:
 
 ### Take ownership of custom app available in the portal
 
-If a custom app exists in the portal, then taking ownership is not possible for a user. Admins can either import the zip archive or take ownership in the following ways.
+If a custom app exists in the portal, then taking ownership isn't possible for a user. Admins can either import the zip archive or take ownership in the following ways.
 
 | Role | Available option | Outcome on app ownership |
 |------|------------------|--------------------------|
@@ -54,7 +54,7 @@ If a custom app exists in the portal, then taking ownership is not possible for 
 
 ### Take ownership of custom app not available in the portal
 
-It is possible to create a custom app without using the Developer Portal or to delete it after creation. In this case, your org won't have the app available in the portal. You can import or take ownership in the following ways.
+It is possible to create a custom app without using the Developer Portal or to delete it after creation. In this case, your org doesn't have the app available in the portal. You can import or take ownership in the following ways.
 
 | Role | Available option | Outcome on app ownership |
 |------|------------------|--------------------------|
@@ -68,15 +68,9 @@ An org can publish its app to [Microsoft AppStore](https://appsource.microsoft.c
 
 In the above cases, you as an admin can reclaim the ownership of the app in Developer Portal by contacting Microsoft Support. To ascertain the ownership, provide the following details to Microsoft Support:
 
-* Proof of ownership of the app: Provide a screenshot of the latest email exchange to publish the app. When they submitted the app, the submitter in your organization was contacted by Microsoft from `teamsubm@microsoft.com` email ID to let them know that their app was published on the AppStore.
+* Proof of ownership of the app: Provide a screenshot of the email approval from Microsoft app validation team. When an org submits a Teams app in Partner Center, Microsoft validates the app and contacts from `teamsubm@microsoft.com` email ID. Microsoft app validation team lets your org know that the app is approved for publishing to the AppStore.
 * Your tenant ID.
 * Your app's ID.
-
-## Considerations and limitations
-
-Know the following limitations about this functionality:
-
-* 
 
 ## Related articles
 
