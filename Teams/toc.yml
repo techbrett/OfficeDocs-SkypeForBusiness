@@ -1759,6 +1759,8 @@ items:
           href: audit-app-management-activities.md
         - name: View app usage report and analytics
           href: teams-analytics-and-reports/app-usage-report.md
+        - name: Take ownership of your org's apps
+          href: app-ownership-developer-portal.md
 
 - name: Industries and government guidance
   items: 
