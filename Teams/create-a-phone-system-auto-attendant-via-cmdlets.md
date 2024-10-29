@@ -30,9 +30,9 @@ description: Learn how to configure auto attendants via cmdlets
 
 # Create an Auto attendant via cmdlets
 
-## Assumptions
+## Prerequisites
 
-1. You have installed PowerShell on your computer.
+1. Install PowerShell on your computer.
 
    - Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
    - MSTeams Module Installed
@@ -47,12 +47,12 @@ description: Learn how to configure auto attendants via cmdlets
      Install-Module -Name Microsoft.Graph -Force -AllowClobber
      ```
 
-2. You have tenant administration rights.
-3. You purchased Microsoft Teams Phone.
-4. The following call queues were set up using the [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md) guide.
+2. Ensure you have tenant administration rights.
+3. Purchase Microsoft Teams Phone.
+4. The call queues mentioned in this article were set up using the [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md) guide.
 
 > [!NOTE]
-> Some of the following cmdlets may be part of the Public Preview version of Teams PowerShell Module. For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
+> Some of the cmdlets mentioned in this article may be part of the Public Preview version of Teams PowerShell Module. For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
 
 Users who already have the MicrosoftTeams module installed should `Update-Module MicrosoftTeams` to ensure the most up-to-date version is installed.
 
@@ -85,7 +85,7 @@ Useful configuration information:
 
 ## Login
 
-You'll be prompted to enter your Teams administrator credentials.
+When prompted, enter your Teams administrator credentials.
 
 ```PowerShell
 $credential = Get-Credential
@@ -103,7 +103,7 @@ $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type 
 
 ## Dial By Name Auto Attendant - Resource Account Creation
 
-Create a resource account here so it can be referenced on the main auto attendant. The actual Dial By Name auto attendant is created later.
+Create a resource account here so it can be referenced on the main auto attendant. You can create the actual Dial By Name auto attendant later.
 
 ### Get license types
 
@@ -113,7 +113,7 @@ Get-MgSubscribedSku
 
 ### Create and assign Resource Account
 
-A phone number isn't required here as the call queue is front-ended by an auto attendant.
+A phone number isn't required here as the call queue is nested behind an auto attendant.
 
 - ApplicationID
   - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07

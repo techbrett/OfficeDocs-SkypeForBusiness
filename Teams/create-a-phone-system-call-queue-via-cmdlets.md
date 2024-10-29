@@ -31,9 +31,9 @@ description: Learn how to configure call queues via cmdlets
 ---
 # Create a Call queue via cmdlets
 
-## Assumptions
+## Prerequisites
 
-1. You have installed PowerShell on your computer.
+1. Install PowerShell on your computer.
    - Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
    - MSTeams Module Installed
 
@@ -47,17 +47,18 @@ description: Learn how to configure call queues via cmdlets
      Install-Module -Name Microsoft.Graph -Force -AllowClobber
      ```
 
-2. You have tenant administration rights.
-3. You have purchased Microsoft Teams Phone.
-4. The agents, distribution lists, and Teams channels referred to below have already been created.
+2. Ensure you have tenant administration rights.
+3. Purchase Microsoft Teams Phone.
+4. The agents, distribution lists, and Teams channels mentioned in this article have already been created.
 
-The Teams Channel cmdlet used below is part of the Public Preview version of Teams PowerShell Module.  For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
+> [!NOTE]
+> The Teams Channel cmdlet used in this scenario is part of the Public Preview version of Teams PowerShell Module. For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
 
 Users who already have the MicrosoftTeams module installed should `Update-Module MicrosoftTeams` to ensure the most up-to-date version is installed.
 
 ## Scenario
 
-In this scenario, the following three call queues will be created:
+In this scenario, you create the following three call queues:
 
 - Sales Call Queue
 - Support Call Queue
@@ -65,7 +66,7 @@ In this scenario, the following three call queues will be created:
 
 Sales Call Queue information:
 
-- Fronted by Auto Attendant: Yes
+- Nested behind Auto Attendant: Yes
 - Direct calling from PSTN: No
 - Language: English US
 - Greeting: None
@@ -86,7 +87,7 @@ Sales Call Queue information:
 
 Support Call Queue information:
 
-- Fronted by Auto Attendant: Yes
+- Nested behind Auto Attendant: Yes
 - Direct calling from PSTN: No
 - Language: English UK
 - Greeting: Play an audio file
@@ -111,7 +112,7 @@ Support Call Queue information:
 
 Facilities Collaborative Calling Queue information:
 
-- Fronted by Auto Attendant: No
+- Nested behind Auto Attendant: No
 - Direct calling from PSTN: No (internal calling only)
 - Language: French FR
 - Greeting: None
@@ -131,7 +132,7 @@ Facilities Collaborative Calling Queue information:
 
 ## Login
 
-You'll be prompted to enter your Teams administrator credentials.
+When prompted, enter your Teams administrator credentials.
 
 ```powershell
 $credential = Get-Credential
@@ -178,13 +179,13 @@ Get-MgSubscribedSku
 
 ### Create and assign resource account
 
-A phone number isn't required here as the call queue is front-ended by an Auto attendant.
+A phone number isn't required here as the call queue is nested behind an auto attendant.
 
 - ApplicationID
   - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
   - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-The license type shown below `(PHONESYSTEM_VIRTUALUSER)` must be one that's listed by the `Get-MgSubscribedSku` cmdlet above.
+The license type shown after `(PHONESYSTEM_VIRTUALUSER)` must be one that's listed by the `Get-MgSubscribedSku` cmdlet.
 
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -242,13 +243,13 @@ Get-MgSubscribedSku
 
 ### Create and Assign Resource Account
 
-A phone number isn't required here as the call queue is front-ended by an Auto attendant.
+A phone number isn't required here as the call queue is nested behind an auto attendant.
 
 - ApplicationID
   - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
   - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-The license type shown below `(PHONESYSTEM_VIRTUALUSER)` must be one that's listed by the `Get-MgSubscribedSku` cmdlet above.
+The license type shown after `(PHONESYSTEM_VIRTUALUSER)` must be one that's listed by the `Get-MgSubscribedSku` cmdlet.
 
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -310,13 +311,13 @@ Get-MgSubscribedSku
 
 ### Create and assign Resource Account
 
-A phone number isn't required here as the call queue is front-ended by an Auto attendant.
+A phone number isn't required here as the call queue is nested behind an auto attendant.
 
 - ApplicationID
   - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
   - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-The license type shown below `(PHONESYSTEM_VIRTUALUSER)` must be one that's listed by the `Get-MgSubscribedSku` cmdlet above.
+The license type shown after `(PHONESYSTEM_VIRTUALUSER)` must be one that's listed by the `Get-MgSubscribedSku` cmdlet.
 
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
