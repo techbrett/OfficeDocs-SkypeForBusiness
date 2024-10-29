@@ -26,7 +26,7 @@ description: Learn how to require verification checks for Microsoft Teams meetin
 
 # Require verification checks to join Teams meetings and webinars in your org
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](media/circle-check.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a x for no](media/x-for-no.png) Town halls
 
 For a seamless experience, it's important to manage how anonymous participants join meetings and webinars in your org. Anonymous participants include users who join a Teams meeting without signing in, via the Teams web app, or through external meeting platforms.
 
@@ -37,7 +37,7 @@ If your organizers allow anonymous users to bypass the lobby, web bots might joi
 
 ## Manage verification checks for meetings and webinars in your org
 
-You can use the Teams admin center or PowerShell manage verification checks for meetings and webinars in your org. You could also use a sensitivity label  in Purview or a meeting template to require verification checks. To use meeting templates and sensitivity labels, you must have a Teams Premium license.
+You can use the Teams admin center or PowerShell manage verification checks for meetings and webinars in your org. You could also use a sensitivity label in Purview or a meeting template to require verification checks. To use meeting templates and sensitivity labels, you must have a Teams Premium license.
 
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
