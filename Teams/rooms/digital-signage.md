@@ -126,7 +126,7 @@ To add a web URL as signage source, from the digital signage tenant management p
 > By adding a signage source to your tenant, you accept full responsibility for all signage content that is displayed in your rooms and acknowledge that Microsoft isn't responsible for the signage content that is displayed nor the data that may be transferred out of our system to the external signage source. 
 > Supported third party providers will receive the name and email of the specific rooms where they have been assigned as the signage source, allowing seamless integration.
 
-## Step 4 - Assigning a signage source and settings
+## Step 4 - Assigning signage source and settings
 
 Once you've added signage source(s) for your tenant, you can now assign a signage source and settings to your rooms. If you're assigning one of the trusted third party providers as a signage source to a room, this step automatically registers that specific room onto the third-party content management system. You can assign a signage source and settings for multiple rooms or room groups at the tenant level or for individual rooms at a room level:
 
@@ -155,7 +155,7 @@ While each room or room group can be assigned with a unique configuration, you c
 - **Display period** - from the digital signage tenant management page, select **Preferences** >
   - **Activation timer** - enter the number of minutes (between 1 to 100) that a device has been idle before signage mode activates.
   - **Deactivation** **timer** - enter the number of minutes (between 0 to 100) before a scheduled meeting starts when signage mode deactivates and returns to the home screen.
-  - **Screen timeout** - toggle On or Off **Allow screen timeout when device is idle** as desired. Turn On to adhere to the operating system's screen timeout settings (i.e., the screen light goes out regardless of when signage mode is activated). Turn Off to bypass the operating system's screen timeout settings (that is, the screen remains lit up on idle devices when signage mode is activated).
+  - **Screen timeout** - toggle On or Off **Allow screen timeout when device is idle** as desired. Turn On to adhere to the operating system's screen timeout settings (that is, the screen light goes out regardless of when signage mode is activated). Turn Off to bypass the operating system's screen timeout settings (that is, the screen remains lit up on idle devices when signage mode is activated).
   
 > [!NOTE]
 > If you add video content in your signage playlist, the screen timeout setting might not consistently honored due to underlying operating system behavior for video playback.
@@ -183,7 +183,8 @@ If you have issues with configuring signage settings on your Teams Rooms device 
 
 |Issue or limitation|Workaround|
 | -------- | -------- |
-|Regardless of the signage source, the digital signage health signal isn't available on the Teams Rooms Pro Management portal.|There's no workaround. Users must report issues for you to be alerted of issues with digital signage in the room.|
-|When the **Apply now** option for applying settings is selected and the room is in use, the changes won't be applied immediately to avoid disruption in the room. Rather, we'll retry to apply the changes during the maintenance window.|When settings fail to apply immediately, you can either wait for the maintenance window or push another update when the room is no longer in use to override the changes scheduled to be applied during the maintenance window.|
+|Regardless of the signage source, the digital signage health signal isn't available on the Teams Rooms Pro Management portal.|There's no workaround. Users must report issues for you to be alerted of digital signage issues in the room.|
+|When the **Apply now** option for applying settings is selected and the room is in use, the settings won't be applied immediately to avoid disruption in the room. Rather, we'll retry to apply the settings during the maintenance window.|When settings fail to apply immediately, you can either wait for the maintenance window or push another update when the room is no longer in use to override the settings scheduled to be applied during the maintenance window.|
+|There's a 2-hour delay before changes to digital signage settings appear in the **Export all** report.|Navigate to the room's digital signage settings page to view the latest settings of the room.|
 |In some instances, assigning an Appspace channel to a room results in a failure to load signage mode in the room.|To troubleshoot, run the **Restart device-Clear cache** action with the **Delete Teams cache** option selected on the Teams Rooms Pro Management portal for the impacted room. If the issue persists, contact Appspace.|
 |Rooms with dual displays that use Appspace may see a black screen on one of the displays when the Appspace player loads for the first time.|When a black screen is showing on of one of the dual displays, tap the touch console to exit signage mode. When the room goes back to the home screen, the next time signage mode loads, both screens will properly show signage mode.|
