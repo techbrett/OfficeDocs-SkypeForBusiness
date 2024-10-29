@@ -59,7 +59,7 @@ After you've prepared your organization for Copilot, you can manage your Microso
 
 #### Feature vs license comparison
 
-|**Feature**|**Microsoft Teams**|**Microsoft Teams Premium**|**Copilot for M365**|
+| Feature | Microsoft Teams | Microsoft Teams Premium | Copilot for M365 |
 |:-----|:-----|:-----|:-----|
 |AI-based noise suppression|Yes|||
 |AI-based video optimization (brightness and backgrounds)|Yes|||
