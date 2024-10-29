@@ -66,6 +66,12 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 ### 5.2.115.0 (9/26/2024)
 
+[NOTE!] The following features were added to the 5.2.115.0 release with a service side change on October 31, 2024. 
+
+-**Digital Signage** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Inform, connect, and engage your employees with digital signage. Users can view dynamic content and relevant information on front-of-room displays when devices are not in use. Admins can configure tenant-wide and room-specific settings from the Teams Rooms Pro Management portal. Native integrations with selected third-party digital signage providers ([Appspace](https://www.appspace.com/microsoft-teams-rooms/), [XOGO](https://www.xogo.io/xogo-for-microsoft-teams-rooms)) are available, along with the use of web URLs as signage sources. [Learn more](https://learn.microsoft.com/MicrosoftTeams/rooms/digital-signage). 
+
+-**Enhanced cross-platform meetings via SIP join**:::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Collaboration is seamless and intuitive across all meeting platforms, providing a native Teams Room experience when joining SIP-based conferencing services like Google Meet, Zoom, Cisco Webex, Amazon Chime, RingCentral, and others. Users will enjoy the familiar Teams Rooms interface with access to certain third-party in-meeting controls, depending on the platform. Features include up to 1080p video quality, dual screen support, various meeting layouts, and HDMI ingest. This capability requires a SIP calling plan from a Cloud Video Interop (CVI) partner, currently available through Pexip. [Learn more](https://learn.microsoft.com/microsoftteams/rooms/third-party-join).  
+
 Introduced in this update:
 
 - **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. In addition, Teams Rooms on Windows with compatible consoles supports proximity join using ultrasound, providing an alternative to Bluetooth. [Learn more](/microsoftteams/rooms/proximity-join?tabs=portal).
