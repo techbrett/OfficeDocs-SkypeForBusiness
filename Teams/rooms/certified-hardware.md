@@ -292,6 +292,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yamaha ADECIA Ceiling Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_ceiling/index.html) | 1.2.0 |  |  |||
 | [Yamaha ADECIA Tabletop Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_tabletop/index.html) | E1.2.0 for table mic, D1.2.0 for processor |  |  |||
 | [Yamaha ADECIA Wireless Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_wireless/index.html) | 1.9.5 for Wireless mic, 2.1.0 for processor |  |  |||
+| Yamaha ADECIA Ceiling Solution using Ceiling Speakers | RM-CR (DSP): 2.7 <br/> RM-CG (Microphone): 2.7.1 <br/> VXC2P (Speaker): 1.0.0 |  |  |||
 | [Yamaha YVC-1000MS](https://europe.yamaha.com/en/products/unified_communications/speakerphones/yvc-1000ms/index.html) | 1.0.0 |  |  |||
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
