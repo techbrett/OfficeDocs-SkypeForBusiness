@@ -704,6 +704,8 @@ items:
           items: 
             - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
+            - name: Require verification checks
+              href: join-verification-check.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
