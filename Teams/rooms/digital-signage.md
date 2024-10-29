@@ -177,7 +177,7 @@ When there's an issue with the third party player or signage content, the issue 
 
 ### Help and support
 
-If you have issues with configuring signage settings on your Teams Rooms device using the Teams Rooms Pro Management portal, you can contact Microsoft support. For issues specific to the signage content displayed in your rooms, supported third party providers must be contacted first for assistance. If your digital signage provider determines that the underlying issue requires Microsoft's attention, they can route the issue to Microsoft on your behalf or advise you to open a ticket directly with Microsoft.
+For issues with getting a valid integration ID, how your Teams Rooms devices appear on the third party content management system, or specific problems with the signage content displayed in your rooms, you must contact your third party provider for assistance. If your digital signage provider determines that the underlying issue requires Microsoft's attention, they can route the issue to Microsoft on your behalf or advise you to open a ticket directly with Microsoft. For other issues with configuring digital signage settings using the Teams Rooms Pro Management portal, you may contact Microsoft support. 
 
 ## Known issues and limitations
 
