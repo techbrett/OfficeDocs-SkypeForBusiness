@@ -71,8 +71,12 @@ Introduced in this update:
 - **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. In addition, Teams Rooms on Windows with compatible consoles supports proximity join using ultrasound, providing an alternative to Bluetooth. [Learn more](/microsoftteams/rooms/proximity-join?tabs=portal).
 - **Dynamic video tile resizing based on people count** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  The room video tile on Teams desktop client dynamically adjusts size based on the number of people in the room. When one person is in the room, the tile matches the remote participant's size. With two or more people, the room tile expands to be four times larger. Room admins can enable or disable the people count. [Learn more](/microsoftteams/rooms/xml-config-file).
 - **Microsoft Teams Rooms on Windows room preview shows Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** The Preview video of room shows IntelliFrame when Cloud IntelliFrame is enabled for the room, to let in room participants be aware of how they appear to those online. [Learn more](/microsoftteams/devices/cloud-intelliframe).
-- **Roster grouping for in-room participants through proximity join** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  When joining a meeting in a Microsoft Teams Room on Windows with a companion device, in-room participants are grouped under the room node. Participants must join through Proximity Join with Microsoft Teams Rooms. [Learn more](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2).
-- **Native controls for Group Framing, Active Speaker and Edge-composed IntelliFrame:**  Allow users to natively toggle certain camera features provided by OEMs, including group framing, active speaker framing, and edge-composed IntelliFrame. [Learn more](https://support.microsoft.com/en-us/office/enhance-hybrid-meetings-with-microsoft-intelliframe-for-teams-rooms-97161377-b746-49dc-992f-97bbf0d590f7).
+- **Roster grouping for in-room participants through proximity join:**  When joining a meeting in a Microsoft Teams Room with a companion device, in-room participants are grouped under the room node. Participants must join through Proximity Join with Microsoft Teams Rooms. [Learn more](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+- **Native controls for Group Framing, Active Speaker and Edge-composed IntelliFrame:**  Allow users to natively toggle certain camera features provided by OEMs, including group framing, active speaker framing, and edge-composed IntelliFrame.  [Learn more](https://support.microsoft.com/en-us/office/enhance-hybrid-meetings-with-microsoft-intelliframe-for-teams-rooms-97161377-b746-49dc-992f-97bbf0d590f7).
+
+  > [!NOTE]
+  > The camera's OEM firmware is required.
+
 - **Breakout rooms support:** With breakout room support, Teams Rooms on Windows can be added to a breakout room as an attendee and moved in and out of the main room making it easy for breakout session coordination. [Learn more](https://support.microsoft.com/en-us/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461).
 
 Resolved issues:
@@ -740,6 +744,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024101004](#144910962024101004-october-2024) | October 2024 |
 |[1449/1.0.96.2024091202](#144910962024091202-september-2024) | September 2024 |
 |[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
@@ -770,6 +775,14 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024101004 (October 2024)
+
+Resolved issues:
+
+- Fixed AOSP migration issues. 
+- Improved diagnosability for proximity-based meeting join. 
+- Fixed app crashes and performance issues. 
 
 ### 1449/1.0.96.2024091202 (September 2024)
 
