@@ -55,6 +55,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Hide attendee names](hide-attendee-names.md)|Premium|Premium|![Image of a x for no](media/x-for-no.png)|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|![Image of a x for no](media/x-for-no.png)|
+|[Join verification check](join-verification-check.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[Limit presenter role permissions](presenter-role-reduction.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Live captions](meeting-transcription-captions.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
