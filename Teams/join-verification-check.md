@@ -100,7 +100,7 @@ Requiring verification checks isn't supported on the following surfaces and clie
 - [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md)
 - [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 - [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
-- [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/purview/sensitivity-labels-meetings.md)
+- [Use sensitivity labels to protect calendar items, Teams meetings, and chat](meeting-templates-sensitivity-labels-policies.md)
 - [Plan for Teams meetings](plan-meetings.md)
 - [Plan for Teams webinars](plan-webinars.md)
 - [Plan for Teams town halls](plan-town-halls.md)
