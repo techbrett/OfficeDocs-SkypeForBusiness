@@ -23,11 +23,11 @@ Persistent Chat Server can be installed with Skype for Business Server Enterpris
   
 Before you deploy Persistent Chat Server, you must ensure that the following hardware and software requirements are met:
   
-- Hardware that meets minimum requirements to support Skype for Business Server, Persistent Chat Server, database servers, and file servers. For more information, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+- Hardware that meets minimum requirements to support Skype for Business Server, Persistent Chat Server, database servers, and file servers. For more information, for Skype for Business Server 2015, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). For Skype for Business Server 2019, see [System requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) 
     
 - Supported operating system and database software.
     
-    For details about supported operating systems and database software, and Windows update requirements, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+    For details about supported operating systems and database software, and Windows update requirements, for Skype for Business Server 2015, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). For Skype for Business Server 2019, see [System requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)
     
 - Skype for Business Server Front End Server. The Front End Server is the foundation for Session Initiation Protocol (SIP) routing, which makes communication between computers running Persistent Chat Server and the Persistent Chat functionality possible. 
     
@@ -56,7 +56,7 @@ Persistent Chat Server requires SQL Server database software to store chat room 
     
 - The Persistent Chat database (mgc) and the compliance database (mgccomp) can be located in the same instance of SQL Server or on different SQL Servers.
     
-To prepare a database server platform, be sure that each computer meets the hardware requirements, and then install the prerequisite software. The server platform for the Persistent Chat database servers requires the same hardware as the Skype for Business Server back-end database server. For details, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+To prepare a database server platform, be sure that each computer meets the hardware requirements, and then install the prerequisite software. The server platform for the Persistent Chat database servers requires the same hardware as the Skype for Business Server back-end database server. For details, for Skype for Business Server 2015, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). For Skype for Business Server 2019, see [System requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)
   
 On the database server, be sure that one of the following software applications is installed:
 
@@ -76,6 +76,8 @@ For details about acquiring certificates, creating the SQL Server database, and 
 
 For more information about hardware and software requirements, see the following topics:
   
-- [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- For Skype for Business Server 2015, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+
+- For Skype for Business Server 2019, see [System requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)
     
 - [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
