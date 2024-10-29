@@ -29,7 +29,7 @@ This inbound call blocking feature only works on inbound calls that originate fr
 > [!NOTE]
 > Blocked callers might experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller's carrier handles the notification that the call isn't allowed to be successfully completed. Examples might include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
 
-Note that it's currently not possible to manage call blocking by using Teams admin center.
+It's currently not possible to manage call blocking by using Teams admin center.
 
 ## Manage call blocking by using PowerShell
 
@@ -41,7 +41,7 @@ Number block patterns are defined as regular expression patterns. The order of t
 
 To view and activate the call blocking feature, use the **Get-** and **Set-CsTenantBlockingCallingNumbers** Teams PowerShell Module cmdlets.
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/teams/get-cstenantblockedcallingnumbers) returns the inbound block number patterns and the inbound exempt number patterns parameters for the global blocked number list. This cmdlet also returns whether blocking has been Enabled (True or False).
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/teams/get-cstenantblockedcallingnumbers) returns the inbound block number patterns and the inbound exempt number patterns parameters for the global blocked number list. This cmdlet also returns whether or not blocking is Enabled (True or False).
 
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/teams/set-cstenantblockedcallingnumbers) allows you to specify whether the global tenant blocked calls are turned on or off at the tenant level.
 
@@ -184,7 +184,7 @@ Set-CsInboundExemptNumberPattern -Identity "AllowContoso1" -Enabled $False
 
 #### Remove a number exception
 
-The **Remove-CsInboundExemptNumberPattern** cmdlet will remove the given number pattern from the tenant list. In this example, the **Identity** parameter is required.
+The **Remove-CsInboundExemptNumberPattern** cmdlet removes the given number pattern from the tenant list. In this example, the **Identity** parameter is required.
 
 If the identity isn't known, use the **Get-CsInboundExemptNumberPattern** cmdlet to first locate the proper pattern and note the identity. Then, run the **Remove-CsInboundExemptNumberPattern** cmdlet and pass the appropriate identity value. Allow time for replication before you test and validate.
 
