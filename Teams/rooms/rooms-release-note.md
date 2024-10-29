@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 09/30/2024
+ms.date: 10/29/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -70,7 +70,7 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 -**Digital Signage** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Inform, connect, and engage your employees with digital signage. Users can view dynamic content and relevant information on front-of-room displays when devices are not in use. Admins can configure tenant-wide and room-specific settings from the Teams Rooms Pro Management portal. Native integrations with selected third-party digital signage providers ([Appspace](https://www.appspace.com/microsoft-teams-rooms/), [XOGO](https://www.xogo.io/xogo-for-microsoft-teams-rooms)) are available, along with the use of web URLs as signage sources. [Learn more](https://learn.microsoft.com/MicrosoftTeams/rooms/digital-signage). 
 
--**Enhanced cross-platform meetings via SIP join**:::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Collaboration is seamless and intuitive across all meeting platforms, providing a native Teams Room experience when joining SIP-based conferencing services like Google Meet, Zoom, Cisco Webex, Amazon Chime, RingCentral, and others. Users will enjoy the familiar Teams Rooms interface with access to certain third-party in-meeting controls, depending on the platform. Features include up to 1080p video quality, dual screen support, various meeting layouts, and HDMI ingest. This capability requires a SIP calling plan from a Cloud Video Interop (CVI) partner, currently available through Pexip. [Learn more](https://learn.microsoft.com/microsoftteams/rooms/third-party-join).  
+-**Enhanced cross-platform meetings using SIP join**:::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Collaboration is seamless and intuitive across all meeting platforms, providing a native Teams Room experience when joining SIP-based conferencing services like Google Meet, Zoom, Cisco Webex, Amazon Chime, RingCentral, and others. Users will enjoy the familiar Teams Rooms interface with access to certain third-party in-meeting controls, depending on the platform. Features include up to 1080p video quality, dual screen support, various meeting layouts, and HDMI ingest. This capability requires a SIP calling plan from a Cloud Video Interop (CVI) partner, currently available through Pexip. [Learn more](https://learn.microsoft.com/microsoftteams/rooms/third-party-join).  
 
 Introduced in this update:
 
