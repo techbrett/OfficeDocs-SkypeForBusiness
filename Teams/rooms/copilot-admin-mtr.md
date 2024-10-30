@@ -51,7 +51,7 @@ Learn more: [Service Descriptions for Copilot](/copilot/microsoft-365/microsoft-
 
 ## Admin set up
 
-Within your organization, there are several settings that you'll either need to turn on (they're off by default) or verify that they're turned on to let end users get the full advantages of Copilot in Microsoft Teams. Settings like transcriptions, captioning, recording, voice isolation, voice enrollment are a few of the settings that you want to set up or turn on for your end users in your organization.
+Within your organization, there are several settings that you'll either need to turn on (they're off by default) or verify that they're turned on to let end users get the full advantages of Copilot in Microsoft Teams Rooms specifically. Settings like transcriptions, captioning, recording, voice isolation, voice enrollment are a few of the settings that you want to set up or turn on for your end users in your organization in order for users to benefit from Copilot and Microsoft Teams Rooms.
 
 ### Assign your licenses
 
