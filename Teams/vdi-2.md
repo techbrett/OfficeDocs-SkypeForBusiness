@@ -45,6 +45,9 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
+> [!NOTE]
+> Support for Microsoft Teams and Microsoft 365 Apps is defined by the [Modern Lifecycle Policy](/lifecycle/policies/modern), which requires customers maintain an up-to-date configuration to stay supported. End-of-support dates for Windows Server 2019 and Windows Server 2022 are October 2025 and October 2026 respectively. For further information, please check [this link](https://go.microsoft.com/fwlink/?linkid=2274805).
+
 ## Optimizing with new VDI solution for Teams
 
 ### Step 1: Confirm prerequisites
@@ -385,11 +388,13 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 2. The VDA machines must be rebooted for the policy to take effect.
 
-#### Citrix App Protection and Microsoft Teams compatibility
+#### Screen sharing
+
+##### Citrix App Protection and Microsoft Teams compatibility
 
 Users who have App Protection enabled can still share their screen and apps while using the new optimization. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions end up sharing a black screen instead when the App Protection module is installed and enabled.
 
-#### AVD Screen Capture Protection and Microsoft Teams compatibility
+##### AVD Screen Capture Protection and Microsoft Teams compatibility
 
 Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user is optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
 
@@ -398,6 +403,9 @@ Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture
 Call Quality Dashboard (CQD) allows IT Pros to use aggregate data to identify problems creating media quality issues by comparing statistics for groups of users to identify trends and patterns. CQD isn't focused on solving individual call issues, but on identifying problems and solutions that apply to many users.
 
 VDI user information is now exposed through numerous dimensions and filters. Check [this page](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information about each dimension.
+
+> [!NOTE]
+> The new Quality of Experience (QER) template is available in the Power BI query templates for CQD download. Version 8 now includes templates for reviewing VDI client-focused metrics.
 
 ##### Query fundamentals
 
