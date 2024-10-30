@@ -71,11 +71,11 @@ Perform the following steps:
 
 1. Open the `CQD Teams Auto Attendant & Call Queue Historical Report V1.64.pbit` template file. Power BI Desktop should launch.
 
-1. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
+1. You're prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
      :::image type="content" source="media/aa-cq-historical-report-01-v164.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
-    Public Cloud Customers (Not supported but will work):
+    Public Cloud Customers (not supported but works):
 
 1. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/teams/get-cstenant) cmdlet.
 
@@ -85,7 +85,7 @@ Perform the following steps:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    The region will be displayed after the **/** as in the above example where the region is `noam`.
+    The region is displayed after the **/** as in the above example where the region is `noam`.
 
     GCC High and DoD Customers:
 
@@ -171,11 +171,11 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
+|AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
+|AACallerActionCount  (Measure)          |Whole number             |Same as above except this displays as 0 instead of being blank if there are no calls                              |
 |AACallFlow                              |Text                     |Encapsulates the different states of Auto Attendant Call--possible values:<br><br>- abs_search<br>- announcement<br>- automatic_menu<br>- call_termination<br>- call_transfer<br>- first_level_menu<br>- main_menu<br>- speech_input_confirmation<br>- user_selection |
-|AACallResult                            |Text                     |Final call result--possible values:<br><br>- failed_to_establish_media (the media portion of the call couldn't be established)<br>- failover_to_operator (call transferred to operator typically due to a system error)<br>- oaa_chain_too_long (too many legs in the AA)<br>- oaa_session_too_long (AA session has lasted too long)<br>- service_declined (AA didn't accept the call)<br>- service_terminated (AA configuration disconnects the call or call hung up)<br>- terminated_automatic_selection (AA configuration disconnects the calls)<br>- terminated_no_operator (call terminated due to error no operator defined) <br>- terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>- transfer_in_progress (AA->AA transfer)<br>- transferred_to_operator (call was transferred to operator - typically due to user error)<br>- transferred_to_receptionist (same as transferred_to_operator)<br>- transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>- transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>- transferred_to_user (call was transferred to a user - includes call queues)<br>- unknown (an unknown condition has occurred)<br>- user_terminated (caller hung up) |
+|AACallResult                            |Text                     |Final call result--possible values:<br><br>- failed_to_establish_media (the media portion of the call couldn't be established)<br>- failover_to_operator (call transferred to operator typically due to a system error)<br>- oaa_chain_too_long (too many legs in the AA)<br>- oaa_session_too_long (AA session lasted too long)<br>- service_declined (AA didn't accept the call)<br>- service_terminated (AA configuration disconnects the call or call hung up)<br>- terminated_automatic_selection (AA configuration disconnects the calls)<br>- terminated_no_operator (call terminated due to error no operator defined) <br>- terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>- transfer_in_progress (AA->AA transfer)<br>- transferred_to_operator (call was transferred to operator - typically due to user error)<br>- transferred_to_receptionist (same as transferred_to_operator)<br>- transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>- transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>- transferred_to_user (call was transferred to a user - includes call queues)<br>- unknown (an unknown condition occurred)<br>- user_terminated (caller hung up) |
 |AA Call Legend                          |Text                     |Sets up legend items based on AACallResult                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                     |
 |AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank              |
