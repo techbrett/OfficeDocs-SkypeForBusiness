@@ -33,7 +33,7 @@ Before you can join third-party meetings from Teams Rooms, you need to do the fo
 
 ## Step 1: Determine which third-party meeting join solution is right for your Teams Rooms
 
-Teams Rooms offer two ways for connecting to third-party meetings: a SIP video based solution known as cross-platform meeting via SIP join and a WebRTC based solution known as Direct Guest Join. These solutions have different requirements and capabilities which are noted in the table. Review and determine which is right for your organization.
+Teams Rooms offer two ways for connecting to third-party meetings: a SIP video based solution known as cross-platform meeting via SIP join and a WebRTC based solution known as Direct Guest Join. These solutions have different requirements and capabilities which are noted in the table. Review the table and determine which is right for your organization.
 
 | Supported Functionality | Cross-Platform Meetings via SIP | Direct Guest Join
 |--------|----------|---------|---------|
@@ -108,7 +108,10 @@ The last step you need to take is to allow Teams Rooms to join third-party meeti
 
 ## [Teams Rooms on Windows](#tab/MTRW)
 
-If you wish to utilize the cross-platform SIP join capability, you need to enable SIP video calling on your Teams Rooms following these instructions: [SIP and H.323 Calling](meetings-with-sip-h323-devices.md). Once SIP calling is enabled, the Teams Room automatically uses SIP instead of WebRTC to join the enabled third-party meetings. To ensure SIP calling enabled Teams Rooms can always join a meeting, Teams Rooms will automatically use Direct Guest Join over WebRTC if the third party meeting invite doesn't contain a SIP dial string. Lastly, if SIP calling isn't enabled, Teams Rooms on Windows devices will only utilize Direct Guest Join over WebRTC for third-party meetings.
+If you wish to utilize the cross-platform SIP join capability, you need to enable SIP video calling on your Teams Rooms following these instructions: [SIP and H.323 Dilaing](meetings-with-sip-h323-devices.md). Once SIP calling is enabled, the Teams Room automatically uses SIP instead of WebRTC to join the enabled third-party meetings. To ensure SIP calling enabled Teams Rooms can always join a meeting, Teams Rooms will automatically use Direct Guest Join over WebRTC if the third party meeting invite doesn't contain a SIP dial string. Lastly, if SIP calling isn't enabled, Teams Rooms on Windows devices will only utilize Direct Guest Join over WebRTC for third-party meetings.
+
+> [!NOTE]
+> Automatic fallback to WebRTC DGJ works for meetings using the calendar join button. If users attempt to use join by ID and the meeting does not have SIP capabilities, the call will fail. Only enable SIP dialing in your organization if third-party meetings you join have SIP capabilities or educate your users on the fall back options with the calendar join buttons.
 
 #### Using the Pro Management Portal
 
