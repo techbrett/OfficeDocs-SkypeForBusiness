@@ -74,7 +74,7 @@ After you've prepared your organization for Copilot, you can manage your Microso
 |Does this plan's timeline have any conflicts?|||Yes|
 |Create a table with pros and cons|||Yes|
 |Microsoft Copilot UX|||Yes|
-|Other: AI-powered web groundling and Microsoft 365 Graph groudling|||Yes|
+|Other: AI-powered web grounding and Microsoft 365 Graph grounding|||Yes|
 |Other: Microsoft Copilot and Copilot Studio|||Yes|
 |Other: Copilot in core Microsoft 365 apps|||Yes|
 
