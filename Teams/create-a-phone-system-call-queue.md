@@ -81,6 +81,8 @@ Before you can create and manage resource accounts, you must do the following ac
 
 All Call queues must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to a Call queue.
 
+However, nested Auto attendants and Call queues that transfer calls externally don't require resource accounts or respective licensing. When nesting Auto attendants or Call queues, license the resource account on the first Auto attendant or Call queue receiving the call.
+
 For details on how to create resource accounts and ready them for use with auto attendants, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
 Agents see the resource account name when they receive an incoming call.
@@ -311,9 +313,9 @@ For example, when **Overflow** occurs, you might send calls to a backup Call que
 
 > [!NOTE]
 > For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details) for number formatting.
-> 
+>
 > Don't include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
-> 
+>
 > The Overflow, Call timeout and No Agents exception redirect options for **Person in organization** and **Voicemail personal** support additional prompting. For more information, see [Additional messaging](#additional-messaging)
 
 ### Overflow: Set how to handle call overflow
