@@ -112,7 +112,7 @@ If you wish to utilize the cross-platform SIP join capability, you need to enabl
 
 #### Using the Pro Management Portal
 
-1. Log in to the [Pro Management Portal](enrolling-mtrp-managed-service.md)
+1. Log in to the [Teams Pro Management Portal](enrolling-mtrp-managed-service.md)
 2. Select **Rooms**
 3. Select your desired room
 4. Select **Settings**
@@ -126,7 +126,7 @@ To configure Teams Rooms on Windows using the touchscreen console, do the follow
 
 1. On the Microsoft Teams Rooms console, select **More**.
 2. Select **Settings**, and then enter the device administrator username and password.
-3. Go to the **Meetings** tab and select a third-party meeting provider you wish to enable (for example, **Webex**, **Zoom**, etc.).
+3. Go to the **Meetings** tab and select a third-party meeting provider you wish to enable (for example, **Cisco Webex**, **Zoom**, etc.).
 
      :::image type="content" source="../media/use-device-settings.png" alt-text="Turning on and off third party providers.":::
 
@@ -143,8 +143,8 @@ For more information about the `SkypeSettings.xml` file, see [Manage Microsoft T
 To enable the various platforms, set the XML element to **True**, as follows.
 
   ```xml
-  <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
   <WebexMeetingsEnabled>True</WebexMeetingsEnabled>
+  <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
   ```
 
 You can optionally specify a custom username and email address to join third-party meetings using the following XML elements. If the values you provide aren't valid, the Teams Rooms device defaults to use room mailbox username and email address.
