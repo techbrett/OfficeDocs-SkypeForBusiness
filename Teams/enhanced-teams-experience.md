@@ -251,25 +251,17 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 
 ## Advanced Places Workplace Collaboration
 
-> [!NOTE]
-> This feature is currently in Public Preview.
-
-Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
-
-To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
-
-## Advanced Places Workplace Collaboration
-
-> [!NOTE]
-> This feature is currently in Public Preview.
-
 With a Teams Premium license, your users can experience [PLACEHOLDER EDIT LATER: advanced features that support advanced booking, space analytics] in Places. [PLACEHOLDER EDIT LATER: As an admin, you get advanced management capabilities].
 
 Teams Premium provides the following advanced capabilities in Places:
 
 - **Places finder** - Your users can book and check into workspaces, as well as use seat assignments to sit near collaborators.
-- **AI Suggestion prompts** - ?? [ CANT FIND DOCS ON THIS OR COPILOT IN PLACES- IS THIS BAKED INTO OTHER DOCS?]
+- **Suggestion suggestions** - ?? [ CANT FIND DOCS ON THIS OR COPILOT IN PLACES- IS THIS BAKED INTO OTHER DOCS?]
+- **Places explorer** - ???
 - **Places analytics** - You can learn which desks and rooms are most frequently used, and get suggestions on how to optimize space management. You can also identify trends for key buildings, bookable rooms, and shared work spaces
+- **Auto release policies** - ??
+- **Team guidance** -??
+- **Quick book** - ??
 - **Connect building occupancy signals** - Use existing sensor data to enhance Microsoft Places analytics reports by combining the actual and intended usage of your users' conference rooms and buildings.
 - **Auto release for rooms** - If you create auto release for rooms, when a room that you enable for auto release isn't being used, Teams and Places free up the room for others to reserve.
 - **Create desk pools and workspaces** - You can create groups of desks to manage together. Your users can reserve desk pools to work when they visit the office.
