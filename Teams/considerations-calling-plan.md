@@ -28,13 +28,13 @@ description: "Learn about emergency calling considerations for Microsoft Calling
 
 This article describes emergency calling considerations for Microsoft Calling Plan users. Before reading this article, see emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Microsoft Calling Plans for Teams](calling-plans-for-office-365.md).
+To find out if Microsoft Calling Plans are the right solution for your business, see [Public Switched Telephone Network (PSTN) connectivity options](pstn-connectivity.md) and [Microsoft Calling Plans for Teams](calling-plans-for-office-365.md).
 
 ## Emergency call enablement for Calling Plans
 
 Each Calling Plan user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number.
 
-When the location is associated to the telephone number depends on the country/region:
+The point in time when the location is associated to the telephone number depends on the country/region:
 
 - In the United States and Canada, an emergency location is required when a number is assigned to a user.
 
