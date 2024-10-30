@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: slamprianou
-ms.date: 09/11/2024
+ms.date: 10/01/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -68,13 +68,14 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated September 2024*
+*Table Updated October 2024*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |BH74 Headset                                               |9/25/2024       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 460T                                                |8/5/2024        |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 430T                                                |8/5/2024        |Certified for Microsoft Teams                           | 
 |Yealink              |WH64 Hybrid Dual/Mono Headset                              |7/23/2024       |Certified for Microsoft Teams                           | 
@@ -90,7 +91,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Yealink              |DeskVision A24 Monitor – Peripheral Mode                   |2/8/2024        |Certified for Microsoft Teams                           |
 |Yealink              |BH70 Dual/ Mono Headset                                    |2/8/2024        |Certified for Microsoft Teams                           |
 |Jabra                |Evolve 65 SE/ 2 55/ 2 65/ 2 65 Flex/ 2 75/ 2 85/ 2 BUDS headsets with Link 390 dongle | 1/29/2024 |Certified for Microsoft Teams  |
-|HP                   |960 4K Streaming Webcam                                    |11/20/2023      |Certified for Microsoft Teams                           |
+|HP                   |960/965 4K Streaming Webcam                                |11/20/2023      |Certified for Microsoft Teams                           |
 |Dell                 |WL5024 Headset                                             |11/17/2023      |Certified for Microsoft Teams                           |
 |Dell                 |WH5024 Headset                                             |11/17/2023      |Certified for Microsoft Teams                           |
 |Anker                |PowerConf S3 Speakerphone                                  |11/17/2023      |Certified for Microsoft Teams                           |

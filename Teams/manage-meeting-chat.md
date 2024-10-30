@@ -25,7 +25,7 @@ description: Learn to manage meeting chat in Teams meetings and manage meeting c
 
 # Manage chat in Microsoft Teams meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](media/circle-check.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a checkmark for yes](media/circle-check.png) Town halls
 
 ## Overview
 
