@@ -5286,11 +5286,6 @@
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/devices-usb-devices.md",
-	  "redirect_url": "/microsoftteams/devices/usb-devices",
-	  "redirect_document_id": false
-	},
-	{
 	  "source_path": "Skype/SfbPartnerCertification/certification/devices-pcs.md",
 	  "redirect_url": "/microsoftteams/devices/usb-devices",
 	  "redirect_document_id": false
