@@ -31,7 +31,7 @@ Before you can join third-party meetings from Teams Rooms, you need to do the fo
 3.	Ensure no tenant policies are blocking devices from connecting to third-party meeting services.
 4.	Configure Teams Rooms devices to allow third-party meetings.
 
-## Step 1: Which Third-Party Meeting Join solution is right for your Teams Rooms?
+## Step 1: Determine which third-party meeting join solution is right for your Teams Rooms
 
 Teams Rooms offer two ways for connecting to third-party meetings: a SIP video based solution known as cross-platform meeting via SIP join and a WebRTC based solution known as Direct Guest Join. These solutions have different requirements and capabilities which are noted in the table, review, and determine which is right for your organization.
 
