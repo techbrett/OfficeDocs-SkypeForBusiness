@@ -23,7 +23,7 @@ description: This article discusses how to configure your organization and Teams
 
 # Third-party meetings on Teams Rooms
 
-Microsoft Teams Rooms devices support a one-touch and join by ID experiences for connecting to third-party online meetings. This capability comes in two forms: Direct Guest Join (DGJ) or Cross-Platform meetings via SIP (Session Initiation Protocol) join. When third-party join is enabled, you can use Teams Rooms to join meetings hosted on other meeting platforms as easily as you can join meetings hosted on Microsoft Teams. Third-party meeting experiences are driven by the third-party online meeting provider with the Teams Room device simply connecting to that platform.
+Microsoft Teams Rooms devices support a one-touch and join by ID experiences for connecting to third-party online meetings. This capability comes in two forms: Direct Guest Join (DGJ) or Cross-Platform meetings via SIP (Session Initiation Protocol) join. When third-party join is enabled, you can use Teams Rooms to join meetings hosted on other meeting platforms as easily as you can join meetings hosted on Microsoft Teams. Third-party meeting providers drive the experience of their platform on the Teams Room device.
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following steps:
 1.	Understand which third-party meeting join solution is right for your organization.
@@ -37,14 +37,14 @@ Teams Rooms offer two ways for connecting to third-party meetings: a SIP video b
 
 | Supported Functionality | Cross-Platform Meetings via SIP | Direct Guest Join
 |--------|----------|---------|---------|
-| Join Button &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Cisco Webex <br>Zoom &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
-| Join by ID | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services via URI | Zoom |
+| Join Button &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Cisco Webex <br>Zoom &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; |
+| Join by ID | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services via SIP URI | Zoom |
 | Events & Webinars | Cisco Webex <br>Zoom | Not available |
 | Receive video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
 | Send video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
 | Receive content | Available | Available |
 | Send content | Available | Not available |
-| Maximum supported number of front of room displays | Two displays | One display |
+| Maximum front of room displays | Two displays | One display |
 | Layout controls | Available* | Available* |
 | List participant | Available* | Available* |
 | View chat | Available* | Available* |
@@ -54,19 +54,19 @@ Teams Rooms offer two ways for connecting to third-party meetings: a SIP video b
 | View content annotations | Not available | Not available |
 | View transcript | Not available | Not available |
 | Recording notification | Available | Available |
-| Whiteboard consume | Available* | Available* |
-| Whiteboard interact | Not available | Not available |
+| Whiteboard view | Available* | Available* |
+| Whiteboard interaction | Not available | Not available |
 | Lobby control | Available* | Not available |
 | Lobby authentication / bypass | Not available | Not available |
-| Teams Rooms coordinated join | Not available | Not available |
 | Microphone mute sync | Not available | Not available |
+| Teams Rooms coordinated join | Not available | Not available |
 | SIP calling plan required | Yes | No |
 | Direct internet access required | No | Yes |
 | Teams Rooms license | Teams Rooms Pro | Teams Rooms Basic <br>Teams Rooms Pro |
 | Teams Rooms platform | Teams Rooms on Windows | Teams Rooms on Windows <br>Teams Rooms on Android |
 
 > [!NOTE]
-> *These features vary by third-party meeting platform.
+> *These features vary by third-party meeting platform.<br>
 > Third party platform features listed were available at the time this article was last updated and may vary from platform to platform. Microsoft periodically reviews these features to keep this document current but other platforms may make changes which can impact these features.
 
 > [!NOTE]
@@ -108,7 +108,7 @@ The last step you need to take is to allow Teams Rooms to join third-party meeti
 
 ## [Teams Rooms on Windows](#tab/MTRW)
 
-If you wish to utilize the cross-platform SIP join capability, you need to enable SIP video calling on your Teams Rooms following these instructions: [SIP and H.323 Calling](meetings-with-sip-h323-devices.md). Once SIP calling is enabled, the Teams Room automaticallys uses SIP instead of WebRTC to join the enabled third-party meetings. If SIP calling is enabled but a third party meeting invite sent to the Teams Room doesn't contain a SIP dial string, to ensure you're able to join that meeting, the Teams Room device will automatically fall back to using Direct Guest Join over WebRTC for that single meeting instance. Lastly, if SIP calling isn't enabled, Teams Rooms on Windows devices will only utilize Direct Guest Join over WebRTC for third party meetings.
+If you wish to utilize the cross-platform SIP join capability, you need to enable SIP video calling on your Teams Rooms following these instructions: [SIP and H.323 Calling](meetings-with-sip-h323-devices.md). Once SIP calling is enabled, the Teams Room automatically uses SIP instead of WebRTC to join the enabled third-party meetings. To ensure SIP calling enabled Teams Rooms can always join a meeting, Teams Rooms will automatically use Direct Guest Join over WebRTC if the third party meeting invite doesn't contain a SIP dial string. Lastly, if SIP calling isn't enabled, Teams Rooms on Windows devices will only utilize Direct Guest Join over WebRTC for third party meetings.
 
 #### Using the Pro Management Portal
 
