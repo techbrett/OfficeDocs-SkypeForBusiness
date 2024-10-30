@@ -23,7 +23,7 @@ description: This article discusses how to configure your organization and Teams
 
 # Third-party meetings on Teams Rooms
 
-Microsoft Teams Rooms devices support a one-touch and join by ID experiences for connecting to third-party online meetings. This capability comes in two forms: Direct Guest Join (DGJ) or Cross-Platform meetings via SIP (Session Initiation Protocol) join. When third-party join is enabled, you can use Teams Rooms to join meetings hosted on other meeting platforms as easily as you can join meetings hosted on Microsoft Teams. Third-party meeting expeirnece are driven by the third-party online meeting provider with the Teams Room device simply connecting to that platform.
+Microsoft Teams Rooms devices support a one-touch and join by ID experiences for connecting to third-party online meetings. This capability comes in two forms: Direct Guest Join (DGJ) or Cross-Platform meetings via SIP (Session Initiation Protocol) join. When third-party join is enabled, you can use Teams Rooms to join meetings hosted on other meeting platforms as easily as you can join meetings hosted on Microsoft Teams. Third-party meeting experiences are driven by the third-party online meeting provider with the Teams Room device simply connecting to that platform.
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following steps:
 1.	Understand which third-party meeting join solution is right for your organization.
@@ -88,9 +88,9 @@ To enable these scenarios, you need to modify the Exchange calendar processing r
 
 ## Step 3A: Configure URL rewrite policies to not modify third party meeting links
 
-To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite by the Teams Room device. If your organization uses [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links) safe links, or if you use a third-party solution that scans all URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To ensure invites work, you need to add the third-party meeting service's URLs to the [Defender for Office 365 Safe Links **Don't rewrite** list](/microsoft-365/security/office-365-security/safe-links) or the third-party URL rewrite exception list. If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
+To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite by the Teams Room device. If your organization uses [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links) safe links, or if you use a third-party solution that scans all URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To ensure invites work, you need to add the third-party meeting service's URLs to the [Defender for Office 365 Safe Links **Don't rewrite** list](/microsoft-365/security/office-365-security/safe-links), or the third-party URL rewrite exception list. If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
 
-Here are some example entries that you may need to add to your Defender for Office 365 Safe Links *Don't rewrite* list or third-party URL rewrite exception list:
+Here are some example entries that you may need to add to a rewrite exception list:
 
 - **Cisco Webex** `*.webex.com/*`
 - **Zoom** `*.zoom.us/*`, `*.zoom.com/*`, `*.zoomgov.com/*`
