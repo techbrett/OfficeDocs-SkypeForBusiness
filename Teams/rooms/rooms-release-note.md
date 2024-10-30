@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 09/30/2024
+ms.date: 10/29/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -68,13 +68,19 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 Introduced in this update:
 
+- **Digital signage** :::image type="icon" source="../media/mtr-pro-icon.png"::: : Inform, connect, and engage your employees with digital signage. Users can view dynamic content and relevant information on front-of-room displays when devices are not in use. Admins can configure tenant-wide and room-specific settings from the Teams Rooms Pro Management portal. Native integrations with selected third-party digital signage providers ([Appspace](https://docs.appspace.com/latest/devices-app/advanced-registration-microsoft-meeting-room-devices/), [XOGO](https://www.xogo.io/xogo-for-microsoft-teams-rooms)) are available, along with the use of web URLs as signage sources. [Learn more](digital-signage.md).
+- **Enhanced cross-platform meetings using SIP join**:::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Collaboration is seamless and intuitive across all meeting platforms, providing a native Teams Room experience when joining SIP-based conferencing services like Google Meet, Zoom, Cisco Webex, Amazon Chime, RingCentral, and others. Users will enjoy the familiar Teams Rooms interface with access to certain third-party in-meeting controls, depending on the platform. Features include up to 1080p video quality, dual screen support, various meeting layouts, and HDMI ingest. This capability requires a SIP calling plan from a Cloud Video Interop (CVI) partner, currently available through Pexip. [Learn more](third-party-join.md).  
+
+> [!NOTE]
+> Digital signage and Enhanced cross-platform meetings using SIP join features are added to the 5.2.115.0 release with a service side change on October 31, 2024.
+
 - **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. In addition, Teams Rooms on Windows with compatible consoles supports proximity join using ultrasound, providing an alternative to Bluetooth. [Learn more](/microsoftteams/rooms/proximity-join?tabs=portal).
 - **Dynamic video tile resizing based on people count** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  The room video tile on Teams desktop client dynamically adjusts size based on the number of people in the room. When one person is in the room, the tile matches the remote participant's size. With two or more people, the room tile expands to be four times larger. Room admins can enable or disable the people count. [Learn more](/microsoftteams/rooms/xml-config-file).
 - **Microsoft Teams Rooms on Windows room preview shows Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** The Preview video of room shows IntelliFrame when Cloud IntelliFrame is enabled for the room, to let in room participants be aware of how they appear to those online. [Learn more](/microsoftteams/devices/cloud-intelliframe).
 - **Roster grouping for in-room participants through proximity join:**  When joining a meeting in a Microsoft Teams Room with a companion device, in-room participants are grouped under the room node. Participants must join through Proximity Join with Microsoft Teams Rooms. [Learn more](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 - **Native controls for Group Framing, Active Speaker and Edge-composed IntelliFrame:**  Allow users to natively toggle certain camera features provided by OEMs, including group framing, active speaker framing, and edge-composed IntelliFrame.  [Learn more](https://support.microsoft.com/en-us/office/enhance-hybrid-meetings-with-microsoft-intelliframe-for-teams-rooms-97161377-b746-49dc-992f-97bbf0d590f7).
 
-  > [!NOTE]
+    > [!NOTE]
   > The camera's OEM firmware is required.
 
 - **Breakout rooms support:** With breakout room support, Teams Rooms on Windows can be added to a breakout room as an attendee and moved in and out of the main room making it easy for breakout session coordination. [Learn more](https://support.microsoft.com/en-us/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461).
