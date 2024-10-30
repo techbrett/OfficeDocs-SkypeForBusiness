@@ -202,7 +202,7 @@ If you have turned on Face profiles in your organization, the **Create face prof
 
 Tell your users to set up a voice and face profile in the Teams app. Each person who is attending in the meeting room (as opposed to remotely) sets up their digital voice profile in the system so that they'll be identified in the transcription.
 
-1. Go to your profile picture select **More options**  **Settings** and look under **Language** and make sure that your Teams language is set to **English**. To see the languages that are supported, see [Suported languages](voice-and-face-recognition.md#supported-languages-for-enrollment).
+1. Go to your profile picture select **More options** > **Settings** and look under **Language** and make sure that your Teams language is set to **English**. To see the languages that are supported, see [Suported languages](voice-and-face-recognition.md#supported-languages-for-enrollment).
 2. Under **Settings** again, select **Recognition** and then **Create voice profile.**
 3. On the next screen, select the microphone, then select **Create voice profile** and read the text that is in the box.
 
