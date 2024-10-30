@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 09/30/2024
+ms.date: 10/29/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -66,8 +66,16 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 ### 5.2.115.0 (9/26/2024)
 
+>[!NOTE]
+>The following features were added to the 5.2.115.0 release with a service side change on October 31, 2024. 
+
+-**Digital Signage** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Inform, connect, and engage your employees with digital signage. Users can view dynamic content and relevant information on front-of-room displays when devices are not in use. Admins can configure tenant-wide and room-specific settings from the Teams Rooms Pro Management portal. Native integrations with selected third-party digital signage providers ([Appspace](https://www.appspace.com/microsoft-teams-rooms/), [XOGO](https://www.xogo.io/xogo-for-microsoft-teams-rooms)) are available, along with the use of web URLs as signage sources. [Learn more](digital-signage.md). 
+
+-**Enhanced cross-platform meetings using SIP join**:::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Collaboration is seamless and intuitive across all meeting platforms, providing a native Teams Room experience when joining SIP-based conferencing services like Google Meet, Zoom, Cisco Webex, Amazon Chime, RingCentral, and others. Users will enjoy the familiar Teams Rooms interface with access to certain third-party in-meeting controls, depending on the platform. Features include up to 1080p video quality, dual screen support, various meeting layouts, and HDMI ingest. This capability requires a SIP calling plan from a Cloud Video Interop (CVI) partner, currently available through Pexip. [Learn more](third-party-join.md).  
+
 Introduced in this update:
 
+- **Digital signage** :::image type="icon" source="../media/mtr-pro-icon.png"::: : Inform, connect, and engage your employees with digital signage. Users can view dynamic content and relevant information on front-of-room displays when devices are not in use. Admins can configure tenant-wide and room-specific settings from the Teams Rooms Pro Management portal. Native integrations with selected third-party digital signage providers ([Appspace](https://docs.appspace.com/latest/devices-app/advanced-registration-microsoft-meeting-room-devices/), [XOGO](https://www.xogo.io/xogo-for-microsoft-teams-rooms)) are available, along with the use of web URLs as signage sources. [Learn more](digital-signage.md).
 - **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. In addition, Teams Rooms on Windows with compatible consoles supports proximity join using ultrasound, providing an alternative to Bluetooth. [Learn more](/microsoftteams/rooms/proximity-join?tabs=portal).
 - **Dynamic video tile resizing based on people count** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  The room video tile on Teams desktop client dynamically adjusts size based on the number of people in the room. When one person is in the room, the tile matches the remote participant's size. With two or more people, the room tile expands to be four times larger. Room admins can enable or disable the people count. [Learn more](/microsoftteams/rooms/xml-config-file).
 - **Microsoft Teams Rooms on Windows room preview shows Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** The Preview video of room shows IntelliFrame when Cloud IntelliFrame is enabled for the room, to let in room participants be aware of how they appear to those online. [Learn more](/microsoftteams/devices/cloud-intelliframe).
@@ -744,6 +752,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024101004](#144910962024101004-october-2024) | October 2024 |
 |[1449/1.0.96.2024091202](#144910962024091202-september-2024) | September 2024 |
 |[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
@@ -774,6 +783,14 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024101004 (October 2024)
+
+Resolved issues:
+
+- Fixed AOSP migration issues. 
+- Improved diagnosability for proximity-based meeting join. 
+- Fixed app crashes and performance issues. 
 
 ### 1449/1.0.96.2024091202 (September 2024)
 
