@@ -39,7 +39,7 @@ Teams Rooms offer two ways for connecting to third-party meetings: a SIP video b
 |--------|----------|---------|---------|
 | Join Button &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Cisco Webex <br>Zoom &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; |
 | Join by ID | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services via SIP URI | Zoom |
-| Events & Webinars | Cisco Webex <br>Zoom | Not available |
+| Events & Webinars | Cisco Webex* <br>Zoom* | Not available |
 | Receive video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
 | Send video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
 | Receive content | Available | Available |
