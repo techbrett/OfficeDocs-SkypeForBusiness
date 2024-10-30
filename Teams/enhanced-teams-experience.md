@@ -256,14 +256,16 @@ With a Teams Premium license, your users can experience [PLACEHOLDER EDIT LATER:
 Teams Premium provides the following advanced capabilities in Places:
 
 - **Places finder** - Your users can book and check into workspaces, as well as use seat assignments to sit near collaborators.
-- **Suggestion suggestions** - ?? [ CANT FIND DOCS ON THIS OR COPILOT IN PLACES- IS THIS BAKED INTO OTHER DOCS?]
-- **Places explorer** - ???
+- **Intelligent suggestions** - Recommendations in peek card to update work location to ‘Office,’ quick book suggested rooms, and other helpful hints [ CANT FIND DOCS ON THIS]
+- **Places explorer** - Get a singular view of the people, spaces, and experiences at each workplace location.​ [ CANT FIND DOCS ON THIS]
 - **Places analytics** - You can learn which desks and rooms are most frequently used, and get suggestions on how to optimize space management. You can also identify trends for key buildings, bookable rooms, and shared work spaces
-- **Auto release policies** - ??
-- **Team guidance** -??
-- **Quick book** - ??
-- **Connect building occupancy signals** - Use existing sensor data to enhance Microsoft Places analytics reports by combining the actual and intended usage of your users' conference rooms and buildings.
 - **Auto release for rooms** - If you create auto release for rooms, when a room that you enable for auto release isn't being used, Teams and Places free up the room for others to reserve.
+- **Team guidance** - Find the best work patterns for teams by establishing expectations and adjusting the rhythm to meet the needs of the group.  
+- **Quick book** - For in-office meetings without a space booked, get recommendations for each meeting for the day and book at once in bulk
+
+------
+- **Connect building occupancy signals** - Use existing sensor data to enhance Microsoft Places analytics reports by combining the actual and intended usage of your users' conference rooms and buildings.
+
 - **Create desk pools and workspaces** - You can create groups of desks to manage together. Your users can reserve desk pools to work when they visit the office.
 - **Create services** - You can add services that appear in the Explore tab within the Microsoft Places apps. These services can be added per building to provide employees with all the services that each building offers.
 - **Places explorer** - ?? [ CANT FIND DOCS ON THIS]
@@ -282,13 +284,12 @@ This article helps you create desk pools to enable desk booking for your organiz
 | Auto release for rooms| Yes??[IS THIS TRUE?]|[How to enable specific rooms for Auto Release](/microsoft-365/places/enable-auto-release#how-to-enable-specific-rooms-for-auto-release) | [Overview of Auto Release](/microsoft-365/places/enable-auto-release#overview-of-auto-release)|
 | Create desk pools and workspaces| Yes??[IS THIS TRUE?]|[Configure desk pools and workspaces (optional)](/microsoft-365/places/setting-up-desk-workspaces-in-places-finder) | [IS THERE AN END USER DOC ON RESERVING DESKS/ DESK POOLS??](??)|
 | Create services| Yes??[IS THIS TRUE?]|[Services in Microsoft Places](/microsoft-365/places/services-in-places) | [IS THERE AN END USER DOC ON RESERVING DESKS/ DESK POOLS??](??)|
-| AI suggestion prompts| ??| [??](??) | [??](??)|
+| Intelligent suggestions| ??| [??](??) | [??](??)|
 | Places explorer| ??| [??](??) | [??](??)|
 | Integrate with Viva's Team execution dashboard| ??| [??](??) | [??](??)|
 | Integrate with Viva Pulse| ??| [??](??) | [??](??)|
 | Integrate with Viva Insights| ??| [??](??) | [??](??)|
 | Microsoft 365 Copilot in Places| ??| [??](??) | [??](??)|
-
 
 ## Calls
 
