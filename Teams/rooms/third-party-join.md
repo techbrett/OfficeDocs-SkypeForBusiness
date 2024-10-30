@@ -37,7 +37,7 @@ Teams Rooms offer two ways for connecting to third-party meetings: a SIP video b
 
 | Supported Functionality | Cross-Platform Meetings via SIP | Direct Guest Join
 |--------|----------|---------|---------|
-| Join Button &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Cisco Webex <br>Zoom &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; |
+| Join Button &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | Cisco Webex <br>Zoom &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; |
 | Join by ID | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services via SIP URI | Zoom |
 | Events & Webinars | Cisco Webex <br>Zoom | Not available |
 | Receive video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
@@ -142,18 +142,18 @@ For more information about the `SkypeSettings.xml` file, see [Manage Microsoft T
 
 To enable the various platforms, set the XML element to **True**, as follows.
 
-```xml
-<ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
-<WebexMeetingsEnabled>True</WebexMeetingsEnabled>
-```
+  ```xml
+  <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
+  <WebexMeetingsEnabled>True</WebexMeetingsEnabled>
+  ```
 
 You can optionally specify a custom username and email address to join third-party meetings using the following XML elements. If the values you provide aren't valid, the Teams Rooms device defaults to use room mailbox username and email address.
 
-```xml
-<UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
-<CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
-<CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
-```
+  ```xml
+  <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+  <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
+  <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
+  ```
 
 ## [Teams Rooms on Android](#tab/MTRA)
 
