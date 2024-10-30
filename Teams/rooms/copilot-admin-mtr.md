@@ -173,7 +173,7 @@ Noise suppression is identifying non human voices or noise in an environment and
 
 Noise suppression of background noise is turned on by default (and can be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant, and it greatly enhances the microphone's audio quality.
 
-:::image type="content" source="../media/mtr-devices/noise-suppression.png" alt-text="An image of the noise suppression setting that is turned on." lightbox="../media/mtr-devices/noise-suppression.png":::
+:::image type="content" source="../media/mtr-devices/noise-suppression.png" alt-text="Screenshot of the noise suppression setting that is turned on." lightbox="../media/mtr-devices/noise-suppression.png":::
 
 However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, each user will then set up a voice profile and enable voice isolation in the Teams app.
 
@@ -181,7 +181,7 @@ However, if you want to also isolate or have Teams be able to tell the differenc
 
 You can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy or users can turn it on themselves in the Teams app.
 
-:::image type="content" source="../media/mtr-devices/voice-isolation.png" alt-text="An image showing the setting for voice isolation in the Teams app." lightbox="../media/mtr-devices/voice-isolation.png":::
+:::image type="content" source="../media/mtr-devices/voice-isolation.png" alt-text="Screenshot showing the setting for voice isolation in the Teams app." lightbox="../media/mtr-devices/voice-isolation.png":::
 
 > [!TIP]
 > If you are using Bring Your Own Device (BYOD) meeting rooms and rooms audio we will turn on voice isolation automatically.
@@ -206,7 +206,7 @@ Tell your users to set up a voice and face profile in the Teams app. Each person
 2. Under **Settings** again, select **Recognition** and then **Create voice profile.**
 3. On the next screen, select the microphone, then select **Create voice profile** and read the text that is in the box.
 
-:::image type="content" source="../media/mtr-devices/voice-profile.png" alt-text="An image of the button that is used to set up a voice profile." lightbox="../media/mtr-devices/voice-profile.png":::
+    :::image type="content" source="../media/mtr-devices/voice-profile.png" alt-text="Screenshot of the button that is used to set up a voice profile." lightbox="../media/mtr-devices/voice-profile.png":::
 
 Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
@@ -233,7 +233,7 @@ Learn more: [Meeting transcription](/microsoftteams/copilot-teams-transcription)
 
 Transcription allows users to play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions along with the meeting's recording help create inclusive content for viewers. It also helps Copilot to create meeting summaries, recaps, action items, and other features.
 
-:::image type="content" source="../media/mtr-devices/captions-and-transcripts.png" alt-text="An image with captions and transcriptions settings in the Teams app." lightbox="../media/mtr-devices/captions-and-transcripts.png":::
+:::image type="content" source="../media/mtr-devices/captions-and-transcripts.png" alt-text="Screenshot with captions and transcriptions settings in the Teams app." lightbox="../media/mtr-devices/captions-and-transcripts.png":::
 
 #### Turn on meeting transcriptions
 
@@ -290,7 +290,7 @@ Live captions and transcriptions can show you the text of a conversation in a Te
 
 It's available in the desktop version of the Teams app but users can set transcription and captioning options under **Settings** > **Captions and transcripts** in the Teams app.
 
-:::image type="content" source="../media/mtr-devices/captions-and-transcripts.png" alt-text="An image with the captions and transcriptions settings." lightbox="../media/mtr-devices/captions-and-transcripts.png":::
+:::image type="content" source="../media/mtr-devices/captions-and-transcripts.png" alt-text="Screenshot with the captions and transcriptions settings." lightbox="../media/mtr-devices/captions-and-transcripts.png":::
 
 Learn more: [Live transcriptions](<https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b>)
 
@@ -337,7 +337,7 @@ In meeting transcripts, live transcripts, captions and in meeting recaps using C
 
 You can optionally tell users to go verify that it's turned on by going to in the Teams app to **Settings** > **Captions and transcripts** > **Automatically identify me in meeting captions and transcripts** and make sure it's turned on.
 
-:::image type="content" source="../media/mtr-devices/auto-id.png" alt-text="An image with the automatically ID me in meetings setting." lightbox="../media/mtr-devices/auto-id.png":::
+:::image type="content" source="../media/mtr-devices/auto-id.png" alt-text="Screenshot with the automatically ID me in meetings setting." lightbox="../media/mtr-devices/auto-id.png":::
 
 **Speaker Attribution Modes**:
 
