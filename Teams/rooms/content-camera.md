@@ -27,9 +27,6 @@ description: Use a content camera in Microsoft Teams Rooms that interacts with i
 
 You can now use a content camera with a Microsoft Teams Rooms system. A content camera interacts with special image-processing software and a whiteboard to allow a presenter to draw on an analog whiteboard and share the content with remote participants.
 
-> [!NOTE]
-> Special image-processing software to enhance the whiteboard's content is available on all Teams Rooms on Windows, and select Teams Rooms on Android.
-
 [!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 See the following video for examples of content camera functionality.
