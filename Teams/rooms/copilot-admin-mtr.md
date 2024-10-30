@@ -337,7 +337,7 @@ In meeting transcripts, live transcripts, captions and in meeting recaps using C
 
 You can optionally tell users to go verify that it's turned on by going to in the Teams app to **Settings** > **Captions and transcripts** > **Automatically identify me in meeting captions and transcripts** and make sure it's turned on.
 
-:::image type="content" source="../media/mtr-devices/auto-id.png" alt-text="Screenshot with the automatically ID me in meetings setting." lightbox="../media/mtr-devices/auto-id.png":::
+:::image type="content" source="../media/mtr-devices/auto-id.png" alt-text="Screenshot with the 'automatically ID me in meetings' setting." lightbox="../media/mtr-devices/auto-id.png":::
 
 **Speaker Attribution Modes**:
 
