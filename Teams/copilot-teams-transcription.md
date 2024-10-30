@@ -83,10 +83,10 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
-|On|Enabled| When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **Only during the meeting**. Organizers can change this value to **During and after the meeting**.  |
+|On|Enabled| When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **Only during the meeting**. Organizers can change this value to **During and after the meeting**, and **Off**.  |
 |On with saved transcript required|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
-|On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **During and after the meeting**. Organizers can change this value to **Only during the meeting**.|
-|Off|Disabled| When organizers with this policy create meetings and events, Copilot's  default value in their meeting options is **Off**. Organizers can change this value to **Only during the meeting** or **During and after the meeting**.|
+|On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **During and after the meeting**. Organizers can change this value to **Only during the meeting**, and **Off**.|
+|Off|Disabled| When organizers with this policy create meetings and events, Copilot's  default value in their meeting options is **Off**. Organizers can change this value to **Only during the meeting** or **During and after the meeting**.|
 
 ### Manage Copilot in the Teams admin center
 
