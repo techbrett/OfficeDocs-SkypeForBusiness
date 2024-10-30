@@ -108,7 +108,7 @@ The last step you need to take is to allow Teams Rooms to join third-party meeti
 
 ## [Teams Rooms on Windows](#tab/MTRW)
 
-If you wish to utilize the cross-platform SIP join capability, you need to enable SIP video calling on your Teams Rooms following these instructions: [SIP and H.323 Calling](meetings-with-sip-h323-devices.md). Once SIP calling is enabled, the Teams Room automatically uses SIP instead of WebRTC to join the enabled third-party meetings. To ensure SIP calling enabled Teams Rooms can always join a meeting, Teams Rooms will automatically use Direct Guest Join over WebRTC if the third party meeting invite doesn't contain a SIP dial string. Lastly, if SIP calling isn't enabled, Teams Rooms on Windows devices will only utilize Direct Guest Join over WebRTC for third party meetings.
+If you wish to utilize the cross-platform SIP join capability, you need to enable SIP video calling on your Teams Rooms following these instructions: [SIP and H.323 Calling](meetings-with-sip-h323-devices.md). Once SIP calling is enabled, the Teams Room automatically uses SIP instead of WebRTC to join the enabled third-party meetings. To ensure SIP calling enabled Teams Rooms can always join a meeting, Teams Rooms will automatically use Direct Guest Join over WebRTC if the third party meeting invite doesn't contain a SIP dial string. Lastly, if SIP calling isn't enabled, Teams Rooms on Windows devices will only utilize Direct Guest Join over WebRTC for third-party meetings.
 
 #### Using the Pro Management Portal
 
