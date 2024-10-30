@@ -145,16 +145,13 @@ To enable the various platforms, set the XML element to **True**, as follows.
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
 <WebexMeetingsEnabled>True</WebexMeetingsEnabled>
-
 ```
 
 You can optionally specify a custom username and email address to join third-party meetings using the following XML elements. If the values you provide aren't valid, the Teams Rooms device defaults to use room mailbox username and email address.
 
 ```xml
 <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
-
 <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
-
 <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
 ```
 
