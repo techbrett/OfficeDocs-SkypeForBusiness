@@ -85,7 +85,7 @@ If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like ful
 ## [Teams Rooms for Windows](#tab/Windows)
 
 ### Supported Windows cameras
-To determine whether you can use a camera as a content camera, refer to [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals).
+Any certified Teams Rooms on Windows camera can be used as a content camera. However, we recommend using a camera which has been specifically certified as a content camera for the best experience. Refer to [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals) for certified cameras.
 
 Or, refer to the Microsoft Teams devices marketplace for supported Content Camera Kits at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
