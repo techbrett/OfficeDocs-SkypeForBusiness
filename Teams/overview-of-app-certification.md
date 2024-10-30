@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
-ms.date: 05/08/2024
+ms.date: 10/31/2024
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -70,13 +70,17 @@ We check the app against a series of security controls derived from leading indu
 
 The certificate demonstrates the strong security and compliance practices that are in place to protect customer data when the app is used in an organization. More information about how admins and users benefit from the certification is available at [Overview of Microsoft 365 app compliance program](/microsoft-365-app-certification/docs/enterprise-app-certification-guide).
 
-Administrators can quickly check for Microsoft 365 certified apps in the following ways.
+Administrators can find Microsoft 365 certified apps and information about such apps in the following ways.
 
-* When gathering more information about an app on the web, see the shield icon in [Microsoft documentation about the app](/microsoft-365-app-certification/teams/teams-apps).
+* Developers of Microsoft 365 certified apps and Copilot agents can choose to provide detailed evidence to help organizations quickly assess and adopt their apps. Developers submit comprehensive security and certification information as part of the audits done during certification. If developers provide consent to share these evidence,admins can download the evidence from the app details page in the Teams admin center. The download option is available only in commercial tenants.
+
+   :::image type="content" source="media/m365-cert-download-evidence.png" alt-text="Screenshot showing the option to download detailed evidence provided by developers of certified apps.":::
+
+   This information is in addition to the basic questionnaire answers available at [Teams app security and compliance documentation](/microsoft-365-app-certification/teams/teams-apps).
 
   :::image type="content" source="media/attested-app-doc-details.png" alt-text="View the Microsoft 365 certification information in the detailed help article about security and compliance of an app":::
 
-* When checking an application in [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps), sort the list of apps using the Certification column. See the icon and optionally, select the link to access the app-specific page mentioned above.
+* When checking an application in [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps), sort the list of apps using the Certification column. See the shield icon and optionally, select the link to access the app-specific page mentioned above.
 
   :::image type="content" source="media/m365cert-apps-list1.png" alt-text="View Microsoft 365 certification status of an app in the Teams admin center." lightbox="media/m365cert-apps-list2.png":::
 
