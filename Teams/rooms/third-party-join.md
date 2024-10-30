@@ -37,7 +37,7 @@ Teams Rooms offer two ways for connecting to third-party meetings: a SIP video b
 
 | Supported Functionality | Cross-Platform Meetings via SIP | Direct Guest Join
 |--------|----------|---------|---------|
-| Join Button &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Amazon Chime &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services | Cisco Webex &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Zoom |
+| Join Button &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Cisco Webex <br>Zoom &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | Join by ID | Amazon Chime <br>Cisco Webex <br>Google Meet <br>GoToMeeting <br>RingCentral <br>Zoom <br>Other SIP services via URI | Zoom |
 | Events & Webinars | Cisco Webex <br>Zoom | Not available |
 | Receive video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
