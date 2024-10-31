@@ -1,5 +1,5 @@
 ---
-title: Learn how to setup content cameras - Microsoft Teams
+title: Learn how to set up content cameras - Microsoft Teams
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -111,7 +111,7 @@ To determine whether your Teams Rooms on Android supports the addition of a cont
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
 
 1. Navigate to the Teams Admin Settings page on your Microsoft Teams Rooms on Android device. The steps for this will differ depending on the device.
-1. Select Devices, then Content Camera. Select the content camera using the drop down menu.
+1. Select Devices, then Content Camera. Select the content camera using the drop-down menu.
 1. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate 180°** option.
 1. Tap away from the dialog to save the settings.
 
