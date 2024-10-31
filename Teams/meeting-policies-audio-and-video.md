@@ -30,7 +30,7 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
-This article describes the meeting policy settings specific to audio and video for meetings, webinars, and town halls. In town halls, only presenters, organizers, and co-organizers can use their cameras and microphones.
+This article describes the audio and video meeting policy settings for meetings, webinars, and town halls. In town halls, only presenters, organizers, and co-organizers can use their cameras and microphones.
 
 To access audio and video settings, follow these steps:
 
