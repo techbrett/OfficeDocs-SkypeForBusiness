@@ -38,9 +38,13 @@ As an admin, you can turn the Microsoft Teams meeting add-on for Google Workspac
 1. Sign in to the Azure portal.
 2. Select **Enterprise applications** > **All applications**.
 3. Search for **Microsoft Teams meeting add-on for Google Workspace**.
+
    ![Azure portal showing all applications.](media/aad-add-google-workspace.png)
+
 4. Select **Yes**.
+
    ![Azure portal showing the google workspace properties.](media/google-workspace-properties.png)
+
 5. (Optional) To disable the add-on, select **No** instead of **Yes** in Step 4.
 
 ## Turn the Microsoft Teams meeting add-on for Google Workspace off using PowerShell
