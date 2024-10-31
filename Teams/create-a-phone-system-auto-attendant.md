@@ -210,7 +210,9 @@ Before you can create and manage resource accounts, you must do the following:
 - [Obtain phone numbers](manage-resource-accounts.md#obtain-phone-numbers)
 - [Assign permissions for managing a resource account](manage-resource-accounts.md#assign-permissions-for-managing-a-resource-account)
 
-All Auto attendants must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to an Auto attendant.
+All Auto attendants that directly answer calls must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to an Auto attendant.
+
+Nested Auto attendants and Call queues that receive calls from an auto attendant or call queue that has already answered the call do not require a resource account.
 
 For details on how to create resource accounts and ready them for use with auto attendants, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
