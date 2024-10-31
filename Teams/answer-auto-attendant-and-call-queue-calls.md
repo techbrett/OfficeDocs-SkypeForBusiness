@@ -5,7 +5,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 audience: ITPro
-ms.date: 10/29/2024
+ms.date: 10/31/2024
 ms.topic: conceptual
 ms.service: msteams
 description: Describes Cloud Auto attendants and Call queues, and explains how you can answer these calls in Microsoft Teams.
@@ -41,7 +41,7 @@ The following illustration shows how an incoming call from an Auto attendant or 
 
 ![Screenshot of an incoming call notification.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Once an Auto attendant or Call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, Auto attendant calls are be forwarded based on the user's configuration.
+Once an Auto attendant or Call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, Auto attendant calls are forwarded based on the user's configuration.
 
 > [!NOTE]
 > Call queue calls aren't forwarded based on the user's call answering rules configuration. This ensures that callers remain in the queue until an agent can answer the call and that the caller isn't forwarded unexpectedly.
@@ -54,22 +54,22 @@ Once an Auto attendant or Call queue call is answered, the user can process the 
 
 Support for Auto attendant and Call queue calls is available in the following clients:
 
-- Microsoft Teams Windows client (32 and 64-bit versions)
+- Microsoft Teams Windows client (32-bit and 64-bit versions)
 - Microsoft Teams Mac client
 - Microsoft Teams iPhone app
 - Microsoft Teams Android app
 
-The Teams client is only supported with a [co-existence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+The Teams client is only supported with a [coexistence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## Configure Auto attendant and Call queue support for Microsoft Teams
 
-To receive Auto attendant and Call queue calls on Microsoft Teams, you need to configure your interoperability policy and upgrade policy. Please review [Migration and interoperability for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). If you do not have Auto attendants and/or Call queues configured and would like to do so, see [Set up a Cloud Auto attendant](create-a-phone-system-auto-attendant.md) and [Create a Cloud Call queue](create-a-phone-system-call-queue.md).
+To receive Auto attendant and Call queue calls on Microsoft Teams, you need to configure your interoperability policy and upgrade policy. For more information, review [Migration and interoperability for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). If you don't have Auto attendants and/or Call queues configured and would like to do so, see [Set up a Cloud Auto attendant](create-a-phone-system-auto-attendant.md) and [Create a Cloud Call queue](create-a-phone-system-call-queue.md).
 
 ## Known Issues
 
-When a Call queue agent receives a call on their mobile device, the call may go on hold if the device is locked. Users must unlock the device first and then answer the call.
+When a Call queue agent receives a call on their mobile device, the call might go on hold if the device is locked. Users must unlock the device first and then answer the call.
 
-## Related topics
+## Related articles
 
 [Create a Cloud Call queue](create-a-phone-system-call-queue.md)
 

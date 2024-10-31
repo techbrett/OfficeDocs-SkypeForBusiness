@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 10/30/2024
+ms.date: 10/31/2024
 ms.topic: article
 ms.assetid: 
 ms.tgt.pltfrm: cloud
@@ -87,7 +87,7 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |Welsh (United Kingdom)                  |Y                        |N                                      |
 
 > [!NOTE]
-> Choosing a language that doesn't support Speech Recognition will disable the voice inputs option within the menu and dial by name will be restricted to using keypad (DTMF) entry only. Please refer to [Dial by Name - Keypad (DTMF) entry](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) for more information.
+> Choosing a language that doesn't support Speech Recognition will disable the voice inputs option within the menu and dial by name will be restricted to using keypad (DTMF) entry only. For more information, see [Dial by Name - Keypad (DTMF) entry](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry).
 
 > [!NOTE]
 > When using Text to Speech, the text must be entered in the selected language as the system doesn't perform translation.
