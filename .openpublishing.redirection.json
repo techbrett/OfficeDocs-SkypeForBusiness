@@ -5286,8 +5286,8 @@
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/devices-usb-devices.md",
-	  "redirect_url": "/microsoftteams/devices/usb-devices",
+	  "source_path": "Skype/SfbPartnerCertification/certification/archived/devices-usb-devices.md",
+	  "redirect_url": "/SkypeForBusiness/certification/devices-usb-devices",
 	  "redirect_document_id": false
 	},
 	{
@@ -5335,7 +5335,7 @@
 	  "redirect_url": "/microsoftteams/phones/plan-device-deployment",
 	  "redirect_document_id": false
 	},
-	{
+  {
     "source_path": "Teams/devices/teams-ip-phones.md",
     "redirect_url": "/microsoftteams/devices/certified-devices-overview",
     "redirect_document_id": false
@@ -5383,6 +5383,21 @@
   {
     "source_path": "Teams/devices/collab-bar-deploy.md",
     "redirect_url": "/microsoftteams/rooms/rooms-deploy",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/devices/teams-android-devices-user-interface.md",
+    "redirect_url": "/microsoftteams/phones/teams-android-devices-user-interface",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/rooms/admin-center-license-overview.md",
+    "redirect_url": "/microsoftteams/rooms/rooms-licensing",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/devices/smartvision-admin.md",
+    "redirect_url": "/microsoftteams/devices/multistream-intelliframe",
     "redirect_document_id": false
   }
   ]
