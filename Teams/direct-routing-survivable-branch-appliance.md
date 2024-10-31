@@ -1,7 +1,7 @@
 ---
 title: Direct Routing SBA
-author: CarolynRowe
-ms.author: crowe
+author: s.francis
+ms.author: s.francis
 manager: pamgreen
 ms.date: 08/15/2024
 ms.topic: article
@@ -231,17 +231,24 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 
 The following are known issues and considerations:
 
-- Because the SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, the SBA can support outages for up to 24 hours from the last authentication. If an outage occurs 20 hours after the last authentication token renewal, the SBA will be operational only for the remaining 4 hours.
+- The SBA relies on authentication tokens that are valid for 7 days. The authentiation token renews every 24 hours and the SBA can support outages for up to 7 days from the last authentication. If an outage occurs 20 hours after the last authentication token renewal, the SBA will remain operational for 6 days and 4 hours. 
+
+- Once an outage occurs and the SBA becomes active, a user's Teams client will lose connection with the SBA if:
+    - the user quits and restarts their Teams client
+    - the user's device is restarted
+    - the user tries to create a new Teams connection after the SBA has been active 24 hours
+
+- Users will not be able to:
+    - use their Teams client to switch to another tenant
+    - make an emergency call to an emergency number configured for dynamic emergency calling (E911)
+    - reach other Teams users with reverse number lookup against Microsoft Entra ID Contacts
 
 - If the tenant is using Continuous Access Evaluation (CAE) tokens, the SBA will be operational only for about 30 minutes, due to the nature of continuous access evaluation. An alternative would be to dissable CAE for the tenant.
 
 - When you add new Survivable Branch Appliances, it might take time before you can use them in Survivable Branch Appliance policies.
 
-- When you assign a Survivable Branch Appliance policy to a user, it might take time before the SBA is shown in the output of Get-CsOnlineUser. 
+- When you assign a Survivable Branch Appliance policy to a user, it might take time before the SBA is shown in the output of Get-CsOnlineUser.
 
-- Reverse number lookup against Microsoft Entra ID Contacts isn't performed. 
-
-- Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
 
 ## Report an issue
 
