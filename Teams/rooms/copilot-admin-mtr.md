@@ -26,7 +26,7 @@ description: Learn more about how to set up Copilot and AI-based features in Mic
 
 When you're considering deploying Copilot and AI-based features for your Teams users, there are many things to consider. The number and type of AI-based features is dependent on the type of license you assign to your Teams users, the devices you're using for Teams Rooms, and the type of license assigned to your Microsoft Teams Rooms resource account.
 
-There are four separate sets of AI-based features that can be deployed to your users when you assign a specific license for those users or Teams Rooms.
+There are four separate sets of AI-based features that can be deployed to your users when you assign a specific license for those users and Teams Rooms.
 
 - **Copilot** - Copilot bot integration. Adding it to all the apps including Teams. Ask questions to resolve issues, catch up during meetings (meeting recap), organize meeting points.
 - **Teams Rooms** - Live transcripts and captions. Intelligent Speaker - identify in-room participants.
@@ -49,9 +49,9 @@ To see more videos on [Copilot, see Microsoft Mechanics--Podcast](<https://www.y
 
 Learn more: [Service Descriptions for Copilot](/copilot/microsoft-365/microsoft-365-copilot-requirements).
 
-## Admin set up
+## Admin set up for Teams Rooms
 
-Within your organization, there are several settings that you'll either need to turn on (they're off by default) or verify that they're turned on to let end users get the full advantages of Copilot in Microsoft Teams. Settings like transcriptions, captioning, recording, voice isolation, voice enrollment are a few of the settings that you want to set up or turn on for your end users in your organization.
+Within your organization, there are several settings that you'll either need to turn on (they're off by default) or verify that they're turned on to let end users get the full advantages of Copilot in Microsoft Teams Rooms specifically. Settings like transcriptions, captioning, recording, voice isolation, voice enrollment are a few of the settings that you want to set up or turn on for your end users in your organization in order for users to benefit from Copilot and Microsoft Teams Rooms.
 
 ### Assign your licenses
 
