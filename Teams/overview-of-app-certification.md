@@ -74,7 +74,7 @@ Administrators can find Microsoft 365 certified apps and information about such 
 
   :::image type="content" source="media/attested-app-doc-details.png" alt-text="View the Microsoft 365 certification information in the detailed help article about security and compliance of an app":::
 
-  Developers of some Microsoft 365 certified apps and Copilot agents can choose to provide detailed evidences to help your organization quickly assess their app. Developers submit these comprehensive details as part of the audits done during certification. If developers agree to share these detailed evidence, then you can download the information from the app details page in the Teams admin center. The download option is available only in commercial tenants.
+  Developers of some Microsoft 365 certified apps and Copilot agents can choose to provide detailed evidences to help your organization quickly assess their app. Developers submit these comprehensive details as part of the audits done during certification. If developers agree to share these detailed evidence, then you can download these app trust evidences from the app details page in the Teams admin center. The download option is available only in commercial tenants.
 
    :::image type="content" source="media/m365-cert-download-evidence.png" alt-text="Screenshot showing the option to download detailed evidence provided by developers of certified apps." lightbox="media/m365-cert-download-evidence.png":::
 
