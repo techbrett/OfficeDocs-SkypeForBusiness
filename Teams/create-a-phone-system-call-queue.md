@@ -79,17 +79,15 @@ Before you can create and manage resource accounts, you must do the following ac
 - [Obtain phone numbers](manage-resource-accounts.md#obtain-phone-numbers)
 - [Assign permissions for managing a resource account](manage-resource-accounts.md#assign-permissions-for-managing-a-resource-account)
 
-All Call queues must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to a Call queue.
+All Call queues that directly answer calls must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to a Call queue.
 
-However, nested Auto attendants and Call queues that transfer calls externally don't require resource accounts or respective licensing. When nesting Auto attendants or Call queues, license the resource account on the first Auto attendant or Call queue receiving the call.
+Nested Auto attendants and Call queues that receive calls from an auto attendant or call queue that has already answered the call do not require a resource account.
 
-For details on how to create resource accounts and ready them for use with auto attendants, see [Manage Teams resource accounts](manage-resource-accounts.md).
+For details on how to create resource accounts and ready them for use with auto attendants or call queues, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
-Agents see the resource account name when they receive an incoming call.
+Agents see the resource account name or call queue name when they receive an incoming call.
 
 ### Assign a calling ID (optional)
-
-**Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard Call queues.**
 
 Assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
 
@@ -115,7 +113,7 @@ After you create this new resource account for calling ID, you still need to:
 
 ### Set the Service level threshold
 
-_This feature is in public preview._
+_This feature is in private preview._
 
 Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
 
