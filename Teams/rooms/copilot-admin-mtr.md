@@ -33,6 +33,8 @@ There are four separate sets of AI-based features that can be deployed to your u
 - **Meetings and collaboration** - Policy changes for transcription, captions, and recording.
 - **Microsoft Teams** - AI-based noise suppression and video optimization. Cameo overlay. Voice isolation. Speaker attribution, face, and voice enrollment.
 
+To see more about these features, see [Get more out of hybrid meetings with Teams Rooms and Copilot](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/get-more-out-of-hybrid-meetings-with-teams-rooms-and-copilot/ba-p/4057302).
+
 ## Getting started with Copilot
 
 [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work) is an AI-powered productivity tool that uses large language models (LLMs) and integrates your data with the Microsoft Graph and Microsoft 365 Apps.
@@ -129,6 +131,39 @@ Although you don't get Intelligent Speaker as a features on Teams Rooms on Andro
 
 To support those features, make sure you have updated the firmware on all of your Teams Rooms on Android devices. See [Teams Rooms on Android supported firmware](../devices/certified-hardware-android.md?tabs=Android).
 
+### Setting up noise suppression and isolation
+
+#### Noise suppression
+
+Noise suppression is identifying non human voices or noise in an environment and then minimizing or completely eliminating them from an audio stream. Part of the AI process for voice isolation is telling the difference between background chatter in a café and a user is simply listening in and if they also want to be heard clearly if they're speaking in the meeting from their device.
+
+Noise suppression of background noise is turned on by default (and can be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant, and it greatly enhances the microphone's audio quality.
+
+![Screenshot of the noise suppression setting that is turned on.](https://review.learn.microsoft.com/en-us/editor/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/Teams%2Frooms%2Fcopilot-admin-mtr.md/main/media/mtr-devices/noise-suppression.png)
+
+However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, each user will then set up a voice profile and enable voice isolation in the Teams app.
+
+#### Turn on voice isolation
+
+You can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy or users can turn it on themselves in the Teams app.
+
+![Screenshot showing the setting for voice isolation in the Teams app.](https://review.learn.microsoft.com/en-us/editor/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/Teams%2Frooms%2Fcopilot-admin-mtr.md/main/media/mtr-devices/voice-isolation.png)
+
+> [!TIP]
+> If you are using Bring Your Own Device (BYOD) meeting rooms and rooms audio we will turn on voice isolation automatically.
+
+Learn more: **[Manage voice isolation for your users](/microsoftteams/voice-isolation)**
+
+Voice Isolation is on by default in an organization. Check to make sure that it's on and if it isn't, you can use PowerShell to turn it on for all of your users.
+
+```
+Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled
+```
+
+Each user must set up a voice profile to turn it on in their Teams app. This can be turned off or on either before or during a meeting.
+
+If you have turned on Face profiles in your organization, the **Create face profile** button is available to end users. When they select the button, they can then set up their face profile that is used in meetings.
+
 ### Voice and face enrollment
 
 #### Turn on voice and face enrollment
@@ -158,45 +193,12 @@ Grant-CsTeamsMeetingPolicy -Identity <PolicyName> -EnrollUserOverride Enabled
 Learn more: [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
 
 > [!NOTE]
-> There isn't a way to set this in Teams admin center.
+> There isn't a way to set this in Teams admin center. You must use PowerShell.
 
 Learn more: [Voice recognition](/microsoftteams/rooms/voice-recognition)
 
 > [!NOTE]
 > Voice and face enrollment settings will be moving over to **TeamsAIPolicy** cmdlet.
-
-### Setting up noise suppression and isolation
-
-#### Noise suppression
-
-Noise suppression is identifying non human voices or noise in an environment and then minimizing or completely eliminating them from an audio stream. Part of the AI process for voice isolation is telling the difference between background chatter in a café and a user is simply listening in and if they also want to be heard clearly if they're speaking in the meeting from their device.
-
-Noise suppression of background noise is turned on by default (and can be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant, and it greatly enhances the microphone's audio quality.
-
-:::image type="content" source="../media/mtr-devices/noise-suppression.png" alt-text="Screenshot of the noise suppression setting that is turned on." lightbox="../media/mtr-devices/noise-suppression.png":::
-
-However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, each user will then set up a voice profile and enable voice isolation in the Teams app.
-
-#### Turn on voice isolation
-
-You can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy or users can turn it on themselves in the Teams app.
-
-:::image type="content" source="../media/mtr-devices/voice-isolation.png" alt-text="Screenshot showing the setting for voice isolation in the Teams app." lightbox="../media/mtr-devices/voice-isolation.png":::
-
-> [!TIP]
-> If you are using Bring Your Own Device (BYOD) meeting rooms and rooms audio we will turn on voice isolation automatically.
->
-> Learn more: [Manage voice isolation for your users](/microsoftteams/voice-isolation)
-
-Voice Isolation is on by default in an organization. Check to make sure that it's on and if it isn't, you can use PowerShell to turn it on for all of your users.
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled
-```
-
-Each user must set up a voice profile to turn it on in their Teams app. This can be turned off or on either before or during a meeting.
-
-If you have turned on Face profiles in your organization, the **Create face profile** button is available to end users. When they select the button, they can then set up their face profile that is used in meetings.
 
 #### Set up voice and face recognition profiles
 
@@ -205,8 +207,6 @@ Tell your users to set up a voice and face profile in the Teams app. Each person
 1. Go to your profile picture select **More options** > **Settings** and look under **Language** and make sure that your Teams language is set to **English**. To see the languages that are supported, see [Supported languages](voice-and-face-recognition.md#supported-languages-for-enrollment).
 2. Under **Settings** again, select **Recognition** and then **Create voice profile.**
 3. On the next screen, select the microphone, then select **Create voice profile** and read the text that is in the box.
-
-    :::image type="content" source="../media/mtr-devices/voice-profile.png" alt-text="Screenshot of the button that is used to set up a voice profile." lightbox="../media/mtr-devices/voice-profile.png":::
 
 Learn more: [Identify in-room meeting participants](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile)
 
@@ -219,7 +219,7 @@ To pin a Copilot icon to the Teams app, see [Pin Microsoft Copilot to the naviga
 To turn on Copilot for your Teams users.
 
 1. In the [Teams admin center](https://admin.teams.microsoft.com/), go to **Meetings** from the navigation pane > **Meeting Policies**.
-1. Either select an existing policy or create a new one. Select **On** or **On only with retained transcript** from the dropdown for the **Copilot** setting.
+2. Either select an existing policy or create a new one. Select **On** or **On only with retained transcript** from the dropdown for the **Copilot** setting.
 
 You can use PowerShell to turn this on:
 
