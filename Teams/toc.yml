@@ -704,6 +704,8 @@ items:
           items: 
             - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
+            - name: Require verification checks
+              href: join-verification-check.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -1308,6 +1310,8 @@ items:
   items:
     - name: Teams device store
       href: devices/device-store.md
+    - name: Copilot in Teams Rooms
+      href: rooms/copilot-admin-mtr.md
     - name: Teams device certification
       items:
         - name: Certification overview
@@ -1367,7 +1371,7 @@ items:
                       href: rooms/proximity-join.md
                     - name: Join meetings with QR codes
                       href: rooms/teams-rooms-qr-codes.md
-                    - name: SIP and H.323 calling with Teams Rooms
+                    - name: SIP and H.323 dialing with Teams Rooms
                       href: rooms/meetings-with-SIP-H323-devices.md
                     - name: Join third-party meetings
                       href: rooms/third-party-join.md
