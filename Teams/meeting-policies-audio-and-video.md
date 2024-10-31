@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: casjacks
-ms.date: 03/15/2021
+ms.date: 10/31/2024
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
