@@ -120,8 +120,8 @@ When this policy is configured on a device, users can only sign in with accounts
 
 > [!NOTE]
 > 
->1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as a guest in other Microsoft Entra tenants, or switch to those other tenants (where users have been invited as a guest).
->2. The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for macOS version 1.3.00.30882 (released mid-November 2020).
+>- The policy only restricts sign-ins. It does not restrict the ability for users to be invited as a guest in other Microsoft Entra tenants, or switch to those other tenants (where users have been invited as a guest).
+>- The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for macOS version 1.3.00.30882 (released mid-November 2020).
 
 **Policies for Windows**
 Administrative Template files (ADMX/ADML) are available from the [Download center](https://www.microsoft.com/download/details.aspx?id=49030) (the policy setting descriptive name in the administrative template file is "Restrict sign in to Teams to accounts in specific tenants"). Additionally, you can manually set keys in Windows Registry:
