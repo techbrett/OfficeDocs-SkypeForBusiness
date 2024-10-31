@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: mattslomka
-ms.date: 10/01/2024
+ms.date: 10/31/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -46,7 +46,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
 | | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
-| | SIP/H.323 calling | Available | Not available |
+| | Enhanced cross-platform meetings using SIP join | Available | Not available |
+| | SIP/H.323 dialing | Available | Not available |
 | | Telephone calling | Available | Available|
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
 | | Cross cloud meeting join (for example, Commercial > GCC or GCC High > GCC) | Available | Not available |
@@ -109,6 +110,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Microsoft Defender for Endpoint | Available | Not available |
 | **Device Management** | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Available |
+| | Digital signage | Available | Not available |
 | | Unauthenticated proxy support | Available | Available |
 | | Authenticated proxy support | Available | Not available |
 | | Tenant restrictions | Available | Not available |
@@ -177,7 +179,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
 | | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
-| | SIP/H.323 calling | Available | Not available |
+| | Enhanced cross-platform meetings using SIP join | Available | Not available |
+| | SIP/H.323 dialing | Available | Not available |
 | | Telephone calling | Available | Available |
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
 | | Cross cloud meeting join (for example, Commercial > GCC or GCC High > GCC) | Available | Not available |
@@ -240,6 +243,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Microsoft Defender for Endpoint | Available | Not available |
 | **Device Management** | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Not available |
+| | Digital signage | Available | Not available |
 | | Unauthenticated proxy support | Available | Available |
 | | Authenticated proxy support | Available | Not available |
 | | Tenant restrictions | Available | Not available |
@@ -306,7 +310,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
 | | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
-| | SIP/H.323 calling | Available | Not available |
+| | Enhanced cross-platform meetings using SIP join | Not available | Not available |
+| | SIP/H.323 dialing | Available | Not available |
 | | Telephone calling | Available | Available |
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
 | | Cross cloud meeting join (for example, Commercial > GCC or GCC High > GCC) | Available | Not available |
@@ -369,6 +374,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Microsoft Defender for Endpoint | Available | Not available |
 | **Device Management** | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Not available |
+| | Digital signage | Available | Not available |
 | | Unauthenticated proxy support | Available | Available |
 | | Authenticated proxy support | Available | Not available |
 | | Tenant restrictions | Available | Not available |
