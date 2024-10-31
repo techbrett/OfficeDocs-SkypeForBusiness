@@ -213,4 +213,4 @@ Teams requires connectivity to the Internet. To understand endpoints that should
 
 ## Related articles
 
-[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
+[Teams troubleshooting](/MicrosoftTeams/troubleshoot/teams)
