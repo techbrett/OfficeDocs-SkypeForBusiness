@@ -94,7 +94,7 @@ To pin the Walkie Talkie app for your users, you can edit the global (Org-wide d
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
 
 > [!NOTE]
-> Walkie Talkie must be pinned as one of the first 10 apps in the list.
+> If you're pinning more than 10 apps, Walkie Talkie must be added to one of the first 10 slots in the list.
 
 #### F license: Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
