@@ -231,17 +231,16 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 
 The following are known issues and considerations:
 
-- The SBA relies on authentication tokens that are valid for 7 days. The authentiation token renews every 24 hours and the SBA can support outages for up to 7 days from the last authentication. If an outage occurs 20 hours after the last authentication token renewal, the SBA will remain operational for 6 days and 4 hours. 
+- In SBA mode
+    - the SBA supports expired client authentication tokens for up to 7 days from the last authentication. If an outage occurs 20 hours after the last authentication token renewal, the SBA will support the client's operation for 6 days and 4 hours. 
+    - the Teams client will not be able to connect to the SBA if the Teams client is triggered to negotiate a new token. For example, if a user quits and restarts their Teams client or restarts their device.
+    - the Teams client will not be able to validate itself with an SBA that it has not previously connected with in the last 24 hours.
 
-- Once an outage occurs and the SBA becomes active, a user's Teams client will lose connection with the SBA if:
-    - the user quits and restarts their Teams client
-    - the user's device is restarted
-    - the user tries to create a new Teams connection after the SBA has been active 24 hours
+- In SBA mode, the following user actions aren't supported:
+    - switching their Teams client to another tenant
+    - making a call to an emergency number configured for dynamic emergency calling (E911)
+    - reaching other Teams users with reverse number lookup against Microsoft Entra ID Contacts. A dialed number will still be processed by SBA and routed over PSTN.
 
-- Users will not be able to:
-    - use their Teams client to switch to another tenant
-    - make an emergency call to an emergency number configured for dynamic emergency calling (E911)
-    - reach other Teams users with reverse number lookup against Microsoft Entra ID Contacts
 
 - If the tenant is using Continuous Access Evaluation (CAE) tokens, the SBA will be operational only for about 30 minutes, due to the nature of continuous access evaluation. An alternative would be to dissable CAE for the tenant.
 
