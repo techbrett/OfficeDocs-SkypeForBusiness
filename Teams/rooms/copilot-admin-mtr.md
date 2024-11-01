@@ -139,7 +139,7 @@ Noise suppression is identifying non human voices or noise in an environment and
 
 Noise suppression of background noise is turned on by default (and can be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant, and it greatly enhances the microphone's audio quality.
 
-![Screenshot of the noise suppression setting that is turned on.](https://review.learn.microsoft.com/en-us/editor/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/Teams%2Frooms%2Fcopilot-admin-mtr.md/main/media/mtr-devices/noise-suppression.png)
+:::image type="content" source="../media/mtr-devices/noise-suppression.png" alt-text="Screenshot of the noise suppression setting that is turned on." lightbox="../media/mtr-devices/noise-suppression.png"::: 
 
 However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, each user will then set up a voice profile and enable voice isolation in the Teams app.
 
@@ -147,7 +147,7 @@ However, if you want to also isolate or have Teams be able to tell the differenc
 
 You can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy or users can turn it on themselves in the Teams app.
 
-![Screenshot showing the setting for voice isolation in the Teams app.](https://review.learn.microsoft.com/en-us/editor/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/Teams%2Frooms%2Fcopilot-admin-mtr.md/main/media/mtr-devices/voice-isolation.png)
+:::image type="content" source="../media/mtr-devices/voice-isolation.png" alt-text="Screenshot showing the setting for voice isolation in the Teams app." lightbox="../media/mtr-devices/voice-isolation.png":::
 
 > [!TIP]
 > If you are using Bring Your Own Device (BYOD) meeting rooms and rooms audio we will turn on voice isolation automatically.
@@ -156,7 +156,7 @@ Learn more: **[Manage voice isolation for your users](/microsoftteams/voice-isol
 
 Voice Isolation is on by default in an organization. Check to make sure that it's on and if it isn't, you can use PowerShell to turn it on for all of your users.
 
-```
+```Powershell
 Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled
 ```
 
