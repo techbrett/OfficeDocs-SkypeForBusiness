@@ -44,10 +44,10 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 ## What's new for Call queues in the past six months
 
 - November 28
-  - [Call back](#step_5_call_back) functionality now available through Teams Admin Center
+  - [Call back](#step-5-call-back) functionality now available through Teams Admin Center
     
 - September 16
-  - [Call back](#callback_via_powershell) functionality available through PowerShell cmdlets
+  - [Call back](#callback-via-powershell) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
 
 ## Steps to create a Call queue
