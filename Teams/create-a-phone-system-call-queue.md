@@ -43,10 +43,12 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
+- November 28
+  - [Call back](#step_5_call_back) functionality now available through Teams Admin Center
+    
 - September 16
-  - [Callback](#callback) functionality available through PowerShell cmdlets
+  - [Call back](#callback_via_powershell) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
-- April 8 - Additional messaging options for call queue Overflow, Timeout, and No Agents exception routing in Teams admin center and [PowerShell cmdlets](#additional-messaging)
 
 ## Steps to create a Call queue
 
@@ -361,6 +363,70 @@ Once a caller has successfully requested a call back, the call back request is a
 Once you select your call back options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 
+### Callback via PowerShell
+
+|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
+|:---------------------------------------|:------------------------------------------|
+| [-IsCallbackEnabled](/powershell/module/teams/new-cscallqueue#-IsCallbackEnabled) | [-IsCallbackEnabled](/powershell/module/teams/set-cscallqueue#-IsCallbackEnabled) |
+| [-CallbackRequestDtmf](/powershell/module/teams/new-cscallqueue#-CallbackRequestDtmf) | [-CallbackRequestDtmf](/powershell/module/teams/set-cscallqueue#-CallbackRequestDtmf) |
+| [-WaitTimeBeforeOfferingCallbackInSecond](/powershell/module/teams/new-cscallqueue#-WaitTimeBeforeOfferingCallbackInSecond) | [-WaitTimeBeforeOfferingCallbackInSecond](/powershell/module/teams/set-cscallqueue#-WaitTimeBeforeOfferingCallbackInSecond) |
+| [-NumberOfCallsInQueueBeforeOfferingCallback](/powershell/module/teams/new-cscallqueue#-NumberOfCallsInQueueBeforeOfferingCallback) | [-NumberOfCallsInQueueBeforeOfferingCallback](/powershell/module/teams/set-cscallqueue#-NumberOfCallsInQueueBeforeOfferingCallback) |
+| [-CallToAgentRatioThresholdBeforeOfferingCallback](/powershell/module/teams/new-cscallqueue#-CallToAgentRatioThresholdBeforeOfferingCallback) | [-CallToAgentRatioThresholdBeforeOfferingCallback](/powershell/module/teams/set-cscallqueue#-CallToAgentRatioThresholdBeforeOfferingCallback) |
+| [-CallbackOfferAudioFilePromptResourceId](/powershell/module/teams/new-cscallqueue#-CallbackOfferAudioFilePromptResourceId) | [-CallbackOfferAudioFilePromptResourceId](/powershell/module/teams/set-cscallqueue#-CallbackOfferAudioFilePromptResourceId) |
+| [-CallbackOfferTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-CallbackOfferTextToSpeechPrompt) | [-CallbackOfferTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-CallbackOfferTextToSpeechPrompt) |
+| [-CallbackEmailNotificationTarget](/powershell/module/teams/new-cscallqueue#-CallbackEmailNotificationTarget) | [-CallbackEmailNotificationTarget](/powershell/module/teams/set-cscallqueue#-CallbackEmailNotificationTarget) |
+
+#### PowerShell Examples
+
+##### Calls become eligible after waiting 60 seconds
+
+Create a new call queue:
+````PowerShell
+New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+Modify an existing call queue:
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+##### Calls become eligible for callback when there are more than 50 calls in queue
+
+Create a new call queue:
+````PowerShell
+New-CsCallQueue -Name "Callback Eligible After 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+Modify an existing call queue:
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
+ "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+##### Calls become eligible for callback when there are 2 times more calls than agents
+
+Create a new call queue:
+````PowerShell
+New-CsCallQueue -Name "Callback Eligible After 2x calls to agents" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+Modify an existing call queue:
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
+ "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+##### Calls become eligible for callback after waiting 60 seconds or when there are more than 50 calls in queue
+
+Create a new call queue:
+````PowerShell
+New-CsCallQueue -Name "Callback Eligible After 60s or 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+Modify an existing call queue:
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
 
 
 
