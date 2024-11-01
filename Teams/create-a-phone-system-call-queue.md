@@ -299,9 +299,76 @@ We recommend turning on **Call agents can opt out of taking calls**.
 
 Once you select your agent call routing options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-## [Step 5: Exception Handling](#tab/call-exception-handling)
 
-## Step 5: Exception handling
+
+
+## [Step 5: Call back](#tab/call-back)
+
+## Step 5: Call back
+
+Call back allows *eligible* callers waiting in queue to receive a call back to the number they are calling from when an agent becomes available.
+
+A caller becomes *eligible* for call back based on any one of the following configured conditions coming true:
+
+- Wait time in queue
+  Once a caller in queue exceeds this configured wait time they become *eligible* for call back. This option applies to callers at the front of the queue.
+
+- Number of calls in queue
+  Once the number of callers in queue reaches this level, new callers arriving in the queue become *eligible* for call back. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for call back.
+
+- Calls to agent ratio
+  Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for call back. This option applies to callers arriving in the queue.
+
+Additionally, for a call to become *eligble* for call back, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
+
+*Eligible* callers will receive an option to request call back *after* the music on hold finishes playing.
+
+You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the call back fails.
+
+#### Call back and Call Queue Timeout Interplay
+
+In order for an *eligible* call to be offered call back, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for call back and for the music to finish playing after the call becomes eligible.
+
+Consider the following call queue configuration:
+
+- Call back wait time in queue: 60 seconds
+- Call Queue Timeout: 120 seconds
+- Call Queue Music: Default
+
+The caller will become eligible for call back after waiting in the queue for 60 seconds however, as the default music is 2 minutes long, call queue timeout will occur first and the caller will never be offered call back.
+
+Once a caller has successfully requested a call back, the call back request is also subject to the call queue timout configuration. If a call back request times out, the information about the caller will be sent to the configured email notification address.
+
+**In order for a call back to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a call back and for the call back to be queued until an agent becomes available and answers the call.**
+
+> [!NOTE]
+> In addition to the eligibility requirements already listed, for callers within the North American Numbering Plan, the inbound phone number must not start with any of the following digits in order to become eligible for call back:
+>
+> |Starting Digits                                   |
+> |:-------------------------------------------------|
+> | 1-242, 246, 264, 268, 284                        |
+> | 1-340, 345                                       |
+> | 1-441 , 473                                      |
+> | 1-500                                            |
+> | 1-600, 649, 658, 664, 670, 671, 684              |
+> | 1-700, 721, 758, 767, 784, 787                   |
+> | 1-800, 811, 822, 833, 844, 855, 866, 877, 888    |
+> | 1-809, 829, 849, 868, 869, 876                   | 
+> | 1-900, 939                                       |
+> | 1-nnn-555-1212                                   |
+> | 1-nnn-555,0100-0199                              |
+
+Once you select your call back options, select the **Next** button at the bottom of the **Add a Call queue** page.
+
+
+
+
+
+
+
+## [Step 6: Exception Handling](#tab/call-exception-handling)
+
+## Step 6: Exception handling
 
 **Exception handling** determines how calls are handled when certain exceptions occur.
 
@@ -354,9 +421,9 @@ This call exception handling option handles calls when no agents are opted into 
 
 Once you select your call overflow, call timeout, and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-## [Step 6: Authorized users](#tab/authorized-users)
+## [Step 7: Authorized users](#tab/authorized-users)
 
-## Step 6: Authorized users
+## Step 7: Authorized users
 
 **Authorized users** specifies the users who are authorized to make changes to this Call queue. You can determine the capabilities that the users have through [Teams voice applications policies](./manage-voice-applications-policies.md) assigned to your users.
 
