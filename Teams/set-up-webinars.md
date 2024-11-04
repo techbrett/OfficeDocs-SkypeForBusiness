@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: justle
-ms.date: 12/6/2023
+ms.date: 11/4/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -39,13 +39,20 @@ To learn more about the webinar experience for your users, see [Get Started with
 > [!NOTE]
 > The webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
-## Manage webinars using the Teams admin center
+## Manage who can schedule webinars
+
+You can use the Teams admin center or PowerShell to manage who can schedule town halls in your organization.
+
+|Setting value| PowerShell value|Behavior|
+|---------|---------|---------------|
+|On|Enabled| Users with this policy can create webinars. |
+|Off|Disabled| Users with this policy can't create webinars.|
+
+### Manage who can schedule webinars using the Teams admin center
 
 You can use the Teams admin center to set up and manage the webinar experience for your organization.
 
-### Turn webinars on or off
-
-Follow these steps in the Teams admin center to turn webinars on or off:
+Follow these steps in the Teams admin center to manage who can schedule webinars:
 
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.
@@ -54,24 +61,13 @@ Follow these steps in the Teams admin center to turn webinars on or off:
 5. Toggle the **Allow webinars** setting **On** or **Off**.
 6. Select **Save**.
 
-## Manage webinars using PowerShell
+### Manage who can schedule webinars using PowerShell
 
 You can use PowerShell to set up and manage the webinar experience for your organization.
 
 To set up webinars, use the **`-AllowWebinars`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
 
-The following table shows the behaviors of the settings for the **`-AllowWebinars`** parameter:
-
-|Setting value| Behavior|
-|---------|---------------|
-|Enabled| Users with this policy can create webinars. |
-|Disabled| Users with this policy can't create webinars.|
-
-Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
-
-For more information on PowerShell cmdlets for Teams webinars, see [Related articles](#related-articles).
-
-### Turn on webinars
+#### Turn on webinars
 
 To turn on webinars, use the following script:
 
@@ -79,7 +75,7 @@ To turn on webinars, use the following script:
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
 ```
 
-### Turn off webinars
+#### Turn off webinars
 
 To turn off webinars, use the following script:
 
@@ -87,7 +83,7 @@ To turn off webinars, use the following script:
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
 
-## Manage whether organizers can schedule public or private webinars
+## Manage whether organizers can create public or private webinars
 
 You can use PowerShell to manage whether organizers can [create public or private webinars](https://support.microsoft.com/office/0719a9bd-07a0-47fd-8415-6c576860f36a):
 
@@ -111,8 +107,4 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 - [Manage email communications for webinars](manage-email-communications.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md)
-- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
-- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
-- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
-- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
