@@ -787,7 +787,7 @@ Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are onl
 
 Resolved issues:
 
-- Fixed AOSP migration issues. 
+- Resolved a bug to ensure smooth migration to AOSP Device Management in a future release. 
 - Improved diagnosability for proximity-based meeting join. 
 - Fixed app crashes and performance issues. 
 

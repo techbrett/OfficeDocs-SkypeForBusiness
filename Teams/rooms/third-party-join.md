@@ -43,7 +43,8 @@ Teams Rooms offer two ways for connecting to third-party meetings: a SIP video b
 | Receive video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
 | Send video quality | Up to 1080p / 30 fps | Up to 720p / 30 fps |
 | Receive content | Available | Available |
-| Send content | Available | Not available |
+| Send content with HDMI | Available | Not available |
+| Send content with [content camera](content-camera.md) | Available | Not available |
 | Maximum front of room displays | Two displays | One display |
 | Layout controls | Available* | Available* |
 | List participant | Available* | Available* |
@@ -60,14 +61,13 @@ Teams Rooms offer two ways for connecting to third-party meetings: a SIP video b
 | Lobby authentication / bypass | Not available | Not available |
 | Microphone mute sync | Not available | Not available |
 | Teams Rooms coordinated join | Not available | Not available |
-| SIP calling plan required | Yes | No |
+| SIP paid dialing plan required | Yes | No |
 | Direct internet access required | No | Yes |
 | Teams Rooms license | Teams Rooms Pro | Teams Rooms Basic <br>Teams Rooms Pro |
 | Teams Rooms platform | Teams Rooms on Windows | Teams Rooms on Windows <br>Teams Rooms on Android |
 
 > [!NOTE]
-> *These features vary by third-party meeting platform.<br>
-> Third party platform features listed were available at the time this article was last updated and may vary from platform to platform. Microsoft periodically reviews these features to keep this document current but other platforms may make changes which can impact these features.
+> *Third party platform features listed were available at the time this article was last updated and may vary from platform to platform. Microsoft periodically reviews these features to keep this document current but other platforms may make changes which can impact these features.<br>
 
 > [!NOTE]
 > To join a Cisco Webex meeting from a Teams Rooms device using Direct Guest Join, the Cisco meeting needs to be hosted in Webex Meetings Pro using Cisco Webex web application version WBS 40.7 or later.
