@@ -258,9 +258,8 @@ Existing configurations that use Resource Accounts will continue to function and
 For more information, see:
 
 |New-CsAutoAttendantCallableEntity  |
-|:---------------------------------------|:------------------------------------------|
+|:---------------------------------------|
 | [-Type ConfigurationEndPoint](/powershell/module/teams/new-csautoattendantcallableentity#-Type)  |
-
 
 #### PowerShell Example
 
