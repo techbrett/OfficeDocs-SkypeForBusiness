@@ -41,18 +41,6 @@ This article, written for IT Pros and admins who are deploying and configuring T
 >
 > For admins to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
-The following sections in this article describe the Teams Premium enhancements for:
-
-- [Protection and advanced management for meetings](#protection-and-advanced-management-for-meetings)
-- [Personalized meetings](#personalized-meetings)
-- [Premium events](#premium-events)
-- [Virtual Appointments](#advanced-virtual-appointments)
-- [Intelligent meeting features](#intelligent-meeting-features)
-- [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
-- [Advanced Places Workplace Collaboration](#advanced-places-workplace-collaboration)
-- [Intelligent call recap](#intelligent-call-recap)
-- [Queues app](#queues-app)
-
 For more general information about Teams meetings and premium events, see the following articles:
 
 - [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md)
@@ -118,7 +106,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 ## Personalized meetings
 
-Teams Premium provides more ways to personalize your Teams meeting experiences with the following key features:
+Teams Premium provides more ways to personalize your Teams meeting experiences with the following key features. For an overview on personalized meetings, see [Custom meetings overview](custom-meetings-overview.md):
 
 - **Custom meeting backgrounds for organizations** - Create and define custom meeting backgrounds that your users can use during meetings and events.
 
