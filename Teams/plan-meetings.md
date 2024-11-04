@@ -57,6 +57,10 @@ Teams administrators and organizers have different policies and settings to cont
 
 For a complete list of meeting policies, see [Teams setting and policies reference](settings-policies-reference.md).
 
+## Customization with Teams Premium
+
+With a Teams Premium license, you can extend your organization's visual identity and compliance requirements across the meeting experience by adding logos and backgrounds that can be displayed in the meeting’s pre-join screen, lobby, and during the meeting experience. To learn more, see [Custom meetings overview](custom-meetings-overview.md).
+
 ## Audio Conferencing for meetings
 
 You can assign an Audio Conferencing license to meeting organizers so they can create meetings where attendees can join by dialing in from their phones. These meeting organizers can also dial-out to attendees to connect them to the meeting's audio portion. To learn more about Audio Conferencing, see [Audio Conferencing in Microsoft Teams](audio-conferencing-in-office-365.md).
