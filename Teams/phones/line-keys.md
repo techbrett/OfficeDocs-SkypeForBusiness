@@ -54,6 +54,6 @@ To set up line keys for custom contacts and speed dials, follow these steps:
 
 ### Related Links
 
-- [Microsoft Certified Teams phones](../devices/teams-phones-certified-hardware)
+- [Microsoft Certified Teams phones](../devices/teams-phones-certified-hardware.md)
 - [Phones for Microsoft Teams](phones-for-teams.md)
 - [Microsoft Teams Phone Settings](/microsoftteams/phones-settings)
