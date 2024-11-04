@@ -559,7 +559,7 @@ Nested Auto attendants and Call queues (auto attendants and call queues that do 
 
 Existing configurations that use Resource Accounts will continue to function and remain fully supported. A combination of both methods can be used at the same time.
 
-When call queue [Exception handling](#step-5-exception-handling-1) occurs, the Voice Apps destination for Overflow, Timeout and No Agents can refer to an auto attendant or call queue directly instead of the Resource Account for that auto attendant or call queue.
+When call queue [Exception handling](#step-5-exception-handling-1) occurs, the `Voice app` destination for Overflow, Timeout and No Agents can refer to an auto attendant or call queue directly instead of the Resource Account for that auto attendant or call queue.
 
 For more information, see:
 
