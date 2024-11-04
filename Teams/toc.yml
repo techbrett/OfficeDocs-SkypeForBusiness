@@ -1310,6 +1310,8 @@ items:
   items:
     - name: Teams device store
       href: devices/device-store.md
+    - name: Copilot and Teams Rooms
+      href: rooms/copilot-admin-mtr.md
     - name: Teams device certification
       items:
         - name: Certification overview
@@ -1369,8 +1371,8 @@ items:
                       href: rooms/proximity-join.md
                     - name: Join meetings with QR codes
                       href: rooms/teams-rooms-qr-codes.md
-                    - name: SIP and H.323 calling with Teams Rooms
-                      href: rooms/meetings-with-SIP-H323-devices.md
+                    - name: SIP and H.323 dialing with Teams Rooms
+                      href: rooms/meetings-with-sip-h323-devices.md
                     - name: Join third-party meetings
                       href: rooms/third-party-join.md
                     - name: Digital signage
@@ -1761,6 +1763,8 @@ items:
           href: audit-app-management-activities.md
         - name: View app usage report and analytics
           href: teams-analytics-and-reports/app-usage-report.md
+        - name: Take ownership of your org's apps
+          href: app-ownership-developer-portal.md
 
 - name: Industries and government guidance
   items: 
