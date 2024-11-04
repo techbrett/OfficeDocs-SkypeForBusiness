@@ -268,7 +268,7 @@ For more information, see:
 Create a new callable entity:
 
 ````PowerShell
-New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -type ConfigurationEndPoint
+New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -Type ConfigurationEndPoint
 ````
 
 ## Resources for complex scenarios
