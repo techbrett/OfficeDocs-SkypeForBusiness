@@ -43,6 +43,9 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
+- November 5
+  - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
+
 - September 16
   - [Callback](#callback) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
@@ -547,8 +550,52 @@ Hidden authorized users aren't visible to Queues app users.
 For more information, see:
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
-|:---------------------------------------|:-------------------|
+|:---------------------------------------|:------------------------------------------|
 | [-HideAuthorizedUsers](/powershell/module/teams/new-cscallqueue#-hideauthorizedusers) | [-HideAuthorizedUsers](/powershell/module/teams/set-cscallqueue#-hideauthorizedusers) |
+
+### Nested Auto attendants and call queues
+
+Nested Auto attendants and Call queues (auto attendants and call queues that do not directly answer phone calls) no longer require a Resource Account and associated licensing.
+
+Existing configurations that use Resource Accounts will continue to function and remain fully supported. A combination of both methods can be used at the same time.
+
+When call queue [Exception handling](#step-5-Exception-handling-1) occurs, the Voice Apps destination for Overflow, Timeout and No Agents can refer to an auto attendant or call queue directly instead of the Resource Account for that auto attendant or call queue.
+
+For more information, see:
+
+|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
+|:---------------------------------------|:------------------------------------------|
+| [-OverflowActionTarget](/powershell/module/teams/new-cscallqueue#-overflowactiontarget) | [-OverflowActionTarget](/powershell/module/teams/set-cscallqueue#-overflowactiontarget) |
+| [-TimeOutActionTarget](/powershell/module/teams/new-cscallqueue#-timeoutactiontarget) | [-TimeOutActionTarget](/powershell/module/teams/set-cscallqueue#-timeoutactiontarget) |
+| [-NoAgentActionTarget](/powershell/module/teams/new-cscallqueue#-notagentactiontarget) | [-NoAgentActionTarget](/powershell/module/teams/set-cscallqueue#-noagentactiontarget) |
+
+
+#### PowerShell Example
+
+##### Overflow to another Auto attendant or Call queue
+
+Create a new call queue:
+
+````PowerShell
+New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -type ConfigurationEndPoint
+````
+
+Modify and existing call queue:
+
+Overflow
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -OverflowActionTarget <Auto Attendant or Call Queue GUID>
+````
+
+Timeout
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -TimeOutActionTarget <Auto Attendant or Call Queue GUID>
+````
+
+No Agents
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -NoAgentActionTarget <Auto Attendant or Call Queue GUID>
+````
 
 ## Resources for complex scenarios
 
