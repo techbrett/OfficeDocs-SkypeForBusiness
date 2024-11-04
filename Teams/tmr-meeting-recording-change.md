@@ -117,8 +117,7 @@ For **non-Channel meetings**:
 - If the meeting is forwarded, only participants who are automatically added to the meeting chat thread receive the recording link.
 - For optimal performance, the total number of users in a chat shouldn't exceed 1,000.
 - If a meeting is forwarded to a group, only some users are added to the chat. If forwarded to an individual user, they're added to the meeting chat unless there are more than 1,000 users in the chat. 
-
-For **large meetings**, if a meeting has more than 250 participants, some particpants don't automatically have file permissions. Excluded participants should ask the recording owner to add them to the shared list.
+- For **large meetings**, if a meeting has more than 250 participants, some particpants don't automatically have file permissions. Excluded participants should ask the recording owner to add them to the shared list.
 
 For **Channel meetings**, permissions are inherited from the owners and members list in the channel.
 
