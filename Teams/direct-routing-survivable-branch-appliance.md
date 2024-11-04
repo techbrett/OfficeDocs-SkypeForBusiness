@@ -232,7 +232,7 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 The following are known issues and considerations:
 
 - In SBA mode
-    - the SBA supports expired client authentication tokens for up to 7 days from the last authentication. If an outage occurs 20 hours after the last authentication token renewal, the SBA will support the client's operation for 6 days and 4 hours. 
+    - the SBA supports expired client authentication tokens for up to 7 days from the token expiration.
     - the Teams client will not be able to connect to the SBA if the Teams client is triggered to negotiate a new token. For example, if a user quits and restarts their Teams client or restarts their device.
     - the Teams client will not be able to validate itself with an SBA that it has not previously connected with, in the last 24 hours.
 
