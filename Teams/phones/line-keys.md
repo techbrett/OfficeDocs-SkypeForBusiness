@@ -22,23 +22,23 @@ ms.localizationpriority: medium
 description: Learn how to set up and manage line keys on Microsoft Teams certified phone devices for quick access to custom contacts and speed dial.
 ---
 
-## Line Keys on Microsoft Teams Certified Phone Devices
+# Line Keys on Microsoft Teams Certified Phone Devices
 
 This article provides guidance on setting up and managing line keys on Microsoft Teams certified phone devices. This feature allows users to set up custom contacts and speed dial for quick access using line key buttons on nontouch devices and sidecars.
 
-### Overview of Steps to Set Up Line Keys
+## Steps to set Up line keys
 
 To set up line keys for custom contacts and speed dials, follow these steps:
 
-1.  **Update the application:** After updating the application, you'll notice a new home screen experience on your device with a dedicated place for line keys.
-2.  **Assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact or add a new one, including a PSTN contact.
-3.  **Modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
+1. **Update the Teams phone application:** After updating the application, you'll notice a new home screen experience on your device with a dedicated place for line keys.
+2. **Assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
+3. **Modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
     - **Unassign line key:** To remove an assigned line key.
     - **Reassign line key:** To modify the contact assigned to this line key.
     - **Manage line key:** Access more management options.
-4.  **Place a call:** Press or select on the key to place a call to the user or number assigned to that line key.
+4. **Place a call:** Press or select on the key to place a call to the user or number assigned to that line key.
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
 **Question:** When will line keys be supported on touch phone devices?  
 **Answer:** Support for touch phone devices is coming soon. Check the public roadmap for timelines. With this application update, line keys are available for nontouch devices and devices with sidecars.
@@ -54,6 +54,6 @@ To set up line keys for custom contacts and speed dials, follow these steps:
 
 ### Related Links
 
-- [Microsoft Teams Hardware Requirements](/microsoftteams/hardware-requirements)
+- [Microsoft Certified Teams phones](/microsoftteams/devices/teams-phones-certifie-hardware)
 - [Phones for Microsoft Teams](/microsoftteams/phones-for-teams)
 - [Microsoft Teams Phone Settings](/microsoftteams/phones-settings)
