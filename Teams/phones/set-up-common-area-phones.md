@@ -88,7 +88,7 @@ Use policies to control which features are available to users on common area pho
 
 ### IP phone policies
 
-The Teams IP Phone policy can only be modified if the account signing into the phone is licensed with something other than a **Teams Shared Devices** license.  If licensed with a Microsoft 365 E3 or E5 subscription, or an Office 365 Enterprise E1, E3, or E5 subscription, you can modify the IP Phone policy.  If you're using a **Teams Rooms** license on your common area phone account, it will only let you use `MeetingRoomSignIn` mode. `MeetingRoomSignIn` mode isn't available on most common area phones. For more information about supported overrides for the phone interface, see [Set Microsoft Teams Android devices user interface](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection).
+The Teams IP Phone policy can only be modified if the account signing into the phone is licensed with something other than a **Teams Shared Devices** license. If licensed with a Microsoft 365 E3 or E5 subscription, or an Office 365 Enterprise E1, E3, or E5 subscription, you can modify the IP Phone policy. If you're using a **Teams Rooms** license on your common area phone account, it will only let you use `MeetingRoomSignIn` mode. `MeetingRoomSignIn` mode isn't available on most common area phones. For more information about supported overrides for the phone interface, see [Set Microsoft Teams Android devices user interface](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection).
 
 Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/teams/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
 
@@ -98,7 +98,7 @@ To configure other parameters, consider creating an [IP phone policy](/powershel
 
 Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. To learn more, see [Configure calling policies in Teams](../teams-calling-policy.md).
 
-By default, call park isn't enabled for common area phones. You'll need to create a policy to enable it. To learn more, see [Call park and retrieve in Microsoft Teams](../call-park-and-retrieve.md).
+By default, call park isn't enabled for common area phones. You need to create a policy to enable it. To learn more, see [Call park and retrieve in Microsoft Teams](../call-park-and-retrieve.md).
 
 > [!NOTE]
 > After you assign a policy, sign out of the phone and sign back in. It may take up to an hour for a policy assignment to take effect.
@@ -121,18 +121,18 @@ To sign in locally with a username and password:
 
 1. Turn on the common area phone.
 2. Select **Sign in on this device**.
-3. Follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
+3. Follow the sign-in directions on the device. Once signed in, the phone displays the common area phone user experience.
 
 > [!NOTE]
-> If you are using a custom setup policy that unpins the calling app, the dial pad doesn't appear on the common area phone. For more information about Teams setup policies, see [Manage app setup policies in Microsoft Teams](../teams-app-setup-policies.md).
+> If you are using a custom setup policy that unpins the calling app, the dial pad doesn't appear on the common area phone. For more information, about Teams setup policies, see [Manage app setup policies in Microsoft Teams](../teams-app-setup-policies.md).
 
 ### Sign in from another device
 
-You can also sign into to a common area phone from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the phone itself. For more information see [Remote sign in and sign out for Teams Phones](remote-sign-in-and-sign-out-phones.md).
+You can also sign into to a common area phone from another device using a code. When you sign in this way, you enter the username and password on another device, rather than on the phone itself. For more information see [Remote sign in and sign out for Teams Phones](remote-sign-in-and-sign-out-phones.md).
 
 1. On your common area phone, find the code displayed on the sign-in screen.
 2. On another device, go to [https://www.microsoft.com/devicelogin](https://www.microsoft.com/devicelogin).
-3. Enter the code and follow the instructions to complete signing in.
+3. To complete signing in, enter the code and follow the instructions.
 
 ### Sign in using the Teams admin center
 
@@ -172,7 +172,7 @@ Turning on advanced calling capabilities requires you to purchase hardware model
 
 ## Step 7 - Set up Hotline/PLAR on common area phones (optional)
 
-You can set up common area phones as hotline phones also known as PLAR (Private Line Auto Ringdown) phones. You can program this phone to autodial a pre-configured PSTN number or a directory contact when the phone handset is picked up.
+You can set up common area phones as hotline phones also known as PLAR (Private Line Auto Ringdown) phones. You can program this phone to autodial a preconfigured PSTN number or a directory contact when the phone handset is picked up.
 
 ### Turn on Hotline in the Teams admin center
 
@@ -191,9 +191,9 @@ You can set up common area phones as hotline phones also known as PLAR (Private 
 1. Enter the display name you want to show on the phone's home screen.
 1. Select **Save**.
 
-### Resource Account Sign in Test
+### Resource Accounts Sign in Test
 
-Use this tool: [Teams phone sign in test](https://testconnectivity.microsoft.com/tests/TeamsPhoneDeviceSignIn/input) to test that your Teams phone common area resource account is configured for successful sign on.
+Use this tool: [Teams phone sign in test](https://testconnectivity.microsoft.com/tests/TeamsPhoneDeviceSignIn/input) to test that your Teams phone common area resource account is configured for successful sign-on.
 
 ## Next steps
 
