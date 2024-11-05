@@ -44,7 +44,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 ## What's new for Call queues in the past six months
 
 - November 28
-  - [Callback](#step-5-callback-1) functionality now available through Teams Admin Center
+  - [Callback](#step-5-callback) functionality now available through Teams Admin Center
     
 - September 16
   - [Callback](#callback-via-powershell) functionality available through PowerShell cmdlets
