@@ -44,10 +44,10 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 ## What's new for Call queues in the past six months
 
 - November 28
-  - [Call back](#step-5-call-back-1) functionality now available through Teams Admin Center
+  - [Callback](#step-5-callback-1) functionality now available through Teams Admin Center
     
 - September 16
-  - [Call back](#call-back-via-powershell) functionality available through PowerShell cmdlets
+  - [Callback](#callback-via-powershell) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
 
 ## Steps to create a Call queue
@@ -304,32 +304,32 @@ Once you select your agent call routing options, select the **Next** button at t
 
 
 
-## [Step 5: Call back](#tab/call-back)
+## [Step 5: Callback](#tab/callback)
 
-## Step 5: Call back
+## Step 5: Callback
 
-Call back allows *eligible* callers waiting in queue to receive a call back to the number they are calling from when an agent becomes available.
+Callback allows *eligible* callers waiting in queue to receive a callback to the number they are calling from when an agent becomes available.
 
-A caller becomes *eligible* for call back based on any one of the following configured conditions coming true:
+A caller becomes *eligible* for callback based on any one of the following configured conditions coming true:
 
 - Wait time in queue
-  Once a caller in queue exceeds this configured wait time they become *eligible* for call back. This option applies to callers at the front of the queue.
+  Once a caller in queue exceeds this configured wait time they become *eligible* for callback. This option applies to callers at the front of the queue.
 
 - Number of calls in queue
-  Once the number of callers in queue reaches this level, new callers arriving in the queue become *eligible* for call back. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for call back.
+  Once the number of callers in queue reaches this level, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
 
 - Calls to agent ratio
-  Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for call back. This option applies to callers arriving in the queue.
+  Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
 
-Additionally, for a call to become *eligble* for call back, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
+Additionally, for a call to become *eligble* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
 
-*Eligible* callers will receive an option to request call back *after* the music on hold finishes playing.
+*Eligible* callers will receive an option to request callback *after* the music on hold finishes playing.
 
-You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the call back fails.
+You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the callback fails.
 
-#### Call back and Call Queue Timeout Interplay
+#### Callback and Call Queue Timeout Interplay
 
-In order for an *eligible* call to be offered call back, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for call back and for the music to finish playing after the call becomes eligible.
+In order for an *eligible* call to be offered callback, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for callback and for the music to finish playing after the call becomes eligible.
 
 Consider the following call queue configuration:
 
@@ -337,14 +337,14 @@ Consider the following call queue configuration:
 - Call Queue Timeout: 120 seconds
 - Call Queue Music: Default
 
-The caller will become eligible for call back after waiting in the queue for 60 seconds however, as the default music is 2 minutes long, call queue timeout will occur first and the caller will never be offered call back.
+The caller will become eligible for callback after waiting in the queue for 60 seconds however, as the default music is 2 minutes long, call queue timeout will occur first and the caller will never be offered callback.
 
-Once a caller has successfully requested a call back, the call back request is also subject to the call queue timout configuration. If a call back request times out, the information about the caller will be sent to the configured email notification address.
+Once a caller has successfully requested a callback, the call back request is also subject to the call queue timout configuration. If a callback request times out, the information about the caller will be sent to the configured email notification address.
 
-**In order for a call back to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a call back and for the call back to be queued until an agent becomes available and answers the call.**
+**In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback and for the callback to be queued until an agent becomes available and answers the call.**
 
 > [!NOTE]
-> In addition to the eligibility requirements already listed, for callers within the North American Numbering Plan, the inbound phone number must not start with any of the following digits in order to become eligible for call back:
+> In addition to the eligibility requirements already listed, for callers within the North American Numbering Plan, the inbound phone number must not start with any of the following digits in order to become eligible for callback:
 >
 > |Starting Digits                                   |
 > |:-------------------------------------------------|
@@ -360,10 +360,10 @@ Once a caller has successfully requested a call back, the call back request is a
 > | 1-nnn-555-1212                                   |
 > | 1-nnn-555,0100-0199                              |
 
-Once you select your call back options, select the **Next** button at the bottom of the **Add a Call queue** page.
+Once you select your callback options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 
-### Call back via PowerShell
+### Callback via PowerShell
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
