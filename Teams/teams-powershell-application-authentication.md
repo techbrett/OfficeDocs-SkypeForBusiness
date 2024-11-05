@@ -98,7 +98,7 @@ Sample steps for creating applications in Microsoft Entra ID are mentioned below
 2. Assign API permissions to the application.
    - For \*-Cs cmdlets - the Microsoft Graph API permission needed is `Organization.Read.All`.
    - For Non \*-Cs cmdlets - the Microsoft Graph API permissions needed are `Organization.Read.All`, `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`.
-   - Note - there's no need to configure any API permission for "Skype and Teams Tenant Admin API". Configuring this permission might result in authentication failures. 
+   - Note - there's no need to configure any API permission for "Skype and Teams Tenant Admin API". Configuring this permission might result in failures. 
 3. Generate a self-signed certificate.
 4. Attach the certificate to the Microsoft Entra application.
 5. Assign [Microsoft Entra roles](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) to the application. Refer to this [Assign a role](/azure/active-directory/roles/manage-roles-portal#assign-a-role) procedure, but search for the application instead of a user.
