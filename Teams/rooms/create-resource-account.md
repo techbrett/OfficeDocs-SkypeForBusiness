@@ -90,9 +90,9 @@ Conditional access controls resource accounts for Teams devices. You may need to
 > [!NOTE]
 > Teams shared devices do not support Security defaults in Microsoft Entra ID. Use conditional access to secure your environment and Teams shared devices.
 
-### Resource Account Sign in Tester
+### Resource Account Sign in Test
 
-Use this tool: [Teams Rooms Sign in Test](https://testconnectivity.microsoft.com/tests/TeamsMTRDeviceSignIn/input) to test that your Teams Rooms resource account is configured for successful sign on.
+Use this tool: [Teams Rooms sign in test](https://testconnectivity.microsoft.com/tests/TeamsMTRDeviceSignIn/input) to test that your Teams Rooms resource account is configured for successful sign on.
 
 ### Exchange Room Finder & Microsoft Places
 
