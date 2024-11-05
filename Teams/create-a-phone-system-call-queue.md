@@ -43,6 +43,9 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
+- November 5
+  - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
+
 - September 16
   - [Callback](#callback) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
@@ -495,19 +498,19 @@ Create a new call queue:
 New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
 ##### Calls become eligible for callback when there are more than 50 calls in queue
 
-Create a new call queue:
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
  "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -515,12 +518,12 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
 
 ##### Calls become eligible for callback when there are 2 times more calls than agents
 
-Create a new call queue:
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 2x calls to agents" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
  "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -528,12 +531,12 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
 
 ##### Calls become eligible for callback after waiting 60 seconds or when there are more than 50 calls in queue
 
-Create a new call queue:
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 60s or 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
@@ -547,8 +550,46 @@ Hidden authorized users aren't visible to Queues app users.
 For more information, see:
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
-|:---------------------------------------|:-------------------|
+|:---------------------------------------|:------------------------------------------|
 | [-HideAuthorizedUsers](/powershell/module/teams/new-cscallqueue#-hideauthorizedusers) | [-HideAuthorizedUsers](/powershell/module/teams/set-cscallqueue#-hideauthorizedusers) |
+
+### Nested Auto attendants and Call queues
+
+**Nested Auto attendants and Call queues**, or auto attendants and call queues that don't directly answer phone calls, no longer require a Resource Account and associated licensing.
+
+Existing configurations that use Resource Accounts will continue to function and remain fully supported. A combination of both methods can be used at the same time.
+
+When call queue [Exception handling](#step-5-exception-handling-1) occurs, the `Voice app` destination for Overflow, Timeout, and No Agents can refer to an auto attendant or call queue directly instead of the Resource Account for that auto attendant or call queue.
+
+For more information, see the following documentation:
+
+|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
+|:---------------------------------------|:------------------------------------------|
+| [-OverflowActionTarget](/powershell/module/teams/new-cscallqueue#-overflowactiontarget) | [-OverflowActionTarget](/powershell/module/teams/set-cscallqueue#-overflowactiontarget) |
+| [-TimeOutActionTarget](/powershell/module/teams/new-cscallqueue#-timeoutactiontarget) | [-TimeOutActionTarget](/powershell/module/teams/set-cscallqueue#-timeoutactiontarget) |
+| [-NoAgentActionTarget](/powershell/module/teams/new-cscallqueue#-noagentactiontarget) | [-NoAgentActionTarget](/powershell/module/teams/set-cscallqueue#-noagentactiontarget) |
+
+
+#### PowerShell Example
+
+##### Overflow to another Auto attendant or Call queue
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
+
+Overflow
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -OverflowActionTarget <Auto Attendant or Call Queue GUID>
+````
+
+Timeout
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -TimeOutActionTarget <Auto Attendant or Call Queue GUID>
+````
+
+No Agents
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -NoAgentActionTarget <Auto Attendant or Call Queue GUID>
+````
 
 ## Resources for complex scenarios
 

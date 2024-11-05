@@ -54,7 +54,8 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for Auto attendants in the past six months
 
-- No new features in the past six months.
+- November 5
+  - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
 
 ## Steps to create an Auto attendant
 
@@ -242,6 +243,33 @@ To **add a user** to the authorized users:
 For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
 
 ---
+
+## Extra functionality available through PowerShell cmdlets
+
+> [!CAUTION]
+> These configuration options are currently only available through PowerShell cmdlets and they don't appear in Teams admin center. If these options are configured through PowerShell, any changes to the Auto attendant through Teams admin center will erase these settings.
+
+### Nested Auto attendants and call queues
+
+Nested Auto attendants and Call queues (auto attendants and call queues that do not directly answer phone calls) no longer require a Resource Account and associated licensing.
+
+Existing configurations that use Resource Accounts will continue to function and remain fully supported. A combination of both methods can be used at the same time.
+
+For more information, see:
+
+|New-CsAutoAttendantCallableEntity  |
+|:---------------------------------------|
+| [-Type ConfigurationEndPoint](/powershell/module/teams/new-csautoattendantcallableentity#-Type)  |
+
+#### PowerShell Example
+
+##### Create a new callable entity to another Auto attendant or Call queue
+
+Create a new callable entity:
+
+````PowerShell
+New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -Type ConfigurationEndPoint
+````
 
 ## Resources for complex scenarios
 
