@@ -115,6 +115,10 @@ Once you create and configure a user account, you can sign into a phone. Dependi
 - [Sign in from another device](#sign-in-from-another-device).
 - [Sign in using the Teams admin center](#sign-in-using-the-teams-admin-center).
 
+### Resource Accounts Sign in Test
+
+Use this tool: [Teams phone sign in test](https://testconnectivity.microsoft.com/tests/TeamsPhoneDeviceSignIn/input) to test that your Teams phone common area resource account is configured for successful sign-on.
+
 ### Local sign-in
 
 To sign in locally with a username and password:
@@ -190,10 +194,6 @@ You can set up common area phones as hotline phones also known as PLAR (Private 
 1. Enter a contact or phone number to be autodialed.
 1. Enter the display name you want to show on the phone's home screen.
 1. Select **Save**.
-
-### Resource Accounts Sign in Test
-
-Use this tool: [Teams phone sign in test](https://testconnectivity.microsoft.com/tests/TeamsPhoneDeviceSignIn/input) to test that your Teams phone common area resource account is configured for successful sign-on.
 
 ## Next steps
 
