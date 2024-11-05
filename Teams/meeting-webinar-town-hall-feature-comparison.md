@@ -1,7 +1,7 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: bryanyce
-ms.date: 10/25/2024
+ms.date: 11/5/2024
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -52,6 +52,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Email communication for events](manage-email-communications.md)|![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
 |[External participants can give or request control](meeting-who-present-request-control.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
+|[Event chat](town-hall-chat.md)|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|Premium|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Hide attendee names](hide-attendee-names.md)|Premium|Premium|![Image of a x for no](media/x-for-no.png)|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|![Image of a x for no](media/x-for-no.png)|
