@@ -1,6 +1,5 @@
 ---
 title: Manage who can schedule webinars in Microsoft Teams
-
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -27,7 +26,7 @@ description: Learn how to set up webinars and manage who can schedule webinars f
 
 # Manage who can schedule webinars in Microsoft Teams
 
-**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
+**APPLIES TO:** ![Image of a x for no](media/x-for-no.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a x for no](media/x-for-no.png) Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
