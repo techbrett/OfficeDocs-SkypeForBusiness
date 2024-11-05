@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Premium licensing
-author: wlibebe
-ms.author: wlibebe
+ms.author: danismith
+author: DaniEASmith
 manager: pamgreen
 ms.reviewer: margidesai, spraveen
 ms.date: 03/26/2024
@@ -144,6 +144,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View how many users attended town halls that used a Teams Premium feature | | ✔️  |
 | View the number of town halls used a Teams Premium feature| | ✔️  |
 | View the number of town halls each user attended that used a Teams Premium feature.| | ✔️  |
+| Event chat for attendees| | ✔️  |
 
 <sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions aren't available to the attendees even if the organizer selects the languages before the town hall starts.
 <sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
@@ -332,7 +333,7 @@ The following table shows which Teams Premium features provide primary value to 
 | **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization</br>✔️ Prevent users from sharing content in external Teams meetings</br>✔️ Audio quality alerts</br>✔️ Video quality alerts</br>✔️Screen sharing quality alerts</br>✔️Automatic real time telemetry with 7 day retention</br>✔️Prevent users from sharing content when attending external Teams meetings |  |
 | **Advanced Virtual Appointments** | ✔️ Custom lobby room with branding, logos, and more</br> ✔️ SMS notifications | ✔️ On-demand and scheduled appointment functionality and queue views</br> ✔️ Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
 | **Advanced Webinars** | ✔️ Manage attendee view</br> ✔️ Reminder emails</br> ✔️ Wait lists and manual approval</br> ✔️ Limit registration date and time</br> ✔️ RTMP-In |  |
-| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics ✔️Pre-select 10 languages for attendee captions</br> ✔️Town hall attendee reactions |  | ✔️Real time monitoring of the attendee experience |
+| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics ✔️Pre-select 10 languages for attendee captions</br> ✔️Town hall attendee reactions ✔️Event chat|  | ✔️Real time monitoring of the attendee experience |
 | **Microsoft eCDN** |  | ✔️ Works with Teams view-only meetings, live events, and town halls</br> ✔️ Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
