@@ -44,7 +44,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 ## What's new for Call queues in the past six months
 
 - November 28
-  - [Callback](#step-5-callback) functionality now available through Teams Admin Center
+  - [Callback](#step-5-callback-1) functionality now available through Teams Admin Center
     
 - November 5
   - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
