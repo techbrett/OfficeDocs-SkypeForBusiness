@@ -380,24 +380,24 @@ Once you select your callback options, select the **Next** button at the bottom 
 
 ##### Calls become eligible after waiting 60 seconds
 
-Create a new call queue:
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
 ##### Calls become eligible for callback when there are more than 50 calls in queue
 
-Create a new call queue:
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
  "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -405,12 +405,12 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
 
 ##### Calls become eligible for callback when there are 2 times more calls than agents
 
-Create a new call queue:
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 2x calls to agents" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
  "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -418,12 +418,12 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
 
 ##### Calls become eligible for callback after waiting 60 seconds or when there are more than 50 calls in queue
 
-Create a new call queue:
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 60s or 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-Modify an existing call queue:
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
