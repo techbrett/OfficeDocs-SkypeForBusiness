@@ -3,6 +3,8 @@ items:
   href: teams-overview.md
 - name: Teams Premium overview
   href: enhanced-teams-experience.md
+- name: Set up Facilitator for AI notes
+  href: facilitator-teams.md
 - name: Get started
   items:
     - name: Deployment overview

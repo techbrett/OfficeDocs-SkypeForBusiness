@@ -74,9 +74,6 @@ The following list contains the prerequisites for users to be able to access AI 
 - Be a Microsoft Teams Public preview participant.
   - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 
-> [!NOTE]
-> The Facilitator agent is license-checked at the user level; however, if one user in the conversation has a *Microsoft 365 Copilot* license, all members of the conversation can view and benefit from Facilitator's note-taking capabilities.
-
 ## Turn on AI notes for chats and meetings
 
 As an admin, you control whether AI notes are available to your entire organization or to a certain group of users.
