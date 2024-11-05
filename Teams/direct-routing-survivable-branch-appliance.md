@@ -238,7 +238,7 @@ The following are known issues and considerations:
 
 - In SBA mode, the following user actions aren't supported:
     - switching their Teams client to another tenant
-    - making a call to an emergency number configured for dynamic emergency calling (E911)
+    - sharing location information during an emergency call (E911). Users can still make emergency call but location information will not be shared.
     - reaching other Teams users with reverse number lookup against Microsoft Entra ID Contacts. A dialed number will still be processed by SBA and routed over PSTN.
 
 
