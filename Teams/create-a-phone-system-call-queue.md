@@ -43,6 +43,9 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
+- November 28
+  - [Callback](#step-5-callback) functionality now available through Teams Admin Center
+    
 - November 5
   - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
 
@@ -689,7 +692,7 @@ For more information, see:
 
 Existing configurations that use Resource Accounts will continue to function and remain fully supported. A combination of both methods can be used at the same time.
 
-When call queue [Exception handling](#step-5-exception-handling-1) occurs, the `Voice app` destination for Overflow, Timeout, and No Agents can refer to an auto attendant or call queue directly instead of the Resource Account for that auto attendant or call queue.
+When call queue [Exception handling](#step-6-exception-handling-1) occurs, the `Voice app` destination for Overflow, Timeout, and No Agents can refer to an auto attendant or call queue directly instead of the Resource Account for that auto attendant or call queue.
 
 For more information, see the following documentation:
 
