@@ -1,10 +1,10 @@
 ---
-title: Manage event chat for town halls
+title: Manage event chat for Microsoft Teams town halls 
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: chbalaki
-ms.date: 11/4/2024
+ms.date: 11/5/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,15 +24,20 @@ ms.collection:
 description: Learn how to manage which organizers can use event chat for their Microsoft Teams town halls.
 ---
 
-# Manage event chat for town halls
+# Manage event chat for Microsoft Teams town halls
 
 **APPLIES TO:** ![Image of a x for no](media/x-for-no.png) Meetings ![Image of a x for no](media/x-for-no.png) Webinars ![Image of a checkmark for yes](media/circle-check.png) Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
+> [!NOTE]
+> This feature is currently in Public Preview.
+
 In Microsoft Teams town halls, only presenters, organizers, and co-organizers can use chat. If town hall organizers have a Teams Premium license, they can turn on **Event chat** in their **Meeting options** to allow attendees to a chat and interact with each other. Event chat is only available during the town hall. Organizers, presenters, and co-organizers can still chat separately.
 
 As an admin, you can manage whether town hall organizers with a Teams Premium license can turn on event chat for their attendees.
+
+For details on how your users use event chat for town halls, see [Chat in a town hall in Microsoft Teams](https://support.microsoft.com/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338).
 
 > [!NOTE]
 > If a town hall restarts, event chat isn't available in the new town hall.
@@ -64,29 +69,10 @@ To turn on event chat, use the following script:
 Set-CsTeamsEventsPolicy -Identity <policy name> -TownhallChatExperience Optimized
 ```
 
-## Limitations
+## Event chat eDiscovery and storage
 
-### Event Chat Limitations
-
-- If a town hall restarts, event chat isn't available in the new town hall.
-
-- Attendees can only send up to 200 characters of text and emojis into the Event Chat.  
-
-- All other message composition options that are available in a [Teams Meeting chat](manage-meeting-chat.md) like sending pictures, sending GIFs, attaching files, or formatting text aren't supported. Hyperlinks are only supported if they're fewer than 200 characters.  
-
-- Attendees can't use `@` to mention others, reply to other chat messages using the 'Reply' function, or 'React' to messages.
-
-- Event Chat is only available for attendees, presenters, and organizers during the town hall. Event chat isn't available before or after the town hall.
-
-- During the town hall, attendees can only see the last 200 messages.
-
-- Attendees sending chat messages might experience a 15-30 second latency from the presenters and organizers.
-
-## Event chat messaging
-
-Messages for event chat in town halls are only stored in the organizer's mailbox for up to 30 days.
-
-If you do a content search for the organizer, you can see all the messages that were sent in that event chat for up to 30 days after the town hall ends. However, if you place the organizer’s mailbox on legal hold, the mailbox continues to keep the event chat messages for longer.
+Messages for event chat in town halls are only stored in the organizer's mailbox for up to 30 days. During this time, if you do a content search for the organizer, you can see all the messages that were sent in that event chat.
+However, if you place the organizer’s mailbox on legal hold, the mailbox continues to keep the event chat messages for longer.
 
 When the organizer leaves the company anytime from when the event is scheduled to 30 days after the town hall ends, the following details apply:
 
@@ -99,6 +85,16 @@ If a town hall organizer leaves the company, you should reschedule the town hall
 You can't see which users viewed specific messages during the event. You also can't search for event chat messages in an attendee's mailbox.
 
 Learn more, see [Get started with Content search](/purview/ediscovery-content-search).
+
+## Limitations
+
+- If a town hall restarts, event chat isn't available in the new town hall.
+- Attendees can only send up to 200 characters of text and emojis into the Event Chat.  
+- All other message composition options that are available in a [Teams Meeting chat](manage-meeting-chat.md) like sending pictures, sending GIFs, attaching files, or formatting text aren't supported. Hyperlinks are only supported if they're fewer than 200 characters.  
+- Attendees can't use `@` to mention others, reply to other chat messages using the 'Reply' function, or 'React' to messages.
+- Event Chat is only available for attendees, presenters, and organizers during the town hall. Event chat isn't available before or after the town hall.
+- During the town hall, attendees can only see the last 200 messages.
+- Attendees sending chat messages might experience a 15-30 second latency from the presenters and organizers.
 
 ## Related articles
 
