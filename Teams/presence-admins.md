@@ -73,8 +73,8 @@ A user who isn't logged in to Teams on any device is **Offline**. Otherwise, the
 * On a computer, a user's presence becomes **Away** automatically if they're inactive for a few minutes or if the computer is locked; and it becomes Offline when the computer enters sleep mode.
 * On a mobile device, a user's presence becomes Away whenever the Teams app is in the background, and then becomes **Offline** after 24 hours of inactivity.
 
-If a user is logged in to Teams on two or more devices (e.g. on both a desktop computer and on a phone), then the one where they were active the most recently determines their presence. For example, if a user is logged in both on a computer and on a mobile device, and they're currently working on the computer, their presence will come from the computer. When they disconnect on the computer, their presence will then come from the status of the mobile device.
- 
+If a user is logged in to Teams on two or more devices (e.g. on both a desktop computer and on a phone), then the device where they were active most recently determines their presence. For example, if a user is logged in on both a computer and a mobile device, and they're currently working on the computer, their presence will come from the computer. When they disconnect on the computer, their presence will then come from the status of the mobile device.
+
 Call queues can use presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
 ## Manual status settings by users
