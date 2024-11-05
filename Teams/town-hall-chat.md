@@ -30,7 +30,7 @@ description: Learn how to manage which organizers can use event chat for their M
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-In Microsoft Teams town halls, only presenters, organizers, and co-organizers can use chat. If town hall organizers have a Teams Premium license, they can turn on **Event chat** in their **Meeting options** to allow attendees to a chat and interact with each other. Event Chat is only available during the town hall. Organizers, presenters, and co-organizers can still chat separately.
+In Microsoft Teams town halls, only presenters, organizers, and co-organizers can use chat. If town hall organizers have a Teams Premium license, they can turn on **Event chat** in their **Meeting options** to allow attendees to a chat and interact with each other. Event chat is only available during the town hall. Organizers, presenters, and co-organizers can still chat separately.
 
 As an admin, you can manage whether town hall organizers with a Teams Premium license can turn on event chat for their attendees.
 
@@ -84,11 +84,11 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -TownhallChatExperience Optimize
 
 ## Event chat messaging
 
-Messages for event chat in town halls are only stored in the organizer's mailbox, These messages only stay in the organizer’s mailbox for up to 30 days.
+Messages for event chat in town halls are only stored in the organizer's mailbox for up to 30 days.
 
 If you do a content search for the organizer, you can see all the messages that were sent in that event chat for up to 30 days after the town hall ends. However, if you place the organizer’s mailbox on legal hold, the mailbox continues to keep the event chat messages for longer.
 
-When the organizer leaves the company anytime from when the event is scheduled to 30 days after the town hall ends, the following information applies:
+When the organizer leaves the company anytime from when the event is scheduled to 30 days after the town hall ends, the following details apply:
 
 - Event chat might be unavailable during the town hall.
 - Chat might be available during the event, but might not get sent to the organizer’s mailbox.
