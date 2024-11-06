@@ -109,6 +109,7 @@ If you've been using live events for your organization, you might want to unders
 |AI generated captions|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |Attendee reporting|![Image of a checkmark for yes](media/circle-check.png)| ![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |Broadcast capacity|10k|10k|- 20k</br> *- 100k In development*|
+|Chat for attendees|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |Concurrent events|15|15|50|
 |Control when event invites are sent|![Image of a checkmark for yes](media/circle-check.png)|*In development*|*In development*|
 |Co-organizer capacity|N/A|10|10|
