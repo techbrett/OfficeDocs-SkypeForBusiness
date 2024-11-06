@@ -53,7 +53,11 @@ For more information about how users can integrate AI-generated into their Teams
 
 ## Security, Purview, and Privacy
 
-Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy. For more information about security and privacy in Microsoft 365 Copilot, see the following articles:
+Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy. 
+
+When you use Microsoft Purview for your security and compliance management, AI-generated notes are supported by new auditing events that surface in [Microsoft Purview Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language). To automatically retain or delete the notes, use a retention policy with the **Teams chat** location for AI-generated notes in chat, and a retention policy for OneDrive or SharePoint locations for AI-generated notes in meetings. Most of the time, these notes are saved to OneDrive but for channel meetings, they're saved in SharePoint. Cloud attachments aren't supported for AI-generated notes. Other Microsot Purview solutions either aren't applicable for AI-generated notes, or aren't yet supported. 
+
+For more information about security and privacy in Microsoft 365 Copilot, see the following articles:
 
 - [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy) for Microsoft 365 Copilot in your organization (work or school).
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
