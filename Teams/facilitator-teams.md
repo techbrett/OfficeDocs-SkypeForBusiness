@@ -19,10 +19,10 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn about how the AI-powered Facilitator agent in Microsoft Teams can take collaborative AI notes powered by Copilot.
+description: Learn about how Facilitator in Microsoft Teams can take collaborative AI-generated notes powered by Copilot.
 ---
 
-# Set up Facilitator in Microsoft Teams for collaborative AI notes
+# Set up Facilitator in Microsoft Teams for collaborative AI-generated notes
 
 > [!IMPORTANT]
 > This feature is currently in Teams Public preview.
@@ -38,7 +38,7 @@ Use Facilitator in peer-to-peer:
 
 Unlike an individual user's queries to Copilot in Teams, Facilitator displays Copilot's notes within the group's conversation. Users can focus on the conversation and let Copilot take care of the note-taking for everyone.
 
-Facilitator also continuously updates as the conversation progresses. For example, the AI notes display the options being considered by the team and then replaces those options with a single choice once the group decides. Now, that's intelligent collaboration right in Teams.
+Facilitator also continuously updates as the conversation progresses. For example, the AI-generated notes display the options being considered by the team and then replaces those options with a single choice once the group decides. Now, that's intelligent collaboration right in Teams.
 
 > [!IMPORTANT]
 > Facilitator's notes are communally shared between collaborators.
@@ -47,9 +47,9 @@ Facilitator also continuously updates as the conversation progresses. For exampl
 >
 > Users are shown a notice when their queries are private or shared with others.
 
-For more information about how users can integrate AI notes into their Teams chats, see [Invite Copilot as a chat participant in Microsoft Teams](https://support.microsoft.com/topic/d03e9237-ed4d-4695-8732-73a396e8b21f).
+For more information about how users can integrate AI-generated notes into their Teams chats, see [Invite Copilot as a chat participant in Microsoft Teams](https://support.microsoft.com/topic/d03e9237-ed4d-4695-8732-73a396e8b21f).
 
-For more information about how users can integrate Notes into their Teams meetings, see [Add Team Copilot to a Microsoft Teams meeting](https://support.microsoft.com/topic/b877d958-6b62-4296-9ceb-e8c1f726f51d).
+For more information about how users can integrate AI-generated into their Teams meetings, see [Add Team Copilot to a Microsoft Teams meeting](https://support.microsoft.com/topic/b877d958-6b62-4296-9ceb-e8c1f726f51d).
 
 ## Security, Purview, and Privacy
 
@@ -61,11 +61,11 @@ Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive a
 
 ### Facilitator limitations
 
-Currently, AI notes aren't supported in external chats.
+Currently, AI-generated notes aren't supported in external chats.
 
 ## Prerequisites and licensing
 
-The following list contains the prerequisites for users to be able to access AI notes in Teams chats and meetings:
+The following list contains the prerequisites for users to be able to access AI-generated notes in Teams chats and meetings:
 
 - An eligible *Microsoft 365* base license.
   - For the list of eligible base licenses, see [Understand licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
@@ -74,11 +74,11 @@ The following list contains the prerequisites for users to be able to access AI 
 - Be a Microsoft Teams Public preview participant.
   - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 
-## Turn on AI notes for chats and meetings
+## Turn on AI-generated notes for chats and meetings
 
-As an admin, you control whether AI notes are available to your entire organization or to a certain group of users.
+As an admin, you control whether AI-generated notes are available to your entire organization or to a certain group of users.
 
-AI notes are blocked to users by default. To turn on AI notes for users, complete the following steps:
+AI-generated notes are blocked to users by default. To turn on AI-generated notes for users, complete the following steps:
 
 ### 1. Turn on Facilitator in the Teams admin center
 
@@ -88,7 +88,7 @@ AI notes are blocked to users by default. To turn on AI notes for users, complet
 1. Select **Facilitator** from the app list.
 1. In the actions menu, select **Allow**.
 1. In the **Allow app?** pop-up, select the **Allow** button.
-    1. AI notes are turned on when **Facilitator** is turned on.
+    1. AI-generated notes are turned on when **Facilitator** is turned on.
 
 For more information about managing apps in Teams, see [Manage apps](manage-apps.md).
 
@@ -100,9 +100,9 @@ Follow the instructions at [Use app permission policies to control user access t
 
 You can then assign the policy to your entire tenant or to a select group of users. Follow the instructions at [Add or modify app availability for users](/microsoftteams/app-centric-management#add-or-modify-app-availability-for-users) to assign the policy to users using app-centric management.
 
-### 3. Turn on Loop experiences in Teams for meeting AI notes
+### 3. Turn on Loop experiences in Teams for meeting AI-generated notes
 
-Loop experiences in Teams need to be turned on in order for Copilot to generate notes in Teams meetings.
+Loop experiences in Teams need to be turned on in order for AI to generate notes in Teams meetings.
 
 To turn on Loop experiences in Teams, follow the instructions at [Settings management for Loop functionality in Teams](/microsoft-365/loop/loop-components-configuration#settings-management-for-loop-functionality-in-teams).
 
