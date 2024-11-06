@@ -27,7 +27,7 @@ Microsoft Teams Rooms on Windows shares authentication component with Teams desk
   
 However, Teams Rooms on Windows have some key differences compared to an end user personal computer where Teams desktop runs. These differences may impact authentication configurations for Teams rooms.
 
-The key differences are as below:  
+## Key differences from from the Teams Desktop application 
 
 1. Microsoft Teams Rooms resource accounts are centrally managed by IT administrators in an organization. End users don't have ability to sign in / out of Teams Rooms devices.
 1. Microsoft Teams Rooms use Microsoft Entra accounts that are configured with resources mailbox in Microsoft Exchange. 
@@ -36,4 +36,14 @@ The key differences are as below:  
 
 It’s important to note that Microsoft Teams Rooms resource accounts shouldn't be configured to use user interactive multifactor authentication (MFA), smart card authentication, or client certificate-based authentication.
 
+## Conditional Access Considerations
+
 Teams Rooms resource account access to Microsoft 365 service can be limited using Conditional Access policies. Since Windows has no knowledge of resource account that is used by Teams room application, to apply device-level conditional access policies, you must enroll Teams Rooms on Windows devices with Microsoft Intune. Learn more about [Enrolling Microsoft Teams Rooms on Windows devices with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986). When the device is enrolled in Intune, the Teams Rooms application uses Windows enrolled account using Web access management (WAM) to send device compliance status for conditional access evaluation. To learn more about Conditional Access and Intune compliance policies, see [Conditional Access and Intune compliance for Microsoft Teams Rooms](/microsoftteams/rooms/conditional-access-and-compliance-for-devices) and [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/microsoftteams/rooms/supported-ca-and-compliance-policies?tabs=mtr-w)
+
+## Teams Legacy Authorization
+
+Teams upgrade configuration policies offer a setting called **BlockLegacyAuthorization** which when enabled prevents Teams Rooms on Windows from connecting to Teams services. To learn more about this policy see, [Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration) or run Get-CsTeamsUpgradeConfiguration to check if **BlockLegacyAuthorization** is enabled in your tenant.
+
+   ``` Powershell
+   Get-CsTeamsUpgradeConfiguration | fl BlockLegacyAuthorization
+   ```
