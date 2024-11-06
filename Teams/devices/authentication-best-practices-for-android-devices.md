@@ -97,7 +97,7 @@ Use filters for devices to identify your shared devices and enable policies in t
 
 ## Teams Legacy Authorization
 
-Teams upgrade configuration policies offer a setting called **BlockLegacyAuthorization** which when enabled will prevent Teams Rooms on Android and Teams panels from connecting to Teams services. To learn more about this policy see, [Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps) or run the PowerShell cmdlet below to check if **BlockLegacyAuthorization** is enabled in your tenant.
+Teams upgrade configuration policies offer a setting called **BlockLegacyAuthorization** which when enabled prevents Teams Rooms on Android and Teams panels from connecting to Teams services. To learn more about this policy see, [Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration) or run Get-CsTeamsUpgradeConfiguration to check if **BlockLegacyAuthorization** is enabled in your tenant.
 
    ``` Powershell
    Get-CsTeamsUpgradeConfiguration | fl BlockLegacyAuthorization
