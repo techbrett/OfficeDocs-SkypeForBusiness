@@ -26,7 +26,7 @@ This article describes what's new in Direct Routing. Check back often for update
 ## Network Effectiveness Ratio (NER) metric update
 
 To improve the experience with visibility of possible issues affecting your Direct Routing reliability, we are updating the formula to calculate the metric for Network Effectiveness Ratio (NER). Starting from November 11, 2024, you might notice a slight change in the reported NER for your trunks in the Teams Admin Center (TAC).
-If you notice a drop in the NER value, you can identify the cause of a call failure by looking at specific response codes. For a list of the most common errors and suggested actions to resolve them, see [Microsoft and SIP response codes](https://learn.microsoft.com/microsoftteams/troubleshoot/phone-system/direct-routing/microsoft-sip-response-codes).
+If you notice a drop in the NER value, you can identify the cause of a call failure by looking at specific response codes. For a list of the most common errors and suggested actions to resolve them, see [Microsoft and SIP response codes](/microsoftteams/troubleshoot/phone-system/direct-routing/microsoft-sip-response-codes).
 
 ## New Survivable Branch Appliance version (v2024.8.15.1) is available
 New Survivable Branch Appliance (SBA) for Direct Routing version is available starting September 23, 2024. 
