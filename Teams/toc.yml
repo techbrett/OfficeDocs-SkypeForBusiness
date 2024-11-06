@@ -674,6 +674,10 @@ items:
           items: 
             - name: Manage who can schedule town halls
               href: set-up-town-halls.md
+            - name: Manage event chat for town halls
+              href: town-hall-chat.md
+            - name: Require verification checks
+              href: join-verification-check.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
             - name: Manage who can schedule webinars
@@ -704,8 +708,6 @@ items:
           items: 
             - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
-            - name: Require verification checks
-              href: join-verification-check.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
