@@ -23,7 +23,8 @@ ms.collection:
 
 This article describes what's new in Direct Routing. Check back often for updates.
 
-##Network Effectiveness Ratio (NER) metric update
+## Network Effectiveness Ratio (NER) metric update
+
 We are working to improve the experience and visibility of possible issues affecting your Direct Routing reliability. As a result, we are updating Network Effectiveness Ratio (NER) metric calculation formula. Starting from November 11, 2024, you might notice a slight change in the reported NER for your trunks in the Teams Admin Center (TAC).
 If you notice a drop in the NER value, you can identify the cause of a call failure by looking at specific response codes. For a list of the most common errors and suggested actions to resolve them, please see [Microsoft and SIP response codes](https://learn.microsoft.com/en-us/microsoftteams/troubleshoot/phone-system/direct-routing/microsoft-sip-response-codes).
 
