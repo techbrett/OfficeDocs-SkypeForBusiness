@@ -70,7 +70,7 @@ Common Name of the CA: DigiCert Global Root G2
 Thumbprint (SHA1): df3c24f9bfd666761b268073fe06d1cc8d4f82a4
 The new CA certificate can be downloaded directly from DigiCert: https://cacerts.digicert.com/DigiCertGlobalRootG2.crt
 
-For more details, refer to the technical guidance at [Azure Certificate Authority details](https://docs.microsoft.com/en-us/microsoft-365/compliance/encryption-office-365-tls-certificates-changes?view=o365-worldwide)
+For more details, refer to the technical guidance at [Azure Certificate Authority details](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes?view=o365-worldwide).
 To test and confirm your SBCs certificate configuration prior to the change, Microsoft has prepared a testing endpoint that can be used to verify that SBC appliances trust certificates issued from the new root CA (DigiCert Global Root G2). If your SBC can establish a TLS connection to this endpoint, then your connectivity to Teams services shouldn't be affected by the change. These endpoints should be used only for SIP OPTIONS ping messages and not for voice traffic. They aren't production endpoints and aren't backed by redundant configuration. This means they'll experience downtime that lasts for several hours—expect about 95% availability.
 
 Test endpoint FQDN for GCCH: x.sip.pstnhub.infra.gov.teams.microsoft.us
