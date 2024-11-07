@@ -44,11 +44,11 @@ To set up a line key for speed dial, follow these steps:
 
 2. **Assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
 
-  1. When you first start to assign line keys you will see:
+  1. When you first start to assign line keys, you see:
 
     :::image type="content" source="./media/nontouch-line-keys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys." lightbox="./media/nontouch-line-keys-empty.jpg":::
 
-  2. Find an available line key for you to for you to use, and select **Assign line key**.
+  2. Find an available line key for you to use, and select **Assign line key**.
   
     :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of assigned line keys on a Teams phone." lightbox="./media/nontouch-line-keys-assigned.jpg":::
   
@@ -56,7 +56,7 @@ To set up a line key for speed dial, follow these steps:
 
     :::image type="content" source="./media/nontouch-line-keys-help.jpg" alt-text="Screenshot of how to long press a line key to set it up." lightbox="./media/nontouch-line-keys-help.jpg":::
 
-  4. After you have assigned a contact or phone number to the line key you will see:
+  4. After you have assigned a contact or phone number to the line key, you'll see:
   
     :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of how to long press a line key to set it up." lightbox="./media/nontouch-line-keys-assigned.jpg":::
 
@@ -65,8 +65,6 @@ To set up a line key for speed dial, follow these steps:
     - **Reassign line key:** To modify the contact assigned to this line key.
     - **Manage line key:** Access more management options.
 1. **To place a call:** Press or select on the key to place a call to the user or number assigned to that line key.
-
-
 
 ## Frequently Asked Questions
 
