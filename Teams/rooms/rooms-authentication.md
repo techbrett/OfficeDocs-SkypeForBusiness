@@ -27,7 +27,7 @@ Microsoft Teams Rooms on Windows shares authentication component with Teams desk
   
 However, Teams Rooms on Windows have some key differences compared to an end user personal computer where Teams desktop runs. These differences may impact authentication configurations for Teams rooms.
 
-## Key differences from from the Teams Desktop application 
+## Key differences from the Teams Desktop application 
 
 1. Microsoft Teams Rooms resource accounts are centrally managed by IT administrators in an organization. End users don't have ability to sign in / out of Teams Rooms devices.
 1. Microsoft Teams Rooms use Microsoft Entra accounts that are configured with resources mailbox in Microsoft Exchange. 
