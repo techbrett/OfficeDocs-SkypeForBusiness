@@ -1643,6 +1643,8 @@ items:
               href: phones/manage-teams-phones.md
             - name: Update management
               href: phones/remote-update-teams-phones.md
+            - name: Line keys for speed dialing
+              href: phones/line-keys.md
         - name: Troubleshooting and known issues
           href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
           
