@@ -31,19 +31,19 @@ This article provides you with guidance on setting up and managing line keys (or
 
 A phone line key is one of the keys used to designate individual lines on a phone. Depending on the model and manufacturer, phones typically have between 2 and 12 phone line keys.
 
-## Line keys
-
 ## Steps to use line keys to set up speed dial
 
-> [!IMPORTANT]
-> With this update, you can use line keys to set up speed dial for contacts and phone numbers only.
+
 
 To set up a line key for speed dial, follow these steps:
 
 1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709. You can see the version in the Teams admin center or on the device under **Settings** > **About** or **Settings** > **Teams settings** > **About**.
 
+> [!IMPORTANT]
+> With this update, you can use line keys to set up speed dial for contacts and phone numbers only.
+
 > [!NOTE]
->With this update, line keys are available for nontouch Teams phone and Teams phones with sidecars.
+> With this update, line keys are available for nontouch Teams phone and Teams phones with sidecars.
 
 2. **To assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
 
