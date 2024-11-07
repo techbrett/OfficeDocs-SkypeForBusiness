@@ -2,8 +2,8 @@
 title: "Health Dashboard for Direct Routing"
 ms.reviewer: nmurav
 ms.date: 05/24/2019
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: conceptual

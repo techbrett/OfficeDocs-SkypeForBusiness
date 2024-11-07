@@ -1,9 +1,9 @@
 ---
 title: "Session Border Controllers certified for Direct Routing"
-ms.author: crowe
+ms.author: scottfrancis
 ms.reviewer: FilippSe
 ms.date: 06/12/2024
-author: CarolynRowe
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: article

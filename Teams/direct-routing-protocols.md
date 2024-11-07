@@ -1,7 +1,7 @@
 ---
 title: "Teams Phone Direct Routing: Definitions and RFC standards"
-author: CarolynRowe
-ms.author: crowe
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 ms.date: 12/16/2019
 ms.topic: article
