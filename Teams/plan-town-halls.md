@@ -109,6 +109,7 @@ If you've been using live events for your organization, you might want to unders
 |AI generated captions|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |Attendee reporting|![Image of a checkmark for yes](media/circle-check.png)| ![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |Broadcast capacity|10k|10k|- 20k</br> *- 100k In development*|
+|Chat for attendees|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |Concurrent events|15|15|50|
 |Control when event invites are sent|![Image of a checkmark for yes](media/circle-check.png)|*In development*|*In development*|
 |Co-organizer capacity|N/A|10|10|
@@ -168,11 +169,12 @@ Teams admins and organizers have different policies and settings to control the 
 |:------|:-----|:---------|
 |[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can manage the availability and use of audio and video for presenters and organizers.| Only presenters and organizers can use their audio and video. Attendees can't share their audio or video, but interact through Q&A.|
-|[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers can read and write messages to each other during town halls.|Can chat with presenters and co-organizers. Attendees don't use chat during town halls.|
+|[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers can read and write messages to each other during town halls.|Can chat with presenters and co-organizers. Attendees don't use this chat during town halls. To learn how attendees can use chat during town halls, see [Manage event chat for Microsoft Teams town halls](town-hall-chat.md).|
 |[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode, who can request control, and can set a default for who can present.|Can control who can present among presenters, organizers, and co-organizers. Attendees can't share content in town halls.|
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers. Admins can also turn off the Microsoft eCDN for town hall organizers with a Premium license and switch to a partner eCDN provider.| No control.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their town halls.|Can edit email templates before they're sent out.|
 |[External presenters](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the town hall without waiting in the lobby.|
+|[Event chat (Teams Premium)](town-hall-chat.md)|Can manage whether town hall organizers with a Teams Premium license can turn on event chat for their attendees.|Can use chat during town halls if the organizer's settings and admin's policy allows it.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
 |[Limit presenter role permissions](presenter-role-reduction.md) |Can limit presenter role permissions for the tenant. |No control.|
 |[Live translated captions](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated captions for their town halls. |Organizers can select six languages, or ten if they have a Premium license for attendees to use when translating captions during the town hall.|
