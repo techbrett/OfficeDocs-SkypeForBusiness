@@ -40,9 +40,9 @@ A phone line key is one of the keys used to designate individual lines on a phon
 
 To set up a line key for speed dial, follow these steps:
 
-1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709 by going to 
+1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709. You can see the version in the Teams admin center or on the device under **Settings** > **About** or **Settings** > **Teams settings** > **About**.
 
-2. **TO assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
+2. **To assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
 
 - When you first start to assign line keys, you see:
 
@@ -81,7 +81,7 @@ To set up a line key for speed dial, follow these steps:
 **Question:** Does this change the existing functionality of sidecars?  
 **Answer:** Before the Teams application update to 1449/1.0.94.2024101709, users were able to add contacts to sidecars if the account was marked as a Favorite, speed dial, or assigned as a Boss. Additionally, users had the option to pin groups to sidecars. With this update, contacts on sidecars can only be added by configuring them as line keys on the sidecar. Saved configurations continue to appear on the sidecar with this app. Any further edits will only happen through line key management as described above. We'll make changes to streamline this experience on sidecars in the future.
 
-### Related Links
+### Related articles
 
 - [Microsoft Certified Teams phones](../devices/teams-phones-certified-hardware.md)
 - [Phones for Microsoft Teams](phones-for-teams.md)
