@@ -233,12 +233,12 @@ The following are known issues and considerations:
 
 - In SBA mode
     - the SBA supports expired client authentication tokens for up to 7 days from the token expiration.
-    - the Teams client will not be able to connect to the SBA if the Teams client is triggered to negotiate a new token. For example, if a user quits and restarts their Teams client or restarts their device.
-    - the Teams client will not be able to validate itself with an SBA that it has not previously connected with, in the last 24 hours.
+    - the Teams client won't be able to connect to the SBA if the Teams client is triggered to negotiate a new token. For example, if a user quits and restarts their Teams client or restarts their device.
+    - the Teams client won't be able to validate itself with an SBA that it hasn't previously connected with, in the last 24 hours.
 
 - In SBA mode, the following user actions aren't supported:
     - switching their Teams client to another tenant
-    - making a call to an emergency number configured for dynamic emergency calling (E911)
+    - sharing location information during an emergency call (E911). Users can still make emergency call but location information won't be shared.
     - reaching other Teams users with reverse number lookup against Microsoft Entra ID Contacts. A dialed number will still be processed by SBA and routed over PSTN.
 
 
