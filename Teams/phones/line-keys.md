@@ -42,17 +42,31 @@ To set up a line key for speed dial, follow these steps:
 
 1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709 by going to 
 
-:::image type="content" source="./media/nontouch-linekeys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys." lightbox="./media/nontouch-linekeys-empty.jpg":::
-
 2. **Assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
 
-:::image type="content" source="./media/nontouch-linekeys-assigned.jpg" alt-text="Screenshot of assigned line keys on a Teams phone." lightbox="./media/nontouch-linekeys-assigned.jpg":::
+  1. When you first start to assign line keys you will see:
+
+    :::image type="content" source="./media/nontouch-line-keys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys." lightbox="./media/nontouch-line-keys-empty.jpg":::
+
+  2. Find an available line key for you to for you to use, and select **Assign line key**.
+  
+    :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of assigned line keys on a Teams phone." lightbox="./media/nontouch-line-keys-assigned.jpg":::
+  
+  3. Press and hold on a line key to assign a contact or phone number:
+
+    :::image type="content" source="./media/nontouch-line-keys-help.jpg" alt-text="Screenshot of how to long press a line key to set it up." lightbox="./media/nontouch-line-keys-help.jpg":::
+
+  4. After you have assigned a contact or phone number to the line key you will see:
+  
+    :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of how to long press a line key to set it up." lightbox="./media/nontouch-line-keys-assigned.jpg":::
 
 3. **Modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
     - **Unassign line key:** To remove an assigned line key.
     - **Reassign line key:** To modify the contact assigned to this line key.
     - **Manage line key:** Access more management options.
-1. **Place a call:** Press or select on the key to place a call to the user or number assigned to that line key.
+1. **To place a call:** Press or select on the key to place a call to the user or number assigned to that line key.
+
+
 
 ## Frequently Asked Questions
 
