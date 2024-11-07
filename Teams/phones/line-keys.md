@@ -24,12 +24,12 @@ description: Learn how to set up and manage line or speed dial keys on Microsoft
 
 # Line or speed dial keys on Microsoft Teams certified phones
 
-This article provides you with guidance on setting up and managing line keys ( or speed dial keys) on Microsoft Teams certified phones. This feature allows your users to set up use a phone line key to set up speed dial for your contacts and phone numbers for quick access using buttons on nontouch devices and sidecars.
+This article provides you with guidance on setting up and managing line keys (or speed dial keys) on Microsoft Teams certified phones. This feature allows your users to set up use a phone line key to set up speed dial for your contacts and phone numbers for quick access using buttons on nontouch devices and sidecars.
 
 > [!IMPORTANT]
 > This feature is only available on non touch Teams phones and not on touch-enabled Teams phones.
 
-A phone line key is one of the keys used to designate individual lines on a phone. Depending on the model and manufacturer, phones typically have between two and 12 phone line keys.
+A phone line key is one of the keys used to designate individual lines on a phone. Depending on the model and manufacturer, phones typically have between 2 and 12 phone line keys.
 
 ## Line keys
 
@@ -40,7 +40,7 @@ A phone line key is one of the keys used to designate individual lines on a phon
 
 To set up a line key for speed dial, follow these steps:
 
-1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you'll notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you are running Android version 1449/1.0.94.2024101709 by going to 
+1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709 by going to 
 
 :::image type="content" source="./media/nontouch-linekeys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys." lightbox="./media/nontouch-linekeys-empty.jpg":::
 
@@ -63,7 +63,7 @@ To set up a line key for speed dial, follow these steps:
 **Answer:** No, currently configuration support is only through the device.
 
 **Question:** What other functions can I perform using line keys?  
-**Answer:** With this update, you can use line keys for quick access to speed dial only. In the future, we'll support line keys for call controls and offer enhancements for shared line configuration.
+**Answer:** With this update, you can use line keys for quick access to speed dial only. In the future, we support line keys for call controls and offer enhancements for shared line configuration.
 
 **Question:** Does this change the existing functionality of sidecars?  
 **Answer:** Before the Teams application update to 1449/1.0.94.2024101709, users were able to add contacts to sidecars if the account was marked as a Favorite, speed dial, or assigned as a Boss. Additionally, users had the option to pin groups to sidecars. With this update, contacts on sidecars can only be added by configuring them as line keys on the sidecar. Saved configurations continue to appear on the sidecar with this app. Any further edits will only happen through line key management as described above. We'll make changes to streamline this experience on sidecars in the future.
