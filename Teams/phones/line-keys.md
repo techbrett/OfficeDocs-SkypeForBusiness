@@ -49,19 +49,19 @@ To set up a line key for speed dial, follow these steps:
 
 - When you first start to assign line keys, you see:
 
-:::image type="content" source="./media/nontouch-line-keys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys." lightbox="./media/nontouch-line-keys-empty.jpg":::
+  :::image type="content" source="./media/nontouch-line-keys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys." lightbox="./media/nontouch-line-keys-empty.jpg":::
 
 - Find an available line key for you to use, and select **Assign line key**.
   
-:::image type="content" source="./media/nontouch-line-keys-assign.jpg" alt-text="Screenshot of an available line key on a Teams phone." lightbox="./media/nontouch-line-keys-assign.jpg":::
+  :::image type="content" source="./media/nontouch-line-keys-assign.jpg" alt-text="Screenshot of an available line key on a Teams phone." lightbox="./media/nontouch-line-keys-assign.jpg":::
   
 - Press and hold on a line key to assign a contact or phone number:
 
-:::image type="content" source="./media/nontouch-line-keys-help.jpg" alt-text="Screenshot of how to long press a line key to set it up." lightbox="./media/nontouch-line-keys-help.jpg":::
+  :::image type="content" source="./media/nontouch-line-keys-help.jpg" alt-text="Screenshot of how to long press a line key to set it up." lightbox="./media/nontouch-line-keys-help.jpg":::
 
 - After you assign a contact or phone number to the line key, you'll see:
   
-:::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of how to long press a line key that is assigned." lightbox="./media/nontouch-line-keys-assigned.jpg":::
+  :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of how to long press a line key that is assigned." lightbox="./media/nontouch-line-keys-assigned.jpg":::
 
 3. **To modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
     - **Unassign line key:** - Use this setting to remove an assigned line key.
