@@ -52,7 +52,7 @@ To manage who can schedule town halls through the Teams admin center, use the fo
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
 5. Toggle the **Town halls** setting **On** or **Off**.
-6. Select **Save**
+6. Select **Save**.
 
 ### Manage who can schedule town halls through PowerShell
 
