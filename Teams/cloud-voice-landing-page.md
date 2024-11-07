@@ -1,7 +1,7 @@
 ---
 title: Plan your voice solution in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 ms.date: 08/03/2023
 ms.topic: article
@@ -15,7 +15,7 @@ ms.collection:
   - m365solution-scenario
   - highpri
   - Tier1
-ms.reviewer: crowe
+ms.reviewer: scottfrancis
 f1.keywords:
 - CSH
 ms.custom: 
