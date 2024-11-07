@@ -39,7 +39,7 @@ To set up a line key for speed dial, follow these steps:
 
     You can see the version in the Teams admin center:
 
-    1. Go to **Team devices** > **Phones** > then select the phone you want to look at.
+    1. Go to **Teams devices** > **Phones** > then select the phone you want to look at.
     2. Then in the table under **Software type** look for **Teams** and in the **Current version** column you'll see the version.
 
     You can also see the versioning information on the Teams phone itself by going to the **Profile** icon > **Settings** > **About**.
