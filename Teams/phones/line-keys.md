@@ -81,12 +81,15 @@ You can also see the versioning information on the Teams phone itself by going t
 **Answer:**  Support for touch Teams phone is coming soon. Check the public roadmap for timelines, see [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=In%20development%2CLaunched%2CRolling%20out%2CMicrosoft%20Teams).
 
 **Question:**  Can line keys be configured on the Teams Admin Center with this update?  
+
 **Answer:**  No, currently configuration support is only on the Teams phone.
 
 **Question:**  What other functions can I perform using line keys?  
+
 **Answer:**  With this update, you can use line keys for quick access to speed dial only. In the future, we support line keys for call controls and offer enhancements for shared line configuration.
 
 **Question:**  Does this change the existing functionality of sidecars?  
+
 **Answer:**  Before the Teams application update to 1449/1.0.94.2024101709, users were able to add contacts to sidecars if the account was marked as a Favorite, speed dial, or assigned as a Boss. Additionally, users had the option to pin groups to sidecars. With this update, contacts on sidecars can only be added by configuring them as line keys on the sidecar. Saved configurations continue to appear on the sidecar with this app. Any further changes will only happen through line key management. We'll make changes to streamline this experience on sidecars in the future.
 
 ### Related articles
