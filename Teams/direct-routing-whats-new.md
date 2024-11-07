@@ -1,7 +1,7 @@
 ---
 title: What's New Direct Routing
 ms.reviewer: teddygyabaah
-ms.date: 09/22/2023
+ms.date: 11/07/2024
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
