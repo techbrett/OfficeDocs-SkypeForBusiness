@@ -42,11 +42,11 @@ To set up a line key for speed dial, follow these steps:
 
 1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you'll notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you are running Android version 1449/1.0.94.2024101709 by going to 
 
-:::image type="content" source="/media/nontouch-linekeys-empty.jpg" alt-text="Screenshot of Inventory rooms tab." lightbox="/media/nontouch-linekeys-empty.jpg":::
+:::image type="content" source="./media/nontouch-linekeys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys." lightbox="./media/nontouch-linekeys-empty.jpg":::
 
 2. **Assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
 
-:::image type="content" source="/media/nontouch-linekeys-assigned.jpg" alt-text="Screenshot of Inventory rooms tab." lightbox="/media/nontouch-linekeys-assigned.jpg":::
+:::image type="content" source="./media/nontouch-linekeys-assigned.jpg" alt-text="Screenshot of assigned line keys on a Teams phone." lightbox="./media/nontouch-linekeys-assigned.jpg":::
 
 3. **Modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
     - **Unassign line key:** To remove an assigned line key.
