@@ -42,6 +42,9 @@ To set up a line key for speed dial, follow these steps:
 
 1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709. You can see the version in the Teams admin center or on the device under **Settings** > **About** or **Settings** > **Teams settings** > **About**.
 
+> [!NOTE]
+>With this update, line keys are available for nontouch Teams phone and Teams phones with sidecars.
+
 2. **To assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including a PSTN contact, or add a new one.
 
 - When you first start to assign line keys, you see:
@@ -50,13 +53,13 @@ To set up a line key for speed dial, follow these steps:
 
 - Find an available line key for you to use, and select **Assign line key**.
   
-:::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of assigned line keys on a Teams phone." lightbox="./media/nontouch-line-keys-assigned.jpg":::
+:::image type="content" source="./media/nontouch-line-keys-assign.jpg" alt-text="Screenshot of an available line key on a Teams phone." lightbox="./media/nontouch-line-keys-assign.jpg":::
   
 - Press and hold on a line key to assign a contact or phone number:
 
 :::image type="content" source="./media/nontouch-line-keys-help.jpg" alt-text="Screenshot of how to long press a line key to set it up." lightbox="./media/nontouch-line-keys-help.jpg":::
 
-- After you have assigned a contact or phone number to the line key, you'll see:
+- After you assign a contact or phone number to the line key, you'll see:
   
 :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of how to long press a line key that is assigned." lightbox="./media/nontouch-line-keys-assigned.jpg":::
 
@@ -69,17 +72,17 @@ To set up a line key for speed dial, follow these steps:
 
 ## Frequently Asked Questions
 
-**Question:** When will line keys be supported on touch phone devices?  
-**Answer:** Support for touch phone devices is coming soon. Check the public roadmap for timelines. With this application update, line keys are available for nontouch devices and devices with sidecars.
+**Question:** When will line keys be supported on touch Teams phones?  
+**Answer:** Support for touch Teams phone is coming soon. Check the public roadmap for timelines, see[Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=In%20development%2CLaunched%2CRolling%20out%2CMicrosoft%20Teams).
 
 **Question:** Can line keys be configured on the Teams Admin Center with this update?  
-**Answer:** No, currently configuration support is only through the device.
+**Answer:** No, currently configuration support is only on the Teams phone.
 
 **Question:** What other functions can I perform using line keys?  
 **Answer:** With this update, you can use line keys for quick access to speed dial only. In the future, we support line keys for call controls and offer enhancements for shared line configuration.
 
 **Question:** Does this change the existing functionality of sidecars?  
-**Answer:** Before the Teams application update to 1449/1.0.94.2024101709, users were able to add contacts to sidecars if the account was marked as a Favorite, speed dial, or assigned as a Boss. Additionally, users had the option to pin groups to sidecars. With this update, contacts on sidecars can only be added by configuring them as line keys on the sidecar. Saved configurations continue to appear on the sidecar with this app. Any further edits will only happen through line key management as described above. We'll make changes to streamline this experience on sidecars in the future.
+**Answer:** Before the Teams application update to 1449/1.0.94.2024101709, users were able to add contacts to sidecars if the account was marked as a Favorite, speed dial, or assigned as a Boss. Additionally, users had the option to pin groups to sidecars. With this update, contacts on sidecars can only be added by configuring them as line keys on the sidecar. Saved configurations continue to appear on the sidecar with this app. Any further changes will only happen through line key management. We'll make changes to streamline this experience on sidecars in the future.
 
 ### Related articles
 
