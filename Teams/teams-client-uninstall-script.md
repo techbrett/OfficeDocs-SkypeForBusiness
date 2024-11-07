@@ -14,7 +14,7 @@ ms.reviewer: asgupta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Documenting a downloadable uninstall script for the classic Teams client which allows you to manually shut off and remove the classic Teams client after moving to the new Teams client on non-VDI devices.
+description: Documenting for a downloadable uninstall script for the classic Teams client which allows you to manually shut off and remove the classic Teams client after moving to the new Teams client on non-VDI devices.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
