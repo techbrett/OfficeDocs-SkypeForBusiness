@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 
 # Uninstall the classic Teams client using a script
 
-Microsoft has an [uninstallation script](https://download.microsoft.com/download/9/2/e/92e3b1f4-4c7e-4c93-9c8e-3df82a369333/UninstallClassicTeams.ps1) designed to uninstall the classic Teams client from all user profiles found on devices in your organization. This applies to all devices apart from VDI. If the classic Teams client is running for any user on the machine at the time the script is run, this script also ends the existing classic Teams running instance.
+Microsoft has an [uninstallation script](https://download.microsoft.com/download/9/2/e/92e3b1f4-4c7e-4c93-9c8e-3df82a369333/UninstallClassicTeams.ps1) designed to uninstall the classic Teams client from all user profiles found on devices in your organization. This script can be run on all devices apart from Virtualized Desktop Infrastructure (VDI). If the classic Teams client is running for any user on the machine at the time the script is run, this script also ends the existing classic Teams running instance.
 
 ## Using the script
 
