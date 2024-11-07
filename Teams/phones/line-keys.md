@@ -88,4 +88,3 @@ To set up a line key for speed dial, follow these steps:
 
 - [Microsoft Certified Teams phones](../devices/teams-phones-certified-hardware.md)
 - [Phones for Microsoft Teams](phones-for-teams.md)
-- [Microsoft Teams Phone Settings](/microsoftteams/phones-settings)
