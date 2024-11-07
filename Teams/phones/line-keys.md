@@ -1,5 +1,5 @@
 ---
-title: Set up and manage speed dial keys on Teams phones
+title: Manage line keys for speed dial on Teams phones
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
