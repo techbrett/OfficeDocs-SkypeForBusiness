@@ -1,7 +1,7 @@
 ---
 title: Scenarios for Location-Based Routing for Direct Routing 
-author: CarolynRowe
-ms.author: crowe
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
