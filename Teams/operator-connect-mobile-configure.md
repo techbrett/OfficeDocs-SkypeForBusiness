@@ -1,7 +1,7 @@
 ---
 title: Configure Teams Phone Mobile
-author: CarolynRowe
-ms.author: sfrancis206
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 ms.date: 07/08/2024
 ms.topic: article
