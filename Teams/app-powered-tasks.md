@@ -60,6 +60,10 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
 
 Some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. The Planner app can’t determine whether all required steps are completed, so we designed this feature to allow your app to govern the lifecycle of the task. Similarly, we prevent users from updating task fields or marking the task complete, which might otherwise result in users making changes that conflict with what’s reflected in your Teams app.
 
+## Create an app-powered task
+
+<!--the main thing that differentiates is the prescense of a specific attachment.-->
+
 ### Add the destination link
 
 The Planner app depends on the presence of a link to the destination app as a specific type of attachment, which allows Planner to recognize the task as an app-powered task. Note that the API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
@@ -74,7 +78,7 @@ When you specify the attachment, define the following fields:
 
 - **type**: Set to **TeamsHostedApp**.
 
-### How to format the reference link to the destination experience
+### How to format the reference link to the destination experience - here what this looks like in more detail. 
 
 The reference URL to the destination experience must follow the [stage view syntax](/microsoftteams/platform/tabs/open-content-in-stageview) using the following format:
 
@@ -86,6 +90,16 @@ Specify the following properties in the reference URL:
 - `contentUrl`: The URL that points to the specific experience in your destination Teams app that you want users to see when they open the task. The domain of the URL must be a valid domain for the app ID.
 - `name`: The title that should appear at the top of the screen when the user is shown the contentURl.
 
+```http
+        "references": { 
+            "reference-URL-as-constructed-above": { 
+                "@odata.type": "microsoft.graph.plannerExternalReference", 
+                "alias": "{destination app name}", 
+                "previewPriority": " !", 
+                "type": "TeamsHostedApp" 
+            } 
+        } 
+```
 Here's an example of a reference URL before encoding:
 
 `https://teams.microsoft.com/l/stage/com.microsoft.teamspace.tab.youtube/0?context={"contentUrl":"https://tabs.teams.microsoft.com/youtubeContentStage?videoId=HBGmSy1iVmY","name":"Security%20talk","openMode":"modal"}`
