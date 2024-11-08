@@ -57,7 +57,7 @@ Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive a
 
 When you use Microsoft Purview for your security and compliance management, AI-generated notes are supported by new auditing events that surface in [Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language). 
 
-To automatically retain or delete the notes, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location for AI-generated notes in chat, and a retention policy for OneDrive or SharePoint locations for AI-generated notes in meetings. Retention labels aren't currently supported for AI-generated notes, which includes applying retention labels for cloud attachments. 
+To automatically retain or delete the notes, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location for AI-generated notes in chat, and a retention policy for **OneDrive accounts** for AI-generated notes in meetings. Retention labels aren't currently supported for AI-generated notes, which includes applying retention labels for cloud attachments. 
 
 Other Microsoft Purview solutions either aren't applicable for AI-generated notes, or aren't yet supported.
 
