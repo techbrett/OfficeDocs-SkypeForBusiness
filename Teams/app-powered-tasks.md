@@ -51,6 +51,24 @@ Some workflows might not have deterministic flows. For example, a finding during
 
 ## Add the destination link
 
+The Planner app depends on the presence of a link to the destination app as a specific type of attachment, which allows Planner to recognize the task as an app-powered task. Note that the API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
+
+When you specify the attachment, define the following fields:
+
+- URL that uses the Teams modal stage view link syntax.
+
+- **alias**: The name of your app. When a user opens the task, they see a message that says, “Complete this task in <**alias**> and a **Start here** button to jump to the destination experience.
+
+- **previewPriority**: Leave as **!**.
+
+- **type**: Set to **TeamsHostedApp**.
+
+## How to format the reference link to the destination experience
+
+The reference URL to the destination experience must follow the stage view syntax using the following format:
+
+`https://teams.microsoft.com/l/stage/{Teams-app-Id}/0?context={"contentUrl":"URL-to-destination-experience","name":"{desired-page-title}","openMode":"modal"}`
+
 ## Related articles
   
 - [Manage the Planner app for your organization in Microsoft Teams](manage-planner-app.md)
