@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: roykuntz
 ms.date: 08/10/2023
 search.appverid: MET150
-description: Learn how to plan Location-Based Routing for Teams Phone Direct Routing.
+description: Learn different scenarios for Location-Based Routing for Direct Routing.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
