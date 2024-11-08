@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jewilcze
-ms.date: 09/13/2024
+ms.date: 11/08/2024
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
@@ -93,6 +93,8 @@ You can assign the policy directly to users, either individually or at scale thr
 - If a user doesn't have access to this feature, either through policy restrictions or if they don't have a Teams Premium license, the SMS notifications option isn't visible in the template when they schedule a new appointment or when they edit an existing appointment in which the feature was previously enabled.
 
 - If a user who has access to this feature chose **Send text notifications** when they scheduled an appointment, and then their access is turned off, no additional text messages are sent to the external guest.
+
+- For the Netherlands, the **Phone number** field on the form might require an 11-digit number to successfully send SMS notifications. If you experience issues, add zeros (0) to the beginning of the phone number to reach an 11-digit value.
 
 ### SMS notifications usage report
 
