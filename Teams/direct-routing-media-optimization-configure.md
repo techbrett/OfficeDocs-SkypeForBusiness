@@ -304,7 +304,7 @@ The following diagram shows an inbound call with OnlyForLocalUsers mode, and the
 > [!div class="mx-imgBorder"]
 > ![Another diagram showing SIP ladder.](media/direct-routing-media-op-15.png)
 
-#### User isn't at the same location as the SBC but is in the corporate network with Only for local users
+#### User is not at the same location as the SBC but is in the corporate network with Only for local users
 
 |Mode|User|Site|Call direction|
 |---|---|---|---|
@@ -317,7 +317,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and an
 > [!div class="mx-imgBorder"]
 > ![Another diagram shows SIP ladder.](media/direct-routing-media-op-16.png)
 
-#### Inbound call and the user is internal but isn't at the same location as the SBC with Only for local users
+#### Inbound call and the user is internal but is not at the same location as the SBC with Only for local users
 
 |Mode|User|Site|Call direction|
 |---|---|---|---|
