@@ -116,6 +116,43 @@ You need to encode the reference URL before using it in the attachment. URL enco
     > [!NOTE]
     > If your URL points to a Power App, make sure your URL includes the `&source=teamstab` parameter to make single sign-on (SSO) work for Power Apps and the `&skipMobileRedirect=1` parameter to skip the screen that prompts users to open the standalone Power App Player.
 
+## Create an app-powered task
+
+Here's an example of how to create an app-powered task using the [business scenarios](/graph/api/resources/businessscenario-planner-overview?view=graph-rest-beta) API.
+
+```http
+POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business-scenario-ID}/planner/tasks 
+
+{ 
+    "title": "{Task title}", 
+    "target": { 
+        "@odata.type": "#microsoft.graph.businessScenarioGroupTarget", 
+        "taskTargetKind": "group", 
+        "groupId": "{Team ID / Group ID}" 
+    }, 
+    "businessScenarioProperties": { 
+        "externalObjectId": "{any unique ID, e.g. ID of the object in your destination app}", 
+        "externalBucketId": "{any bucketID from planConfiguration of your business scenario}" 
+    }, 
+    "assignments": { 
+        "{user ID of user you want to assign the task to}": { 
+            "@odata.type": "#microsoft.graph.plannerAssignment", 
+            "orderHint": " !" 
+        } 
+    }, 
+    "details": { 
+        "references": { 
+            "reference-URL-as-constructed-above": { 
+                "@odata.type": "microsoft.graph.plannerExternalReference", 
+                "alias": "{destination app name}", 
+                "previewPriority": " !", 
+                "type": "TeamsHostedApp" 
+            } 
+        } 
+    } 
+} 
+```
+
 ## Related articles
   
 - [Manage the Planner app for your organization in Microsoft Teams](manage-planner-app.md)
