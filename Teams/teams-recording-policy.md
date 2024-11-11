@@ -3,7 +3,7 @@ title: Introduction to recording Microsoft Teams calls and meetings
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen
-ms.date: 10/04/2024
+ms.date: 11/11/2024
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -20,6 +20,8 @@ ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 - tier3
+- m365initiative-meetings
+- m365initiative-voice
 - purview-compliance
 appliesto: 
 - Microsoft Teams
