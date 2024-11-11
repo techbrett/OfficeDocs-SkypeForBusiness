@@ -98,7 +98,7 @@ This article introduces the following Teams Phone key features and functionality
 - [Cloud Voicemail](#cloud-voicemail)
 - [Calling identity](#calling-identity)
 
-![Diagram 3 shows Teams Phone contains Auto attendants and call queries, Cloud voicemail, and Calling identity.](media/phone-system-contains.png)
+  ![Diagram 3 shows Teams Phone contains Auto attendants and call queries, Cloud voicemail, and Calling identity.](media/phone-system-contains.png)
 
 For information about all Teams Phone features, and how to set up Teams Phone, see the following articles:
 
