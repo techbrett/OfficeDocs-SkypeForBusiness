@@ -47,7 +47,7 @@ The following table compares convenience and compliance recording.
 | Storage and access owner          | [Meeting storage and permissions](https://learn.microsoft.com/microsoftteams/tmr-meeting-recording-change#shared-account-scheduled-meetings)               | Admin / compliance officer    |
 | Participant notification enforced | Yes                | Yes             |
 | Participant consent supported    | Yes    | No |
-| Media recorded    | Voice, video, screen share    | Voice, video, screen share |
+| Media recorded    | Voice, video, screen share, PPT Live    | Voice, video, screen share |
 | Retention policy      | As configured by organizer's SharePoint Online policy | Configurable with partner solution |
 | Recording policy                | Configurable with Teams Admin Center (Meeting policy + Calling policy) | Configurable with user policy        |
 

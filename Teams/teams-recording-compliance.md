@@ -97,6 +97,7 @@ From the available APIs and third-party compliance recording solutions, the foll
 For general Teams recording capabilities, see [Teams recordings](./teams-recordings.md)
 
 Compliance recording isn't supported for:
+
 - E911 emergency calling services
 - [Call Queues](./create-a-phone-system-call-queue.md)
 - Users operating in Survivable Branch Appliance mode
@@ -108,14 +109,14 @@ Users with an assigned compliance recording policy know that their digital inter
 
 Compliance recording notifications are supported for the Teams client experiences. The experiences can be both visual and audio.
 
-#### Teams clients - visual notice
+### Teams clients - visual notice
 
 - Desktop/web
 - Mobile (iOS/Android)
 - Teams Phones
 - Teams rooms
 
-#### Other endpoints - audio notice
+### Other endpoints - audio notice
 
 - SIP phones
 - Skype for Business
@@ -124,7 +125,7 @@ Compliance recording notifications are supported for the Teams client experience
 
 ## Recorder development
 
-The solution for Teams compliance recording is achieved through Microsoft’s third-party partners who develop compliance recording bots, and pair the bot with their recording solution. Each partner solution will vary, but each partner will leverage the same key Graph APIs, an application instance, and a compliance recording policy. 
+The solution for Teams compliance recording is achieved through Microsoft’s third-party partners who develop compliance recording bots, and pair the bot with their recording solution. Each partner solution will vary, but each partner will leverage the same key Graph APIs, an application instance, and a compliance recording policy.
 
 For a sample of developing a compliance recording bot, see [deploying and testing a sample bot](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot#bot-registration).
 
@@ -213,3 +214,4 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 ### Related topics  
 
 - [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recordings.md)
+- 
