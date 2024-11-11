@@ -46,7 +46,7 @@ Bring in the exported Persistent Chat data (zip file) from Skype for Business 20
 
     :::image type="content" source="../media/migration/edit-properties.png" alt-text="Screenshot of Edit Properties." lightbox="../media/migration/edit-properties.png":::
 
-    1. Publish the topology (as per the screenshot below). 
+    d. Publish the topology (as per the screenshot below). 
        
        :::image type="content" source="../media/migration/virtual-mc-conn.png" alt-text="Screenshot of publishing topology." lightbox="../media/migration/virtual-mc-conn.png":::  
     
