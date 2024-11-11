@@ -682,7 +682,9 @@
               href: ../migration/change-simple-urls-after-migration.md
             - name: Move remaining users
               href: ../migration/move-remaining-users.md
-        - name: "Phase 7: Complete post-migration tasks"
+        - name: "Phase 7: Migrate Persistent Chat Pool"
+          href: ../migration/migrate-persistent-chat-pool.md
+        - name: "Phase 8: Complete post-migration tasks"
           href: ../migration/phase-7-complete-post-migration-tasks.md
           items: 
             - name: Migrate existing meetings and meeting content
@@ -711,7 +713,7 @@
               href: ../migration/migrate-common-area-phones.md
             - name: Migrate analog devices
               href: ../migration/migrate-analog-devices.md
-        - name: "Phase 8: Decommission legacy pools"
+        - name: "Phase 9: Decommission legacy pools"
           href: ../migration/phase-8-decommission-legacy-pools.md
           items: 
             - name: Update DNS SRV records
