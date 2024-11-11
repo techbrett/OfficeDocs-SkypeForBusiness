@@ -29,8 +29,7 @@ Run the following cmdlet on the Skype for Business 2015 front-end server to expo
 ```powershell
 Export-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>"  -FileName "C:\PersistentChatData.zip"
 ```
- 
-1. **Import Persistent Chat Data into Skype for Business Server 2019:**<br> 
+2. **Import Persistent Chat Data into Skype for Business Server 2019:**<br> 
 Bring in the exported Persistent Chat data (zip file) from Skype for Business 2015 front-end server to Skype for Business 2019 front-end server. Run the following cmdlet on the Skype for Business 2019 front-end server to import Persistent Chat data:
 
 ```powershell
