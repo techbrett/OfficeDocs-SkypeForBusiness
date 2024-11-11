@@ -94,7 +94,7 @@ From the available APIs and third-party compliance recording solutions, the foll
 </tbody>
 </table>
 
-For general Teams recording capabilities, see [Teams recordings](./teams-recordings.md)
+For general Teams recording capabilities, see [Teams recordings](./teams-recording-policy.md)
 
 Compliance recording isn't supported for:
 
@@ -213,5 +213,5 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
  
 ### Related topics  
 
-- [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recordings.md)
+- [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recording-policy.md)
 - 

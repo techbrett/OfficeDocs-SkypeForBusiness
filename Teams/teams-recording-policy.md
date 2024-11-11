@@ -44,7 +44,7 @@ The following table compares convenience and compliance recording.
 | Property           | Convenience Recording | Compliance Recording |
 | ---------------------- | :------------------: | :---------------: |
 | Recording initiator              | Licensed Teams user, enabled with meeting / calling policy            | Admin (system)  |
-| Storage and access owner          | [Meeting storage and permissions](https://learn.microsoft.com/microsoftteams/tmr-meeting-recording-change#shared-account-scheduled-meetings)               | Admin / compliance officer    |
+| Storage and access owner          | [Meeting storage and permissions](tmr-meeting-recording-change.md#shared-account-scheduled-meetings)               | Admin / compliance officer    |
 | Participant notification enforced | Yes                | Yes             |
 | Participant consent supported    | Yes    | No |
 | Media recorded    | Voice, video, screen share, PPT Live    | Voice, video, screen share |
@@ -83,4 +83,4 @@ Navigate to these sections for more specific details on convenience and complian
 
 ### Related topics  
 
-- [Teams settings and policies reference - Microsoft Teams | Microsoft Learn](https://learn.microsoft.com/en-us/microsoftteams/settings-policies-reference)
+- [Teams settings and policies reference - Microsoft Teams | Microsoft Learn](settings-policies-reference.md)
