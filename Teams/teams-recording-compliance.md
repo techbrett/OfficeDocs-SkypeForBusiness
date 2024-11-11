@@ -1,5 +1,5 @@
 ---
-title: Introduction to Microsoft Teams third party compliance recording
+title: Introduction to Microsoft Teams third-party compliance recording
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: kiran.kodali
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about Teams third party compliance recording for calling, meetings, town halls, webinars, and live events.
+description: Learn about Teams third-party compliance recording for calling, meetings, town halls, webinars, and live events.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -27,7 +27,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Third party compliance recording for Microsoft Teams calls, meetings, and events
+# Third-party compliance recording for Microsoft Teams calls, meetings, and events
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls ✔️ Calls ✔️ Live events
 
@@ -107,7 +107,7 @@ Compliance recording isn't supported for:
 
 ## Supported notification methods
 
-Users with an assigned compliance recording policy know that their digital interactions with Teams are being recorded. Depending on the third-party recording solution and how it is configured, users may not be able to disable the recording and may not have access to the recording.
+Users with an assigned compliance recording policy know that their digital interactions with Teams are being recorded. Depending on the third-party recording solution and how it's configured, users may not be able to disable the recording and may not have access to the recording.
 
 Compliance recording notifications are supported for the Teams client experiences. The experiences can be both visual and audio.
 
@@ -127,25 +127,25 @@ Compliance recording notifications are supported for the Teams client experience
 
 ## Recorder development
 
-The solution for Teams compliance recording is achieved through Microsoft’s third-party partners who develop compliance recording bots, and pair the bot with their recording solution. Each partner solution will vary, but each partner will leverage the same key Graph APIs, an application instance, and a compliance recording policy.
+The solution for Teams compliance recording is achieved through Microsoft’s third-party partners who develop compliance recording bots, and pair the bot with their recording solution. Each partner solution varies, but each partner uses the same key Graph APIs, an application instance, and a compliance recording policy.
 
 For a sample of developing a compliance recording bot, see [deploying and testing a sample bot](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot#bot-registration).
 
-## Third party compliance recording partners
+## Third-party compliance recording partners
 
 Microsoft created a compliance recording for Microsoft Teams certification program while making Teams APIs available for partners to develop and integrate compliance recording solutions. This program provides customers with the assurance that each participating partner's solution is tested and verified to provide the quality, compatibility, and reliability expected from a Microsoft solution.
 
-The following site lists current partners who have certified their compliance recording solution for Microsoft Teams:
+The following site lists current partners with certified their compliance recording solution for Microsoft Teams:
 [Modern Work for Partners - Compliance Recording Solutions](https://cloudpartners.transform.microsoft.com/compliance-recording-solutions)
 
-Microsoft only supports compliance recording solutions from the listed certified partners. If there are enablement or operational issues, you must contact your compliance recording partner first. If the partner determines the issue is with Microsoft, they may ask you to raise a case with Microsoft, providing context of the investigation completed by the partner. If needed, the partner can bring the issue to Microsoft through their Microsoft support channel. Microsoft might reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows that the issue is one the partner can address.
+Microsoft only supports compliance recording solutions from the listed certified partners. If there are enablement or operational issues, you must contact your compliance recording partner first. If the partner determines the issue is with Microsoft, they might ask you to raise a case with Microsoft, providing context of the investigation completed by the partner. If needed, the partner can bring the issue to Microsoft through their Microsoft support channel. Microsoft might reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows that the issue is one the partner can address.
 
 If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
 [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
 
 ## Create and manage your compliance recording policy
 
-Once a compliance recording solution is in place, a Teams admin can orchestrate which users are recorded, and which recorder is used for each user, by creating and assigning compliance recording policies. Recorders are automatically invited to participate in conversations based on the configuration of these policies when a communication interaction takes place.
+Once a compliance recording solution is in place, a Teams admin can create and assign recording policies to control which users are recorded and which recorder is used for each user. Recorders are automatically invited to participate in conversations based on the configuration of these policies when a communication interaction takes place.
 Compliance
 recording policies are managed using [Microsoft
 PowerShell](./teams-powershell-overview.md)
