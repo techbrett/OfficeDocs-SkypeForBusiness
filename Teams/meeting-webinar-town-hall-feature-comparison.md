@@ -83,7 +83,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Recording storage and permissions](tmr-meeting-recording-change.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Registration](set-up-webinars.md)| ![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[Registration form for webinars](manage-registration-form-webinars.md)| ![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
-|[Restrict who can record](manage-meeting-recording-options.md#manage-who-can-record-meetings)|Premium|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
+|[Restrict who can record](manage-meeting-recording-options.md#manage-who-can-record-and-transcribe-meetings)|Premium|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
 |[RTMP-In](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|![Image of a checkmark for yes](media/circle-check.png)|
 |[Sensitivity labels](/purview/sensitivity-labels-meetings)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
 |[Shared notes](meeting-policies-content-sharing.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|Only for organizers and co-organizers.|
