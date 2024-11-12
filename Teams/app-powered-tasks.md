@@ -32,20 +32,20 @@ Here's an example scenario.
 
 Users in your organization use a Teams app to track and complete inspections. You choose to integrate this inspections app with tasks so that a Planner task is created for each inspection tracked in the system.
 
- -  When a user opens one of these tasks from the Planner app in Teams, they see a simplified screen with a button to jump directly to the inspection experience powered by your inspections app. 
-- When they complete the task and exit the inspections experience, they’re right back in Planner where they started. 
+- When a user opens one of these tasks from the Planner app in Teams, they see a simplified screen with a button to jump directly to the inspection experience powered by your inspections app.
+- When they complete the task and exit the inspections experience, they’re right back in Planner where they started.
 
 Users get the tailored experience that a Teams app provides right from within their assigned tasks. They don’t have to navigate to a different app to get work done.
 
 In addition to these benefits when users complete tasks, the app-powered tasks feature allows organizations to reflect required line-of-business (LOB) processes and workflows as tasks, so employees can see all tasks assigned to them from a single place.
 
-This experience is supported in the Planner app on Teams web, desktop, and mobile. You can update any Teams app to create these app-powered tasks and provide tailored task experiences.  
+This experience is supported in the Planner app on Teams web, desktop, and mobile. You can update any Teams app to create app-powered tasks to provide tailored task experiences for your users.  
 
 ## Requirements
 
 App-powered tasks is an extensibility feature that relies on programmatic creation and management of task. Here are the requirements to use this feature in your organization.
 
-- Each app-powered task must have a reference link that points to an experience in a destination Teams app. It's recommended to point this reference link to the specific item or screen the user should be working on. This reference link must be added to the task in a specific way. To learn more, see [Add the destination link](#add-the-destination-link).
+- Each app-powered task must have a reference URL that points to an experience in a destination Teams app. It's recommended to point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [Add the reference URL](#add-the-reference-URL) section of this article.
 - Tasks must be created and updated using the [business scenarios](/graph/api/resources/businessscenario-planner-overview?view=graph-rest-beta) API in Microsoft Graph.
   - Users who need to work with the task must have access to the destination app in Teams, as governed by the app policies you set in the Teams admin center. To learn more, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 - The destination Teams app is responsible for managing the task lifecycle, which includes the following actions:
@@ -56,39 +56,33 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
   - Mark the task as Completed when all steps are done. See [Update businessScenarioTask](/graph/api/businessscenariotask-update?view=graph-rest-beta).
   - Delete the task. See [Delete businessScenarioTask](/graph/api/businessscenarioplanner-delete-tasks?view=graph-rest-beta).
 
-### Why does the app need to manage the task lifecycle?
-
-Some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. The Planner app can’t determine whether all required steps are completed, so we designed this feature to allow your app to govern the lifecycle of the task. Similarly, we prevent users from updating task fields or marking the task complete, which might otherwise result in users making changes that conflict with what’s reflected in your Teams app.
+    > [!NOTE]
+    > **Why does the destination app need to manage the task lifecycle?** Some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. The Planner app can’t determine whether all required steps are completed, so we designed this feature to allow your app to govern the lifecycle of the task. Similarly, users are prevented from updating task fields or marking the task complete because these actions might result in users making changes that conflict with what’s reflected in your Teams app.
 
 ## Create an app-powered task
 
-<!--the main thing that differentiates is the prescense of a specific attachment.-->
+Here's an overview of how to use the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API to create an app-powered task.
 
-### Add the destination link
+What differentiates an app-powered task from a standard task is the presence of a specific attachment. This attachment includes a link (reference URL) to the destination Teams app experience, which allows Planner to recognize the task as an app-powered task.
 
-The Planner app depends on the presence of a link to the destination app as a specific type of attachment, which allows Planner to recognize the task as an app-powered task. Note that the API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
+> [!NOTE]
+> The API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
 
-When you specify the attachment, define the following fields:
+### Define the attachment
 
-- URL that uses the Teams modal stage view link syntax.
+<!--The Planner app depends on the presence of a link to the destination app as a specific type of attachment, which allows Planner to recognize the task as an app-powered task.-->
 
-- **alias**: The name of your app. When a user opens the task, they see a message that says, “Complete this task in <**alias**> and a **Start here** button to jump to the destination experience.
+To define the attachment, you must specify the following properties:
 
-- **previewPriority**: Leave as **!**.
+- URL that uses the Teams modal stage view link syntax. This is the reference URL that points to the destination Teams app experience. For details, see [How to format the reference URL](#how-to-format-the-reference-url).
 
-- **type**: Set to **TeamsHostedApp**.
+- `alias`: The name of your app. When a user opens the task, they see a message that says, “Complete this task in <**alias**> and a **Start here** button to jump to the destination experience.
 
-### How to format the reference link to the destination experience - here what this looks like in more detail. 
+- `previewPriority`: Leave as `!`.
 
-The reference URL to the destination experience must follow the [stage view syntax](/microsoftteams/platform/tabs/open-content-in-stageview) using the following format:
+- `type`: Set to `TeamsHostedApp`.
 
-`https://teams.microsoft.com/l/stage/{Teams-app-Id}/0?context={"contentUrl":"URL-to-destination-experience","name":"{desired-page-title}","openMode":"modal"}`
-
-Specify the following properties in the reference URL:
-
-- `Teams-app-Id`: The app ID of the Teams app you're integrating with the task.
-- `contentUrl`: The URL that points to the specific experience in your destination Teams app that you want users to see when they open the task. The domain of the URL must be a valid domain for the app ID.
-- `name`: The title that should appear at the top of the screen when the user is shown the contentURl.
+Here's an example:
 
 ```http
         "references": { 
@@ -100,9 +94,22 @@ Specify the following properties in the reference URL:
             } 
         } 
 ```
+
+#### How to format the reference URL
+
+The reference URL to the destination experience must follow the [stage view syntax](/microsoftteams/platform/tabs/open-content-in-stageview) using the following format:
+
+  `https://teams.microsoft.com/l/stage/{Teams-app-Id}/0?context={"contentUrl":"URL-to-destination-experience","name":"{desired-page-title}","openMode":"modal"}`
+
+Specify the following properties in the reference URL:
+
+- `Teams-app-Id`: The app ID of the Teams app you're integrating with the task.
+- `contentUrl`: The URL that points to the specific experience in your destination Teams app that you want users to see when they open the task. The domain of the URL must be a valid domain for the app ID.
+- `name`: The title that should appear at the top of the screen when the user is shown the contentURl.
+
 Here's an example of a reference URL before encoding:
 
-`https://teams.microsoft.com/l/stage/com.microsoft.teamspace.tab.youtube/0?context={"contentUrl":"https://tabs.teams.microsoft.com/youtubeContentStage?videoId=HBGmSy1iVmY","name":"Security%20talk","openMode":"modal"}`
+  `https://teams.microsoft.com/l/stage/com.microsoft.teamspace.tab.youtube/0?context={"contentUrl":"https://tabs.teams.microsoft.com/youtubeContentStage?videoId=HBGmSy1iVmY","name":"Security%20talk","openMode":"modal"}`
 
 In this example:
 
