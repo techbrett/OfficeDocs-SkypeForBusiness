@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: lisma
 ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
@@ -22,6 +22,9 @@ description: Learn how to manage who can record Teams meetings, automatic record
 # Manage Microsoft Teams meeting recording options for sensitive meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
+> [!NOTE]
+> When organizers turn off Microsoft 365 Copilot in Teams meetings and events, recording and transcription are also turned off. To learn more about Copilot, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
 
 Teams is designed to allow easy recording for meeting participants. If you have compliance requirements around how meeting recordings are used, there are several options available for administrators and meeting organizers to help you use meeting recordings in a compliant way.
 
@@ -67,7 +70,7 @@ By default, meeting recordings are deleted after 120 days. This is configured by
 - **Recordings automatically expire** determines if meeting recordings are automatically deleted after a specified time.
 - **Default expiration time** specifies the number of days after which recordings are deleted. The default is 120.
 
-When a meeting participant records a meeting, the recording is stored in their OneDrive. Channel meetings are stored in the SharePoint site associated with the channel. Because meeting recordings are .mp4 files, they can be moved or deleted like any other file. If a meeting recording is moved from its original location, the expiration setting will no longer affect it.
+When a meeting participant records a meeting, the recording is stored in the organizer's OneDrive. Channel meetings are stored in the SharePoint site associated with the channel. Because meeting recordings are .mp4 files, they can be moved or deleted like any other file. If a meeting recording is moved from its original location, the expiration setting will no longer affect it. For details, see [Teams meeting recording storage and permissions in OneDrive and SharePoint](tmr-meeting-recording-change.md).
 
 The expiration feature is meant for removing old recordings to save storage space. It's not meant for enforcing compliance requirements. If you have compliance requirements around how long meeting recordings are retained or when they're deleted, consider storing them in a SharePoint library where you can apply [Microsoft Purview retention policies](/microsoft-365/compliance/retention).
 
