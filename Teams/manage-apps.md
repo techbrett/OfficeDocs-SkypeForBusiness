@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 01/31/2024
+ms.date: 11/12/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -24,7 +24,7 @@ ms.localizationpriority: high
 ---
 # Overview of app management and governance in Teams admin center
 
-In the Teams admin center, we provide a few dedicated pages to manage your apps with granularity and complete control. You manage apps for your organization in the **Manage apps** page in the Teams admin center portal. Use the URL [https://admin.teams.microsoft.com/policies/manage-apps](https://admin.teams.microsoft.com/policies/manage-apps) to view and govern all Teams apps that are available in your organization's app catalog, define access to apps using policies, cater to prominent use cases for app management, and more.
+In the Teams admin center, we provide a few dedicated pages and UIs to manage your apps. You manage apps for your organization in the **Manage apps** page in the Teams admin center portal. Use the URL [https://admin.teams.microsoft.com/policies/manage-apps](https://admin.teams.microsoft.com/policies/manage-apps) to view and govern the apps that are available in your organization's app catalog, evaluate apps before allowing those and find support information, manage availability of apps across your org on a per-user or per-app basis, and do more.
 
 :::image type="content" source="media/manage-apps.png" alt-text="Screenshot showing the Manage apps page in Teams admin center." lightbox="media/manage-apps.png":::
 
