@@ -1,12 +1,12 @@
 ---
 title: Implement Quality of Service (QoS) in Microsoft Teams desktop clients on Windows
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: siunies
-ms.date: 09/27/2023
+ms.date: 11/12/2024
 audience: admin
 description: Learn how to use Quality of Service (QoS) to optimize network traffic for the Microsoft Teams desktop client.
 ms.localizationpriority: medium

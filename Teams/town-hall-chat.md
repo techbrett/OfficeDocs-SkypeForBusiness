@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: chbalaki
-ms.date: 11/5/2024
+ms.date: 11/11/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -30,17 +30,11 @@ description: Learn how to manage which organizers can use event chat for their M
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-> [!NOTE]
-> This feature is currently in Public Preview.
-
 In Microsoft Teams town halls, only presenters, organizers, and co-organizers can use chat. If town hall organizers have a Teams Premium license, they can turn on **Event chat** in their **Meeting options** to allow attendees to a chat and interact with each other. Event chat is only available during the town hall. Organizers, presenters, and co-organizers can still chat separately.
 
 As an admin, you can manage whether town hall organizers with a Teams Premium license can turn on event chat for their attendees.
 
 For details on how your users use event chat for town halls, see [Chat in a town hall in Microsoft Teams](https://support.microsoft.com/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338).
-
-> [!NOTE]
-> If a town hall restarts, event chat isn't available in the new town hall.
 
 ## Manage event chat for your organizers
 
