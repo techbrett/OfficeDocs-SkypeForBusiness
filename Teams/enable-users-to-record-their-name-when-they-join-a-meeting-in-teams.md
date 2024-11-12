@@ -54,23 +54,7 @@ Using the Microsoft Teams admin center:
 
 ## Manage whether callers can record their names with PowerShell
 
-To manage whether callers can record their names with PowerShell, use the **`-EnableNameRecording`**. **`-EntryExitAnnouncementsType`**, and **`-EnableNameRecording`** parameters, within the PowerShell [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet.
-
-### Prevent callers from recording their names
-
-To prevent callers from recording their names, use the following script:
-
-```powershell
-Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $false -EnableNameRecording $false
-```
-
-### Allow callers to record their names
-
-To allow callers to record their names, use the following script:
-
-```powershell
-Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true -EntryExitAnnouncementsType UseNames -EnableNameRecording $true
-```
+To manage whether callers can record their names with PowerShell, use the **`-EnableNameRecording`**. **`-EntryExitAnnouncementsType`**, and **`-EnableNameRecording`** parameters, within the PowerShell [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet. For script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-csonlinedialinconferencingtenantsettings).
 
 ## Related topics
 
