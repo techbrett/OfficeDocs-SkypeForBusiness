@@ -29,7 +29,7 @@ As an admin, with Teams admin policies, sensitivity labels, and templates, you c
 - How content is shared and what collaboration tools are available
 - Attendee video, audio, and reactions
 
-Meeting organizers can specify some of theses settings when they create the meeting. However, you can enforce specific options for different users and groups in your organization by using admin policies. You can also use sensitivity labels and templates to enforce these options for different types or meetings. These options can help you with types of meetings in your organization where sensitive information is being shared.
+Meeting organizers can specify some of theses settings when they create a meeting. However, you can enforce specific options for different users and groups in your organization by using admin policies. You can also use sensitivity labels and templates to enforce these options for different types or meetings. These options can help you with types of meetings in your organization where sensitive information is being shared.
 
 > [!NOTE]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
