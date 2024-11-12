@@ -65,7 +65,7 @@ With a Teams admin policy or meeting template, you can manage how meeting transc
 
 ## Privacy and security URL
 
-With a Teams admin policy, you can create a custom privacy statement for Teams meeting recordings and transcripts. If your organization has a legal website that you want people to go to for any legal concerns, this policy allows you to display the URL. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#set-a-custom-privacy-policy-url).
+With a Teams admin policy, you can add your custom privacy statement to Teams meeting recordings and transcripts in your organization. If your organization has a legal website that you want people to go to for any legal concerns, this policy allows you to display the URL. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#set-a-custom-privacy-policy-url).
 
 ## Require participant agreement for recording
 
