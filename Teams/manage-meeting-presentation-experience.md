@@ -143,7 +143,7 @@ The following table shows features that can help manage how meeting attendees in
 
 Attendee audio and video can make it easy for attendees to communicate during a meeting. The meeting organizer or a meeting template can control both of these features. Depending on the type of meeting, you might want to allow or restrict these capabilities.
 
-For meetings that are presentations with minimal interaction from attendees, turning off audio and video can minimize distractions.
+For meetings that are presentations with minimal interaction from attendees, turning off audio and video can minimize distractions. You could also advise meeting organizers to use a town hall instead. For details on town halls, see [Plan for town halls(plan-town-halls.md).
 
 When users record meetings, video from participants might be considered personal data and can infer regulatory requirements.
 
