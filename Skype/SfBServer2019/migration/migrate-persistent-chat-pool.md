@@ -37,7 +37,7 @@ Bring in the exported Persistent Chat data (zip file) from Skype for Business 20
 ```
 
 3. **Update Default Persistent Chat Pool URL in Skype for Business Server 2019:** 
-    - Open the topology builder of Skype for Business Server 2019 and right-click the site-name. 
+    - Open the Topology Builder of Skype for Business Server 2019 and right-click the site-name. 
     - Select **Edit Properties** and go to the **Persistent Chat setting**. 
     - You'll notice that **Default Persistent Chat pool** has Skype for Business Server 2015 value selected in the dropdown. Change that to select Skype for Business 2019 Server pool value and select **OK**. 
     
@@ -45,7 +45,7 @@ Bring in the exported Persistent Chat data (zip file) from Skype for Business 20
 
     :::image type="content" source="../media/migration/edit-properties.png" alt-text="Screenshot of Edit Properties." lightbox="../media/migration/edit-properties.png":::
 
-    - To publish the topology, select **Topology** and select **Publish**. 
+    - To publish the topology, in the Topology Builder, select **Topology** and select **Publish**. 
        
     :::image type="content" source="../media/migration/virtual-mc-conn.png" alt-text="Screenshot of publishing topology." lightbox="../media/migration/virtual-mc-conn.png":::  
     
