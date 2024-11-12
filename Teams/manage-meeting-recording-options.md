@@ -46,7 +46,7 @@ You control whether the ability to record meetings is available in your organiza
 
 ## Block or allow download of channel meeting recordings
 
-You can set a Teams admin policy through PowerShell's **`-ChannelRecordingDownload`** parameter in the[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) to control whether channel members can download meeting recordings. If you block the download of channel recordings, members have read access without ability to download. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#block-or-allow-download-of-channel-meeting-recordings).
+You can set a Teams admin policy through PowerShell's **`-ChannelRecordingDownload`** parameter in the[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) to control whether channel members can download meeting recordings. If you block the download of channel recordings, members can watch recordings, but can't download them. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#block-or-allow-download-of-channel-meeting-recordings).
 
 ## Manage who can record and transcribe meetings
 
