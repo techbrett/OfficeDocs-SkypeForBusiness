@@ -55,19 +55,17 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
   - Delete the task. See [Delete businessScenarioTask](/graph/api/businessscenarioplanner-delete-tasks?view=graph-rest-beta).
 
 > [!NOTE]
-> The destination Teams app must manage the task lifecycle because some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. The Planner app can’t determine whether all required steps are completed, so we designed this feature to allow your app to govern the lifecycle of the task. Similarly, users are prevented from updating task fields or marking the task complete because these actions might result in users making changes that conflict with what’s reflected in your Teams app.
+> Some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. The Planner app can’t determine whether all required steps are completed, so we designed this feature to allow your app to govern the lifecycle of the task. Similarly, users are prevented from updating task fields or marking the task complete because these actions might result in users making changes that conflict with what’s reflected in your Teams app.
 
 ## Create an app-powered task
 
-Here's an overview of how to create an app-powered task using the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API.
+Here's how to create an app-powered task using the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API.
 
 What differentiates an app-powered task from a standard task is the presence of a specific attachment. This attachment includes a link (reference URL) to the destination Teams app experience, which allows Planner to recognize the task as an app-powered task.
 
 Note that the API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
 
 ### Define the attachment
-
-<!--The Planner app depends on the presence of a link to the destination app as a specific type of attachment, which allows Planner to recognize the task as an app-powered task.-->
 
 To define the attachment, you must specify the following properties.
 
@@ -82,7 +80,7 @@ To define the attachment, you must specify the following properties.
         } 
 ```
 
-- URL that uses the Teams modal stage view link syntax. This is the reference URL that points to the destination Teams app experience. For more information, see [How to format the reference URL](#how-to-format-the-reference-url).
+- The reference URL that points to the destination Teams app experience in StageView Modal link syntax. For more information, see [How to format the reference URL](#how-to-format-the-reference-url).
 
 - `alias`: The name of your app. When a user opens the task, they see a message that says, “Complete this task in <**alias**>", and a **Start task** button to jump to the destination experience.
 
@@ -92,7 +90,7 @@ To define the attachment, you must specify the following properties.
 
 #### How to format the reference URL
 
-The reference URL to the destination experience must follow the [stage view syntax](/microsoftteams/platform/tabs/open-content-in-stageview) using the following format:
+The reference URL to the destination experience must follow [Stageview Modal syntax](/microsoftteams/platform/tabs/open-content-in-stageview) using the following format:
 
 `https://teams.microsoft.com/l/stage/{Teams-app-Id}/0?context={"contentUrl":"URL-to-destination-experience"},"name":"{desired-page-title}","openMode":"modal"}`
 
@@ -111,7 +109,7 @@ In this example:
 - `Teams-app-Id` is the app ID of the YouTube app in Teams (`com.microsoft.teamspace.tab.youtube`). Keep in mind that most Teams app IDs are alphanumeric and might look different.
 - `contentUrl` points to the experience within the destination Teams app (`https://tabs.teams.microsoft.com/youtubeContentStage?videoId=HBGmSy1iVmY`).
 - `name` is the name of the screen title (`Security talk`) when loading the URL.
-- `open Mode` is set to `modal`.
+- `openMode` is set to `modal`.
 
 If the YouTube app in Teams is available to you, you can send this URL to yourself and confirm it opens.
 
