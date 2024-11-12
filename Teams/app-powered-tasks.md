@@ -30,12 +30,12 @@ The app-powered tasks feature offers your organization more control over what us
 
 Here's an example scenario.
 
-Users in your organization use a Teams app to track and complete inspections. You choose to integrate this inspections app with tasks so that a Planner task is created for each inspection tracked in the system.
+    Users in your organization use a Teams app to track and complete inspections. You choose to integrate this inspections app with tasks so that a Planner task is created for each inspection tracked in the system.
 
-- When a user opens one of these tasks from the Planner app in Teams, they see a simplified screen with a button to jump directly to the inspection experience powered by your inspections app.
-- When they complete the task and exit the inspections experience, they’re right back in Planner where they started.
+    - When a user opens one of these tasks from the Planner app in Teams, they see a simplified screen with a button to jump directly to the inspection experience powered by your inspections app.
+    - When they complete the task and exit the inspections experience, they’re right back in Planner where they started.
 
-Users get the tailored experience that a Teams app provides right from within their assigned tasks. They don’t have to navigate to a different app to get work done.
+    Users get the tailored experience that a Teams app provides right from within their assigned tasks. They don’t have to navigate to a different app to get work done or lose context of where they were when working with their tasks.
 
 In addition to these benefits when users complete tasks, the app-powered tasks feature allows organizations to reflect required line-of-business (LOB) processes and workflows as tasks, so employees can see all tasks assigned to them from a single place.
 
@@ -72,9 +72,9 @@ What differentiates an app-powered task from a standard task is the presence of 
 
 <!--The Planner app depends on the presence of a link to the destination app as a specific type of attachment, which allows Planner to recognize the task as an app-powered task.-->
 
-To define the attachment, you must specify the following properties:
+To define the attachment, you must specify the following properties.
 
-- URL that uses the Teams modal stage view link syntax. This is the reference URL that points to the destination Teams app experience. For details, see [How to format the reference URL](#how-to-format-the-reference-url).
+- URL that uses the Teams modal stage view link syntax. This is the reference URL that points to the destination Teams app experience. For more information, see [How to format the reference URL](#how-to-format-the-reference-url).
 
 - `alias`: The name of your app. When a user opens the task, they see a message that says, “Complete this task in <**alias**> and a **Start here** button to jump to the destination experience.
 
@@ -82,7 +82,7 @@ To define the attachment, you must specify the following properties:
 
 - `type`: Set to `TeamsHostedApp`.
 
-Here's an example:
+**Example**
 
 ```http
         "references": { 
@@ -113,33 +113,33 @@ Here's an example of a reference URL before encoding:
 
 In this example:
 
-- `Teams-app-Id` is the app ID of the YouTube app in Teams (`com.microsoft.teamspace.tab.youtube`). Keep in mind that most Teams app Ids are alphanumeric and might look different.
+- `Teams-app-Id` is the app ID of the YouTube app in Teams (`com.microsoft.teamspace.tab.youtube`). Keep in mind that most Teams app IDs are alphanumeric and might look different.
 - `contentUrl` points to the experience within the destination Teams app (`https://tabs.teams.microsoft.com/youtubeContentStage?videoId=HBGmSy1iVmY`).
 - `name` is the name of the screen title when loading the URL and `open Mode` is set to `modal`.
 
 If the YouTube app in Teams is available to you, you can send this URL to yourself and confirm it opens.
 
-You need to encode the reference URL before using it in the attachment. URL encoding ensure the link is in a compatible format for programmatic user. Follow these steps to encode the reference URL:
+##### Encode the reference URL
 
-1. Encode the part of the URL that comes after `0?context=`. Do not encode `https://` or `=` (the equal symbol), or any of the text in between.
+You need to encode the reference URL before using it in the attachment. URL encoding ensures the link is in a compatible format for programmatic use. Follow these steps to encode the reference URL:
 
-    `https://teams.microsoft.com/l/stage/com.microsoft.teamspace.tab.youtube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs.teams.microsoft.com%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D`
+1. Encode the part of the URL that comes after `0?context=`. Don't encode `https://` or `=` (the equal symbol), or any of the characters in between.
 
-    > [!TIP]
-    > This is the last step where the link can be easily validated in Teams chat. After you complete this step, you can test the URL by sending it to yourself in a Teams chat. The link should open on desktop, web, or mobile for any user who has access to the destination app in Teams.
+`https://teams.microsoft.com/l/stage/com.microsoft.teamspace.tab.youtube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs.teams.microsoft.com%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D`
 
-2. Replace *all* `.` characters in the reference URL with `%2E`. You must do this across all characters in the reference URL, from beginning to end. If you miss this step, the reference URL might not work. 
+> [!TIP]
+> This is the last step where the link can be easily validated in Teams chat. After you complete this step, you can test the URL by sending it to yourself in a Teams chat. The link should open on Teams desktop, web, or mobile for any user who has access to the destination app in Teams.
 
-    The following link is ready for programmatic use.
+1. Replace *all* `.` characters in the reference URL with `%2E`. You must do this across all characters in the reference URL, from beginning to end. If you miss this step, the reference URL might not work.
 
-    `https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D`
+      The following link is ready for programmatic use.
 
-    > [!NOTE]
-    > If your URL points to a Power App, make sure your URL includes the `&source=teamstab` parameter to make single sign-on (SSO) work for Power Apps and the `&skipMobileRedirect=1` parameter to skip the screen that prompts users to open the standalone Power App Player.
+      `https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D`
 
-## Create an app-powered task
+      > [!NOTE]
+      > If your URL points to a Power App, make sure your URL includes the `&source=teamstab` parameter to make single sign-on (SSO) work for Power Apps and the `&skipMobileRedirect=1` parameter to skip the screen that prompts users to open the standalone Power App player.
 
-Here's an example of how to create an app-powered task using the [business scenarios](/graph/api/resources/businessscenario-planner-overview?view=graph-rest-beta) API.
+### Example
 
 ```http
 POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business-scenario-ID}/planner/tasks 
