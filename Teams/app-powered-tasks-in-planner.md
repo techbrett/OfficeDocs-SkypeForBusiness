@@ -71,7 +71,7 @@ To define the attachment, specify the following properties.
 
 ```http
         "references": { 
-            "{reference-URL}": { 
+            "reference-URL": { 
                 "@odata.type": "microsoft.graph.plannerExternalReference", 
                 "alias": "{destination app name}", 
                 "previewPriority": " !", 
@@ -159,7 +159,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
     }, 
     "details": { 
         "references": { 
-            "{reference-URL}": { 
+            "reference-URL": { 
                 "@odata.type": "microsoft.graph.plannerExternalReference", 
                 "alias": "{destination app name}", 
                 "previewPriority": "!", 
@@ -169,6 +169,8 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
     } 
 } 
 ```
+
+In this example, a task named "Review security practices presentation" is created and assigned to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc) in the Planner app in Teams. The task is powered by the YouTube app in Teams.
 
 **Request**
 
@@ -205,7 +207,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
 }
 ```
 
-In this example, the following task is created and assigned to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc) in the Planner app in Teams.
+Here's what the user sees when they open the task. Selecting the **Start task** button takes the user to a security practices video in the YouTube app in Teams.
 
 :::image type="content" source="media/app-powered-tasks-in-planner.png" alt-text="Screenshot of an example of an app-powered task":::
 
