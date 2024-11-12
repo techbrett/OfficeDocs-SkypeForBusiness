@@ -45,7 +45,7 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
 
 - Each app-powered task must have a reference URL that points to an experience in a destination Teams app. We recommend that you point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [How to format the reference URL](#how-to-format-the-reference-url) section of this article.
 - Tasks must be created and updated using the [business scenarios](/graph/api/resources/businessscenario-planner-overview?view=graph-rest-beta) API in Microsoft Graph.
-  - Users who need to work with the task must have access to the destination app in Teams, as governed by the app policies you set in the Teams admin center. To learn more, see [Overview of app management and governance in Teams admin center](manage-apps.md).
+- Users who need to work with the task must have access to the destination app in Teams, as governed by the app policies you set in the Teams admin center. To learn more, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 - The destination Teams app is responsible for managing the task lifecycle, which includes the following actions:
 
   - Create the task. See [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks?view=graph-rest-beta).
@@ -54,20 +54,20 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
   - Mark the task as Completed when all steps are done. See [Update businessScenarioTask](/graph/api/businessscenariotask-update?view=graph-rest-beta).
   - Delete the task. See [Delete businessScenarioTask](/graph/api/businessscenarioplanner-delete-tasks?view=graph-rest-beta).
 
-> [!NOTE]
-> Some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. The Planner app can’t determine whether all required steps are completed, so we designed this feature to allow your app to govern the lifecycle of the task. Similarly, users are prevented from updating task fields or marking the task complete because these actions might result in users making changes that conflict with what’s reflected in your Teams app.
+    > [!NOTE]
+    > Some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. The Planner app can’t determine whether all required steps are completed, so we designed this feature to allow your app to govern the lifecycle of the task. Similarly, users are prevented from updating task fields or marking the task complete because these actions might result in users making changes that conflict with what’s reflected in your Teams app.
 
 ## Create an app-powered task
 
-Here's how to create an app-powered task using the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API.
+Here's an overview of how to create an app-powered task using the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API.
 
-What differentiates an app-powered task from a standard task is the presence of a specific attachment. This attachment includes a link (reference URL) to the destination Teams app experience, which allows Planner to recognize the task as an app-powered task.
+What differentiates an app-powered task from a standard task is the presence of a specific attachment. This attachment includes a link (reference URL) to the destination Teams app experience, which enables Planner to recognize the task as an app-powered task.
 
 Note that the API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
 
 ### Define the attachment
 
-To define the attachment, you must specify the following properties.
+To define the attachment, specify the following properties.
 
 ```http
         "references": { 
@@ -115,7 +115,7 @@ If the YouTube app in Teams is available to you, you can send this URL to yourse
 
 ##### Encode the reference URL
 
-You must encode the reference URL before using it in the attachment. URL encoding ensures the link is in a compatible format for programmatic use. Follow these steps to encode the reference URL:
+You need to encode the reference URL before using it in the attachment. URL encoding ensures the link is in a compatible format for programmatic use. Follow these steps to encode the reference URL:
 
 1. Percent encode the part of the URL that comes after `0?context=`. Don't encode `https://` or `=` (the equal symbol), or any of the characters in between.
 
@@ -188,7 +188,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
     "webUrl": "https://bing.com"
     },
     "assignments": {
-        "9f48f455-cd6e-4098-b18c-2bd79ed83b3f": {
+        "44ee44ee-ff55-aa66-bb77-88cc88cc88cc": {
         "@odata.type": "#microsoft.graph.plannerAssignment",
         "orderHint": " !"
         }
@@ -204,6 +204,10 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
     }
 }
 ```
+
+In this example, the following task is created and assigned to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc) in the Planner app in Teams.
+
+:::image type="content" source="media/app-powered-tasks-in-planner.png" alt-text="Screenshot of an example of an app-powered task":::
 
 ## Related articles
   
