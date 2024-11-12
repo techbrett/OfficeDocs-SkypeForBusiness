@@ -27,11 +27,11 @@ description: Learn about the Microsoft Teams Shared Devices licensing for common
 
 # Microsoft Teams Shared Devices licensing
 
-Microsoft Teams supports hybrid work scenarios and enables users to work in flexible spaces. The **Microsoft Teams Shared Devices** license was first introduced to designate certain devices including Teams phone devices deployed in common areas, Teams displays <sup>1</sup>, Teams panels, and Android mobile phones as shared devices and license the additional software running on them with a shared use model.
+Microsoft Teams supports hybrid work scenarios and enables users to work in flexible spaces. The **Microsoft Teams Shared Devices** license was first introduced to designate certain devices including Teams Phone devices deployed in common areas, Teams displays <sup>1</sup>, Teams panels, and Android mobile phones as shared devices and license the extra software running on them with a shared use model.
 
-The Teams Shared Devices license has now expanded to [bring your own device (BYOD) rooms](/microsoftteams/rooms/bring-your-own-device), such as focus or huddle rooms, and [bookable desks](/microsoftteams/rooms/bookable-desks), unassigned seats arranged in a desk pool. Associating a Teams Shared Devices license to these shared space accounts enables valuable usage analytics, reports, and insights in Teams Rooms Pro Management portal. These usage reports can help IT teams optimize shared spaces throughout the organization and gain valuable intelligence for planning and budgeting.
+The Teams Shared Devices license includes [bring your own device (BYOD) rooms](/microsoftteams/rooms/bring-your-own-device), such as focus or huddle rooms, and [bookable desks](/microsoftteams/rooms/bookable-desks), unassigned desks arranged in a desk pool. Associating a Teams Shared Devices license to these shared space accounts enables valuable usage analytics, reports, and insights in Teams Rooms Pro Management portal. These usage reports can help IT teams optimize shared spaces throughout the organization and gain valuable intelligence for planning and budgeting.
 
-The license can still be applied per device as originally introduced. In addition, it can now also be applied to a BYOD room or a desk pool. The Teams Shared Devices license provides usage analytics, reports, and insights for one BYOD room or a desk pool that includes up to 8 bookable desks<sup>2</sup>. Customers who already use a Teams Shared Devices licensed device in a BYOD room are granted access to the inventory function and usage analytics and reports for that space through the Teams Rooms Pro Management portal<sup>3</sup> without an additional add-on license.
+The license can still be applied per device as originally introduced. In addition, it can now also be applied to a BYOD room or a desk pool. The Teams Shared Devices license provides usage analytics, reports, and insights for one BYOD room or a desk pool that includes up to 8 bookable desks<sup>2</sup>. Customers who already use a Teams Shared Devices licensed device in a BYOD room are granted access to the inventory function and usage analytics and reports for that space through the Teams Rooms Pro Management portal<sup>3</sup> without an extra add-on license.
 
 For information about other Teams add-on licenses, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
@@ -71,7 +71,7 @@ Purchase the **Teams Shared Devices** license in the [Microsoft admin center](ht
 
 ## Related articles
 
-The following articles will help you set up the various devices that use the **Teams Shared Devices** license.
+The following articles help you set up the various devices that use the **Teams Shared Devices** license.
 
 - [Introducing the Microsoft Teams Shared Device License](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-the-microsoft-teams-shared-device-license/ba-p/3677138)
 - [Set up common area phones](/microsoftteams/set-up-common-area-phones)
