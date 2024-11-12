@@ -1,10 +1,10 @@
 ---
-title: Manage who can schedule webinars in Microsoft Teams
+title: Manage who can schedule and attend webinars in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: justle
-ms.date: 11/4/2024
+ms.reviewer: sherimehmood
+ms.date: 11/7/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,14 +21,16 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to set up webinars and manage who can schedule webinars for IT Admins in Teams.
+description: Learn how to set up webinars and manage who can schedule and attend webinars for IT Admins in Teams.
 ---
 
-# Manage who can schedule webinars in Microsoft Teams
+# Manage who can schedule and attend webinars in Microsoft Teams
 
 **APPLIES TO:** ![Image of a x for no](media/x-for-no.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a x for no](media/x-for-no.png) Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
+## Overview
 
 Microsoft Teams offers webinars, a two-way interactive virtual event. As an admin, you can set up and manage who can schedule webinars in your organization.
 
@@ -41,59 +43,83 @@ To learn more about the webinar experience for your users, see [Get Started with
 
 ## Manage who can schedule webinars
 
-You can use the Teams admin center or PowerShell to manage who can schedule town halls in your organization.
+You can use the Teams admin center or PowerShell to manage who can schedule webinars in your organization.
 
-|Setting value| PowerShell value|Behavior|
-|---------|---------|---------------|
-|On|Enabled| Users with this policy can create webinars. |
+|Teams admin center value| PowerShell value|Behavior|
+|---------|---------------|---------------|
+|On|Enabled| **This is the default value.** Users with this policy can create webinars. |
 |Off|Disabled| Users with this policy can't create webinars.|
 
 ### Manage who can schedule webinars using the Teams admin center
 
-You can use the Teams admin center to set up and manage the webinar experience for your organization.
-
-Follow these steps in the Teams admin center to manage who can schedule webinars:
+To manage who can schedule webinars through the Teams admin center, use the following steps:
 
 1. Open the Teams admin center.
-2. Select **Meetings** from the navigation pane.
+2. Expand **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
-5. Toggle the **Allow webinars** setting **On** or **Off**.
-6. Select **Save**.
+5. Toggle the **Webinars** setting **On** or **Off**.
+6. Select **Save**
 
 ### Manage who can schedule webinars using PowerShell
 
-You can use PowerShell to set up and manage the webinar experience for your organization.
+You can use PowerShell to manage who can schedule webinars in your organization.
 
-To set up webinars, use the **`-AllowWebinars`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
-
-#### Turn on webinars
-
-To turn on webinars, use the following script:
-
-```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
-```
+To manage who can schedule webinars, use the **`-AllowWebinars`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
 
 #### Turn off webinars
 
-To turn off webinars, use the following script:
+To prevent organizers with this policy from creating webinars, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
 
-## Manage whether organizers can create public or private webinars
+#### Turn on webinars
 
-You can use PowerShell to manage whether organizers can [create public or private webinars](https://support.microsoft.com/office/0719a9bd-07a0-47fd-8415-6c576860f36a):
+To allow organizers with this policy to create webinars, use the following script:
 
-To allow organizers to only create private webinars, use the following script:
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
+```
+
+## Manage who can attend webinars
+
+You can use the Teams admin center or PowerShell to manage who can attend webinars in your organization.
+
+|Teams admin center value| PowerShell value|Behavior|
+|---------|---------------|---------------|
+|Everyone|Everyone| **This is the default value.** When organizers with his policy create webinars, any user can attend. |
+|Everyone in my organization excluding guests|EveryoneInCompanyExcludingGuests| When organizers with his policy create webinars, only users in your org can attend.|
+
+### Manage who can attend webinars using the Teams admin center
+
+To manage who can attend webinars through the Teams admin center, use the following steps:
+
+1. Open the Teams admin center.
+2. Expand **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Events Policies**.
+4. Either select an existing policy or create a new one.
+5. From the dropdown for the **Who can attend webinars** setting select either **Everyone** or **EveryoneInCompanyExcludingGuests**.
+6. Select **Save**
+
+### Manage who can attend webinars using PowerShell
+
+You can use PowerShell to manage who can attend webinars in your organization.
+
+To manage who can attend webinars, use the **`-EventAccessType`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
+
+#### Turn off public webinars
+
+To only allow users in your organization to attend webinars created by users with this policy, use this script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
 ```
 
-To allow organizers to create public or private webinars, use the following script. Public webinars may include anonymous users:
+#### Turn on public webinars
+
+To allow any user to attend webinars created by users with this policy, use this script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
