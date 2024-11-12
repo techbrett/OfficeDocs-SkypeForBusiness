@@ -682,7 +682,7 @@
               href: ../migration/change-simple-urls-after-migration.md
             - name: Move remaining users
               href: ../migration/move-remaining-users.md
-        - name: "Phase 7: Migrate Persistent Chat Pool"
+        - name: "Phase 7: Migrate Persistent Chat pool"
           href: ../migration/migrate-persistent-chat-pool.md
         - name: "Phase 8: Complete post-migration tasks"
           href: ../migration/phase-7-complete-post-migration-tasks.md

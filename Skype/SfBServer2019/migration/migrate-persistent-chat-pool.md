@@ -1,6 +1,6 @@
 ---
 ms.date: 11/21/2024
-title: "Migrate Persistent Chat Pool"
+title: "Migrate Persistent Chat pool"
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -11,10 +11,10 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "Migrate Persistent Chat Pool"
+description: "Migrate Persistent Chat pool from Skype for Business Server 2015 to Skype for Business Server 2019."
 ---
 
-# Migrate Persistent Chat Pool
+# Migrate Persistent Chat pool
 
 > [!NOTE]
 > If you are migrating from Skype for Business Server 2015 to Skype for Business Server 2019 and you have Persistent Chat enabled on Skype for Business Server 2015, you may encounter a situation that Chat Rooms created via Skype for Business client is not working in Skype for Business Server 2019. This is because the default Persistent Chat URL points to the previous Persistent Chat pool.
@@ -38,14 +38,14 @@ Bring in the exported Persistent Chat data (zip file) from Skype for Business 20
 
 3. **Update Default Persistent Chat Pool URL in Skype for Business Server 2019:** 
     - Open the topology builder of Skype for Business Server 2019 and right-click the site-name. 
-    - Select **Edit Properties** and go to the **Persistent Chat** settings. 
+    - Select **Edit Properties** and go to the **Persistent Chat setting**. 
     - You'll notice that **Default Persistent Chat pool** has Skype for Business Server 2015 value selected in the dropdown. Change that to select Skype for Business 2019 Server pool value and select **OK**. 
     
     :::image type="content" source="../media/migration/topology-builder.png" alt-text="Screenshot of Topology builder." lightbox="../media/migration/topology-builder.png":::
 
     :::image type="content" source="../media/migration/edit-properties.png" alt-text="Screenshot of Edit Properties." lightbox="../media/migration/edit-properties.png":::
 
-    - Publish the topology (as per the screenshot below). 
+    - To publish the topology, select **Topology** and select **Publish**. 
        
     :::image type="content" source="../media/migration/virtual-mc-conn.png" alt-text="Screenshot of publishing topology." lightbox="../media/migration/virtual-mc-conn.png":::  
     
@@ -56,7 +56,7 @@ After importing the database, ensure that duplicate categories from Skype for Bu
 :::image type="content" source="../media/migration/category.png" alt-text="Screenshot of MACP." lightbox="../media/migration/category.png":::
 
 5. **Move users from Skype for Business Server 2015 to Skype for Business Server 2019:** <br> 
-Move the users from Skype for Business 2015 server to Skype for Business 2019 server using MACP users tab.
+Move the users from Skype for Business 2015 server to Skype for Business 2019 server using the MACP **Users** tab.
 
 :::image type="content" source="../media/migration/admin-center-users.png" alt-text="Screenshot of MACP users." lightbox="../media/migration/admin-center-users.png":::
 
@@ -66,7 +66,7 @@ Add users in the imported categories as creators. This step is necessary because
 :::image type="content" source="../media/migration/admin-center-category.png" alt-text="Screenshot of adding users as creators." lightbox="../media/migration/admin-center-category.png":::
 
 7. **Create Persistent Chat Rooms:**<br> 
-You should now be able to create persistent chat rooms with Skype for Business Server 2015 users having associated categories in the Skype for Business Server 2019 persistent chat pool or Skype for Business 2019 users in the Skype for Business 2019 persistent chat pool.
+You should now be able to create Persistent Chat rooms with Skype for Business Server 2015 users having associated categories in the Skype for Business Server 2019 Persistent Chat pool or Skype for Business 2019 users in the Skype for Business 2019 Persistent Chat pool.
 
-Additionally, if you have multiple Skype for Business 2015 persistent chat server pools, you need to export every database in a similar manner. Then import into Skype for Business 2019 Server and follow the steps as given above.
+Additionally, if you have multiple Skype for Business 2015 Persistent Chat server pools, you need to export every database in a similar manner. Then import into Skype for Business 2019 Server and follow the steps as given above.
 
