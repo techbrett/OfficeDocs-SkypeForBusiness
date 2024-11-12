@@ -238,6 +238,12 @@ For information about the latest Teams app releases, see [What's new in Microsof
 | Cisco Board Pro 55 | `11.3.1.16` | N/A | `1449/1.0.96.2023010302` | `5.0.5484.0` | `1.0.0.202209060820.product` | March 30, 2023 |
 | Cisco Board Pro 75 | `11.3.1.16` | N/A | `1449/1.0.96.2023010302` | `5.0.5484.0` | `1.0.0.202209060820.product` | March 30, 2023 |
 
+#### Crestron
+
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Crestron AIO Video Bar 70 | `1.240912.1415` | N/A | `1449/1.0.96.2024080804 ` | `5.0.6152.0` | `1.0.0.202402202353.product`| November 11, 2024 |
+| Crestron Touch Panel TS-1070 | `2.005.1054.001` | N/A | `1449/1.0.96.2024080804 ` | `5.0.6152.0` | `1.0.0.202402202353.product`| November 11, 2024 |
 
 #### DTEN
 
@@ -408,6 +414,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 | Poly Studio X50 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly Studio X52 | `4.3.2.422023` |`N/A` |`1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly Studio X70 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly Studio X72 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| November 11, 2024|
 | Poly Studio G7500 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly Studio G62 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly TC8 | `6.3.2.211744` | N/A | `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
