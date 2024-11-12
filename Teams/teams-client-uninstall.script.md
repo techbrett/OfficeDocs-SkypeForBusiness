@@ -44,7 +44,7 @@ If the script is run in Intune or other device management software:
 
 ### Teams meeting add-in issue resolution
 
-Microsoft has [an additional script](https://download.microsoft.com/download/d/f/c/dfc1a7ce-e3da-4e12-94fc-bea60ba3d9ba/DetectAndUninstallTMA.ps1) to deal with issues such as the TMA problem mentioned previously. This script needs to be deployed in a user context through Intune or some manageability software, and run periodically to address any issues as they occur.
+To address the TMA issue when it does occur, Microsoft has [an additional script](https://download.microsoft.com/download/d/f/c/dfc1a7ce-e3da-4e12-94fc-bea60ba3d9ba/DetectAndUninstallTMA.ps1) to resolve the issue.
 
 > [!NOTE]
 > If the new Teams client is running and the TMA issue is detected by this script, it can't fix the issue.
