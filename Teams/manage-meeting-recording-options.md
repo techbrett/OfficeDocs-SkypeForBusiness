@@ -42,7 +42,7 @@ The following table shows the features available to help you manage meeting reco
 |Require participant agreement for recording|Yes|No|No|No|
 |Who can record and transcribe|No|Yes|Yes|Yes|
 
-You control whether meeting recording is available in your organization. Through sensitivity labels, meeting templates, and meeting organizer settings, both you and your meeting organizers can manage who can record and transcribe and whether meetings are automatically recorded and transcribed.
+You control whether the ability to record meetings is available in your organization. Through sensitivity labels, meeting templates, and meeting organizer settings, both you and your meeting organizers can manage who can record and transcribe and whether meetings are automatically recorded and transcribed.
 
 ## Block or allow download of channel meeting recordings
 
