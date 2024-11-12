@@ -71,6 +71,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | DTEN D7X 75" | `1.2.8` |  August 15, 2027 |  Medium size room (4.5 m x 6 m) | 12 |
 | DTEN Mate Touch Console | `2.0.2.0` | Septmber 3, 2025 |  Compatible with DTEN DCR200 Bar, DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
 | DTEN D7X 55" | `1.2.2` |August 15, 2027| Small meeting room (4.5 m x 4.5 m) | 12 |
+| DTEN Bar + Vue | `1.3.0` | October 4, 2026 | Small Meeting Room (4.5 m x 4.5 m) | 12 |
+| DTEN Bar + Vue Pro | `1.3.0` | October 4, 2026 | Small Meeting Room (4.5 m x 4.5 m) | 12 |
 | EPOS Expand 5T | `1.2.22362.04` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | EPOS EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2025 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
 | Jabra PanaCast 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
@@ -236,6 +238,12 @@ For information about the latest Teams app releases, see [What's new in Microsof
 | Cisco Board Pro 55 | `11.3.1.16` | N/A | `1449/1.0.96.2023010302` | `5.0.5484.0` | `1.0.0.202209060820.product` | March 30, 2023 |
 | Cisco Board Pro 75 | `11.3.1.16` | N/A | `1449/1.0.96.2023010302` | `5.0.5484.0` | `1.0.0.202209060820.product` | March 30, 2023 |
 
+#### Crestron
+
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Crestron AIO Video Bar 70 | `1.240912.1415` | N/A | `1449/1.0.96.2024080804 ` | `5.0.6152.0` | `1.0.0.202402202353.product`| November 11, 2024 |
+| Crestron Touch Panel TS-1070 | `2.005.1054.001` | N/A | `1449/1.0.96.2024080804 ` | `5.0.6152.0` | `1.0.0.202402202353.product`| November 11, 2024 |
 
 #### DTEN
 
@@ -406,6 +414,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 | Poly Studio X50 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly Studio X52 | `4.3.2.422023` |`N/A` |`1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly Studio X70 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly Studio X72 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| November 11, 2024|
 | Poly Studio G7500 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly Studio G62 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly TC8 | `6.3.2.211744` | N/A | `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
