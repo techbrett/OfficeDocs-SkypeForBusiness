@@ -73,7 +73,7 @@ To set up a line key for speed dial, follow these steps:
 
 3. **To modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
 
-:::image type="content" source="./media/nontouch-line-keys-manage.jpg" alt-text="Screenshot of line key management options."
+  :::image type="content" source="./media/nontouch-line-keys-manage.jpg" alt-text="Screenshot of line key management options."
 
 - **Unassign line key:** - Use this setting to remove an assigned line key.
 - **Reassign line key:** - Use this setting to modify the contact assigned to this line key.
