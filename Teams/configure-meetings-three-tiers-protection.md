@@ -59,6 +59,7 @@ The following table summarizes the configurations for each tier. Use these confi
 |People dialing in can bypass the lobby|**Off**|**Off**|**Off**|**Off**|
 |Prevent copying chat content to clipboard|**Off**|**Off**|**On**|**On**|
 |Record meetings automatically|**Off**|**Off**|**Off**|**Off**|
+|Require a verification check from|**Not required**|**Anonymous users**|**Anonymous users and people from untrusted organizations**|**Anonymous users and people from untrusted organizations**|
 |Who can bypass the lobby?|**People in my org, trusted orgs, and guests**|**People who were invited**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
 |Who can present|**People in my org and guests**|**People in my org and guests**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
 |Who can record|**Organizers, co-organizers, and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
@@ -73,7 +74,7 @@ Details on how to configure each tier are covered in:
 
 Both meeting templates and sensitivity labels have the ability to enforce certain meeting options. Most options can be enforced as either on or off or can be left unconfigured so the meeting organizer can set them.
 
-> [!Important]
+> [!IMPORTANT]
 > Some features are [controlled by admin policies](meeting-templates-sensitivity-labels-policies.md#policies-labels-templates-and-meetings-settings) and must be enabled there before they can be controlled by meeting templates and sensitivity labels.
 
 Some options are only available in sensitivity labels and some are only available in templates. The following are available in both:
@@ -84,6 +85,7 @@ Some options are only available in sensitivity labels and some are only availabl
 - Meeting recording
 - Prevent copying chat content to clipboard
 - Watermarking
+- Require a verification check from
 
 Sensitivity labels and templates can be used together to help you meet your compliance needs. For more information, see [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md).
 
@@ -145,6 +147,7 @@ For the baseline tier, we allow everyone except anonymous attendees to bypass th
 As an admin, you can control the lobby in the following ways:
 
 - The **Who can bypass the lobby?** admin meeting policy (per user or group)
+- The **Who can admit from lobby** admin meeting policy (per organizer or group)
 - The **People dialing in can bypass the lobby** admin meeting policy (per user or group)
 - The **Who can bypass the lobby?** option in sensitivity labels and meeting templates (per meeting)
 - The **People dialing in can bypass the lobby** admin meeting policy (per user or group) or in sensitivity labels and meeting templates (per meeting)
@@ -154,6 +157,8 @@ These options are also available to the meeting organizer unless they've been lo
 If you're in a highly regulated industry and you need to manually admit each attendee to all meetings in your organization, you can configure the lobby by using admin meeting policies in the Teams admin center. If your organization has different types of meetings that have different lobby requirements, then we recommend using meeting templates or sensitivity labels to configure these options.
 
 While the admin policy sets a default, you need a template or label to enforce a lobby option.
+
+You can choose to keep the default for **Who can admit from lobby** as **Organizers and presenters** or change it to **Organizers and co-organizers**. This per-organizer policy sets a default that your organizers can change through their **Meeting options**. You must manage this setting through the Teams admin center. Meeting templates and sensitivity labels don't support this policy.
 
 For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
