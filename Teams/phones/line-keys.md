@@ -35,7 +35,7 @@ A phone line key is one of the keys used to designate individual lines on a phon
 
 To set up a line key for speed dial, follow these steps:
 
-1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709.
+1. **Update the Teams phone to version 1449/1.0.94.2024101709**. After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709.
 
     You can see the versioning information in the Teams admin center or on the Teams phone.
 
@@ -75,9 +75,9 @@ To set up a line key for speed dial, follow these steps:
 
      :::image type="content" source="./media/nontouch-line-keys-manage.jpg" alt-text="Screenshot of line key management options."
 
-- **Unassign line key:** - Use this setting to remove an assigned line key.
-- **Reassign line key:** - Use this setting to modify the contact assigned to this line key.
-- **Manage line key:** - Use this setting to access more management options.
+    - **Unassign line key:** - Use this setting to remove an assigned line key.
+    - **Reassign line key:** - Use this setting to modify the contact assigned to this line key.
+    - **Manage line key:** - Use this setting to access more management options.
   
 4. **To place a call:** Press or select on the key to place a call to the user or number assigned to that line key.
 
