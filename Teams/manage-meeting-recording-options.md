@@ -37,7 +37,7 @@ The following table shows the features available to help you manage meeting reco
 |Meeting recording overall|Yes|No|No|No|
 |Privacy and Security URL|Yes|No|No|No|
 |Record and transcribe automatically|No|Yes|Yes|Yes|
-|Recording and transcript expiration|Yes|No|No|No|
+|Recordings and transcripts expiration|Yes|No|No|No|
 |Transcription|Yes|No|No|Yes|
 |Require participant agreement for recording|Yes|No|No|No|
 |Who can record and transcribe|No|Yes|Yes|Yes|
