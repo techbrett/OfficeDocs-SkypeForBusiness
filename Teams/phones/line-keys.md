@@ -37,39 +37,39 @@ To set up a line key for speed dial, follow these steps:
 
 1. **Update the Teams phone to version 1449/1.0.94.2024101709** After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running Android version 1449/1.0.94.2024101709.
 
-  You can see the versioning information in the Teams admin center or on the Teams phone.
+    You can see the versioning information in the Teams admin center or on the Teams phone.
 
-  To see it in the Teams admin center:
+    To see it in the Teams admin center:
 
-  1. Sign in to the Teams admin center.
-  2. Go to **Teams devices** > **Phones** > then select the phone you want to look at.
-  3. Then in the table under **Software type** look for **Teams** and in the **Current version** column you can see the version.
+    1. Sign in to the Teams admin center.
+    2. Go to **Teams devices** > **Phones** > then select the phone you want to look at.
+    3. Then in the table under **Software type** look for **Teams** and in the **Current version** column you can see the version.
 
-  To see the versioning information on the Teams phone itself: Go to the **Profile** icon > **Settings** > **About**.
+       To see the versioning information on the Teams phone itself: Go to the **Profile** icon > **Settings** > **About**.
 
-> [!IMPORTANT]
-> With this update, you can use line keys to set up speed dial for contacts and phone numbers only.
+       > [!IMPORTANT]
+       > With this update, you can use line keys to set up speed dial for contacts and phone numbers only.
 
-> [!NOTE]
-> With this update, line keys are available for nontouch Teams phone and Teams phones with sidecars.
+       > [!NOTE]
+       > With this update, line keys are available for nontouch Teams phone and Teams phones with sidecars.
 
 2. **To assign a contact for speed dial:** Select on **Assign line key** and search for an existing contact including with an external phone number, or add a new one.
 
-- When you first start to assign line keys, you see:
+    - When you first start to assign line keys, you see:
 
-  :::image type="content" source="./media/nontouch-line-keys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys."
+      :::image type="content" source="./media/nontouch-line-keys-empty.jpg" alt-text="Screenshot of a non touch phone with line keys."
 
-- Find an available line key for you to use, and select **Assign line key**.
+    - Find an available line key for you to use, and select **Assign line key**.
   
-  :::image type="content" source="./media/nontouch-line-keys-assign.jpg" alt-text="Screenshot of an available line key on a Teams phone."
+      :::image type="content" source="./media/nontouch-line-keys-assign.jpg" alt-text="Screenshot of an available line key on a Teams phone."
   
-- Press and hold on a line key to assign a contact or phone number:
+    - Press and hold on a line key to assign a contact or phone number:
 
-  :::image type="content" source="./media/nontouch-line-keys-help.jpg" alt-text="Screenshot of how to long press a line key to set it up."
+      :::image type="content" source="./media/nontouch-line-keys-help.jpg" alt-text="Screenshot of how to long press a line key to set it up."
 
-- After you assign a contact or phone number to the line key, you'll see:
+    - After you assign a contact or phone number to the line key, you'll see:
   
-  :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of how to long press a line key that is assigned."
+      :::image type="content" source="./media/nontouch-line-keys-assigned.jpg" alt-text="Screenshot of how to long press a line key that is assigned."
 
 3. **To modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
 
