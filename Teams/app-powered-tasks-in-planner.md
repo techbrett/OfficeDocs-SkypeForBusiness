@@ -171,7 +171,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
 } 
 ```
 
-Here's an example of a request that creates a task named "Review security practices presentation" assigns it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the reference URL example from earlier in this article.
+Here's an example of a request that creates a task named "Review security practices presentation" and assigns it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the reference URL example from earlier in this article.
 
 **Request**
 
@@ -216,6 +216,8 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
 Here's what the user sees when they open the task in the Planner app in Teams. Selecting the **Start task** button takes the user to the destination experience in the Teams app. In this example, the experience is a security practices video in the YouTube app in Teams.
 
 :::image type="content" source="media/app-powered-tasks-details.png" alt-text="Screenshot of an example of an app-powered task in My Tasks in the Planner app in Teams" lightbox="media/app-powered-tasks-details.png":::
+
+:::image type="content" source="media/app-powered-tasks.png" alt-text="Screenshot of an example of an app-powered task in My Tasks in the Planner app in Teams" lightbox="media/app-powered-tasks.png":::
 
 ## Related articles
   
