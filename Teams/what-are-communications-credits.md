@@ -3,7 +3,7 @@ title: What are Communications Credits?
 ms.author: danismith
 author: DaniEASmith
 manager: jtremper
-ms.reviewer: mikedav
+ms.reviewer: dachocro
 ms.date: 11/12/2024
 ms.topic: conceptual
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059

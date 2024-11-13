@@ -3,7 +3,7 @@ title: Turn off Communication Credits auto recharge for New Commerce Experience 
 ms.author: danismith
 author: DaniEASmith
 manager: jtremper
-ms.reviewer: mikedav
+ms.reviewer: dachocro
 ms.date: 11/12/2024
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463

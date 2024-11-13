@@ -3,7 +3,7 @@ title: Set up Communications Credits for your organization
 ms.author: danismith
 author: DaniEASmith
 manager: jtremper
-ms.reviewer: mikedav
+ms.reviewer: dachocro
 ms.date: 11/12/2024
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
