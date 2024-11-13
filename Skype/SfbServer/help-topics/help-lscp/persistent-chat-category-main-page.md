@@ -39,7 +39,7 @@ You can perform the following tasks on the **Category** page:
 
 1. From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
     
-2. From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL. .
+2. From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL.
     
 3. In the left navigation bar, select **Persistent Chat**, and then select **Category**.
     
