@@ -53,7 +53,7 @@ As an admin, you can manage the following recording policies:
 - [Allow or prevent users from recording meetings](#allow-or-prevent-users-from-recording-meetings)
 - [Require participant agreement for recording and transcription](#require-participant-agreement-for-recording-and-transcription)
 - [Block or allow download of channel meeting recordings](#block-or-allow-download-of-channel-meeting-recordings)
-- [Recording expiration](#recording-expiration)
+- [Expiration policy](#expiration-policy)
 - [Set a custom privacy policy URL](#set-a-custom-privacy-policy-url)
 - [Meeting recording diagnostic tools](#meeting-recording-diagnostic-tools)
 
