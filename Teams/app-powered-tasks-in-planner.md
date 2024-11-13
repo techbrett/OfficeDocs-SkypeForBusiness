@@ -70,7 +70,7 @@ To define the attachment, specify the following properties.
 
 ```http
         "references": { 
-            "reference-URL": { 
+            "{reference-URL}": { 
             "@odata.type": "microsoft.graph.plannerExternalReference", 
             "alias": "{destination app name}", 
             "previewPriority": "!", 
@@ -160,7 +160,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
     }, 
     "details": { 
         "references": { 
-            "reference-URL": { 
+            "{reference-URL}": { 
                 "@odata.type": "microsoft.graph.plannerExternalReference", 
                 "alias": "{destination app name}", 
                 "previewPriority": "!", 
