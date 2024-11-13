@@ -37,7 +37,7 @@ Users get the tailored experience that a Teams app provides right from within th
 
 In addition to these benefits when users complete tasks, the app-powered tasks feature allows organizations to reflect required line-of-business (LOB) processes and workflows as tasks, so employees can see all tasks assigned to them from a single place.
 
-This experience is supported in the Planner app on Teams web, desktop, and mobile. You can update any Teams app to create app-powered tasks to provide tailored task experiences for your users.  
+This experience is supported in the Planner app on Teams web, desktop, and mobile. You can update any Teams app to create app-powered tasks and provide tailored task experiences for your users.  
 
 ## Requirements
 
@@ -61,7 +61,7 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
 
 Here's an overview of how to create an app-powered task using the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API.
 
-What differentiates an app-powered task from a standard task is the presence of a specific attachment. This attachment includes a link (reference URL) to the destination Teams app experience, which enables Planner to recognize the task as an app-powered task.
+What differentiates an app-powered task from a standard task is the presence of a specific attachment. This attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize the task as an app-powered task.
 
 Note that the API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
 
@@ -80,7 +80,7 @@ To define the attachment, specify the following properties.
         } 
 ```
 
-- The reference URL that points to the destination Teams app experience in StageView Modal link syntax. For more information, see [How to format the reference URL](#how-to-format-the-reference-url).
+- The reference URL that points to the destination experience in StageView Modal link syntax. For more information, see the [How to format the reference URL](#how-to-format-the-reference-url) section of this article.
 
 - `alias`: The name of your app. When a user opens the task, they see a message that says, “Complete this task in <**alias**>", and a **Start task** button to jump to the destination experience.
 
