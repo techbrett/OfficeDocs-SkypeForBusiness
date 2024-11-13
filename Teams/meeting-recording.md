@@ -184,25 +184,25 @@ The two values for this setting are:
 - **Allow** - Saves channel meeting recordings to a 'Recordings' folder in the channel. The permissions on the recording files are based off the channel's SharePoint permissions. This is the same as any other file uploaded for the channel. This is the default setting.
 - **Block** - Saves channel meeting recordings to a 'RecordingsOnly' folder in the channel. Channel owners have full rights on the recordings in this folder, but channel members have read access without ability to download.
 
-## Recording expiration
+## Expiration policy
 
 ### Recordings automatically expire
 
-This setting allows you to reduce the number of storage older recordings use. OneDrive and SharePoint monitor the expiration setting on all meeting recordings and automatically move recordings to the recycle bin on their expiration date.
+Both Teams meeting recording and transcription adhere to this setting. It allows you to reduce the number of storage older recordings or transcriptions use. OneDrive and SharePoint monitor the expiration setting on all recordings and transcriptions and automatically move them to the recycle bin on their expiration date.
 
 You can turn off the **Meetings automatically expire** setting in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) under **Meetings** > **Meeting policies** > **Recording & transcription**.
 
 ### Default expiration time
 
-This setting controls whether meeting recordings automatically expire. After turning on **Meetings automatically expire**, you'll get the option to set the **Default expiration time**, measured in days. Meeting recordings have a default expiration time of 120 days.
+Both Teams meeting recording and transcription adhere to this setting. It controls whether recordings or transcriptions automatically expire. After turning on **Recordings automatically expire**, you'll get the option to set the **Default expiration time**, measured in days. Meeting recordings and transcriptions have a default expiration time of 120 days.
 
-Any changes to this setting only affect newly created meeting recordings, not existing recordings. Admins can't change the expiration time on existing meeting recordings.
+Any changes to this setting only affect newly created recordings and transcriptions. Admins can't change the expiration time on existing meeting recordings and transcriptions.
 
 The expiration value is an integer for days that can be set as follows:
 
 - Minimum value: 1
 - Maximum value: 99999
-- -1 (PowerShell only) so the recordings never expire
+- -1 (PowerShell only) so the recordings and transcriptions never expire
 
 > [!NOTE]
 > The maximum default expiration time for A1 users is 30 days.
