@@ -43,7 +43,7 @@ This experience is supported in the Planner app on Teams web, desktop, and mobil
 
 App-powered tasks is an extensibility feature that relies on programmatic creation and management of task. The requirements to use this feature are as follows.
 
-- Each app-powered task must have a reference URL that points to an experience in a destination Teams app. We recommend that you point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [How to format the reference URL](#how-to-format-the-reference-url) section of this article.
+- Each app-powered task must have a reference URL that points to an experience in a destination Teams app. We recommend that you point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [How to configure the reference URL](#how-to-configure-the-reference-url) section of this article.
 - Tasks must be created and updated using the [business scenarios](/graph/api/resources/businessscenario-planner-overview?view=graph-rest-beta) API in Microsoft Graph.
 - Users who need to work with the task must have access to the destination app in Teams, as governed by the app policies you set in the Teams admin center. To learn more, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 - The destination Teams app is responsible for managing the task lifecycle, which includes the following actions:
@@ -59,11 +59,11 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
 
 ## Create an app-powered task
 
-Here's an overview of how to create an app-powered task using the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API.
+Here's an overview of how to use the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API to create an app-powered task.
 
 What differentiates an app-powered task from a standard task is the presence of a specific attachment. This attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize the task as an app-powered task.
 
-Note that the API refers to task attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
+Note that the API refers to these attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
 
 ### Define the attachment
 
@@ -80,7 +80,7 @@ To define the attachment, specify the following properties.
         } 
 ```
 
-- The reference URL that points to the destination experience in StageView Modal link syntax. For more information, see the [How to format the reference URL](#how-to-format-the-reference-url) section of this article.
+- The reference URL that points to the destination experience in Stageview Modal link syntax. For more information, see the [How to format the reference URL](#how-to-format-the-reference-url) section of this article.
 
 - `alias`: The name of your app. When a user opens the task, they see a message that says, “Complete this task in <**alias**>", and a **Start task** button to jump to the destination experience.
 
@@ -88,7 +88,9 @@ To define the attachment, specify the following properties.
 
 - `type`: Set to `TeamsHostedApp`.
 
-#### How to format the reference URL
+#### How to configure the reference URL
+
+##### Format the URL
 
 The reference URL to the destination experience must follow [Stageview Modal syntax](/microsoftteams/platform/tabs/open-content-in-stageview) using the following format:
 
