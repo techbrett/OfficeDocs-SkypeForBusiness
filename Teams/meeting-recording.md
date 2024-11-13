@@ -188,21 +188,21 @@ The two values for this setting are:
 
 ### Recordings automatically expire
 
-Both Teams meeting recording and transcription adhere to this setting. It allows you to reduce the number of storage older recordings or transcriptions use. OneDrive and SharePoint monitor the expiration setting on all recordings and transcriptions and automatically move them to the recycle bin on their expiration date.
+This setting allows you to manage storage by reducing the space that older recordings and transcripts use. OneDrive and SharePoint automatically monitor the expiration settings for all recordings and transcripts, moving them to the recycle bin once they reach their expiration date.
 
 You can turn off the **Meetings automatically expire** setting in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) under **Meetings** > **Meeting policies** > **Recording & transcription**.
 
 ### Default expiration time
 
-Both Teams meeting recording and transcription adhere to this setting. It controls whether recordings or transcriptions automatically expire. After turning on **Recordings automatically expire**, you'll get the option to set the **Default expiration time**, measured in days. Meeting recordings and transcriptions have a default expiration time of 120 days.
+This setting controls whether recordings or transcripts automatically expire. After turning on **Recordings automatically expire**, you'll get the option to set the **Default expiration time**, measured in days. Meeting recordings and transcripts have a default expiration time of 120 days.
 
-Any changes to this setting only affect newly created recordings and transcriptions. Admins can't change the expiration time on existing meeting recordings and transcriptions.
+Any changes to this setting only affect newly created recordings and transcripts. You can't change the expiration time on existing meeting recordings and transcripts.
 
-The expiration value is an integer for days that can be set as follows:
+The expiration value is an integer for days that you can set as follows:
 
 - Minimum value: 1
 - Maximum value: 99999
-- -1 (PowerShell only) so the recordings and transcriptions never expire
+- -1 (PowerShell only) so the recordings and transcripts never expire
 
 > [!NOTE]
 > The maximum default expiration time for A1 users is 30 days.
