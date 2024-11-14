@@ -63,7 +63,13 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
 
 Here's how to use the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API to create an app-powered task.
 
-The following shows the request, with placeholders for the properties that you specify in the request body.
+Use the following HTTP POST request, where `{your-business-scenario-ID}` is your business scenario ID:
+
+```http
+https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business-scenario-ID}/planner/tasks
+```
+
+The following shows a request, with placeholders for the properties that you specify in the request body.
 
 **Request**
 
@@ -152,7 +158,7 @@ Specify the following parameters in the reference URL.
 |---------|---------|
 |`Teams-app-Id`|The app ID of the Teams app you're integrating with the task.|
 |`URL-to-destination-experience`|The URL that points to the specific experience in your destination Teams app that you want users to see when they open the task. The domain of the URL must be a valid domain for the app ID. |
-|`page-title`| The title that should appear at the top of the screen when the user is shown the `contentUrl`.|
+|`page-title`| The title that should appear at the top of the screen when the user is shown the URL to the destination experience.|
 
 Here's an example of a reference URL before encoding:
 
@@ -168,7 +174,9 @@ If the YouTube app in Teams is available to you, you can send this URL to yourse
 
 ##### Encode the reference URL
 
-You need to encode the reference URL before you can use it in the attachment. Percent encoding ensures the link is in a compatible format for programmatic use. Follow these steps to encode the reference URL. Here, we use the example reference URL described earlier.
+You need to encode the reference URL before you can use it in the attachment. Percent encoding ensures the link is in a compatible format for programmatic use.
+
+Follow these steps to encode the reference URL. We use the example reference URL described earlier to demonstrate how to encode the URL.
 
 1. Percent encode the part of the URL that comes after `0?context=`. Don't encode `https://` or `=` (the equal symbol), or any of the characters in between.
 
