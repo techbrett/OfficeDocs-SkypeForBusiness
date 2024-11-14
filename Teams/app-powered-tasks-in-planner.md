@@ -57,11 +57,11 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
   - Mark the task as Completed when all steps are done. See [Update businessScenarioTask](/graph/api/businessscenariotask-update?view=graph-rest-beta).
   - Delete the task. See [Delete businessScenarioTask](/graph/api/businessscenarioplanner-delete-tasks?view=graph-rest-beta).
 
-    Some workflows might not have deterministic flows. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. As the Planner app can't determine whether all required steps are completed, this feature allows your Teams app to govern the lifecycle of the task. Similarly, users are prevented from updating task fields or marking the task as Completed. These actions might result in users making changes that conflict with what's reflected in your Teams app.
+    This feature allows your destination Teams app to govern the lifecycle of the task because some workflows might not have deterministic flows. As a result, the Planner app doesn't know whether all required steps are completed. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. Similarly, users are prevented from updating task fields or marking the task as Completed. These actions might result in users making changes that conflict with what's reflected in your destination Teams app.
 
 ## Create an app-powered task
 
-Here's how to use the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API to create an app-powered task.
+This section covers how to use the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API to create an app-powered task.
 
 Use the following HTTP POST request, where `{your-business-scenario-ID}` is your business scenario ID.
 
@@ -125,14 +125,6 @@ To define the attachment, specify the following properties in `"references"` in 
        } 
 ```
 
-<!-- - The reference URL in Stageview Modal link syntax. For details on how to format and encode the URL, see the [How to configure the reference URL](#how-to-configure-the-reference-url) section of this article.
-
-- `alias`: The name of your Teams app. When a user opens the task, they see a message that says, “Complete this task in \<alias>, and a **Start task** button to jump to the destination experience.
-
-- `previewPriority`: Leave as `!`.
-
-- `type`: Set to `TeamsHostedApp`.-->
-
 |Property |Description|
 |---------|---------|
 |`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to format and encode the URL, see the [Configure the reference URL](#configure-the-reference-url) section of this article.|
@@ -149,10 +141,6 @@ The reference URL to the destination experience must use [Stageview Modal link s
 `https://teams.microsoft.com/l/stage/{Teams-app-Id}/0?context={"contentUrl":"URL-to-destination-experience"},"name":"{page-title}","openMode":"modal"}`
 
 Specify the following parameters in the reference URL.
-
-<!--- `Teams-app-Id`: The app ID of the Teams app you're integrating with the task.
-- `URL-to-destination-experience`: The URL that points to the specific experience in your destination Teams app that you want users to see when they open the task. The domain of the URL must be a valid domain for the app ID.
-- `page-title`: The title that should appear at the top of the screen when the user is shown the `contentUrl`.-->
 
 |Parameter |Description |
 |---------|---------|
