@@ -24,6 +24,9 @@ ms.collection:
 
 # Create app-powered tasks in Planner for tailored task experiences
 
+> [!NOTE]
+> This feature is currently in public preview.
+
 ## Overview
 
 The app-powered tasks feature offers your organization more control over what users see when they open their tasks in the Planner app within Microsoft Teams. Instead of showing only the standard set of task fields, you can provide users with an experience tailored to the task at hand. That experience might be a workflow-specific set of fields or step-by-step guidance to walk the user through a workflow from beginning to end. To achieve this, you integrate a Teams app with the task and create these tasks programmatically.
@@ -165,7 +168,7 @@ If the YouTube app in Teams is available to you, you can send this URL to yourse
 
 ##### Encode the reference URL
 
-You need to encode the reference URL before using it in the attachment. Percent encoding ensures the link is in a compatible format for programmatic use. Follow these steps to encode the reference URL.
+You need to encode the reference URL before you can use it in the attachment. Percent encoding ensures the link is in a compatible format for programmatic use. Follow these steps to encode the reference URL. Here, we use the example reference URL described earlier.
 
 1. Percent encode the part of the URL that comes after `0?context=`. Don't encode `https://` or `=` (the equal symbol), or any of the characters in between.
 
@@ -211,7 +214,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
     },
     "details": {
         "references": {
-            "https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?  context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D": {
+            "https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D": {
                 "@odata.type": "microsoft.graph.plannerExternalReference",
                 "alias": "Security practices presentation",
                 "previewPriority": "!",
