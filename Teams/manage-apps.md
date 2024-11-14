@@ -26,9 +26,13 @@ ms.localizationpriority: high
 
 In the Teams admin center, we provide a few dedicated pages and UIs to manage your apps. You manage apps for your organization in the **Manage apps** page in the Teams admin center portal. Use the URL [https://admin.teams.microsoft.com/policies/manage-apps](https://admin.teams.microsoft.com/policies/manage-apps) to view and govern the apps that are available in your organization's app catalog, evaluate apps before allowing those and find support information, manage availability of apps across your org on a per-user or per-app basis, and do more.
 
-:::image type="content" source="media/manage-apps.png" alt-text="Screenshot showing the Manage apps page in Teams admin center." lightbox="media/manage-apps.png":::
+:::image type="content" source="media/manage-apps-policy-org.png" alt-text="Screenshot showing the Manage apps page in Teams admin center." lightbox="media/manage-apps-policy-org.png":::
 
-To use Teams admin center, you must have a Teams Administrator role. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles). Some admins with a higher privilege role can accomplish app governance tasks but we recommend using the lower privilege role when possible.
+If your organization uses [app centric management](app-centric-management.md) (whether migrated automatically or manually), you see a slightly different Manage Apps UI.
+
+:::image type="content" source="media/manage-apps-acm-org.png" alt-text="Screenshot showing the Manage apps page in Teams admin center." lightbox="media/manage-apps-acm-org.png":::
+
+To use Teams admin center, you must have a Teams Administrator role. Some admins with a higher privilege role can accomplish app governance tasks but we recommend using the lower privilege role where possible. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 App developers [extend Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/) by creating Copilot agents, for example, Microsoft Teams message extension or a Power Platform connector. These Copilot agents increase user productivity across daily tasks and workflows. Admins manage Copilot agents in the [Integrated apps page](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps) of the Microsoft 365 admin center.
 
@@ -70,7 +74,7 @@ To allow an app, you must do all of the following settings. To block an app, jus
 | Method                                                                                                           | Scope      | Use case                                                                                  |
 |:-----------------------------------------------------------------------------------------------------------------|:-----------|:------------------------------------------------------------------------------------------|
 | [Org-wide app settings](#manage-org-wide-app-settings)                                                           | Org-level  | Use this setting to allow use of relevant apps in your org.                               |
-| Block or unblock apps                                                                                            | App-level  | Use this setting to allow a specific app in your org. You control which users use an app. |
+| Block or unblock apps                                                                                            | App-level  | Use this setting to allow a few specific apps in your org.                                |
 | [App permission policy](teams-app-permission-policies.md) or [app centric management](app-centric-management.md) | User-level | Let all users or let specific users use an app.                                           |
 
 You allow or block specific apps on either the Manage apps page or in the app details page. Manage apps page displays all the available app and the current org-level app status. To allow or block an app, follow these steps:
