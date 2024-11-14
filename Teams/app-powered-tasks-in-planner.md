@@ -1,17 +1,17 @@
 ---
-title: Create app-powered tasks in Planner for tailored task experiences
+title: Manage app-powered tasks in Planner for tailored task experiences
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
-ms.date: 
+ms.date: 11/14/2024
 search.appverid: MET150
 searchScope: 
   - Microsoft Teams
 audience: admin
-description: 
+description: Learn how to create and manage app-powered tasks in the Planner app in Teams to provide tailored task experiences.
 ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
@@ -22,7 +22,7 @@ ms.collection:
 - highpri
 ---
 
-# Create app-powered tasks in Planner for tailored task experiences
+# Manage app-powered tasks in Planner for tailored task experiences
 
 > [!NOTE]
 > This feature is currently in public preview.
