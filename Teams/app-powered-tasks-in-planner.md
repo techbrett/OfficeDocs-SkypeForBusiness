@@ -63,10 +63,10 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
 
 Here's how to use the [Create businessScenarioTask](/graph/api/businessscenarioplanner-post-tasks) API to create an app-powered task.
 
-Use the following HTTP POST request, where `{your-business-scenario-ID}` is your business scenario ID:
+Use the following HTTP POST request, where `{your-business-scenario-ID}` is your business scenario ID.
 
 ```http
-https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business-scenario-ID}/planner/tasks
+POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business-scenario-ID}/planner/tasks
 ```
 
 The following shows a request, with placeholders for the properties that you specify in the request body.
@@ -196,7 +196,7 @@ Follow these steps to encode the reference URL. We use the example reference URL
 
 ## Example
 
-This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the reference URL example described earlier in this article.
+This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the reference URL example.
 
 **Request**
 
