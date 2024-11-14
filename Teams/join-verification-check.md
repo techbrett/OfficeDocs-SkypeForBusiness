@@ -83,7 +83,7 @@ Verification checks are supported on the following clients and platforms:
 
 ### Not supported
 
-Verification checks aren't supported on the following clients and platforms, allowing all participants to join meetings without completing a CAPTCHA challenge:
+When participants from the following clients and platforms attend meetings that require a verificiation check, they join without completing a CAPTCHA challenge:
 
 **Clients:** Cloud Video Interop (CVI), Azure Communication Services (ACS) platform
 
