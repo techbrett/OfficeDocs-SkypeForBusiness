@@ -1641,6 +1641,8 @@ items:
           items:
             - name: Set the Teams phone interface
               href: phones/teams-android-devices-user-interface.md
+            - name: Line keys for speed dialing
+              href: phones/line-keys.md
             - name: Manage Teams phones
               href: phones/manage-teams-phones.md
             - name: Update management
