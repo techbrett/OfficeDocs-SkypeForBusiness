@@ -94,7 +94,7 @@ The app-powered tasks feature offers your organization more control over what us
 
 That experience might be a workflow-specific set of fields or step-by-step guidance to walk the user through a workflow from beginning to end. To achieve this, you integrate a Teams app with the task and create these tasks programmatically.
 
-To learn more, see [Create app-powered tasks in Planner for tailored task experiences](app-powered-tasks-in-planner.md).
+To learn more, see [Manage app-powered tasks in Planner for tailored task experiences](app-powered-tasks-in-planner.md).
 
 ## Frontline workers and managers
 
