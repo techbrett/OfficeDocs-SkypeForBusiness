@@ -3,7 +3,7 @@ title: Set up Facilitator in Microsoft Teams for collaborative AI notes
 author: DaniESmith
 ms.author: danismith
 manager: jtremper
-ms.reviewer: andrewklutz
+ms.reviewer: solomon.alex, grace.culver
 ms.date: 11/18/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -47,9 +47,9 @@ Facilitator also continuously updates as the conversation progresses. For exampl
 >
 > Users are shown a notice when their queries are private or shared with others.
 
-For more information about how users can integrate AI-generated notes into their Teams chats, see [Invite Copilot as a chat participant in Microsoft Teams](https://support.microsoft.com/topic/d03e9237-ed4d-4695-8732-73a396e8b21f).
+For more information about how users can integrate AI-generated notes into their Teams chats, see [Keep track of chats with AI notes in Microsoft Teams](https://support.microsoft.com/office/keep-track-of-chats-with-AI-notes-in-Microsoft-Teams-0b7efbd0-fd3e-48e7-9a4b-4ea22cdc12c0).
 
-For more information about how users can integrate AI-generated notes into their Teams meetings, see [Enable Facilitator in Microsoft Teams meetings](https://support.microsoft.com/topic/37657f91-39b5-40eb-9421-45141e3ce9f6).
+For more information about how users can integrate AI-generated notes into their Teams meetings, see [Automate notetaking in Microsoft Teams meetings](https://support.microsoft.com/office/automate-notetaking-in-Microsoft-Teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6).
 
 ## Security, Purview, and Privacy
 
