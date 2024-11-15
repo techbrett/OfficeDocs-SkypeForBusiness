@@ -101,9 +101,11 @@ For general Teams recording capabilities, see [Teams recordings](./teams-recordi
 Compliance recording isn't supported for:
 
 - E911 emergency calling services
-- [Call Queues](./create-a-phone-system-call-queue.md)
 - Users operating in Survivable Branch Appliance mode
 - PSTN Calls for India users
+
+###### Call queues
+Compliance recording is not supported on the call queue resource account. Inbound call queue calls are recorded for users who have an assigned compliance recording policy. Some routing methods might involve usability concerns with multiple announcements.
 
 ## Supported notification methods
 
