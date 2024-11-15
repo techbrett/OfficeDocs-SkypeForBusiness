@@ -1,7 +1,7 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: bryanyce
-ms.date: 10/25/2024
+ms.date: 11/5/2024
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -52,6 +52,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Email communication for events](manage-email-communications.md)|![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
 |[External participants can give or request control](meeting-who-present-request-control.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
+|[Event chat](town-hall-chat.md)|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|Premium|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Hide attendee names](hide-attendee-names.md)|Premium|Premium|![Image of a x for no](media/x-for-no.png)|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|![Image of a x for no](media/x-for-no.png)|
@@ -78,11 +79,11 @@ The following table shows which features are available in meetings, webinars, an
 |[Quality of Service (QoS)](meetings-real-time-media-traffic.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Reactions](manage-reactions-meetings.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[Record automatically](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_whocanstartorstoparecording)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
-|[Recordings automatically expire](meeting-recording.md#recording-expiration)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
+|[Recordings automatically expire](meeting-recording.md#expiration-policy)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Recording storage and permissions](tmr-meeting-recording-change.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|
 |[Registration](set-up-webinars.md)| ![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
 |[Registration form for webinars](manage-registration-form-webinars.md)| ![Image of a x for no](media/x-for-no.png)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|
-|[Restrict who can record](manage-meeting-recording-options.md#manage-who-can-record-meetings)|Premium|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
+|[Restrict who can record](manage-meeting-recording-options.md#manage-who-can-record-and-transcribe-meetings)|Premium|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
 |[RTMP-In](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|![Image of a checkmark for yes](media/circle-check.png)|
 |[Sensitivity labels](/purview/sensitivity-labels-meetings)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a x for no](media/x-for-no.png)|![Image of a x for no](media/x-for-no.png)|
 |[Shared notes](meeting-policies-content-sharing.md)|![Image of a checkmark for yes](media/circle-check.png)|![Image of a checkmark for yes](media/circle-check.png)|Only for organizers and co-organizers.|

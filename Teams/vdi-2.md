@@ -45,9 +45,6 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
-> [!NOTE]
-> Support for Microsoft Teams and Microsoft 365 Apps is defined by the [Modern Lifecycle Policy](/lifecycle/policies/modern), which requires customers maintain an up-to-date configuration to stay supported. End-of-support dates for Windows Server 2019 and Windows Server 2022 are October 2025 and October 2026 respectively. For further information, please check [this link](https://go.microsoft.com/fwlink/?linkid=2274805).
-
 ## Optimizing with new VDI solution for Teams
 
 ### Step 1: Confirm prerequisites

@@ -41,18 +41,6 @@ This article, written for IT Pros and admins who are deploying and configuring T
 >
 > For admins to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
-The following sections in this article describe the Teams Premium enhancements for:
-
-- [Protection and advanced management for meetings](#protection-and-advanced-management-for-meetings)
-- [Personalized meetings](#personalized-meetings)
-- [Premium events](#premium-events)
-- [Virtual Appointments](#advanced-virtual-appointments)
-- [Intelligent meeting features](#intelligent-meeting-features)
-- [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
-- [Advanced Places Workplace Collaboration](#advanced-places-workplace-collaboration)
-- [Intelligent call recap](#intelligent-call-recap)
-- [Queues app](#queues-app)
-
 For more general information about Teams meetings and premium events, see the following articles:
 
 - [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md)
@@ -118,7 +106,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 ## Personalized meetings
 
-Teams Premium provides more ways to personalize your Teams meeting experiences with the following key features:
+Teams Premium provides more ways to personalize your Teams meeting experiences with the following key features. For an overview on personalized meetings, see [Custom meetings overview](custom-meetings-overview.md):
 
 - **Custom meeting backgrounds for organizations** - Create and define custom meeting backgrounds that your users can use during meetings and events.
 
@@ -153,6 +141,7 @@ The following sections describe Teams Premium feature enhancements for town hall
 Teams Premium provides more ways to elevate Teams town halls in your org with the following key features:
 
 - **Custom emails for town halls** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
+- **Event chat** - Organizers can allow attendees to use chat during town halls.
 - **Increased broadcast and Q&A capacity** - Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
 - **Live translated captions**- Organizers can choose up to 10 languages for attendees to use when translating captions during the town hall.
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for Premium town halls.
@@ -163,6 +152,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
   | Feature/Task | Can admins turn this feature on/off? |Documentation for admins| Documentation for your end users |
   | -------------------- |  ----------- | ----------- | ----------- |
   | Custom emails for town halls | Yes | [Manage email communications](manage-email-communications.md) |[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_town_hall_invites) |
+  | Event chat| Yes | [Manage event chat for Microsoft Teams town halls](town-hall-chat.md) |[Chat in a town hall in Microsoft Teams](https://support.microsoft.com/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338) |
   | Live translated captions | Yes |[Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
   | Manage which eCDN provider Premium town halls use |Yes |[Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#manage-the-ecdn-solution-for-premium-town-halls-and-view-only-meetings)|No end user control |
   | Microsoft eCDN |Yes |[How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant)|No end user control |

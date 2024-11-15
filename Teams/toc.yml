@@ -121,6 +121,8 @@ items:
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
                   href: teams-classic-client-uninstall.md
+                - name: Classic Teams uninstillation script
+                  href: teams-client-uninstall-script.md
                 - name: Feature differences between desktop and Teams for Web
                   href: new-teams-desktop-client-features.md
                 - name: Usage report for new Teams client
@@ -672,12 +674,16 @@ items:
           href: meeting-webinar-town-hall-feature-comparison.md
         - name: Presenter & organizer experience
           items: 
-            - name: Manage who can schedule town halls
+            - name: Manage who can schedule and attend town halls
               href: set-up-town-halls.md
+            - name: Manage who can schedule and attend webinars
+              href: set-up-webinars.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
-            - name: Manage who can schedule webinars
-              href: set-up-webinars.md
+            - name: Manage event chat for town halls
+              href: town-hall-chat.md
+            - name: Require verification checks
+              href: join-verification-check.md
             - name: Limit presenter role permissions
               href: presenter-role-reduction.md
             - name: Manage VOD publishing permissions for webinars and town halls 
@@ -704,8 +710,6 @@ items:
           items: 
             - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
-            - name: Require verification checks
-              href: join-verification-check.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -1310,6 +1314,8 @@ items:
   items:
     - name: Teams device store
       href: devices/device-store.md
+    - name: Copilot and Teams Rooms
+      href: rooms/copilot-admin-mtr.md
     - name: Teams device certification
       items:
         - name: Certification overview
@@ -1369,8 +1375,8 @@ items:
                       href: rooms/proximity-join.md
                     - name: Join meetings with QR codes
                       href: rooms/teams-rooms-qr-codes.md
-                    - name: SIP and H.323 calling with Teams Rooms
-                      href: rooms/meetings-with-SIP-H323-devices.md
+                    - name: SIP and H.323 dialing with Teams Rooms
+                      href: rooms/meetings-with-sip-h323-devices.md
                     - name: Join third-party meetings
                       href: rooms/third-party-join.md
                     - name: Digital signage
@@ -1633,6 +1639,8 @@ items:
           items:
             - name: Set the Teams phone interface
               href: phones/teams-android-devices-user-interface.md
+            - name: Line keys for speed dialing
+              href: phones/line-keys.md
             - name: Manage Teams phones
               href: phones/manage-teams-phones.md
             - name: Update management
@@ -1683,6 +1691,8 @@ items:
           href: manage-lists-app.md
         - name: Manage the Planner app
           href: manage-planner-app.md
+        - name: Manage app-powered tasks in the Planner app
+          href: app-powered-tasks-in-planner.md
         - name: Manage the Praise app
           href: manage-praise-app.md
         - name: Manage the Approvals app
@@ -1761,6 +1771,8 @@ items:
           href: audit-app-management-activities.md
         - name: View app usage report and analytics
           href: teams-analytics-and-reports/app-usage-report.md
+        - name: Take ownership of your org's apps
+          href: app-ownership-developer-portal.md
 
 - name: Industries and government guidance
   items: 
