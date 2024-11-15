@@ -27,9 +27,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Third-party compliance recording for Microsoft Teams calls, meetings, and events
+# Third-party compliance recording for Microsoft Teams calls and meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️ Calls
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Calls
 
 ## Compliance recording overview
 
