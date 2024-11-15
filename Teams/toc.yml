@@ -1643,6 +1643,8 @@ items:
           items:
             - name: Set the Teams phone interface
               href: phones/teams-android-devices-user-interface.md
+            - name: Line keys for speed dialing
+              href: phones/line-keys.md
             - name: Manage Teams phones
               href: phones/manage-teams-phones.md
             - name: Update management
@@ -1693,6 +1695,8 @@ items:
           href: manage-lists-app.md
         - name: Manage the Planner app
           href: manage-planner-app.md
+        - name: Manage app-powered tasks in the Planner app
+          href: app-powered-tasks-in-planner.md
         - name: Manage the Praise app
           href: manage-praise-app.md
         - name: Manage the Approvals app
