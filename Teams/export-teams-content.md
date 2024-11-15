@@ -55,10 +55,6 @@ Here are some examples on how you can use these export APIs:
 
     To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
 
-## What isn't supported by the Teams Export APIs?
-
-- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API doesn't support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
-
 ## How to access Teams Export APIs
 
 - **Example 1** is a simple query to retrieve all the messages of a user or team without any filters:
@@ -107,7 +103,7 @@ Here are some examples on how you can use these export APIs:
 > [!NOTE]
 > The order of messages in the response isn't guaranteed to be sorted by any datetime, such as createdDateTime nor lastModifiedDateTime.
 
-## Prerequisites to access Teams Export APIs
+## Prerequisites to access Teams Export APIs 
 
 - Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
   
@@ -396,3 +392,26 @@ $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id 
  - the query returns messages sent by the system if `messageType eq 'systemEventMessage'` is present
 
 These parameters can be combined between them using the OR operators as well as by combining with the `lastModifiedDateTime` `$filter` parameter.
+
+## Microsoft 365 Copilot Interactions & Microsoft 365 Chat (Preview)
+
+The new Copilot Activity Export API will allow you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API will capture the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook. 
+
+## How to access Copilot Activity Export APIs (Preview)
+
+- **Example 1** is a simple query to retrieve all the copilot interactions without any filters (beta):
+
+  ```HTTP
+  GET https://graph.microsoft.com/beta/copilot/users/{id}/interactionHistory/getAllEnterpriseInteractions 
+  ```
+- **Example 2** is a simple query to retrieve all the copilot interactions with appclass filters (beta):
+
+  ```HTTP
+  GET https://graph.microsoft.com/beta/copilot/users/{id}/interactionHistory/getAllEnterpriseInteractions?$filter=appClass eq 'IPM.SkypeTeams.Message.Copilot.Teams or appClass eq 'IPM.SkypeTeams.Message.Copilot.BizChat' (beta)
+  ```
+## Prerequisites to access Copilot Activity Export APIs (Preview)
+
+Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
+  
+  - *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
+
