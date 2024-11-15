@@ -251,30 +251,28 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 
 ## Advanced Places Workplace Collaboration
 
-With a Teams Premium license, your users can experience [PLACEHOLDER EDIT LATER: advanced features that support advanced booking, space analytics] in Places. [PLACEHOLDER EDIT LATER: As an admin, you get advanced management capabilities].
+With a Teams Premium license, your users can experience advanced features that support the booking experience in Places. As an admin, you have access advanced management capabilities and reports.
 
 Teams Premium provides the following advanced capabilities in Places:
 
-- **Places finder** - Your users can book and check into workspaces, as well as use seat assignments to sit near collaborators.
-- **Places explorer** - Get a singular view of the people, spaces, and experiences at each workplace location.​ [ CANT FIND DOCS ON THIS]
-- **Places analytics** - You can learn which desks and rooms are most frequently used, and get suggestions on how to optimize space management. You can also identify trends for key buildings, bookable rooms, and shared work spaces.
 - **Auto release and check-in for rooms** - If you create auto release for rooms, when a room that you enable for auto release isn't being used, Teams and Places free up the room for others to reserve.
-- **Team guidance** - Find the best work patterns for teams by establishing expectations and adjusting the rhythm to meet the needs of the group.  
-- **Quick book** - For in-office meetings without a space booked, get intelligent suggestions for each meeting for the day and book at once in bulk.
 - **Individual desk booking** - Allow users to select and book individual desks for their day in the office.
+- **Places explorer** - Get a singular view of the people, spaces, and experiences at each workplace location.​
+- **Places finder** - Your users can book and check into workspaces, as well as use seat assignments to sit near collaborators.
+- **Quick book** - For in-office meetings without a space booked, get intelligent suggestions for each meeting for the day and book at once in bulk.
+- **Space analytics** - You can learn which desks and rooms are most frequently used, and get suggestions on how to optimize space management. You can also identify trends for key buildings, bookable rooms, and shared work spaces.
+- **Team guidance** - Find the best work patterns for teams by establishing expectations and adjusting the rhythm to meet the needs of the group.  
 
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
 | -------------------- | ----------- | ----------- |----------- |
-| Places finder| Yes| [Enabling Microsoft Places Finder in Outlook](/microsoft-365/places/enabling-places-finder) | [Where will I see Microsoft Places Finder when enabled?](/microsoft-365/places/enabling-places-finder#where-will-i-see-microsoft-places-finder-when-enabled)|
-| Places analytics and reports| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | No end user control|
-| Connect building occupancy signals| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Connecting building occupancy signals](/microsoft-365/places/connected-buildings) | No end user control|
 | Auto release for rooms| Yes|[How to enable specific rooms for Auto Release](/microsoft-365/places/enable-auto-release#how-to-enable-specific-rooms-for-auto-release) | [Overview of Auto Release](/microsoft-365/places/enable-auto-release#overview-of-auto-release)|
-| Individual desk booking| Yes|[Configure desk pools and workspaces (optional)](/microsoft-365/places/setting-up-desk-workspaces-in-places-finder) | [IS THERE AN END USER DOC ON RESERVING DESKS/ DESK POOLS??](??)|
+| Individual desk booking| Yes|[Configure desk pools and workspaces (optional)](/microsoft-365/places/setting-up-desk-workspaces-in-places-finder) | No end user documentation|
+| Places finder| Yes| [Enabling Microsoft Places Finder in Outlook](/microsoft-365/places/enabling-places-finder) | [Where will I see Microsoft Places Finder when enabled?](/microsoft-365/places/enabling-places-finder#where-will-i-see-microsoft-places-finder-when-enabled)|
+| Space analytics| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | No end user control|
 
 ## Calls
 
 ### Intelligent call recap
-
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 
