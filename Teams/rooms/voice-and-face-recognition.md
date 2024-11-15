@@ -27,7 +27,7 @@ description: Learn how admins can manage and control voice and face enrollment i
 
 Voice and face enrollment is a feature in Microsoft Teams that allows users to create a voice and face profile. Voice and face enrollment is used to improve the audio quality and user experience of Teams meetings and calls. This feature helps to reduce background noise and secondary speakers and provides speaker attribution and Microsoft CoPilot accuracy in meeting rooms equipped with Microsoft Teams Rooms devices. Admins and security teams can manage and control this feature and ensure for which user the enrollment and usage of the profile are turned on.
 
-Users can unenroll their profile, even if the admin disables enrollment for them. Users can save their information by staying enrolled so they are in full control of their voice and face data. See [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0).
+Users have full control over their voice and face data and can choose to stay enrolled or unenroll their profiles at any time through their desktop client, even if admins have disabled enrollment after the user has enrolled. See [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0).
 
 This article covers:
 
@@ -182,4 +182,18 @@ To export the voice and face profiles of users using the Teams Admin Center, adm
 **Question:** How is data stored and processed for cross tenants?  
 
 **Answer:** We don't support getting data cross-tenant. We only retrieve data for their tenant only.
+
+**Question:** Are voice and face enrollments available in GCCH and DOD?
+
+**Answer:** No, voice and face enrollments are currently available only up to GCC and are not available in GCCH or DOD environments.
+
+## Related topics
+
+- [Manage voice isolation for your users' Microsoft Teams calls and meetings](/microsoftteams/voice-isolation)
+
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy?view=teams-ps)
+
+- [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
+
+- [Manage voice recognition technology controls for an Intelligent Speaker](/microsoftteams/rooms/voice-recognition?branch=main&branchFallbackFrom=pr-en-us-14676)
 
