@@ -113,7 +113,7 @@ Larger meeting sizes might have performance implications and will be addressed w
 
 **Call queues**
 
-Compliance recording is not supported on the call queue resource account. Inbound call queue calls are recorded for users who have an assigned compliance recording policy. Some routing methods might involve usability concerns with multiple announcements.
+Inbound call queue calls are recorded where users have an assigned compliance recording policy. Some routing methods might involve usability concerns with multiple announcements.
 
 ## Supported notification methods
 
