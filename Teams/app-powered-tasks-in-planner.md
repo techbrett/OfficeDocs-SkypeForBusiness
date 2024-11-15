@@ -34,7 +34,7 @@ The app-powered tasks feature offers your organization more control over what us
 Say, for example, users in your organization use a Teams app to track and complete inspections. You choose to integrate this inspections app with tasks so that a Planner task is created for each inspection tracked in the system.
 
 - When a user opens one of these tasks from the Planner app in Teams, they see a simplified screen with a button to jump directly to the inspection experience powered by your inspections app.
-- When they complete the task and exit the inspections experience, they're right back in Planner where they started.
+- When they complete the task and close the inspections experience, they're right back in Planner where they started.
 
 Users get the tailored experience that a Teams app provides right from within their assigned tasks. They don't have to navigate to a different app to get work done or lose context of where they were when working with their tasks.
 
@@ -57,7 +57,7 @@ App-powered tasks is an extensibility feature that relies on programmatic creati
   - Mark the task as Completed when all steps are done. See [Update businessScenarioTask](/graph/api/businessscenariotask-update?view=graph-rest-beta).
   - Delete the task. See [Delete businessScenarioTask](/graph/api/businessscenarioplanner-delete-tasks?view=graph-rest-beta).
 
-    This feature allows your destination Teams app to govern the lifecycle of the task because some workflows might not have deterministic flows. As a result, the Planner app doesn't know whether all required steps are completed. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. Similarly, users are prevented from updating task fields or marking the task as Completed. These actions might result in users making changes that conflict with what's reflected in your destination Teams app.
+This feature allows your destination Teams app to govern the task lifecycle because some workflows might not have deterministic flows. As a result, the Planner app doesn't know whether all required steps are completed. For example, a finding during an inspection might result in the inclusion of several more steps in the inspection. Similarly, users are prevented from updating task fields or marking the task as Completed. These actions might result in users making changes that conflict with what's reflected in your destination Teams app.
 
 ## Create an app-powered task
 
@@ -106,7 +106,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
 } 
 ```
 
-### Define the attachment
+<!--### Define the attachment
 
 What differentiates an app-powered task from a standard task is the presence of a specific attachment. The attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize a task as an app-powered task.
 
@@ -127,20 +127,20 @@ To define the attachment, specify the following properties in `"references"` in 
 
 |Property |Description|
 |---------|---------|
-|`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to format and encode the URL, see the [Configure the reference URL](#configure-the-reference-url) section of this article.|
+|`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to construct and encode the URL, see the [Configure the reference URL](#configure-the-reference-url) section of this article.|
 |`alias`|The name of your Teams app. When a user opens the task, they see a message that says, “Complete this task in \<alias>, and a **Start task** button to jump to the destination experience.|
 |`previewPriority`|Leave as `!`.|
 |`type`| Set to `TeamsHostedApp`.|
 
 #### Configure the reference URL
 
-##### Format the URL
+##### Construct the URL
 
 The reference URL to the destination experience must use [Stageview Modal link syntax](/microsoftteams/platform/tabs/open-content-in-stageview) in the following format:
 
 `https://teams.microsoft.com/l/stage/{Teams-app-Id}/0?context={"contentUrl":"URL-to-destination-experience"},"name":"{page-title}","openMode":"modal"}`
 
-Specify the following parameters in the reference URL.
+To construct the reference URL, specify the following parameters.
 
 |Parameter |Description |
 |---------|---------|
@@ -160,7 +160,7 @@ In this example:
 
 If the YouTube app in Teams is available to you, you can send this URL to yourself and confirm it opens.
 
-##### Encode the reference URL
+##### Encode the URL
 
 You need to encode the reference URL before you can use it in the attachment. Percent encoding ensures the link is in a compatible format for programmatic use.
 
@@ -180,7 +180,7 @@ Follow these steps to encode the reference URL. We use the example reference URL
     `https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D`
 
     > [!NOTE]
-    > If your URL points to a Power App, make sure it includes the `&source=teamstab` parameter to make single sign-on (SSO) work for Power Apps and the `&skipMobileRedirect=1` parameter to skip the screen that prompts users to open the standalone Power App player.
+    > If your URL points to a Power App, make sure it includes the `&source=teamstab` parameter to make single sign-on (SSO) work for Power Apps and the `&skipMobileRedirect=1` parameter to skip the screen that prompts users to open the standalone Power App player.-->
 
 ## Example
 
@@ -223,7 +223,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
 
 ### What this looks like in the Planner app
 
-Here's what the user sees when they open the task in the Planner app in Teams. Selecting the **Start task** button takes the user to the destination experience in the Teams app. In this example, the experience is a security practices video in the YouTube app in Teams.
+Here's what the user sees when they open the task in the Planner app in Teams. Selecting the **Start task** button takes the user to the destination experience in the Teams app. In this example, the destination experience is a security practices video in the YouTube app in Teams.
 
 :::image type="content" source="media/app-powered-tasks-in-planner.png" alt-text="Screenshot of an example of an app-powered task in My Tasks in the Planner app in Teams." lightbox="media/app-powered-tasks-in-planner.png":::
 
