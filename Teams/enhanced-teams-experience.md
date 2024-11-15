@@ -249,9 +249,9 @@ Teams Premium provides the following advanced capabilities in Places:
 - **Individual desk booking** - Allow users to select and book individual desks for their day in the office.
 - **Places explorer** - Get a singular view of the people, spaces, and experiences at each workplace location.​
 - **Places finder** - Your users can book and check into workspaces, as well as use seat assignments to sit near collaborators.
-- **Quick book** - For in-office meetings without a space booked, get intelligent suggestions for each meeting for the day and book at once in bulk.
+- **Quick book** - For in-office meetings without a space booked, your users can get intelligent suggestions for each meeting for the day and book at once in bulk.
 - **Space analytics** - You can learn which desks and rooms are most frequently used, and get suggestions on how to optimize space management. You can also identify trends for key buildings, bookable rooms, and shared work spaces.
-- **Team guidance** - Find the best work patterns for teams by establishing expectations and adjusting the rhythm to meet the needs of the group.  
+- **Team guidance** - Managers and leaders in your organization can find the best work patterns for teams by establishing expectations and adjusting the rhythm to meet the needs of the group.  
 
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
 | -------------------- | ----------- | ----------- |----------- |
