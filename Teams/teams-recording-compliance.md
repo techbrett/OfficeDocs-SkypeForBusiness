@@ -27,9 +27,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Third-party compliance recording for Microsoft Teams calls, meetings, and events
+# Third-party compliance recording for Microsoft Teams calls and meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls ✔️ Calls ✔️ Live events
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Calls
 
 ## Compliance recording overview
 
@@ -98,12 +98,22 @@ From the available APIs and third-party compliance recording solutions, the foll
 
 For general Teams recording capabilities, see [Teams recordings](./teams-recording-policy.md)
 
+#### Considerations
+
 Compliance recording isn't supported for:
 
 - E911 emergency calling services
-- [Call Queues](./create-a-phone-system-call-queue.md)
 - Users operating in Survivable Branch Appliance mode
 - PSTN Calls for India users
+
+**Large Meetings**
+
+The Compliance Recording platform supports meeting sizes up to 250 users in paired bot mode.
+Larger meeting sizes might have performance implications and will be addressed with a future update.
+
+**Call queues**
+
+Inbound call queue calls are recorded where users have an assigned compliance recording policy. Some routing methods might involve usability concerns with multiple announcements.
 
 ## Supported notification methods
 
