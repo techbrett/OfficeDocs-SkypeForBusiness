@@ -29,7 +29,9 @@ description: Learn to manage meeting chat in Teams meetings and manage meeting c
 
 ## Overview
 
-In Microsoft Teams, chat allows participants to exchange messages to each other before, during, and after meetings and webinars. For town halls, only presenters, organizers, and co-organizers can use chat with each other. As an admin you can control:
+In Microsoft Teams, chat allows participants to exchange messages to each other before, during, and after meetings and webinars. For town halls, only presenters, organizers, and co-organizers can use chat with each other. To learn how attendees can use chat during town halls, see [Manage event chat for Microsoft Teams town halls](town-hall-chat.md).
+
+As an admin you can control:
 
 - Whether participants in your users' meetings and webinars can read and write chat messages.
 - Whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a trusted relationship.

@@ -57,6 +57,10 @@ Teams administrators and organizers have different policies and settings to cont
 
 For a complete list of meeting policies, see [Teams setting and policies reference](settings-policies-reference.md).
 
+## Customization with Teams Premium
+
+With a Teams Premium license, you can extend your organization's visual identity and compliance requirements across the meeting experience by adding logos and backgrounds that can be displayed in the meeting’s pre-join screen, lobby, and during the meeting experience. To learn more, see [Custom meetings overview](custom-meetings-overview.md).
+
 ## Audio Conferencing for meetings
 
 You can assign an Audio Conferencing license to meeting organizers so they can create meetings where attendees can join by dialing in from their phones. These meeting organizers can also dial-out to attendees to connect them to the meeting's audio portion. To learn more about Audio Conferencing, see [Audio Conferencing in Microsoft Teams](audio-conferencing-in-office-365.md).
@@ -158,7 +162,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Reactions](manage-reactions-meetings.md)| Manage whether reactions can be used in meetings created by organizers with this policy. |Can control whether reactions can be used in their meetings. |
 |[Recording storage and permissions](manage-reactions-meetings.md)| Manage recording storage and permissions. |Permissions depend on admin settings. |
 |[Real time telemetry](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md)|Can look at your users’ scheduled meetings and see audio, video, content sharing, and network-related issues. You can use this telemetry to investigate these issues during meetings and troubleshoot in real time.|No control|
-|[Restrict who can record (Teams Premium)](manage-meeting-recording-options.md#manage-who-can-record-meetings)| Can restrict which users can record by using a meeting template or sensitivity label. |Can manage options if admin doesn't lock label or template settings. |
+|[Restrict who can record (Teams Premium)](manage-meeting-recording-options.md#manage-who-can-record-and-transcribe-meetings)| Can restrict which users can record by using a meeting template or sensitivity label. |Can manage options if admin doesn't lock label or template settings. |
 |[RTMP-In (Teams Premium)](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their meetings. |Can produce their Teams meetings directly from an external hardware or software-based encoder to integrate different types of media. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Scheduling](manage-who-can-schedule-meetings.md)|Can define who can schedule private and channel meetings.|Can schedule meetings if allowed by admin.|
 |[Sensitivity labels](manage-who-can-schedule-meetings.md)|Can create sensitivity labels for Teams meetings.|Can apply your sensitivity label to meeting invites from Outlook or Teams. Recipients in your organization see the sensitivity label and all recipients see any headers or footers as configured content markings. Optionally, the meeting invite can be encrypted so only authorized people can see it and access the meeting link. Usage rights can further restrict access, for example, preventing the invite from being forwarded.|

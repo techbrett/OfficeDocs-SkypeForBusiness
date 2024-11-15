@@ -42,7 +42,6 @@ You can use the Teams admin center or PowerShell manage verification checks for 
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
 |Not required|NotRequired| **This is the default value**. When organizers with this policy create meetings and webinars, no users in that meeting complete a verification check before joining the meeting.|
-|Anonymous users|AnonymousUsers| When organizers with this policy create meetings and webinars, anonymous users must complete a verification check before joining the meeting.|
 |Anonymous users and people from untrusted organizations|AnonymousUsersAndUntrustedOrganizations| When organizers with this policy create meetings and webinars, anonymous users and people from untrusted organizations must complete a verification check before joining the meeting.  |
 
 ### Manage verification checks in the Teams admin center
@@ -53,7 +52,6 @@ You can use the Teams admin center or PowerShell manage verification checks for 
 4. Either select an existing policy or create a new one.
 5. Navigate to the **Meeting join & lobby** section and select one of the following options for **Require a verification check from:**
    - Not required (default)
-   - Anonymous users
    - Anonymous users and people from untrusted organizations
 6. Select **Save**
 
@@ -61,23 +59,23 @@ You can use the Teams admin center or PowerShell manage verification checks for 
 
 To  manage how users in your org use Copilot for Teams meetings and events, use the **`-CaptchaVerificationForMeetingJoin`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
-To require anonymous users to complete a verification check before joining the meetings and webinars created by organizers with this policy, use the following script:
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -CaptchaVerificationForMeetingJoin AnonymousUsers
-```
-
-Use the following script to require anonymous users and users from untrusted organizations to complete a verification check before joining meetings and webinars created by organizers under this policy:
+Require anonymous users and users from untrusted organizations to complete a verification check before joining meetings and webinars created by organizers with this policy:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -CaptchaVerificationForMeetingJoin AnonymousUsersAndUntrustedOrganizations
+```
+
+Prevent users from completing a verification check before joining meetings and webinars created by organizers with this policy:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -CaptchaVerificationForMeetingJoin NotRequired
 ```
 
 ## Client and platform support
 
 ### Supported
 
-Requiring verification checks is supported on the following surfaces and clients:
+Verification checks are supported on the following clients and platforms:
 
 **Clients:** Teams (T2.1, T2.2), Outlook
 
@@ -85,7 +83,7 @@ Requiring verification checks is supported on the following surfaces and clients
 
 ### Not supported
 
-Requiring verification checks isn't supported on the following surfaces and clients:
+When participants from the following clients and platforms attend meetings that require a verificiation check, they join without completing the CAPTCHA challenge:
 
 **Clients:** Cloud Video Interop (CVI), Azure Communication Services (ACS) platform
 
@@ -103,4 +101,3 @@ Requiring verification checks isn't supported on the following surfaces and clie
 - [Use sensitivity labels to protect calendar items, Teams meetings, and chat](meeting-templates-sensitivity-labels-policies.md)
 - [Plan for Teams meetings](plan-meetings.md)
 - [Plan for Teams webinars](plan-webinars.md)
-- [Plan for Teams town halls](plan-town-halls.md)
