@@ -54,6 +54,9 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for Auto attendants in the past six months
 
+- November 19
+  - [Dial by name improvements](#dial-by-name-improvements) when a search returns multiple people with the same name
+    
 - November 5
   - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
 
@@ -270,6 +273,19 @@ Create a new callable entity:
 ````PowerShell
 New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -Type ConfigurationEndPoint
 ````
+
+### Dial by name improvements
+
+When a dial by name search returns multiple people with the same name, the results can now be enhanced by appending additional information after the name. This makes it easier for callers to reach the correct person.
+
+The default is to only say the name however, the office or department information can now be added as part of the results.
+
+For more information, see:
+
+|New-CsAutoAttendant  |
+|:---------------------------------------|
+| [-UserNameExtension](/powershell/module/teams/new-csautoattendant#-UserNameExtension)  |
+
 
 ## Resources for complex scenarios
 
