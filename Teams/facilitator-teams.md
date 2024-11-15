@@ -51,7 +51,7 @@ For more information about how users can integrate AI-generated notes into their
 
 For more information about how users can integrate AI-generated notes into their Teams meetings, see [Automate notetaking in Microsoft Teams meetings](https://support.microsoft.com/office/automate-notetaking-in-Microsoft-Teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6).
 
-## Security, Purview, and Privacy
+## Security, Compliance, and Privacy
 
 Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy.
 
