@@ -106,6 +106,88 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
 } 
 ```
 
+### Configure the reference URL and define the attachment
+
+What differentiates an app-powered task from a standard task is the presence of a specific attachment. The attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize a task as an app-powered task.
+
+Keep in mind that the API refers to these attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
+
+First, you configure the reference URL to point to the destination experience. Then, specify the reference URL along with other required properties for the attachment in the request body.
+
+#### Configure the reference URL
+
+The reference URL uses a specific format. Follow these steps to construct and then encode the URL.
+
+##### Construct the URL
+
+The reference URL to the destination experience must use [Stageview Modal link syntax](/microsoftteams/platform/tabs/open-content-in-stageview) in the following format:
+
+`https://teams.microsoft.com/l/stage/{Teams-app-Id}/0?context={"contentUrl":"URL-to-destination-experience"},"name":"{page-title}","openMode":"modal"}`
+
+To construct the reference URL, specify the following parameters.
+
+|Parameter |Description |
+|---------|---------|
+|`Teams-app-Id`|The app ID of the Teams app you're integrating with the task.|
+|`URL-to-destination-experience`|The URL that points to the specific experience in your destination Teams app that you want users to see when they open the task. The domain of the URL must be a valid domain for the app ID. |
+|`page-title`| The title that should appear at the top of the screen when the user is shown the URL to the destination experience.|
+
+Here's an example of a reference URL before encoding:
+
+`https://teams.microsoft.com/l/stage/com.microsoft.teamspace.tab.youtube/0?context={"contentUrl":"https://tabs.teams.microsoft.com/youtubeContentStage?videoId=HBGmSy1iVmY","name":"Security%20talk","openMode":"modal"}`
+
+In this example:
+
+- `Teams-app-Id` is the app ID of the YouTube app in Teams (`com.microsoft.teamspace.tab.youtube`). Keep in mind that most Teams app IDs are alphanumeric and might look different.
+- `URL-to-destination-experience` points to the experience within the destination Teams app (`https://tabs.teams.microsoft.com/youtubeContentStage?videoId=HBGmSy1iVmY`).
+- `page-title` is the name of the screen title (`Security talk`) when loading the URL.
+
+If the YouTube app in Teams is available to you, you can send this URL to yourself and confirm it opens.
+
+##### Encode the URL
+
+You need to encode the reference URL before you can use it in the attachment. Percent encoding ensures the link is in a compatible format for programmatic use.
+
+Follow these steps to encode the reference URL. We use the example reference URL described earlier to demonstrate how to encode the URL.
+
+1. Percent encode the part of the URL that comes after `0?context=`. Don't encode `https://` or `=` (the equal symbol), or any of the characters in between.
+
+    `https://teams.microsoft.com/l/stage/com.microsoft.teamspace.tab.youtube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs.teams.microsoft.com%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D`
+
+    > [!TIP]
+    > This is the last step where the link can be easily validated in Teams chat. After you complete this step, you can test the URL by sending it to yourself in a Teams chat. The link should open on Teams desktop, web, or mobile for any user who has access to the destination app in Teams.
+
+1. Replace *all* `.` characters in the reference URL with `%2E`. You must do this across all characters in the reference URL, from beginning to end. If you skip this step, the reference URL might not work.
+
+    The following URL is ready for programmatic use.
+
+    `https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D`
+
+    > [!NOTE]
+    > If your URL points to a Power App, make sure it includes the `&source=teamstab` parameter to make single sign-on (SSO) work for Power Apps and the `&skipMobileRedirect=1` parameter to skip the screen that prompts users to open the standalone Power App player.
+
+#### Define the attachment
+
+To define the attachment, specify the following properties in `"references"` in the request body.
+
+```http
+        "references": { 
+            "{reference-URL}": { 
+            "@odata.type": "microsoft.graph.plannerExternalReference", 
+            "alias": "{destination app name}", 
+            "previewPriority": "!", 
+            "type": "TeamsHostedApp" 
+         } 
+       } 
+```
+
+|Property |Description|
+|---------|---------|
+|`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to construct and encode the URL, see the [Configure the reference URL](#configure-the-reference-url) section of this article.|
+|`alias`|The name of your Teams app. When a user opens the task, they see a message that says, “Complete this task in \<alias>, and a **Start task** button to jump to the destination experience.|
+|`previewPriority`|Leave as `!`.|
+|`type`| Set to `TeamsHostedApp`.|
+
 <!--### Define the attachment
 
 What differentiates an app-powered task from a standard task is the presence of a specific attachment. The attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize a task as an app-powered task.
@@ -184,7 +266,7 @@ Follow these steps to encode the reference URL. We use the example reference URL
 
 ## Example
 
-This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the reference URL example.
+This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the example reference URL from earlier in this article.
 
 **Request**
 
