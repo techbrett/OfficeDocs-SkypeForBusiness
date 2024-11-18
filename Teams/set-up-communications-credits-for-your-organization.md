@@ -86,7 +86,7 @@ Communication Credits are enabled for users who have either an Audio Conferencin
 
 - When using the auto-recharge function, invoicing for Communication Credits is generated when the trigger amount is reached and a recharge transaction is processed. Communication credit amounts are used in a first-in, first-out manner.
 
-- If you are a *volume licensing customer*, you can use your enterprise agreement for payment. If you have multiple enterprise agreement numbers, select which enterprise agreement you want to use for payment. Also, specify a purchase order number to associate with the enterprise agreement number.
+- If you're a *volume licensing customer*, you can use your enterprise agreement for payment. If you have multiple enterprise agreement numbers, select which enterprise agreement you want to use for payment. Also, specify a purchase order number to associate with the enterprise agreement number.
 
 ## Step 3: Assign Communication Credits licenses to users
 
@@ -103,7 +103,7 @@ Assign a Communication Credits license to each user by following these steps, ev
 1. Check the **Communication Credits** license checkbox.
 1. Select the **Save changes** button.
 
-Also, you can use [Powershell](/powershell/module/teams/) to assign licenses to multiple users in bulk.
+Also, you can use [PowerShell](/powershell/module/teams/) to assign licenses to multiple users in bulk.
 
 ## Related articles
 

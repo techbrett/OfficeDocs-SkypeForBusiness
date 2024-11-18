@@ -30,9 +30,9 @@ description: Learn how to turn off Communication Credits automatic recharge if y
 
 # Turn off Communication Credits auto recharge for new commerce experience (NCE) customers
 
-The new commerce experience (NCE) allows customers to pay for services *after* the services have been consumed, also known as post-usage billing.
+The new commerce experience (NCE) allows customers to pay for services *after* the services were consumed, also known as post-usage billing.
 
-Because Communication Credits are a pre-paid budget to support outgoing minutes, they're not available to purchase for customers with NCE calling subscriptions.
+Because Communication Credits are a prepaid budget to support outgoing minutes, they're not available to purchase for customers with NCE calling subscriptions.
 
 - For more information about the new commerce experience, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services).
 - To learn how to check if your tenant is on the NCE, see [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
@@ -52,7 +52,7 @@ If you're moving to NCE, turn off automatic recharge by completing the following
 1. On the **Auto-recharge settings** page, uncheck the box next to **Auto recharge**.
 1. Select the **Save** button.
 
-When this process is complete, you can transition to NCE before your Communications Credit balance is empty. Even as an NCE customer, the commerce system consumes your Communication Credit balance prior to changing to post-usage billing. There's no extra action needed by you to ensure this switch happens.
+When this process is complete, you can transition to NCE before your Communications Credit balance is empty. Even as an NCE customer, the commerce system consumes your Communication Credit balance before changing to post-usage billing. There's no extra action needed by you to ensure this switch happens.
 
 ## Related articles
 
