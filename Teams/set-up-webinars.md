@@ -26,7 +26,7 @@ description: Learn how to set up webinars and manage who can schedule and attend
 
 # Manage who can schedule and attend webinars in Microsoft Teams
 
-**APPLIES TO:** ![Image of a x for no](media/x-for-no.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a x for no](media/x-for-no.png) Town halls
+**APPLIES TO:** ![Image of a x for no](/office/media/icons/cancel-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Webinars ![Image of a x for no](/office/media/icons/cancel-teams.png) Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
