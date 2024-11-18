@@ -259,7 +259,7 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
-### Places Workplace Collaboration
+### Places workplace collaboration
 
 > [!NOTE]
 > This feature is currently in Public Preview.
