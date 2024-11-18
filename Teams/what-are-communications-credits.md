@@ -4,7 +4,7 @@ ms.author: danismith
 author: DaniEASmith
 manager: jtremper
 ms.reviewer: dachocro
-ms.date: 11/12/2024
+ms.date: 11/18/2024
 ms.topic: conceptual
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
@@ -26,7 +26,7 @@ ms.custom:
   - Licensing
   - admindeeplinkMAC
   - admindeeplinkTEAMS
-description: Learn about Communication Credits funding, how to find rates, and what services you receive.
+description: Learn about Communication Credits funding, how to find rates, and which services you receive.
 ---
 
 # What are Communications Credits?
@@ -35,18 +35,12 @@ Communications Credits pay for Audio Conferencing and Calling Plan minutes. They
   
 - Add toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues.
   - Toll-free calls are billed per minute and require a positive Communications Credits balance.
-
 - Dial out from an Audio Conference meeting to add someone else from anywhere in the world.
-
-- Dial out from an Audio Conference meeting to your mobile phone with the Microsoft Teams app to destinations that aren't already included in your subscription.
-
-- Dial any international phone number when you have a **Domestic Calling Plan** subscription.
-
+- Dial out from an Audio Conference meeting to their mobile phone with the Microsoft Teams app to destinations that aren't already included in their subscription.
+- Dial any international phone number when they have a **Domestic Calling Plan** subscription.
 - Dial international phone numbers beyond what is included in a **Domestic and International Calling Plan** subscription.
-
-- Dial out and pay per minute once you exhausted your monthly minute allotment.
-
-- Dial out and pay per minute for all outgoing calls, if you have a **Pay-As-You-Go Calling Plan**.
+- Dial out and pay per minute once they exhausted the monthly minute allotment.
+- Dial out and pay per minute for all outgoing calls, if they have a **Pay-As-You-Go Calling Plan**.
 
 To set up Communication Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
@@ -54,7 +48,7 @@ To set up Communication Credits, see [Set up Communications Credits for your org
 
 Not all customers can or should use Communication Credits. Here are a few reasons why you can't or shouldn't use Communication Credits.
 
-### Call destinations already be included in your subscription
+### Call destinations are already included in your subscription
 
 Outbound calls to some destinations may already be included in your Audio Conferencing or Calling Plan subscription. Check your subscription information for details before purchasing Communication Credits you don't need.
   
@@ -62,7 +56,7 @@ Outbound calls to some destinations may already be included in your Audio Confer
 
 If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits.
 
-If you're unable to purchase Communications Credits, open a support ticket from the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2166757), and we work with you to mitigate this issue until a permanent solution is in place.
+If you're unable to purchase Communications Credits, open a support ticket from the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2166757), and we can work with you to mitigate this issue until a permanent solution is in place.
 
 ### Customers with new commerce experience (NCE) calling subscriptions
 
@@ -70,9 +64,10 @@ The new commerce experience (NCE) allows customers to pay for services after the
 
 Because Communication Credits are a prepaid budget to support outgoing minutes, they're not available to purchase for customers with NCE calling subscriptions.
 
-NCE customers need to turn of Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for new commerce experience (NCE) customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
-
 For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
+
+> [!WARNING]
+> NCE customers need to turn of Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for new commerce experience (NCE) customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
 
 ### Your Calling Plan or Audio Conferencing plan is through a Cloud Solution Provider (CSP)
 
@@ -86,12 +81,9 @@ See the cost of calls for Teams Calling Plans at [Cloud-Based Phone System for V
   
 ## Determine how many Communication Credits to purchase
 
-You can fund Communication Credits with a **one-time purchase** or by setting up an **auto-recharge (recommended)** amount with a minimum balance that triggers a purchase of credits for that defined amount. Set up auto recharge amounts that allow you to monitor usage and find the most accurate auto recharge thresholds. Monitor usage over time and adjust the minimum balance and recharge amounts as needed.
+If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, most calling scenarios will no longer work, including toll-free phone numbers. As such, we recommend that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). View your current Communication Credits balance by going to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and selecting **Billing** > **Your products** > **Communications Credits**.
   
 If you're ready to set up Communication Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
-
-> [!WARNING]
-> If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, most calling scenarios will no longer work, including toll-free phone numbers. As such, we recommend that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). View your current Communication Credits balance by going to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and selecting **Billing** > **Your products** > **Communications Credits**.
 
 ### View your usage data in the Teams admin center
 
@@ -141,11 +133,11 @@ You can see the plans and pricing by visiting one of the following links:
 - [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762)
 - [Phone System](https://go.microsoft.com/fwlink/?linkid=799763 )
 
-You can also see information about pricing by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Purchase Services**.
+You can also see information about pricing by [signing in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and going to **Marketplace**.
   
 To see a table with the licenses you need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## Related articles
 
 - [What are Communication Credits?](what-are-communications-credits.md)
-- [Turn off Communication Credits auto recharge for new commerce experience (NCE) customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md)
+- [Turn off Communication Credits auto recharge for new commerce experience (NCE) customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
