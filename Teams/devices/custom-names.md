@@ -28,13 +28,27 @@ description: This article provides the information required when you want to add
 
 insert text
 
-## Heading 2
-
-insert text
-
 ### Heading 3
 
 insert text
+
+#### Heading 4
+
+**Bold text**
+
+*italic text*
+
+Numbered list:
+1. 
+2. 
+3. 
+4. 
+
+Bulleted list:
+- 
+- 
+- 
+- 
 
 ## Related articles
 
