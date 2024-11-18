@@ -1,5 +1,5 @@
 ---
-title: Custom names for Teams panels
+title: Add a custom name for Teams panels
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -19,10 +19,10 @@ f1.keywords:
   - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-description: This article provides the information required when you want to put in a custom name for a Microsoft Teams panel.
+description: This article provides the information required when you want to add in a custom name for a Microsoft Teams panel.
 ---
 
-# Create a custom name for Teams panels
+# Add a custom name for Teams panels
 
 ## Heading 2
 
