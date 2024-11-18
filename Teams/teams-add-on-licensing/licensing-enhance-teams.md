@@ -39,14 +39,33 @@ Microsoft Teams Premium is a Teams add-on license that allows organizations with
 
 This article is for IT admins who wish to understand Teams Premium licensing and purchase Teams Premium licenses for their users. This article provides answers to questions like:
 
-- [How does Teams Premium compare to Teams?](#how-does-teams-premium-compare-to-teams)
-- [Are there previous Teams features that moved to Teams Premium?](#are-there-previous-teams-features-that-moved-to-teams-premium)
-- [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
-- [Which users should be assigned Teams Premium licenses?](#which-users-should-be-assigned-teams-premium-licenses)
-- [How does Teams Premium differ from Teams Rooms Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
-- [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
-- [How do I purchase Teams Premium licenses?](#how-do-i-purchase-teams-premium-licenses)
-- [Is admin configuration required after assigning users licenses?](#is-admin-configuration-required-after-assigning-users-licenses)
+- [Microsoft Teams Premium licensing](#microsoft-teams-premium-licensing)
+  - [How does Teams Premium compare to Teams?](#how-does-teams-premium-compare-to-teams)
+    - [Meetings](#meetings)
+    - [Webinars](#webinars)
+    - [Town halls](#town-halls)
+    - [Advanced Collaboration Tools](#advanced-collaboration-tools)
+    - [Meetings protection](#meetings-protection)
+    - [Intelligent recap](#intelligent-recap)
+      - [Intelligent meeting recap](#intelligent-meeting-recap)
+    - [Virtual Appointments](#virtual-appointments)
+    - [Meet app](#meet-app)
+    - [Places Workplace Collaboration](#places-workplace-collaboration)
+    - [Queues app](#queues-app)
+    - [Immersive Mesh Experiences](#immersive-mesh-experiences)
+  - [Are there previous Teams features that moved to Teams Premium?](#are-there-previous-teams-features-that-moved-to-teams-premium)
+  - [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
+    - [Can I acquire Teams Premium features without the Teams Premium license?](#can-i-acquire-teams-premium-features-without-the-teams-premium-license)
+  - [Which users should be assigned Teams Premium licenses?](#which-users-should-be-assigned-teams-premium-licenses)
+    - [Which features are applied to organizers, attendees/users, or admins?](#which-features-are-applied-to-organizers-attendeesusers-or-admins)
+  - [How does Teams Premium differ from Teams Rooms Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
+  - [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
+    - [How does the Teams Premium self-service trial license work?](#how-does-the-teams-premium-self-service-trial-license-work)
+      - [Can I manage my users' self-service trial licenses?](#can-i-manage-my-users-self-service-trial-licenses)
+    - [What are the terms and conditions of the Teams Premium self-service trial?](#what-are-the-terms-and-conditions-of-the-teams-premium-self-service-trial)
+    - [What happens if my users' trial licenses expire?](#what-happens-if-my-users-trial-licenses-expire)
+  - [How do I purchase Teams Premium licenses?](#how-do-i-purchase-teams-premium-licenses)
+  - [Is admin configuration required after assigning users licenses?](#is-admin-configuration-required-after-assigning-users-licenses)
 
 To learn how to set up and configure Teams Premium features, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience), which also includes links to end-user documentation.
 
@@ -343,11 +362,11 @@ The following table shows which Teams Premium features provide primary value to 
 | Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
 | ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
 | **More intelligence** | ![Image of a checkmark for yes](../media/circle-check.png) Live translation for captions (40 languages) | ![Image of a checkmark for yes](../media/circle-check.png) AI-generated chapters for intelligent meeting recap recordings</br>![Image of a checkmark for yes](../media/circle-check.png) Personalized timeline markers in meeting recordings</br> ![Image of a checkmark for yes](../media/circle-check.png) Speaker timeline markers</br> ![Image of a checkmark for yes](../media/circle-check.png) Intelligent speaker search in the transcript</br> ![Image of a checkmark for yes](../media/circle-check.png) AI-generated notes and tasks | ![Image of a checkmark for yes](../media/circle-check.png) Advanced collaboration analytics |
-| **More personalized** | ![Image of a checkmark for yes](../media/circle-check.png) Meeting templates (configured by IT admin)</br> ![Image of a checkmark for yes](../media/circle-check.png) Custom meeting branding ![Image of a checkmark for yes](../media/circle-check.png) Custom immersive spaces in Microsoft Mesh| ![Image of a checkmark for yes](../media/circle-check.png) Custom organization backgrounds</br> ![Image of a checkmark for yes](../media/circle-check.png) Organization together mode scenes</br> ![Image of a checkmark for yes](../media/circle-check.png) Custom user policy packages</br> ![Image of a checkmark for yes](../media/circle-check.png) View aggregated usage of Teams Premium features by users in your org|  |
+| **More personalized** | ![Image of a checkmark for yes](../media/circle-check.png) Meeting templates (configured by IT admin)</br> ![Image of a checkmark for yes](../media/circle-check.png) Custom meeting branding </br>![Image of a checkmark for yes](../media/circle-check.png)</br> Custom immersive spaces in Microsoft Mesh| ![Image of a checkmark for yes](../media/circle-check.png) Custom organization backgrounds</br> ![Image of a checkmark for yes](../media/circle-check.png) Organization together mode scenes</br> ![Image of a checkmark for yes](../media/circle-check.png) Custom user policy packages</br> ![Image of a checkmark for yes](../media/circle-check.png) View aggregated usage of Teams Premium features by users in your org|  |
 | **More protected** | ![Image of a checkmark for yes](../media/circle-check.png) Watermarking</br> ![Image of a checkmark for yes](../media/circle-check.png) Who can record</br> ![Image of a checkmark for yes](../media/circle-check.png) End-to-end encryption for online meetings (up to 200)</br> ![Image of a checkmark for yes](../media/circle-check.png) Hide attendees' names</br> ![Image of a checkmark for yes](../media/circle-check.png) E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ![Image of a checkmark for yes](../media/circle-check.png) Block incoming chats from people in the organization</br>![Image of a checkmark for yes](../media/circle-check.png) Prevent users from sharing content in external Teams meetings</br>![Image of a checkmark for yes](../media/circle-check.png) Audio quality alerts</br>![Image of a checkmark for yes](../media/circle-check.png) Video quality alerts</br>![Image of a checkmark for yes](../media/circle-check.png)Screen sharing quality alerts</br>![Image of a checkmark for yes](../media/circle-check.png)Automatic real time telemetry with 7 day retention</br>![Image of a checkmark for yes](../media/circle-check.png)Prevent users from sharing content when attending external Teams meetings |  |
 | **Advanced Virtual Appointments** | ![Image of a checkmark for yes](../media/circle-check.png) Custom lobby room with branding, logos, and more</br> ![Image of a checkmark for yes](../media/circle-check.png) SMS notifications | ![Image of a checkmark for yes](../media/circle-check.png) On-demand and scheduled appointment functionality and queue views</br> ![Image of a checkmark for yes](../media/circle-check.png) Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
 | **Advanced Webinars** | ![Image of a checkmark for yes](../media/circle-check.png) Manage attendee view</br> ![Image of a checkmark for yes](../media/circle-check.png) Reminder emails</br> ![Image of a checkmark for yes](../media/circle-check.png) Wait lists and manual approval</br> ![Image of a checkmark for yes](../media/circle-check.png) Limit registration date and time</br> ![Image of a checkmark for yes](../media/circle-check.png) RTMP-In |  |
-| **Advanced Town halls** | ![Image of a checkmark for yes](../media/circle-check.png) Scale up to 20,000 attendees</br> ![Image of a checkmark for yes](../media/circle-check.png) Concurrency limit of 50 meetings</br> ![Image of a checkmark for yes](../media/circle-check.png) Email customization</br> ![Image of a checkmark for yes](../media/circle-check.png) Microsoft eCDN support</br> ![Image of a checkmark for yes](../media/circle-check.png)Real-time organizer analytics ![Image of a checkmark for yes](../media/circle-check.png)Pre-select 10 languages for attendee captions</br> ![Image of a checkmark for yes](../media/circle-check.png)Town hall attendee reactions ![Image of a checkmark for yes](../media/circle-check.png) Event chat|  | ![Image of a checkmark for yes](../media/circle-check.png)Real time monitoring of the attendee experience |
+| **Advanced Town halls** | ![Image of a checkmark for yes](../media/circle-check.png) Scale up to 20,000 attendees</br> ![Image of a checkmark for yes](../media/circle-check.png) Concurrency limit of 50 meetings</br> ![Image of a checkmark for yes](../media/circle-check.png) Email customization</br> ![Image of a checkmark for yes](../media/circle-check.png) Microsoft eCDN support</br> ![Image of a checkmark for yes](../media/circle-check.png)Real-time organizer analytics </br> ![Image of a checkmark for yes](../media/circle-check.png)Pre-select 10 languages for attendee captions</br> ![Image of a checkmark for yes](../media/circle-check.png)Town hall attendee reactions </br>![Image of a checkmark for yes](../media/circle-check.png) Event chat|  | ![Image of a checkmark for yes](../media/circle-check.png)Real time monitoring of the attendee experience |
 | **Microsoft eCDN** |  | ![Image of a checkmark for yes](../media/circle-check.png) Works with Teams view-only meetings, live events, and town halls</br> ![Image of a checkmark for yes](../media/circle-check.png) Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
