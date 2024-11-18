@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Disabled
 > [!NOTE]
 > A new `csTeamsAIPolicy` for Microsoft Teams, now available via Microsoft PowerShell, will take effect in mid-January 2025. This policy will replace the existing enrollment setting in `csTeamsMeetingPolicy` and includes two settings: `EnrollFace` and `EnrollVoice`.
 > To help you get started, review:
-> - [Set-CsTeamsAIPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn](/powershell/module/teams/set-csteamsaipolicy?view=teams-ps"https://learn.microsoft.com/powershell/module/teams/set-csteamsaipolicy?view=teams-ps")
+> - [Set-CsTeamsAIPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn](/powershell/module/teams/set-csteamsaipolicy)
 Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
 
 ```powershell
@@ -191,9 +191,9 @@ To export the voice and face profiles of users using the Teams Admin Center, adm
 
 - [Manage voice isolation for your users' Microsoft Teams calls and meetings](/microsoftteams/voice-isolation)
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy?view=teams-ps)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
-- [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
+- [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
-- [Manage voice recognition technology controls for an Intelligent Speaker](/microsoftteams/rooms/voice-recognition?branch=main&branchFallbackFrom=pr-en-us-14676)
+- [Manage voice recognition technology controls for an Intelligent Speaker](/microsoftteams/rooms/voice-recognition)
 
