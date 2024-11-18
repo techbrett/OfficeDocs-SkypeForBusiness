@@ -24,7 +24,7 @@ appliesto:
 # Classic Teams for Virtualized Desktop Infrastructure
 
 > [!IMPORTANT]
-> The classic Team client is no longer supported,. This client is not receiving further updates, including security updates. The classic Teams client will not work after June 30, 2025. You must upgrade to the new Teams client before that time. See [The new Microsoft Teams](new-teams-desktop-admin.md) for more information.
+> The classic Team client is no longer supported. This client is not receiving further updates, including security updates. The classic Teams client will not work after June 30, 2025. You must upgrade to the new Teams client before that time. See [The new Microsoft Teams](new-teams-desktop-admin.md) for more information.
 
 >[!Important]
 >This article describes the requirements and limitations of using classic Microsoft Teams in a virtualized environment.
