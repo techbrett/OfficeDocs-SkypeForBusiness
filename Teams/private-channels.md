@@ -1,10 +1,10 @@
 ---
 title: IT Admins - Private channels in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniESmith
+ms.author: danismith
 manager: jtremper
 ms.reviewer: jasonlewis
-ms.date: 10/11/2023
+ms.date: 11/04/2024
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -38,8 +38,6 @@ When a private channel is created, it's linked to the parent team and can't be m
 
 [Compare private channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
-![Screenshot of private channels in a team.](media/private-channels-in-teams.png)
-
 ## Private channel creation
 
 By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels. Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
@@ -63,8 +61,6 @@ If a team member leaves or is removed from a team, that user is removed from all
 Each private channel has its own settings that the channel owner can manage, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a private channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
 
 The private channel owner can select **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.
-
-![Screenshot of private channel settings.](media/private-channels-in-teams-channel-settings.png)
 
 ## Private channel owner and member actions
 
@@ -111,13 +107,13 @@ For more information about performing an eDiscovery search for private channel m
 
 [Sharing files and folders](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c) in a private channel works the same as with other SharePoint sites. Users can share files and folders using sharable links based on the [sharing settings configured by the SharePoint Administrator](/sharepoint/turn-external-sharing-on-or-off).
 
-Sharing a OneNote notebook in a private channel site is the same as sharing access to any other item. If a user is granted access to a notebook in a private channel through SharePoint, removing the user from the team or private channel doesn't remove the user's access to the notebook. If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed and the notebook retains its existing permissions.
+Sharing a OneNote notebook in a private channel site is the same as sharing access to any other item. If a user is granted access to a notebook in a private channel through SharePoint, removing the user from the team or private channel doesn't remove the user's access to the notebook. If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed, and the notebook retains its existing permissions.
 
 ## Private channel limitations
 
 Private channels don't support connectors and tabs in Stream, Planner, Tasks by Planner and To Do, and Forms.
 
-Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
+Each team can have a maximum of 30 private channels, and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
 
 When you create a team from an existing team, any private channels in the existing team don't copy over.
 
@@ -129,12 +125,8 @@ Channel meetings can't be scheduled. Channel calendars aren't available.
 
 ## Related articles
 
-[Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels)
-
-[Overview of teams and channels in Teams](teams-channels-overview.md)
-
-[Teams PowerShell overview](teams-powershell-overview.md)
-
-[Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview)
-
-[Channel resource type](/graph/api/resources/channel)
+- [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels)
+- [Overview of teams and channels in Teams](teams-channels-overview.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
+- [Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview)
+- [Channel resource type](/graph/api/resources/channel)
