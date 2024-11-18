@@ -27,7 +27,7 @@ appliesto:
 
 # Introduction to Microsoft Teams third party compliance recording
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls ✔️ Calls ✔️ Live events
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Town halls ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Live events
 
 ## Overview
 
