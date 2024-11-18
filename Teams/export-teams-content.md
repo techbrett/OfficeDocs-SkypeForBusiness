@@ -335,7 +335,6 @@ No model declaration enables access to APIs with limited usage per each requesti
 
 For more information, see [Use Graph APIs to fetch transcript](/microsoftteams/platform/graph-api/meeting-transcripts/api-transcripts#get-calltranscript-content).
 
-
 ## Export API filters
 
 Export API hosted on the Teams Graph Service gets all user messages from the Substrate user mailbox using `users/{userId}/chats/getAllMessages`. Export API retrieves both sent and received messages for a user which leads to export of duplicate messages when calling the API for all users in the chat thread.
@@ -415,4 +414,3 @@ The new Copilot Activity Export API will allow you to export Copilot interaction
 Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
   
   - *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
-
