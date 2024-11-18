@@ -82,32 +82,32 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Host and attend Teams Meetings | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Experience Teams' standard look and feel | ![Image of a checkmark for yes](../media/circle-check.png) |  ![Image of a checkmark for yes](../media/circle-check.png)|
-| Use standard and custom meeting backgrounds at the user level| ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Read live captions during meetings and live events | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Set up a green room for meeting presenters and organizers| ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| View attendance reports | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| In-progress meeting real time telemetry with 24 hour retention | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Customize meeting templates for your organization |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Add organization branding to meeting lobbies |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Customize meeting backgrounds for your organization |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Customize Together mode scenes for your organization |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Add branding to meeting invites and meeting join launch pages |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Read live translated captions during meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Manage what attendees see |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Use RTMP-In for meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Hide attendee names |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View engagement reports |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Turn on eCDN for view-only meetings\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Audio quality alerts |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Video quality alerts |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Screen sharing quality alerts |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Automatic real time telemetry with 7 day retention | | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| Prevent users from sharing content when attending external Teams meetings | | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| View how many users attended meetings that used a Teams Premium feature | | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| View the number of meetings used a Teams Premium feature| | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| View the number of meetings each user attended that used a Teams Premium feature| | ![Image of a checkmark for yes](../media/circle-check.png)  |
+| Host and attend Teams Meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Experience Teams' standard look and feel | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |  ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Use standard and custom meeting backgrounds at the user level| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Read live captions during meetings and live events | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Set up a green room for meeting presenters and organizers| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View attendance reports | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| In-progress meeting real time telemetry with 24 hour retention | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Customize meeting templates for your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Add organization branding to meeting lobbies |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Customize meeting backgrounds for your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Customize Together mode scenes for your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Add branding to meeting invites and meeting join launch pages |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Read live translated captions during meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Manage what attendees see |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Use RTMP-In for meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Hide attendee names |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View engagement reports |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Turn on eCDN for view-only meetings\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Audio quality alerts |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Video quality alerts |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Screen sharing quality alerts |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Automatic real time telemetry with 7 day retention | | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Prevent users from sharing content when attending external Teams meetings | | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View how many users attended meetings that used a Teams Premium feature | | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View the number of meetings used a Teams Premium feature| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View the number of meetings each user attended that used a Teams Premium feature| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
 
 \* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
@@ -115,55 +115,55 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Require attendees to register | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Assign a co-organizer | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Limit the number of people who can register | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Allow registered users to bypass the lobby | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Turn on Q&A for webinars with up to 1,000 attendees | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View attendance reports | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Set up a green room for webinar presenters and organizers| ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Manage what attendees see |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Send custom and reminder emails to registrants |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Create a webinar wait list |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Webinar organizers can view engagement reports |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Manually approve registrants |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View engagement reports |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Limit the day and time when people can register |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Use RTMP-In for webinars |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View how many users attended webinars that used a Teams Premium feature | | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| View the number of webinars used a Teams Premium feature| | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| View the number of webinars each user attended that used a Teams Premium feature.| | ![Image of a checkmark for yes](../media/circle-check.png)  |
+| Require attendees to register | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Assign a co-organizer | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Limit the number of people who can register | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Allow registered users to bypass the lobby | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Turn on Q&A for webinars with up to 1,000 attendees | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View attendance reports | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Set up a green room for webinar presenters and organizers| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Manage what attendees see |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Send custom and reminder emails to registrants |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Create a webinar wait list |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Webinar organizers can view engagement reports |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Manually approve registrants |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View engagement reports |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Limit the day and time when people can register |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Use RTMP-In for webinars |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View how many users attended webinars that used a Teams Premium feature | | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View the number of webinars used a Teams Premium feature| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View the number of webinars each user attended that used a Teams Premium feature.| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
 
 ### Town halls
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Broadcast town halls to 10k attendees | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Host up to 15 town halls simultaneously | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View attendance reports | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Manage what attendees see | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Provide town hall video on demand | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Provide a unique join link for presenters | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Set up a green room for presenters and organizers | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Turn on third party or Microsoft eCDN for town halls | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Use RTMP-In for town halls <sup>1</sup> | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Town hall Q&A capacity of 10k attendees | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Organizers can pre-select six languages for live translated captions | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Broadcast town halls to 20k attendees |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Host up to 50 town halls simultaneously |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Town hall Q&A capacity of 20k attendees |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Use Microsoft eCDN for Premium town halls <sup>2</sup> |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Choose an eCDN provider for town halls <sup>2</sup> |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View Microsoft Town hall insights |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Town hall organizers can view engagement reports |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Edit town hall emails |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Town hall attendee reactions |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Organizers can pre-select 10 languages for live translated captions |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Real time monitoring of the attendee experience |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View how many users attended town halls that used a Teams Premium feature | | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| View the number of town halls used a Teams Premium feature| | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| View the number of town halls each user attended that used a Teams Premium feature.| | ![Image of a checkmark for yes](../media/circle-check.png)  |
-| Event chat for attendees| | ![Image of a checkmark for yes](../media/circle-check.png)   |
+| Broadcast town halls to 10k attendees | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Host up to 15 town halls simultaneously | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View attendance reports | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Manage what attendees see | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Provide town hall video on demand | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Provide a unique join link for presenters | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Set up a green room for presenters and organizers | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Turn on third party or Microsoft eCDN for town halls | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Use RTMP-In for town halls <sup>1</sup> | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Town hall Q&A capacity of 10k attendees | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Organizers can pre-select six languages for live translated captions | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Broadcast town halls to 20k attendees |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Host up to 50 town halls simultaneously |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Town hall Q&A capacity of 20k attendees |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Use Microsoft eCDN for Premium town halls <sup>2</sup> |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Choose an eCDN provider for town halls <sup>2</sup> |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View Microsoft Town hall insights |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Town hall organizers can view engagement reports |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Edit town hall emails |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Town hall attendee reactions |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Organizers can pre-select 10 languages for live translated captions |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Real time monitoring of the attendee experience |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View how many users attended town halls that used a Teams Premium feature | | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View the number of town halls used a Teams Premium feature| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| View the number of town halls each user attended that used a Teams Premium feature.| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Event chat for attendees| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)    |
 
 <sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions aren't available to the attendees even if the organizer selects the languages before the town hall starts.
 <sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
@@ -172,12 +172,12 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Admin can view insights on inactive external domains\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Admin can view insights on inactive teams\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Admin can view insights on external collaboration by user\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Admin can view insights on external collaboration by team\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Admin can view insights on external collaboration by guest\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Users can block incoming chats from people in your organization |  | ![Image of a checkmark for yes](../media/circle-check.png) |
+| Admin can view insights on inactive external domains\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Admin can view insights on inactive teams\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Admin can view insights on external collaboration by user\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Admin can view insights on external collaboration by team\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Admin can view insights on external collaboration by guest\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Users can block incoming chats from people in your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 \* *Customers must acquire and assign Teams Premium licenses to each user in their tenant for its use of Advanced collaboration analytics.*
 
@@ -185,17 +185,17 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Manage meeting lobbies | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| End-to-end encryption for one-to-one calls | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Moderate meeting chats | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Control who can present | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Add watermarks to meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| End-to-end encryption for meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Control who can record |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Prevent copy/paste in meeting chats |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Custom user policy packages |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Prevent users from sharing content in external Teams meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
+| Manage meeting lobbies | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| End-to-end encryption for one-to-one calls | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Moderate meeting chats | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Control who can present | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Add watermarks to meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| End-to-end encryption for meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Control who can record |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Prevent copy/paste in meeting chats |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Custom user policy packages |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Prevent users from sharing content in external Teams meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 \* *This feature is only available to Teams Premium users with a Microsoft 365 E5, E5 Compliance, F5 Compliance, or F5 Security + Compliance subscription. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
@@ -207,16 +207,16 @@ In the meeting recap, your users can find the most important parts of a meeting,
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| View recordings of meetings | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View meeting transcripts | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View and use files added to meetings | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png)|
-| View and use apps added to meetings | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Navigate meeting recordings with autogenerated chapters (*coming soon*) |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View when a screen was shared in the meeting transcript |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View time markers in meeting recordings when you joined or left a meeting |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Jump to different speakers with speaker timeline markers |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View AI-generated notes and tasks from meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View when you were mentioned in a meeting\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
+| View recordings of meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View meeting transcripts | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View and use files added to meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| View and use apps added to meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Navigate meeting recordings with autogenerated chapters (*coming soon*) |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View when a screen was shared in the meeting transcript |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View time markers in meeting recordings when you joined or left a meeting |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Jump to different speakers with speaker timeline markers |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View AI-generated notes and tasks from meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View when you were mentioned in a meeting\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
@@ -227,18 +227,18 @@ In the meeting recap, your users can find the most important parts of a meeting,
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Access Virtual Appointments with the Bookings app for scheduling, appointment management, and email notifications | ![Image of a checkmark for yes](../media/circle-check.png) |  ![Image of a checkmark for yes](../media/circle-check.png)|
-| Integrate Virtual Appointments using APIs | ![Image of a checkmark for yes](../media/circle-check.png) |  ![Image of a checkmark for yes](../media/circle-check.png)|
-| Join appointments from a browser | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Join appointments in Teams | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Allow users to join a virtual lobby waiting room | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| Integrate with Microsoft Forms | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Customize the lobby waiting room with themes and logos |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Send SMS notifications\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Organizational and departmental analytics |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View and manage scheduled appointments in the queue |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View and manage on-demand appointments in the queue |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Send post-appointment follow-ups (*coming soon*) |  | ![Image of a checkmark for yes](../media/circle-check.png) |
+| Access Virtual Appointments with the Bookings app for scheduling, appointment management, and email notifications | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |  ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Integrate Virtual Appointments using APIs | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |  ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Join appointments from a browser | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Join appointments in Teams | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Allow users to join a virtual lobby waiting room | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Integrate with Microsoft Forms | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Customize the lobby waiting room with themes and logos |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Send SMS notifications\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Organizational and departmental analytics |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View and manage scheduled appointments in the queue |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View and manage on-demand appointments in the queue |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Send post-appointment follow-ups (*coming soon*) |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 \* *SMS notifications for Virtual Appointments are currently available in the US, Canada, and UK.*
 
@@ -248,14 +248,14 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| View and prepare upcoming meetings | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Join ongoing meetings | ![Image of a checkmark for yes](../media/circle-check.png) |  ![Image of a checkmark for yes](../media/circle-check.png)|
-| View and recap meetings you attended | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Filter meetings by All, with Content, and Recorded | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View and recap meetings that you missed |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View and recap meetings that mention you\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View when you were mentioned in a meeting\* |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| View AI-generated tasks from meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
+| View and prepare upcoming meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Join ongoing meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |  ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| View and recap meetings you attended | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Filter meetings by All, with Content, and Recorded | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View and recap meetings that you missed |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View and recap meetings that mention you\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View when you were mentioned in a meeting\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| View AI-generated tasks from meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
@@ -268,19 +268,19 @@ Microsoft Places allows you and your organization to build a smart workplace. Wi
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-|In-person events|  ![Image of a checkmark for yes](../media/circle-check.png)| ![Image of a checkmark for yes](../media/circle-check.png) |
-|Hybrid RSVP| ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Places card| ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Work plans| ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Workplace presence| ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Individual desk booking|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Intelligent suggestions|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Places explorer|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Places finder|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Quick book|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Room check-in and auto release|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Space analytics|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Team guidance|  | ![Image of a checkmark for yes](../media/circle-check.png) |
+|In-person events|  ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Hybrid RSVP| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Places card| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Work plans| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Workplace presence| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Individual desk booking|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Intelligent suggestions|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Places explorer|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Places finder|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Quick book|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Room check-in and auto release|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Space analytics|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Team guidance|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 ### Queues app
 
@@ -288,9 +288,9 @@ The Queues app is a Teams-native solution designed to empower organizations to m
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-|Call queue and Auto attendant management directly within Teams|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Real-time metrics for Call queues and Auto attendants within Queues app|  | ![Image of a checkmark for yes](../media/circle-check.png) |
-|Historical reporting for Call queues and Auto attendants within Queues app|  | ![Image of a checkmark for yes](../media/circle-check.png) |
+|Call queue and Auto attendant management directly within Teams|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Real-time metrics for Call queues and Auto attendants within Queues app|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+|Historical reporting for Call queues and Auto attendants within Queues app|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 For a complete list of features available in the Queues app, see [Manage voice applications policies](/microsoftteams/manage-voice-applications-policies).
 
@@ -302,10 +302,10 @@ With a Teams Premium license, your distributed workforce can connect in 3D immer
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Avatars in Teams | ![Image of a checkmark for yes](../media/circle-check.png) |![Image of a checkmark for yes](../media/circle-check.png)  |
-| 3D immersive meetings in Teams | ![Image of a checkmark for yes](../media/circle-check.png) | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Custom immersive spaces in Microsoft Mesh |  | ![Image of a checkmark for yes](../media/circle-check.png) |
-| Larger capacity immersive meetings |  | ![Image of a checkmark for yes](../media/circle-check.png) |
+| Avatars in Teams | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| 3D immersive meetings in Teams | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Custom immersive spaces in Microsoft Mesh |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Larger capacity immersive meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 ## Are there previous Teams features that moved to Teams Premium?
 
@@ -361,13 +361,13 @@ The following table shows which Teams Premium features provide primary value to 
 
 | Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
 | ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
-| **More intelligence** | ![Image of a checkmark for yes](../media/circle-check.png) Live translation for captions (40 languages) | ![Image of a checkmark for yes](../media/circle-check.png) AI-generated chapters for intelligent meeting recap recordings</br>![Image of a checkmark for yes](../media/circle-check.png) Personalized timeline markers in meeting recordings</br> ![Image of a checkmark for yes](../media/circle-check.png) Speaker timeline markers</br> ![Image of a checkmark for yes](../media/circle-check.png) Intelligent speaker search in the transcript</br> ![Image of a checkmark for yes](../media/circle-check.png) AI-generated notes and tasks | ![Image of a checkmark for yes](../media/circle-check.png) Advanced collaboration analytics |
-| **More personalized** | ![Image of a checkmark for yes](../media/circle-check.png) Meeting templates (configured by IT admin)</br> ![Image of a checkmark for yes](../media/circle-check.png) Custom meeting branding </br>![Image of a checkmark for yes](../media/circle-check.png)</br> Custom immersive spaces in Microsoft Mesh| ![Image of a checkmark for yes](../media/circle-check.png) Custom organization backgrounds</br> ![Image of a checkmark for yes](../media/circle-check.png) Organization together mode scenes</br> ![Image of a checkmark for yes](../media/circle-check.png) Custom user policy packages</br> ![Image of a checkmark for yes](../media/circle-check.png) View aggregated usage of Teams Premium features by users in your org|  |
-| **More protected** | ![Image of a checkmark for yes](../media/circle-check.png) Watermarking</br> ![Image of a checkmark for yes](../media/circle-check.png) Who can record</br> ![Image of a checkmark for yes](../media/circle-check.png) End-to-end encryption for online meetings (up to 200)</br> ![Image of a checkmark for yes](../media/circle-check.png) Hide attendees' names</br> ![Image of a checkmark for yes](../media/circle-check.png) E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ![Image of a checkmark for yes](../media/circle-check.png) Block incoming chats from people in the organization</br>![Image of a checkmark for yes](../media/circle-check.png) Prevent users from sharing content in external Teams meetings</br>![Image of a checkmark for yes](../media/circle-check.png) Audio quality alerts</br>![Image of a checkmark for yes](../media/circle-check.png) Video quality alerts</br>![Image of a checkmark for yes](../media/circle-check.png)Screen sharing quality alerts</br>![Image of a checkmark for yes](../media/circle-check.png)Automatic real time telemetry with 7 day retention</br>![Image of a checkmark for yes](../media/circle-check.png)Prevent users from sharing content when attending external Teams meetings |  |
-| **Advanced Virtual Appointments** | ![Image of a checkmark for yes](../media/circle-check.png) Custom lobby room with branding, logos, and more</br> ![Image of a checkmark for yes](../media/circle-check.png) SMS notifications | ![Image of a checkmark for yes](../media/circle-check.png) On-demand and scheduled appointment functionality and queue views</br> ![Image of a checkmark for yes](../media/circle-check.png) Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
-| **Advanced Webinars** | ![Image of a checkmark for yes](../media/circle-check.png) Manage attendee view</br> ![Image of a checkmark for yes](../media/circle-check.png) Reminder emails</br> ![Image of a checkmark for yes](../media/circle-check.png) Wait lists and manual approval</br> ![Image of a checkmark for yes](../media/circle-check.png) Limit registration date and time</br> ![Image of a checkmark for yes](../media/circle-check.png) RTMP-In |  |
-| **Advanced Town halls** | ![Image of a checkmark for yes](../media/circle-check.png) Scale up to 20,000 attendees</br> ![Image of a checkmark for yes](../media/circle-check.png) Concurrency limit of 50 meetings</br> ![Image of a checkmark for yes](../media/circle-check.png) Email customization</br> ![Image of a checkmark for yes](../media/circle-check.png) Microsoft eCDN support</br> ![Image of a checkmark for yes](../media/circle-check.png)Real-time organizer analytics </br> ![Image of a checkmark for yes](../media/circle-check.png)Pre-select 10 languages for attendee captions</br> ![Image of a checkmark for yes](../media/circle-check.png)Town hall attendee reactions </br>![Image of a checkmark for yes](../media/circle-check.png) Event chat|  | ![Image of a checkmark for yes](../media/circle-check.png)Real time monitoring of the attendee experience |
-| **Microsoft eCDN** |  | ![Image of a checkmark for yes](../media/circle-check.png) Works with Teams view-only meetings, live events, and town halls</br> ![Image of a checkmark for yes](../media/circle-check.png) Microsoft eCDN included as a part of the Teams Premium bundle |  |
+| **More intelligence** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Live translation for captions (40 languages) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  AI-generated chapters for intelligent meeting recap recordings</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Personalized timeline markers in meeting recordings</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Speaker timeline markers</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Intelligent speaker search in the transcript</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  AI-generated notes and tasks | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Advanced collaboration analytics |
+| **More personalized** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Meeting templates (configured by IT admin)</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Custom meeting branding </br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) </br> Custom immersive spaces in Microsoft Mesh| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Custom organization backgrounds</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Organization together mode scenes</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Custom user policy packages</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  View aggregated usage of Teams Premium features by users in your org|  |
+| **More protected** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Watermarking</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Who can record</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  End-to-end encryption for online meetings (up to 200)</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Hide attendees' names</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Block incoming chats from people in the organization</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Prevent users from sharing content in external Teams meetings</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Audio quality alerts</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Video quality alerts</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Screen sharing quality alerts</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Automatic real time telemetry with 7 day retention</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Prevent users from sharing content when attending external Teams meetings |  |
+| **Advanced Virtual Appointments** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Custom lobby room with branding, logos, and more</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  SMS notifications | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  On-demand and scheduled appointment functionality and queue views</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
+| **Advanced Webinars** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Manage attendee view</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Reminder emails</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Wait lists and manual approval</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Limit registration date and time</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  RTMP-In |  |
+| **Advanced Town halls** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Scale up to 20,000 attendees</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Concurrency limit of 50 meetings</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Email customization</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Microsoft eCDN support</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Real-time organizer analytics </br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Pre-select 10 languages for attendee captions</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town hall attendee reactions </br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Event chat|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Real time monitoring of the attendee experience |
+| **Microsoft eCDN** |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Works with Teams view-only meetings, live events, and town halls</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
