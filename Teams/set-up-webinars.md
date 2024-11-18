@@ -61,7 +61,7 @@ To manage who can schedule webinars through the Teams admin center, use the foll
 5. Toggle the **Webinars** setting **On** or **Off**.
 6. Select **Save**
 
-### Manage who can schedule webinars through PowerShell
+### Manage who can schedule webinars using PowerShell
 
 You can use PowerShell to manage who can schedule webinars in your organization.
 
@@ -103,7 +103,7 @@ To manage who can attend webinars through the Teams admin center, use the follow
 5. From the dropdown for the **Who can attend webinars** setting select either **Everyone** or **EveryoneInCompanyExcludingGuests**.
 6. Select **Save**
 
-### Manage who can attend webinars through PowerShell
+### Manage who can attend webinars using PowerShell
 
 You can use PowerShell to manage who can attend webinars in your organization.
 
@@ -133,8 +133,4 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 - [Manage email communications for webinars](manage-email-communications.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md)
-- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
-- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
-- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
-- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)

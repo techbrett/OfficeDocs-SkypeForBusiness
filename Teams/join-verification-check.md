@@ -75,7 +75,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -CaptchaVerificationForMeetingJ
 
 ### Supported
 
-Requiring verification checks is supported on the following surfaces and clients:
+Verification checks are supported on the following clients and platforms:
 
 **Clients:** Teams (T2.1, T2.2), Outlook
 
@@ -83,7 +83,7 @@ Requiring verification checks is supported on the following surfaces and clients
 
 ### Not supported
 
-Requiring verification checks isn't supported on the following surfaces and clients:
+When participants from the following clients and platforms attend meetings that require a verificiation check, they join without completing the CAPTCHA challenge:
 
 **Clients:** Cloud Video Interop (CVI), Azure Communication Services (ACS) platform
 
