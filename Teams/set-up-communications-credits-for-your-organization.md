@@ -31,11 +31,11 @@ description: Learn how to set up Communication Credits licenses for your users a
 
 # Set up Communication Credits for your organization
 
-Set up Communication Credits for your **Microsoft Teams Calling Plan** (Domestic, International, or Pay-As-You-Go) and Audio Conferencing users who need to dial out to **any destination**.
+Set up Communication Credits for your **Microsoft Teams Calling Plan** (Domestic, International, or Pay-As-You-Go) and **Audio Conferencing** users who need to dial out to **any destination**.
 
 When you sign up for Calling Plans and/or Audio Conferencing, you get some minutes depending on your country/region. For more information, see [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization).
 
-If you don't set up Communication Credits, and your organization runs out of minutes, users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communication Credits?](what-are-communications-credits.md)
+If you don't set up Communication Credits, and your organization runs out of minutes, users won't be able to make calls or dial out from Audio Conferencing meetings. Learn more at [What are Communication Credits?](what-are-communications-credits.md)
   
 For more information about plans and pricing, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523).
 
@@ -52,7 +52,7 @@ You can update your payment options at any time. On the **Billing** > **Your p
 
 ## Step 1: Assign an Audio Conferencing and/or a Teams Calling Plan license to your users
   
-Communication Credits are enabled for users who have either an Audio Conferencing license or Teams Calling Plan.
+Communication Credits are enabled for users who have either an **Audio Conferencing** license or **Teams Calling Plan** license.
   
 - Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -92,7 +92,7 @@ Communication Credits are enabled for users who have either an Audio Conferencin
 
 If you don't assign **Communication Credits** licenses to your users, those users can't make calls or dial out from Audio conferencing meetings.
 
-Communication Credits licenses are automatically added to your tenant when funding your Communication Credits balance. Communication Credits licenses appear as an unlimited quantity because they're used to grant access to the Communication Credits balance for any user to which you assign the Communication Credits license.
+A large amount of **Communication Credits** licenses are automatically added to your tenant when funding your Communication Credits balance, which you can then assign to users.
 
 Assign a Communication Credits license to each user by following these steps, even to users assigned an **Microsoft 365 E5** plan:
 

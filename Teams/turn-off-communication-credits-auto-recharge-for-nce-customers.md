@@ -52,7 +52,7 @@ If you're moving to NCE, turn off automatic recharge by completing the following
 1. On the **Auto-recharge settings** page, uncheck the box next to **Auto recharge**.
 1. Select the **Save** button.
 
-When this process is complete, you can transition to NCE before your Communications Credit balance is empty. Even as an NCE customer, the commerce system consumes your Communication Credit balance before changing to post-usage billing. There's no extra action needed by you to ensure this switch happens.
+When this process is complete, you can transition to NCE before your Communication Credit balance is empty. Even as an NCE customer, the commerce system consumes your Communication Credit balance before changing to post-usage billing. There's no extra action needed by you to ensure this switch happens.
 
 ## Related articles
 

@@ -67,7 +67,7 @@ Because Communication Credits are a prepaid budget to support outgoing minutes, 
 For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
 > [!WARNING]
-> NCE customers need to turn of Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for new commerce experience (NCE) customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
+> NCE customers need to turn off Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for new commerce experience (NCE) customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
 
 ### Your Calling Plan or Audio Conferencing plan is through a Cloud Solution Provider (CSP)
 
@@ -81,15 +81,17 @@ See the cost of calls for Teams Calling Plans at [Cloud-Based Phone System for V
   
 ## Determine how many Communication Credits to purchase
 
-If you choose to fund your Communication Credits balance with a one-time amount and then the balance falls to zero, most calling scenarios will no longer work, including toll-free phone numbers. As such, we recommend that you use the **Auto-recharge** setting to avoid any disruption of service should your Communication Credits balance reach 0 (zero). View your current Communication Credits balance by going to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and selecting **Billing** > **Your products** > **Communications Credits**.
+If you choose to fund your Communication Credits balance with a one-time amount and then the balance falls to zero, most calling scenarios will no longer work, including toll-free phone numbers.
+
+As such, we recommend that you use the **Auto-recharge** setting to avoid any disruption of service should your Communication Credits balance reach 0 (zero). View your current Communication Credits balance by going to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and selecting **Billing** > **Your products** > **Communications Credits**.
   
 If you're ready to set up Communication Credits, see [Set up Communication Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
 ### View your usage data in the Teams admin center
 
-Each organization has different calling volumes and rates to consider. Retrieve your usage data from your third-party service provider. For organizations using Teams as their service provider, review your data by completing the following steps:
+Each organization has different calling volumes and rates to consider. Retrieve your usage data from your service provider. For organizations using Teams as their service provider, review your data by completing the following steps:
 
-1. Sign in to the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Sign in to the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) with your Teams admin credentials.
 1. In the left navigation menu, select **Analytics & reports** > **Usage reports**.
 1. On the **Usage reports** page, select **PSTN and SMS (preview) usage** from the **Report** dropdown menu and a date range to review.
 1. Select the **Run report** button.
@@ -131,7 +133,7 @@ You can see the plans and pricing by visiting one of the following links:
   
 - [Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761)
 - [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762)
-- [Phone System](https://go.microsoft.com/fwlink/?linkid=799763 )
+- [Phone System](https://go.microsoft.com/fwlink/?linkid=799763)
 
 You can also see information about pricing by [signing in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and going to **Marketplace**.
   
