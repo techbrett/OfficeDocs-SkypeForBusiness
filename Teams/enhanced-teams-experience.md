@@ -256,9 +256,10 @@ Teams Premium provides the following advanced capabilities in Places:
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
 | -------------------- | ----------- | ----------- |----------- |
 | Auto release for rooms| Yes|[How to enable specific rooms for Auto Release](/microsoft-365/places/enable-auto-release#how-to-enable-specific-rooms-for-auto-release) | [Overview of Auto Release](/microsoft-365/places/enable-auto-release#overview-of-auto-release)|
-| Individual desk booking| Yes|[Configure desk pools and workspaces (optional)](/microsoft-365/places/setting-up-desk-workspaces-in-places-finder) | No end user documentation|
-| Places finder| Yes| [Enabling Microsoft Places Finder in Outlook](/microsoft-365/places/enabling-places-finder) | [Where will I see Microsoft Places Finder when enabled?](/microsoft-365/places/enabling-places-finder#where-will-i-see-microsoft-places-finder-when-enabled)|
-| Space analytics| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | No end user control|
+| Individual desk booking| Yes|[Configure desk pools and workspaces (optional)](/microsoft-365/places/setting-up-desk-workspaces-in-places-finder) | [Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
+| Places finder| Yes| [Enabling Microsoft Places Finder in Outlook](/microsoft-365/places/enabling-places-finder) | - [Where will I see Microsoft Places Finder when enabled?](/microsoft-365/places/enabling-places-finder#where-will-i-see-microsoft-places-finder-when-enabled)</br> -[Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
+| Space analytics| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | [Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
+| Team guidance| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | [Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
 
 ## Calls
 
