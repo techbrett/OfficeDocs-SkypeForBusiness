@@ -26,7 +26,7 @@ ms.date:
 
 This article provides guidance for how to troubleshoot common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to help identify the source of the issues for more effective troubleshooting.
 
-## Common issues
+## Troubleshoot issues
 
 ### Incoming transmissions not received
 
@@ -39,6 +39,8 @@ If the issue persists, send logs to Microsoft for investigation.
 
 ### Missing transmissions
 
+If users experience issues in which messages aren't received or transmitted properly, try the following steps:
+
 1. Verify that both the sender and receiver are connected to the same Walkie Talkie channel.
 1. Make sure that Walkie Talkie is connected to the network.
 1. Restart Walkie Talkie to refresh the connection.
@@ -48,27 +50,33 @@ If the issue persists, send logs to Microsoft for investigation.
 
 ### Participants list in a channel is inaccurate
 
-The participants list is the list of users who are actively connected to a Walkie Talkie channel and can potentially hear transmissions. Sometimes this list can become inaccurate. For example, a user is missing from the list even though they're connected to the channel. This issue can occur because of network issues or if a user's status is set to **Do not disturb**.
+The participants list is the list of users who are actively connected to a Walkie Talkie channel and can potentially hear transmissions. Sometimes this list can become inaccurate. For example, a user doesn't appear in the list even though they're connected to the channel. This issue can occur because of network issues or if a user's status is set to **Do not disturb**.
 
 If the participants list in a channel doesn't accurately reflect the users who are actively connected to the channel, have the users try the following steps:
 
-1. Leave and reconnect to the channel.
+1. Leave and reconnect to the Walkie Talkie channel.
 1. Switch channels.
 1. Close, and then reopen Walkie Talkie (if on an iOS device).
 1. Send at least two transmissions.
 
 ### Network connectivity issues
 
-To check the quality of the network connection, in Teams, tap your profile picture, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**
+Poor network connectivity can lead to interruptions, delays, and loss of communication.
 
-What good looks like:
+To check the quality of the network connection, have users tap their profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
 
-- Jitter < 30 ms, RTT less than 150, Avg RountTripTime <100 ms
-- Max Avg RounTripTime <500 ms = Medium, >500 ms Is poor
-- PacketLossRate Avg <1% MaxAvgPacketLossRate <10%
+The following network conditions are required for an optimal experience.
+
+|Performance metric |Values|
+|---|---|
+|Latency| RTT < 150 ms<br>Average RTT < 100 ms<br>Maximum average RTT < 500 ms |
+|Jitter |< 30 ms |
+|Packet loss | Average rate < 1%<br>Maximum average rate < 10% |
+
+- Max Avg RoundTripTime <500 ms = Medium, >500 ms Is poor
 - Latency greater than 500 ms is poor; Jitter should be less than 30 ms.
-  - If jitter is high, you hear crackling sounds or audio breaking
-  - If latency is high, connecting to Walkie Talkie will take longer, and jitter will be higher as well.
+  - If jitter is high, users will hear crackling sounds or audio breaking.
+  - If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher.
 
 - Move to an area with better network coverage.
 - Switch between WiFi and cellular data to determine which provides a more stable connection.
@@ -158,7 +166,7 @@ To learn more, see:
 
 Why is the Walkie Talkie app showing up for some users and not others?
 
-For users with an E license, the Walkie Talkie app shows up automatically without any policy needed if they're part of an early ring (eg. an admin part of the Private Preview Ring will get the Walkie Talkie app automatically). However, E-SKU users in general ring must have an app setup policy assigned to them with the Walkie Talkie app pinned or else they won't see the app. Needs to be pinned in top 10 apps for E SKUs.
+For users with an E license, the Walkie Talkie app shows up automatically without any policy needed if they're part of an early ring (eg. an admin part of the Private Preview Ring get the Walkie Talkie app automatically). However, E-SKU users in general ring must have an app setup policy assigned to them with the Walkie Talkie app pinned or else they won't see the app. Needs to be pinned in top 10 apps for E SKUs.
 
 I have my permission policy setup so that all Microsoft apps are "Allowed", shouldn't Walkie Talkie appear?
 
