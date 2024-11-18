@@ -239,19 +239,33 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
   | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
   | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
-## Advanced Places Workplace Collaboration
+## Advanced Places workplace collaboration
 
 > [!NOTE]
 > This feature is currently in Public Preview.
 
-Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
+Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience advanced features that support the booking experience in Places. As an admin, you have access advanced management capabilities and reports.
 
-To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
+Teams Premium provides the following advanced capabilities in Places:
+
+- **Auto release and check-in for rooms** - If you create auto release for rooms, when a room that you enable for auto release isn't being used, Teams and Places free up the room for others to reserve.
+- **Individual desk booking** - Allow users to select and book individual desks for their day in the office.
+- **Places explorer** - Get a singular view of the people, spaces, and experiences at each workplace location.​
+- **Places finder** - Your users can book and check into workspaces, as well as use seat assignments to sit near collaborators.
+- **Quick book** - For in-office meetings without a space booked, your users can get intelligent suggestions for each meeting for the day and book at once in bulk.
+- **Space analytics** - You can learn which desks and rooms are most frequently used, and get suggestions on how to optimize space management. You can also identify trends for key buildings, bookable rooms, and shared work spaces.
+- **Team guidance** - Managers and leaders in your organization can find the best work patterns for teams by establishing expectations and adjusting the rhythm to meet the needs of the group.  
+
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
+| -------------------- | ----------- | ----------- |----------- |
+| Auto release for rooms| Yes|[How to enable specific rooms for Auto Release](/microsoft-365/places/enable-auto-release) | [Overview of Auto Release](/microsoft-365/places/enable-auto-release#room-check-in-and-autorelease-experience)|
+| Individual desk booking| Yes|[Configure desk pools and workspaces (optional)](/microsoft-365/places/setting-up-desk-workspaces-in-places-finder) | [Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
+| Places finder| Yes| [Enabling Microsoft Places Finder in Outlook](/microsoft-365/places/enabling-places-finder) |[Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
+| Space analytics| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | [Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
 
 ## Calls
 
 ### Intelligent call recap
-
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 
