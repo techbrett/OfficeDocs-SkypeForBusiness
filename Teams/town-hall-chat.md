@@ -26,7 +26,7 @@ description: Learn how to manage which organizers can use event chat for their M
 
 # Manage event chat for Microsoft Teams town halls
 
-**APPLIES TO:** ![Image of a x for no](/office/media/icons/cancel-teams.png) Meetings ![Image of a x for no](/office/media/icons/cancel-teams.png) Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  Town halls
+**APPLIES TO:** ![Image of a x for no](/office/media/icons/cancel-teams.png)Meetings ![Image of a x for no](/office/media/icons/cancel-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
