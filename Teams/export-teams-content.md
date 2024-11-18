@@ -119,6 +119,8 @@ Here are some examples on how you can use these export APIs:
   
   - *OnlineMeetingRecording.Read.All*: enables access to recordings for all 1:n scheduled Teams meetings 
 
+- A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.
+
 ## License requirements for Teams Export APIs
 
 Export API supports Security and Compliance (S+C) and general usage scenarios through a model query parameter. S+C scenarios (Model A) include seeded capacity and require an E5 subscription and general usage scenarios (Model B) are available for all subscriptions and is consumption only. For more information about seeded capacity and consumption fees, see [Licensing and payment requirements for Microsoft Graph Teams APIs](/graph/teams-licenses).
