@@ -23,7 +23,6 @@ description: This article provides the information required when you want to add
 ---
 
 # Add a custom name for Teams panels
-
   
 You can now customize the display name for your Teams panel. For example, you can shorten the name to something that is more easily readable for your users.  
 
@@ -54,3 +53,8 @@ In Teams admin settings, an admin can view the GAL name and custom name if one h
 
 If you would like to remove the new custom name, you can simply remove the custom name in the custom name field in the Teams Rooms Pro Management Portal, and the display name on Teams panel will default back to the GAL name.
 
+## Related articles
+
+- [Insert link text](/powershell/module/teams/new-csteamsipphonepolicy)
+- [Plan for Teams panels](/microsoftteams/devices/teams-panels)
+- [Certified Teams panels](teams-panels-certified-hardware.md)
