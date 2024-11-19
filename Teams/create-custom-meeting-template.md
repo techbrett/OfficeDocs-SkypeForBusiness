@@ -56,9 +56,9 @@ To create a custom meeting template
 1. To prevent the meeting organizer from seeing an option, select the option and then select **Hide**.
 1. Select **Save**.
 
-Once you create the template, it may take up to 24 hours for your users to see it.
+    Once you create the template, it may take up to 24 hours for your users to see it.
 
-If you change the options of an existing template, the changes affect new meetings scheduled using that template, as well as any meetings that are already scheduled with that template.
+    If you change the options of an existing template, the changes affect new meetings scheduled using that template, as well as any meetings that are already scheduled with that template.
 
 ### Security
 
