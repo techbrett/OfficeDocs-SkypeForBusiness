@@ -47,9 +47,9 @@ The following are settings related to Assignments:
 Guardian emails are sent each weekend to parents or guardians. The email contains information about assignments from the previous week and for the upcoming week.
 
 1. There are three ways in which you can populate each student's guardian contact information. You can select any one of the following:
-    1. **School Data Sync**: You can ingest contact information via CSV files or via API sync. To learn how to do this, see [Sync Parents and Guardian Contacts in SDS](/schooldatasync/parents-and-guardians-in-sds). If you want to leverage CSV files for populating the contacts, V2.1 is the preferred CSV file format in SDS, and you will need four CSV files: orgs.csv, users.csv, roles.csv, and relationships.csv. For more information see: [SDS V2.1 CSV File Format](/schooldatasync/sds-v2.1-csv-file-format). If you’d like to first get an overview of SDS instead, see [School Data Sync Overview](/schooldatasync/school-data-sync-overview).
-    1. **Parents App**: You can select this method if you’ve not set up SDS. An educator can add or edit parent/guardian contact information through a form-based input for each student and request their school admin for approval. Once the admin approves the request, the contact details are updated. For more information, see [Manually Update Parent Contact Information](../edu-parents-app.md#manually-update-parent-contact-information).
-    1. **Microsoft Graph**: The contact information can be updated in the ‘relatedContact resource type’, and the ‘Update’ API can be used to populate parent/guardian contact information for each student. Learn more [here](/graph/api/resources/relatedcontact?view=graph-rest-beta&preserve-view=true).  
+    1. **School Data Sync**: You can ingest contact information via CSV files or via API sync. To learn how to do this, see [Sync Parents and Guardian Contacts in SDS](/schooldatasync/parents-and-guardians-in-sds). If you want to leverage CSV files for populating the contacts, V2.1 is the preferred CSV file format in SDS, and you will need four CSV files: orgs.csv, users.csv, roles.csv, and relationships.csv. For more information see: [SDS V2.1 CSV File Format](/schooldatasync/sds-v2.1-csv-file-format). If you’d like to first get an overview of SDS instead, see [School Data Sync Overview](/schooldatasync/school-data-sync-overview).
+    1. **Parents App**: You can select this method if you’ve not set up SDS. An educator can add or edit parent/guardian contact information through a form-based input for each student and request their school admin for approval. Once the admin approves the request, the contact details are updated. For more information, see [Manually Update Parent Contact Information](../edu-parents-app.md#manually-update-parent-contact-information).
+    1. **Microsoft Graph**: The contact information can be updated in the ‘relatedContact resource type’, and the ‘Update’ API can be used to populate parent/guardian contact information for each student. Learn more [here](/graph/api/resources/relatedcontact?view=graph-rest-beta&preserve-view=true).  
 
 2. Turn on the Guardian Setting in the Microsoft Teams admin center navigating to [Education > Parent and guardian settings](https://admin.teams.microsoft.com/education/parent-settings), as the setting is turned off by default. This will enable teachers to send out a weekly digest.
 
@@ -76,7 +76,7 @@ Microsoft MakeCode is a block-based coding platform that brings computer science
 
 MakeCode is a Microsoft product that is subject to the Microsoft [terms of use](https://go.microsoft.com/fwlink/?LinkID=206977) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) policies.
 
-To view and manage this setting, navigate to [Education > Assignment settings](https://admin.teams.microsoft.com/education/assignments-settings) in the Teams admin center. 
+To view and manage this setting, navigate to [Education > Assignment settings](https://admin.teams.microsoft.com/education/assignments-settings) in the Teams admin center. 
 
 Default setting for this feature is - **Off**.
 
@@ -92,7 +92,7 @@ For more information on how this feature works, watch this [video demonstration]
 
 [Turnitin](https://www.turnitin.com/) is an academic integrity service. This is a third-party service that is subject to its own terms and privacy policy. You're responsible for your use of any third-party products and services.
 
-To view and manage this setting, navigate to [Education > Assignment settings](https://admin.teams.microsoft.com/education/assignments-settings) in the Teams admin center. 
+To view and manage this setting, navigate to [Education > Assignment settings](https://admin.teams.microsoft.com/education/assignments-settings) in the Teams admin center. 
 
 Default setting for this feature is - **Off**.
 
