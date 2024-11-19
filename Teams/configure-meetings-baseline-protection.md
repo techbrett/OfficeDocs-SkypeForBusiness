@@ -47,7 +47,7 @@ The following table describes which actions we restrict for baseline meetings an
 |Require a verification check from|**Not required**|Label or Template|Yes|
 |Who can bypass the lobby?|**People in my org, trusted orgs, and guests**|Template|No|
 |Who can present|**People in my org and guests**|Teams admin center|No|
-|Who can record and transcribe|**Organizers, co-organizers, and presenters**|Template|No|
+|Who can record|**Organizers, co-organizers, and presenters**|Template|No|
 
 The sensitivity label or meeting template enforces options that are listed as enforced. The meeting organizer can change Options that aren't enforced.
 
