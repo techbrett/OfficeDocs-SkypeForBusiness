@@ -56,8 +56,6 @@ As an admin, you can control whether an entry and exit announcement is played wh
 
 To turn entry and exit announcements on or off with PowerShell, use the **`-EnableEntryExitNotifications`** parameter within the PowerShell [CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet.
 
-EnableEntryExitNotifications
-
 ### Turn off entry and exit announcements
 
 To turn off entry and exit announcements, use the following script:

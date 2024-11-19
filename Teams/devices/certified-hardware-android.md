@@ -85,7 +85,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar (VR0019) | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro, Neat Board 50 & Neat Board | 10 |
+| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro, Neat Board 50, Neat Board & Neat Board Pro 65 | 10 |
 | Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
@@ -363,6 +363,13 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Neat Bar Gen2 | `NFE1.20240924.0005 ` | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Bar | `NFB1.20240924.0005` | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Bar Pro| `NFD1.20240924.0007` | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Board | `NFC1.20240924.0005` |  N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Board 50 | `NFH1.20240924.0005` |  N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Pad touch console | `NFA1.20240924.0507`  | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Board Pro 65 | `NFK1.20240924.0007` | N/A | `1449/1.0.96.2024091202` | `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
 | Neat Bar Gen2 | `NFE1.20240620.1740` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
 | Neat Bar | `NFB1.20240620.0015` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
 | Neat Bar Pro| `NFD1.20240620.1740` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
