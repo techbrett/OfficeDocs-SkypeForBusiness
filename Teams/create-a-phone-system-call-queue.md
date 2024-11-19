@@ -311,6 +311,7 @@ Once you select your agent call routing options, select the **Next** button at t
 
 ## Step 5: Callback
 
+#### Callback
 Callback allows *eligible* callers waiting in queue to receive a callback to the number they are calling from when an agent becomes available.
 
 A caller becomes *eligible* for callback based on any one of the following configured conditions coming true:
@@ -552,127 +553,6 @@ For more information, see:
 | [-NotAgentRedirectPersonAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectPersonAudioFilePrompt)               | [-NotAgentRedirectPersonAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectPersonAudioFilePrompt)               |
 | [-NoAgentRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectVoicemailTextToSpeechPrompt)    | [-NoAgentRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectVoicemailTextToSpeechPrompt)    |
 | [-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          | [-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          |
-
-### Callback
-
-Callback allows eligible callers waiting in queue to receive a callback to the number they're calling from when an agent becomes available.
-
-A caller becomes *eligible* for callback based on any one of the following configured conditions coming true:
-
-- Wait time in queue
-  Once a caller in queue exceeds this configured wait time they become *eligible* for callback. This option applies to callers at the front of the queue.
-
-- Number of calls in queue
-  Once the number of callers in queue reaches this level, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
-
-- Calls to agent ratio
-  Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
-
-Additionally, for a call to become *eligible* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
-
-*Eligible* callers receive an option to request callback *after* the music on hold finishes playing.
-
-You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the callback fails.
-
-#### Callback and Call Queue Timeout
-
-In order for an *eligible* call to be offered callback, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for callback and for the music to finish playing after the call becomes eligible.
-
-Consider the following call queue configuration:
-
-- Callback wait time in queue: 60 seconds
-- Call Queue Timeout: 120 seconds
-- Call Queue Music: Default
-
-In this configuration, a caller becomes eligible for callback after waiting in the queue for 60 seconds. However, as the default music is two minutes long, call queue timeout will occur and the caller won't be offered a callback.
-
-Once a caller successfully requests a callback, the callback is also subject to the call queue timeout configuration. If a callback times out, the information about the caller is sent to the configured email notification address.
-
-In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available and answers the call.
-
-> [!NOTE]
-> Conference mode must be enabled on the call queue in order to configure callback.
-> 
-> In addition to the eligibility requirements already listed, for callers within the North American Numbering Plan, the inbound phone number must not start with any of the following digits in order to become eligible for callback:
->
-> |Starting Digits                                   |
-> |:-------------------------------------------------|
-> | 1-242, 246, 264, 268, 284                        |
-> | 1-340, 345                                       |
-> | 1-441 , 473                                      |
-> | 1-500                                            |
-> | 1-600, 649, 658, 664, 670, 671, 684              |
-> | 1-700, 721, 758, 767, 784, 787                   |
-> | 1-800, 811, 822, 833, 844, 855, 866, 877, 888    |
-> | 1-809, 829, 849, 868, 869, 876                   | 
-> | 1-900, 939                                       |
-> | 1-nnn-555-1212                                   |
-> | 1-nnn-555,0100-0199                              |
-
-For more information, see:
-
-|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
-|:---------------------------------------|:------------------------------------------|
-| [-IsCallbackEnabled](/powershell/module/teams/new-cscallqueue#-IsCallbackEnabled) | [-IsCallbackEnabled](/powershell/module/teams/set-cscallqueue#-IsCallbackEnabled) |
-| [-CallbackRequestDtmf](/powershell/module/teams/new-cscallqueue#-CallbackRequestDtmf) | [-CallbackRequestDtmf](/powershell/module/teams/set-cscallqueue#-CallbackRequestDtmf) |
-| [-WaitTimeBeforeOfferingCallbackInSecond](/powershell/module/teams/new-cscallqueue#-WaitTimeBeforeOfferingCallbackInSecond) | [-WaitTimeBeforeOfferingCallbackInSecond](/powershell/module/teams/set-cscallqueue#-WaitTimeBeforeOfferingCallbackInSecond) |
-| [-NumberOfCallsInQueueBeforeOfferingCallback](/powershell/module/teams/new-cscallqueue#-NumberOfCallsInQueueBeforeOfferingCallback) | [-NumberOfCallsInQueueBeforeOfferingCallback](/powershell/module/teams/set-cscallqueue#-NumberOfCallsInQueueBeforeOfferingCallback) |
-| [-CallToAgentRatioThresholdBeforeOfferingCallback](/powershell/module/teams/new-cscallqueue#-CallToAgentRatioThresholdBeforeOfferingCallback) | [-CallToAgentRatioThresholdBeforeOfferingCallback](/powershell/module/teams/set-cscallqueue#-CallToAgentRatioThresholdBeforeOfferingCallback) |
-| [-CallbackOfferAudioFilePromptResourceId](/powershell/module/teams/new-cscallqueue#-CallbackOfferAudioFilePromptResourceId) | [-CallbackOfferAudioFilePromptResourceId](/powershell/module/teams/set-cscallqueue#-CallbackOfferAudioFilePromptResourceId) |
-| [-CallbackOfferTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-CallbackOfferTextToSpeechPrompt) | [-CallbackOfferTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-CallbackOfferTextToSpeechPrompt) |
-| [-CallbackEmailNotificationTarget](/powershell/module/teams/new-cscallqueue#-CallbackEmailNotificationTarget) | [-CallbackEmailNotificationTarget](/powershell/module/teams/set-cscallqueue#-CallbackEmailNotificationTarget) |
-
-#### PowerShell Examples
-
-##### Calls become eligible after waiting 60 seconds
-
-Create a new call queue:
-````PowerShell
-New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
-````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-##### Calls become eligible for callback when there are more than 50 calls in queue
-
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
-````PowerShell
-New-CsCallQueue -Name "Callback Eligible After 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
-````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
- "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-##### Calls become eligible for callback when there are 2 times more calls than agents
-
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
-````PowerShell
-New-CsCallQueue -Name "Callback Eligible After 2x calls to agents" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
-````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
- "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-##### Calls become eligible for callback after waiting 60 seconds or when there are more than 50 calls in queue
-
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
-````PowerShell
-New-CsCallQueue -Name "Callback Eligible After 60s or 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
-````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
 
 ### Hiding authorized users
 
