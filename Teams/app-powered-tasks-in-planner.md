@@ -98,7 +98,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
             "{reference URL}": { 
                 "@odata.type": "microsoft.graph.plannerExternalReference", 
                 "alias": "{destination app name}", 
-                "previewPriority": "!", 
+                "previewPriority": " !", 
                 "type": "TeamsHostedApp" 
             } 
        } 
@@ -119,7 +119,7 @@ To define the attachment, specify the following properties in `"references"` in 
             "{reference-URL}": { 
             "@odata.type": "microsoft.graph.plannerExternalReference", 
             "alias": "{destination app name}", 
-            "previewPriority": "!", 
+            "previewPriority": " !", 
             "type": "TeamsHostedApp" 
          } 
        } 
@@ -213,7 +213,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
             "https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D": {
                 "@odata.type": "microsoft.graph.plannerExternalReference",
                 "alias": "Security practices presentation",
-                "previewPriority": "!",
+                "previewPriority": " !",
                 "type": "TeamsHostedApp"
              }
         }
