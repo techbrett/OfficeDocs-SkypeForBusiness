@@ -62,7 +62,7 @@ The following table summarizes the configurations for each tier. Use these confi
 |Require a verification check from|**Not required**|**Anonymous users**|**Anonymous users and people from untrusted organizations**|**Anonymous users and people from untrusted organizations**|
 |Who can bypass the lobby?|**People in my org, trusted orgs, and guests**|**People who were invited**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
 |Who can present|**People in my org and guests**|**People in my org and guests**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
-|Who can record and transcribe|**Organizers, co-organizers, and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
+|Who can record|**Organizers, co-organizers, and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
 
 Details on how to configure each tier are covered in:
 
