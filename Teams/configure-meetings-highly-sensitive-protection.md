@@ -53,7 +53,7 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Record meetings automatically|**Off**|Template|Yes|
 |Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
-|Who can record and transcribe|**Only organizers and co-organizers**|Template|No|
+|Who can record|**Only organizers and co-organizers**|Template|No|
 
 Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that are not enforced can be changed by the meeting organizer.
 
@@ -80,7 +80,7 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Require a verification check from|**Anonymous users and people from untrusted organizations**|Label or Template|Yes|
 |Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
-|Who can record and transcribe|**Only organizers and co-organizers**|Template|No|
+|Who can record|**Only organizers and co-organizers**|Template|No|
 
 Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that are not enforced can be changed by the meeting organizer.
 
