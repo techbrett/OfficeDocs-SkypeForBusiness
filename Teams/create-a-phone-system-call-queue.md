@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-- November 28
+- November 22
   - [Callback](#step-5-callback-1) functionality now available through Teams Admin Center
     
 - November 5
