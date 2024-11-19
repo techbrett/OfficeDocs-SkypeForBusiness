@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 
+ms.date: 11/18/2024
 ---
 
 # Walkie Talkie troubleshooting guide
@@ -134,7 +134,7 @@ If a user experiences a delay when they open Walkie Talkie, have them restart Te
 
 ### Walkie Talkie pinning behavior
 
-If users have a Microsoft 365 F license, Walkie Talkie is pinned to the app bar in Teams through the [tailored frontline app experience](/frontline/pin-teams-apps-based-on-license). These users see Walkie Talkie in Teams without any action needed by an admin.
+If users have a Microsoft 365 F license, Walkie Talkie is pinned to the app bar in Teams through the [tailored frontline app experience](/microsoft-365/frontline/pin-teams-apps-based-on-license). These users see Walkie Talkie in Teams without any action needed by an admin.
 
 If users have a Microsoft 365 E license and [Public preview is enabled in Teams](public-preview-doc-updates.md), Walkie Talkie is pinned to the app bar in Teams. These users see Walkie Talkie in Teams without any action needed by an admin.
 
