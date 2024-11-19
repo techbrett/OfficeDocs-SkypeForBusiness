@@ -24,34 +24,33 @@ description: This article provides the information required when you want to add
 
 # Add a custom name for Teams panels
 
-## Heading 2
+  
+You can now customize the display name for your Teams panel. For example, you can shorten the name to something that is more easily readable for your users.  
 
-insert text
+To use custom names, it depends on the version of Teams panels app installed and the license of the account that is signed in to that device:
 
-### Heading 3
+- Verify the Teams panel is running on version 1449/1.0.97._____ or later.
 
-insert text
+- Verify the account signed in on your Teams panel device is assigned a Teams Rooms Pro or Teams Shared Devices license.
 
-#### Heading 4
+To set up and manage custom names for your Teams panels:
 
-**Bold text**
+1. Sign in to the __Teams Rooms Pro Management Portal__.
 
-*italic text*
+1. Go to __Inventory__ > __Planning__ > select a room account where you’d like to apply a custom name to > and fill in the __custom name field.__ By default, this field will be filled with the name that is shown in the Global Address Book (GAL).
 
-Numbered list:
-1. 
-2. 
-3. 
-4. 
+1. Select __Save.__
 
-Bulleted list:
-- 
-- 
-- 
-- 
+Please note that the custom name will be displayed on the Teams panel home screen, so we recommend making sure it is clear and understandable to your users. In addition, please note that this will not change the display name shown on Microsoft Teams Rooms if you have one inside of the room.
 
-## Related articles
+Within 24 hours of the custom name being updated to a name other than the GAL one, the Teams panel home screen will reflect the new name. The home screen will also have a tooltip that, when selected, will show the user the GAL name.
 
-- [Insert link](insert URL)
-- [Insert link](insert URL)
-- [Insert link](insert URL)
+![Home screen of Teams panel with the custom name.](media/custom-names/image.png)
+
+![Dialogue box showing the full conference room name.](media/custom-names/image1.png)
+
+  
+In Teams admin settings, an admin can view the GAL name and custom name if one has been applied under __Device settings__ > __Display name__. It is not possible to edit the name in these admin settings. Editing can only be done in the Teams Rooms Pro Management Portal. 
+
+If you would like to remove the new custom name, you can simply remove the custom name in the custom name field in the Teams Rooms Pro Management Portal, and the display name on Teams panel will default back to the GAL name.
+
