@@ -37,7 +37,7 @@ To create a meeting template policy, follow these steps:
 1. In the **Viewable templates** list, select any templates that you don't want users with this policy to see, and then select **Hide**.
 1. Select **Save**.
 
-Once you've created the policy, you need to assign it to users or groups. See [Assign policies to users and groups](assign-policies-users-and-groups.md) for more information.
+   Once you've created the policy, you need to assign it to users or groups. See [Assign policies to users and groups](assign-policies-users-and-groups.md) for more information.
 
 ## Change which meeting templates are visible to users
 
