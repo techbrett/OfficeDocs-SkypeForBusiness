@@ -3,8 +3,8 @@ title: Require verification checks to join Teams meetings and webinars in your o
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: nraghavan
-ms.date: 10/29/2024
+ms.reviewer: ivah
+ms.date: 11/30/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -85,7 +85,7 @@ Verification checks are supported on the following clients and platforms:
 
 When participants from the following clients and platforms attend meetings that require a verificiation check, they join without completing the CAPTCHA challenge:
 
-**Clients:** Cloud Video Interop (CVI), Azure Communication Services (ACS) platform
+**Clients:** Cloud Video Interop (CVI), Azure Communication Services (ACS) platform, MTR Android devices
 
 **Platforms:** Third party devices
 
