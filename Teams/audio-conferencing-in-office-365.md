@@ -1,7 +1,7 @@
 ---
 title: Plan Audio Conferencing for Teams meetings
 ms.reviewer: 
-description: 
+description: Learn to plan Audio Conferencing for Teams meetings.
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
