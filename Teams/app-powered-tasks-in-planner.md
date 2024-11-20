@@ -90,7 +90,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
     "assignments": { 
         "{user ID of user you want to assign the task to}": { 
             "@odata.type": "#microsoft.graph.plannerAssignment", 
-            "orderHint": "!" 
+            "orderHint": " !" 
         } 
     }, 
     "details": { 
@@ -98,7 +98,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
             "{reference URL}": { 
                 "@odata.type": "microsoft.graph.plannerExternalReference", 
                 "alias": "{destination app name}", 
-                "previewPriority": "!", 
+                "previewPriority": " !", 
                 "type": "TeamsHostedApp" 
             } 
        } 
@@ -175,7 +175,7 @@ To define the attachment, specify the following properties in `"references"` in 
             "{reference-URL}": { 
             "@odata.type": "microsoft.graph.plannerExternalReference", 
             "alias": "{destination app name}", 
-            "previewPriority": "!", 
+            "previewPriority": " !", 
             "type": "TeamsHostedApp" 
          } 
        } 
@@ -295,7 +295,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
             "https://teams%2Emicrosoft%2Ecom/l/stage/com%2Emicrosoft%2Eteamspace%2Etab%2Eyoutube/0?context=%7B%22contentUrl%22%3A%22https%3A%2F%2Ftabs%2Eteams%2Emicrosoft%2Ecom%2FyoutubeContentStage%3FvideoId%3DHBGmSy1iVmY%22%2C%22name%22%3A%22Security%2520talk%22%2C%22openMode%22%3A%22modal%22%7D": {
                 "@odata.type": "microsoft.graph.plannerExternalReference",
                 "alias": "Security practices presentation",
-                "previewPriority": "!",
+                "previewPriority": " !",
                 "type": "TeamsHostedApp"
              }
         }
@@ -308,6 +308,8 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
 Here's what the user sees when they open the task in the Planner app in Teams. Selecting the **Start task** button takes the user to the destination experience in the Teams app. In this example, the destination experience is a security practices video in the YouTube app in Teams.
 
 :::image type="content" source="media/app-powered-tasks-in-planner.png" alt-text="Screenshot of an example of an app-powered task in My Tasks in the Planner app in Teams." lightbox="media/app-powered-tasks-in-planner.png":::
+
+To learn more about the user experience, see [Work with app-powered tasks in the Planner app in Teams](https://support.microsoft.com/topic/16d2f882-aad5-4346-a459-4dfd9fc9a457).
 
 ## Related articles
   
