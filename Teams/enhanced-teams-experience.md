@@ -241,9 +241,6 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 
 ## Advanced Places workplace collaboration
 
-> [!NOTE]
-> This feature is currently in Public Preview.
-
 Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience advanced features that support the booking experience in Places. As an admin, you have access advanced management capabilities and reports.
 
 Teams Premium provides the following advanced capabilities in Places:
