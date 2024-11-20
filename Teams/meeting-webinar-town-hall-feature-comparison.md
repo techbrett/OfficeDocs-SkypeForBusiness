@@ -94,7 +94,7 @@ The following table shows which features are available in meetings, webinars, an
 |[View-only attendees](view-only-meeting-experience.md)|10,000<sup>2</sup>|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 |[VOD](manage-vod-publishing.md)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Voice isolation](voice-isolation.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|[Watermarks](watermark-meeting-content-video.md)|Premium|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
+|[Watermarks](watermark-meeting-content-video.md)|Premium|Premium|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 |[Whiteboard](meeting-policies-content-sharing.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported. <br>
