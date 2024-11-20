@@ -82,7 +82,7 @@ To manage watermarks for meetings, follow these steps:
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 2. Either select an existing policy or create a new one.
 3. Within your chosen policy, navigate to the **Content Protection** section.
-4. For watermarks on attendee video, toggle **Watermark videos** to **On**(default) or **Off**.
+4. For watermarks on attendee video, toggle **Watermark videos** to **On** (default) or **Off**.
 5. For watermarks on content shared on screen in a meeting, toggle **Watermark shared content** to **On** or **Off**.
 6. To set the watermark pattern or transparency, or see a preview, select **Edit settings**. Select **Apply** if you make changes.
 7. Select **Save**.
