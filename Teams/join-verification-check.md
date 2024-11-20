@@ -26,7 +26,7 @@ description: Learn how to require verification checks for Microsoft Teams meetin
 
 # Require verification checks to join Teams meetings and webinars in your org
 
-**APPLIES TO:** ![Image of a checkmark for yes](media/circle-check.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a x for no](media/x-for-no.png) Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a x for no](/office/media/icons/cancel-teams.png)Town halls
 
 For a seamless experience, it's important to manage how anonymous participants join meetings and webinars in your org. Anonymous participants include users who join a Teams meeting without signing in, via the Teams web app, or through external meeting platforms.
 
