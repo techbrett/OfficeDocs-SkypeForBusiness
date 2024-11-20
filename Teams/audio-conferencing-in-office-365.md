@@ -3,8 +3,8 @@ title: Plan Audio Conferencing for Teams meetings
 ms.reviewer: 
 description: 
 ms.topic: article
-ms.author: jenz
-author: jenzamora
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 audience: admin
 ms.date: 2/21/2024
