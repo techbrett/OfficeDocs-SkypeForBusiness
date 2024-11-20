@@ -73,7 +73,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Screen sharing quality alerts** - Set up alerts for in-progress meeting screen sharing issues and get notified immediately when your specified users experience issues.
 
-- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting settings normally controlled by the meeting organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
 
 - **Real time telemetry and retention** - Real-time telemetry is gathered automatically for all users who have a Teams Premium license and retained for seven days.
 
@@ -81,7 +81,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Video quality alerts** - Set up alerts for in-progress meeting video issues and get notified immediately when your specified users experience issues.
 
-- **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting participant. Watermarks are useful for protecting confidential information shared in meetings.
+- **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting or webinar participant. Watermarks are useful for protecting confidential information shared in meetings and webinars.
 
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | --------- | -----------| ----------- | ------------ |
@@ -274,7 +274,7 @@ Teams Premium provides the following advanced capabilities in Places:
 
 ### Queues app
 
-Teams Premium and Teams Phone provides access to Queues app, a Teams-native solution that unlocks a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
+Teams Premium and Teams Phone provide access to Queues app, a Teams-native solution that unlocks a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
 
 - **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app.
 - **Real-time metrics**: The number of waiting calls, average wait time, longest call waiting time metrics, and more are included in real-time metrics within the Queues app. The analytics report shows activity made in the queue from 12:00 AM local time of the signed in user. For more information on real-time reports, see [Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md).
@@ -283,8 +283,8 @@ Teams Premium and Teams Phone provides access to Queues app, a Teams-native solu
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
   | -------------------- | ----------- | ----------- |----------- |
   |Call queue management|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Manage the Queues app for Microsoft Teams](manage-queues-app.md)|[Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)|
-  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control, can view reports if authorized.|
-  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control, can view reports if authorized.|
+  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control can view reports if authorized.|
+  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control can view reports if authorized.|
 
 Queues app is now generally available and is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
 
