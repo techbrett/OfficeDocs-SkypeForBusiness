@@ -28,15 +28,16 @@ This article provides guidance for how to troubleshoot common issues that users 
 
 ## Identify issues
 
-Use the following table to help identify the source of issues.
+Use the following table to help identify the source of issues, along with recommended actions to take.
 
 |Is it...  |Try...|Recommended action  |
 |---------|---------|---------|
 |Network|In Teams, go to **Settings** > **Walkie Talkie** > **Test Network Quality**, and check the network connection strength.|If the results show a poor connection, go to an area with stronger network coverage.|
 |Device|Check whether the issue occurs on only on one device or across multiple devices.|If the issue occurs only on the one device, swap or replace the device.|
-|Headset|Try a different headset.|If the issue only occurs on the particular headset, swap or replace the headset.|
-|All apps|Test to see whether the issue happens only in Walkie Talkie or if it happens across all apps. Try the Calls app or Meeting app in Teams, and also try with a third-party app. |If the issue can be reproduced in other apps, investigate possible issues related to the hardware.|
-|Walkie Talkie app|Check whether the issue occurs for all people connected to the channel, several people, or only one person.|Send logs to Microsoft for investigation and include the number of people who are experiencing the issue. If possible, include a video with steps to reproduce the issue.|
+|Headset|Try a different headset.|If the issue occurs only with a particular headset, swap out or replace the headset.|
+|All apps|Test to see whether the issue happens only when using Walkie Talkie or if it happens across all apps. Try to reproduce the issue using the Calls app or Meeting app within Teams, an app outside of Teams, and a third-party app.|If the issue can be reproduced in other apps, investigate possible issues related to hardware or software that impacts the whole device.|
+|Walkie Talkie app|Check whether the issue occurs for all people in a channel, several people, or only one person.|
+Send logs to Microsoft for investigation and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
 
 ## Troubleshoot common issues
 
@@ -62,14 +63,14 @@ If users experience issues in which they're not receiving transmissions, try the
 
 ### Participants list for a channel is inaccurate
 
-The participants list is the list of users who are actively connected to a Walkie Talkie channel and can potentially hear transmissions. Sometimes this list can become inaccurate. For example, a user doesn't appear in the list even though they're connected to the channel. This issue can occur because of network issues or if a user's status is set to **Do not disturb**.
+The participants list is the list of users who are actively connected to a Walkie Talkie channel and can potentially hear transmissions. Sometimes this list can become inaccurate. For example, a user doesn't appear in the list even though they're connected to the channel. This issue can sometimes occur because of network issues or when a user's status is set to **Do not disturb**.
 
-If the participants list in a channel doesn't accurately reflect the users who are actively connected to the channel, ask the users who aren't on the participants list to try the following steps:
+If the participants list in a channel doesn't accurately reflect the users who are actively connected to the channel, ask the users who aren't appearing on the list to try the following steps:
 
 1. Leave and reconnect to the Walkie Talkie channel.
 1. Switch channels.
-1. Close, and then reopen Walkie Talkie (if on an iOS device).
 1. Send at least two transmissions. This action can potentially add the user back to the participants list.
+1. 1. Close, and then reopen Walkie Talkie (if on an iOS device).
 
 ### Network connectivity issues
 
@@ -77,15 +78,16 @@ Poor network connectivity can lead to interruptions, delays, or loss of communic
 
 #### Run the network test in Walkie Talkie
 
-To check the quality of the network connection, have users tap their profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
+To check the quality of the network connection, have users run the network test in Walkie Talkie. To do this, they tap profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
 
 The following network conditions are required for an optimal experience.
 
 |Performance metric |Values| More information|
 |---|---|---|
-|Latency| RTT < 150 ms, Average RTT < 100 ms|Latency is measured in round-trip time (RTT). If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. RTT values > 500 ms indicate poor network quality.|
-|Jitter |< 30 ms |If jitter is high, users hear crackling sounds or audio breaking up.|
-|Packet loss| Average < 1%, Maximum average < 10% ||
+|Latency| < 150 ms|If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency values > 500 ms indicate poor network quality.|
+|Jitter |< 30 ms |If jitter is high, users will hear crackling sounds or audio breaking up.|
+
+#### Troubleshoot
 
 If results of the network quality test indicate a poor connection, have the user try the following steps:
 
@@ -128,11 +130,9 @@ Make sure Teams has permissions to access the microphone, network, and notificat
 1. Restart Teams.
 1. If permissions issues continue to occur, reinstall Teams on the device.
 
-### Delay when opening Walkie Talkie
+### Walkie Talkie not appearing in Teams
 
-If a user experiences a delay when they open Walkie Talkie, have them restart Teams.
-
-### Walkie Talkie pinning
+#### Make sure Walkie Talkie is pinned to Teams
 
 For your users to access Walkie Talkie in Teams, Walkie Talkie must be pinned to the app bar in Teams. 
 
@@ -171,6 +171,13 @@ If a customer provides a specific E-SKU user who does not have the Walkie Talkie
 1. In Teams Admin Center, go to "Users" -> "Manage Users" -> search for the affected user -> Click on the user -> Click the "Policies" tab.
 
 2. Click on the policy to the right of "App setup policy" and verify that Walkie Talkie appears in the "Pinned apps" section.-->
+
+#### Walkie Talkie not appearing even though it's pinned to Teams
+
+If a user doesn't see Walkie Talkie in Teams, have them try the following steps:
+
+1. In the Teams app bar at the bottom of the screen, tap **More ...**, find and then tap **Walkie Talkie** to open it.
+1. If Walkie Talkie still isn't showing up, restart Teams.
 
 ### Proxy servers
 
