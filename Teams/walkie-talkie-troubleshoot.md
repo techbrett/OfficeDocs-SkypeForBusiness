@@ -35,9 +35,8 @@ Use the following table to help identify the source of issues, along with recomm
 |Network|In Teams, go to **Settings** > **Walkie Talkie** > **Test Network Quality**, and check the network connection strength.|If the results show a poor connection, go to an area with stronger network coverage.|
 |Device|Check whether the issue occurs on only on one device or across multiple devices.|If the issue occurs only on the one device, swap or replace the device.|
 |Headset|Try a different headset.|If the issue occurs only with a particular headset, swap out or replace the headset.|
-|All apps|Test to see whether the issue happens only when using Walkie Talkie or if it happens across all apps. Try to reproduce the issue using the Calls app or Meeting app within Teams, an app outside of Teams, and a third-party app.|If the issue can be reproduced in other apps, investigate possible issues related to hardware or software that impacts the whole device.|
-|Walkie Talkie app|Check whether the issue occurs for all people in a channel, several people, or only one person.|
-Send logs to Microsoft for investigation and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
+|All apps|Test to see whether the issue happens only when using Walkie Talkie or if it happens across all apps. Try to reproduce the issue in other apps. For example, test using the Calls app or Meeting app within Teams, an app outside of Teams, and a third-party app.|If the issue can be reproduced in other apps, investigate possible hardware or software issues that might be impacting device.|
+|Walkie Talkie app|Check whether the issue occurs for all people in a channel, several people, or only one person.|Send logs to Microsoft for investigation and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
 
 ## Troubleshoot common issues
 
@@ -70,7 +69,7 @@ If the participants list in a channel doesn't accurately reflect the users who a
 1. Leave and reconnect to the Walkie Talkie channel.
 1. Switch channels.
 1. Send at least two transmissions. This action can potentially add the user back to the participants list.
-1. 1. Close, and then reopen Walkie Talkie (if on an iOS device).
+1. Close, and then reopen Walkie Talkie (if on an iOS device).
 
 ### Network connectivity issues
 
@@ -78,14 +77,16 @@ Poor network connectivity can lead to interruptions, delays, or loss of communic
 
 #### Run the network test in Walkie Talkie
 
-To check the quality of the network connection, have users run the network test in Walkie Talkie. To do this, they tap profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
+To check the network connection, ask users to run the network test in Walkie Talkie. To do this, have them go to their profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
 
 The following network conditions are required for an optimal experience.
 
 |Performance metric |Values| More information|
 |---|---|---|
-|Latency| < 150 ms|If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency values > 500 ms indicate poor network quality.|
+|Latency|< 150 ms|If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency values > 500 ms indicate poor network quality.|
 |Jitter |< 30 ms |If jitter is high, users will hear crackling sounds or audio breaking up.|
+
+To learn more, see [Manage the Walkie Talkie app in Teams](walkie-talkie.md#network-considerations).
 
 #### Troubleshoot
 
@@ -134,25 +135,28 @@ Make sure Teams has permissions to access the microphone, network, and notificat
 
 #### Make sure Walkie Talkie is pinned to Teams
 
-For your users to access Walkie Talkie in Teams, Walkie Talkie must be pinned to the app bar in Teams. 
+To access Walkie Talkie in Teams, Walkie Talkie must be pinned to the app bar in Teams. The pinning behavior of Walkie Talkie depends on the license users have.
 
 <!--For users who are enabled for Teams [public preview](public-preview-doc-updates.md) or Teams private preview, Walkie Talkie is pinned to the app bar in Teams by default, regardless of the Microsoft 365 license they have. Users can see and access Walkie Talkie without any action needed by an admin.-->
 
-#### Microsoft 365 F license
+##### Microsoft 365 F license
 
-For users with a Microsoft 365 F license, Walkie Talkie is pinned to the app bar in Teams by default through the [tailored frontline app experience](/microsoft-365/frontline/pin-teams-apps-based-on-license). Users can see and access Walkie Talkie in Teams without any action needed by an admin.
+For users with a Microsoft 365 F license, Walkie Talkie is pinned to Teams by default through the [tailored frontline app experience](/microsoft-365/frontline/pin-teams-apps-based-on-license). Users can see and access Walkie Talkie in Teams without any action needed by an admin.
 
-#### Microsoft 365 E license
+##### Microsoft 365 E license
 
 <!--If users have a Microsoft 365 E license and [Public preview is enabled in Teams](public-preview-doc-updates.md) or you're participating in a private preview for Teams in partnership with Microsoft, Walkie Talkie is pinned to the app bar by default in Teams. Users can see and access Walkie Talkie in Teams without any action needed by an admin.-->
 
-For users with a Microsoft 365 E license, you must use an app setup policy to pin Walkie Talkie to Teams. Users won't see Walkie Talkie in Teams until they're assigned an [app setup policy](teams-app-setup-policies.md) that includes Walkie Talkie as a pinned app. If you're pinning more than 10 apps, Walkie Talkie must be added to one of the first 10 apps in the list.
+For users with a Microsoft 365 E license, you must use an app setup policy to pin Walkie Talkie to Teams. Users won't see Walkie Talkie in Teams until they're assigned an app setup policy that includes Walkie Talkie as a pinned app. If you're pinning more than 10 apps, Walkie Talkie must be added to one of the first 10 apps in the list when you set up the policy.
 
-For users with a Microsoft 365 E license who are enabled for Teams [public preview](public-preview-doc-updates.md) or Teams private preview, Walkie Talkie is pinned to the app bar by default in Teams. Users can see and access Walkie Talkie in Teams without having to pin Walkie Talkie through an app setup policy.
+You manage app setup policies in the Teams admin center. You can edit the global (Org-wide default) policy or create and assign a custom policy to users. To learn more, see [Use app setup policies to pin and install apps for users](teams-app-setup-policies.md).
 
-##### Check the app setup policy for a user
+> [!NOTE]
+> If users with a E license are enabled for Teams [public preview](public-preview-doc-updates.md) or Teams private preview, Walkie Talkie is pinned to Teams by default. Users can see and access Walkie Talkie in Teams without any action needed by an admin.
 
-If users with an E license don't see Walkie Talkie in Teams, check the app setup policy assigned to them in the Teams admin center. 
+###### Check the app setup policy assigned to a user
+
+If users with an E license don't see Walkie Talkie in Teams, check the app setup policy assigned to them.
 
 1. In the left navigation of the Teams admin center, go to **Users** > **Manage users**, and then search for the user.
 1. Select the user, and then go to the **Policies** tab.
