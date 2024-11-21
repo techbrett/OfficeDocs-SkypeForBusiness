@@ -85,6 +85,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> Audiocodes </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| C430HD | `2.3.461` | `1.19.584`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| November 20, 2024| 
 | C435HD/C455HD/C470HD | `2.3.453` | `1.19.584`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 19, 2024|
 | C430HD | `2.3.423` | `N/A`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 17, 2024| 
 | C448HD/C450HD | `1.19.712` | `N/A`| Teams client: `1449/1.0.94.2024062301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
