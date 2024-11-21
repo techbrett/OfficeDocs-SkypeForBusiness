@@ -115,7 +115,7 @@ After migration, your blocked apps continue to remain unavailable to users. The 
 
 ## Add or modify app availability for users
 
-To let users add and use an app, you must assign users or groups to an app. It takes up to 24-72 hours for the changes to take effect. In rare cases, it may take up to 6 days for the availability changes to reflect in the client.
+To let users add and use an app or a Copilot agent, you must assign users or groups to an app. Ensure that the users or groups are allowed or blocked to use an app or a Copilot agent in Microsoft 365 admin center and in Teams admin center for the same users and groups. It takes up to 24-72 hours for the changes to take effect. In rare cases, it may take up to 6 days for the availability changes to reflect in the client.
 
 1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
 
