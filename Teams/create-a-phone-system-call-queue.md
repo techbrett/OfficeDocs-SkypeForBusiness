@@ -315,11 +315,11 @@ Once you select your agent call routing options, select the **Next** button at t
 
 A caller becomes eligible for callback based on any one of the following configured conditions coming true:
 
-- **Wait time in queue** - Once a caller in queue exceeds this configured wait time they become *eligible* for callback. This option applies to callers at the front of the queue.
+- **Wait time in queue** - Once a caller in queue exceeds this configured wait time they become eligible for callback. This option applies to callers at the front of the queue.
 
-- **Number of calls in queue** - Once the number of callers in queue reaches this level, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
+- **Number of calls in queue** - Once the number of callers in queue reaches this level, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
 
-- **Calls to agent ratio** - Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
+- **Calls to agent ratio** - Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue.
 
 Additionally, for a call to become eligble for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
 
@@ -341,7 +341,7 @@ After waiting in the queue for 60 seconds, the caller becomes eligible for callb
 
 Once a caller has successfully requested a callback, the callback request is also subject to the call queue timout configuration. If a callback request times out, the information about the caller is sent to the configured email notification address.
 
-In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback and for the callback to be queued until an agent becomes available and answers the call.
+In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available and answers the call.
 
 > [!NOTE]
 > For callers within the North American Numbering Plan, in addition to the eligibility requirements already listed and in order to become eligible for callback, the inbound phone number must not start with any of the following digits:
@@ -426,9 +426,6 @@ To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in th
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
-
-
-
 
 
 ## [Step 6: Exception Handling](#tab/call-exception-handling)
