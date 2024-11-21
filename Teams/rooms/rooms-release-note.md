@@ -751,6 +751,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024110701](#144910962024110701-november-2024) | November 2024 |
 |[1449/1.0.96.2024101004](#144910962024101004-october-2024) | October 2024 |
 |[1449/1.0.96.2024091202](#144910962024091202-september-2024) | September 2024 |
 |[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
@@ -782,6 +783,37 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024110701 (November 2024)
+
+Introduced in this update: 
+
+
+- **Dual display mode and swap screens admin controls<sup>1</sup>**:::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can deliberately configure Teams Rooms on Android devices to run in dual display mode. Admins can also switch the screens of dual display rooms using the swap screens setting, easily correcting front-of-room displays that were set up invertedly. Both controls are accessible from the device settings and the Teams admin center. This feature requires a Teams Rooms Pro license.  
+ 
+
+- **3x3 video gallery on dual displays<sup>2</sup>**:::image type="icon" source="../media/mtr-pro-icon.png":::. Dual display rooms can now show up to 18 participant videos (3x3 on each screen) when no content is being shared during meetings.  
+
+ 
+
+- **Cloud Intelliframe**:::image type="icon" source="../media/mtr-pro-icon.png":::. Cloud IntelliFrame enhances non-AI cameras, showing in-room participants in individual frames like remote attendees for a more natural, engaging experience. Now, Teams Rooms on Android receive Cloud IntelliFrame video feeds, bringing uniformity across Windows and Android devices. Roadmap ID: 415250. Learn more. 
+
+ 
+
+- **Whiteboard enhancements**.  When using the whiteboard outside of meetings, your content is retained even when a meeting begins. The whiteboard's contents are preserved and shared with remote participants instantly. You can also use the ‘Follow me’ function to guide participants as you navigate, and collaborative cursors let you see everyone working in real-time.   
+
+ 
+
+- **Net Promoter Score (NPS) survey**. Users can rate how likely they are to recommend Microsoft Teams Rooms from 1 to 5 and provide additional comments on NPS surveys delivered on Teams Rooms on Android devices. NPS surveys will show up periodically after meetings end. IT admins can manage policies and allow or prevent room accounts from getting NPS surveys using PowerShell. Learn more.  
+
+ 
+
+- **Admin email support for Report a problem**. IT admins can designate an email address for receiving ‘Report a problem’ submissions from Teams Rooms on Android devices. The email address can be set from the device settings and the Teams admin center. 
+  
+
+<sup>1</sup>The swap screens setting will only be available on devices with the proper firmware support. If you don’t see the setting on your device, contact the device manufacturer for firmware support timelines.   
+
+<sup>2</sup>Due to device capability requirements and performance implications, 3x3 video gallery support for dual displays will only be available on the following Teams Rooms on Android devices: Yealink MeetingBar A40, Poly Studio X52, and Poly Studio G62. 
 
 ### 1449/1.0.96.2024101004 (October 2024)
 
