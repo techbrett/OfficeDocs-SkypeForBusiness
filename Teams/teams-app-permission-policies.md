@@ -35,7 +35,14 @@ ms.custom:
 
 As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](apps-in-teams.md). To understand policies, see [app permission policies](app-policies.md). You must be a Teams Administrator or have a higher role to manage these policies.
 
-To allow an app, you must allow it in [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings), [individual app's setting](manage-apps.md#allow-or-block-apps), and app permission policy. While the first two settings just allow an app for use in your organization, the permission policies allow you to control which users can use a specific app. You control the access on a per-user and per-app basis by creating and applying the policy to specific users.
+To let your org users use a Teams app or a Copilot agent, you must allow it in,
+
+* [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings)
+* [individual app's setting](manage-apps.md#allow-or-block-apps)
+* In app permission policy.
+* In Teams admin center and Microsoft 365 admin center.
+
+The first two settings just allow an app for use in your organization, the permission policies allow you to control which users can use a specific app. You control the access on a per-user and per-app basis by creating and applying the policy to specific users. To make any apps or Copilot agents available in your organization, ensure that those are enabled in Teams admin center as an app in and in the org-wide setting and it is enabled in Microsoft 365 admin center. Ensure that the settings for a Copilot agent in Microsoft 365 admin center and in the Teams admin center are the same.
 
 Teams admin center lets you create two types of permissions policies:
 
@@ -60,10 +67,10 @@ Use one or more custom app permission policies, if you want to control the apps 
 1. Provide a name and description for the policy.
 1. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following options:
 
-    * Allow all apps
-    * Allow specific apps and block all others
-    * Block specific apps and allow all others
-    * Block all apps
+    * Allow all apps or Copilot agents
+    * Allow specific apps or Copilot agents and block all others
+    * Block specific apps or Copilot agents and allow all others
+    * Block all apps or Copilot agents
 
 1. If you selected **Allow specific apps and block all others**, add the apps that you want to allow:
 

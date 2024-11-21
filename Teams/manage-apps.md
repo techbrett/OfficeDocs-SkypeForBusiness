@@ -67,9 +67,7 @@ App management tasks that are supported on other portals are in the table below.
 
 ## Allow or block apps
 
-As an admin, you control access to all [types of apps](apps-in-teams.md#types-of-teams-apps) that are used across your organization. Teams provides granular controls to configure access for each app and for each user.
-
-To allow an app, you must do all of the following settings. To block an app, just use any one of these settings.
+As an admin, you control access to all [types of apps](apps-in-teams.md#types-of-teams-apps) that are used across your organization. Teams provides granular controls to configure access for each app and for each user. To allow an app or a Copilot agent, you must do all of the following settings. To block an app, just use any one of these settings. Ensure that the app that you want to allow in Teams admin center is allowed in the Microsoft 365 admin center.
 
 | Method                                                                                                           | Scope      | Use case                                                                                  |
 |:-----------------------------------------------------------------------------------------------------------------|:-----------|:------------------------------------------------------------------------------------------|
@@ -77,7 +75,7 @@ To allow an app, you must do all of the following settings. To block an app, jus
 | Block or unblock apps                                                                                            | App-level  | Use this setting to allow a few specific apps in your org.                                |
 | [App permission policy](teams-app-permission-policies.md) or [app centric management](app-centric-management.md) | User-level | Let all users or let specific users use an app.                                           |
 
-You allow or block specific apps on either the Manage apps page or in the app details page. Manage apps page displays all the available app and the current org-level app status. To allow or block an app, follow these steps:
+You allow or block specific apps or a Copilot agent on either the Manage apps page or in the app details page. If you [allow or block a Copilot agent in Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps), then ensure that the allow or block settings match in the Teams admin center and those match for the same group of people. Manage apps page displays all the available app and the current org-level app status. To allow or block an app, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
@@ -133,6 +131,8 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Select **Save**. The settings take effect after a few hours.
 
 Admin center settings may allow your users to collaborate with users from other organizations. To understand how apps work with external users in meetings, see [Teams apps for external attendees](apps-external-users.md).
+
+To make any Copilot agents available in your organization, ensure that those are enabled in Teams admin center as an app in the org-wide setting and it is enabled in Microsoft 365 admin center.
 
 ## Install apps or let users install apps and uninstall apps
 
