@@ -33,6 +33,9 @@ Persistent Chat Server can help improve communication within your organization b
     
 - Following compliance regulations by optionally deploying the Persistent Chat Compliance service
 
+> [!NOTE]
+> Persistent Chat is available as a separate installer in Skype for Business Server 2019. It is downloadable from the release page of Cumulative Update 8 for Skype for Business Server 2019. 
+
 ## Persistent Chat Server high-level architecture
 
 The following diagram shows a high-level view of the Persistent Chat Server architecture. 
