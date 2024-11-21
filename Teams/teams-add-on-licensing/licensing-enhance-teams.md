@@ -261,9 +261,6 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 ### Places workplace collaboration
 
-> [!NOTE]
-> This feature is currently in Public Preview.
-
 Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview).
 
 | Feature | Teams | Teams Premium |
