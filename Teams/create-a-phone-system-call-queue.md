@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 11/01/2024
+ms.date: 11/21/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
-  - ms.teamsadmincenter.callqueues.overview"
+  - ms.teamsadmincenter.callqueues.overview
   - Phone System
 description: Learn how to set up Call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
 ---
@@ -39,19 +39,19 @@ Call queues provide:
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 - Handling options for queue overflow and timeout.
 
-Before you follow the procedures in this article, be sure you have read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
+Before you follow the procedures in this article, be sure you've read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
 ## What's new for Call queues in the past six months
 
 - November 22
-  - [Callback](#step-5-callback-1) functionality now available through Teams Admin Center
+  - [Callback](#step-5-callback-1) functionality is now available through Teams admin center.
     
 - November 5
   - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
 
 - September 16
-  - [Callback](#callback-via-powershell) functionality available through PowerShell cmdlets
-  - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
+  - [Callback](#callback-via-powershell) functionality is available through PowerShell cmdlets.
+  - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server.
 
 ## Steps to create a Call queue
 
@@ -305,33 +305,29 @@ We recommend turning on **Call agents can opt out of taking calls**.
 Once you select your agent call routing options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 
-
-
 ## [Step 5: Callback](#tab/callback)
 
 ## Step 5: Callback
 
-#### Callback
-Callback allows *eligible* callers waiting in queue to receive a callback to the number they are calling from when an agent becomes available.
+### Callback
 
-A caller becomes *eligible* for callback based on any one of the following configured conditions coming true:
+**Callback** allows *eligible* callers waiting in a call queue to receive a callback to the number they're calling from when an agent becomes available.
 
-- Wait time in queue
-  Once a caller in queue exceeds this configured wait time they become *eligible* for callback. This option applies to callers at the front of the queue.
+A caller becomes eligible for callback based on any one of the following configured conditions coming true:
 
-- Number of calls in queue
-  Once the number of callers in queue reaches this level, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
+- **Wait time in queue** - Once a caller in queue exceeds this configured wait time they become *eligible* for callback. This option applies to callers at the front of the queue.
 
-- Calls to agent ratio
-  Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
+- **Number of calls in queue** - Once the number of callers in queue reaches this level, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
 
-Additionally, for a call to become *eligble* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
+- **Calls to agent ratio** - Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
 
-*Eligible* callers will receive an option to request callback *after* the music on hold finishes playing.
+Additionally, for a call to become eligble for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
 
-You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the callback fails.
+After the music on hold finishes playing, eligible callers receive an option to request callback.
 
-#### Callback and Call Queue Timeout Interplay
+As an admin, you can also set the messaging a caller hears, the key they need to press, and an email address to be notified at if the callback fails.
+
+#### Callback and Call queue timeouts
 
 In order for an *eligible* call to be offered callback, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for callback and for the music to finish playing after the call becomes eligible.
 
@@ -341,14 +337,14 @@ Consider the following call queue configuration:
 - Call Queue Timeout: 120 seconds
 - Call Queue Music: Default
 
-The caller will become eligible for callback after waiting in the queue for 60 seconds however, as the default music is 2 minutes long, call queue timeout will occur first and the caller will never be offered callback.
+After waiting in the queue for 60 seconds, the caller becomes eligible for callback. However, as the default music is two minutes long, the call queue timeout will occur first and the caller won't be offered callback.
 
-Once a caller has successfully requested a callback, the call back request is also subject to the call queue timout configuration. If a callback request times out, the information about the caller will be sent to the configured email notification address.
+Once a caller has successfully requested a callback, the callback request is also subject to the call queue timout configuration. If a callback request times out, the information about the caller is sent to the configured email notification address.
 
-**In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback and for the callback to be queued until an agent becomes available and answers the call.**
+In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback and for the callback to be queued until an agent becomes available and answers the call.
 
 > [!NOTE]
-> In addition to the eligibility requirements already listed, for callers within the North American Numbering Plan, the inbound phone number must not start with any of the following digits in order to become eligible for callback:
+> For callers within the North American Numbering Plan, in addition to the eligibility requirements already listed and in order to become eligible for callback, the inbound phone number must not start with any of the following digits:
 >
 > |Starting Digits                                   |
 > |:-------------------------------------------------|
@@ -365,7 +361,6 @@ Once a caller has successfully requested a callback, the call back request is al
 > | 1-nnn-555,0100-0199                              |
 
 Once you select your callback options, select the **Next** button at the bottom of the **Add a Call queue** page.
-
 
 ### Callback via PowerShell
 
@@ -535,7 +530,7 @@ The following settings are recommended:
 
 ### Additional messaging
 
-The Overflow, Call timeout and No Agents exception redirect options for **Person in organization** and **Voicemail personal** support additional prompting just like the other redirect options. 
+The Overflow, Call timeout, and No Agents exception redirect options for **Person in organization** and **Voicemail personal** support additional prompting just like the other redirect options. 
 
 For more information, see:
 
