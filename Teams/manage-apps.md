@@ -30,7 +30,7 @@ In the Teams admin center, we provide a few dedicated pages and UIs to manage yo
 
 If your organization uses [app centric management](app-centric-management.md) (whether migrated automatically or manually), you see a slightly different Manage Apps UI.
 
-:::image type="content" source="media/manage-apps-acm-org.png" alt-text="Screenshot showing the Manage apps page in Teams admin center." lightbox="media/manage-apps-acm-org.png":::
+:::image type="content" source="media/manage-apps-acm-org.png" alt-text="Screenshot showing the Manage apps page in Teams admin center after migration to app centric management." lightbox="media/manage-apps-acm-org.png":::
 
 To use Teams admin center, you must have a Teams Administrator role. Some admins with a higher privilege role can accomplish app governance tasks but we recommend using the lower privilege role where possible. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
 
