@@ -113,4 +113,4 @@ For more information about installing and configuring Persistent Chat Server, se
     
 - For details about how to configure settings on your Persistent Chat Server deployment, see [Manage Persistent Chat Server in Skype for Business Server](../../manage/persistent-chat/persistent-chat.md).
     
-- For details about migrating Persistent Chat pool from Skype for Business Server 2015 to Skype for Business Server 2019 see, [Migrate Persistent Chat Pool](/SkypeForBusiness/migration/migrate-persistent-chat-pool.md).
+- For details about migrating Persistent Chat pool from Skype for Business Server 2015 to Skype for Business Server 2019 see, [Migrate Persistent Chat Pool](/SkypeForBusiness/migration/migrate-persistent-chat-pool).
