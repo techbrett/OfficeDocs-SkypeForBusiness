@@ -24,13 +24,13 @@ Ensure that admin has the `RTCUniversalServerAdmins` permission assigned.
 Run the following cmdlet on the Skype for Business 2015 front-end server to export Persistent Chat data (categories, rooms, chats etc):
 
 ```powershell
-Export-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>"  -FileName "C:\PersistentChatData.zip"
+Export-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>" -FileName "C:\PersistentChatData.zip"
 ```
 2. **Import Persistent Chat data into Skype for Business Server 2019:**<br> 
 Bring in the exported Persistent Chat data (zip file) from Skype for Business 2015 front-end server to Skype for Business 2019 front-end server (at C:\PersistentChatData.zip). Run the following cmdlet on the Skype for Business 2019 front-end server to import Persistent Chat data:
 
 ```powershell
- Import-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>"  -FileName "C:\PersistentChatData.zip"
+ Import-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>" -FileName "C:\PersistentChatData.zip"
 ```
 
 3. **Update default Persistent Chat pool URL in Skype for Business Server 2019:** 
