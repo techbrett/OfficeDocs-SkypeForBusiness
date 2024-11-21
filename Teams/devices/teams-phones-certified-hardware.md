@@ -32,7 +32,7 @@ Certification programs are designed to ensure all certified devices run an Andro
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
-Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will need to be re0certified, while others may not be recertified and will be discontinued by the OEM.
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will need to be re-certified, while others may not be recertified and will be discontinued by the OEM.
 
 We recognize that device certification expiration can impact your business. Our OEM partners will detail their End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, consult our OEM partners' websites.
 
@@ -45,7 +45,7 @@ Following a certification expiration, Microsoft is committed to supporting the l
 The following devices are certified under the Microsoft Teams phones Android Certification Program.
 
 > [!NOTE]
-> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. The folowing information reflects current certification end dates.
+> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. The following information reflects current certification end dates.
 
 | Device model | Firmware version | Current certification end date | Android OS version |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
