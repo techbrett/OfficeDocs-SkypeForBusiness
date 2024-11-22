@@ -61,9 +61,12 @@ For **Channel meetings**, the recording is stored in the SharePoint Teams site d
 
 ### Shared account scheduled meetings
 
-For **shared accounts scheduled meetings**, if the shared account has a OneDrive, the recording is uploaded there. However, since shared accounts typically don’t have a OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive instead. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+For **shared mailbox scheduled meetings**, the shared mailbox is considered the organizer. If the shared account has a OneDrive, the recording is uploaded there. However, since shared mailbox typically don’t have a OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive instead. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
-For details on shared accounts, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
+For details on shared mailbox, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
+
+> [!NOTE]
+> For shared mailbox scheduled meeting, since the shared mailbox is organizer, its CsTeamsRecordingRolloutPolicy is checked, rather than that of the delegate member. Typically, shared mailboxes do not have a license, so they follow the global identity's policy. Shared mailbox can only be assigned with custom teams meeting policy if it is assigned with teams license. 
 
 ### Microsoft Teams Rooms meetings
 
