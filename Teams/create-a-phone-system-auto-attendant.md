@@ -27,9 +27,9 @@ description: Learn how to set up and manage Auto attendants in Microsoft Teams.
 
 # Set up a Microsoft Teams Auto attendant
 
-Auto attendants let people call your organization and navigate a menu system to speak to the right department, Call queue, person, or an operator. You can create Auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, Call queue, person, or operator. You can create Auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
 
-Be sure you've read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
+Before you follow the procedures in this article, be sure you've read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
 Auto attendants can redirect calls, based on callers' input, to one of the following destinations:
 
@@ -55,7 +55,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 ## What's new for Auto attendants in the past six months
 
 - November 21
-  - [Dial by name improvements](#dial-by-name-improvements) when a search returns multiple people with the same name
+  - [Dial by name improvements](#dial-by-name-improvements) for when a search returns multiple people with the same name.
     
 - November 5
   - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
@@ -70,7 +70,7 @@ The steps to add an Auto attendant are:
 1. Set up resource accounts.
 1. Set up authorized users.
 
-The steps outlined in the article create Auto attendants using the Teams admin center. For instructions to **create Auto attendants using PowerShell**, see [Creating Auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md).
+The steps outlined in the article create Auto attendants using the Teams admin center. For instructions on creating Auto attendants using PowerShell, see [Creating Auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md).
 
 ## Follow these steps to set up your Auto attendant
 
@@ -258,17 +258,11 @@ Nested Auto attendants and Call queues (auto attendants and call queues that don
 
 Existing configurations that use Resource Accounts continue to function and remain fully supported. A combination of both methods can be used at the same time.
 
-For more information, see:
-
-|New-CsAutoAttendantCallableEntity  |
-|:---------------------------------------|
-| [-Type ConfigurationEndPoint](/powershell/module/teams/new-csautoattendantcallableentity#-Type)  |
+For more information, see [New-CsAutoAttendantCallableEntity -Type ConfigurationEndPoint](/powershell/module/teams/new-csautoattendantcallableentity#-Type).
 
 #### PowerShell Example
 
-##### Create a new callable entity to another Auto attendant or Call queue
-
-Create a new callable entity:
+To create a new callable entity to another Auto attendant or Call queue, use the New-CsAutoAttendantCallableEntity cmdlet, as shown in the following example:
 
 ````PowerShell
 New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -Type ConfigurationEndPoint
@@ -278,23 +272,20 @@ New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> 
 
 When a dial by name search returns multiple people with the same name, the results can now be enhanced by appending additional information after the name. This makes it easier for callers to reach the correct person.
 
-The default is to only say the name however, the office, or department information can now be added as part of the results.
+The default is to only say the name. However, the office or department information can now be added as part of the results.
 
-For more information, see:
-
-|New-CsAutoAttendant  |
-|:---------------------------------------|
-| [-UserNameExtension](/powershell/module/teams/new-csautoattendant#-UserNameExtension)  |
+For more information, see [New-CsAutoAttendant -UserNameExtension](/powershell/module/teams/new-csautoattendant#-UserNameExtension).
 
 ## Resources for complex scenarios
 
 ### External phone number transfers - technical details
 
-Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow Auto attendants to transfer calls externally.  In addition,
+Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow Auto attendants to transfer calls externally. 
 
-- For a resource account with a [Calling Plan license](calling-plans-for-office-365.md) or [Operator Connect](operator-connect-plan.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
+In addition, for a resource account with a:
 
-- For a resource account with a Microsoft Teams Phone License and Direct Routing online voice routing policy, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
+- [Calling Plan license](calling-plans-for-office-365.md) or [Operator Connect](operator-connect-plan.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
+- [Microsoft Teams Phone license](setting-up-your-phone-system.md) and [Direct Routing online voice routing policy](direct-routing-voice-routing.md), the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
 
 The outbound phone number that's displayed is determined as follows:
 
@@ -307,7 +298,7 @@ In a Skype for Business hybrid environment, to transfer an Auto attendant call t
 
 ### Auto Attendant Diagnostic Tool
 
-If you're an administrator, you can use the following diagnostic tool to validate that an Auto attendant is able to receive calls:
+As an administrator, you can use the following diagnostic tool to validate that an Auto attendant is able to receive calls:
 
 1. Select **Run Tests**, which populates the diagnostic in the Microsoft 365 Admin Center.
 
@@ -316,7 +307,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 1. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
 
-1. The tests identify tenant, policy, or resource account configurations that are preventing the Auto attendant from receiving calls and also provide steps to fix any problems identified.
+The tests identify tenant, policy, or resource account configurations that are preventing the Auto attendant from receiving calls and also provide steps to fix any problems identified.
 
 ## Related articles
 
