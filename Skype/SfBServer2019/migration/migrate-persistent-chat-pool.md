@@ -21,7 +21,7 @@ If you are migrating from Skype for Business Server 2015 (with Persistent Chat e
 Ensure that admin has the `RTCUniversalServerAdmins` permission assigned.
 
 1. **Export Persistent Chat data from Skype for Business Server 2015:**<br> 
-Run the following cmdlet on the Skype for Business 2015 front-end server to export Persistent Chat data (categories, rooms, chats etc):
+Run the following cmdlet on the Skype for Business 2015 front-end server to export Persistent Chat data (categories, rooms, chats etc.):
 
 ```powershell
 Export-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>" -FileName "C:\PersistentChatData.zip"
