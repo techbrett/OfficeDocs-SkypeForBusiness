@@ -95,4 +95,4 @@ Webinars and town halls don’t support the following features and settings:
 - [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 - [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
-- [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
+- [Use sensitivity labels to protect calendar items, Teams meetings and chat](/purview/sensitivity-labels-meetings)
