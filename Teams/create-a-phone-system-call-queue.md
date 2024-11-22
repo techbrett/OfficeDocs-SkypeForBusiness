@@ -59,6 +59,7 @@ The steps to set up a Call queue includes:
 1. Set the greeting and music
 1. Set up call answering
 1. Choose and assign agents
+1. Set up callback
 1. Set up call exception handling
 1. Set up authorized users
 
