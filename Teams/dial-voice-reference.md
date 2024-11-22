@@ -111,6 +111,28 @@ Callers can say names in the following formats:
 |FirstName or LastName |Partial |Mar |Press or say 1 for Mary Marble  <br/> Press or say 2 for Mary Jones  <br/> Press or say 3 for Amos Marcus |
 |FirsName + LastName |Partial |Amos Mar |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Marcus |
 
+### Dial by Name - Multiple users with the same name
+
+If there are multiple users with the same name then it's possible that a dial by name search returns these users. In this case, the default behaviour will be to say each name followed by the option to select. For example, if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
+
+For John Smith, press 1.
+For John Smith, press 2.
+For John Smith, press 3.
+
+In these situations the information the caller is presented with can be extended by configuring the [UserNameExtension](/powershell/module/teams/new-csautoattendant?view=teams-ps#-usernameextension) parameter.
+
+The UserNameExtension specifies how to extend the information returned in a dial by name search with additional information. Possible values are:
+
+- None: Default value, which means the username is pronounced as is.
+- Office: Adds office information from the user profile.
+- Department: Adds department information from the user profile.
+
+If the UserNameExtension has been configured with `Department` then if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
+
+For John Smith in accounting, press 1.
+For John Smith in sales, press 2.
+For John Smith in support, press 3.
+
 
 ### Dial by Extension
 
