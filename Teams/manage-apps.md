@@ -107,6 +107,8 @@ As an admin, you use one of the following methods to define access to apps for y
 * [App permission policies](teams-app-permission-policies.md) if you use policy-based method to define app access.
 * App assignment if you use [app centric management](app-centric-management.md) to define app access.
 
+To make any apps or copilot agents available in your organization, ensure that the settings to allow these are the same in Teams admin center and in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) in the Integrated Apps page.
+
 ## Manage org-wide app settings
 
 Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload custom apps in your organization.
@@ -131,8 +133,6 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Select **Save**. The settings take effect after a few hours.
 
 Admin center settings may allow your users to collaborate with users from other organizations. To understand how apps work with external users in meetings, see [Teams apps for external attendees](apps-external-users.md).
-
-To make any Copilot agents available in your organization, ensure that those are enabled in Teams admin center as an app in the org-wide setting and it is enabled in Microsoft 365 admin center.
 
 ## Install apps or let users install apps and uninstall apps
 
@@ -174,7 +174,7 @@ You may have queries about admin settings or configuration, user flows and app f
 * We don't provide direct customer support for Teams apps but we provide the following safeguards, health checks, and certification methods for apps:
 
   * We proactively check Teams apps for issues and inform the developer to update their app. Scenarios covered are related to app health, functional issues reported by users to Microsoft, security issues, and so on. For details, see [Microsoft enforcement actions for published apps](/microsoftteams/platform/concepts/deploy-and-publish/appsource/post-publish/overview#possible-enforcement-actions).
-  * For Publisher Attested and Microsoft 365 certified apps, Microsoft offers [security and compliance information](overview-of-app-certification.md#microsoft-365-certification). If app developers consent, Microsoft provides admins with the option to [download the detailed evidence submitted by developers](overview-of-app-certification.md#microsoft-365-certification) during the certification audits for apps or Copilot agents.
+  * For Publisher Attested and Microsoft 365 certified apps, Microsoft offers [security and compliance information](overview-of-app-certification.md#microsoft-365-certification). If app developers consent, Microsoft provides admins with the option to [download the detailed evidence submitted by developers](overview-of-app-certification.md#microsoft-365-certification) during the certification audits for apps or copilot agents.
   * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app. If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.
   * Certification to apps using [Microsoft 365 app compliance program](overview-of-app-certification.md) ensures that apps are compliant with the industry-standard frameworks.
 
