@@ -89,9 +89,7 @@ To set up an Auto attendant, in the [Teams admin center](https://admin.teams.mic
 1. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this Auto attendant. This language is used for system-generated voice prompts.
 
    > [!IMPORTANT]
-   > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
-   >
-   > All words are pronounced in the selected language.
+   > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation. All words are pronounced in the selected language.
 
 1. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales." If you choose a language in Step 4 that doesn't support voice inputs, this option isn't available.
 
@@ -137,9 +135,8 @@ If you assign dial keys to destinations, we recommend that you choose **None** f
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
-**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.
-
-**Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and isn't included in the directory on the [Dial scope](?tabs=dial-scope) page.)
+- **Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.
+- **Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and isn't included in the directory on the [Dial scope](?tabs=dial-scope) page.)
 
 > [!NOTE]
 > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main Auto attendant to reach an Auto attendant enabled for **Dial by name**. Within that Auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** Auto attendant.
@@ -180,8 +177,8 @@ Your Auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 1. Choose if you want to **Disconnect**, **Redirect**, or **Play menu options** the call.
 
-    1. If you chose to redirect, choose the call routing destination for the call.
-    1. If you choose to play menu options, configure the **Play menu options**.
+    - If you chose to redirect, choose the call routing destination for the call.
+    - If you choose to play menu options, configure the **Play menu options**.
 
 1. Select **Save**.
 
@@ -260,13 +257,13 @@ Existing configurations that use Resource Accounts continue to function and rema
 
 For more information, see [New-CsAutoAttendantCallableEntity -Type ConfigurationEndPoint](/powershell/module/teams/new-csautoattendantcallableentity#-Type).
 
-#### PowerShell Example
+#### PowerShell example
 
 To create a new callable entity to another Auto attendant or Call queue, use the New-CsAutoAttendantCallableEntity cmdlet, as shown in the following example:
 
-````PowerShell
+```PowerShell
 New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -Type ConfigurationEndPoint
-````
+```
 
 ### Dial by name improvements
 
