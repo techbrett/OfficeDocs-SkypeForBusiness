@@ -310,8 +310,6 @@ Once you select your agent call routing options, select the **Next** button at t
 
 ## Step 5: Callback
 
-### Callback
-
 **Callback** allows *eligible* callers waiting in a call queue to receive a callback to the number they're calling from when an agent becomes available.
 
 A caller becomes eligible for callback based on any one of the following configured conditions coming true:
