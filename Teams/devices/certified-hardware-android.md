@@ -48,8 +48,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
 | AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room (3 m x 3 m) | 10 |
-| Audiocodes RXPad Touch console | `2.0.282` | August 15, 2027 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
-| Audiocodes RXV81 Collaboration Bar | `2.0.0` | August 15, 2027 | Small meeting room (4.5 m x 4.5 m) | 12 |
+| AudioCodes RXPad Touch console | `2.0.282` | August 15, 2027 | Compatible with AudioCodes RXV81 and RXV200 Collaboration bars. | 12 |
+| AudioCodes RXV81 Collaboration Bar | `2.0.0` | August 15, 2027 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Bar Pro | `RoomOS11.9` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | Cisco Board Pro 55 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | Cisco Board Pro 75 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
@@ -69,7 +69,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | DTEN D7X 75" + Vue Pro | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" + Vue | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" | `1.2.8` |  August 15, 2027 |  Medium size room (4.5 m x 6 m) | 12 |
-| DTEN Mate Touch Console | `2.0.2.0` | Septmber 3, 2025 |  Compatible with DTEN DCR200 Bar, DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
+| DTEN Mate Touch Console | `2.0.2.0` | September 3, 2025 |  Compatible with DTEN DCR200 Bar, DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
 | DTEN D7X 55" | `1.2.2` |August 15, 2027| Small meeting room (4.5 m x 4.5 m) | 12 |
 | DTEN Bar + Vue | `1.3.0` | October 4, 2026 | Small Meeting Room (4.5 m x 4.5 m) | 12 |
 | DTEN Bar + Vue Pro | `1.3.0` | October 4, 2026 | Small Meeting Room (4.5 m x 4.5 m) | 12 |
@@ -80,12 +80,12 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar Huddle (VR0034)  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
 | Logitech Tap IP (VR0029) | `1.6.565` | September 3, 2025 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
 | Logitech Roommate (VR0030) | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini and Roommate | 10 |
+| Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini, and Roommate | 10 |
 | Logitech Rally Bar Mini (VR0020) | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar (VR0019) | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro, Neat Board 50 & Neat Board | 10 |
+| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro, Neat Board 50, Neat Board & Neat Board Pro 65 | 10 |
 | Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
@@ -249,6 +249,8 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| DTEN Bar |`1.3.2.0` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| November 21, 2024|
+| DTEN Mate Touch Console | `2.3.2.1` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| November 21, 2024|
 | DTEN Bar |`1.3.1.1` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| October 15, 2024|
 | DTEN D7X 75" |`1.6.6.1` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| October 15, 2024|
 | DTEN D7X 55" |`1.6.6.1`   | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| October 15, 2024|
@@ -363,6 +365,13 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Neat Bar Gen2 | `NFE1.20240924.0005 ` | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Bar | `NFB1.20240924.0005` | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Bar Pro| `NFD1.20240924.0007` | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Board | `NFC1.20240924.0005` |  N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Board 50 | `NFH1.20240924.0005` |  N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Pad touch console | `NFA1.20240924.0507`  | N/A | `1449/1.0.96.2024091202`| `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
+| Neat Board Pro 65 | `NFK1.20240924.0007` | N/A | `1449/1.0.96.2024091202` | `5.0.6152.0` | `1.0.0.202402202353.product`| November 13, 2024|
 | Neat Bar Gen2 | `NFE1.20240620.1740` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
 | Neat Bar | `NFB1.20240620.0015` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
 | Neat Bar Pro| `NFD1.20240620.1740` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
