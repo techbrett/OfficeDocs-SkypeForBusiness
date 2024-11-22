@@ -605,6 +605,9 @@ A valid query consists of several attributes in a JSON object:
 
 - **LimitResultRowsCount**: the max count of rows returned by VAAC
 
+>[!NOTE]
+> When submitting a query that searches by `Date` and the search criteria includes both date and time (ISO 8601 format), the time portion will be ignored.
+
 ## Accessing VAAC outside of Power BI
 
 Any application that can access RESTful web services can use the VAAC API to retrieve historical data. In the following example, [Postman](https://www.postman.com/) is used.
