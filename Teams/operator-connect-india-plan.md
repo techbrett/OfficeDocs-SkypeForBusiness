@@ -75,7 +75,7 @@ You can integrate India wireless and wireline numbers into your tenant through a
 
 With Operator Connect for India:
 
-- You need to acquire the India-specific Microsoft Teams Phone license from a licensed telecom operator in India. This requirement must be met even if you have an existing Teams Phone entitlement. For example, if you have a Teams Phone entitlement included with an E5 license, you still need to purchase an India-specific Microsoft Teams Phone license from your India operator.
+- **You need to acquire the India-specific Microsoft Teams Phone license from a licensed telecom operator in India.** This requirement must be met even if you have an existing Teams Phone entitlement. For example, if you have a Teams Phone entitlement included with an E5 license, you still need to purchase an India-specific Microsoft Teams Phone license from your India operator.
 
   - The India Teams Phone license available from the India Operator Connect partners supports both India wireline and wireless numbers.
   - The India Teams Phone license supports the entitlement model for [Teams Phone Resource Account licenses](teams-add-on-licensing\virtual-user.md).
@@ -98,7 +98,7 @@ With Operator Connect for India:
 
 - When India wireline numbers are used, Location Based Routing must be implemented and a Location Based Routing policy applied to the respective users.  
 
-- The users in scope must be in **TeamsOnly** mode. It isn't required for the entire organization to be in TeamsOnly mode, but the users getting provisioned with Operator Connect in India must be in TeamsOnly mode. To learn more, see Understand Microsoft Teams and Skype for Business coexistence and interoperability. 
+- The users in scope must be in **TeamsOnly** mode. It isn't required for the entire organization to be in TeamsOnly mode, but the users getting provisioned with Operator Connect in India must be in TeamsOnly mode. To learn more, see Understand [Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 For technical support, contact the customer support of your operator first.  If the partner determines the issue is with Microsoft, they might ask you to raise a case with Microsoft, providing context of the investigation completed by the partner. If needed, the partner can bring the issue to Microsoft through their Microsoft support channel. Microsoft might reject support cases if investigation shows that the issue is one that the partner can address. 
 
