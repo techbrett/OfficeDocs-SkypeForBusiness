@@ -113,7 +113,7 @@ Callers can say names in the following formats:
 
 ### Dial by Name - Multiple users with the same name
 
-If there are multiple users with the same name, then it's possible that a dial by name search returns these users. In this case, the default behaviour is to say each name followed by the option to select. For example, if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
+If there are multiple users with the same name, it's possible that a dial by name search returns these users. In this case, the default behaviour is to say each name followed by the option to select. For example, if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
 
 For John Smith, press 1.
 For John Smith, press 2.
