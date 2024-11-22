@@ -49,16 +49,16 @@ There's no limit on the number of Active Directory users that search can support
 |DTMF (keypad entry) |Partial  <br/> FirstName + LastName  <br/> LastName + FirstName |No limit  |
 |Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | No limit  |
 
-> [!NOTE]
->  You can use the [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature to narrow down the names that are reachable by changing the scope for a particular Auto attendant.
-
 ### Search Considerations
 
 Auto attendant search is a part of the main Address Book search of Microsoft. Exchange Address Book settings affect searches performed via the Auto attendant service. For example, if some users in your Address Book settings have the property `-HiddenFromAddressListsEnabled = $true`, then Auto attendant search won't return these users. This is similar to the Address Book search experience in Exchange, Teams, and other products. For more information about hiding users from the Address Book, see [Manage address lists in Exchange Online](/exchange/address-books/address-lists/manage-address-lists#hide-recipients-from-address-lists).
 
 Once the main address book settings are verified, the search then proceeds to apply any configured [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) Include or Exclude lists.
 
-Note that it might take up to 24 hours for Active Directory Address Book updates to be reflected in the Auto attendant search results. This timeframe also applies to the addition of new users or the removal of existing ones.
+> [!NOTE]
+> You can use the [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature to narrow down the names that are reachable by changing the scope for a particular Auto attendant.
+>
+> It might take up to 24 hours for Active Directory Address Book updates to be reflected in the Auto attendant search results. This timeframe also applies to the addition of new users or the removal of existing ones.
 
 ## Dial by Name - Keypad (DTMF) entry
 
@@ -113,26 +113,25 @@ Callers can say names in the following formats:
 
 ### Dial by Name - Multiple users with the same name
 
-If there are multiple users with the same name then it's possible that a dial by name search returns these users. In this case, the default behaviour will be to say each name followed by the option to select. For example, if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
+If there are multiple users with the same name, then it's possible that a dial by name search returns these users. In this case, the default behaviour is to say each name followed by the option to select. For example, if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
 
 For John Smith, press 1.
 For John Smith, press 2.
 For John Smith, press 3.
 
-In these situations the information the caller is presented with can be extended by configuring the [UserNameExtension](/powershell/module/teams/new-csautoattendant?view=teams-ps#-usernameextension) parameter.
+In these situations, the information the caller is presented with can be extended by configuring the [UserNameExtension](/powershell/module/teams/new-csautoattendant?view=teams-ps#-usernameextension) parameter.
 
-The UserNameExtension specifies how to extend the information returned in a dial by name search with additional information. Possible values are:
+The `UserNameExtension` specifies how to extend the information returned in a dial by name search with additional information. Possible values are:
 
 - None: Default value, which means the username is pronounced as is.
 - Office: Adds office information from the user profile.
 - Department: Adds department information from the user profile.
 
-If the UserNameExtension has been configured with `Department` then if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
+If the UserNameExtension is configured with `Department`, then if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
 
 For John Smith in accounting, press 1.
 For John Smith in sales, press 2.
 For John Smith in support, press 3.
-
 
 ### Dial by Extension
 
