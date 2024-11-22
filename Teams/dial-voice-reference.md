@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 09/17/2024
+ms.date: 11/22/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,9 +14,9 @@ ms.collection:
   - m365initiative-voice
   - tier1
 audience: Admin
-appliesto: 
-  - Skype for Business
+appliesto:
   - Microsoft Teams
+  - Skype for Business
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -30,7 +30,7 @@ description: Learn about the Auto attendant and Call queue dialing and voice rec
 ---
 # Auto attendant and Call queue dialing and voice recognition reference
 
-Dial by Name or Extension is an Auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The Auto attendant searches the company directory, locates the person, and then transfers the caller to them. Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an Auto attendant](create-a-phone-system-auto-attendant.md?tabs=call-flow).
+Dial by Name or Extension is an Auto attendant feature that enables callers to reach Teams users in your organization. Callers can use their voice or phone keypad to say or enter the full or partial name or extension of the person they would like to reach. The Auto attendant searches the company directory, locates the person, and then transfers the caller to them. As an admin, Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an Auto attendant](create-a-phone-system-auto-attendant.md?tabs=call-flow).
 
 ## Searching for users
 
@@ -109,25 +109,25 @@ Callers can say names in the following formats:
 
 ### Dial by Name - Multiple users with the same name
 
-If there are multiple users with the same name, it's possible that a dial by name search returns these users. In this case, the default behavior is to say each name followed by the option to select. For example, if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
+If there are multiple users with the same name, it's possible that a Dial by Name search returns these users. In this case, the default behavior is to say each name followed by the option to select. For example, if the caller searches for `John Smith` and there are three people with that name in the organization, the caller hears:
 
-For John Smith, press 1.
-For John Smith, press 2.
-For John Smith, press 3.
+    For John Smith, press 1.
+    For John Smith, press 2.
+    For John Smith, press 3.
 
-In these situations, the information the caller is presented with can be extended by configuring the [UserNameExtension](/powershell/module/teams/new-csautoattendant#-usernameextension) parameter.
+In these situations, you can extend the information the caller is presented with by configuring the [-UserNameExtension](/powershell/module/teams/new-csautoattendant#-usernameextension) parameter.
 
-The `UserNameExtension` specifies how to extend the information returned in a dial by name search with additional information. Possible values are:
+The `-UserNameExtension` parameter specifies how to extend the information returned in a Dial by Name search with additional information. Possible values are:
 
-- None: Default value, which means the username is pronounced as is.
-- Office: Adds office information from the user profile.
-- Department: Adds department information from the user profile.
+- **None**: The username is pronounced as is. This is the default value.
+- **Office**: Adds office information from the user profile.
+- **Department**: Adds department information from the user profile.
 
-If the UserNameExtension is configured with `Department`, then if the caller searches for `John Smith` and there were 3 people with that name in the organization, the caller hears:
+If `-UserNameExtension` is configured with `Department`, and if the caller searches for `John Smith` when there are three people with that name in the organization, the caller hears:
 
-For John Smith in accounting, press 1.
-For John Smith in sales, press 2.
-For John Smith in support, press 3.
+   For John Smith in accounting, press 1.
+   For John Smith in sales, press 2.
+   For John Smith in support, press 3.
 
 ### Dial by Extension
 
@@ -146,11 +146,22 @@ The required format to enter the extension in the user phone number field can be
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- Example 1: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '15555555678;ext=5678'
-- Example 2: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '+15555555678x5678'
-- Example 3: Update-MgUser -UserId 'usern@domain.com' -MobilePhone 'x5678'
+Example 1:
 
-You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). 
+```PowerShell
+Update-MgUser -UserId 'usern@domain.com' -MobilePhone '15555555678;ext=5678'
+```
+Example 2:
+
+```PowerShell
+Update-MgUser -UserId 'usern@domain.com' -MobilePhone '+15555555678x5678'
+```
+
+Example 3:
+```PowerShell
+Update-MgUser -UserId 'usern@domain.com' -MobilePhone 'x5678'
+```
+You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). For more information on the Update-MgUser cmdlet, see [Update-MgUser](/powershell/module/microsoft.graph.users/update-mguser).
 
 > [!NOTE]
 > If using the TelephoneNumber field to define the extension, Microsoft recommends that you use the format *+\<phone number>;ext=\<extension>*. If the user is also assigned a Teams Phone Number, you should define both numbers the same way.
@@ -180,6 +191,8 @@ The following voice commands are available for speech recognition:
 |Nine  |Press 9.|
 
 ## Related articles
+
+[Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](./getting-service-phone-numbers.md)
 
