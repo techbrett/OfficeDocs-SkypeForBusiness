@@ -58,6 +58,8 @@ Once the main address book settings are verified, the search then proceeds to ap
 > [!NOTE]
 > You can use the [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature to narrow down the names that are reachable by changing the scope for a particular Auto attendant.
 >
+> If more than 5 names remain after any Dial Scope Include or Exclude lists are applied, the search fails and the caller is told that too many names were found.
+> 
 > It might take up to 24 hours for Active Directory Address Book updates to be reflected in the Auto attendant search results. This timeframe also applies to the addition of new users or the removal of existing ones.
 
 ## Dial by Name - Keypad (DTMF) entry
@@ -66,9 +68,6 @@ People calling in can use Dial by Name to reach users by specifying either the f
 
 When people search your organization's directory, they can use the '0' (zero) key to indicate a space between the first name and last name or last name and first name. When they enter a name, they're asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you're trying to reach, press #." If there are multiple names that are found, the person calling is given a list of names to select from.
 
-> [!NOTE]
-> If more than 5 names remain after any Dial Scope Include or Exclude lists are applied, the search fails and the caller is told that too many names were found.
-  
 People can search for names in your organization using the following search formats on their phone keypad:
   
 |Name format|Search type|Example|Search result|
@@ -97,9 +96,6 @@ You can enable speech recognition for an Auto attendant, but phone keypad entry 
   
 As with phone keypad entry, if multiple names are found, the person calling hears a list of names to select from.
 
-> [!NOTE]
-> If more than 5 names remain after any Dial Scope Include or Exclude lists are applied, the search fails and the caller is told that too many names were found.
-  
 Callers can say names in the following formats:
   
 |Name with speech|Search type|Example|Search result|
@@ -119,7 +115,7 @@ For John Smith, press 1.
 For John Smith, press 2.
 For John Smith, press 3.
 
-In these situations, the information the caller is presented with can be extended by configuring the [UserNameExtension](/powershell/module/teams/new-csautoattendant?view=teams-ps#-usernameextension) parameter.
+In these situations, the information the caller is presented with can be extended by configuring the [UserNameExtension](/powershell/module/teams/new-csautoattendant#-usernameextension) parameter.
 
 The `UserNameExtension` specifies how to extend the information returned in a dial by name search with additional information. Possible values are:
 
