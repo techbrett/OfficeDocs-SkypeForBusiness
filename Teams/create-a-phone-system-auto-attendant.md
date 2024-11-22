@@ -54,7 +54,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for Auto attendants in the past six months
 
-- November 19
+- November 21
   - [Dial by name improvements](#dial-by-name-improvements) when a search returns multiple people with the same name
     
 - November 5
@@ -285,7 +285,6 @@ For more information, see:
 |New-CsAutoAttendant  |
 |:---------------------------------------|
 | [-UserNameExtension](/powershell/module/teams/new-csautoattendant#-UserNameExtension)  |
-
 
 ## Resources for complex scenarios
 
