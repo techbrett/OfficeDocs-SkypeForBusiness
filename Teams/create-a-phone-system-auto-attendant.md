@@ -40,7 +40,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
   - In Microsoft 365 admin center, enable **Let people outside the organization email this team** for the Microsoft 365 group that you specify.
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Announcement (Audio file)** - Play an audio file. The system plays the announcement, and then returns to the Auto attendant menu. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
-- **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the Auto attendant menu.
+- **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1,000 characters. The system plays the announcement, and then returns to the Auto attendant menu.
 
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
@@ -107,7 +107,7 @@ Once you've set your Auto attendant's general info, select **Next**.
 
 - If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
-- If you select **Type a greeting message**, the system reads the text that you enter (up to 1000 characters) when the Auto attendant answers a call.
+- If you select **Type a greeting message**, the system reads the text that you enter (up to 1,000 characters) when the Auto attendant answers a call.
 
 ### Route the call
 
@@ -178,7 +178,7 @@ Your Auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 1. Choose the type of greeting that you want to use.
 
-1. Choose if you want to **Disconnect**, **Redirect** or **Play menu options** the call.
+1. Choose if you want to **Disconnect**, **Redirect**, or **Play menu options** the call.
 
     1. If you chose to redirect, choose the call routing destination for the call.
     1. If you choose to play menu options, configure the **Play menu options**.
@@ -254,9 +254,9 @@ For more information, see [Set up authorized users](./aa-cq-authorized-users.md)
 
 ### Nested Auto attendants and call queues
 
-Nested Auto attendants and Call queues (auto attendants and call queues that do not directly answer phone calls) no longer require a Resource Account and associated licensing.
+Nested Auto attendants and Call queues (auto attendants and call queues that don't directly answer phone calls) no longer require a Resource Account and associated licensing.
 
-Existing configurations that use Resource Accounts will continue to function and remain fully supported. A combination of both methods can be used at the same time.
+Existing configurations that use Resource Accounts continue to function and remain fully supported. A combination of both methods can be used at the same time.
 
 For more information, see:
 
@@ -278,7 +278,7 @@ New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> 
 
 When a dial by name search returns multiple people with the same name, the results can now be enhanced by appending additional information after the name. This makes it easier for callers to reach the correct person.
 
-The default is to only say the name however, the office or department information can now be added as part of the results.
+The default is to only say the name however, the office, or department information can now be added as part of the results.
 
 For more information, see:
 
