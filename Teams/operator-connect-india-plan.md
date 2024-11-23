@@ -58,7 +58,7 @@ Wireline and wireless numbers are for in-India-use only.
 
 Toll bypass isn't allowed for India wireline or wireless numbers.
 
-- When a Teams user with a wireless or wireline number originates a call from within India to somebody outside of India, you must not reroute their call (for example, through your Teams VoIP network) to bypass the toll of the India telecom operator.
+- When a Teams user with a wireless or wireline number originates a call from within India to somebody outside of India, you must ***not*** bypass the service of the India telecom operator (for example, by transferring or rerouting the call through your Teams VoIP network).
 
 Given these considerations, Microsoft supports compliance for acceptable use of both India's wireline and wireless numbers:
 
