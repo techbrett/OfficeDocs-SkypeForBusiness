@@ -69,19 +69,6 @@ Given these considerations, Microsoft supports compliance for acceptable use of 
 
 The PSTN Access controls are automatically recognized in Teams Phone according to the number type provided by the India operator.
 
-## Licensing, requirements, and considerations
-
-You can integrate India wireless and wireline numbers into your tenant through a unique Operator Connect for India arrangement that delegates the PSTN integration and Teams Phone licensing to the India operator.
-
-With Operator Connect for India:
-
-- **You need to acquire the India-specific Microsoft Teams Phone license from a licensed telecom operator in India.** This requirement must be met even if you have an existing Teams Phone entitlement. For example, if you have a Teams Phone entitlement included with an E5 license, you still need to purchase an India-specific Microsoft Teams Phone license from your India operator.
-
-  - The India Teams Phone license available from the India Operator Connect partners supports both India wireline and wireless numbers.
-  - The India Teams Phone license supports the entitlement model for [Teams Phone Resource Account licenses](teams-add-on-licensing\virtual-user.md).
-
-    - Resource accounts for Auto attendants and Call Queues can be assigned with Operator Connect for India numbers. The resource accounts are provisioned as described in [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md), and don't require the India Teams Phone license.
-
 - Wireless numbers require the user to consent to sharing their location at the time of establishing connectivity to the PSTN to determine if the user should be connected or blocked.
 
   - Teams clients will prompt the user for consent and use location services in the operating system of the user's device to share with the operator.
@@ -94,19 +81,38 @@ With Operator Connect for India:
 
 - Network sites / subnets which are used to determine the location of a user who is assigned a wireline number aren't used with wireless numbers.
 
-- Teams Phone devices and Microsoft Teams Room systems don't support Operator Connect for India wireless numbers. 
-
 - When India wireline numbers are used, Location Based Routing must be implemented and a Location Based Routing policy applied to the respective users.  
+
+## Licensing, requirements, and considerations
+
+You can integrate India wireless and wireline numbers into your tenant through the Operator Connect for India solution, which delegates the PSTN integration and Teams Phone licensing to the India operator.
+
+With Operator Connect for India:
+
+- **You need to acquire the India-specific Microsoft Teams Phone license from a licensed telecom operator in India.** This requirement must be met even if you have an existing Teams Phone entitlement. For example, if you have a Teams Phone entitlement included with an E5 license, you still need to purchase an India-specific Microsoft Teams Phone license from your India operator.
+
+  - The India Teams Phone license available from the India Operator Connect partners supports both India wireline and wireless numbers.
+  - The India Teams Phone license supports the entitlement model for [Teams Phone Resource Account licenses](teams-add-on-licensing\virtual-user.md).
+
+>
+> [!NOTE]
+> When acquiring Teams Phone licenses from the telecom operator in India, specify how many numbers you will need and which type, wireline or wireless.
+
+- Resource accounts for Auto attendants and Call Queues can be assigned with Operator Connect for India numbers. The resource accounts are provisioned as described in [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md), and don't require the India Teams Phone license.
 
 - The users in scope must be in **TeamsOnly** mode. It isn't required for the entire organization to be in TeamsOnly mode, but the users getting provisioned with Operator Connect in India must be in TeamsOnly mode. To learn more, see Understand [Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-For technical support, contact the customer support of your operator first.  If the partner determines the issue is with Microsoft, they might ask you to raise a case with Microsoft, providing context of the investigation completed by the partner. If needed, the partner can bring the issue to Microsoft through their Microsoft support channel. Microsoft might reject support cases if investigation shows that the issue is one that the partner can address. 
+- Teams Phone devices and Microsoft Teams Room systems don't support Operator Connect for India wireless numbers.
+
+For technical support, contact the customer support of your operator first.  If the partner determines the issue is with Microsoft, they might ask you to raise a case with Microsoft, providing context of the investigation completed by the partner. If needed, the partner can bring the issue to Microsoft through their Microsoft support channel. Microsoft might reject support cases if investigation shows that the issue is one that the partner can address.
 
 >
 > [!NOTE]
 > India has a regulated classification of user, known as “other service provider (OSP)”, that allows calls for this type of user to egress out of India through your private network, bypassing India PSTN toll. OSP deployments are typically used for call centers and entitlement is arranged by the customer through India’s Department of Telecommunications. For purposes of this article, all users are considered non-OSP  and adhere to toll regulations. Microsoft support for Other Service Provider (OSP) calls with international telephone numbers is pending.
 
-For next steps, see [Configure Operator Connect for India](operator-connect-india-configure.md).
+## Next steps
+
+For next steps, including selecting your Operator Connect for India partner, see [Configure Operator Connect for India](operator-connect-india-configure.md).
 
 ## Related articles
 
