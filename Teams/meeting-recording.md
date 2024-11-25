@@ -25,9 +25,12 @@ description: Learn how to deploy features in Teams meetings to record audio, vid
 
 # Manage Teams recording policies for meetings and events
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+> [!NOTE]
+> When organizers turn off Microsoft 365 Copilot in Teams meetings and events, recording and transcription are also turned off. To learn more about Copilot, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
 
-In Microsoft Teams, your users can record their Teams meetings, webinars, and town halls to capture audio, video, and screen sharing activity. This type of recording is called [convenience recording](teams-recording-policy.md#compliance-vs-convenience-recording). The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user. For details on OneDrive and SharePoint recording storage, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Town halls
+
+In Microsoft Teams, your users can record their Teams meetings, webinars, and town halls to capture audio, video, and screen sharing activity. This type of recording is called [convenience recording](teams-recording-policy.md). The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user. For details on OneDrive and SharePoint recording storage, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
 To learn about recording for live events, see [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
 

@@ -41,6 +41,7 @@ The following table describes which actions we'll restrict for sensitive meeting
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|No|
 |Record automatically|**Off**|Template|No|
+|Require a verification check from|**Anonymous users**|Label or Template|Yes|
 |Who can bypass the lobby?|**People who were invited**|Label|Yes|
 |Who can present|**People in my org and guests**|Label|Yes|
 |Who can record|**Organizer and co-organizers**|Label|Yes|
@@ -123,8 +124,7 @@ To create a custom meeting template
 
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
-
-[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
-
-[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)
