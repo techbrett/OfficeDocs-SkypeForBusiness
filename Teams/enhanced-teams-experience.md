@@ -157,7 +157,6 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
   | Manage which eCDN provider Premium town halls use |Yes |[Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#manage-the-ecdn-solution-for-premium-town-halls-and-view-only-meetings)|No end user control |
   | Microsoft eCDN |Yes |[How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant)|No end user control |
   | Real time monitoring of the attendee experience | No, contact support for assistance. |[eCDN Analytics](/ecdn/technical-documentation/analytics)|No end user control |
-  | Sensitivity labels | Yes, use the Microsoft Purview compliance portal to turn labels on or off.|- [Use sensitivity labels to protect calendar items, Teams meetings and chat](/purview/sensitivity-labels-meetings)</br> - [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)| [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb)|
   | Town hall attendee reactions | No, contact support for assistance. | No admin control|[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions) |
   | Town hall insights | No, contact support for assistance. | No admin control|[Town hall insights in Microsoft Teams](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741) |
 
@@ -183,7 +182,6 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
   | Manage what attendees see | No, contact support for assistance.| No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
   | Manually approve registrants |No, contact support for assistance.| No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1) |
   | RTMP-In | Yes| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
-  | Sensitivity labels | Yes, use the Microsoft Purview compliance portal to turn labels on or off.|- [Use sensitivity labels to protect calendar items, Teams meetings and chat](/purview/sensitivity-labels-meetings)</br> - [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)| [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb)|
 
 ## Advanced Virtual Appointments
 
