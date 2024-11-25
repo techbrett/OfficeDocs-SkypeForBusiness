@@ -37,13 +37,13 @@ Operator Connect for India is a country-specific method for providing Public Swi
 
 There are some helpful points to consider about telecommunications in India when planning your PSTN integration.
 
-- India operators are approved to provide services in regional zones within India that loosely follow state boundaries. Regional zones are also known as geo-circles and calls within a region are considered intra-circle and calls from one India region to another India region are considered inter-circle.
+- India operators are approved to provide services in regional zones within India that loosely follow state boundaries.
 
 - India operators can provide numbers that are categorized as either wireline numbers or wireless numbers. Each number type is designed to adhere to regulated policies that govern acceptable use of PSTN access. For example:
 
 |**Number type**|**Access permissions**|
 |:--- |:---: |
-|Wireline numbers | Permitted to access PSTN only from their assigned region or geo-circle, collocated at a Network Communication Server (NCS) site that the operator associates with the number. |
+|Wireline numbers | Permitted to access PSTN only when collocated in the region and at the Network Communication Server (NCS) site that the operator associates with the number. |
 |Wireless numbers | Permitted to roam and access PSTN from any region or geo-circle within India. |
 
 >
@@ -58,7 +58,7 @@ Wireline and wireless numbers are for in-India-use only.
 
 Toll bypass isn't allowed for India wireline or wireless numbers.
 
-- When a Teams user with a wireless or wireline number originates a call from within India to somebody outside of India, you must ***not*** bypass the service of the India telecom operator (for example, by transferring or rerouting the call through your Teams VoIP network).
+- When a Teams user with Operator Connect for India originates a call from within India to somebody outside of their region or outside of India, you must ***not*** bypass the service of the India telecom operator (for example, by transferring or rerouting the call through your Teams VoIP network).
 
 Given these considerations, Microsoft supports compliance for acceptable use of both India's wireline and wireless numbers:
 
@@ -69,19 +69,16 @@ Given these considerations, Microsoft supports compliance for acceptable use of 
 
 The PSTN Access controls are automatically recognized in Teams Phone according to the number type provided by the India operator.
 
-- Wireless numbers require the user to consent to sharing their location at the time of establishing connectivity to the PSTN to determine if the user should be connected or blocked.
+- ***Wireline*** numbers require you to implement [Location Based Routing](location-based-routing-india-plan.md).
+
+  - When India wireline numbers are used, Location Based Routing must be implemented and a Location Based Routing policy applied to the respective users.  
+
+- ***Wireless*** numbers require the user to consent to sharing their location at the time of establishing connectivity to the PSTN to determine if the user should be connected or blocked.
 
   - Teams clients will prompt the user for consent and use location services in the operating system of the user's device to share with the operator.
-
-  - Teams clients don't show the dial button for users whom are assigned an India wireless number but haven’t consented to share their location to Teams.  
-
->
-> [!NOTE]
-> The user location data may be shared with the Operator Connect for India partners to fully enable PSTN calling scenarios. Microsoft does not store and retain this user location data.  
-
-- Network sites / subnets which are used to determine the location of a user who is assigned a wireline number aren't used with wireless numbers.
-
-- When India wireline numbers are used, Location Based Routing must be implemented and a Location Based Routing policy applied to the respective users.  
+  - Teams clients don't show the dial button for users whom are assigned an India wireless number but haven’t consented to share their location to Teams.
+  - The user location data may be shared with the Operator Connect for India partners to fully enable PSTN calling scenarios. Microsoft does not store and retain this user location data.
+  - Location Based Routing and network sites / subnets, which are used to determine the location of a user who is assigned a wireline number, aren't used with wireless numbers.
 
 ## Licensing, requirements, and considerations
 
