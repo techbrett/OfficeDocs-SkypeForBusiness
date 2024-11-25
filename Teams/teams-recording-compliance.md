@@ -29,7 +29,7 @@ appliesto:
 
 # Third-party compliance recording for Microsoft Teams calls and meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Calls
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Calls
 
 ## Compliance recording overview
 
