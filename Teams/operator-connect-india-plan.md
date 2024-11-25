@@ -44,7 +44,7 @@ There are some helpful points to consider about telecommunications in India when
 |**Number type**|**Access permissions**|
 |:--- |:---: |
 |Wireline numbers | Permitted to access PSTN only when collocated in the region and at the Network Communication Server (NCS) site that the operator associates with the number. |
-|Wireless numbers | Permitted to roam and access PSTN from any region or geo-circle within India. |
+|Wireless numbers | Permitted to roam and access PSTN from any region within India. |
 
 >
 > [!NOTE]
