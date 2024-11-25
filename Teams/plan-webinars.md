@@ -127,6 +127,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Registration](set-up-webinars.md)| Can manage who can register for webinars. |Registration is required for attendees to attend webinars. Organizers can decide how many people can register for a webinar. With a Teams Premium license, they can also require manual registration approval, enable a waitlist, and limit registration start and end time.  |
 |[Registration form](manage-registration-form-webinars.md)| Can manage the types of questions an organizer can require attendees to answer when registering for webinars. | Can edit the registration form depending on admin settings.|
 |[RTMP-in (Premium)](meetings-rtmp-in.md)| Can allow or disable RTMP-in for organizers. | Can produce their Teams webinar directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
+|[Sensitivity labels](manage-sensitive-events.md)|Can create sensitivity labels for Teams webinars.|Can apply your sensitivity label to their webinars.|
 |[Theming](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10) |No control.|Can customize their webinar's theme.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
 |[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
