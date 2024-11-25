@@ -26,10 +26,12 @@ The Teams Usage report is available as part of our downloadable [Power BI query 
 
 This report lets you see how (and how much) your users are using Microsoft Teams by accessing Teams Call Quality Dashboard (CQD) data. These reports are intended to be a centralized location that both administrators and business leaders can quickly go to for this data. We advise [not relying on this data for concrete numbers due to the nature of call quality telemetry](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that).
 
-The Teams Usage Power BI report consists of two primary reports: **[Call Count Summary](#call-count-summary-report)** and **[Audio Minutes Summary](#audio-minutes-summary-report)**. The [Daily Usage](#daily-usage), [Regional Audio Details](#regional-audio-details), [Conference Details](#conference-details) and [User List](#user-list) reports come into play when a user takes advantage of the drill-down reports, noted in the descriptions below.
+
+The Teams Usage Power BI report consists of two primary reports: **[Call Count Summary](#call-count-summary-report)** and **[Audio Minutes Summary](#audio-minutes-summary-report)**. The [Daily Usage](#daily-usage), [Regional Audio Details](#regional-audio-details), [Conference Details](#conference-details) and [User List](#user-list) reports come into play when a user takes advantage of the drill-down reports, noted in the descriptions below. For best results, ensure that your tenant has the latest [building and subnet data](cqd-upload-tenant-building-data.md) uploaded so as to provide regional and network filtering capabilities.
 
 > [!NOTE]
-> Building and subnet data must be populated to provide regional and network filtering capabilities.
+> We recommend using our new Quality of Experience Report (QER) for for viewing your Teams CQD data in Power BI. While the Teams Usage report is still supported, only the QER will receive new updates and coverage for the latest Teams features and calling scenarios. If you haven't tried the QER, it is also available in the same downloadable [Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291) package as the Teams Usage report.
+
 
 ## Call Count Summary Report
 
