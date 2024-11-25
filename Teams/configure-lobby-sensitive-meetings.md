@@ -106,3 +106,4 @@ If your organization doesn't allow anonymous participants in meetings, turn off 
 - [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 - [Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access)
 - [Who can admit from lobby](https://support.microsoft.com/office/using-the-lobby-in-microsoft-teams-meetings-eaf70322-d771-4043-b595-b40794bac057)
+- [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)
