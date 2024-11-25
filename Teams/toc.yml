@@ -760,6 +760,8 @@ items:
               href: manage-meeting-recording-options.md
             - name: Prevent recording download
               href: block-download-meeting-recording.md
+            - name: Manage sensitive town halls and webinars
+              href: manage-sensitive-events.md
             - name: Manage meeting lobby
               href: configure-lobby-sensitive-meetings.md
             - name: Manage presentation experience
