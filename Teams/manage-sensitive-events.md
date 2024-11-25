@@ -32,7 +32,7 @@ As an admin, you might have compliance requirements for Microsoft Teams town hal
 
 ## How do I create and manage sensitivity labels?
 
-For detailed instructions on how to create and manage sensitivity labels, see [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/purview/sensitivity-labels-meetings).  
+For detailed instructions on how to create and manage sensitivity labels, see [Use sensitivity labels to protect calendar items, Teams meetings, and chat[(/purview/sensitivity-labels-meetings).  
 
 To learn how your users use sensitivity labels, see [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb).  
 
