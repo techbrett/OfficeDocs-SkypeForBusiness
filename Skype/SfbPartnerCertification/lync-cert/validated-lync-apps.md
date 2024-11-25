@@ -78,11 +78,11 @@ Use existing course context and structure for the simple creation and management
 * * *
 Manage, promote, and deliver events and training with Lync. Broadcast to large audiences, collect registration fees, add pass/fail grading for participants, and much more.
 
-## [Ferrari electronic Office Master Entry Control](http://www.ferrari-electronic.com/en/home.html)
+## [Ferrari electronic Office Master Entry Control](http://www.ferrari-electronic.com/home.html)
 * * *
 Use video door phones in combination with Lync. Identify the person at the door, interact with them, and unlock a door.
 
-## [Ferrari electronic Office Master SIP2Lync](http://www.ferrari-electronic.com/en/home.html)
+## [Ferrari electronic Office Master SIP2Lync](http://wwww.ferrari-electronic.com/home.html)
 * * *
 Integrate incompatible phone devices fully into Lync. They then act like any other registered phone.
 
