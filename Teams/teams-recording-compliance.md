@@ -258,4 +258,3 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 ### Related topics  
 
 - [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recording-policy.md)
-- 
