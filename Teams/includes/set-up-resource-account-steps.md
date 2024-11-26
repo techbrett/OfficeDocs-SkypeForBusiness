@@ -63,7 +63,9 @@ An admin needing to create resource accounts needs one of the following Teams ad
 - Teams Administrator
 
 > [!NOTE]
-> Currently, to manage an existing resource account's DisplayName or ApplicationID, it is also required for the admin to have **Skype for Business Administrator** role.
+> Currently, when *editing* a resource account, the admin must be assigned either the Global Admin role or the Skype for Business Administrator and User Administrator roles.  
+
+You can edit a resource account in the Teams admin center or with PowerShell.
 
 The User Administrator role is a built-in role in Microsoft 365 that grants permissions to create and manage user accounts. For more information, see [Assign admin roles in Microsoft 365](/microsoft-365/admin/add-users/assign-admin-roles).
 
@@ -88,6 +90,23 @@ You can create a resource account in the Teams admin center or with PowerShell.
 2. Expand **Voice**, and then select **Resource accounts**.
 3. Select **Add**.
 4. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
+5. Select **Save**.
+
+## Edit a resource account
+
+Before editing a resource account, you must [assign permissions for creating and managing a resource account](#assign-permissions-for-managing-a-resource-account).
+
+> [!NOTE]
+> Currently, when *editing* a resource account, the admin must be assigned either the Global Admin role or the Skype for Business Administrator and User Administrator roles.  
+
+You can edit a resource account with the PowerShell cmdlet, [Set-CsOnlineApplicationInstance](/powershell/module/teams/set-csonlineapplicationinstance).
+
+### Teams admin center
+
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+2. Expand **Voice**, select **Resource accounts** and select the resource account.
+3. Select **Edit**.
+4. In the **Edit resource account** pane, you can edit **Display name**, **Resource account type**, and **Voice routing policy**. By choosing a Voice routing policy, you are assigning that policy to the resource account. For more information on call routing policies, see [Managing call routing policies for direct routing](#manage-voice-routing-policies)
 5. Select **Save**.
 
 ### PowerShell
