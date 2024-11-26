@@ -43,7 +43,7 @@ There are two recording features that can be enabled with policy:
 
 The following table compares convenience and compliance recording.
 
-| Property           | Convenience Recording | Compliance Recording |
+| Property           | Native Convenience Recording | Third-party Compliance Recording |
 | ---------------------- | :------------------: | :---------------: |
 | Recording initiator              | Licensed Teams user, enabled with meeting / calling policy            | Admin (system)  |
 | Storage and access owner          | [Meeting storage and permissions](tmr-meeting-recording-change.md)               | Admin / compliance officer    |
