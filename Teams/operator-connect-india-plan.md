@@ -47,28 +47,29 @@ In India regulatory terms, telephone numbers are categorized as either wireline 
 
 - ***Wireline*** numbers require the user to be collocated in an assigned site when they are using the wireline number to access the PSTN.
 
-  - When India wireline numbers are used, Location Based Routing must be implemented and a Location Based Routing policy applied to the respective users.  
+  - When India wireline numbers are used, Location Based Routing must be implemented.  
 
 - ***Wireless*** numbers require the user to be located within the country of India, but permit the user to roam within the country.
     
     - When India wireless numbers are used, the user will be required to consent to sharing their location at the time of establishing connectivity to the PSTN to determine if the user should be connected or blocked.
         - Teams clients will prompt the user for consent and use location services in the operating system of the user's device to share with the operator.
         - Teams clients don't show the dial button for users whom are assigned an India wireless number but haven’t consented to share their location to Teams.
-        - The user location data may be shared with the Operator Connect for India partners to fully enable PSTN calling scenarios. Microsoft does not store and retain this user location data.
-        - Location Based Routing and network sites / subnets, which are used to determine the location of a user who is assigned a wireline number, aren't used with wireless numbers.
+- The user location data may be shared with the Operator Connect for India partners to fully enable PSTN calling scenarios. Microsoft does not store and retain this user location data.
+- Location Based Routing and network sites / subnets, which are used to determine the location of a user who is assigned a wireline number, aren't used with wireless numbers.
 
 Operator Connect for India supports both number types and Microsoft's method of supporting compliance of both follows:
 
 |**Number type**|**PSTN Access permissions**|**Microsoft's Access control**|
 |:--- |:---: |:---: |
-|Wireline numbers | Permitted to access PSTN only when collocated in the Network Communication Server (NCS) site that is associated with the number. | [Teams Location Based Routing](location-based-routing-india-plan.md) |
-|Wireless numbers | Permitted to roam and access PSTN from any region within India. | [Location services](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088) in the operating system of the user’s device  |
+|Wireline numbers | User permitted to access PSTN only when collocated in the Network Communication Server (NCS) site that is associated with the number. | [Teams Location Based Routing](location-based-routing-india-plan.md) |
+|Wireless numbers | User permitted to roam and access PSTN from any region within India. | [Location services](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088) in the operating system of the user’s device  |
 
 
 - Operator Connect for India wireless numbers aren't integrating with the user’s mobile phone SIM. Teams Phone Mobile is currently not supported in India.
 
 - The PSTN Access controls are automatically recognized in Teams Phone according to the number type provided by the India operator.
-    - The India Teams Phone license available from the Operator Connect for India partners supports both India wireline and wireless numbers.
+
+- The India Teams Phone license available from the Operator Connect for India partners supports both India wireline and wireless numbers.
 
 >
 > [!NOTE]
@@ -79,13 +80,13 @@ Operator Connect for India supports both number types and Microsoft's method of 
 
 - The users in scope must be in **TeamsOnly** mode. It isn't required for the entire organization to be in TeamsOnly mode, but the users getting provisioned with Operator Connect in India must be in TeamsOnly mode. To learn more, see Understand [Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-- Teams Phone devices and Microsoft Teams Room systems don't support Operator Connect for India wireless numbers.
+- Operator Connect for India wireless numbers aren't supported by Teams Phone devices, SIP Device Hub devices, and Microsoft Teams Room systems.
  
 - It isn't possible to convert wireline numbers to wireless numbers.
 
 - For technical support, contact the customer support of your operator first.  If the partner determines the issue is with Microsoft, they might ask you to raise a case with Microsoft, providing context of the investigation completed by the partner. If needed, the partner can bring the issue to Microsoft through their Microsoft support channel. Microsoft might reject support cases if investigation shows that the issue is one that the partner can address.
 
-- India has a regulated classification of user, known as “other service provider (OSP)”, that allows calls for this type of user to egress out of India through your private network, bypassing India PSTN toll. OSP deployments are typically used for call centers and entitlement is arranged by the customer through India’s Department of Telecommunications. For purposes of this article, all users are considered non-OSP  and adhere to toll regulations. Microsoft support for Other Service Provider (OSP) calls with international telephone numbers is pending.
+- India has a regulated deployment category, known as “other service provider (OSP)”, that allows calls in this type of deployment to egress out of India through your private network, bypassing India PSTN toll. OSP deployments are typically used for call centers and entitlement is arranged by the customer through India’s Department of Telecommunications. For purposes of this article, the deployment is considered non-OSP  and adheres to toll regulations. Microsoft support for Other Service Provider (OSP) calls with international telephone numbers is pending.
 
 ## Next steps
 
