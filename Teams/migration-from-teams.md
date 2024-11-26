@@ -47,7 +47,7 @@ Migrating data involves sensitive data. Note the following:
 - **Download window**: After the data is prepared, you’ll download a ZIP file with a series of JSON files. When the download link becomes available, you have 24 hours to download it.
 
 > [!NOTE]
-> When you start exporting data, new data created after that isn't included.
+> When you start exporting data or when an export is in progress, any new data created after that start isn't included. To capture the content that isn't included, you can execute another export, as long as it's within 90 days.
 
 ## What the Teams data export tool supports
 
@@ -64,7 +64,7 @@ The Teams data export tool also supports the following data:
 
 - **Team and Channel structure**: The Teams data export tool supports the Team and Channels structure. Channels are specific collaboration spaces within a Team where members can focus on topics, projects, or departments.
 - **User/Roster**: The Teams data export tool supports exporting the list of users who are part of a specific team or channel, including details about each user’s roles.
-- **Apps**: Teams data export tool supports counting apps to retrieve the total number of applications added to a channel.
+- **Apps**: The Teams data export tool supports exporting the list of installed apps for a team.
 
 ## What the Teams data export tool doesn't support
 
