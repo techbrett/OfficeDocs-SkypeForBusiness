@@ -88,4 +88,3 @@ By default, Teams also allows meeting attendees to [create shared meeting notes]
 - [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/purview/sensitivity-labels-meetings)
 - [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
 - [Manage retention policies for Microsoft Teams](retention-policies.md)
-- [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)
