@@ -225,7 +225,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 ### Certified compliance recording partners
 
-Microsoft manages a compliance recording for Microsoft Teams certification program. This program provides customers with the assurance that each participating partner's solution is tested and verifie for quality, compatibility, and reliability.
+Microsoft manages a compliance recording for Microsoft Teams certification program. This program provides customers with the assurance that each participating partner's solution is tested and verified for quality, compatibility, and reliability.
 
 A list of partners certified to deliver compliance recording with Microsoft Teams follows:
 
