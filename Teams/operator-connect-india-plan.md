@@ -57,6 +57,8 @@ In India regulatory terms, telephone numbers are categorized as either wireline 
 - The user location data may be shared with the Operator Connect for India partners to fully enable PSTN calling scenarios. Microsoft does not store and retain this user location data.
 - Location Based Routing and network sites / subnets, which are used to determine the location of a user who is assigned a wireline number, aren't used with wireless numbers.
 
+The controls for restricting PSTN Access and toll bypass are automatically recognized in Teams Phone according to the number type provided by the India operator.
+
 Operator Connect for India supports both number types and Microsoft's method of supporting compliance of both follows:
 
 |**Number type**|**PSTN Access permissions**|**Microsoft's Access control**|
@@ -67,11 +69,8 @@ Operator Connect for India supports both number types and Microsoft's method of 
 
 - Operator Connect for India wireless numbers aren't integrating with the user’s mobile phone SIM. Teams Phone Mobile is currently not supported in India.
 
-- The controls for restricting PSTN Access and toll bypass are automatically recognized in Teams Phone according to the number type provided by the India operator.
-
 - The India Teams Phone license available from the Operator Connect for India partners supports both India wireline and wireless numbers.
 
->
 > [!NOTE]
 > When acquiring Teams Phone licenses from the telecom operator in India, specify how many numbers you will need and which type, wireline or wireless.
 
