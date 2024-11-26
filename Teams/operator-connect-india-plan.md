@@ -67,7 +67,7 @@ Operator Connect for India supports both number types and Microsoft's method of 
 
 - Operator Connect for India wireless numbers aren't integrating with the user’s mobile phone SIM. Teams Phone Mobile is currently not supported in India.
 
-- The PSTN Access controls are automatically recognized in Teams Phone according to the number type provided by the India operator.
+- The controls for restricting PSTN Access and toll bypass are automatically recognized in Teams Phone according to the number type provided by the India operator.
 
 - The India Teams Phone license available from the Operator Connect for India partners supports both India wireline and wireless numbers.
 
