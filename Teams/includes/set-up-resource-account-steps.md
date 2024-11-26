@@ -1,5 +1,7 @@
 In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
 
+> [!NOTE]
+> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence aren't available and won't work for these accounts. Even though presence still appears, it won't change.
 This article covers how to create resource accounts and ready them for use with auto attendants and call queues.
 
 Before you start the procedures in this article, ensure you've done the following steps:
@@ -7,11 +9,6 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain Microsoft Teams Phone Resource Account licenses](#obtain-microsoft-teams-phone-resource-account-licenses)
 - [Obtain phone numbers](#obtain-phone-numbers)
 - [Assign permissions for managing a resource account](#assign-permissions-for-managing-a-resource-account)
-
-> [!NOTE]
-> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence aren't available and won't work for these accounts. Even though presence still appears, it won't change.
->
-> A **User Administrator** and a Teams administrator role is required to create and license resource accounts. For more information, see [Assign permissions for managing resource accounts](#assign-permissions-for-managing-a-resource-account) and [Using Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
@@ -32,9 +29,6 @@ To see if you already have **Teams Phone Resource Account** licenses in your ten
 1. Select the **Buy** button.
 1. Fill in the purchasing details.
 1. Confirm your order details, and then select the **Place order** button.
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About Admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 There's zero cost for your allotment of licenses, but you still need to follow these steps to acquire the licenses.
 
@@ -57,8 +51,8 @@ To port a number from another carrier, see [Transfer phone numbers to Teams](../
 
 ## Assign permissions for managing a resource account
 
-> [!NOTE]
-> Currently, Teams administrators can create and manage resource accounts without requiring any user management permissions in Microsoft 365. As part of our commitment to deliver secure solutions that meet the highest standards, we are implementing changes to the management of resource accounts. Going forward, Teams administrators will need to have user management permissions in Microsoft 365 to create and manage resource accounts. This change will take effect in the 3rd quarter of 2024.
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About Admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 To create and manage a resource account, admins must have two roles - a **Teams administrator** role and the **User Administrator** role.
 
@@ -68,6 +62,9 @@ An admin needing to create resource accounts needs one of the following Teams ad
 - Teams Communications Administrator
 - Teams Administrator
 
+> [!NOTE]
+> Currently, to manage an existing resource account's DisplayName or ApplicationID, it is also required for the admin to have **Skype for Business Administrator** role.
+
 The User Administrator role is a built-in role in Microsoft 365 that grants permissions to create and manage user accounts. For more information, see [Assign admin roles in Microsoft 365](/microsoft-365/admin/add-users/assign-admin-roles).
 
 If a user has a Teams administrator role without the User Administrator role, you must either assign the User Administrator role to provide the necessary permissions to create user accounts or create a custom role with the minimum required permission (microsoft.directory/users/create) to allow the creation of resource accounts. This custom role can be created with [Microsoft Graph API](/graph/overview). For information on creating a custom role in Microsoft Graph API, see [Assign custom admin roles using the Microsoft Graph API in Microsoft Entra ID](/entra/identity/role-based-access-control/custom-create) and [Create and assign a custom role in Microsoft Entra ID](/entra/identity/role-based-access-control/custom-create).
@@ -75,6 +72,9 @@ If a user has a Teams administrator role without the User Administrator role, yo
 A Global Administrator also has the necessary Teams and User permissions to create and manage resource accounts, but we recommend using roles with the fewest permissions.
 
 For more information about Teams administrator roles, see [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
+
+> [!NOTE]
+> Currently, Teams administrators can create and manage resource accounts *without* requiring **user administrator** permissions in Microsoft 365. As part of our commitment to deliver secure solutions that meet the highest standards, we are implementing changes to the management of resource accounts. Going forward, Teams administrators will need to have user management permissions in Microsoft 365 to create and manage resource accounts. This change will start to roll out to customers in the 4th quarter of 2024 and continue through the 1st quarter of 2025.
 
 ## Create a resource account
 
