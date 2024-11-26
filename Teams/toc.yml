@@ -123,7 +123,7 @@ items:
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
                   href: teams-classic-client-uninstall.md
-                - name: Classic Teams uninstillation script
+                - name: Classic Teams uninstallation script
                   href: teams-client-uninstall-script.md
                 - name: Feature differences between desktop and Teams for Web
                   href: new-teams-desktop-client-features.md
@@ -760,8 +760,6 @@ items:
               href: manage-meeting-recording-options.md
             - name: Prevent recording download
               href: block-download-meeting-recording.md
-            - name: Manage sensitive town halls and webinars
-              href: manage-sensitive-events.md
             - name: Manage meeting lobby
               href: configure-lobby-sensitive-meetings.md
             - name: Manage presentation experience
