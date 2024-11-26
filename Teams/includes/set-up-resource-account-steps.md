@@ -1,10 +1,10 @@
-In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
+In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned telephone numbers. This article describes how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
 
 > [!NOTE]
 > Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence aren't available and won't work for these accounts. Even though presence still appears, it won't change.
 This article covers how to create resource accounts and ready them for use with auto attendants and call queues.
 
-Before you start the procedures in this article, ensure you've done the following steps:
+Before you start the procedures in this article, ensure completion of the following steps:
 
 - [Obtain Microsoft Teams Phone Resource Account licenses](#obtain-microsoft-teams-phone-resource-account-licenses)
 - [Obtain phone numbers](#obtain-phone-numbers)
@@ -16,9 +16,9 @@ Each resource account requires a license in order to work with auto attendants a
 
 We cover how to [assign the license to a resource account later in this article](#assign-a-license).
 
-If you purchased **Teams Phone Standard**, **Teams Phone with Calling Plan**, or **Teams Shared Devices** licenses, you still need to complete the purchasing process for your allocation of **Teams Phone Resource Account** licenses, but your allotment of licenses will be zero cost at checkout.
+If you purchased **Teams Phone Standard**, **Teams Phone with Calling Plan**, or **Teams Shared Devices** licenses, you still need to complete the purchasing process for your allocation of **Teams Phone Resource Account** licenses, but your allotment of licenses are zero cost at checkout.
 
-To see if you already have **Teams Phone Resource Account** licenses in your tenant, sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) using an account with Global admin permissions. Then, go to [Billing > Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have **Teams Phone Resource Account** licenses, they'll appear as **Microsoft Teams Phone Resource Account**.
+To see if you already have **Teams Phone Resource Account** licenses in your tenant, sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) using an account with Global admin permissions. Then, go to [Billing > Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have **Teams Phone Resource Account** licenses, they appear as **Microsoft Teams Phone Resource Account**.
 
 1. Open the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in with a user that is a Global admin. This is usually the account you used to sign up for Microsoft 365.
 1. In the left navigation pane, go to [**Billing** > **Purchase services**](https://admin.microsoft.com/Adminportal/Home#/catalog) > **Add-ons**.
@@ -104,9 +104,9 @@ Before editing a resource account, you must [assign permissions for creating and
 ### Teams admin center
 
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
-2. Expand **Voice**, select **Resource accounts** and select the resource account.
+2. Expand **Voice**, select **Resource accounts**, and select the resource account.
 3. Select **Edit**.
-4. In the **Edit resource account** pane, you can edit **Display name**, **Resource account type**, and **Voice routing policy**. By choosing a Voice routing policy, you are assigning that policy to the resource account. For more information on call routing policies, see [Managing call routing policies for direct routing](#manage-voice-routing-policies)
+4. In the **Edit resource account** pane, you can edit **Display name**, **Resource account type**, and **Voice routing policy**. By choosing a Voice routing policy, you're assigning that policy to the resource account. For more information on call routing policies, see [Managing call routing policies for direct routing](../manage-voice-routing-policies)
 5. Select **Save**.
 
 ### PowerShell 
