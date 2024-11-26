@@ -297,18 +297,29 @@ This policy is now expanded with an additional argument as the only configuratio
 
 ### Feature list with the new optimization
 
-|Feature                           |Available                                                       |
-|----------------------------------|----------------------------------------------------------------|
-|1080p                             |Yes                                                             |
-|Hardware acceleration on endpoint |Yes                                                             |
-|Gallery View 3x3 and 7x7          |Yes                                                             |
-|Quality of Service                |Yes                                                             |
-|Noise suppression                 |Yes                                                             |
-|HID                               |Yes                                                             |
-|Presenter mode                    |Yes                                                             |
-|Teams Premium                     |Yes</br>(Pending: Watermark, Townhalls, Decorate my Background) |
-|User-uploaded background effect   |Coming soon                                                     |
-|Zoom +/-                          |Coming soon                                                     |
+|Feature                           |Available on SlimCore (Windows)                                 |Available on WebRTC (Windows) |
+|----------------------------------|----------------------------------------------------------------|------------------------------|
+|1080p                             |Yes                                                             |No                            |
+|Hardware acceleration on endpoint |Yes                                                             |No                            |
+|Gallery View 3x3 and 7x7          |Yes                                                             |No                            |
+|Quality of Service                |Yes                                                             |No                            |
+|Noise suppression                 |Yes                                                             |Yes (AVD)                     |
+|HID                               |Yes                                                             |Yes (AVD and Omnissa)         |
+|Presenter mode                    |Yes                                                             |No                            |
+|Teams Premium                     |Yes</br>(Pending: Watermark, Townhalls, Decorate my Background) |No                            |
+|Organizational custom backgrounds |Yes (Teams Premium license required)                            |No                            |
+|User-uploaded background effect   |Coming soon                                                     |No                            |
+|Zoom +/-                          |Yes                                                             |No                            |
+|Media bypass, Location-based routing, Operator connect |Yes                                        |No                            |
+|Call quality dashboard and Teams admin center          |Yes                                        |Limited                       |
+|Published app/Remote app          |No                                                              |Yes                           |
+|Give/Take control                 |Yes                                                             |Yes                           |
+|App sharing                       |Yes                                                             |Yes                           |
+|e911                              |Yes                                                             |Yes                           |
+|Simulcast                         |Yes                                                             |Yes                           |
+|Share system audio                |Yes                                                             |Yes                           |
+|Secondary ringer                  |Yes                                                             |Yes                           |
+|Background blurring               |Yes                                                             |Yes                           |
 
 ## SlimCore user profile on the endpoint
 
