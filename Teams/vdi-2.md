@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 07/09/2024
+ms.date: 11/25/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -297,18 +297,29 @@ This policy is now expanded with an additional argument as the only configuratio
 
 ### Feature list with the new optimization
 
-|Feature                           |Available                                                       |
-|----------------------------------|----------------------------------------------------------------|
-|1080p                             |Yes                                                             |
-|Hardware acceleration on endpoint |Yes                                                             |
-|Gallery View 3x3 and 7x7          |Yes                                                             |
-|Quality of Service                |Yes                                                             |
-|Noise suppression                 |Yes                                                             |
-|HID                               |Yes                                                             |
-|Presenter mode                    |Yes                                                             |
-|Teams Premium                     |Yes</br>(Pending: Watermark, Townhalls, Decorate my Background) |
-|User-uploaded background effect   |Coming soon                                                     |
-|Zoom +/-                          |Coming soon                                                     |
+|Feature                           |Available on SlimCore (Windows)                                 |Available on WebRTC (Windows) |
+|----------------------------------|----------------------------------------------------------------|------------------------------|
+|1080p                             |Yes                                                             |No                            |
+|Hardware acceleration on endpoint |Yes                                                             |No                            |
+|Gallery View 3x3 and 7x7          |Yes                                                             |No                            |
+|Quality of Service                |Yes                                                             |No                            |
+|Noise suppression                 |Yes                                                             |Yes (AVD)                     |
+|HID                               |Yes                                                             |Yes (AVD and Omnissa)         |
+|Presenter mode                    |Yes                                                             |No                            |
+|Teams Premium                     |Yes</br>(Pending: Watermark, Townhalls, Decorate my Background) |No                            |
+|Organizational custom backgrounds |Yes (Teams Premium license required)                            |No                            |
+|User-uploaded background effect   |Coming soon                                                     |No                            |
+|Zoom +/-                          |Yes                                                             |No                            |
+|Media bypass, Location-based routing, Operator connect |Yes                                        |No                            |
+|Call quality dashboard and Teams admin center          |Yes                                        |Limited                       |
+|Published app/Remote app          |No                                                              |Yes                           |
+|Give/Take control                 |Yes                                                             |Yes                           |
+|App sharing                       |Yes                                                             |Yes                           |
+|e911                              |Yes                                                             |Yes                           |
+|Simulcast                         |Yes                                                             |Yes                           |
+|Share system audio                |Yes                                                             |Yes                           |
+|Secondary ringer                  |Yes                                                             |Yes                           |
+|Background blurring               |Yes                                                             |Yes                           |
 
 ## SlimCore user profile on the endpoint
 
@@ -504,7 +515,7 @@ The code logged here needs to be mapped using this table:
 |2000       |16002      |No Plugin                          |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
 |2001       |           |Virtual Channel Not Available      |Error on Citrix VDA WFAPI. |
 |2003       |16026      |Custom Virtual Channels (MSTEAMS, MSTEAM1 and MSTEAM2) are blocked due to a Citrix Studio policy |Review the [Citrix virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article. |
-|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams will not load SlimCore in this case, and users will always be optimized with WebRTC. |
+|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams won't load SlimCore in this case, and users will always be optimized with WebRTC. |
 |3000       |24002      |SlimCore Deployment not needed     |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3001       |24010      |SlimCore already loaded            |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3004       |24035      |Plugin irresponsive                |Try restarting RDP or ICA session. |
