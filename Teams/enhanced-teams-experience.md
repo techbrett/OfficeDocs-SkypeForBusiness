@@ -73,7 +73,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Screen sharing quality alerts** - Set up alerts for in-progress meeting screen sharing issues and get notified immediately when your specified users experience issues.
 
-- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting settings normally controlled by the meeting organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
 
 - **Real time telemetry and retention** - Real-time telemetry is gathered automatically for all users who have a Teams Premium license and retained for seven days.
 
@@ -81,7 +81,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Video quality alerts** - Set up alerts for in-progress meeting video issues and get notified immediately when your specified users experience issues.
 
-- **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting participant. Watermarks are useful for protecting confidential information shared in meetings.
+- **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting or webinar participant. Watermarks are useful for protecting confidential information shared in meetings and webinars.
 
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | --------- | -----------| ----------- | ------------ |
@@ -98,7 +98,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
   | Real-time telemetry and retention|No, contact support for assistance.| [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md#where-to-find-per-user-real-time-troubleshooting-telemetry) | No end-user control |
   | Restrict who can record | Yes, use the Teams admin center to add or delete recording restrictions in your meeting templates. Use the Microsoft Purview compliance portal to turn labels with recording restrictions on or off.|[Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
   | Screen sharing quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting screen sharing issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-screen-sharing) | No end-user control |
-  | Sensitivity labels | Yes, use the Microsoft Purview compliance portal to turn labels on or off.|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb)|
+  | Sensitivity labels | Yes, use the Microsoft Purview compliance portal to turn labels on or off.|[Use sensitivity labels to protect calendar items, Teams meetings and chat](/purview/sensitivity-labels-meetings) | [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb)|
   | Teams Premium feature usage report|No, contact support for assistance.| [Teams Premium feature usage report](/microsoftteams/teams-analytics-and-reports/teams-premium-usage-report) | No end-user control |
   | Templates, labels, and policies |Yes, use the Teams admin center to add or delete meeting templates. Use the Microsoft Purview compliance portal to turn labels on or off.| [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)  | [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
   | Video quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting video quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-video) | No end-user control |
@@ -146,6 +146,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 - **Live translated captions**- Organizers can choose up to 10 languages for attendees to use when translating captions during the town hall.
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for Premium town halls.
 - **Real time monitoring of the attendee experience** - Admins can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
 - **Town hall attendee reactions** - Organizers can allow attendees to engage and provide feedback during a town hall with live reactions.
 - **Town hall insights** - Town hall organizers can troubleshoot town halls while they're live.
 
@@ -157,6 +158,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
   | Manage which eCDN provider Premium town halls use |Yes |[Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#manage-the-ecdn-solution-for-premium-town-halls-and-view-only-meetings)|No end user control |
   | Microsoft eCDN |Yes |[How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant)|No end user control |
   | Real time monitoring of the attendee experience | No, contact support for assistance. |[eCDN Analytics](/ecdn/technical-documentation/analytics)|No end user control |
+  | Sensitivity labels | Yes, use the Microsoft Purview compliance portal to turn labels on or off.|- [Use sensitivity labels to protect calendar items, Teams meetings and chat](/purview/sensitivity-labels-meetings)</br> - [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)| [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb)|
   | Town hall attendee reactions | No, contact support for assistance. | No admin control|[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions) |
   | Town hall insights | No, contact support for assistance. | No admin control|[Town hall insights in Microsoft Teams](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741) |
 
@@ -172,6 +174,7 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
 - **Manage what attendees see** - Webinar organizers can decide whose avatars or video feeds to spotlight during a Teams webinar while others are hidden from view.
 - **Manually approve registrants** - Organizers can approve or deny requests to register for their webinar.
 - **Real Time Messaging Protocol (RTMP)-In** - Organizers can produce their Teams webinar directly from an external hardware or software-based encoder.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
 
   | Feature/Task | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | -------------------- | ----------- | ----------- | ----------- |
@@ -182,6 +185,7 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
   | Manage what attendees see | No, contact support for assistance.| No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
   | Manually approve registrants |No, contact support for assistance.| No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1) |
   | RTMP-In | Yes| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
+  | Sensitivity labels | Yes, use the Microsoft Purview compliance portal to turn labels on or off.|- [Use sensitivity labels to protect calendar items, Teams meetings and chat](/purview/sensitivity-labels-meetings)</br> - [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)| [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb)|
 
 ## Advanced Virtual Appointments
 
@@ -241,9 +245,6 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 
 ## Advanced Places workplace collaboration
 
-> [!NOTE]
-> This feature is currently in Public Preview.
-
 Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience advanced features that support the booking experience in Places. As an admin, you have access advanced management capabilities and reports.
 
 Teams Premium provides the following advanced capabilities in Places:
@@ -274,7 +275,7 @@ Teams Premium provides the following advanced capabilities in Places:
 
 ### Queues app
 
-Teams Premium and Teams Phone provides access to Queues app, a Teams-native solution that unlocks a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
+Teams Premium and Teams Phone provide access to Queues app, a Teams-native solution that unlocks a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
 
 - **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app.
 - **Real-time metrics**: The number of waiting calls, average wait time, longest call waiting time metrics, and more are included in real-time metrics within the Queues app. The analytics report shows activity made in the queue from 12:00 AM local time of the signed in user. For more information on real-time reports, see [Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md).
@@ -283,8 +284,8 @@ Teams Premium and Teams Phone provides access to Queues app, a Teams-native solu
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
   | -------------------- | ----------- | ----------- |----------- |
   |Call queue management|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Manage the Queues app for Microsoft Teams](manage-queues-app.md)|[Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)|
-  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control, can view reports if authorized.|
-  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control, can view reports if authorized.|
+  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control can view reports if authorized.|
+  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control can view reports if authorized.|
 
 Queues app is now generally available and is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
 
