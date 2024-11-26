@@ -472,6 +472,8 @@ This call exception handling option handles calls when no agents are opted into 
 > - Presence based routing on: No agents logged in, or all agents are in *Appear Offline*.
 >
 > If agents are logged in or opted in, then calls are queued.
+>
+> When **Longest idle** is selected as the routing method, the **No Agents** treatment will not work when ***New Calls Only*** is selected and new calls will be queued. The ***All Calls*** option works as expected. Support is investigating.
 
 Once you select your call overflow, call timeout, and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
