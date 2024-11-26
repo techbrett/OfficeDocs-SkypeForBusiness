@@ -106,7 +106,7 @@ Before editing a resource account, you must [assign permissions for creating and
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expand **Voice**, select **Resource accounts**, and select the resource account.
 3. Select **Edit**.
-4. In the **Edit resource account** pane, you can edit **Display name**, **Resource account type**, and **Voice routing policy**. By choosing a Voice routing policy, you're assigning that policy to the resource account. For more information on call routing policies, see [Managing call routing policies for direct routing](../manage-voice-routing-policies)
+4. In the **Edit resource account** pane, you can edit **Display name**, **Resource account type**, and **Voice routing policy**. By choosing a Voice routing policy, you're assigning that policy to the resource account. For more information on call routing policies, see [Managing call routing policies for direct routing](../manage-voice-routing-policies.md)
 5. Select **Save**.
 
 ### PowerShell 
