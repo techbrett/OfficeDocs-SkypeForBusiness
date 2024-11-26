@@ -169,4 +169,3 @@ For more information, see [Configure the Microsoft Teams meeting lobby for sensi
 
 - [Microsoft cloud for enterprise architects illustrations](/microsoft-365/solutions/cloud-architecture-models)
 - [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
-- [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)
