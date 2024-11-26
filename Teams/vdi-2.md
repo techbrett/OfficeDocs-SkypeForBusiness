@@ -515,7 +515,7 @@ The code logged here needs to be mapped using this table:
 |2000       |16002      |No Plugin                          |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
 |2001       |           |Virtual Channel Not Available      |Error on Citrix VDA WFAPI. |
 |2003       |16026      |Custom Virtual Channels (MSTEAMS, MSTEAM1 and MSTEAM2) are blocked due to a Citrix Studio policy |Review the [Citrix virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article. |
-|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams will not load SlimCore in this case, and users will always be optimized with WebRTC. |
+|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams won't load SlimCore in this case, and users will always be optimized with WebRTC. |
 |3000       |24002      |SlimCore Deployment not needed     |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3001       |24010      |SlimCore already loaded            |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3004       |24035      |Plugin irresponsive                |Try restarting RDP or ICA session. |
