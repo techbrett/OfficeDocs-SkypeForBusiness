@@ -82,8 +82,6 @@ For more information about Teams administrator roles, see [Use Microsoft Teams a
 
 Before creating a resource account, you must [assign permissions for creating and managing a resource account](#assign-permissions-for-managing-a-resource-account).
 
-You can create a resource account in the Teams admin center or with PowerShell.
-
 ### Teams admin center
 
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
@@ -92,14 +90,16 @@ You can create a resource account in the Teams admin center or with PowerShell.
 4. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
 5. Select **Save**.
 
+### PowerShell
+
+You can create a resource account with the PowerShell cmdlet, [New-CsOnlineApplicationInstance](/powershell/module/teams/new-csonlineapplicationinstance).
+
 ## Edit a resource account
 
 Before editing a resource account, you must [assign permissions for creating and managing a resource account](#assign-permissions-for-managing-a-resource-account).
 
 > [!NOTE]
 > Currently, when *editing* a resource account, the admin must be assigned either the Global Admin role or the Skype for Business Administrator and User Administrator roles.  
-
-You can edit a resource account with the PowerShell cmdlet, [Set-CsOnlineApplicationInstance](/powershell/module/teams/set-csonlineapplicationinstance).
 
 ### Teams admin center
 
@@ -109,9 +109,9 @@ You can edit a resource account with the PowerShell cmdlet, [Set-CsOnlineApplica
 4. In the **Edit resource account** pane, you can edit **Display name**, **Resource account type**, and **Voice routing policy**. By choosing a Voice routing policy, you are assigning that policy to the resource account. For more information on call routing policies, see [Managing call routing policies for direct routing](#manage-voice-routing-policies)
 5. Select **Save**.
 
-### PowerShell
+### PowerShell 
 
-You can create a resource account with the New-CsOnlineApplicationInstance PowerShell cmdlet. For more information, see [New-CsOnlineApplicationInstance](/powershell/module/teams/new-csonlineapplicationinstance).
+You can edit a resource account with the PowerShell cmdlet, [Set-CsOnlineApplicationInstance](/powershell/module/teams/set-csonlineapplicationinstance).
 
 ## Assign a license
 
