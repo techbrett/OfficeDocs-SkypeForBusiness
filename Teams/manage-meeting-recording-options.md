@@ -114,4 +114,3 @@ For details about enforcing settings by using meeting templates and sensitivity 
 - [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
 - [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/purview/sensitivity-labels-meetings)
 - [Meeting options in Microsoft Teams](https://support.microsoft.com/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e)
-- [Manage sensitive Microsoft Teams town halls and webinars](manage-sensitive-events.md)
