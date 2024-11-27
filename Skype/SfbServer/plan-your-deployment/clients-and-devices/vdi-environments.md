@@ -18,7 +18,7 @@ ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: "This topic discusses planning considerations for using Skype for Business while connecting to a remote virtual desktop."
 ---
 
-# Plan for Skype for Business in VDI environments
+# Plan for Skype for Business in VDI environments 
  
 This topic discusses planning considerations for using Skype for Business while connecting to a remote virtual desktop. 
   
@@ -58,9 +58,9 @@ A full discussion of features and supported technologies can be found on the VMW
   
 - [What's New in VMware Horizon 7.4 &amp; Horizon Client 4.7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.html)
     
-- [Horizon Virtualization Pack for Skype for Business](https://www.vmware.com/products/horizon/skype-for-business.html)
+- [Horizon Virtualization Pack for Skype for Business](vdi-environments.md)
     
-- [Microsoft Skype for Business With VMWare Horizon](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/horizon/vmware-skype-for-business-solution-brief.pdf)
+- [Microsoft Skype for Business With VMWare Horizon](vdi-environments.md)
     
 ## Microsoft's Lync VDI plug-in
 <a name="Citrix_RT"> </a>

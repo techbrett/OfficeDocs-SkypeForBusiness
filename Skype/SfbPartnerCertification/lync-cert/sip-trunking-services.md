@@ -54,7 +54,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Interoute](https://www.uni-tel.co.uk/product-type/sip-trunks)  | Interoute One |  |
 |[ipvision a/s](http://www.ipvision.dk/microsoft-lync/)  | VIP Trunk |&#x2714;  |
 |[Kordia](http://www.kordia.co.nz/)  | Onkor Voice | &#x2714; |
-|[Level 3](https://www.lumen.com/en-us/communications/sip-trunking.html)  |Level 3 Communications SIP Trunking  |  |
+|[Level 3](https://www.lumen.com/communications/sip-trunking.html)  |Level 3 Communications SIP Trunking  |  |
 |Magnetic North  |Cloud PBX  |  |
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications)  | Intelligent SIP Trunk |  |
 |[One Source Networks](http://www.onesourcenetworks.com/lync-trunking/)  | Lync Trunking | &#x2714; |
@@ -113,7 +113,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[HIPCOM](https://netfore.com/featured-work/hipcom/)     |SIP Trunking|         |
 |[IECI](http://www.ieci.es/)     |IECI|         |
 |Infopact Network Solutions |SIP Trunk|&#x2714;|
-|[IntelePeer](http://www.intelepeer.com/SIPTrunking-microsoft-lync) |IntelePeer SIP Trunking |&#x2714;|
+|[IntelePeer](https://intelepeer.ai/partners) |IntelePeer SIP Trunking |&#x2714;|
 |[Interoute](http://www.interouteone.com/) |InterouteOne|         |
 |[Kordia](http://www.kordia.co.nz/)     |Onkor Voice|&#x2714;|
 |[KPN](http://www.kpn.com/zakelijk/vast-bellen/zakelijk-vast-bellen.htm)     |VoIP Connect| |

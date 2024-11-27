@@ -26,7 +26,7 @@ description: Partner qualification requirements for Lync include Infrastructure,
 # Lync Online Dedicated partner qualified solutions and technical requirements
 
 ## Infrastructure
-With the launch of Skype for Business, we'll no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).
+With the launch of Skype for Business, we'll no longer qualify solutions for Lync Server. Instead, see the [infrastructure certified for Skype for Business](../certification/infra.md).
 
 ## Lync Services
 E911 service provider and other services vendors interested in qualifying their offering for Lync Server or Exchange Server must meet both technical and marketing requirements. Participation in the program is solely at Microsoft’s discretion. Upon successful completion, the product, service, and firmware combinations tested will be listed on this site.
@@ -42,7 +42,7 @@ With the launch of Lync Server, there will no longer be qualifying solutions wit
 ### Program requirements for qualification
 - Company must have a standard NDA signed with Microsoft.
 - Join Microsoft Connect to obtain specifications and test plans (see below).
-- Join [Microsoft Partner Program](https://partners.microsoft.com/).
+- Join [Microsoft Partner Program](https://partner.microsoft.com/).
 - Become member of [TSANet](http://www.tsanet.org/).
 - Successfully meet technical Qualification Program requirements at [TekVizion](http://microsoftuc.tekvizionlabs.com/) or WIPRO labs for the respective qualification level.
 - Provide Quick Start Guide for configuration steps for Lync Server or Exchange Server.
@@ -99,6 +99,7 @@ Partners interested in joining the Microsoft Lync Video Interoperability Program
 - Provide dedicated website for Lync support products, including support, ordering, and technical documentation.
 
 ### Technical requirements of qualification
+
 The specific details of qualification will be provided from Microsoft to the partner once the partner has formally been accepted to the program.  In general, partner solution will need to meet this level of functionality to be qualified:
 - 720p HD video quality
 - Wideband audio quality
@@ -121,7 +122,7 @@ The diagram that follows displays the approximated timeline for the qualificatio
 Currently video qualification tests are performed by Microsoft Lync logo team. To introduce yourself and obtain more specifics, email LyncLogo.
 
 ## Compatible Devices Program
-The Compatible Devices Program currently qualifies devices for Lync 2013 client on Windows-based machines. For nonwindows clients Microsoft recommends that you evaluate the USB consumer product lines offered by the device manufacturers that are part of the Compatible Devices Program. IP phones can also be used in nonwindows based environments, excluding the PC pairing functionalities.
+The Compatible Devices Program currently qualifies devices for Lync 2013 client on Windows-based machines. For non-windows clients Microsoft recommends that you evaluate the USB consumer product lines offered by the device manufacturers that are part of the Compatible Devices Program. IP phones can also be used in non-windows based environments, excluding the PC pairing functionalities.
 **‘Optimized for’**&nbsp;&nbsp;&nbsp;IP phones, headsets, conference room systems and other devices that offer a rich and integrated experience giving customers the power to get the most out of their Lync experience and return on investment.
 **Other compatible IP phones**&nbsp;&nbsp;&nbsp;IP phones tested to provide interoperability and quality of experience without gateways.
 

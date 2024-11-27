@@ -76,13 +76,13 @@ In addition to that you should see another LS Data MCU event (event ID 41032) th
   
  **Web Conferencing Server Office Web Apps Server discovery has succeeded.**
   
- **Office Web Apps Server internal presenter page: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;embed=**
+ **[Office Web Apps Server internal presenter page](office-web-app-server.md)**
   
  **Office Web Apps Server internal attendee page: `https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp;=`**
   
 If you have configured access for external users, you'll also see something similar to:
   
- **Office Web Apps Server external presenter page: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;embed**
+ **Office Web Apps Server external presenter page: https://support.microsoft.com/topic/may-10-2016-update-for-office-web-apps-server-2013-kb3115022-f6d2684a-c70b-9b0f-c9c0-d99a3697be14**
   
  **Office Web Apps Server internal attendee page: `https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp`;**
   
