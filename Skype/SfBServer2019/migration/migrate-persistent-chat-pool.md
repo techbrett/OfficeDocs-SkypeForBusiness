@@ -50,7 +50,7 @@ Bring in the exported Persistent Chat data (zip file) from Skype for Business 20
 4. **Verify duplicate categories in Skype for Business Server 2019:**<br> 
 After importing the database, ensure that duplicate categories from Skype for Business Server 2015 are created in Skype for Business Server 2019. This can be checked in the Modern Admin Control Panel (MACP). 
 
-    :::image type="content" source="../media/migration/duplicate-data-1.png" alt-text="Screenshot of MACP." lightbox="../media/migration/duplicate-data-1.png":::
+    :::image type="content" source="../media/migration/duplicate-1.png" alt-text="Screenshot of MACP." lightbox="../media/migration/duplicate-1.png":::
 
 5. **Move users from Skype for Business Server 2015 to Skype for Business Server 2019:** <br> 
 Move users from Skype for Business Server 2015 to Skype for Business Server 2019 using the **Users** section in Modern Admin Control Panel (MACP). 
