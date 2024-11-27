@@ -79,8 +79,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
-| | Cloud IntelliFrame | Available | Available |
-| | Multi-stream IntelliFrame | Available | Not available |
+| | Send Cloud IntelliFrame | Available | Not available |
+| | Send Multi-stream IntelliFrame | Available | Not available |
 | | Spatial Audio | Available | Not available |
 | | People Recognition  | Available | Not available |
 | | Intelligent Speaker | Available | Not available |
@@ -212,8 +212,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
-| | Cloud IntelliFrame | Not available | Not available |
-| | Multi-stream IntelliFrame | Available | Not available |
+| | Send Cloud IntelliFrame | Not available | Not available |
+| | Send Multi-stream IntelliFrame | Available | Not available |
 | | Spatial Audio | Available | Not available |
 | | People Recognition | Not available | Not available |
 | | Intelligent Speaker| Not available | Not available |
@@ -343,8 +343,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
-| | Cloud IntelliFrame | Not available | Not available |
-| | Multi-stream IntelliFrame | Not available | Not available |
+| | Send Cloud IntelliFrame | Not available | Not available |
+| | Send Multi-stream IntelliFrame | Not available | Not available |
 | | Spatial Audio | Available | Not available |
 | | People Recognition | Not available | Not available |
 | | Intelligent Speaker | Not available | Not available |
