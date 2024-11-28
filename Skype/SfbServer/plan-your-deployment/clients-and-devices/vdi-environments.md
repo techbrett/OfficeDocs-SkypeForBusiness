@@ -26,7 +26,7 @@ A Virtual Desktop Infrastructure (VDI) environment is used in some organizations
   
 There are three solutions available for the VDI plug-in component, offered by Microsoft, Citrix, or VMWare. For new deployments, Microsoft recommends using either the Citrix HDX RealTime Optimization Pack solution or the VMWare Horizon Virtualization Pack. The original Lync VDI Plug-in is still supported for the remainder of its lifecycle.
   
-- The **Lync VDI plug-in** was developed for Lync 2013 and is compatible with either the Lync 2013 or Skype for Business 2015 client running on a virtual desktop. It's a stand-alone application that installs on the local computer and allows the use of local audio and video devices with a client on a virtual desktop. The plug-in does not require a Skype for Business client to be installed on the local computer or thin client, which must run Windows 7, Windows 8, or Windows Server 2008 operating systems. (Thin client devices using these operating systems and supported by Microsoft include: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP t610 and HP t5740e.) This plug-in is still supported, but no future updates are planned. For Citrix-based virtual environments, the Citrix RealTime Optimization Pack is recommended.
+- The **Lync VDI plug-in** was developed for Lync 2013 and is compatible with either the Lync 2013 or Skype for Business 2015 client running on a virtual desktop. It's a stand-alone application that installs on the local computer and allows the use of local audio and video devices with a client on a virtual desktop. The plug-in doesn't require a Skype for Business client to be installed on the local computer or thin client, which must run Windows 7, Windows 8, or Windows Server 2008 operating systems. (Thin client devices using these operating systems and supported by Microsoft include: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP t610 and HP t5740e.) This plug-in is still supported, but no future updates are planned. For Citrix-based virtual environments, the Citrix RealTime Optimization Pack is recommended.
     
 - The **Citrix RealTime Optimization Pack** builds on the Lync VDI plug-in and works with Lync 2013 or Skype for Business 2016 clients on a virtual desktop. It was co-developed by Citrix and Microsoft to improve upon the original VDI Plug-in. It can be installed on clients with Windows and non-Windows operating systems (including Windows 10, Mac and Linux). It consists of two components: the RealTime Connector (which is installed on the virtual desktop) and the RealTime Media Engine (which is installed on the end user's local machine). These two components allow the user's local computer to use the Skype for Business client running on the virtual desktop with the A/V processing moved to the local computer. For Citrix-based virtual desktop environments, the Citrix RealTime Optimization Pack is recommended, and further support is planned.
     
@@ -104,7 +104,7 @@ The Lync VDI plug-in supports full desktop remote sessions in the personal virtu
     
 - **Not supported: Remote Desktop Sessions.** In this scenario, each user logs on to a generic virtual desktop session that can't be customized. Examples include Microsoft Remote Desktop Sessions (RDSH) and Citrix XenApp combined with Citrix Receiver.
     
-The Lync VDI plug-in does not support other virtualization technologies, such as application virtualization, which allows the use of an application without requiring installation of the full application locally. Example implementations include Citrix XenApp and Microsoft Application Virtualization (App-V). Application streaming, application remoting, and mixed virtualization modes (for example, application remoting in full desktop remoting) are not supported.
+The Lync VDI plug-in doesn't support other virtualization technologies, such as application virtualization, which allows the use of an application without requiring installation of the full application locally. Example implementations include Citrix XenApp and Microsoft Application Virtualization (App-V). Application streaming, application remoting, and mixed virtualization modes (for example, application remoting in full desktop remoting) are not supported.
   
 The Lync VDI plug-in was designed to use platform-independent APIs called Dynamic Virtual Channels (DVCs). For scenarios that are not explicitly supported, refer to support statements from the VDI solution provider.
   
@@ -137,9 +137,9 @@ The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit
 
 The following are known limitations when you use the Skype for Business 2015 client in a VDI environment:
   
-There is limited support for Call Delegation and Response Group Agent Anonymization features.
+There's limited support for Call Delegation and Response Group Agent Anonymization features.
   
-There is no support for the following features:
+There's no support for the following features:
   
 - Integrated Audio Device and Video Device tuning pages.
     
@@ -147,7 +147,7 @@ There is no support for the following features:
     
 - Recording of conversations.
     
-- Joining meetings anonymously (that is, joining Skype for Business meetings hosted by an organization that does not federate with your organization).
+- Joining meetings anonymously (that is, joining Skype for Business meetings hosted by an organization that doesn't federate with your organization).
     
 - Using the Lync VDI plug-in along with a Lync Phone Edition device.
     
