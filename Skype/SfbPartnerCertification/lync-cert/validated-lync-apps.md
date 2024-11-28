@@ -82,7 +82,7 @@ Manage, promote, and deliver events and training with Lync. Broadcast to large a
 * * *
 Use video door phones in combination with Lync. Identify the person at the door, interact with them, and unlock a door.
 
-## [Ferrari electronic Office Master SIP2Lync](http://wwww.ferrari-electronic.com/home.html)
+## [Ferrari electronic Office Master SIP2Lync](http://www.ferrari-electronic.com/home.html)
 * * *
 Integrate incompatible phone devices fully into Lync. They then act like any other registered phone.
 
