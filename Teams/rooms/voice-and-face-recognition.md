@@ -36,7 +36,7 @@ This article covers:
 - [Data retention](#data-retention): The duration that Microsoft Teams keeps the voice and face profiles of users.
 - [Admin settings](#admin-settings): Admins can turn on or off voice and face enrollment for specific users, groups of users, or the whole organization. They can configure the feature using PowerShell.
 
-- [Data export](#data-export): Admins can export the voice and face profiles of users for backup 
+- [Data export](#data-export): Data export is managed directly by end users.
 
 - [Frequently asked questions](#frequently-asked-questions): Common questions and answers.
 
@@ -164,9 +164,11 @@ To prevent recognition of users in meeting rooms, admins can turn off (default) 
 
 ## Data export
 
-Admins can export the voice and face profiles of users for backup, using Teams Admin Center. The exported profiles are in the form of ZIP files that contain the voice sample and face images of the user.
+Data export is managed directly by end users. End users can follow these steps to export their data:
 
-To export the voice and face profiles of users using the Teams Admin Center, admins can go to **Users > Manage users > Account > Biometric Profile > Download biometric profile**. 
+Go to **Settings** and more ... > **Settings** > **Recognition**. 
+
+Select **Export** to download your data. The data will be saved directly to your device's **Downloads** folder.
 
 ## Frequently asked questions
 
@@ -186,6 +188,10 @@ To export the voice and face profiles of users using the Teams Admin Center, adm
 **Question:** Are voice and face enrollments available in GCCH and DOD?
 
 **Answer:** No, voice and face enrollments are currently available only up to GCC and are not available in GCCH or DOD environments.
+
+**Question:** Can admins download end users' voice and face data?
+
+**Answer:** No, data export is managed directly by end users. Admins do not have access to export voice and face data, giving users full control over their profiles.
 
 ## Related topics
 
