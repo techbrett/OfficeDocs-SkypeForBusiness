@@ -33,9 +33,9 @@ Use the following table to help identify the source of issues, along with recomm
 |Is it...  |Try...|Recommended action  |
 |---------|---------|---------|
 |Network|In Teams, go to **Settings** > **Walkie Talkie** > **Test Network Quality**, and check the network connection strength.|If the results show a poor connection, go to an area with stronger network coverage.|
-|Device|Check whether the issue occurs on only on one device or across multiple devices.|If the issue occurs only on the one device, swap or replace the device.|
+|Device|Check whether the issue occurs on only one device or across multiple devices.|If the issue occurs only on the one device, swap or replace the device.|
 |Headset|Try a different headset.|If the issue occurs only with a particular headset, swap out or replace the headset.|
-|All apps|Test to see whether the issue happens only when using Walkie Talkie or if it happens across all apps. Try to reproduce the issue in other apps. For example, test using the Calls app or Meeting app within Teams, an app outside of Teams, and a third-party app.|If the issue can be reproduced in other apps, investigate possible hardware or software issues that might be impacting device.|
+|All apps|Test to see whether the issue happens only when using Walkie Talkie or if it happens across all apps. Try to reproduce the issue in other apps. For example, test using the Calls app or Meeting app within Teams, and with apps outside of Teams.|If the issue can be reproduced in other apps, investigate possible hardware or software issues that might be impacting device.|
 |Walkie Talkie app|Check whether the issue occurs for all people in a channel, several people, or only one person.|[Send logs to Microsoft for investigation](#send-logs-to-microsoft-for-investigation) and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
 
 ## Troubleshoot common issues
@@ -60,7 +60,7 @@ If users experience issues in which they're not receiving transmissions, try the
 
     If the user is in any of these modes, have the user switch out of that mode. Make sure that notifications are turned on, and then restart Walkie Talkie to ensure that any changes to notification settings take effect.
 
-### Participants list for a channel is inaccurate
+### Participants list for a Walkie Talkie channel is inaccurate
 
 The participants list is the list of users who are actively connected to a Walkie Talkie channel and can potentially hear transmissions. Sometimes this list can become inaccurate. For example, a user doesn't appear in the list even though they're connected to the channel. This issue can sometimes occur because of network issues or when a user's status is set to **Do not disturb**.
 
@@ -77,13 +77,13 @@ Poor network connectivity can lead to interruptions, delays, or loss of communic
 
 #### Run the network test in Walkie Talkie
 
-To check the network connection, ask users to run the network test in Walkie Talkie. To do this, have them go to their profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
+To check the network connection, ask users to run the network test in Walkie Talkie. Have them go to their profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
 
 The following network conditions are required for an optimal experience. To learn more, see [Manage the Walkie Talkie app in Teams](walkie-talkie.md#network-considerations).
 
 |Metric |Values| More information|
 |---|---|---|
-|Latency|< 150 ms|If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency is measured in round trip time (RTT). Latency > 500 ms indicates poor network quality.|
+|Latency|< 150 ms|Latency is measured in round trip time (RTT). If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency > 500 ms indicates poor network quality.|
 |Jitter |< 30 ms |If jitter is high, users will hear crackling sounds or audio breaking up.|
 
 Here's an example of network test results that indicate a poor connection.
@@ -101,7 +101,7 @@ If results of the network quality test indicate a poor connection, have the user
 
 ### Device issues
 
-To troubleshoot device-related issues:
+To troubleshoot device issues:
 
 - Make sure the device has the latest possible firmware update installed.
 - Check that the device has adequate battery life and isn't overheating.
@@ -172,9 +172,9 @@ If a user doesn't see Walkie Talkie even though it's pinned to Teams, have them 
 
 ### Proxy servers
 
-Using a proxy server with Walkie Talkie and Teams isn't recommended.
+Using a proxy server with Walkie Talkie isn't recommended.
 
-Performance-related issues can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. These issues can occur if the proxy is unable to handle the amount of traffic passing through it, or incorrectly routes traffic to a Microsoft network service front door location that's further away from users. Issues such as these can result in a negative experience within Walkie Talkie and Teams.
+Performance-related issues can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. These issues can occur if the proxy is unable to handle the amount of traffic passing through it, or incorrectly routes traffic to a Microsoft network service front door location that's further away from users.
 
 However, if you need to use a proxy server, make sure it's set up correctly. To learn more, see:
 
@@ -183,7 +183,7 @@ However, if you need to use a proxy server, make sure it's set up correctly. To 
 
 ## Send logs to Microsoft for investigation
 
-If users are still experiencing issues, users can send us a feedback report about the issue in Teams, and [attach logs](https://support.microsoft.com/topic/86dea1fe-ba14-456a-a7b9-b76c48011316) in the feedback report. Users can attach logs if you enable the option in the Teams feedback policy. To learn more, see [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md).
+If users are still experiencing issues, they can send us a feedback report about the issue in Teams, and [attach logs](https://support.microsoft.com/topic/86dea1fe-ba14-456a-a7b9-b76c48011316) in the feedback report. Users can attach logs if you enable the option in the Teams feedback policy. To learn more, see [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md).
 
 Ask users to reproduce the issue. In the feedback report, mention "Walkie Talkie", include a detailed description of the issue they're experiencing, and choose the option to attach logs.
 
