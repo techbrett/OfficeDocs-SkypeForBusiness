@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 11/21/2024
+ms.date: 11/22/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -61,6 +61,7 @@ The steps to set up a Call queue includes:
 1. Set the greeting and music
 1. Set up call answering
 1. Choose and assign agents
+1. Set up callback
 1. Set up call exception handling
 1. Set up authorized users
 
@@ -202,7 +203,7 @@ To **add a user** to the queue:
 To **add a group** to the queue:
 
 1. Select **Add groups**, search for the group, select **Add**, and then select **Add**.
-    1. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
+    - You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
 
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
@@ -212,13 +213,7 @@ To **add a group** to the queue:
 > [!IMPORTANT]
 > Known issue: Assigning private channels to Call queues
 >
-> When using a private channel, calls are be distributed to all members of the team even if the private channel only has a subset of team members.
->
-> You may experience this problem when trying to assign a private channel to a Call queue. This problem may occur even if the Call queue previously had a private channel assigned or if the private channel was previously assigned to a Call queue.
->
-> If you already have private channels assigned to Call queues, they will continue to work. This problem only affects new assignments.
->
-> Support continues to work on identifying the root cause of this problem.
+> When using a private channel, calls are be distributed to all members of the team even if the private channel only has a subset of team members. You may experience this problem when trying to assign a private channel to a Call queue. This problem may occur even if the Call queue previously had a private channel assigned or if the private channel was previously assigned to a Call queue. If you already have private channels assigned to Call queues, they will continue to work. This problem only affects new assignments. Support continues to work on identifying the root cause of this problem.
 
 ### Conference mode
 
@@ -231,12 +226,11 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 
 Once you select your call answering options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-> [!NOTE]
-> Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that's enabled for Location Based Routing.
->
-> Conference mode is required if Teams users need to consult/transfer calls with Call queues.
->
-> Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
+Keep the following in mind:
+
+- Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that's enabled for Location Based Routing.
+- Conference mode is required if Teams users need to consult/transfer calls with Call queues.
+- Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
 
 > [!IMPORTANT]
 > Transfer mode (when conference mode is disabled) is now in legacy mode. Support for transfer mode is scheduled to be removed by the end of June 2025.
@@ -308,8 +302,6 @@ Once you select your agent call routing options, select the **Next** button at t
 ## [Step 5: Callback](#tab/callback)
 
 ## Step 5: Callback
-
-### Callback
 
 **Callback** allows *eligible* callers waiting in a call queue to receive a callback to the number they're calling from when an agent becomes available.
 
@@ -575,7 +567,7 @@ For more information, see the following documentation:
 | [-NoAgentActionTarget](/powershell/module/teams/new-cscallqueue#-noagentactiontarget) | [-NoAgentActionTarget](/powershell/module/teams/set-cscallqueue#-noagentactiontarget) |
 
 
-#### PowerShell Example
+#### PowerShell example
 
 ##### Overflow to another Auto attendant or Call queue
 
@@ -625,7 +617,7 @@ Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -NoAgentActio
 | **Miscellaneous** |  |  |  |  |  |  |  |  |  |
 | Call toast shows Resource Account Name | Y | N | Y | N | Y |  | Y | Y |  |
 | Click-to-call | Y | N | N | N | N | N | Y | Y |  |
-| [Compliance recording](teams-recording-policy.md) |  |  |  |  |  |  |  |  | Not fully supported |
+| Compliance recording |  |  |  |  |  |  |  |  | See [Compliance recording](teams-recording-policy.md) |
 | [Location based routing](location-based-routing-plan.md#inbound-calls-through-auto-attendants) | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Not supported |
 
 #### Notes
