@@ -82,13 +82,13 @@ To check the network connection, ask users to run the network test in Walkie Tal
 The following network conditions are required for an optimal experience.
 
 |Performance metric |Values| More information|
-|---|---|---|
+|---|:---|---|
 |Latency|< 150 ms|If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency values > 500 ms indicate poor network quality.|
 |Jitter |< 30 ms |If jitter is high, users will hear crackling sounds or audio breaking up.|
 
 To learn more, see [Manage the Walkie Talkie app in Teams](walkie-talkie.md#network-considerations).
 
-#### Troubleshoot
+#### Troubleshoot network connection issues
 
 If results of the network quality test indicate a poor connection, have the user try the following steps:
 
@@ -156,14 +156,14 @@ If users with an E license don't see Walkie Talkie in Teams, check the app setup
 1. Select the user, and then go to the **Policies** tab.
 1. Next to **App setup policy**, select the policy, and then make sure that Walkie Talkie is added as one of the first 10 apps in the **Pinned apps** list.
 
-Additional policy troubleshooting:
+More policy troubleshooting:
 
-- Currently, Walkie Talkie must added as a pinned app and doesn't support being added as an "installed app" in the app setup policy.
+- Currently, Walkie Talkie must be added as a pinned app and doesn't support being added as an "installed app" in the app setup policy.
 - Assigning only an app permission policy isn't sufficient. You must also assign an app setup policy to pin Walkie Talkie to Teams for users who have an E license.
 
 #### Walkie Talkie not appearing even though it's pinned to Teams
 
-If a user doesn't see Walkie Talkie in Teams, have them try the following steps:
+If a user doesn't see Walkie Talkie even though it's pinned to Teams, have them try the following steps:
 
 1. In the Teams app bar at the bottom of the screen, tap **More ...**, find and then tap **Walkie Talkie** to open it.
 1. If Walkie Talkie still isn't showing up, restart Teams.
@@ -189,31 +189,6 @@ Users can send us feedback using either the following options:
 
 - Shake and send. This feature must be enabled at the tenant level in Teams.
 - **Send feedback**. The default feedback option. In Teams, tap the profile picture, and then tap **Settings** > **Help & feedback** > **Send feedback**. To learn more, see [Give feedback in Teams](https://support.microsoft.com/office/give-feedback-in-microsoft-teams-c0fb6297-22af-4db5-b19b-69e0a6720927#ID0EBBD=Android).
-
-<!-- ## Frequently asked questions
-
-### Why does Walkie Talkie appear in Teams for some users but not others?
-
-For users with an F license:
-
-- Walkie Talkie is pinned to Teams by default through the [tailored frontline app experience](/microsoft-365/frontline/pin-teams-apps-based-on-license).
-
-For users with an E license:
-
-- If users are enabled for Teams public preview or Teams private preview, Walkie Talkie is pinned to Teams by default.
-- If users are on the general release of Teams, you must assign an app setup policy to users to pin Walkie Talkie to Teams.
-
-### Users with an E license don't see Walkie Talkie in Teams even though the app permission policy is set to "Allow all apps" for Microsoft apps
-
-Assigning only an app permission policy isn't sufficient. You must also assign an app setup policy to pin Walkie Talkie to Teams for users who have an E license and on the general release of Teams.
-
-### Can I add Walkie Talkie as an "installed app" instead of a "pinned app" in the app setup policy?
-
-Currently, Walkie Talkie must be pinned and doesn't support being added as an "installed app" in the app setup policy.
-
-### Is the Walkie Talkie app available on Teams desktop?
-
-Walkie Talkie is only available on Teams mobile on Android and iOS devices.-->
 
 ## Known limitations
 
