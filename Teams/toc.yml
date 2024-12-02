@@ -1715,8 +1715,8 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-        - name: Walkie Talkie troubleshooting guide
-          href: walkie-talkie.md
+        - name: Troubleshoot Walkie Talkie issues
+          href: walkie-talkie-troubleshoot.md
     - name: Manage partner apps
       items:
         - name: Understand partner apps
