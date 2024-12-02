@@ -24,7 +24,7 @@ ms.date: 11/18/2024
 
 # Walkie Talkie troubleshooting guide
 
-This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to help identify and address issues for more effective troubleshooting and a smoother communication experience.
+This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
 
 ## Identify issues
 
@@ -79,14 +79,16 @@ Poor network connectivity can lead to interruptions, delays, or loss of communic
 
 To check the network connection, ask users to run the network test in Walkie Talkie. To do this, have them go to their profile picture in Teams, and then tap **Settings** > **Walkie Talkie** > **Test Network Quality**.
 
-The following network conditions are required for an optimal experience.
+The following network conditions are required for an optimal experience. To learn more, see [Manage the Walkie Talkie app in Teams](walkie-talkie.md#network-considerations).
 
-|Performance metric |Values| More information|
+|Metric |Values| More information|
 |---|---|---|
-|Latency|< 150 ms|If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher.<br>Latency values > 500 ms indicate poor network quality.|
+|Latency|< 150 ms|If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency is measured in round trip time (RTT). Latency > 500 ms indicates poor network quality.|
 |Jitter |< 30 ms |If jitter is high, users will hear crackling sounds or audio breaking up.|
 
-To learn more, see [Manage the Walkie Talkie app in Teams](walkie-talkie.md#network-considerations).
+Here's an example of network test results that indicate a poor connection.
+
+:::image type="content" source="media/walkie-talkie-troubleshooting-network-test.png" alt-text="test":::
 
 #### Troubleshoot network connection issues
 
