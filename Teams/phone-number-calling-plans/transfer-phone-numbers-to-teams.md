@@ -37,7 +37,7 @@ Before you start, review prerequisite knowledge referenced in the following arti
 - [Country or region specific articles](../manage-phone-numbers.md).
 
 > [!NOTE]
-> If you have more than 999 phone numbers that you need to transfer to Teams in one port request, do not use the port wizard. Navigate to the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/) and create/submit a new "Port in" case with the [Telephone Number Services (TNS) - Service Desk](https://learn.microsoft.com/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk).
+> If you have more than 999 phone numbers that you need to transfer to Teams in one port request, do not use the port wizard. Navigate to the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/) and create/submit a new "Port in" case with the [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 Microsoft's Telephone Number Service Center completes ports orders only on United States business days and not on public holidays or weekends.
 
@@ -148,7 +148,7 @@ To view the status of your port order, in the left navigation of the Microsoft T
 
 ## Report phone number issues
 
-If you notice any issues with the ported numbers within the first 24-48 hours after the port is completed, contact the [TNS Service Desk](https://learn.microsoft.com/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk). For any issues beyond 48 hours, contact the Microsoft Support Team.
+If you notice any issues with the ported numbers within the first 24-48 hours after the port is completed, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). For any issues beyond 48 hours, contact the Microsoft Support Team.
 
 ## Related articles
 
