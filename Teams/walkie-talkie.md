@@ -185,6 +185,10 @@ All other tenants have their Walkie Talkie customer data stored in data centers 
 
 See [Microsoft Entra ID and data residency](/azure/active-directory/fundamentals/data-residency).
 
+## Troubleshoot Walkie Talkie
+
+The [Walkie Talkie troubleshooting guide](walkie-talkie-troubleshoot.md) provides troubleshooting guidance for common issues that users might encounter when using Walkie Talkie. Use this information to help identify and address issues for more effective troubleshooting and a smoother communication experience.
+
 ## Give feedback or report an issue
 
 To send feedback or report an issue, go to **Settings** > **Help & feedback**, and then choose **Send feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Walkie Talkie so we can easily identify Walkie Talkie issues.
