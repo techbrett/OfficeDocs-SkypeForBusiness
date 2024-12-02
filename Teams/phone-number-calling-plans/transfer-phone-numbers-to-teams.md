@@ -37,7 +37,7 @@ Before you start, review prerequisite knowledge referenced in the following arti
 - [Country or region specific articles](../manage-phone-numbers.md).
 
 > [!NOTE]
-> If you have more than 999 phone numbers that you need to transfer to Teams in one port request, do not use the port wizard. Navigate to the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/) and create/submit a new "Port in" case with the [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+> If you have more than 999 phone numbers that you need to transfer to Teams in one port request, don't use the port wizard. Navigate to the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/) and create/submit a new "Port in" case with the [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 Microsoft's Telephone Number Service Center completes ports orders only on United States business days and not on public holidays or weekends.
 
@@ -59,16 +59,16 @@ On the **Get started** page, populate the fields per your request.
 
 ### Manage numbers
 
-The Manage numbers page provides an initial check to make sure the number format is recognized by the wizard, matches the country or region you specified, and is a valid number.
+The Manage numbers page provides an initial check to make sure the wizard recognizes the number format, matches the country or region you specified, and confirms a valid number.
 
 If the number validation summary isn't successful, view the details to understand the reason.
 
 - Click on **View details** in the Number validation summary, or click on the red text in the summary below **Validation status** to check the reasons for phone number failure.
 
-- If failure is not understood, you may create a case with the TNS-Service Desk team through the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/).
-    - For the scenario where you do not understand the number validation result, select Case Type = **General Inquiry** and in the description, provide the number validation summary that you see in TAC along with the list of phone numbers that you are trying to port.
+- If failure isn't understood, you may create a case with the TNS-Service Desk team through the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/).
+    - For the scenario where you don't understand the number validation result, select Case Type = **General Inquiry** and in the description, provide the number validation summary that you see in TAC along with the list of phone numbers that you're trying to port.
 
-The Number validation summary must indicated all numbers are valid before the wizard can continue.
+The Number validation summary must indicate all numbers are valid before the wizard can continue.
 If there are no errors, continue.
 
 ### Add account information
@@ -109,7 +109,7 @@ The order name you specify here becomes viewable by you in the Teams Admin Cente
 
 7. **How do you want to sign the Letter of Authorization?** section, you select whether you want e-signature or manual upload for the Letter of Authorization.
 
-8. **Service address**, assign the physical location exactly as it is matched with the current service provider. If the emergency address that you want to assign to the number is different than the address that you are entering here, then you can create a separate emergency address and use that when assigning the number to a user.
+8. **Service address**, assign the physical location exactly as it's matched with the current service provider. It's fine to proceed if the emergency address that you want to assign to the number is different than the address you're entering here. You can create an emergency address and designate it later, when you're assigning the number to a user.
 
 9. **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, the wizard skips you to the **Complete your order** page.
 
@@ -140,7 +140,7 @@ To update the number usage, check the desired number and select **Update number 
 
 ## What happens next
 
-When we receive your port order, you'll receive an automated email that confirms your request. All port order status changes will generate automated email notifications to you about the order. If your port request is rejected by the carrier, if you need help with your port request, or if you have any questions about your port request, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
+When we receive your port order, you receive an automated email that confirms your request. All port order status changes generate automated email notifications to you about the order. If your port request is rejected by the carrier, if you need help with your port request, or if you have any questions about your port request, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
 
 > [!NOTE]
 > If you already have a case open with the TNS-Service Desk for your port request, update that existing ticket instead of creating a new case.
