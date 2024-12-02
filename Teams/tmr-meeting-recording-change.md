@@ -71,11 +71,6 @@ For details on shared mailboxes, see [About shared mailboxes - Microsoft 365 a
 > [!NOTE]
 > When shared mailboxes don't have a Teams license, they follow the global identity's meeting policy, which has **`-allowCloudRecording`** set to false. If a shared mailbox without a Teams license organizes a meeting, your users can't record. If you want to set a custom meeting policy for a shared mailbox, you must assign a Teams license first.
 
-### Shared mailbox scheduled meetings
-
-
-Because the shared mailbox is the organizer, its CsTeamsRecordingRolloutPolicy is checked, rather than that of the delegate member. Typically, shared mailboxes do not have a license, so they follow the global identity's policy. Shared mailbox can only be assigned with custom teams meeting policy if it is assigned with teams license.
-
 ### Microsoft Teams Rooms meetings
 
 For **Microsoft Teams Rooms (MTR) meetings**, when an organizer creates a meeting using the meet-now button in MTR, the room itself becomes the meeting organizer, and the recording is stored in the MTR’s OneDrive account. However, none of the meeting participants have full permissions to the file. If you want meeting participants to have full permissions to the recording file, avoid assigning OneDrive storage to an MTR.
