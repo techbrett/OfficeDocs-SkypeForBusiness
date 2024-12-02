@@ -150,10 +150,7 @@ Microsoft only supports compliance recording solutions from the listed certified
 If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
 [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
 
-The following site lists partners certified to deliver a compliance recording solution with Microsoft Teams:
-[Modern Work for Partners - Compliance Recording Solutions](https://cloudpartners.transform.microsoft.com/compliance-recording-solutions)
-
-For convenience, the list of certified partners follows:
+The following list includes partners certified to deliver a compliance recording solution with Microsoft Teams:
 
 |Partner|Solution website |
 |:--|:--|
