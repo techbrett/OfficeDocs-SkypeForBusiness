@@ -83,7 +83,7 @@ The order details are where you input required information for your port request
 
 The order name you specify here becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
 
-1. **Port details**, enter the Billing Telephone Number (BTN) in E.164 format.
+2. **Port details**, enter the Billing Telephone Number (BTN) in E.164 format.
 
     - If you enter a BTN number that isn't in the list of numbers that you're porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
     - If you enter a BTN number that matches a number in the list of numbers that you're porting, you have two options.
@@ -98,19 +98,19 @@ The order name you specify here becomes viewable by you in the Teams Admin Cente
 >
 > This is dependent upon the current service provider. For example, PIN is required to port mobile numbers.
 
-1. **Organization details**, enter your organization's name.
+3. **Organization details**, enter your organization's name.
 
-1. **Current service provider details**, provide the current service provider's name, account number, and security PIN.
+4. **Current service provider details**, provide the current service provider's name, account number, and security PIN.
 
-1. **Requester details**, populate this information with the contact details of the person who Microsoft can contact with port order status updates.
+5. **Requester details**, populate this information with the contact details of the person who Microsoft can contact with port order status updates.
 
-1. **Authorized user details**, populate this information with the contact details of the person who is the authorized user with your current service provider.
+6. **Authorized user details**, populate this information with the contact details of the person who is the authorized user with your current service provider.
 
-1. **How do you want to sign the Letter of Authorization?** section, you select whether you want e-signature or manual upload for the Letter of Authorization.
+7. **How do you want to sign the Letter of Authorization?** section, you select whether you want e-signature or manual upload for the Letter of Authorization.
 
-1. **Service address**, assign the default emergency address for the numbers.
+8. **Service address**, assign the default emergency address for the numbers.
 
-1. **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, the wizard skips you to the **Complete your order** page.
+9. **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, the wizard skips you to the **Complete your order** page.
 
 ### Add number features
 
