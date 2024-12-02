@@ -5396,6 +5396,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/manage-sensitive-events.md",
+    "redirect_url": "/microsoftteams/meeting-webinar-town-hall-feature-comparison",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/devices/smartvision-admin.md",
     "redirect_url": "/microsoftteams/devices/multistream-intelliframe",
     "redirect_document_id": false
