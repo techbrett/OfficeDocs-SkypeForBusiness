@@ -24,7 +24,7 @@ ms.date: 11/18/2024
 
 # Walkie Talkie troubleshooting guide
 
-This article provides guidance for how to troubleshoot common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to help identify the source of the issues for more effective troubleshooting and to ensure a smoother communication experience.
+This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to help address issues for more effective troubleshooting and a smoother communication experience.
 
 ## Identify issues
 
@@ -36,7 +36,7 @@ Use the following table to help identify the source of issues, along with recomm
 |Device|Check whether the issue occurs on only on one device or across multiple devices.|If the issue occurs only on the one device, swap or replace the device.|
 |Headset|Try a different headset.|If the issue occurs only with a particular headset, swap out or replace the headset.|
 |All apps|Test to see whether the issue happens only when using Walkie Talkie or if it happens across all apps. Try to reproduce the issue in other apps. For example, test using the Calls app or Meeting app within Teams, an app outside of Teams, and a third-party app.|If the issue can be reproduced in other apps, investigate possible hardware or software issues that might be impacting device.|
-|Walkie Talkie app|Check whether the issue occurs for all people in a channel, several people, or only one person.|Send logs to Microsoft for investigation and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
+|Walkie Talkie app|Check whether the issue occurs for all people in a channel, several people, or only one person.|[Send logs to Microsoft for investigation](#send-logs-to-microsoft-for-investigation) and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
 
 ## Troubleshoot common issues
 
@@ -47,7 +47,7 @@ If a user hears an audio tone or a notification that a transmission is incoming 
 1. [Run the network test in Walkie Talkie](#run-the-network-test-in-walkie-talkie) to make sure they have a good network connection.
 1. Leave and reconnect to the channel.
 
-If the issue persists, send logs to Microsoft for investigation.
+If the issue persists, [send logs to Microsoft for investigation](#send-logs-to-microsoft-for-investigation).
 
 ### Missing transmissions
 
@@ -120,8 +120,6 @@ Malfunctioning or incompatible headsets can cause poor audio quality or connecti
 
 Additionally, try adjusting the audio settings in Walkie Talkie to improve sound quality.
 
-<!--- SCO channel connection settings-->
-
 ### Permissions issues
 
 Make sure Teams has permissions to access the microphone, network, and notifications on the device.
@@ -137,22 +135,18 @@ Make sure Teams has permissions to access the microphone, network, and notificat
 
 To access Walkie Talkie in Teams, Walkie Talkie must be pinned to the app bar in Teams. The pinning behavior of Walkie Talkie depends on the license users have.
 
-<!--For users who are enabled for Teams [public preview](public-preview-doc-updates.md) or Teams private preview, Walkie Talkie is pinned to the app bar in Teams by default, regardless of the Microsoft 365 license they have. Users can see and access Walkie Talkie without any action needed by an admin.-->
-
 ##### Microsoft 365 F license
 
 For users with a Microsoft 365 F license, Walkie Talkie is pinned to Teams by default through the [tailored frontline app experience](/microsoft-365/frontline/pin-teams-apps-based-on-license). Users can see and access Walkie Talkie in Teams without any action needed by an admin.
 
 ##### Microsoft 365 E license
 
-<!--If users have a Microsoft 365 E license and [Public preview is enabled in Teams](public-preview-doc-updates.md) or you're participating in a private preview for Teams in partnership with Microsoft, Walkie Talkie is pinned to the app bar by default in Teams. Users can see and access Walkie Talkie in Teams without any action needed by an admin.-->
-
 For users with a Microsoft 365 E license, you must use an app setup policy to pin Walkie Talkie to Teams. Users won't see Walkie Talkie in Teams until they're assigned an app setup policy that includes Walkie Talkie as a pinned app. If you're pinning more than 10 apps, Walkie Talkie must be added to one of the first 10 apps in the list when you set up the policy.
 
 You manage app setup policies in the Teams admin center. You can edit the global (Org-wide default) policy or create and assign a custom policy to users. To learn more, see [Use app setup policies to pin and install apps for users](teams-app-setup-policies.md).
 
 > [!NOTE]
-> If users with a E license are enabled for Teams [public preview](public-preview-doc-updates.md) or Teams private preview, Walkie Talkie is pinned to Teams by default. Users can see and access Walkie Talkie in Teams without any action needed by an admin.
+> If users with a E license are enabled for Teams [public preview](public-preview-doc-updates.md) or Teams private preview, Walkie Talkie is pinned to Teams by default. Users can see and access Walkie Talkie in Teams without needing an app setup policy assigned to them to pin the app.
 
 ###### Check the app setup policy assigned to a user
 
@@ -162,19 +156,10 @@ If users with an E license don't see Walkie Talkie in Teams, check the app setup
 1. Select the user, and then go to the **Policies** tab.
 1. Next to **App setup policy**, select the policy, and then make sure that Walkie Talkie is added as one of the first 10 apps in the **Pinned apps** list.
 
-<!--1. Walkie Talkie will show up in Teams mobile as a pre-installed app for all users in ring0, ring1, ring1.5, ring2, ring3, ring3.6, and ring3.9, irrespective of their license and TAC setup policy. Example: E SKU user A in ring3.9 will see Walkie Talkie in Teams with no policy setup required, while E SKU user in ring4 will not see it until the app is pinned via policy.
+Additional policy troubleshooting:
 
-2. Walkie Talkie will show up for all users with an F license, regardless of their TAC setup policy and user ring. Example: All F-SKU users should see Walkie Talkie app in Teams without needing to do anything in TAC
-
-3. For E SKUs, needs to be top 10 app for pinned app policy
-
-If a tenant wants the Walkie Talkie App to show up for E SKU users for all rings (e.g. ring4), they must pin the Walkie Talkie app via app setup policy and assign the policy to each user. Alternatively, they may also purchase F licenses and assign them to users who they want to have the Walkie Talkie app. Use app setup policies to pin and auto-install apps for users
-
-If a customer provides a specific E-SKU user who does not have the Walkie Talkie app appearing, verify their setup policy with the following steps:
-
-1. In Teams Admin Center, go to "Users" -> "Manage Users" -> search for the affected user -> Click on the user -> Click the "Policies" tab.
-
-2. Click on the policy to the right of "App setup policy" and verify that Walkie Talkie appears in the "Pinned apps" section.-->
+- Currently, Walkie Talkie must added as a pinned app and doesn't support being added as an "installed app" in the app setup policy.
+- Assigning only an app permission policy isn't sufficient. You must also assign an app setup policy to pin Walkie Talkie to Teams for users who have an E license.
 
 #### Walkie Talkie not appearing even though it's pinned to Teams
 
@@ -196,18 +181,16 @@ However, if you need to use a proxy server, make sure it's set up correctly. To 
 
 ## Send logs to Microsoft for investigation
 
-If users are still experiencing issues, users can send us a feedback report about the issue in Teams, and include logs.
+If users are still experiencing issues, users can send us a feedback report about the issue in Teams, and [attach logs](https://support.microsoft.com/topic/86dea1fe-ba14-456a-a7b9-b76c48011316) in the feedback report. Users can attach logs if you enable the option in the Teams feedback policy. To learn more, see [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md).
 
-Ask users to reproduce the issue. In the feedback report, mention "Walkie Talkie" and include a detailed description of the issue they're experiencing.
+Ask users to reproduce the issue. In the feedback report, mention "Walkie Talkie", include a detailed description of the issue they're experiencing, and choose the option to attach logs.
 
 Users can send us feedback using either the following options:
 
-- Shake and send. You need to enable this feature at the tenant level in Teams.
-- **Send feedback**. This is the default feedback option. In Teams, tap the profile picture, and then tap **Settings** > **Help & feedback** > **Send feedback**. To learn more, see [Give feedback in Teams](https://support.microsoft.com/office/give-feedback-in-microsoft-teams-c0fb6297-22af-4db5-b19b-69e0a6720927#ID0EBBD=Android).
+- Shake and send. This feature must be enabled at the tenant level in Teams.
+- **Send feedback**. The default feedback option. In Teams, tap the profile picture, and then tap **Settings** > **Help & feedback** > **Send feedback**. To learn more, see [Give feedback in Teams](https://support.microsoft.com/office/give-feedback-in-microsoft-teams-c0fb6297-22af-4db5-b19b-69e0a6720927#ID0EBBD=Android).
 
-Users can choose to attach logs if you enable the option in the Teams feedback policy. To learn more, see [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md).
-
-## Frequently asked questions
+<!-- ## Frequently asked questions
 
 ### Why does Walkie Talkie appear in Teams for some users but not others?
 
@@ -230,25 +213,7 @@ Currently, Walkie Talkie must be pinned and doesn't support being added as an "i
 
 ### Is the Walkie Talkie app available on Teams desktop?
 
-Walkie Talkie is only available on Teams mobile on Android and iOS devices.
-
-<!--Why is the Walkie Talkie app showing up for some users and not others?
-
-For users with an E license, the Walkie Talkie app shows up automatically without any policy needed if they're part of an early ring (eg. an admin part of the Private Preview Ring get the Walkie Talkie app automatically). However, E-SKU users in general ring must have an app setup policy assigned to them with the Walkie Talkie app pinned or else they won't see the app. Needs to be pinned in top 10 apps for E SKUs.
-
-I have my permission policy setup so that all Microsoft apps are "Allowed", shouldn't Walkie Talkie appear?
-
-A permission policy isn't sufficient. E-SKU users in general ring must have an app setup policy assigned to them with the Walkie Talkie app pinned or else they will not see the app.
-
-Why can't I add the app as an "Installed app" instead of "Pinned app" in my app setup policy?
-
-Currently Walkie Talkie can only be pinned, it doesn't support being added as an "Installed app" and won't show up if you try searching for it in this section.
-
-Is the app available for desktop users?
-
-The Walkie Talkie app is only available for Teams on Android and iOS.
-
-By following these troubleshooting steps, users can address common problems encountered while using the Microsoft Teams Walkie Talkie app and ensure a smoother communication experience.-->
+Walkie Talkie is only available on Teams mobile on Android and iOS devices.-->
 
 ## Known limitations
 
@@ -258,67 +223,8 @@ By following these troubleshooting steps, users can address common problems enco
   - iOS devices: Walkie Talkie doesn't support noise cancellation or voice isolation. Users might hear some background noise during communications.
   - Android devices: If the user's device supports noise cancellation, they can turn it on in Walkie Talkie settings.
 
+- The Walkie Talkie app isn't supported on Teams desktop. It's available on Teams mobile on Android and iOS devices.
+
 ## Related articles
 
-<!--
-## Prepare your network
-
-Walkie Talkie requires connectivity to the internet. Use the following guidance to set up your organization's network for Walkie Talkie:
-
-- Make sure that all endpoints listed for Teams in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users on your network.
-
-- Prepare your network:
-
-  - [Prepare your organization's network for Teams](prepare-network.md)
-  - [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
-
-- Download and run the [Microsoft Teams Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=103017) to test your network performance and connectivity to determine how well your network will perform with Walkie Talkie.
-
-## Deploy Walkie Talkie
-
-You deploy and manage Walkie Talkie from the Teams admin center. Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
-
-> [!IMPORTANT]
-> Deployment is a three-step process. You'll need to complete all three steps for your users to have access to Walkie Talkie.
-
-### Step 1: Make sure Walkie Talkie is enabled in your organization
-
-You control whether the app is available at the organization level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center. To confirm that the app is enabled in your organization:
-
-1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
-2. In the list of apps, search for the Walkie Talkie app, select it, and then make sure the **Status** toggle is set to **Allowed**.
-
-### Step 2: Create and assign an app permission policy
-
-Control which users in your organization can use Walkie Talkie by assigning app permission policies in the Teams admin center. To learn more, see [Use app permission policies to control user access to apps](teams-app-permission-policies.md).
-
-Make sure Walkie Talkie is an allowed app in the app permission policy, and you assign the policy to all users who need Walkie Talkie.
-
-### Step 3: Pin Walkie Talkie for your users
-
-Pin Walkie Talkie to Teams for easy access. This step depends on which license your users have.
-
-- [If your users have E licenses](#e-license-use-an-app-setup-policy-to-pin-walkie-talkie-to-teams)
-- [If your users have F licenses](#f-license-use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams)
-
-#### E license: Use an app setup policy to pin Walkie Talkie to Teams
-
-> [!NOTE]
-> If your users have an E licence and [Public preview is enabled in Teams](public-preview-doc-updates.md), Walkie Talkie is pre-pinned to the app bar.
-
-App setup policies let you customize Teams to pin apps that are most important for your users in your users.
-
-To pin the Walkie Talkie app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto-install apps for users](teams-app-setup-policies.md).
-
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
-
-> [!NOTE]
-> If you're pinning more than 10 apps, Walkie Talkie must be added to one of the first 10 slots in the list.
-
-#### F license: Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
-
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
-
-The apps are pinned to the app bar at the bottom of Teams mobile clients where users can quickly and easily access them.
-
-To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).-->
+- [Manage the Walkie Talkie app in Microsoft Teams](walkie-talkie.md)
