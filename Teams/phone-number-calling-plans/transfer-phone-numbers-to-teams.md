@@ -60,8 +60,13 @@ On the **Get started** page, populate the fields per your request.
 ### Manage numbers
 
 The Manage numbers page provides an initial check to make sure the number format is recognized by the wizard, matches the country or region you specified, and is a valid number.
-If the number validation summary isn't successful, view the details to understand the reason. Click on **View details** in the Number validation summary, or click on the red text in the summary below **Validation status** to check the reasons for phone number failure.
-If failure is not understood, you may create a case with the TNS-Service Desk team through the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/). 
+
+If the number validation summary isn't successful, view the details to understand the reason.
+
+- Click on **View details** in the Number validation summary, or click on the red text in the summary below **Validation status** to check the reasons for phone number failure.
+
+- If failure is not understood, you may create a case with the TNS-Service Desk team through the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/).
+
 The Number validation summary must indicated all numbers are valid before the wizard can continue.
 If there are no errors, continue.
 
@@ -88,7 +93,10 @@ The order name you specify here becomes viewable by you in the Teams Admin Cente
 
 > [!NOTE]
 > All information input for your organization and current service provider must match *exactly* with the current service provider's records.
-> Some fields are optional, but some service provider's require the optional fields. This is dependent upon the current service provider. For example, PIN is required to port mobile numbers.
+>
+> Some fields are optional, but some service providers require the optional fields.
+>
+> This is dependent upon the current service provider. For example, PIN is required to port mobile numbers.
 
 1. **Organization details**, enter your organization's name.
 
