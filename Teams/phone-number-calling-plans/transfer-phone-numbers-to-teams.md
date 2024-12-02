@@ -88,8 +88,8 @@ The order name you specify here becomes viewable by you in the Teams Admin Cente
     - If you enter a BTN number that isn't in the list of numbers that you're porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
     - If you enter a BTN number that matches a number in the list of numbers that you're porting, you have two options.
 
-        - Port **all numbers in my account**. If you choose this option, the account with your current service provider will be closed after the port is complete.
-        - Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you can enter a new BTN to designate for the account that is still open with your current service provider.
+        - Option 1: Port **all numbers in my account**. If you choose this option, the account with your current service provider will be closed after the port is complete.
+        - Option 2: Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you can enter a new BTN to designate for the account that is still open with your current service provider.
 
 > [!NOTE]
 > All information input for your organization and current service provider must match *exactly* with the current service provider's records.
