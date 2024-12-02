@@ -187,7 +187,9 @@ See [Microsoft Entra ID and data residency](/azure/active-directory/fundamentals
 
 ## Troubleshoot Walkie Talkie
 
-The [Walkie Talkie troubleshooting guide](walkie-talkie-troubleshoot.md) provides troubleshooting guidance for common issues that users might encounter when using Walkie Talkie. Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
+The [Walkie Talkie troubleshooting guide](walkie-talkie-troubleshoot.md) provides troubleshooting guidance for common issues that users might encounter when using Walkie Talkie.
+
+Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
 
 ## Give feedback or report an issue
 

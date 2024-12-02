@@ -1,5 +1,5 @@
 ---
-title: Walkie Talkie troubleshooting guide
+title: Troubleshoot Walkie Talkie issues
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
@@ -22,7 +22,7 @@ appliesto:
 ms.date: 11/18/2024
 ---
 
-# Walkie Talkie troubleshooting guide
+# Troubleshoot Walkie Talkie issues
 
 This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
 
