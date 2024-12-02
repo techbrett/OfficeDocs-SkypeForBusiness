@@ -64,12 +64,17 @@ For **Channel meetings**, the recording is stored in the SharePoint Teams site d
 
 ### Shared mailbox scheduled meetings
 
-For **meetings scheduled using a shared mailbox**, the shared mailbox is considered the organizer. If the shared mailbox has a OneDrive, the recording is uploaded there. However, since shared mailbox typically don’t have a OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive instead. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+For **meetings scheduled using a shared mailbox**, the shared mailbox is considered the organizer. If the shared account has a OneDrive, the recording is uploaded there. However, since shared mailboxes typically don’t have a OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive instead. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
-For details on shared mailbox, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
+For details on shared mailboxes, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
 
 > [!NOTE]
-> For meetings scheduled using a shared mailbox, the meeting cannot be recorded if the shared mailbox, as the organizer, has its **allowCloudRecording** meeting policy set to false. Basically, shared mailboxes adhere to the global identity's meeting policy if it doesn't have Teams license. Tenant admin can assign Teams license to shared mailbox so that it can be assigned with custom meeting policy.
+> When shared mailboxes don't have a Teams license, they follow the global identity's meeting policy, which has **`-allowCloudRecording`** set to false. If a shared mailbox without a Teams license organizes a meeting, your users can't record. If you want to set a custom meeting policy for a shared mailbox, you must assign a Teams license first.
+
+### Shared mailbox scheduled meetings
+
+
+Because the shared mailbox is the organizer, its CsTeamsRecordingRolloutPolicy is checked, rather than that of the delegate member. Typically, shared mailboxes do not have a license, so they follow the global identity's policy. Shared mailbox can only be assigned with custom teams meeting policy if it is assigned with teams license.
 
 ### Microsoft Teams Rooms meetings
 
