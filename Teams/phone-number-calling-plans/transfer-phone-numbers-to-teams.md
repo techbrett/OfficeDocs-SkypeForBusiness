@@ -54,8 +54,8 @@ On the **Get started** page, populate the fields per your request.
 
 **List your phone number** Add your phone numbers manually or by uploading a list.
 
-- To add phone numbers manually, enter numbers in 10-digit or E.164 format, separated by a comma or semi-colon. Ranges aren't supported. Optional dashes or hyphens are supported.
-- To upload a list of phone numbers, the list must be in CSV format and must have only one column with a header designated as PhoneNumber. Each phone number must be in a separate row and can be in 10-digit or E.164 format.
+- To add phone numbers manually, enter numbers E.164 format, separated by a comma or semi-colon. Ranges aren't supported. Optional dashes or hyphens are supported.
+- To upload a list of phone numbers, the list must be in CSV format and must have only one column with a header designated as PhoneNumber. Each phone number must be in a separate row and in E.164 format.
 
 ### Manage numbers
 
@@ -66,6 +66,7 @@ If the number validation summary isn't successful, view the details to understan
 - Click on **View details** in the Number validation summary, or click on the red text in the summary below **Validation status** to check the reasons for phone number failure.
 
 - If failure is not understood, you may create a case with the TNS-Service Desk team through the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/).
+    - For the scenario where you do not understand the number validation result, select Case Type = **General Inquiry** and in the description, provide the number validation summary that you see in TAC along with the list of phone numbers that you are trying to port.
 
 The Number validation summary must indicated all numbers are valid before the wizard can continue.
 If there are no errors, continue.
