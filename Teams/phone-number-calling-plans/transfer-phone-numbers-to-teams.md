@@ -108,7 +108,7 @@ The order name you specify here becomes viewable by you in the Teams Admin Cente
 
 7. **How do you want to sign the Letter of Authorization?** section, you select whether you want e-signature or manual upload for the Letter of Authorization.
 
-8. **Service address**, assign the default emergency address for the numbers.
+8. **Service address**, assign the physical location exactly as it is matched with the current service provider. If the emergency address that you want to assign to the number is different than the address that you are entering here, then you can create a separate emergency address and use that when assigning the number to a user.
 
 9. **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, the wizard skips you to the **Complete your order** page.
 
