@@ -69,7 +69,7 @@ For **meetings scheduled using a shared mailbox**, the shared mailbox is conside
 For details on shared mailboxes, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
 
 > [!NOTE]
-> When shared mailboxes don't have a Teams license, they follow the global identity's meeting policy, which has **`-allowCloudRecording`** set to false. If a shared mailbox without a Teams license organizes a meeting, your users can't record. If you want to set a custom meeting policy for a shared mailbox, you must assign a Teams license first.
+> When shared mailboxes don't have a Teams license, they follow the global identity's meeting policy. If a shared mailbox without a Teams license organizes a meeting and you set **`-allowCloudRecording`** to false in the global policy, your users can't record. If you want to set a custom meeting policy for a shared mailbox, you must assign a Teams license first.
 
 ### Microsoft Teams Rooms meetings
 
