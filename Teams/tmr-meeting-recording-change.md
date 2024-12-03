@@ -26,7 +26,7 @@ appliesto:
 > [!NOTE]
 > When organizers turn off Microsoft 365 Copilot in Teams meetings and events, recording and transcription are also turned off. To learn more about Copilot, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
 
-When users in your org record Teams meetings, the recording is stored in either OneDrive and SharePoint. Depending on where your users access the file, the recording plays on the video player in OneDrive or SharePoint. This article helps you, as an admin, understand recording storage and permissions for OneDrive and Sharepoint.
+When users in your organization record Teams meetings, the recording is stored in either OneDrive and SharePoint. Depending on where your users access the file, the recording plays on the video player in OneDrive or SharePoint. This article helps you, as an admin, understand recording storage and permissions for OneDrive and SharePoint.
 
 To learn about your recording policies, see [Teams meeting recording](meeting-recording.md). To learn how to block the download of Teams meeting recording files from SharePoint or OneDrive, see [Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md).
 
@@ -69,7 +69,7 @@ For **meetings scheduled using a shared mailbox**, the shared mailbox is conside
 For details on shared mailboxes, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
 
 > [!NOTE]
-> When shared mailboxes don't have a Teams license, they follow the global identity's meeting policy, which has **`-allowCloudRecording`** set to false. If a shared mailbox without a Teams license organizes a meeting, your users can't record. If you want to set a custom meeting policy for a shared mailbox, you must assign a Teams license first.
+> When shared mailboxes don't have a Teams license, they follow the global identity's meeting policy. If a shared mailbox without a Teams license organizes a meeting and you set **`-allowCloudRecording`** to false in the global policy, your users can't record. If you want to set a custom meeting policy for a shared mailbox, you must assign a Teams license first.
 
 ### Microsoft Teams Rooms meetings
 
@@ -153,7 +153,7 @@ Closed captions are supported for Teams meeting recordings for 60 days from when
 |Adhoc/Scheduled meeting                    |Other meeting member   |Organizer’s OneDrive account                                  |Organizer has full permissions to the recording. Co-organizers and organizer have edit permissions and can share. <br /> <br />  All other members of the meeting from the same tenant as the organizer have read access.|
 |Adhoc/Scheduled meeting with external participants|Organizer              |Organizer’s OneDrive account                     |Organizer has full permissions to the recording. Co-organizers and organizer have edit permissions and can share. <br /> <br />  All other members of the meeting from the same tenant as the organizer have read access. <br /><br /> All other external participants have no access, and the Organizer must share it to them.|
 |Adhoc/Scheduled meeting with external participants|Other meeting member   |Organizer’s OneDrive account                                  |Organizer has full permissions to the recording. Co-organizers and organizer have edit permissions and can share. <br /><br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br />All other external participants have no access, and the Organizer must share it to them.|
-|Channel meeting                            |Channel Member         |Teams SharePoint location for that channel. **Note**: Channel meeting recording upload to SharePoint isn't supported for IP-based restrictions. We recommend using [Azure conditional access](/azure/active-directory/conditional-access/overview). |Member who selected on Record has edit permissions to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
+|Channel meeting                            |Channel Member         |Teams SharePoint location for that channel. Note that channel meeting recording upload to SharePoint isn't supported for IP-based restrictions. We recommend using [Azure conditional access](/azure/active-directory/conditional-access/overview). |Member who selected on Record has edit permissions to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
 
 ## Related topics
 
