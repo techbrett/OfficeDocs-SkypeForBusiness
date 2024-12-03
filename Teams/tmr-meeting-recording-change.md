@@ -62,11 +62,14 @@ For 1-1 call and group calls, recording files go to the OneDrive account of the 
 
 For **Channel meetings**, the recording is stored in the SharePoint Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
-### Shared account scheduled meetings
+### Shared mailbox scheduled meetings
 
-For **shared accounts scheduled meetings**, if the shared account has a OneDrive, the recording is uploaded there. However, since shared accounts typically don’t have a OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive instead. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+For **meetings scheduled using a shared mailbox**, the shared mailbox is considered the organizer. If the shared account has a OneDrive, the recording is uploaded there. However, since shared mailboxes typically don’t have a OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive instead. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
-For details on shared accounts, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
+For details on shared mailboxes, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
+
+> [!NOTE]
+> When shared mailboxes don't have a Teams license, they follow the global identity's meeting policy, which has **`-allowCloudRecording`** set to false. If a shared mailbox without a Teams license organizes a meeting, your users can't record. If you want to set a custom meeting policy for a shared mailbox, you must assign a Teams license first.
 
 ### Microsoft Teams Rooms meetings
 
@@ -117,7 +120,7 @@ For **non-Channel meetings**:
 - If the meeting is forwarded, only participants who are automatically added to the meeting chat thread receive the recording link.
 - For optimal performance, the total number of users in a chat shouldn't exceed 1,000.
 - If a meeting is forwarded to a group, only some users are added to the chat. If forwarded to an individual user, they're added to the meeting chat unless there are more than 1,000 users in the chat. 
-- For **large meetings**, if a meeting has more than 250 participants, some particpants don't automatically have file permissions. Excluded participants should ask the recording owner to add them to the shared list.
+- For **large meetings**, if a meeting has more than 250 participants, some participants don't automatically have file permissions. Excluded participants should ask the recording owner to add them to the shared list.
 
 For **Channel meetings**, permissions are inherited from the owners and members list in the channel.
 
