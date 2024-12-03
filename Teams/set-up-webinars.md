@@ -39,7 +39,7 @@ For more information on how to plan for webinars in your org, see [Plan for Team
 To learn more about the webinar experience for your users, see [Get Started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
 
 > [!NOTE]
-> The webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
+> The webinar experience isn't available for Microsoft 365 DoD.
 
 ## Manage who can schedule webinars
 
