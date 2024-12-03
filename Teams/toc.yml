@@ -3,6 +3,8 @@ items:
   href: teams-overview.md
 - name: Teams Premium overview
   href: enhanced-teams-experience.md
+- name: Set up Facilitator for AI notes
+  href: facilitator-teams.md
 - name: Get started
   items:
     - name: Deployment overview
@@ -121,7 +123,7 @@ items:
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
                   href: teams-classic-client-uninstall.md
-                - name: Classic Teams uninstillation script
+                - name: Classic Teams uninstallation script
                   href: teams-client-uninstall-script.md
                 - name: Feature differences between desktop and Teams for Web
                   href: new-teams-desktop-client-features.md
@@ -335,8 +337,12 @@ items:
           href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Legal hold
           href: /microsoft-365/compliance/ediscovery-teams-legal-hold?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Third party compliance recording
-          href: teams-recording-policy.md
+        - name: Recording
+          items:
+            - name: Introduction to Teams recording
+              href: teams-recording-policy.md
+            - name: Third party compliance recording
+              href: teams-recording-compliance.md
         - name: Retention policies
           href: retention-policies.md        
         - name: Sensitivity labels
@@ -1741,15 +1747,15 @@ items:
       items:
         - name: Overview of app management
           href: manage-apps.md
-        - name: Policies for app access and rollout
-          items: 
+        - name: Policies to access and install apps
+          items:
           - name: Understand app policies
             href: app-policies.md
-          - name: Manage app permission policies
+          - name: Manage permission policies for availability
             href: teams-app-permission-policies.md
-          - name: Manage app setup policies
+          - name: Manage setup policies for installation
             href: teams-app-setup-policies.md
-        - name: Use or migrate to app centric management
+        - name: Use app centric management
           href: app-centric-management.md
         - name: Preinstall apps for users
           href: install-teams-apps.md
@@ -1857,8 +1863,6 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json            
-        - name: Policy packages for healthcare
-          href: policy-packages-healthcare.md
         - name: Use healthcare team templates
           href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
     - name: Teams for Nonprofit

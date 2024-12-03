@@ -4,7 +4,7 @@ author: DaniESmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: jasonlewis
-ms.date: 11/12/2024
+ms.date: 12/03/2024
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -107,13 +107,13 @@ For more information about performing an eDiscovery search for private channel m
 
 [Sharing files and folders](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c) in a private channel works the same as with other SharePoint sites. Users can share files and folders using sharable links based on the [sharing settings configured by the SharePoint Administrator](/sharepoint/turn-external-sharing-on-or-off).
 
-Sharing a OneNote notebook in a private channel site is the same as sharing access to any other item. If a user is granted access to a notebook in a private channel through SharePoint, removing the user from the team or private channel doesn't remove the user's access to the notebook. If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed and the notebook retains its existing permissions.
+Sharing a OneNote notebook in a private channel site is the same as sharing access to any other item. If a user is granted access to a notebook in a private channel through SharePoint, removing the user from the team or private channel doesn't remove the user's access to the notebook. If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed, and the notebook retains its existing permissions.
 
 ## Private channel limitations
 
 Private channels don't support connectors and tabs in Stream, Planner, Tasks by Planner and To Do, and Forms.
 
-Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
+Each team can have a maximum of 30 private channels, and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
 
 When you create a team from an existing team, any private channels in the existing team don't copy over.
 
