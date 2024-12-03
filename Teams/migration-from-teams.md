@@ -22,32 +22,32 @@ ms.localizationpriority: medium
 
 # Data transfer out to Third-party when leaving Teams 
 
-Microsoft supports customer choice, including the choice to migrate your data away from Teams. Teams now offer one-time free exit for small and medium-sized customers (up to 500 employees) leaving Teams when taking their data out of Teams to switch to a third-party.
+Microsoft supports customer choice, including the choice to migrate your data away from Teams. Teams now offer a 90-day free exit for small and medium-sized customers (up to 500 employees) who are leaving Teams and taking their data out to switch to a third-party. This allows for unlimited exports during this period of time.
 
-For Enterprise Customers: please use the export API for a better experience: [Export content with the Microsoft Teams Export APIs](export-teams-content.md)
+For large-scale customers, including Enterprise customers: Use the export API for a better experience: [Export content with the Microsoft Teams Export APIs](export-teams-content.md)
 
-## Data transfer fees that are applied when moving all data off Teams
+## Essential requirements and access guidelines for the Teams data transfer tool
 
-Use the following steps to submit your request for one-time free exit from Microsoft Teams:
+Use the following steps to submit your request for the 90-day free exit from Microsoft Teams:
 
 ### Prerequisites to access Teams data export tool 
 
-1. To let us know you want to leave Microsoft Teams, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support
+1. To begin the process of moving from Microsoft Teams, and access the tool, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
     1. Description: Provide an estimate of the size of your tenant and why you want to move your data.
-1. Wnen we receipt your request we begin the evaluation process and notify you when you can access the tool.
+1. Wnen we receive your request we begin the evaluation process and notify you when you can access the tool.
 
 ### Access the Teams data export tool
 
-Migrating data involves sensitive data. Note the following:
+Migrating data involves sensitive content. Note the following:
 
 - **Access role**: As it contains sensitive data, you will need to login to the Teams Admin Center as the global administrator to access it
 - **Duration**: You can use the tool for up to 90 days.
 - **Download window**: After the data is prepared, you’ll download a ZIP file with a series of JSON files. When the download link becomes available, you have 24 hours to download it.
 
 > [!NOTE]
-> When you start exporting data or when an export is in progress, any new data created after that start isn't included. To capture the content that isn't included, you can execute another export, as long as it's within 90 days.
+> When you start exporting data or when an export is in progress, any new data created after that isn't included. To capture the content that isn't included, you can do another export within 90 days.
 
 ## What the Teams data export tool supports
 
@@ -64,14 +64,13 @@ The Teams data export tool also supports the following data:
 
 - **Team and Channel structure**: The Teams data export tool supports the Team and Channels structure. Channels are specific collaboration spaces within a Team where members can focus on topics, projects, or departments.
 - **User/Roster**: The Teams data export tool supports exporting the list of users who are part of a specific team or channel, including details about each user’s roles.
-- **Apps**: The Teams data export tool supports exporting the list of installed apps for a team.
+- **Apps**: The Teams data export tool supports exporting the list of installed apps for a channel.
 
 ## What the Teams data export tool doesn't support
 
 - **Teams Copilot Interactions and Microsoft 365 Chat**: The Teams data export tool doesn't support user-to-Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
-- **Control Messages**: The Teams data export tool doesn't support capturing control messages or user-generated messages.
 
-## What the ZIP file will include
+## What the ZIP file includes
 
 |File name |Note |Public documentation |
 |----------|-----|---------------------|
@@ -90,3 +89,13 @@ The Teams data export tool also supports the following data:
 |/teams/{teamId}/groupEvents_{teamdId}.json |List of meetings for a team |[List calendarView](/graph/api/calendar-list-calendarview) |
 |/teams/{teamId}/channels_{teamId}.json |List of channels for a team |[List allChannels](/graph/api/team-list-allchannels) |
 |/teams/{teamId}/channels/{channelId}/channelMembers.json |List of members of a channel (this will be only available for shared and private channels, standard channel members are same as team’s member) |[List members of a channel](/graph/api/channel-list-members) |
+
+## Further information
+
+As you start working with Microsoft Graph, check out these references to get started:
+
+- Get started with Microsoft Graph Toolkit
+- Best practices for working with Microsoft Graph
+- Data Export Tool when Migrating from Teams
+
+Developers working with and implementing the scenarios described in this article can get assistance from Microsoft and its engineers, including managed technical support, by emailing InteropHelp@microsoft.com.
