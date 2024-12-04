@@ -238,7 +238,9 @@ The following are known issues and considerations:
 
 - In SBA mode, the following user actions aren't supported:
     - switching their Teams client to another tenant
-    - sharing location information during an emergency call (E911). Users can still make emergency call but location information won't be shared.
+  - sharing location information during an emergency call (E911). Users can still make emergency call but location information won't be shared.
+  - SBA does not support Emergency Call Routing Policies. EMER dial strings bypass normalization and are always sent without +.   Because of this, if the customer has no pattern attached to their regular voice routing policy matching the EMER Dial strings, emergency calls will fail via SBA.
+    
     - reaching other Teams users with reverse number lookup against Microsoft Entra ID Contacts. A dialed number will still be processed by SBA and routed over PSTN.
 
 
