@@ -91,6 +91,14 @@ The following list contains the prerequisites for users to be able to access Fac
 - Be a Microsoft Teams Public preview participant.
   - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 
+## Facilitator note storage
+
+AI-generated notes for meetings created by Facilitator are stored as a .lloop file in the OneDrive of the user who initiated Facilitator in Teams. This data is treated as meeting transcript data.
+
+AI-generated notes for chats created by Facilitator are stored as messaging data in each users' Exchange mailbox. This data is treated like all other Teams chat data.
+
+[Carol insert info about retention policy]
+
 ## Turn on Facilitator for chats and meetings
 
 As an admin, you control whether Facilitator is available to your entire organization or to a certain group of users.
