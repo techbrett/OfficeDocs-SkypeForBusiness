@@ -50,7 +50,7 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/) |ALOHA Load Balancer|5.5|[Aloha Deployment Guide for Lync 2010](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|
 |[jetNEXUS](http://www.jetnexus.com/support/applications/microsoft-lync/) |Accelerating Load Balancer (ALB)<br/><hr>Accelerating Load Balancer Extreme (ALB-X) |ALB 2.0 <br/><hr>3.42.1 (Build 1475) |[Advanced Load Balancing for Microsoft Lync 2010](http://www.jetnexus.com/support/applications/microsoft-lync/)|
 |[KEMP Technologies](http://www.kemptechnologies.com/) |LoadMaster|7.1-18b|[LoadMaster Deployment Guide](https://kemptechnologies.com/microsoft-load-balancing/load-balancing-microsoft-lync/)|
-|[Loadbalancer.org](http://loadbalancer.org/) |Enterprise, Enterprise MAX, Enterprise 10G|v6.18, v7.4.1|[Microsoft Lync 2010 Deployment Guide](https://www.microsoft.com/download/details.aspx?id=5317)|
+|[Loadbalancer.org](http://loadbalancer.org/) |Enterprise, Enterprise MAX, Enterprise 10G|v6.18, v7.4.1|[Microsoft Lync 2010 Deployment Guide](https://www.microsoft.com/en-us/download/details.aspx?id=5317)|
 |[Radware](http://www.radware.com/) |  AppDirector  <br/><hr>  Alteon   |v.2.14.03<br/><hr> v.28.1.0   |[Radware AppDirector optimizing the delivery of Microsoft Lync 2010](http://www.radware.com/Partners/TechnologyPartners/Microsoft/)<br/><hr> |
 | |         |         ||
 
