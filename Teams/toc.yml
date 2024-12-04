@@ -1865,8 +1865,6 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json            
-        - name: Policy packages for healthcare
-          href: policy-packages-healthcare.md
         - name: Use healthcare team templates
           href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
     - name: Teams for Nonprofit
