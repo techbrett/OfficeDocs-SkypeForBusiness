@@ -26,11 +26,11 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms on Android certified devices
 
-The Microsoft Teams devices Certification Program ensures devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
+The Microsoft Teams Devices Certification Program ensures devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
 Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
 
-Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
+Microsoft is committed to certifying devices on the latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
 Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
 
