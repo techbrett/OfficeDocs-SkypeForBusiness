@@ -28,7 +28,7 @@ description: Learn how to set up alerts for audio quality issues detected in in-
 
 As an admin, you can set up alerts for in-progress meeting audio issues and be informed immediately when the users you specify experience issues.
 
-Notifications are available for packet loss, jitter, and round trip time. You can customize the threshold for each parameter and set the frequency of notifications to suit your needs.
+Notifications are available for packet loss, jitter, local healed ratio, and round trip time. You can customize the threshold for each parameter and set the frequency of notifications to suit your needs.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 
@@ -47,7 +47,7 @@ To be monitored, meeting attendees must have a Teams Premium or Teams Rooms Pro 
 |**Audio conditions**|Choose the audio issues that you want to monitor for.|
 |**Monitoring settings**|Choose the **Notification threshold** and **Monitoring window** to specify how long the condition should exist before an alert is sent.<br>Choose the **Notification waiting period** to specify how often an alert is sent.|
 |**Scope**|Choose the users whose meeting audio quality you want to monitor.|
-|**Network subnet selection for notifications**|Select which networks you want to get alerts for.|
+|**Subnet notifications**|Select which networks you want to get alerts for.|
 |**Actions**|Choose if you want to send alerts to a specific channel or to a web hook URL.|
 |**Status**|Choose if the rule is active and alerts should be sent.|
 
