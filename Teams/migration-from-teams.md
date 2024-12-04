@@ -14,25 +14,23 @@ ms.reviewer:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Guidance on migrating from Microsoft Teams to a third-party application.
+description: Guidance on data export when migrating from Microsoft Teams to a third-party application.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
 ---
 
-# Data transfer out to Third-party when leaving Teams 
+# Data export when migrating from Teams
 
-Microsoft supports customer choice, including the choice to migrate your data away from Teams. Teams now offer a 90-day free exit for small and medium-sized customers (up to 500 employees) who are leaving Teams and taking their data out to switch to a third-party. This allows for unlimited exports during this period of time.
-
-For large-scale customers, including Enterprise customers: Use the export API for a better experience: [Export content with the Microsoft Teams Export APIs](export-teams-content.md)
+Microsoft supports customer choice, including the choice to migrate your data away from Teams. Teams now offer a 90-day free exit for customers who are leaving Teams and taking their data out to switch to a third-party. This allows for unlimited exports within that period. For small and medium-sized customers (up to 500 employees), continue. For large enterprise customers, refer to [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
 
 ## Essential requirements and access guidelines for the Teams data transfer tool
 
-Use the following steps to submit your request for the 90-day free exit from Microsoft Teams:
+Use the following steps to submit your request for a one-time free exit from Microsoft Teams:
 
 ### Prerequisites to access Teams data export tool 
 
-1. To begin the process of moving from Microsoft Teams, and access the tool, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support.
+1. To switch out of Microsoft Teams and access the tool, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
     1. Description: Provide an estimate of the size of your tenant and why you want to move your data.
