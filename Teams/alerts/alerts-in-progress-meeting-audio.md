@@ -4,7 +4,7 @@ ms.author: jtremper
 author: jacktremper
 manager: pamgreen
 ms.reviewer: vapati
-ms.date: 01/30/2024
+ms.date: 12/4/2024
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -26,9 +26,9 @@ description: Learn how to set up alerts for audio quality issues detected in in-
 
 [!INCLUDE[Teams Premium ECM](../includes/teams-premium-ecm.md)]
 
-You can set up alerts for in-progress meeting audio issues and be informed immediately when the users you specify experience issues.
+As an admin, you can set up alerts for in-progress meeting audio issues and be informed immediately when the users you specify experience issues.
 
-Notifications are available for packet loss, jitter, and round trip time. You can set the threshold for each of these as well as the frequency of notification.
+Notifications are available for packet loss, jitter, and round trip time. You can customize the threshold for each parameter and set the frequency of notifications to suit your needs.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 
@@ -53,8 +53,6 @@ To be monitored, meeting attendees must have a Teams Premium or Teams Rooms Pro 
 
 ## Related topics
 
-[Alerts for video quality issues](alerts-in-progress-meeting-video.md)
-
-[Alerts for screen sharing issues](alerts-in-progress-meeting-screen-sharing.md)
-
-[Real-time telemetry limitations](/microsoftteams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality#limitations)
+- [Alerts for video quality issues](alerts-in-progress-meeting-video.md)
+- [Alerts for screen sharing issues](alerts-in-progress-meeting-screen-sharing.md)
+- [Real-time telemetry limitations](/microsoftteams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality#limitations)
