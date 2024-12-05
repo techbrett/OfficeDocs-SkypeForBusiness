@@ -46,7 +46,7 @@ If a user hears an audio tone or a notification that a transmission is incoming 
 
 1. Make sure the audio volume is set to at least 50 percent and the headset is connected properly.
 1. [Run the network test in Walkie Talkie](#run-the-network-test-in-walkie-talkie) to make sure they have a good network connection.
-1. Leave and reconnect to the channel.
+1. Disconnect and reconnect to the Walkie Talkie channel.
 
 If the issue persists, [send logs to Microsoft for investigation](#send-logs-to-microsoft-for-investigation).
 
@@ -54,12 +54,13 @@ If the issue persists, [send logs to Microsoft for investigation](#send-logs-to-
 
 If users experience issues in which they're not receiving transmissions, try the following steps:
 
-1. Check the participant list to verify that both the sender and receiver are connected to the same Walkie Talkie channel.
+1. Disconnect and reconnect to the Walkie Talkie channel.
+1. Check the participant list to verify that both the sender and receiver are connected to the same channel.
 1. [Run the network test in Walkie Talkie](#run-the-network-test-in-walkie-talkie) to make sure they have a good network connection.
-1. Restart Walkie Talkie to refresh the connection.
+1. Restart Teams to refresh the connection.
 1. Check whether the user's status is set to **Do not disturb**, in focus time, or in quiet time in Teams on the device. These modes might block transmissions.
 
-    If the user is in any of these modes, have the user switch out of that mode. Make sure that notifications are turned on, and then restart Walkie Talkie to ensure that any changes to notification settings take effect.
+    If the user is in any of these modes, have the user switch out of that mode. Make sure that notifications are turned on, and then restart Teams to ensure that any changes to notification settings take effect.
 
 ### Participants list for a Walkie Talkie channel is inaccurate
 
@@ -67,7 +68,7 @@ The participants list is the list of users who are actively connected to a Walki
 
 If the participants list in a channel doesn't accurately reflect the users who are actively connected to the channel, ask the users who aren't appearing on the list to try the following steps:
 
-1. Leave and reconnect to the Walkie Talkie channel.
+1. Disconnect and reconnect to the Walkie Talkie channel.
 1. Switch channels.
 1. Send at least two transmissions. This action can potentially add the user back to the participants list.
 1. Close, and then reopen Walkie Talkie (if on an iOS device).
@@ -106,8 +107,8 @@ To troubleshoot device issues:
 
 - Make sure the device has the latest possible firmware update installed.
 - Check that the device has adequate battery life and isn't overheating.
-- Update the device’s operating system to the latest version.
-- Reset the device’s settings to use the default settings, if persistent issues occur.
+- Update the device operating system to the latest version.
+- Reset the device settings to use the default settings, if persistent issues occur.
 - If possible, [update Teams](https://support.microsoft.com/office/update-microsoft-teams-535a8e4b-45f0-4f6c-8b3d-91bca7a51db1#ID0EBBD=Mobile) to the latest version.
 
 ### Headset issues
