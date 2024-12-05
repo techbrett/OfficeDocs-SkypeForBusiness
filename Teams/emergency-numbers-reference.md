@@ -178,7 +178,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Reunion|RE|112<br>15<br>17<br>18<br>196|
 |Romania|RO|112<br>113|
 |Rwanda|RW|112<br>110<br>113<br>912|
-|Saint Barthelemy|BL|112<br>15<br>17<br>18|
+|Saint Barthélemy|BL|112<br>15<br>17<br>18|
 |Saint Martin|MF|112<br>15<br>17<br>18|
 | São Tomé e   Príncipe | ST | 112<br>     113 |
 | Saudi Arabia | SA | 911<br>     112<br>     123<br>     992<br>     993<br>     996<br>     997<br>     998<br>     999 |
