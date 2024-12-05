@@ -32,7 +32,7 @@ description: Learn how to turn off Communication Credits automatic recharge if y
 
 Microsoft Customer Agreements (MCA) allow customers to pay for services *after* the services were consumed, also known as post-usage billing.
 
-Because Communication Credits are a prepaid budget to support outgoing minutes, they're not available to purchase for customers with MCA calling subscriptions.
+Because Communication Credits are a prepaid budget to support outgoing minutes, they're not available to purchase for customers with MCA Calling and Audio Conferencing subscriptions.
 
 - For more information about the types of billing accounts, see [Understand your Microsoft business billing account](/microsoft-365/commerce/manage-billing-accounts).
 - To learn how to check if your tenant has an MCA calling subscription, see [View my billing accounts](/microsoft-365/commerce/manage-billing-accounts#view-my-billing-accounts).

@@ -47,8 +47,6 @@ To set up Communication Credits, see [Set up Communications Credits for your org
 Not all customers need to set up Communication Credits.
 
 Outbound calls to some destinations may already be included in your Audio Conferencing or Calling Plan subscription. Check your subscription information for details before purchasing Communication Credits you don't need.
-
-You also don’t need Communication Credits if your subscription is through a Microsoft Customer Agreement (MCA). To check if your service subscription is an MCA, see [Understand your Microsoft business billing account](/microsoft-365/commerce/manage-billing-accounts).
   
 ### Conflicting organization addresses
 
@@ -56,22 +54,30 @@ If your organization is located in a different region than the billing address o
 
 If you're unable to purchase Communication Credits, open a support ticket from the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2166757), and we can work with you to mitigate this issue until a permanent solution is in place.
 
-### Customers with Microsoft Customer Agreement (MCA) calling subscriptions
+### Customers without a Microsoft Online Subscription Agreement (MOSA) billing account
 
-Microsoft Customer Agreement subscriptions allow customers to pay for services after the services were consumed, also known as post-usage billing.
+Microsoft 365 services are assigned a billing account when they're purchased.
 
-Because Communication Credits are a prepaid budget to support outgoing minutes, they're not available to purchase for customers with MCA calling subscriptions.
+Because of the billing differences between billing account types, these two requirements must be met to purchase Communication Credits:
 
-For more information about the MCA billing account type, see [Understand your Microsoft business billing account](/microsoft-365/commerce/manage-billing-accounts) and [Understand your invoice for your Microsoft MCA billing account](/microsoft-365/commerce/billing-and-payments/understand-your-invoice).
+1. Your Calling and Audio Conferencing subscriptions use a Microsoft Online Subscription Agreement (MOSA) billing account.
+1. Your default billing account is set to your MOSA billing account.
+    1. For instructions on setting your default billing account, see [Understand your Microsoft business billing account](/microsoft-365/commerce/manage-billing-accounts#select-a-default-billing-account).
+
+The Microsoft Customer Agreement (MCA) billing account type allows customers to pay for services after the services were consumed, also known as post-usage billing. Because Communication Credits are a prepaid budget to support outgoing minutes, they're not available to purchase for customers with an MCA billing account for their Calling and Audio Conferencing subscriptions or with an MCA billing account as their default billing account.
+
+It's possible for your account to have both MCA and MOSA billing accounts. Make sure that your default billing account and Calling and Audio Conferencing subscriptions are using the MOSA billing account.
+
+To learn how to check if your Calling and Audio Conferencing subscriptions' billing accounts are MCA or MOSA, see [Understand your Microsoft business billing account](/microsoft-365/commerce/manage-billing-accounts#view-my-billing-accounts).
 
 > [!WARNING]
 > MCA customers need to turn off Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
 
 ### Your Calling Plan or Audio Conferencing plan is through a Cloud Solution Provider (CSP)
 
-If you purchased your Calling or Audio Conferencing plan through a CSP, you can't acquire Communication Credits in the Microsoft 365 admin center.
+If you purchased your Calling or Audio Conferencing plan through a Cloud Solution Provider (CSP), you can't acquire Communication Credits in the Microsoft 365 admin center. Your CSP needs to fund Communication Credits on your behalf.
 
-To fund your Calling or Audio Conferencing plan with Communication Credits, directly purchase your Calling and Audio Conferencing plans from Web Direct or Volume License agreement (VL) channels.
+If you want the ability to fund your Calling or Audio Conferencing plan with Communication Credits on your own, purchase your Calling and Audio Conferencing plans from the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) or the [Microsoft sales page](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) yourself.
 
 ## What are the Communication Credits rates?
 
