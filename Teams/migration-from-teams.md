@@ -24,12 +24,9 @@ ms.localizationpriority: medium
 
 Microsoft supports customer choice, including the choice to migrate your data away from Teams. Teams now offer a 90-day free exit for customers who are leaving Teams and taking their data out to switch to a third-party. This allows for unlimited exports within that period. For small and medium-sized customers (up to 500 employees), see the [Prerequisites to access the Teams data export tool](#prerequisites-to-access-the-teams-data-export-tool) section. For large enterprise customers, refer to [Prerequisites to access the Teams export APIs](#prerequisites-to-access-the-teams-export-apis).
 
-## Essential requirements and access guidelines for the Teams data export tool
+## Prerequisites to access the Teams data export tool 
 
-Use the following steps to submit your request for a one-time free exit from Microsoft Teams:
-
-### Prerequisites to access the Teams data export tool 
-
+XXX
 1. To migrate out of Microsoft Teams and access the tool, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
@@ -90,6 +87,7 @@ The Teams data export tool also supports the following data:
 
 ## Prerequisites to access the Teams export APIs
 
+XXX
 1. To migrate out of Microsoft Teams and get access to the APIs free of charge, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
@@ -98,4 +96,4 @@ The Teams data export tool also supports the following data:
 
 ### Access the Teams Export APIs
 
-Please refer to this article: Export content with the Microsoft Teams Export APIs.
+Please refer to this article: Export content with the [Microsoft Teams Export APIs](export-teams-content.md).
