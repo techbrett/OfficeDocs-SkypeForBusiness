@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/policy-packages-healthcare.md",
+      "redirect_url": "/microsoftteams/manage-policy-packages",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/auto-install-approved-apps.md",
       "redirect_url": "https://admin.microsoft.com/#/MessageCenter/:/messages/MC841224",
       "redirect_document_id": false
