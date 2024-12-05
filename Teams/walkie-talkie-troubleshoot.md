@@ -54,9 +54,9 @@ If the issue persists, [send logs to Microsoft for investigation](#send-logs-to-
 
 If users experience issues in which they're not receiving transmissions, try the following steps:
 
-1. Disconnect and reconnect to the Walkie Talkie channel.
-1. Check the participant list to verify that both the sender and receiver are connected to the same channel.
+1. Check the participant list to verify that both the sender and receiver are connected to the same Walkie Talkie channel.
 1. [Run the network test in Walkie Talkie](#run-the-network-test-in-walkie-talkie) to make sure they have a good network connection.
+1. Disconnect and reconnect to the channel.
 1. Restart Teams to refresh the connection.
 1. Check whether the user's status is set to **Do not disturb**, in focus time, or in quiet time in Teams on the device. These modes might block transmissions.
 
