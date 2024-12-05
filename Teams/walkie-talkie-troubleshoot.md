@@ -36,14 +36,15 @@ Use the following table to help identify the source of issues, along with recomm
 |Device|Check whether the issue occurs on only one device or across multiple devices.|If the issue occurs only on the one device, swap or replace the device.|
 |Headset|Try a different headset.|If the issue occurs only with a particular headset, swap out or replace the headset.|
 |All apps|Test to see whether the issue happens only when using Walkie Talkie or if it happens across all apps. Try to reproduce the issue in other apps. For example, test using the Calls app or Meeting app within Teams, and with apps outside of Teams.|If the issue can be reproduced in other apps, investigate possible hardware or software issues that might be impacting device.|
-|Walkie Talkie app|Check whether the issue occurs for all people in a channel, several people, or only one person.|[Send logs to Microsoft for investigation](#send-logs-to-microsoft-for-investigation) and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
+|Walkie Talkie app| Check whether the issue occurs for all people in a channel, several people, or only one person.|If possible, first try to [update Teams](https://support.microsoft.com/office/update-microsoft-teams-535a8e4b-45f0-4f6c-8b3d-91bca7a51db1#ID0EBBD=Mobile) to the latest version. If the issue persists, [send logs to Microsoft for investigation](#send-logs-to-microsoft-for-investigation) and include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.|
 
 ## Troubleshoot common issues
 
 ### Incoming transmissions not received
 
-If a user hears an audio tone or a notification that a transmission is incoming but they don't receive the transmission, have the user try the following steps:
+If a user hears an audio tone or a notification that a transmission is incoming but they don't receive the transmission, ask the user to try the following steps:
 
+1. Make sure the audio volume is set to at least 50 percent and the headset is connected properly.
 1. [Run the network test in Walkie Talkie](#run-the-network-test-in-walkie-talkie) to make sure they have a good network connection.
 1. Leave and reconnect to the channel.
 
@@ -53,8 +54,8 @@ If the issue persists, [send logs to Microsoft for investigation](#send-logs-to-
 
 If users experience issues in which they're not receiving transmissions, try the following steps:
 
-1. Verify that both the sender and receiver are connected to the same Walkie Talkie channel.
-1. Make sure that Walkie Talkie is connected to the network.
+1. Check the participant list to verify that both the sender and receiver are connected to the same Walkie Talkie channel.
+1. [Run the network test in Walkie Talkie](#run-the-network-test-in-walkie-talkie) to make sure they have a good network connection.
 1. Restart Walkie Talkie to refresh the connection.
 1. Check whether the user's status is set to **Do not disturb**, in focus time, or in quiet time in Teams on the device. These modes might block transmissions.
 
@@ -83,7 +84,7 @@ The following network conditions are required for an optimal experience. To lear
 
 |Metric |Values| More information|
 |---|---|---|
-|Latency|< 150 ms|Latency is measured in round trip time (RTT). If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency > 500 ms indicates poor network quality.|
+|Latency|< 300 ms|Latency is measured in round trip time (RTT). If latency is high, connecting to Walkie Talkie takes longer, and jitter is also higher. Latency > 500 ms indicates poor network quality.|
 |Jitter |< 30 ms |If jitter is high, users will hear crackling sounds or audio breaking up.|
 
 Here's an example of network test results that indicate a poor connection.
@@ -107,7 +108,7 @@ To troubleshoot device issues:
 - Check that the device has adequate battery life and isn't overheating.
 - Update the device’s operating system to the latest version.
 - Reset the device’s settings to use the default settings, if persistent issues occur.
-- Check for and install any available Walkie Talkie updates.
+- If possible, [update Teams](https://support.microsoft.com/office/update-microsoft-teams-535a8e4b-45f0-4f6c-8b3d-91bca7a51db1#ID0EBBD=Mobile) to the latest version.
 
 ### Headset issues
 
@@ -183,7 +184,10 @@ However, if you need to use a proxy server, make sure it's set up correctly. To 
 
 ## Send logs to Microsoft for investigation
 
-If users are still experiencing issues, they can send us a feedback report about the issue in Teams, and [attach logs](https://support.microsoft.com/topic/86dea1fe-ba14-456a-a7b9-b76c48011316) in the feedback report. Users can attach logs if you enable the option in the Teams feedback policy. To learn more, see [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md).
+If users are still experiencing issues, they can send us a feedback report about the issue in Teams, and [attach logs](https://support.microsoft.com/topic/86dea1fe-ba14-456a-a7b9-b76c48011316) in the feedback report.
+
+> [!NOTE]
+> For users to attach logs, you must enable the option in the Teams feedback policy. To learn more, see [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md).
 
 Ask users to reproduce the issue. In the feedback report, mention "Walkie Talkie", include a detailed description of the issue they're experiencing, and choose the option to attach logs.
 
@@ -191,6 +195,9 @@ Users can send us feedback using either the following options:
 
 - Shake and send. This feature must be enabled at the tenant level in Teams.
 - **Send feedback**. The default feedback option. In Teams, tap the profile picture, and then tap **Settings** > **Help & feedback** > **Send feedback**. To learn more, see [Give feedback in Teams](https://support.microsoft.com/office/give-feedback-in-microsoft-teams-c0fb6297-22af-4db5-b19b-69e0a6720927#ID0EBBD=Android).
+
+> [!NOTE]
+> If you're in direct contact with Microsoft, include the number of people who are experiencing the issue. If possible, include a video that shows the steps to reproduce the issue.
 
 ## Known limitations
 
@@ -204,4 +211,4 @@ Users can send us feedback using either the following options:
 
 ## Related articles
 
-- [Manage the Walkie Talkie app in Microsoft Teams](walkie-talkie.md)
+[Manage the Walkie Talkie app in Microsoft Teams](walkie-talkie.md)
