@@ -1,7 +1,7 @@
 ---
 title: Manage voice isolation for your users' Microsoft Teams calls and meetings
-ms.author: wlibebe
-author: wlibebe
+ms.author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: elaineho
 ms.date: 5/1/2024
@@ -19,6 +19,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - teams-rooms-devices
   - highpri
   - Tier1
 description: Learn how to manage whether users can use voice isolation for IT Admins in Microsoft Teams. 
