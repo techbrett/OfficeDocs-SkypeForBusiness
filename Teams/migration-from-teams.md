@@ -31,7 +31,7 @@ XXX
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
     1. Description: Provide an estimate of the size of your tenant and why you want to move your data.
-1. Wnen we receive your request we begin the evaluation process and notify you when you can access the tool.
+1. When we receive your request we begin the evaluation process and notify you when you can access the tool.
 
 ### Access the Teams data export tool
 
@@ -92,7 +92,7 @@ XXX
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
     1. Description: Provide information on why you want to move your data.
-1. Wnen we receive your request we begin the evaluation process and notify you when you can access the APIs with no cost.
+1. When we receive your request we begin the evaluation process and notify you when you can access the APIs with no cost.
 
 ### Access the Teams Export APIs
 
