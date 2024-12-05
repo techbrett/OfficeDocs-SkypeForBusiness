@@ -39,7 +39,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Anguilla |AI |911 |
 |Argentina|AR|109<br>911<br>100<br>101<br>106<br>107<br>128|
 |Armenia |AM |911<br>100<br>101<br>102<br>103<br>104<br>177 |
-|Australia|AU|000<br>112<br>106<br>132500|
+|Australia|AU|000<br>000 DialMask=112<br>106<br>132500|
 |Austria|AT|112<br>122<br>128<br>133<br>140<br>141<br>142<br>144<br>147|
 |Azerbaijan |AZ |112<br>101<br>102<br>103<br>104<br>199 |
 |Bahrain  |BH |112<br>199<br>990<br>992<br>994<br>999 |
@@ -212,7 +212,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Uganda|UG|999<br>112|
 | Ukraine | UA | 112 |
 | United Arab Emirates | AE | 112<br>     911<br>     991<br>     992<br>     997<br>     998<br>     999 |
-|United Kingdom|GB|999<br>112|
+|United Kingdom|GB|999<br>112<br>18000 (Text Relay)|
 |United States Minor Outlying Islands|UM|911|
 |United States|US|911<br>911 DialMask=1911<br>911 DialMask=9911<br>933<br>933 DialMask=9933|
 |United States Virgin Islands|VI|911|    
