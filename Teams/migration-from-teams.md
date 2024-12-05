@@ -37,7 +37,7 @@ XXX
 
 Migrating data involves sensitive content. Note the following:
 
-- **Access role**: As it contains sensitive data, you will need to login to the Teams Admin Center as the global administrator to access it
+- **Access role**: As it contains sensitive data, you will need to login to the Teams Admin Center as the global administrator to access it.
 - **Duration**: You can use the tool for up to 90 days.
 - **Download window**: After the data is prepared, you’ll download a ZIP file with a series of JSON files. When the download link becomes available, you have 24 hours to download it.
 
