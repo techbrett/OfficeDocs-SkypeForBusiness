@@ -36,7 +36,7 @@ The following meeting options can be controlled by using a meeting template:
 |Lobby|Specifies who can bypass the lobby and join the meeting directly.|
 |End-to-end encryption|Specifies if the meeting is encrypted.|
 |Watermarks|Specifies if watermarks are used for camera feeds and content that is shared on screen in the meeting.|
-|Restrict participants from copying or forwarding meeting chat messages|Prevents participants from copying or forwarding content in the meeting chat.|
+|[PLACEHOLDER NAME??]Restrict participants from copying or forwarding meeting chat messages|Prevent participants from copying messages, links, live captions, transcripts, and AI-generated insights in the meeting recaps. This setting also restricts forwarding and sharing messages to Outlook.|
 |Require a verification check from|Controls whether anonymous users must complete a verification check to join meetings and webinars in your org.|
 |**Audio & video**||
 |Allow mic and camera for attendees|Specifies if attendees can unmute and use their camera.|
