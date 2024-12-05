@@ -62,7 +62,7 @@ Because of the billing differences between billing account types, these two requ
 
 1. Your Calling and Audio Conferencing subscriptions use a Microsoft Online Subscription Agreement (MOSA) billing account.
 1. Your default billing account is set to your MOSA billing account.
-    1. For instructions on setting your default billing account, see [Understand your Microsoft business billing account](/microsoft-365/commerce/manage-billing-accounts#select-a-default-billing-account).
+    1. For instructions on setting your default billing account, see [Select a default billing account](/microsoft-365/commerce/manage-billing-accounts#select-a-default-billing-account).
 
 The Microsoft Customer Agreement (MCA) billing account type allows customers to pay for services after the services were consumed, also known as post-usage billing. Because Communication Credits are a prepaid budget to support outgoing minutes, they're not available to purchase for customers with an MCA billing account for their Calling and Audio Conferencing subscriptions or with an MCA billing account as their default billing account.
 
