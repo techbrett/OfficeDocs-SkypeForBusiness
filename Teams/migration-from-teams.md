@@ -87,13 +87,3 @@ The Teams data export tool also supports the following data:
 |/teams/{teamId}/groupEvents_{teamdId}.json |List of meetings for a team |[List calendarView](/graph/api/calendar-list-calendarview) |
 |/teams/{teamId}/channels_{teamId}.json |List of channels for a team |[List allChannels](/graph/api/team-list-allchannels) |
 |/teams/{teamId}/channels/{channelId}/channelMembers.json |List of members of a channel (this will be only available for shared and private channels, standard channel members are same as team’s member) |[List members of a channel](/graph/api/channel-list-members) |
-
-## Further information
-
-As you start working with Microsoft Graph, check out these references to get started:
-
-- Get started with Microsoft Graph Toolkit
-- Best practices for working with Microsoft Graph
-- Data Export Tool when Migrating from Teams
-
-Developers working with and implementing the scenarios described in this article can get assistance from Microsoft and its engineers, including managed technical support, by emailing InteropHelp@microsoft.com.
