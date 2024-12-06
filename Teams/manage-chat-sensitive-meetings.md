@@ -53,7 +53,7 @@ If you want to prevent anonymous meeting participants from using chat, you  must
 
 Meeting organizers can specify that the chat only be available while the meeting is in progress. This can also be configured by using a meeting template or sensitivity label if you require this for certain types of meetings.
 
-## Allow organizers to restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts
+## Restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts
 
 > [!IMPORTANT]
 > Allowing organizers to restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts on mobile clients is only supported through sensitivity labels.
@@ -62,11 +62,11 @@ As an admin, you can choose whether organizers in your organization can restrict
 
 You can require organizers to prevent copying or forwarding of chat messages, live captions, and transcripts with a meeting template or sensitivity label. If you don't enforce this option with a template or sensitivity label, meeting organizers can control this feature in their meeting options.
 
-### Allow participants to copy or forward of chat messages, live captions, and transcripts
+### Allow participants to copy or forward chat messages, live captions, and transcripts
 
 If you want meeting participants to copy or forward meeting chat messages, you must use a Teams admin policy to turn off the setting. When you use a policy to turn off this feature, organizers won't see the **Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts** setting in their meeting options or template. Meeting organizers who have this feature turned **Off** in their assigned policy can't prevent participants from copying or forwarding of chat messages, live captions, and transcripts in meetings they organize.
 
-To ensure that participants can copy or forward meeting chat content, use the following steps:
+To allow participants to copy or forward meeting chat content, use the following steps:
 
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting policies**.
 1. Choose the policy that you want to update, or create a new one.
