@@ -51,7 +51,7 @@ If you want to prevent anonymous meeting participants from using chat, you  must
 
 Meeting organizers can specify that the chat only be available while the meeting is in progress. This can also be configured by using a meeting template or sensitivity label if you require this for certain types of meetings.
 
-## Prevent participants from copying or forwarding meeting chat messages, live captions, and transcripts
+## Prevent copying or forwarding chat, captions, and transcripts
 
 > [!IMPORTANT]
 > Allowing organizers to restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts on mobile clients is only supported through sensitivity labels.
