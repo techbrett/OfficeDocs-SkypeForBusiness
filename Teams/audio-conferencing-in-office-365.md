@@ -90,7 +90,7 @@ For example, you might want to change the PIN that meeting organizers use to sta
 
 ### Phone numbers for Audio Conferencing bridges
 
-With Audio Conferencing, your users can use toll and toll-free servive numbers to dial in to meetings. 
+With Audio Conferencing, your users can use toll and toll-free service numbers to dial in to meetings. 
 
 - With toll numbers, invitees pay when calling the number.
 - With toll-free numbers, invitees don't pay when calling the number.
