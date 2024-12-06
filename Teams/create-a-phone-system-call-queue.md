@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 11/22/2024
+ms.date: 12/06/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -313,7 +313,7 @@ A caller becomes eligible for callback based on any one of the following configu
 
 - **Calls to agent ratio** - Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue.
 
-Additionally, for a call to become eligible for callback, its inbound phone number must be a publicly dialable, nonpremium phone number in E.164 format, and it must not be presenting to an agent.
+Additionally, for a call to become eligible for callback, its inbound phone number must be a publicly dialable, non-premium phone number in E.164 format, and it must not be presenting to an agent.
 
 After the music on hold finishes playing, eligible callers receive an option to request callback.
 
