@@ -383,7 +383,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 - In Citrix, app sharing sessions might freeze for the other participants if the presenter is on both VDA version 2402 and CWA for Windows 2309.1 (or higher versions).
   - The issue happens when a video element is destroyed.
        - For example, a participant turns off their camera in the middle of the app sharing session.
-       - If someone turns their camera **on** only, there is no issue because the video element is created, not destroyed.
+       - If someone turns their camera **on** only, there's no issue because the video element is created, not destroyed.
        - If the presenter maximizes the call monitor (which destroys the self preview of what the presenter is sharing).
   - Stopping and resharing the window should resolve the issue.
 
@@ -411,7 +411,7 @@ Both outgoing screensharing and appsharing behave differently in optimized VDI w
 As such, these activities require encoding that leverages the user's device resources (for example CPU, GPU, RAM, network, and so on).
 From a network perspective, sharing is done directly between the user's device and the other peer or conference server.
 
-When doing a full monitor screenshare, the Teams call monitor is captured and visible to the other participants (although the video elements inside aren't visible and instead are seen as blank squares). When doing app sharing, only the application being shared is visible to the other participants and the call monitor is not captured.
+When doing a full monitor screenshare, the Teams call monitor is captured and visible to the other participants (although the video elements inside aren't visible and instead are seen as blank squares). When doing app sharing, only the application being shared is visible to the other participants and the call monitor isn't captured.
 
 ##### Citrix App Protection and Microsoft Teams compatibility
 
@@ -491,7 +491,7 @@ Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on
 - **vdiVersionInfo** provides useful information for the Teams client and the endpoint.
   - **bridgeVersion** is tied to the version of the Teams desktop client running on the VM.
   - **remoteSlimcroreVersion** is the version of the SlimCore VDI that's available on the endpoint.
-  - **nodeId** is a unique id tied to the endpoint.
+  - **nodeId** is a unique ID tied to the endpoint.
   - **clientOsVersion** is the OS version for the endpoint.
   - **rdClientVersion** is the version of the remote desktop client running on the endpoint, which is used to connect to the VM.
   - **rdClientProductName** is the name of the remote desktop client running on the endpoint.
