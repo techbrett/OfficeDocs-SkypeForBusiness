@@ -38,7 +38,7 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [I'm trying to use CQD for usage-type reports and find that some of the data is incomplete--why is that?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[Why am I seeing Skype for Business information in CQD when I filtered for Teams only?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Why am I seeing Skype for Business information in CQD when I filtered for Teams only?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-i-filtered-for-teams-only)
 
 [Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
