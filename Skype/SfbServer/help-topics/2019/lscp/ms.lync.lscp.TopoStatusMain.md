@@ -26,13 +26,13 @@ The **Topology**: **Status** page displays the status of the servers in your Sky
 
 You can perform the following tasks on the **Topology**: **Status** page:
 
+> [!NOTE]
+> 'Start or Stop services' and 'Prevent New Connections to Services' are not available in the Modern Admin Control Panel. It is recommended to use cmdlets to achieve these functionalities.
+
 - [View a List of Computers Running Skype for Business Server or Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
 - [View Details About a Service](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 
 - [Start or Stop Services](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
-
-> [!NOTE]
-> 'Start or Stop services' and 'Prevent New Connections to Services' aren't available in the Modern Admin Control Panel. It's recommended to use cmdlets to achieve these functionalities.
 
 - [Prevent New Connections to Services](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)

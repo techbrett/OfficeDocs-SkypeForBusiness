@@ -20,6 +20,9 @@ description: "What do you want to do? Click the link to the task that you want t
 
 # PIN Policy
 
+> [!NOTE]
+> This option is available only in the **Conferencing** menu in Modern Admin Control Panel (and not in the **Security** menu anymore).
+
 What do you want to do? Click the link to the task that you want to perform.
 
  **Work with PIN policy for IP phones**This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.
@@ -35,6 +38,3 @@ What do you want to do? Click the link to the task that you want to perform.
 - [Modify the Default Dial-in Conferencing PIN Settings](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
 - [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
-
-> [!NOTE]
-> This option is available only in the **Conferencing** menu in Modern Admin Control Panel (and not in the **Security** menu).
