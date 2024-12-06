@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 11/22/2024
+ms.date: 12/06/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -313,7 +313,7 @@ A caller becomes eligible for callback based on any one of the following configu
 
 - **Calls to agent ratio** - Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue.
 
-Additionally, for a call to become eligble for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
+Additionally, for a call to become eligible for callback, its inbound phone number must be a publicly dialable, non-premium phone number in E.164 format, and it must not be presenting to an agent.
 
 After the music on hold finishes playing, eligible callers receive an option to request callback.
 
@@ -329,11 +329,11 @@ Consider the following call queue configuration:
 - Call Queue Timeout: 120 seconds
 - Call Queue Music: Default
 
-After waiting in the queue for 60 seconds, the caller becomes eligible for callback. However, as the default music is two minutes long, the call queue timeout will occur first and the caller won't be offered callback.
+After waiting in the queue for 60 seconds, the caller becomes eligible for callback. However, as the default music is two minutes long, the call queue timeout occurs first and callback isn't offered.
 
-Once a caller has successfully requested a callback, the callback request is also subject to the call queue timout configuration. If a callback request times out, the information about the caller is sent to the configured email notification address.
+Once a caller has successfully requested a callback, the callback request is also subject to the call queue timeout configuration. If a callback request times out, the information about the caller is sent to the configured email notification address.
 
-In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available and answers the call.
+For a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available and answers the call.
 
 > [!NOTE]
 > For callers within the North American Numbering Plan, in addition to the eligibility requirements already listed and in order to become eligible for callback, the inbound phone number must not start with any of the following digits:
@@ -472,6 +472,8 @@ This call exception handling option handles calls when no agents are opted into 
 > - Presence based routing on: No agents logged in, or all agents are in *Appear Offline*.
 >
 > If agents are logged in or opted in, then calls are queued.
+>
+> When **Longest idle** is selected as the routing method, the **No Agents** treatment will not work when ***New Calls Only*** is selected and new calls will be queued. The ***All Calls*** option works as expected. Support is investigating.
 
 Once you select your call overflow, call timeout, and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
@@ -636,7 +638,7 @@ Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -NoAgentActio
 9. Only standard channels are supported.
 10. Transferring calls between PSTN connectivity methods isn't supported.
 11. Performed through Team Phone Mobile app or see #8.
-12. Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
+12. Call queues that are assigned a Direct Routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
 ### Supported clients
 
