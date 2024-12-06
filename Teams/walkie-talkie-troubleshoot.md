@@ -19,12 +19,14 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 11/18/2024
+ms.date: 12/06/2024
 ---
 
 # Troubleshoot Walkie Talkie issues
 
-This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
+This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. 
+
+Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
 
 ## Identify issues
 
