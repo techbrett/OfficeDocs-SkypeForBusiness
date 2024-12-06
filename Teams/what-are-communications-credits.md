@@ -71,7 +71,7 @@ It's possible for your account to have both MCA and MOSA billing accounts. Make 
 To learn how to check if your Calling and Audio Conferencing subscriptions' billing accounts are MCA or MOSA, see [Understand your Microsoft business billing account](/microsoft-365/commerce/manage-billing-accounts#view-my-billing-accounts).
 
 > [!WARNING]
-> MCA customers need to turn off Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
+> MCA customers need to turn off Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-mca-customers.md).
 
 ### Your Calling Plan or Audio Conferencing plan is through a Cloud Solution Provider (CSP)
 
@@ -146,4 +146,4 @@ To see a table with the licenses you need for each feature, see [Microsoft Teams
 ## Related articles
 
 - [Set up Communication Credits for your organization](set-up-communications-credits-for-your-organization.md).
-- [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
+- [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-mca-customers.md).

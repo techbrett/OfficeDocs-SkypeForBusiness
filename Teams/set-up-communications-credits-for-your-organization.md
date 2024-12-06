@@ -40,7 +40,7 @@ If you don't set up Communication Credits, and your organization runs out of min
 For more information about plans and pricing, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523).
 
 > [!IMPORTANT]
-> Microsoft Customer Agreement (MCA) customers don't need to purchase Communication Credits. Instead, MCA customers need to turn of Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
+> Microsoft Customer Agreement (MCA) customers don't need to purchase Communication Credits. Instead, MCA customers need to turn of Communication Credits automatic recharge. For instructions on how to turn off Communication Credits auto recharge, see [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-mca-customers.md).
 
 To set up Communication Credits for your organization, follow these steps:
 
@@ -86,8 +86,6 @@ Communication Credits are enabled for users who have either an **Audio Conferenc
 
 - When using the auto-recharge function, invoicing for Communication Credits is generated when the trigger amount is reached and a recharge transaction is processed. Communication credit amounts are used in a first-in, first-out manner.
 
-- If you're a *volume licensing customer*, you can use your enterprise agreement for payment. If you have multiple enterprise agreement numbers, select which enterprise agreement you want to use for payment. Also, specify a purchase order number to associate with the enterprise agreement number.
-
 ## Step 3: Assign Communication Credits licenses to users
 
 If you don't assign **Communication Credits** licenses to your users, those users can't make calls or dial out from Audio conferencing meetings.
@@ -108,7 +106,7 @@ Also, you can use [PowerShell](/powershell/module/teams/) to assign licenses to 
 ## Related articles
 
 - [What are Communication Credits?](what-are-communications-credits.md)
-- [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-for-nce-customers.md).
+- [Turn off Communication Credits auto recharge for Microsoft MCA customers](turn-off-communication-credits-auto-recharge-mca-customers.md).
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 - [Set up Calling Plans](set-up-calling-plans.md).
 - [Calling Plans for Microsoft 365](calling-plans-for-office-365.md).

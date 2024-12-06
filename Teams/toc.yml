@@ -1308,7 +1308,7 @@ items:
             - name: Set up Communications Credits for your organization
               href: set-up-communications-credits-for-your-organization.md
             - name: Turn off Communication Credits auto recharge
-              href: turn-off-communication-credits-auto-recharge-for-nce-customers.md
+              href: turn-off-communication-credits-auto-recharge-mca-customers.md
         - name: Emergency numbers country reference
           href: emergency-numbers-reference.md
         - name: Microsoft Teams call flows
