@@ -92,7 +92,7 @@ The following network conditions are required for an optimal experience. To lear
 
 Here's an example of network test results that indicate a poor connection.
 
-:::image type="content" source="media/walkie-talkie-troubleshooting-network-test.png" alt-text="test":::
+:::image type="content" source="media/walkie-talkie-troubleshooting-network-test.png" alt-text="Screenshot of the network test page." lightbox="media/walkie-talkie-troubleshooting-network-test.png":::
 
 #### Troubleshoot network connection issues
 
