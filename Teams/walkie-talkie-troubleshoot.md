@@ -24,9 +24,7 @@ ms.date: 12/06/2024
 
 # Troubleshoot Walkie Talkie issues
 
-This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. 
-
-Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
+This article provides guidance for troubleshooting common issues that users might encounter when using the Walkie Talkie app in Microsoft Teams. Use this information to identify and address issues to help with more effective troubleshooting for a smooth communication experience.
 
 ## Identify issues
 
@@ -92,7 +90,7 @@ The following network conditions are required for an optimal experience. To lear
 
 Here's an example of network test results that indicate a poor connection.
 
-:::image type="content" source="media/walkie-talkie-troubleshooting-network-test.png" alt-text="Screenshot of the network test page." lightbox="media/walkie-talkie-troubleshooting-network-test.png":::
+:::image type="content" source="media/walkie-talkie-troubleshooting-network-test.png" alt-text="Screenshot of the network test page in Walkie Talkie." lightbox="media/walkie-talkie-troubleshooting-network-test.png":::
 
 #### Troubleshoot network connection issues
 
