@@ -93,7 +93,7 @@ The following list contains the prerequisites for users to be able to access Fac
 
 ## Facilitator note storage
 
-AI-generated notes for meetings created by Facilitator are stored as a .loop file in a OneDrive folder titled **Meetings** of the user who initiated Facilitator in Teams. This data is treated as meeting transcript data.
+AI-generated notes for meetings created by Facilitator are stored as a `.loop` file in a OneDrive folder titled **Meetings** of the user who initiated Facilitator in Teams. This data is treated as meeting transcript data.
 
 AI-generated notes for chats created by Facilitator are stored as messaging data in each users' Exchange mailbox. This data is treated like all other Teams chat data.
 
