@@ -1,12 +1,12 @@
 ---
 title: Predefined meeting templates in Microsoft Teams
-ms.author: jtremper
-author: jacktremper
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: janineco
-ms.date: 11/19/2024
+ms.reviewer: idilates
+ms.date: 12/2/2024
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -61,7 +61,7 @@ To learn more, see [Manage the Virtual appointment meeting template in Teams](vi
 
 ## Controlled-content meeting
 
-The controlled-content meeting template comes with the following options. You can edit this template if your organization has Teams Premium.
+The controlled content meeting template is only available to meeting organizers who have a Teams Premium license. This template comes with the following options:
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
