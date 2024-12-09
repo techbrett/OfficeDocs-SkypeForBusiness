@@ -1,7 +1,7 @@
 ---
 title: "Turn on or off entry and exit announcements for meetings in Teams"
-ms.author: jenz
-author: jenzamora
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 10/16/2024
@@ -55,8 +55,6 @@ As an admin, you can control whether an entry and exit announcement is played wh
 ## Turn on or off entry and exit announcements with PowerShell
 
 To turn entry and exit announcements on or off with PowerShell, use the **`-EnableEntryExitNotifications`** parameter within the PowerShell [CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet.
-
-EnableEntryExitNotifications
 
 ### Turn off entry and exit announcements
 
