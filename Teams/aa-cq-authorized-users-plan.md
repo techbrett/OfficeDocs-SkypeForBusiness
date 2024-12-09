@@ -37,7 +37,7 @@ For a complete list of features, see [Manage voice applications policies](manage
 
 ## Licensing requirements
 
-All Authorized users must have a Teams Phone license and must be "voice enabled." To assign the Teams Phone license, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet and set the `-EnterpriseVoiceEnabled` parameter to $true.
+All Authorized users must have a Teams Phone license and must be "voice enabled." To assign the Teams Phone license, you can [INSERT INFO HERE].  To enable voice for your users, you can use the Teams admin center or PowerShell. In the Teams admin center, go to a place. For PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet and set the `-EnterpriseVoiceEnabled` parameter to $true.
 
 For some configuration features, such as those available only in the Queues app, users must also have a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
