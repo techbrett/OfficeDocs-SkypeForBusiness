@@ -31,7 +31,7 @@ You can connect effortlessly and collaborate at your best. Certified for Teams a
 
 With more online meetings and calls than ever, trust our extensively validated devices to elevate the way you present yourself in every meeting and call whether you are in a conference room or at your desk.  
   
-Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. For a comparison of features available on each operating system, check out Teams Rooms on Windows and Android feature comparison. 
+Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](/microsoftteams/rooms/teams-devices-feature-comparison?tabs=Commercial). 
 
 If you want to know more, see:
 
