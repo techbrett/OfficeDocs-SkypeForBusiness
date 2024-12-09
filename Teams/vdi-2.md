@@ -154,7 +154,7 @@ PowerShellCopy
 Get-AppxPackage Microsoft.Teams.SlimCore*
 ```
 
-A sample of the results that can be returned from running this Powershell is:
+A sample of the results that can be returned from running this PowerShell is:
 
 ```powershell
 Name              : Microsoft.Teams.SlimCoreVdi.win-x64.2024.32
