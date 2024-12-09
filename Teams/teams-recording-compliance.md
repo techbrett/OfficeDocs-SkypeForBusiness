@@ -37,7 +37,7 @@ Compliance recording is the process of recording and storing communications in a
 
 Microsoft Teams is enhanced to offer compliance recording of call and meeting communications by supporting integrations with certified, third-party, compliance recording solutions.
 
-Using a partner solution to record Teams calls, meetings, and events allows corporate compliance officers to securely collect necessary communications in the manner required to meet regulated compliance and legal obligations (such as MiFID II, Dodd-Frank, FDCPA, HIPAA, GDPR, etc.).
+Using a partner solution to record Teams calls, meetings, and events allow corporate compliance officers to securely collect necessary communications in the manner required to meet regulated compliance and legal obligations (such as MiFID II, Dodd-Frank, FDCPA, HIPAA, GDPR, etc.).
 
 Compliance recording partner solutions are integrated with Teams as shown in the following diagram:
 
