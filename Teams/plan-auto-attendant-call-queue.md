@@ -63,11 +63,11 @@ Internal callers, using their Teams client, can reach an Auto attendant by calli
 
 A Call queue is analogous to a waiting room in a physical building. Callers wait on hold while calls are routed to the agents in the queue. Call queues are commonly used for sales and service functions. However, Call queues can be used for any situation where the number of calls exceeds your internal capacity, such as a receptionist in a busy facility.
 
-Call queue exception handling allows you to redirect calls to specific people, voicemail, other Call queues or Auto attendants in the following situations:
+Call queue exception handling allows you to redirect calls to specific people, voicemail, other Call queues, or Auto attendants in the following situations:
 
 - there are no agents logged or
 - where the total number of callers waiting in queue exceeds the limit that you specify or
-- where the caller's wait time in queue exceeds the limit that that you specify
+- where the caller's wait time in queue exceeds the limit that you specify
 
 Like Auto attendants, Call queues each have a language setting. You can use different Call queues if you do business in multiple languages. Agents can be members of more than one queue if they're multi-lingual.
 
