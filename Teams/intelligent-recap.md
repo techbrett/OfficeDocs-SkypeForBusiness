@@ -1,5 +1,5 @@
 ---
-title: Intelligent recap for Teams calls and meetings overview
+title: Intelligent recap for Teams calls and meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -25,7 +25,7 @@ ms.collection:
 description: Learn how to manage Microsoft 365 Copilot in Teams meetings and events admin policies in the Teams admin center. Learn how to manage transcripts and transcription for Copilot Microsoft Teams meetings and events.
 ---
 
-# Intelligent recap for Teams calls and meetings overview
+# Intelligent recap for Teams calls and meetings
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
 
