@@ -1305,8 +1305,8 @@ items:
               href: what-are-communications-credits.md
             - name: Set up Communications Credits for your organization
               href: set-up-communications-credits-for-your-organization.md
-            - name: Add funds and manage Communications Credits
-              href: add-funds-and-manage-communications-credits.md
+            - name: Turn off Communication Credits auto recharge
+              href: turn-off-communication-credits-auto-recharge-mca-customers.md
         - name: Emergency numbers country reference
           href: emergency-numbers-reference.md
         - name: Microsoft Teams call flows
@@ -1734,6 +1734,8 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
+        - name: Troubleshoot Walkie Talkie issues
+          href: walkie-talkie-troubleshoot.md
     - name: Manage partner apps
       items:
         - name: Understand partner apps

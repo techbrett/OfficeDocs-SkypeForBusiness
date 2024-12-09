@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 11/25/2024
+ms.date: 12/06/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -49,7 +49,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 ### Step 1: Confirm prerequisites
 
-1. Make sure you have the new Microsoft Teams version 24193.1805.3040.8975 or higher (for Azure Virtual Desktop/Windows 365), and 24165.1410.2974.6689 or higher for Citrix.
+1. Make sure you have the new Microsoft Teams version 24193.1805.3040.8975 or higher (for Azure Virtual Desktop/Windows 365), and 24295.605.3225.8804 or higher for Citrix.
 1. [Enable the new Teams policy](#microsoft-teams-powershell-policy-for-optimization) **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
 1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
@@ -304,6 +304,7 @@ This policy is now expanded with an additional argument as the only configuratio
 |Gallery View 3x3 and 7x7          |Yes                                                             |No                            |
 |Quality of Service                |Yes                                                             |No                            |
 |Noise suppression                 |Yes                                                             |Yes (AVD)                     |
+|Voice isolation                   |Yes                                                             |No                            |
 |HID                               |Yes                                                             |Yes (AVD and Omnissa)         |
 |Presenter mode                    |Yes                                                             |No                            |
 |Teams Premium                     |Yes</br>(Pending: Watermark, Townhalls, Decorate my Background) |No                            |
@@ -377,6 +378,14 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 - Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top it (as seen by the receiving side).
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams.
 - Camera self preview isn't supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
+- In the Control Panel/Apps/Installed apps of the endpoint, users will see multiple "Microsoft Teams VDI" entries (one for every Slimcore package installed).
+- When doing full monitor screen sharing, the call monitor window is visible for the other participants (without any video content inside).
+- In Citrix, app sharing sessions might freeze for the other participants if the presenter is on both VDA version 2402 and CWA for Windows 2309.1 (or higher versions).
+  - The issue happens when a video element is destroyed.
+       - For example, a participant turns off their camera in the middle of the app sharing session.
+       - If someone turns their camera **on** only, there's no issue because the video element is created, not destroyed.
+       - If the presenter maximizes the call monitor (which destroys the self preview of what the presenter is sharing).
+  - Stopping and resharing the window should resolve the issue.
 
 #### Citrix virtual channel allow list
 
@@ -397,6 +406,12 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 2. The VDA machines must be rebooted for the policy to take effect.
 
 #### Screen sharing
+
+Both outgoing screensharing and appsharing behave differently in optimized VDI when compared to the non-optimized Teams desktop client.
+As such, these activities require encoding that leverages the user's device resources (for example CPU, GPU, RAM, network, and so on).
+From a network perspective, sharing is done directly between the user's device and the other peer or conference server.
+
+When doing a full monitor screenshare, the Teams call monitor is captured and visible to the other participants (although the video elements inside aren't visible and instead are seen as blank squares). When doing app sharing, only the application being shared is visible to the other participants and the call monitor isn't captured.
 
 ##### Citrix App Protection and Microsoft Teams compatibility
 
@@ -476,7 +491,7 @@ Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on
 - **vdiVersionInfo** provides useful information for the Teams client and the endpoint.
   - **bridgeVersion** is tied to the version of the Teams desktop client running on the VM.
   - **remoteSlimcroreVersion** is the version of the SlimCore VDI that's available on the endpoint.
-  - **nodeId** is a unique id tied to the endpoint.
+  - **nodeId** is a unique ID tied to the endpoint.
   - **clientOsVersion** is the OS version for the endpoint.
   - **rdClientVersion** is the version of the remote desktop client running on the endpoint, which is used to connect to the VM.
   - **rdClientProductName** is the name of the remote desktop client running on the endpoint.
