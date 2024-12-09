@@ -108,8 +108,8 @@ Compliance recording isn't supported for:
 
 **Large Meetings**
 
-The Compliance Recording platform supports meeting sizes up to 250 users in paired bot mode.
-Larger meeting sizes might have performance implications and will be addressed with a future update.
+The Compliance Recording platform is optimized for meetings, however performance may be impacted during meetings with over 250 users in paired bot mode. We're actively working on improvements in a future update to enhance the experience.
+Please contact your recording partner for more information.
 
 **Call queues**
 
