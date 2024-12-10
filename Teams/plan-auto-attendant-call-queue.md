@@ -126,7 +126,7 @@ Auto attendants and Call queues can be nested two ways:
   - An [online voice routing policy](manage-voice-routing-policies.md).
     - Phone number assignment is optional when using Direct Routing.
 
-See [Nesting Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) for more details.
+For more information, see [Nesting Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) for more details.
 
 > [!NOTE]
 > If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
