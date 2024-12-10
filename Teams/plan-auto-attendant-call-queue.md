@@ -118,12 +118,12 @@ Auto attendants and Call queues can be nested two ways:
 
 2. By referencing the resource account assigned to the auto attendant or call queue to be nested.
 
- - Each resource account must have a Teams Phone Resource Account license.
- - When a nested Auto attendant or Call queue is transferring calls to an external number, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
+  - Each resource account must have a Teams Phone Resource Account license.
+  - When a nested Auto attendant or Call queue is transferring calls to an external number, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
 
-  - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
-  - An [Operator Connect](operator-connect-plan.md) phone number assigned.
-  - An [online voice routing policy](manage-voice-routing-policies.md).
+    - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
+    - An [Operator Connect](operator-connect-plan.md) phone number assigned.
+    - An [online voice routing policy](manage-voice-routing-policies.md).
     - Phone number assignment is optional when using Direct Routing.
 
 For more information, see [Nesting Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) for more details.
