@@ -714,8 +714,8 @@ items:
           items: 
             - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
-            - name: TEST
-              href: /microsoftteams/intelligent-recap-calls-meetings
+            - name: Intelligent recap for Teams calls and meetings
+              href: intelligent-recap-calls-meetings.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -1060,6 +1060,8 @@ items:
           href: dial-pad-configuration.md
         - name: Call recording, transcription, and captions
           href: call-recording-transcription-captions.md
+        - name: Intelligent recap for Teams calls and meetings
+          href: intelligent-recap-calls-meetings.md
         
 
     - name: PSTN connectivity options
