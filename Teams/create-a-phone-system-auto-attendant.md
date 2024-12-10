@@ -56,13 +56,13 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 ## What's new for Auto attendants in the past six months
 
 - December 18
-  - 
+  - [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing now supported in Teams Admin Center.
 
 - November 21
   - [Dial by name improvements](#dial-by-name-improvements) for when a search returns multiple people with the same name.
     
 - November 5
-  - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
+  - [Nested Auto attendants and Call queues](./plan-auto-attendants-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
 
 ## Steps to create an Auto attendant
 
@@ -252,22 +252,6 @@ For more information, see [Set up authorized users](./aa-cq-authorized-users.md)
 
 > [!CAUTION]
 > These configuration options are currently only available through PowerShell cmdlets and they don't appear in Teams admin center. If these options are configured through PowerShell, any changes to the Auto attendant through Teams admin center will erase these settings.
-
-### Nested Auto attendants and call queues
-
-Nested Auto attendants and Call queues (auto attendants and call queues that don't directly answer phone calls) no longer require a Resource Account and associated licensing.
-
-Existing configurations that use Resource Accounts continue to function and remain fully supported. A combination of both methods can be used at the same time.
-
-For more information, see [New-CsAutoAttendantCallableEntity -Type ConfigurationEndPoint](/powershell/module/teams/new-csautoattendantcallableentity#-Type).
-
-#### PowerShell example
-
-To create a new callable entity to another Auto attendant or Call queue, use the New-CsAutoAttendantCallableEntity cmdlet, as shown in the following example:
-
-```PowerShell
-New-CsAutoAttendantCallableEntity -Identity <Auto attendant or Call queue GUID> -Type ConfigurationEndPoint
-```
 
 ### Dial by name improvements
 
