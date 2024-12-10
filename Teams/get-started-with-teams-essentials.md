@@ -70,7 +70,7 @@ To do that, complete these three steps:
 
 4. **Manage Microsoft Teams Essentials.** Any Teams (free) users who upgraded to Microsoft Teams Essentials can manage it.
 
-Managing Microsoft Teams Essentials refers to assigning Microsoft Teams Essentials seats to other users - on whose behalf you purchased - in the intended proportions. You can manage Microsoft Teams Essentials through the Microsoft admin center.
+    Managing Microsoft Teams Essentials refers to assigning Microsoft Teams Essentials seats to other users - on whose behalf you purchased - in the intended proportions. You can manage Microsoft Teams Essentials through the Microsoft admin center.
 
 ### Upgrade from Teams (free) to Microsoft Teams Essentials
 
@@ -106,6 +106,6 @@ To get started, visit [**Connect Microsoft Teams Essentials (Microsoft Entra ide
 
 ## More information
 
-- Visit [Configuration Guide](connect-teams-essentials-to-email.md) for configuration steps on connecting Microsoft Teams Essentials (Microsoft Entra identity) to an existing email system with calendar
+- Visit [Configuration Guide](connect-teams-essentials-to-email.md) for configuration steps on connecting Microsoft Teams Essentials (Microsoft Entra identity) to an existing email system with calendar.
 
-- To find out more about Teams versions and their capabilities, visit [Compare Teams plans](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options)
+- To find out more about Teams versions and their capabilities, visit [Compare Teams plans](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options).
