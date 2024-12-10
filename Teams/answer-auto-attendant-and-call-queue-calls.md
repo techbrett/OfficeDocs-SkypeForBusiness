@@ -35,11 +35,25 @@ Cloud Call queues include greetings that are used when someone calls in to a pho
 
 ## Handling an Auto attendant or Call queue call
 
-Users can differentiate incoming calls from an Auto attendant or Call queue before they answer the call. Along with the name and/or number of the caller, each call includes the display name of the resource account assigned to the Auto attendant or the Call queue that the caller was trying to reach, giving users better context for addressing the caller.
+Users can differentiate incoming calls from an Auto attendant or Call queue before they answer the call. Along with the name and/or number of the caller, the toast users receive will also contain:
 
-The following illustration shows how an incoming call from an Auto attendant or Call queue appears to a user.
+- Auto attendant:
+  - That answered the call: The display name of the resource account assigned to the Auto attendant
+  - Nested without a resource account:
+  - Nested with a resource account:
 
-![Screenshot of an incoming call notification.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+- Call queue:
+  - That answered the call: The display name of the resource account assigned to the Call queue
+  - Nested without a resource account: The name of the call queue
+  - Nested with a resource account: The display name of the resource account assigned to the Call queue
+
+The following illustration shows how an incoming call from an Auto attendant or Call queue through a resource account appears to a user.
+
+![Screenshot of an incoming call notification via resource account.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+
+The following illustration shows how an incoming call from a nested Call queue without a resource account appears to a user.
+
+![Screenshot of an incoming call notification.](media/answer-auto-attendant-and-call-queue-calls-image2.png)
 
 Once an Auto attendant or Call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, Auto attendant calls are forwarded based on the user's configuration.
 
