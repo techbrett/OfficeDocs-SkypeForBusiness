@@ -39,8 +39,8 @@ Users can differentiate incoming calls from an Auto attendant or Call queue befo
 
 - Auto attendant:
   - That answered the call: The display name of the resource account assigned to the Auto attendant
-  - Nested without a resource account:
-  - Nested with a resource account:
+  - Nested without a resource account: The display name of the resource account assigned to the Auto attendant that answered the call
+  - Nested with a resource account:The display name of the resource account assigned to the Auto attendant that answered the call
 
 - Call queue:
   - That answered the call: The display name of the resource account assigned to the Call queue
