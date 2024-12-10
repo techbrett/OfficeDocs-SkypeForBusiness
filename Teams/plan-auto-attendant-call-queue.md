@@ -114,17 +114,17 @@ Auto attendants and Call queues can be nested two ways:
 
 1. By directly referencing the auto attendant or call queue to be nested.
 
-  - Auto attendants and call queues nested this way, and that transfer calls externally, don't require resource accounts or respective licensing. When nesting auto attendants or call queues, license the resource account on the first auto attendant or call queue receiving the call.
+    - Auto attendants and call queues nested this way, and that transfer calls externally, don't require resource accounts or respective licensing. When nesting auto attendants or call queues, license the resource account on the first auto attendant or call queue receiving the call.
 
 2. By referencing the resource account assigned to the auto attendant or call queue to be nested.
+   
+    - Each resource account must have a Teams Phone Resource Account license.
+    - When a nested Auto attendant or Call queue is transferring calls to an external number, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
 
-  - Each resource account must have a Teams Phone Resource Account license.
-  - When a nested Auto attendant or Call queue is transferring calls to an external number, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
-
-    - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
-    - An [Operator Connect](operator-connect-plan.md) phone number assigned.
-    - An [online voice routing policy](manage-voice-routing-policies.md).
-    - Phone number assignment is optional when using Direct Routing.
+      - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
+      - An [Operator Connect](operator-connect-plan.md) phone number assigned.
+      - An [online voice routing policy](manage-voice-routing-policies.md).
+        - Phone number assignment is optional when using Direct Routing.
 
 For more information, see [Nesting Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) for more details.
 
