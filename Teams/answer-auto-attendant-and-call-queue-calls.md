@@ -47,13 +47,9 @@ Users can differentiate incoming calls from an Auto attendant or Call queue befo
   - Nested without a resource account: The name of the call queue
   - Nested with a resource account: The display name of the resource account assigned to the Call queue
 
-The following illustration shows how an incoming call from an Auto attendant or Call queue through a resource account appears to a user.
+The following illustration shows how an incoming call from an Auto attendant or Call queue appears to a user.
 
 ![Screenshot of an incoming call notification via resource account.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
-
-The following illustration shows how an incoming call from a nested Call queue without a resource account appears to a user.
-
-![Screenshot of an incoming call notification.](media/answer-auto-attendant-and-call-queue-calls-image2.png)
 
 Once an Auto attendant or Call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, Auto attendant calls are forwarded based on the user's configuration.
 
