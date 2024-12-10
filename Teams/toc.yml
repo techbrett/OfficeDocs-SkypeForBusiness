@@ -714,6 +714,8 @@ items:
           items: 
             - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
+            - name: TEST
+              href: /microsoftteams/intelligent-recap-calls-meetings
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -1681,6 +1683,8 @@ items:
   items:
     - name: AI features in Teams
       items:
+      - name: Intelligent recap for Teams calls and meetings
+        href: intelligent-recap-calls-meetings.md
       - name: Manage transcriptions and captions for Teams meetings
         href: meeting-transcription-captions.md
       - name: Manage voice isolation for calls and meetings
