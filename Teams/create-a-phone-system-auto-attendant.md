@@ -62,7 +62,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
   - [Dial by name improvements](#dial-by-name-improvements) for when a search returns multiple people with the same name.
     
 - November 5
-  - [Nested Auto attendants and Call queues](./plan-auto-attendants-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
+  - [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
 
 ## Steps to create an Auto attendant
 
