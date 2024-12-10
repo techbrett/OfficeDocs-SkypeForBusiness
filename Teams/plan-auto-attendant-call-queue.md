@@ -126,6 +126,8 @@ Auto attendants and Call queues can be nested two ways:
   - An [online voice routing policy](manage-voice-routing-policies.md).
     - Phone number assignment is optional when using Direct Routing.
 
+See [Nesting Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) for more details.
+
 > [!NOTE]
 > If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
 >
@@ -180,6 +182,14 @@ Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the require
 Conference mode is enabled by default. If you have agents who don't meet the requirements, then conference mode must be manually disabled during Call queue configuration.
 
 **Call routing flow** plans help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Plan your call routing flow](plan-your-call-routing-flow.md).
+
+## Nested Auto attendants and Call queues
+
+The first Auto attendant or Call queue that answers a call requires a resource account and associated licensing. Nested auto attendants or call queues that receive calls that have already been answered by an auto attendant or call queue do not require resource accounts.
+
+Nesting without resource accounts is the recommended approach. This method eliminates the need to create and license additional resource accounts and makes auto attendant call flows and call queue exception handling flows easier to understand and maintain. 
+
+There may however be times when nesting with resource accounts is required. For example, when agents in a call queue receive a call, the information in the toast is determined by how the call arrived in the queue. If the call was transferred to the queue without a resource account, the agent receives the name of the call queue in the toast. If the call was transferred to the queue through a resource account, the agents receives the name of the resource
 
 ## Click-to-call restrictions
 
