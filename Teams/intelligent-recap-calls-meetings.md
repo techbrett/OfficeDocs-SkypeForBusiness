@@ -85,6 +85,7 @@ For details on data and privacy for intelligent recap, see [Data, privacy, and s
 ## Related articles
 
 - [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md)
+- [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Plan for Teams meetings](plan-meetings.md)
 - [Plan for Teams webinars](plan-webinars.md)
