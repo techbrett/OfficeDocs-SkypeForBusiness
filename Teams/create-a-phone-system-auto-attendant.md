@@ -35,7 +35,8 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 - **Operator** - the operator defined for the Auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
 - **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
-- **Voice app** - another Auto attendant or a Call queue. Choose the resource account associated with the Auto attendant or Call queue when choosing this destination.
+- **Voice app** - Choose the Auto attendant or Call queue when choosing this destination.
+- **Resource account** - Choose the resource account associated with the Auto attendant or Call queue when choosing this destination.
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
   - In Microsoft 365 admin center, enable **Let people outside the organization email this team** for the Microsoft 365 group that you specify.
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
@@ -53,6 +54,9 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 > In addition to defining an operator, the operator needs to be one of the configured menu choices.
 
 ## What's new for Auto attendants in the past six months
+
+- December 18
+  - 
 
 - November 21
   - [Dial by name improvements](#dial-by-name-improvements) for when a search returns multiple people with the same name.
@@ -127,7 +131,7 @@ For each menu option, specify the following settings:
 
 - **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." For example, the caller can press 2, say "two," or say "Sales" to select the option mapped to the two keys. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to sales."
 
-- **Redirect to** - the call routing destination used when callers choose this option. If you're redirecting to an Auto attendant or Call queue, choose the resource account associated with it.
+- **Redirect to** - the call routing destination used when callers choose this option. When redirecting to an Auto attendant or Call queue, you can choose to redirect to the Auto attendant or Call queue directly or to the resource account associated with the Auto attendant or Call queue.
 
 ### Directory search
 
