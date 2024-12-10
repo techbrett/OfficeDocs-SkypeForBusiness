@@ -31,14 +31,17 @@ description: Learn how to manage Microsoft 365 Copilot in Teams meetings and eve
 
 Intelligent recap for Microsoft Teams calls and meetings uses AI technology to improve your users’ productivity and efficiency. This article is designed to guide you, as an admin, in understanding intelligent recap’s prerequisites and capabilities.
 
+To learn more about how your users use intelligent recap in their meetings, see [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap).
+
 ## Prerequisites
 
 Intelligent recap is automatically available to users in your organization with the following required licenses and policies:
 
 ### Licensing
 
-- For  Public Switched Telephone Network (PSTN) calls, you must assign both a Teams Phone license and either a Teams Premium license or a Microsoft 365 Copilot license to your users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
-- For Teams meetings, 1:1 and group calls, you must assign either a Teams Premium license or Microsoft 365 Copilot license to your users.
+- You must assign users a Microsoft 365 subscription that includes Teams or a Microsoft 365 (no Teams) subscription with a separate Teams license.
+- You must assign a Teams Premium license or Microsoft 365 Copilot license to your users.
+- For Public Switched Telephone Network (PSTN) calls, you must also assign a Teams Phone license to your users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ### Policies
 
@@ -68,8 +71,6 @@ Your users can access the following AI powered features for their meetings throu
 - Meeting chapters divide the meeting into chapters, and meeting topics that allow your users to jump to a point in the meeting when a certain topic was discussed.
 
 :::image type="content" source="media/intelligent-meeting-recap-small.png" alt-text="Screenshot of intelligent meeting recap from the recap tab." lightbox="media/intelligent-meeting-recap-expand.png":::
-
-To learn more about how your users use intelligent recap in their meetings, see [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap).
 
 ## Supported meetings and call types
 
