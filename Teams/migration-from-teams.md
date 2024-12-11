@@ -14,7 +14,7 @@ ms.reviewer: freda.li
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Guidance on data export when migrating from Microsoft Teams to a third-party application.
+description: Guidance on exporting data when migrating from Microsoft Teams to a third-party application.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
@@ -22,24 +22,26 @@ ms.localizationpriority: medium
 
 # Export options for migration from Teams
 
-Microsoft supports customer choice, including enabling the export of data at no charge when switching from Teams to another provider. For any customer who prefers to use Teams Export APIs, refer to [Steps to access the Teams Export APIs](#steps-to-access-the-teams-export-apis). In addition to the APIs, Teams now offers a brand-new data export tool for small to medium-sized customers to export data when switching. This tool allows for unlimited exports during a 90-day period with just a single click on the Teams Admin Center. For more details on how to use the tool, refer to [Steps to access the Teams data export tool](#steps-to-access-the-teams-data-export-tool).
+Microsoft supports customer choice, including enabling the export of data at no charge when switching from Teams to another provider. For any customer who prefers to use Teams Export APIs, refer to [Steps to access the Teams Export APIs](#steps-to-access-the-teams-export-apis).
+
+In addition to the APIs, Teams now offers a brand-new data export tool for small to medium-sized customers to export data when switching. This tool allows for unlimited exports during a 90-day period with just a single selection on the Teams admin center. For more information about how to use the tool, refer to [Steps to access the Teams data export tool](#steps-to-access-the-teams-data-export-tool).
 
 ## Steps to access the Teams data export tool
 
-1. To export your data from Microsoft Teams for switching and access the tool at no charge, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support through the Teams Admin Center.
+1. To export your data from Microsoft Teams for switching and access the tool at no charge, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support through the Teams admin center.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
-    1. Description: Provide an estimate of the size of your tenant and confirmation that you are accessing the tool for the purpose of switching from Teams.
+    1. Description: Provide an estimate of the size of your tenant and confirmation that you're accessing the tool to switch from Teams.
         1. The tool supports the export of data for tenants of up to 500 users.
-1. When we receive your request, begin processing it and notify you when you can access the tool.
+1. When we receive your request, we begin processing it and notify you when you can access the tool.
 
 ### Access the Teams data export tool
 
-Exporting data may involve your confidential, personal, and sensitive data. Note the following:
+Exporting data may involve your confidential, personal, and sensitive data. Note the following considerations:
 
-- **Access role**: As the tool gives access to sensitive Teams data, you will need to login to the Teams Admin Center as the global administrator to access it.
+- **Access role**: As the tool gives access to sensitive Teams data, you need to sign in to the Teams admin center as the global administrator to access it.
 - **Duration**: You can use the tool for up to 90 days from the time the access is provided to the tool.
-- **Download window**: After the data is prepared, you will download a ZIP file with a series of JSON files. When the download link becomes available, you have 24 hours to download it.
+- **Download window**: After the data is prepared, you'll download a ZIP file with a series of JSON files. When the download link becomes available, you have 24 hours to download it.
 
 > [!NOTE]
 > When you start exporting data or when an export is in progress, any new data created during or after the export is not included. To capture the content that is not included, you can do another export within the 90 days.
@@ -53,12 +55,12 @@ The Teams data export tool allows you to export the following messaging content 
 - Meeting chats
 - Channel messages (including for standard, private, and shared channels)
 
-To learn more about what's supported, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
+To learn more about which data we support to export, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
 
 In addition, the Teams data export tool also allows you to export the following  data:
 
-- **Team and Channel structure**: The Teams data export tool supports the Team and Channels structure. Channels are specific collaboration spaces within a Team where members can focus on topics, projects, or departments.
-- **User/Roster**: The Teams data export tool supports exporting the list of users who are part of a specific team or channel, including details about each user’s roles.
+- **Team and Channel structure**: The Teams data export tool supports the Team and Channels structure. Channels are specific collaboration spaces within a team where members can focus on topics, projects, or departments.
+- **User/Roster**: The Teams data export tool supports exporting the list of users who are part of a specific team or channel, including details about each users' roles.
 - **Apps**: The Teams data export tool supports exporting the list of installed apps for a channel.
 
 ### What the Teams data export tool doesn't support
@@ -83,16 +85,16 @@ In addition, the Teams data export tool also allows you to export the following 
 |/teams/{teamId}/teamInstalledApps_{teamId}.json |List of installed apps of a team |[List apps in team](/graph/api/team-list-installedapps) |
 |/teams/{teamId}/groupEvents_{teamdId}.json |List of meetings for a team |[List calendarView](/graph/api/calendar-list-calendarview) |
 |/teams/{teamId}/channels_{teamId}.json |List of channels for a team |[List allChannels](/graph/api/team-list-allchannels) |
-|/teams/{teamId}/channels/{channelId}/channelMembers.json |List of members of a channel (This will be only available for shared and private channels. Standard channel members are same as team’s member.) |[List members of a channel](/graph/api/channel-list-members) |
+|/teams/{teamId}/channels/{channelId}/channelMembers.json |List of members of a channel (Only available for shared and private channels; standard channel members are the same as team’s member.) |[List members of a channel](/graph/api/channel-list-members) |
 
 ## Steps to access the Teams export APIs
 
-1. To export your data out of Microsoft Teams by using the Export APIs directly at no charge, select [this link](https://aka.ms/Teamsexportbillingsuspension) to contact support through the Teams Admin Center
+1. To export your data out of Microsoft Teams by using the Export APIs directly at no charge, select [this link](https://aka.ms/Teamsexportbillingsuspension) to contact support through the Teams admin center
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
-    1. Description: Provide confirmation that you are exporting through the Teams Export APIs for the purpose of switching from Teams.
-1. When we receive your request, we will begin the evaluation process and notify you when you can access the APIs at no charge to customer charge.
+    1. Description: Provide confirmation that you're exporting through the Teams Export APIs for switching from Teams.
+1. When we receive your request, we begin the evaluation process and notify you when you can access the APIs at no charge to customer charge.
 
 ### Access the Teams Export APIs
 
-To learn more about what is supported by the Teams Export APIs, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
+To learn more about which data we support to export using the Teams Export APIs, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
