@@ -114,3 +114,4 @@ For more information about installing and configuring Persistent Chat Server, se
 - For details about how to configure settings on your Persistent Chat Server deployment, see [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
     
 
+
