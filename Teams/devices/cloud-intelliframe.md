@@ -119,7 +119,7 @@ Admins have granular control over Cloud IntelliFrame's end-user behavior. These 
 |Setting|Values|Purpose|
 | -------- | -------- | -------- |
 | EnableCloudIntelliFrame|True / False   |Enable or disable Cloud IntelliFrame for this room.|
-|EnableCIFOnByDefault|True / False|Auto-enable or allow in-room users to manually switch it on.|
+|EnableCIFOnByDefault|True / False|Enable by default or allow room users to manually switch it on.|
 |EnableCIFOnSupportedCamerasOnly|True / False|Restrict to supported cameras or allow any camera.|
 
 #### Console Setting
