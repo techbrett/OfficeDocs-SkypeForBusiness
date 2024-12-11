@@ -23,23 +23,26 @@ Ensure that admin has the `RTCUniversalServerAdmins` permission assigned.
 1. **Export Persistent Chat data from Skype for Business Server 2015:**<br> 
 Run the following cmdlet on the Skype for Business 2015 front-end server to export Persistent Chat data (categories, rooms, chats etc.):
 
-```powershell
-Export-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>" -FileName "C:\PersistentChatData.zip"
-```
+   ```powershell
+   Export-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>" -FileName "C:\PersistentChatData.zip"
+   ```
+
 2. **Import Persistent Chat data into Skype for Business Server 2019:**<br> 
 Bring in the exported Persistent Chat data (zip file) from Skype for Business 2015 front-end server to Skype for Business 2019 front-end server (at C:\PersistentChatData.zip). Run the following cmdlet on the Skype for Business 2019 front-end server to import Persistent Chat data:
 
-```powershell
- Import-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>" -FileName "C:\PersistentChatData.zip"
-```
+   ```powershell
+   Import-CsPersistentChatData -DBInstance "<backend-FQDN\instance-name>" -FileName "C:\PersistentChatData.zip"
+   ```
 
 3. **Update default Persistent Chat pool URL in Skype for Business Server 2019:** 
-    - Open the Topology Builder of Skype for Business Server 2019 and right-click the site-name. 
-    - Select **Edit Properties** and go to **Persistent Chat setting**. 
-    - You'll notice that **Default Persistent Chat pool** has Skype for Business Server 2015 value selected in the dropdown. Change that to select Skype for Business 2019 Server pool value and select **OK**. 
-    
-        :::image type="content" source="../media/migration/right-click.png" alt-text="Screenshot of Topology builder." lightbox="../media/migration/right-click.png":::
 
+   1. Open the Topology Builder of Skype for Business Server 2019 and right-click the site-name. 
+   2. Select **Edit Properties** and go to **Persistent Chat setting**. 
+
+      :::image type="content" source="../media/migration/right-click.png" alt-text="Screenshot of Topology builder." lightbox="../media/migration/right-click.png":::
+
+   1. You'll notice that **Default Persistent Chat pool** has Skype for Business Server 2015 value selected in the dropdown. Change that to select Skype for Business 2019 Server pool value and select **OK**. 
+    
         :::image type="content" source="../media/migration/default-pool.png" alt-text="Screenshot of Edit Properties." lightbox="../media/migration/default-pool.png":::
 
     - To publish the topology, in the Topology Builder, select **Topology** and select **Publish**. 
