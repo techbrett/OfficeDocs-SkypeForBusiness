@@ -110,6 +110,30 @@ To switch off Cloud IntelliFrame in a room, perform the following steps:
 
 1. Restart the console for the configuration changes to take effect.
 
+## Override Default Settings
+
+Admins have granular control over Cloud IntelliFrame's end-user behavior. These settings can be configured either through XML or directly from the in-room console:
+
+#### XML Settings
+
+|Setting|Values|Purpose|
+| -------- | -------- | -------- |
+| EnableCloudIntelliFrame|True / False   |Enable or disable Cloud IntelliFrame for this room.|
+|EnableCIFOnByDefault|True / False|Auto-enable or allow in-room users to manually switch it on.|
+|EnableCIFOnSupportedCamerasOnly|True / False|Restrict to supported cameras or allow any camera.|
+
+#### Console Setting
+
+To modify Cloud IntellIFrame settings via the console, navigate to **Settings > Peripherals > Cameras > Cloud intelliFrame** to:
+
+- Enable or disable Cloud IntelliFrame
+
+- Configure whether Cloud IntelliFrame is on by default or if in-room users can manually enable it
+
+- Override the default setting to allow Cloud IntelliFrame to work on any camera![Console setting: Cloud IntelliFrame is on for this room using supported camera.](media/cloud-intelliframe/on,-supported-cameras-only,-supported-camera-selected.png)
+
+When using an unsupported camera, the console settings will appear as follows:
+
 > [!IMPORTANT]
 > You are responsible for compliance with local laws and regulations when you enable Cloud IntelliFrame in a particular jurisdiction, including with respect to obligations around notice, consent, and data retention. These obligations may include installing appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
 > Cloud IntelliFrame does not have the capacity to identify particular individuals, due to the uncertainty regarding the scope of “biometrics” in the State of Illinois law; therefore, Cloud IntelliFrame is not intended for use in Illinois.
