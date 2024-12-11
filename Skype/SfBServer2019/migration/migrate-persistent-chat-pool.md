@@ -43,14 +43,14 @@ Bring in the exported Persistent Chat data (zip file) from Skype for Business 20
 
    1. You'll notice that **Default Persistent Chat pool** has Skype for Business Server 2015 value selected in the dropdown. Change that to select Skype for Business 2019 Server pool value and select **OK**. 
     
-        :::image type="content" source="../media/migration/default-pool.png" alt-text="Screenshot of Edit Properties." lightbox="../media/migration/default-pool.png":::
+      :::image type="content" source="../media/migration/default-pool.png" alt-text="Screenshot of Edit Properties.":::
 
-    - To publish the topology, in the Topology Builder, select **Topology** and select **Publish**. 
+      To publish the topology, in the Topology Builder, select **Topology** and select **Publish**. 
        
-        :::image type="content" source="../media/migration/topo-1.png" alt-text="Screenshot of publishing topology." lightbox="../media/migration/topo-1.png":::  
+      :::image type="content" source="../media/migration/topo-1.png" alt-text="Screenshot of publishing topology.":::  
     
 
-4. **Verify duplicate categories in Skype for Business Server 2019:**<br> 
+4. **Verify duplicate categories in Skype for Business Server 2019:**
 After importing the database, ensure that duplicate categories from Skype for Business Server 2015 are created in Skype for Business Server 2019. This can be checked in the Modern Admin Control Panel (MACP). 
 
     :::image type="content" source="../media/migration/duplicate-1.png" alt-text="Screenshot of MACP." lightbox="../media/migration/duplicate-1.png":::
