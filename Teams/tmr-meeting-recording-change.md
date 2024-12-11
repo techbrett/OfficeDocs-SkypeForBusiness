@@ -36,7 +36,7 @@ To learn about your recording policies, see [Teams meeting recording](meeting-re
 
 ### Meetings and events
 
-For **meetings and events**, you can use the per-organizer **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsRecordingRolloutPolicy**](/powershell/module/teams/set-csteamsrecordingrolloutpolicy) cmdlet to decide if the recording is saved to the organizer's or recording initiator's OneDrive. This policy applies to the following meeting and event types:
+For **meetings and events**, you can use the per-organizer **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsRecordingRolloutPolicy**](/powershell/module/teams/set-csteamsrecordingrolloutpolicy) cmdlet to decide if the recording is saved to the organizer's or recording initiator's OneDrive. This policy applies to the following types of meeting and events:
 
 - Automatically recorded meetings
 - Delegate-created meetings
