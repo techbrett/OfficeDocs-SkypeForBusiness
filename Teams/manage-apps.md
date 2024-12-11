@@ -67,7 +67,7 @@ App management tasks that are supported on other portals are in the table below.
 
 ## Export app catalog as CSV
 
-As an admin, you can export the entire app catalog of your org from the Teams admin center. It can help you to coordinate app evaluation, availability, and more with admin and security teams.
+As an admin, you can export the entire app catalog of your org from the Teams admin center. It can help you to coordinate with admin and security teams to evaluate apps, verify app availability, verify app status, and more.
 
 :::image type="content" source="media/export-app-catalog-csv2.png" alt-text="Screenshot showing the option to export the app catalog as a CSV file.":::
 
