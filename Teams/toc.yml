@@ -802,7 +802,7 @@ items:
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
               href: meeting-transcription-captions.md
-            - name: Meeting recording and transcript storage and permissions in OneDrive and SharePoint
+            - name: Meeting recording and transcript storage and permissions
               href: tmr-meeting-recording-change.md
         - name: Integration
           items:
