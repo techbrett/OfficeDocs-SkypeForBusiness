@@ -86,7 +86,7 @@ A Teams Premium subscription includes the following features for webinars:
 |Limit the number of people who can register        |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                      |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                         |
 |Require attendees to register|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Set up a green room for webinar presenters |![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
-|Turn on Q&A for webinars with up to 1,000 attendees |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Turn on Q&A for webinars|![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |View attendance reports|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |External presenters|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Create a webinar wait list                         |                       |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                          |
