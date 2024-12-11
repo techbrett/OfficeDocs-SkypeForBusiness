@@ -1,5 +1,5 @@
 ---
-title: Teams meeting recording storage and permissions in OneDrive and SharePoint
+title: Teams meeting recording and transcript storage and permissions in OneDrive and SharePoint
 ms.author: wlibebe
 author: wlibebe
 ms.reviewer: yudma, yujin1, lisma, ritikag
@@ -21,7 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams meeting recording storage and permissions in OneDrive and SharePoint
+# Teams meeting recording and transcript storage and permissions in OneDrive and SharePoint
 
 > [!NOTE]
 > When organizers turn off Microsoft 365 Copilot in Teams meetings and events, recording and transcription are also turned off. To learn more about Copilot, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
@@ -114,7 +114,7 @@ The size of a one-hour recording is 400 MB. Make sure you understand the capacit
 
 ## Viewing permissions
 
-For **non-Channel meetings**: 
+For **non-Channel meetings**:
 
 - All meeting invitees, except for external participants, automatically get a personally shared link. The meeting organizer must add external participants to the shared list.
 - If the meeting is forwarded, only participants who are automatically added to the meeting chat thread receive the recording link.
@@ -129,7 +129,23 @@ For **Channel meetings**, permissions are inherited from the owners and members 
 Teams meeting recording files live in OneDrive and SharePoint and are included in your quota for those services. To learn more, see
 [SharePoint quota](/sharepoint/sites/plan-site-maintenance-and-management#quotas), [Sharepoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits), and [OneDrive quota](/onedrive/set-default-storage-space).
 
-## Managing captions
+## Transcripts and captions
+
+### Transcripts
+
+Meeting transcript files are stored in OneDrive. You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint transcript or OneDrive transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically).
+
+Here are the most relevant sections to help you get started:
+
+- [How to create an auto-apply retention label policy](/purview/apply-retention-labels-automatically#how-to-create-an-auto-apply-retention-label-policy)
+- [Auto-apply labels to content with keywords or searchable properties](/purview/apply-retention-labels-automatically#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
+- [Identifying Teams meeting recordings and accompanying transcripts in OneDrive and SharePoint](/purview/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)
+- [How long it takes for retention labels to take effect](/purview/apply-retention-labels-automatically#how-long-it-takes-for-retention-labels-to-take-effect)
+
+> [!NOTE]
+> When creating a retention label policy in Microsoft Purview, the minimum retention period is 1 day, which means the recordings and accompanying transcripts will only be deleted after 1 day.
+
+### Captions
 
 Captions help create inclusive content for viewers of all abilities. Closed captions for Teams meeting recordings are available during playback only if the user had transcription turned on at the time of recording. You must enable transcription to allow your users to record meetings with transcription. To learn more about enabling transcription for your users, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
