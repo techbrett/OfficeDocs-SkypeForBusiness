@@ -65,6 +65,14 @@ App management tasks that are supported on other portals are in the table below.
 | Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
 | Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Microsoft Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Microsoft Entra admin center](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
 
+## Export app catalog as CSV
+
+As an admin, you can export the entire app catalog of your org from the Teams admin center. It can help you to coordinate app evaluation, availability, and more with admin and security teams. In addition to all the information that is available on the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps), the CSV also contains the user IDs and group IDs of users or groups for whom apps are made available by you.
+
+:::image type="content" source="media/export-app-catalog-csv2.png" alt-text="Screenshot showing the option to export the app catalog as a CSV file.":::
+
+:::image type="content" source="media/export-app-catalog-csv1.png" alt-text="Screenshot showing the columns in the exported CSV file.":::
+
 ## Allow or block apps
 
 As an admin, you control access to all [types of apps](apps-in-teams.md#types-of-teams-apps) that are used across your organization. Teams provides granular controls to configure access for each app and for each user. To allow an app or a Copilot agent, you must do all of the following settings. To block an app, just use any one of these settings. Ensure that the app that you want to allow in Teams admin center is allowed in the Microsoft 365 admin center.
