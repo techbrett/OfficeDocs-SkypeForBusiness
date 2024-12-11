@@ -49,7 +49,7 @@ Users can differentiate incoming calls from an Auto attendant or Call queue befo
 
 The following illustration shows how an incoming call from an Auto attendant or Call queue appears to a user.
 
-![Screenshot of an incoming call notification via resource account.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Screenshot of an incoming call notification.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Once an Auto attendant or Call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, Auto attendant calls are forwarded based on the user's configuration.
 
