@@ -367,6 +367,11 @@ Once you select your callback options, select the **Next** button at the bottom 
 | [-CallbackOfferTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-CallbackOfferTextToSpeechPrompt) | [-CallbackOfferTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-CallbackOfferTextToSpeechPrompt) |
 | [-CallbackEmailNotificationTarget](/powershell/module/teams/new-cscallqueue#-CallbackEmailNotificationTarget) | [-CallbackEmailNotificationTarget](/powershell/module/teams/set-cscallqueue#-CallbackEmailNotificationTarget) |
 
+
+<!-- markdownlint-disable MD033 -->
+<details>
+<summary>Expand to see PowerShell examples</summary>
+
 #### PowerShell Examples
 
 ##### Calls become eligible after waiting 60 seconds
@@ -419,6 +424,8 @@ To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in th
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
+</details>
+<!-- markdownlint-enable MD033 -->
 
 ## [Step 6: Exception Handling](#tab/call-exception-handling)
 
