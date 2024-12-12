@@ -87,7 +87,7 @@ To learn more about Microsoft Teams Rooms meetings, see [Microsoft Teams Rooms
 
 When the organizer doesn’t have a OneDrive account, here's what happens, in order, to the meeting recording:
   
-1. The recording is saved to the co-organizer's OneDrive, while the meeting or event organizer retains permissions to edit and share the recording. When there are multiple co-organizers, the recording saves to the co-organizers' OneDrive, ordered by the first letter or number of each co-organizer's Entra object ID. To find the object IDs for users in your org, see [Locate important IDs for a user](/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id).
+1. The recording is saved to the co-organizer's OneDrive, while the meeting or event organizer retains permissions to edit and share the recording. When there are multiple co-organizers, the recording saves to the co-organizers' OneDrive, ordered by the first letter or number of each co-organizer's Microsoft Entra object ID. To find the object IDs for users in your org, see [Locate important IDs for a user](/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id).
 
    Let's take a look at the following example with three co-organizers:
 
@@ -135,7 +135,7 @@ Teams meeting recording files live in OneDrive and SharePoint and are included i
 
 ### Transcripts
 
-Meeting transcript files are stored in OneDrive. You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint transcript or OneDrive transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically).
+You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint transcript or OneDrive transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically).
 
 Here are the most relevant sections to help you get started:
 
@@ -149,11 +149,11 @@ Here are the most relevant sections to help you get started:
 
 ### Captions
 
-Captions help create inclusive content for viewers of all abilities. Closed captions for Teams meeting recordings are available during playback only if the user had transcription turned on at the time of recording. You must enable transcription to allow your users to record meetings with transcription. To learn more about enabling transcription for your users, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md).
+Captions help create inclusive content for viewers of all abilities. Closed captions for Teams meeting recordings are available during playback if transcription was turned on at the time of recording. To allow users to record meetings with transcription, you must assign a policy with transcription turned on. To learn more about managing transcription for your users, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
-As an owner, you can hide captions on the meeting recording, although the meeting transcript is available on Teams unless you delete it there.
+Closed captions aren't fully supported if the Teams meeting recording is moved or copied from its original location in OneDrive or SharePoint.
 
-Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded. Closed captions aren't fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive or SharePoint.
+You can use the **Meetings automatically expire** setting in the Teams admin center to control when captions expire. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#expiration-policy).
 
 ## Permissions or role-based access
 
@@ -171,7 +171,7 @@ Closed captions are supported for Teams meeting recordings for 60 days from when
 |Adhoc/Scheduled meeting                    |Other meeting member   |Organizer’s OneDrive account                                  |Organizer has full permissions to the recording. Co-organizers and organizer have edit permissions and can share. <br /> <br />  All other members of the meeting from the same tenant as the organizer have read access.|
 |Adhoc/Scheduled meeting with external participants|Organizer              |Organizer’s OneDrive account                     |Organizer has full permissions to the recording. Co-organizers and organizer have edit permissions and can share. <br /> <br />  All other members of the meeting from the same tenant as the organizer have read access. <br /><br /> All other external participants have no access, and the Organizer must share it to them.|
 |Adhoc/Scheduled meeting with external participants|Other meeting member   |Organizer’s OneDrive account                                  |Organizer has full permissions to the recording. Co-organizers and organizer have edit permissions and can share. <br /><br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br />All other external participants have no access, and the Organizer must share it to them.|
-|Channel meeting                            |Channel Member         |Teams SharePoint location for that channel. Note that channel meeting recording upload to SharePoint isn't supported for IP-based restrictions. We recommend using [Azure conditional access](/azure/active-directory/conditional-access/overview). |Member who selected on Record has edit permissions to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
+|Channel meeting                            |Channel Member         |Teams SharePoint location for that channel. Channel meeting recording upload to SharePoint isn't supported for IP-based restrictions. We recommend using [Azure conditional access](/azure/active-directory/conditional-access/overview). |Member who selected on Record has edit permissions to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
 
 ## Related topics
 
