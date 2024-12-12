@@ -127,6 +127,6 @@ As you start working with Microsoft Graph, check out these references to get sta
 
 - [Get started with Microsoft Graph Toolkit](/graph/toolkit/get-started/overview).
 - [Best practices for working with Microsoft Graph](/graph/best-practices-concept).
-- [Export options for switching from Teams](migration-from-teams.md).
+- [Switching from Microsoft Teams](migration-from-teams.md).
 
 Developers and admins who are working with and implementing the scenarios described in this article can obtain assistance from Microsoft and its engineers, including managed technical support, by emailing [InteropHelp@microsoft.com](mailto:InteropHelp@microsoft.com).

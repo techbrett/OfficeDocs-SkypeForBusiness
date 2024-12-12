@@ -1,5 +1,5 @@
 ---
-title:  Migration from Microsoft Teams
+title:  Export options for switching from Microsoft Teams
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
@@ -20,18 +20,18 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Export options for migration from Teams
+# Export options for switching from Microsoft Teams
 
 Microsoft supports customer choice, including enabling the export of data at no charge when switching from Teams to another provider. For any customer who prefers to use Teams Export APIs, refer to [Steps to access the Teams Export APIs](#steps-to-access-the-teams-export-apis).
 
-In addition to the APIs, Teams now offers a brand-new data export tool for small to medium-sized customers to export data when switching. This tool allows for unlimited exports during a 90-day period with just a single selection on the Teams admin center. For more information about how to use the tool, refer to [Steps to access the Teams data export tool](#steps-to-access-the-teams-data-export-tool).
+In addition to the APIs, Teams now offers a brand-new data export tool for small to medium-sized customers to export data when switching. This tool allows for unlimited exports during a 90-day period with just a single action in the Teams admin center. For more information about how to use the tool, refer to [Steps to access the Teams data export tool](#steps-to-access-the-teams-data-export-tool).
 
 ## Steps to access the Teams data export tool
 
 1. To export your data from Microsoft Teams for switching and access the tool at no charge, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support through the Teams admin center.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
-    1. Description: Provide an estimate of the size of your tenant and confirmation that you're accessing the tool to switch from Teams.
+    1. Description: Provide an estimate of the size of your tenant and confirmation that you are accessing the tool for the purpose of switching from Teams.
         1. The tool supports the export of data for tenants of up to 500 users.
 1. When we receive your request, we begin processing it and notify you when you can access the tool.
 
@@ -87,12 +87,12 @@ In addition, the Teams data export tool also allows you to export the following 
 |/teams/{teamId}/channels_{teamId}.json |List of channels for a team |[List allChannels](/graph/api/team-list-allchannels) |
 |/teams/{teamId}/channels/{channelId}/channelMembers.json |List of members of a channel (Only available for shared and private channels; standard channel members are the same as team’s member.) |[List members of a channel](/graph/api/channel-list-members) |
 
-## Steps to access the Teams export APIs
+## Steps to access the Teams Export APIs
 
 1. To export your data out of Microsoft Teams by using the Export APIs directly at no charge, select [this link](https://aka.ms/Teamsexportbillingsuspension) to contact support through the Teams admin center
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
-    1. Description: Provide confirmation that you're exporting through the Teams Export APIs for switching from Teams.
+    1. Description: Provide an estimate of the size of your tenant and confirmation that you are accessing the tool for the purpose of switching from Teams.
 1. When we receive your request, we begin the evaluation process and notify you when you can access the APIs at no charge to customer charge.
 
 ### Access the Teams Export APIs
