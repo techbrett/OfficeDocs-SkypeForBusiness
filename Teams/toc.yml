@@ -1683,6 +1683,8 @@ items:
         href: meeting-transcription-captions.md
       - name: Manage voice isolation for calls and meetings
         href: voice-isolation.md
+      - name: Data, privacy, and security for intelligent recap
+        href: /privacy/intelligent-recap.md
       - name: Set up AI recommendations for educators
         href: institution-settings.md
     - name: Copilot in Teams
