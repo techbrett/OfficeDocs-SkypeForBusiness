@@ -231,9 +231,11 @@ Write-Host "Script ran successfully. Key container $keyContainerName created. Pr
 <a name="DBs"></a>
 
 When you install Skype for Business Server 2019 Standard Edition, SQL Server 2016 Express (64-bit edition) is also installed.
+- Microsoft SQL Server 2022 Express (64-bit edition) - must be run together with the latest updates, starting with Skype for Business Server 2019 CU8
 
 Skype for Business Server 2019 Enterprise Edition requires the full version of SQL Server, as indicated here (only 64-bit edition; don't use 32-bit editions):
-  
+
+- Microsoft SQL Server 2022 (64-bit edition) - must be run together with the latest updates, starting with Skype for Business Server 2019 CU8
 - Microsoft SQL Server 2019 (64-bit edition) - must be run together with the latest updates
 - Microsoft SQL Server 2017 (64-bit edition) - must be run together with the latest updates
 - Microsoft SQL Server 2016 (64-bit edition) - must be run together with the latest updates
@@ -252,13 +254,13 @@ Make sure that you have an active/passive configuration for SQL Clustering, whic
 For failover clustering, you can have:
   
 Two-node:
-  
+- Microsoft SQL Server 2022 Standard (64-bit edition), and we recommend running with the latest service pack, starting with Skype for Business Server 2019 CU8.  
 - Microsoft SQL Server 2019 Standard (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2016 Standard (64-bit edition), and we recommend running with the latest service pack.
 
 Sixteen-node:
-  
+- Microsoft SQL Server 2022 Enterprise (64-bit edition), and we recommend running with the latest service pack, starting with Skype for Business Server 2019 CU8.
 - Microsoft SQL Server 2019 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
@@ -461,9 +463,9 @@ So certificate planning is a must. Now, let's look at a list of some of the thin
 - Auto-enrollment is supported for internal servers running Skype for Business Server 2019.
     
 - Auto-enrollment isn't supported for Skype for Business Server 2019 Edge Servers.
-    
-> [!NOTE]
-> Using the RSASSA-PSS signature algorithm is unsupported and may cause errors on login and call forwarding issues, among other problems. 
+
+  > [!NOTE]
+  > Using the RSASSA-PSS signature algorithm is unsupported and may cause errors on login and call forwarding issues, among other problems. 
   
 - Encryption key lengths of 1024, 2048, and 4096 are supported. Key lengths of 2048 and greater are recommended.
     
