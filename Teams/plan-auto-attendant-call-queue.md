@@ -65,9 +65,9 @@ A Call queue is analogous to a waiting room in a physical building. Callers wait
 
 Call queue exception handling allows you to redirect calls to specific people, voicemail, other Call queues, or Auto attendants in the following situations:
 
-- there are no agents logged or
-- where the total number of callers waiting in queue exceeds the limit that you specify or
-- where the caller's wait time in queue exceeds the limit that you specify
+- There are no agents logged
+- The total number of callers waiting in queue exceeds the limit that you specify
+- The caller's wait time in queue exceeds the limit that you specify
 
 Like Auto attendants, Call queues each have a language setting. You can use different Call queues if you do business in multiple languages. Agents can be members of more than one queue if they're multi-lingual.
 
@@ -110,19 +110,19 @@ When using a resource account for calling line ID purposes in Call queues, the r
 - An [online voice routing policy](manage-voice-routing-policies.md).
   - Phone number assignment is optional when using Direct Routing.
 
-Auto attendants and Call queues can be nested two ways:
+You can nest Auto attendants and Call queues in two ways:
 
-1. By directly referencing the auto attendant or call queue to be nested.
+1. Directly reference the auto attendant or call queue you want nested
 
-    - Auto attendants and call queues nested this way, and that transfer calls externally, don't require resource accounts or respective licensing. When nesting auto attendants or call queues, license the resource account on the first auto attendant or call queue receiving the call.
+    - Auto attendants and call queues that are nested this way and that transfer calls externally don't require resource accounts or respective licensing. When you nest auto attendants or call queues, license the resource account on the first auto attendant or call queue receiving the call.
 
-2. By referencing the resource account assigned to the auto attendant or call queue to be nested.
-   
+2. Reference the resource account assigned to the auto attendant or call queue you want nested
+
     - Each resource account must have a Teams Phone Resource Account license.
-    - In addition to the Teams Phone Resource Account license, when a nested Auto attendant or Call queue is transferring calls to an external number, the resource account on the nest auto attendant or call queue must also have one of the following assigned:
+    - In addition to the Teams Phone Resource Account license, when a nested auto attendant or call queue transfers calls to an external number, the resource account on the nested auto attendant or call queue must also have one of the following assigned:
 
-      - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
-      - An [Operator Connect](operator-connect-plan.md) phone number assigned.
+      - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number.
+      - An [Operator Connect](operator-connect-plan.md) phone number.
       - An [online voice routing policy](manage-voice-routing-policies.md).
         - Phone number assignment is optional when using Direct Routing.
 
@@ -187,9 +187,9 @@ Conference mode is enabled by default. If you have agents who don't meet the req
 
 The first Auto attendant or Call queue that answers a call requires a resource account and associated licensing. Nested auto attendants or call queues that receive calls that have already been answered by an auto attendant or call queue do not require resource accounts.
 
-Nesting without resource accounts is the recommended approach. This method eliminates the need to create and license additional resource accounts and makes auto attendant call flows and call queue exception handling flows easier to understand and maintain. 
+Nesting without resource accounts is the recommended approach. This method eliminates the need to create and license additional resource accounts and makes auto attendant call flows and call queue exception handling flows easier to understand and maintain.
 
-There may however be times when nesting with resource accounts is required. For example, when agents in a call queue receive a call, the information in the toast is determined by how the call arrived in the queue. If the call was transferred to the queue without a resource account, the agent receives the name of the call queue in the toast. If the call was transferred to the queue through a resource account, the agents receives the display name of the resource account.
+However, there might be times when you require nesting with resource accounts. For example, when agents in a call queue receive a call, the information in the toast is determined by how the call arrived in the queue. If the call was transferred to the queue without a resource account, the agent receives the name of the call queue in the toast. If the call was transferred to the queue through a resource account, the agents receives the display name of the resource account.
 
 ## Click-to-call restrictions
 

@@ -35,17 +35,14 @@ Cloud Call queues include greetings that are used when someone calls in to a pho
 
 ## Handling an Auto attendant or Call queue call
 
-Users can differentiate incoming calls from an Auto attendant or Call queue before they answer the call. Along with the name or number of the caller, the toast users receive also contains:
+Users can differentiate incoming calls from an Auto attendant or Call queue before they answer the call.
 
-- Auto attendant:
-  - That answered the call: The display name of the resource account assigned to the Auto attendant
-  - Nested without a resource account: The display name of the resource account assigned to the Auto attendant that answered the call
-  - Nested with a resource account: The display name of the resource account assigned to the Auto attendant that answered the call
+When agents receive a call from an auto attendant, the information in the toast contains the name or number of the caller and the display name of the resource account assigned to the Auto attendant that answered the call.
 
-- Call queue:
-  - That answered the call: The display name of the resource account assigned to the Call queue
-  - Nested without a resource account: The name of the call queue
-  - Nested with a resource account: The display name of the resource account assigned to the Call queue
+When agents in a call queue receive a call, the information in the toast is determined by how the call arrived in the queue.
+
+- If the call was transferred to the call queue without a resource account, the agent receives the name of the call queue in the toast.
+- If the call was transferred to the call queue through a resource account, the agents receives the display name of the resource account.
 
 The following illustration shows how an incoming call from an Auto attendant or Call queue appears to a user.
 
