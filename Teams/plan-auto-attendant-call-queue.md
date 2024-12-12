@@ -189,7 +189,7 @@ The first Auto attendant or Call queue that answers a call requires a resource a
 
 Nesting without resource accounts is the recommended approach. This method eliminates the need to create and license additional resource accounts and makes auto attendant call flows and call queue exception handling flows easier to understand and maintain.
 
-However, there might be times when you require nesting with resource accounts. For example, when agents in a call queue receive a call, the information in the toast is determined by how the call arrived in the queue. If the call was transferred to the queue without a resource account, the agent receives the name of the call queue in the toast. If the call was transferred to the queue through a resource account, the agents receives the display name of the resource account.
+However, there might be times when you require nesting with resource accounts. For example, when agents in a call queue receive a call, the information in the toast is determined by how the call arrived in the queue. If the call was transferred to the queue without a resource account, the agent receives the name of the call queue in the toast. If the call was transferred to the queue through a resource account, the agent receives the display name of the resource account.
 
 ## Click-to-call restrictions
 
