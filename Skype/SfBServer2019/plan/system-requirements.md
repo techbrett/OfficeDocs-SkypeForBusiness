@@ -463,9 +463,9 @@ So certificate planning is a must. Now, let's look at a list of some of the thin
 - Auto-enrollment is supported for internal servers running Skype for Business Server 2019.
     
 - Auto-enrollment isn't supported for Skype for Business Server 2019 Edge Servers.
-    
-> [!NOTE]
-> Using the RSASSA-PSS signature algorithm is unsupported and may cause errors on login and call forwarding issues, among other problems. 
+
+  > [!NOTE]
+  > Using the RSASSA-PSS signature algorithm is unsupported and may cause errors on login and call forwarding issues, among other problems. 
   
 - Encryption key lengths of 1024, 2048, and 4096 are supported. Key lengths of 2048 and greater are recommended.
     
