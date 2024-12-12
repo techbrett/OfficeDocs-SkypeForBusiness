@@ -25,7 +25,7 @@ ms.localizationpriority: high
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 > [!IMPORTANT]
-> Microsoft has started the General Availability rollout for Citrix customers, which will be completed in the next few weeks. This rollout requires Microsoft Teams version 24295.605.3225.8804, and client version 24110115722, as seen in **Settings** > **About Teams**.
+> Microsoft has completed the General Availability rollout for Citrix customers. The new optimization requires Microsoft Teams version 24295.605.3225.8804, and client version 24110115722, as seen in **Settings** > **About Teams**.
 
 ## Components
 
