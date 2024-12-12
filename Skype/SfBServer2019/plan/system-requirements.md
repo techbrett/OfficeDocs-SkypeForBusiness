@@ -232,7 +232,7 @@ Write-Host "Script ran successfully. Key container $keyContainerName created. Pr
 
 When you install Skype for Business Server 2019 Standard Edition, SQL Server 2016 Express (64-bit edition) is also installed. Starting with Skype for Business 2019 CU8, Standard Edition also supports SQL Server 2022 Express (64-bit edition). This is achieved by running an in place upgrade of SQL Express on existing installation of Skype for Business 2019 CU8 (or later) Standard Edition.
 
-Starting with Skype for Business 2019 CU8, Skype for Business Server 2019 Enterprise Edition also supports SQL Server 2022 Express (64-bit edition) for local SQL express instances. This can also be updated by an in place upgrade of SQL Express
+Starting with Skype for Business 2019 CU8, Skype for Business Server 2019 Enterprise Edition also supports SQL Server 2022 Express (64-bit edition) for local SQL express instances. This can also be updated by an in place upgrade of SQL Express.
 
 Skype for Business Server 2019 Enterprise Edition requires the full version of SQL Server, as indicated here (only 64-bit edition; don't use 32-bit editions):
 
