@@ -55,7 +55,7 @@ The following Teams displays are certified under the Android Certification Progr
 
 The following are the latest firmware versions released using Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release.
 
-For information about the latest Teams app releases, see [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_displays)
+For information about the latest Teams app releases, see [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_displays).
 
 #### <b> Crestron </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
