@@ -28,7 +28,7 @@ In addition to the APIs, Teams now offers a brand-new data export tool for small
 
 ## Steps to access the Teams data export tool
 
-1. To export your data from Microsoft Teams for switching and access the tool at no charge, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support through the Teams admin center.
+1. To export your data from Microsoft Teams for switching and access the tool at no charge, select [this link](https://aka.ms/AccessTeamsDataExportTool) to contact support through the Teams admin center.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
     1. Description: Provide an estimate of the size of your tenant and confirmation that you are accessing the tool for the purpose of switching from Teams.
@@ -85,16 +85,16 @@ In addition, the Teams data export tool also allows you to export the following 
 |/teams/{teamId}/teamInstalledApps_{teamId}.json |List of installed apps of a team |[List apps in team](/graph/api/team-list-installedapps) |
 |/teams/{teamId}/groupEvents_{teamdId}.json |List of meetings for a team |[List calendarView](/graph/api/calendar-list-calendarview) |
 |/teams/{teamId}/channels_{teamId}.json |List of channels for a team |[List allChannels](/graph/api/team-list-allchannels) |
-|/teams/{teamId}/channels/{channelId}/channelMembers.json |List of members of a channel (Only available for shared and private channels; standard channel members are the same as team’s member.) |[List members of a channel](/graph/api/channel-list-members) |
+|/teams/{teamId}/channels/{channelId}/channelMembers.json |List of members of a channel (Only available for shared and private channels; standard channel members are the same as teams member.) |[List members of a channel](/graph/api/channel-list-members) |
 
 ## Steps to access the Teams Export APIs
 
-1. To export your data out of Microsoft Teams by using the Export APIs directly at no charge, select [this link](https://aka.ms/Teamsexportbillingsuspension) to contact support through the Teams admin center
+1. To export your data out of Microsoft Teams by using the Export APIs directly at no charge, select [this link](https://aka.ms/Teamsexportbillingsuspension) to contact support through the Teams admin center.
 1. Choose your preferred method of contact: email or phone. Make sure to have the following information ready.
     1. Title: Use a predefined title.
-    1. Description: Provide an estimate of the size of your tenant and confirmation that you are accessing the tool for the purpose of switching from Teams.
+    1. Description: Provide confirmation that you are exporting through the Teams Export APIs for the purpose of switching from Teams.
 1. When we receive your request, we begin the evaluation process and notify you when you can access the APIs at no charge to customer charge.
 
 ### Access the Teams Export APIs
 
-To learn more about which data we support to export using the Teams Export APIs, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
+To learn more about which data we support to export using the Teams Export APIs, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
