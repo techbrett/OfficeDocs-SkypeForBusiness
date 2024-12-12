@@ -48,6 +48,8 @@ Exporting data may involve your confidential, personal, and sensitive data. Note
 
 ### What the Teams data export tool supports
 
+The Teams data export tool and the Teams Export APIs don't export all of the same data. The export tool only exports a subset of the data that the Teams Export APIs do.
+
 The Teams data export tool allows you to export the following messaging content from Microsoft Teams:
 
 - One-to-one chats
