@@ -57,7 +57,12 @@ The Teams data export tool allows you to export the following messaging content 
 - Meeting chats
 - Channel messages (including for standard, private, and shared channels)
 
-To learn more about which data we support to export, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
+The data exported through the export tool closely resembles the data exported through the following APIs:
+
+- [Chats: getAllMessages](/graph/api/chats-getallmessages)
+- [Channel: getAllMessages](/graph/api/channel-getallmessages)
+
+For more information on these APIs, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
 
 In addition, the Teams data export tool also allows you to export the following  data:
 
