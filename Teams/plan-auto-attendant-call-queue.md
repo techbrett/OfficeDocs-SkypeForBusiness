@@ -35,7 +35,7 @@ Auto attendants allow you to set up menu options to route calls based on caller 
 
 Call queues are waiting areas for callers. For situations where callers need to reach someone with a particular specialty--such as sales or service--rather than a specific person, you can use Call queues to connect callers to the group of agents who can assist them. Callers are put on hold until an agent assigned to the queue is available to take their call.
 
-Used together, Auto attendants and Call queues can easily route callers to the appropriate person or department in your organization.
+When Auto attendants and Call queues are used together, they can easily route callers to the appropriate person or department in your organization.
 
 ## Auto attendants
 
@@ -85,7 +85,7 @@ To configure Auto attendants and Call queues, you need the following resources:
 - A free [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account.
 - External phone calls:
   - At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers.
-    - The service number may also be a toll or toll-free number.
+    - The service number can also be a toll or toll-free number.
 - Web click-to-call:
   - [Contact centers with Azure Communication Services](/azure/communication-services/tutorials/contact-center)
   - [Quickstart: Join your calling app to a Teams auto attendant](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant)
@@ -103,7 +103,7 @@ Agents who receive calls from a Call queue must be Enterprise Voice enabled onli
 
 If your agents are using the Microsoft Teams app for Call queue calls, they need to be in TeamsOnly mode.
 
-When using a resource account for calling line ID purposes in Call queues, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
+If you're using a resource account for calling line ID purposes in Call queues, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
 - An [Operator Connect](operator-connect-plan.md) phone number assigned.
@@ -185,7 +185,7 @@ Conference mode is enabled by default. If you have agents who don't meet the req
 
 ## Nested Auto attendants and Call queues
 
-The first Auto attendant or Call queue that answers a call requires a resource account and associated licensing. Nested auto attendants or call queues that receive calls that have already been answered by an auto attendant or call queue do not require resource accounts.
+The first Auto attendant or Call queue that answers a call requires a resource account and associated licensing. Nested auto attendants or call queues that receive calls that have already been answered by an auto attendant or call queue don't require resource accounts.
 
 Nesting without resource accounts is the recommended approach. This method eliminates the need to create and license additional resource accounts and makes auto attendant call flows and call queue exception handling flows easier to understand and maintain.
 
@@ -197,7 +197,7 @@ In order to help prevent a denial of service attack from web based click-to-call
 
 ## Supported audio file formats
 
-When using a recorded audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM (Pulse-code modulation) with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. 
+If you want to use a recorded audio file for prompts or music, the supported formats are WAV (uncompressed, linear PCM (Pulse-code modulation) with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. 
 
 The audio file content can't be larger than 5 MB.
 
@@ -237,7 +237,7 @@ See the following articles for information on how to create Auto attendants and 
 
 If you need more extensive capabilities, such as integration with workflows, bots, and SMS (Short Message Service), consider [Azure Communication Services](/azure/communication-services/overview).
 
-## Related topics
+## Related articles
 
 [Plan Direct Routing](direct-routing-plan.md)
 
