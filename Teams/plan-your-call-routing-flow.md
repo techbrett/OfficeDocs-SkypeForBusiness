@@ -56,7 +56,7 @@ An Auto attendant or Call queue can redirect calls to the following destinations
  
 Auto attendants offer separate call routing options for calls received outside of business hours and on holidays.
 
-For more information on when to use **Voice app** or **Resource account**, see [Nested Auto attendants and Call queues](plan-auto-attendant-call-queue#nested-auto-attendants-and-call-queues)
+For more information on when to use **Voice app** or **Resource account**, see [Nested Auto attendants and Call queues](plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues)
 
 ## Call queues 
 
@@ -76,7 +76,7 @@ Calls redirected out of a queue can be sent to:
 - **Voicemail (shared)** - the voice mailbox associated with a Microsoft 365 group, distribution list, or mail-enabled security group.
   - You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
 
-For more information on when to use **Voice app** or **Resource account**, see [Nested Auto attendants and Call queues](plan-auto-attendant-call-queue#nested-auto-attendants-and-call-queues)
+For more information on when to use **Voice app** or **Resource account**, see [Nested Auto attendants and Call queues](plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues)
 
 ## Call flow diagram
 
