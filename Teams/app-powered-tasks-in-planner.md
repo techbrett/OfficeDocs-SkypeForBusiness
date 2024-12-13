@@ -71,9 +71,7 @@ Use the following HTTP POST request, where `{your-business-scenario-ID}` is your
 POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business-scenario-ID}/planner/tasks
 ```
 
-### Example request
-
-The following shows a request, with placeholders for the properties that you specify in the request body.
+The following shows the request, with placeholders for the properties that you specify in the request body.
 
 **Request**
 
@@ -110,7 +108,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
 } 
 ```
 
-### How to create an app-powered task
+### How to define the properties in the request
 
 What differentiates an app-powered task from a standard task is the presence of a specific attachment. The attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize a task as an app-powered task.
 
