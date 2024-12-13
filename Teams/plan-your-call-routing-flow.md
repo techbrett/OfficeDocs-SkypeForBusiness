@@ -42,7 +42,7 @@ Auto attendants route all calls in one of the following ways:
 An Auto attendant or Call queue can redirect calls to the following destinations:
 
 - **Operator** - the operator defined for the Auto attendant.
-  - Defining an operator is optional but reccommended.
+  - Defining an operator is optional but recommended.
   - An operator can be any of the other destinations in this list.
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another Auto attendant or a Call queue.
@@ -62,7 +62,7 @@ For more information on when to use **Voice app** or **Resource account** as the
 
 ## Call queues 
 
-Call queues place the caller on hold until an agent assigned to the queue is available to take their call. There are 3 situations where a caller might be directed out of the queue:
+Call queues place the caller on hold until an agent assigned to the queue is available to take their call. There are three situations where a caller might be directed out of the queue:
 
 - **Call overflow** - if the number of calls waiting in the queue exceeds the limit that you set, then new callers are redirected out of the queue.
 - **Call timeout** - if a caller stays in the queue longer than the configured timeout setting, they're redirected out of the queue.
