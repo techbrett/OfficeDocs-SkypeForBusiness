@@ -126,7 +126,7 @@ You can nest Auto attendants and Call queues in two ways:
       - An [online voice routing policy](manage-voice-routing-policies.md).
         - Phone number assignment is optional when using Direct Routing.
 
-For more information, see [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) for more details.
+For more information, see [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues).
 
 > [!NOTE]
 > If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
@@ -205,6 +205,7 @@ The audio file content can't be larger than 5 MB.
 
 Once you complete the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
 
+1. [Plan your call flow routing](./plan-your-call-routing-flow) to identify the number of resource accounts, auto attendants, call queues, and associated configuration items that are needed.
 1. Get a [Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 1. [Create a resource account](manage-resource-accounts.md) for each Auto attendant and Call queue that you want to create.
 1. Assign a Teams Phone Resource Account license to each resource account.
