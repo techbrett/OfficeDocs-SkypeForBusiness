@@ -137,7 +137,8 @@ This language is used for system-generated voice prompts and voicemail transcrip
 
 After you select a language, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-Goto: [Step 2: Greeting and music](#tab/greeting-music)
+Goto (Tab): [Step 2: Greeting and music](#tab/greeting-music)
+Goto (Step): [Step 2: Greeting and music](#step-2-add-a-greeting-and-on-hold-music)
 
 ## [Step 2: Greeting and music](#tab/greeting-music)
 
