@@ -1,7 +1,7 @@
 ---
 title: Ownership of apps in Developer Portal
-author: ashishguptaiitb
-ms.author: guptaashish
+author: surbhigupta12
+ms.author: surbhigupta
 manager: prkosh
 ms.topic: article
 ms.service: msteams
