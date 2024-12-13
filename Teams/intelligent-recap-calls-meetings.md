@@ -58,9 +58,21 @@ For the full meeting recap experience, you must assign a policy with recording e
 
 ## Intelligent call recap
 
-Intelligent call recap uses AI to allow your users to focus during their calls and save time on follow-ups. Your users can access AI generated notes and recommended tasks through the **Recap** button in the Calls app in Teams.
+Intelligent call recap uses AI to allow your users to focus during their calls and save time on follow-ups.
+
+### PSTN calls
+
+Your users can access AI generated notes and recommended tasks for PSTN calls through the **Recap** button in the Calls app in Teams.
 
 :::image type="content" source="media/ir-calls-small.png" alt-text="Screenshot of intelligent call recap from the recap tab." lightbox="media/ir-calls-expand.png":::
+
+### 1:1 and group peer-to-peer calls
+
+Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
+
+:::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of intelligent call recap from the recap tab." lightbox="media/intelligent-call-recap-expand.png":::
+
+:::image type="content" source="media/intelligent-call-recap-2-small.png" alt-text="Screenshot of intelligent call recap from the call's chat." lightbox="media/intelligent-call-recap-2-expand.png":::
 
 ## Intelligent meeting recap
 
