@@ -30,7 +30,7 @@ As part of the planning process, we recommend that you work out the call routing
 
 Let's look at how Auto attendants and Call queues route calls.
 
-Auto attendants route all calls in one of the following ways:
+## Auto attendants route all calls in one of the following ways:
 
 - **Redirect immediately** - calls can be redirected to one of the call routing destinations (listed below) immediately upon answering or after an initial greeting.
 - **Redirect based on dial options** - callers can be directed to choose between options that are assigned to the numbers on their telephone keypad, 0-9, \* and \#. Each dial key can be assigned a call routing destinations.
@@ -42,21 +42,43 @@ Auto attendants route all calls in one of the following ways:
 
 An Auto attendant or Call queue can redirect calls to the following destinations:
 
+**Operator** - the operator defined for the Auto attendant.
+  - Defining an operator is optional but reccommended.
+  - An operator can be any of the other destinations in this list.
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
-- **Voice app** - another Auto attendant or a Call queue. Choose the resource account associated with the destination.
+- **Voice app** - another Auto attendant or a Call queue.
+- **Resource account** - the resource account associated with another Auto attendant or Call queue.
+- **Voicemail** - the voice mailbox associated with a Microsoft 365 group, distribution list, or mail-enabled security group that you specify.
+  - You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
-
-- **Voicemail** - the voice mailbox associated with a Microsoft 365 group, distribution list, or mail-enabled security group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
-- **Operator** (Auto attendant only) - the operator defined for the Auto attendant. Defining an operator is optional. An operator can be any of the other destinations in this list.
-
+- **Announcement** - play a recorded audio file or text to speech
+   - the caller returns to the auto attendant menu when the announcement finishes playing
+ 
 Auto attendants offer separate call routing options for calls received outside of business hours and on holidays.
 
-Call queues place the caller on hold until an agent assigned to the queue is available to take their call. There are two situations where a caller might be directed out of the queue:
+For more information on when to use **Voice app** or **Resource account**, see [Nested Auto attendants and Call queues](plan-auto-attendant-call-queue#nested-auto-attendants-and-call-queues)
 
-- **Call overflow** - if the number of calls in the queue exceeds the limit that you set, then new callers are redirected out of the queue.
+## Call queues 
+
+Call queues place the caller on hold until an agent assigned to the queue is available to take their call. There are three situations where a caller might be directed out of the queue:
+
+- **Call overflow** - if the number of calls waiting in the queue exceeds the limit that you set, then new callers are redirected out of the queue.
 - **Call timeout** - if a caller stays in the queue longer than the configured timeout setting, they're redirected out of the queue.
+- **No agents** - if there are no agents opted or logged into the queue, callers may be redirected out of the queue.
 
-Calls redirected out of a queue can be sent to any of the call routing destinations listed above except for an operator. Call queues don't have operators, but you can redirect callers to the same destination as an operator that's configured for an Auto attendant.
+Calls redirected out of a queue can be sent to:
+
+- **Person in the organization** - a person in your organization who is able to receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
+- **Voice app** - another Auto attendant or a Call queue.
+- **Resource account** - the resource account associated with another Auto attendant or Call queue.
+- **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+- **Voicemail (personal)** - the voice mailbox associated with a specific user.
+- **Voicemail (shared)** - the voice mailbox associated with a Microsoft 365 group, distribution list, or mail-enabled security group.
+  - You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
+
+For more information on when to use **Voice app** or **Resource account**, see [Nested Auto attendants and Call queues](plan-auto-attendant-call-queue#nested-auto-attendants-and-call-queues)
+
+## Call flow diagram
 
 The following diagram shows an example of call routing using Auto attendants and Call queues.
 
@@ -75,6 +97,8 @@ We recommend that you create one or more diagrams similar to the example given t
 - The Auto attendants that have direct access via phone numbers.
 - The off-hours and holiday routing requirements for each Auto attendant.
 - The membership for each Call queue. (You can add users individually or map the queue to different kinds of groups. Mapping a queue to a team provides the most versatile experience.)
+
+## Call routing best practices
 
 Here are some call routing best practices:
 
