@@ -33,22 +33,22 @@ ms.collection:
 
 The app-powered tasks feature offers your organization more control over what users see when they open their tasks in the Planner app within Microsoft Teams. Instead of showing only the standard set of task fields, you can provide users with an experience tailored to the task at hand. That experience might be a workflow-specific set of fields or step-by-step guidance to walk the user through a workflow from beginning to end. To achieve this, you integrate a Teams app with the task and create these tasks programmatically.
 
-Say, for example, users in your organization use a Teams app to track and complete inspections. You choose to integrate this inspections app with tasks so that a Planner task is created for each inspection tracked in the system.
+Say, for example, users in your organization use a Teams app to track and complete inspections. You can integrate this inspections app with tasks so that a Planner task is created for each inspection tracked in the system.
 
 - When a user opens one of these tasks from the Planner app in Teams, they see a simplified screen with a button to jump directly to the inspection experience powered by your inspections app.
 - When they complete the task and close the inspections experience, they're right back in Planner where they started.
 
 Users get the tailored experience that a Teams app provides right from within their assigned tasks. They don't have to navigate to a different app to get work done or lose context of where they were when working with their tasks.
 
-In addition to these benefits when users complete tasks, the app-powered tasks feature allows organizations to reflect required line-of-business (LOB) processes and workflows as tasks, so employees can see all tasks assigned to them from a single place.
+In addition to these benefits when users complete tasks, the app-powered tasks feature allows organizations to reflect required line-of-business processes and workflows as tasks, so employees can see all the work they're accountable for from a single place.
 
-This experience is supported in the Planner app on Teams web, desktop, and mobile. You can update any Teams app to create app-powered tasks and provide tailored task experiences for your users.  
+This experience is supported in the Planner app on Teams web, desktop, and mobile. You can provide tailored task experiences for your users with any Teams app that meets the following requirements.  
 
 ## Requirements
 
 App-powered tasks is an extensibility feature that relies on programmatic creation and management of tasks. The requirements to use this feature are as follows.
 
-- Each app-powered task must have a reference URL that points to an experience in a destination Teams app. We recommend that you point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [Configure the reference URL](#configure-the-reference-url) section of this article.
+- Each app-powered task points to an experience in a destination Teams app, which requires you to provide a reference URL to that experience. We recommend that you point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [Configure the reference URL](#configure-the-reference-url) section of this article.
 - Tasks must be created and updated using the [business scenarios](/graph/api/resources/businessscenario-planner-overview?view=graph-rest-beta) API in Microsoft Graph.
 - Users who need to work with the task must have access to the destination app in Teams, as governed by the app policies you set in the Teams admin center. To learn more, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 - The destination Teams app is responsible for managing the task lifecycle, which includes the following actions:
@@ -70,6 +70,8 @@ Use the following HTTP POST request, where `{your-business-scenario-ID}` is your
 ```http
 POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business-scenario-ID}/planner/tasks
 ```
+
+### Example request
 
 The following shows a request, with placeholders for the properties that you specify in the request body.
 
@@ -108,7 +110,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
 } 
 ```
 
-### Configure the reference URL and define the attachment
+### How to create an app-powered task
 
 What differentiates an app-powered task from a standard task is the presence of a specific attachment. The attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize a task as an app-powered task.
 
@@ -116,7 +118,7 @@ Keep in mind that the API refers to these attachments as [references](/graph/api
 
 First, you configure the reference URL to point to the destination experience. Then, specify the reference URL along with other required properties for the attachment in the request body.
 
-#### Configure the reference URL
+#### Step 1: Configure the reference URL
 
 The reference URL uses a specific format. Follow these steps to construct and then encode the URL.
 
@@ -168,7 +170,7 @@ Follow these steps to encode the reference URL. We use the example reference URL
     > [!NOTE]
     > If your URL points to a Power App, make sure it includes the `&source=teamstab` parameter to make single sign-on (SSO) work for Power Apps and the `&skipMobileRedirect=1` parameter to skip the screen that prompts users to open the standalone Power App player.
 
-#### Define the attachment
+#### Step 2: Define the attachment
 
 To define the attachment, specify the following properties in `"references"` in the request body.
 
