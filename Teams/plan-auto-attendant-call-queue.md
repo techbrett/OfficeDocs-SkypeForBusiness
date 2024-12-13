@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 10/31/2024
+ms.date: 12/13/2024
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -205,7 +205,7 @@ The audio file content can't be larger than 5 MB.
 
 Once you complete the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
 
-1. [Plan your call flow routing](plan-your-call-routing-flow.md) to identify the number of resource accounts, auto attendants, call queues, and associated configuration items that are needed.
+1. [Plan your call flow routing](plan-your-call-routing-flow.md) to identify the number of resource accounts, auto attendants, call queues, and associated configuration items you need.
 1. Get a [Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 1. [Create a resource account](manage-resource-accounts.md) for each Auto attendant and Call queue that you want to create.
 1. Assign a Teams Phone Resource Account license to each resource account.
