@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 search.appverid: 
 f1keywords: 
-description: 
+description: Manage ownership of Teams app in Developer Portal for your entire organization and its developers
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
