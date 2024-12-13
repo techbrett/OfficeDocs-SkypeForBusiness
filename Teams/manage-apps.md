@@ -71,7 +71,7 @@ As an admin, you can export the entire app catalog of your org from the Teams ad
 
 :::image type="content" source="media/export-app-catalog-csv2.png" alt-text="Screenshot showing the option to export the app catalog as a CSV file.":::
 
-In addition to all the information that is available on the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps), the CSV also contains the user IDs and group IDs of users or groups for whom apps are made available by you.
+If you're using [app centric management](app-centric-management.md), then in addition to all the information that is available on the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps), the CSV also contains the user IDs and group IDs of users or groups for whom apps are made available by you.
 
 :::image type="content" source="media/export-app-catalog-csv1.png" alt-text="Screenshot showing the columns in the exported CSV file.":::
 
