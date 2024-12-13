@@ -57,22 +57,11 @@ The Teams data export tool allows you to export the following messaging content 
 - Meeting chats
 - Channel messages (including for standard, private, and shared channels)
 
-The data exported through the export tool closely resembles the data exported through the following APIs:
-
-- [Chats: getAllMessages](/graph/api/chats-getallmessages)
-- [Channel: getAllMessages](/graph/api/channel-getallmessages)
-
-For more information on these APIs, see [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
-
 In addition, the Teams data export tool also allows you to export the following  data:
 
 - **Team and Channel structure**: The Teams data export tool supports the Team and Channels structure. Channels are specific collaboration spaces within a team where members can focus on topics, projects, or departments.
 - **User/Roster**: The Teams data export tool supports exporting the list of users who are part of a specific team or channel, including details about each users' roles.
 - **Apps**: The Teams data export tool supports exporting the list of installed apps for a channel.
-
-### What the Teams data export tool doesn't support
-
-- **Teams Copilot Interactions and Microsoft 365 Chat**: The Teams data export tool doesn't support user-to-Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
 
 ### What the ZIP file includes
 
