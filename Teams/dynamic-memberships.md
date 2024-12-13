@@ -3,7 +3,7 @@ title: Overview of dynamic membership for teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.reviewer: phlouie
+ms.reviewer: arnavgupta
 ms.date: 10/19/2018
 ms.topic: conceptual
 ms.service: msteams
