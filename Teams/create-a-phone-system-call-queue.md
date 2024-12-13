@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 12/06/2024
+ms.date: 12/13/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -44,10 +44,10 @@ Before you follow the procedures in this article, be sure you've read [Plan for 
 ## What's new for Call queues in the past six months
 
 - December 11
-  - [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing now supported in Teams Admin Center.
+  - [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing are now supported in the Teams admin center.
      
 - November 22
-  - [Callback](#step-5-callback-1) functionality is now available through Teams admin center.
+  - [Callback](#step-5-callback-1) functionality is now available through the Teams admin center.
 
 - November 5
   - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
@@ -90,7 +90,7 @@ Before you can create and manage resource accounts, you must do the following ac
 
 All Call queues that directly answer calls must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to a Call queue.
 
-Nested Auto attendants and Call queues that receive calls from an auto attendant or call queue that has already answered the call don't require a resource account. For more information, see [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues)
+Nested Auto attendants and Call queues that receive calls from an auto attendant or call queue that has already answered the call don't require a resource account. For more information, see [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues).
 
 For details on how to create resource accounts and ready them for use with auto attendants or call queues, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
@@ -239,7 +239,7 @@ Keep the following in mind:
 ## Step 4: Select your agent routing options
 
 > [!IMPORTANT]
-> Call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent receives a call toast but can't answer the call. This condition continues until another agent is available to answer the call, the caller hangs up, or the Call queue timeout condition occurs. For information on Location Based Routing, see [Plan Location-Based Routing for Direct Routing](./location-based-routing-plan.md).  
+> Call presentation to agents may conflict with Location-Based Routing restrictions. In this case, the agent receives a call toast but can't answer the call. This condition continues until another agent is available to answer the call, the caller hangs up, or the Call queue timeout condition occurs. For more information on Location-Based Routing, see [Plan Location-Based Routing for Direct Routing](./location-based-routing-plan.md).  
 
 **Routing method** determines the order in which agents receive calls from the queue.
 
@@ -267,14 +267,14 @@ You can enable **presence-based call routing** with any of the routing methods.
 If an agent opts out of getting calls, they can't receive calls regardless of their availability status.
 
 > [!TIP]
-> Setting the **Presence-based routing** to **on** is the recommended setting.
+> Setting the **Presence-based routing** to **On** is the recommended setting.
 
 > [!NOTE]
 > When **Longest idle** is selected as the routing method:
-> - presence-based routing is required and automatically enabled even though the Presence-based routing toggle is **Off** and grayed out.
-> - when there are fewer calls in the queue than available agents, only the first two longest idle agents are presented with calls from the queue.
+> - Presence-based routing is required and automatically enabled even though the Presence-based routing toggle is **Off** and grayed out.
+> - When there are fewer calls in the queue than available agents, only the first two longest idle agents are presented with calls from the queue.
 >
-> If **Presence-based routing** isn't enabled and there are multiple calls in the queue, the system presents these calls simultaneously to the agents regardless of their presence status. This action results in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them. See [Configure Busy Options](./inbound-call-routing.md) for Busy on Busy alternatives to presence-based routing.
+> If **Presence-based routing** isn't enabled and there are multiple calls in the queue, the system presents these calls simultaneously to the agents, regardless of their presence status. This action results in multiple call notifications to agents, particularly if some agents don't answer the initial call presented to them. For more information, see [Configure Busy Options](./inbound-call-routing.md) for Busy on Busy alternatives to presence-based routing.
 >
 > When using **Presence-based routing**, there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
 >
