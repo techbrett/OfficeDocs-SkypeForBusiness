@@ -354,7 +354,7 @@ Once you select your callback options, select the **Next** button at the bottom 
 
 <!-- markdownlint-disable MD033 -->
 <details>
-<summary>Expand to see PowerShell options</summary>
+<summary>Expand to see PowerShell options and examples</summary>
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
@@ -499,7 +499,7 @@ Once you select your call overflow, call timeout, and no agents handling options
 #### Nested auto attendants and call queues via PowerShell
 <!-- markdownlint-disable MD033 -->
 <details>
-<summary>Expand to see PowerShell examples</summary>
+<summary>Expand to see PowerShell options and examples</summary>
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
