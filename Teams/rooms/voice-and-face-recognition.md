@@ -99,7 +99,7 @@ The voice and face data for users is encrypted at rest and in transit and is pro
 
 ## Data retention
 
-When a user is enrolled in the feature and has an active Teams account, Microsoft keeps their voice and face profiles. Their voice and face profile is removed right away if they unenroll from the feature. Their voice and face profile is removed within 90 days if their Teams account is deleted. Admins can download voice and face profiles of users manually, using the Teams Admin Center. 
+When a user is enrolled in the feature and has an active Teams account, Microsoft keeps their voice and face profiles. Their voice and face profile is removed right away if they unenroll from the feature. Their voice and face profile is removed within 90 days if their Teams account is deleted. 
 
 If users enroll their voice or face profile, they can always choose to unenroll it later, even if the current assigned admin policy doesn't let them enroll.
 
