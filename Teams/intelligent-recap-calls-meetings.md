@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: weizxue, nijait
-ms.date: 12/10/2024
+ms.date: 12/13/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -27,7 +27,7 @@ description: Learn how to manage Microsoft 365 Copilot in Teams meetings and eve
 
 # Intelligent recap for Teams calls and meetings
 
-**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls
 
 Intelligent recap for Microsoft Teams calls and meetings uses AI technology to improve your users’ productivity and efficiency. This article is designed to guide you, as an admin, in understanding intelligent recap’s prerequisites and capabilities.
 
@@ -45,18 +45,22 @@ Intelligent recap is automatically available to users in your organization with 
 
 ### Policies
 
+#### Transcription
+
 To allow your users to use intelligent recap, you must turn on transcription:
 
 - PSTN calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
-- Meetings, 1:1 and group calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
+- Meetings, 1:1 and group peer-to-peer calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
+
+#### Recording
+
+For the full meeting recap experience, you must assign a policy with recording enabled to your users. If recording is turned off, users experience recap without the recording, speakers, topics, and chapters. To turn on recording for meetings, see [Manage Teams recording policies for meetings and events](meeting-recording.md#allow-or-prevent-users-from-recording-meetings).
 
 ## Intelligent call recap
 
-Intelligent call recap uses AI to allow your users to focus during their calls and save time on follow-ups. Your users can access AI generated notes and recommended tasks through the **Recap** button in the call’s chat in Teams.
+Intelligent call recap uses AI to allow your users to focus during their calls and save time on follow-ups. Your users can access AI generated notes and recommended tasks through the **Recap** button in the Calls app in Teams.
 
-:::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of intelligent call recap from the recap tab." lightbox="media/intelligent-call-recap-expand.png":::
-
-:::image type="content" source="media/intelligent-call-recap-2-small.png" alt-text="Screenshot of intelligent call recap from the call's chat." lightbox="media/intelligent-call-recap-2-expand.png":::
+:::image type="content" source="media/ir-calls-small.png" alt-text="Screenshot of intelligent call recap from the recap tab." lightbox="media/ir-calls-expand.png":::
 
 ## Intelligent meeting recap
 
@@ -76,8 +80,8 @@ Your users can access the following AI powered features for their meetings throu
 
 Intelligent recap is supported on the following types of meetings and calls:
 
-- Meetings: Meetings scheduled in the Teams client, meet now
-- Calls: PSTN, 1:1, group
+- Meetings: Meetings scheduled in the Teams client, Meetings scheduled in Outlook, meet now
+- Calls: PSTN, 1:1, group peer-to-peer
 
 ## Data and privacy
 
