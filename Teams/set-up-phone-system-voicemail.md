@@ -31,7 +31,9 @@ description: "Learn how to set up Cloud Voicemail for your users."
 
 This article is for Microsoft 365 administrators who want to set up Cloud Voicemail for their users.
 
-Cloud Voicemail deposits voicemail messages in a user's Exchange mailbox. Cloud Voicemail doesn't support third-party email systems. For Exchange Online licensing requirements, see [Exchange Online service description](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans). For more information about administrator roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).
+Cloud Voicemail deposits voicemail messages in a user's Exchange mailbox. Technically, a voicemail in Exchange is an email message with an audio file attachment. Cloud Voicemail doesn't support third-party email systems. For Exchange Online licensing requirements, see [Exchange Online service description](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans). For more information about administrator roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).
+
+Cloud Voicemail will be sent if a user misses a call on Teams or Skype for Business, and the caller leaves a voicemail message. Received voicemails are visible to end users in their Exchange mailbox under "Search Folders," subfolder "Voice mails," and also in the Microsoft Teams client under the "Calls" tab. There is another type of voicemail, called Shared Voicemail, which is addressed to a group of users.
 
 ## Cloud Voicemail provisioning
 
