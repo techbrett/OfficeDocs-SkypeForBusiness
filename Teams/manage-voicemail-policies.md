@@ -1,10 +1,10 @@
 ---
 title: Manage Voicemail Policies
-author: sfrancis206
-ms.author: scottfrancis
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
-ms.reviewer: jenstr
-ms.date: 05/21/2021
+ms.reviewer: vijurtse, colongma
+ms.date: 12/13/2024
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -16,14 +16,14 @@ ms.collection:
   - Tier1
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
+  - Skype for Business
 ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
   - Phone System
-description: Manage Voicemail Policies for your users.
+description: Learn how to manage Cloud Voicemail policies for your users.
 ---
 
 # Manage Cloud Voicemail policies for your users
