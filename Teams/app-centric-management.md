@@ -1,7 +1,7 @@
 ---
 title: App centric management to manage user access to Teams apps
-author: ashishguptaiitb
-ms.author: guptaashish
+author: surbhigupta12
+ms.author: surbhigupta
 manager: prkosh
 ms.topic: article
 audience: admin
@@ -35,12 +35,12 @@ ms.custom: seo-marvel-apr2020
 >
 > If you see policies on the [permission policies page](https://admin.teams.microsoft.com/policies/app-permission), continue to [use app permission policies](teams-app-permission-policies.md) or migrate to this feature on your own.
 
-With the introduction of app centric management functionality, admins have two methods to control the access and availability of apps and Copilot agents.
+With the introduction of app centric management functionality, admins have two methods to control the access and availability of apps and copilot agents.
 
 * Continue to [use permission policies](teams-app-permission-policies.md).
 * Use the feature if already auto-migrated or [manually migrate to app centric management](#migrate-to-app-centric-management). It replaces app permission policies.
 
-This functionality lets you specify which users and groups can use each app or a Copilot agent and you can control it on a per-app basis.
+This functionality lets you specify which users and groups can use each app or a copilot agent and you can control it on a per-app basis.
 
 Whatever method your use, you can manage access to apps for individual users, supported groups, or everyone in the organization. You have complete control over who can or can't add apps in your organization. You can also control the access to new apps that we publish to Teams app store.
 
