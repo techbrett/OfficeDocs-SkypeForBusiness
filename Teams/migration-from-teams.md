@@ -48,19 +48,19 @@ Exporting data may involve your confidential, personal, and sensitive data. Note
 
 ### What the Teams data export tool supports
 
-The Teams data export tool and the Teams Export APIs don't export all of the same data. The export tool only exports a subset of the data that the Teams Export APIs do.
+The data exported through the tool closely resembles the data exported through the Teams Export APIs. For more details, refer to [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
 
-The Teams data export tool allows you to export the following messaging content from Microsoft Teams:
+The Teams data export tool allows you to export the following from Microsoft Teams:
 
-- One-to-one chats
+- 1:1 chats
 - Group chats
 - Meeting chats
-- Channel messages (including for standard, private, and shared channels)
+- Channel messages
 
-In addition, the Teams data export tool also allows you to export the following  data:
+The Teams data export tool also supports the following  data:
 
 - **Team and Channel structure**: The Teams data export tool supports the Team and Channels structure. Channels are specific collaboration spaces within a team where members can focus on topics, projects, or departments.
-- **User/Roster**: The Teams data export tool supports exporting the list of users who are part of a specific team or channel, including details about each users' roles.
+- **User/Roster**: The Teams data export tool supports exporting the list of users who are part of a specific team or channel, including details about each user's roles.
 - **Apps**: The Teams data export tool supports exporting the list of installed apps for a channel.
 
 ### What the ZIP file includes
