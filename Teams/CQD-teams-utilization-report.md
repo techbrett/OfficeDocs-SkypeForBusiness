@@ -34,7 +34,7 @@ The Teams Usage Power BI report consists of two primary reports: **[Call Count S
 
 ## Call Count Summary Report
 
-The main page, Call Count Summary, immediately provides the number of audio, video and screen sharing sessions over the last 30 and 90 days as noted in the section title. The data initially displayed is for the organization as a whole. You can filter the data by using the slicer dropdown options on the left side of the page.
+The main page, Call Count Summary, immediately provides the number of audio, video, and screen sharing sessions over the last 30 and 90 days as noted in the section title. The data initially displayed is for the organization as a whole. You can filter the data by using the slicer dropdown options on the left side of the page.
 
 ![Screenshot of Call Count Summary report in Teams Usage Reports.](media/CQD-teams-utilization-report1.png)
 
@@ -88,11 +88,11 @@ The Daily Usage report allows an administrator to identify peak consumption peri
 
 ![Screenshot showing Daily Usage report in Teams Usage Reports.](media/CQD-teams-utilization-report12.png)
 
-The Daily Usage report displays the number of Audio, Video and Screen shares for the selected day with the added ability to differentiate between internal and external connectivity. A Conference and Peer to Peer breakdown is to the immediate right of the modality total box. The top right of the report provides a list of conferences with their associated ID and participants for the day. The conference list provides an additional drillthrough to the Conference Details report.
+The Daily Usage report displays the number of Audio, Video, and Screen shares for the selected day with the added ability to differentiate between internal and external connectivity. A Conference and Peer to Peer breakdown is to the immediate right of the modality total box. The top right of the report provides a list of conferences with their associated ID and participants for the day. The conference list provides an additional drillthrough to the Conference Details report.
 
 ![Screenshot of Daily Call Count by media type for the past 30 days in Teams Usage Reports.](media/CQD-teams-utilization-report13.png)
 
-The bar graph in the center area allows the user to identify peak consumption periods through the course of a day. Users may drill down into the hour represented on the graph, which will present the User List report for the hour.
+The bar graph in the center area allows the user to identify peak consumption periods through the course of a day. Users can drill down into the hour represented on the graph, which presents the User List report for the hour.
 
 To the right of the bar graph, User Feedback is presented in a visual format. User feedback provides insight that can be used to identify potential issues.
 
@@ -107,13 +107,13 @@ Select the column for that day to display metrics for that hour.
   1.  The table below the chart displays the metrics for that hour. This table can be sorted by any column header. However, we would be interested in finding problematic areas.
     ![Screenshot of Hourly Trend by Media Type metrics in Teams Usage Reports.](media/CQD-teams-utilization-report15.png)
     
-  1.  We see that the IND region is experiencing poor video performance in conferences during this time frame. After, the CQD QER Microsoft reports can be used to narrow down the problematic location as the region and time frame has been identified.
+  1.  We see that the IND region is experiencing poor video performance in conferences during this time frame. After, the CQD QER Microsoft reports can be used to narrow down the problematic location as the region and time frame have been identified.
 
 ### Conference Details
 
 The Conference Details report provides additional insight for meetings, from an attendee list, to the media types used during the session.
 
-Select a conference the participant bar in the conference ID chart on the Daily Usage page to drill down into the conference details.
+Select a conference from the participant bar in the conference ID chart on the Daily Usage page to drill down into the conference details.
 
 ![Screenshot of conference participant bar for Conference Details report in Teams Usage Reports.](media/CQD-teams-utilization-report24.png)
 
@@ -131,7 +131,7 @@ The Regional Audio Details drill-down specifically shows the audio minute usage 
 1.  On the Call Count Summary page, drillthrough to a specific region through the table.
   ![Screenshot of Call Count Summary report drillthrough in Teams Usage Reports.](media/CQD-teams-utilization-report16.png)
 
-1.  Select the row with the region additional information is needed for.
+1.  Select the row with the region that you need additional information on.
   ![Screenshot of region details in Call Count Summary report in Teams Usage Reports.](media/CQD-teams-utilization-report17.png)
 
 1.  The data trends show a significant number of minutes being used on the internal network, with conferencing far surpassing P2P use.
