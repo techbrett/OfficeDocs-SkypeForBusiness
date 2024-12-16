@@ -48,7 +48,7 @@ This experience is supported in the Planner app on Teams web, desktop, and mobil
 
 App-powered tasks is an extensibility feature that relies on programmatic creation and management of tasks. The requirements to use this feature are as follows.
 
-- Each app-powered task points to an experience in a destination Teams app, which requires you to provide a reference URL to that experience. We recommend that you point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [Configure the reference URL](#configure-the-reference-url) section of this article.
+- Each app-powered task points to an experience in a destination Teams app, which requires you to provide a reference URL to that experience. We recommend that you point this reference URL to the specific item or screen the user should be working on. This reference URL must be added to the task in a specific way. To learn more, see the [Step 1: Configure the reference URL](#step-1-configure-the-reference-url) section of this article.
 - Tasks must be created and updated using the [business scenarios](/graph/api/resources/businessscenario-planner-overview?view=graph-rest-beta) API in Microsoft Graph.
 - Users who need to work with the task must have access to the destination app in Teams, as governed by the app policies you set in the Teams admin center. To learn more, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 - The destination Teams app is responsible for managing the task lifecycle, which includes the following actions:
@@ -77,7 +77,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/{your-business
     "target": { 
         "@odata.type": "#microsoft.graph.businessScenarioGroupTarget", 
         "taskTargetKind": "group", 
-        "groupId": "{group ID of team}" 
+        "groupId": "{group ID of the team where you want to create the task}" 
     }, 
     "businessScenarioProperties": { 
         "externalObjectId": "{any unique ID, for example, the ID of the object in your destination app}", 
@@ -181,7 +181,7 @@ To define the attachment, specify the following properties in `"references"` in 
 
 |Property |Description|
 |---------|---------|
-|`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to construct and encode the URL, see the [Configure the reference URL](#configure-the-reference-url) section of this article.|
+|`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to construct and encode the URL, see the [Step 1: Configure the reference URL](#step-1-configure-the-reference-url) section of this article.|
 |`alias`|The name of your Teams app. When a user opens the task, they see a message that says, “Complete this task in \<alias>, and a **Start task** button to jump to the destination experience.|
 |`previewPriority`|Leave as `!`.|
 |`type`| Set to `TeamsHostedApp`.|
