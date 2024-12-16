@@ -37,7 +37,6 @@ There are two types of logs that are automatically created upon request, which c
 > [!NOTE]
 > For Teams on VDI, Media logs are only available for the new [Slimcore-based VDI solution](https://learn.microsoft.com/en-us/microsoftteams/vdi-2). For Teams using legacy WebRTC-based VDI, media logs are not included. 
 
-
 ## Logs overview
 
 It’s important to collect logs as soon as an issue occurs.
