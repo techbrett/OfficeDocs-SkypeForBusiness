@@ -57,8 +57,6 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Advanced collaboration analytics** - View external collaboration activity data on your users, teams, federated domains, channels, and guests.
 
-- **Priority account chat controls​** - Allows an IT Admin to assign a policy to specific users, granting them the ability to block incoming 1:1 chats from people within the organization. 
-
 - **Audio quality alerts** - Set up alerts for in-progress meeting audio issues and get notified immediately when your specified users experience issues.
 
 - **Custom user policy packages** - Create policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.
@@ -79,6 +77,8 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Real time telemetry and retention** - Real-time telemetry is gathered automatically for all users who have a Teams Premium license and retained for seven days.
 
+- **Priority account chat controls​** - Allows an IT Admin to assign a policy to specific users, granting them the ability to block incoming 1:1 chats from people within the organization. 
+
 - **Teams Premium feature usage report** - View aggregated usage of Teams Premium features by users in your org.
 
 - **Video quality alerts** - Set up alerts for in-progress meeting video issues and get notified immediately when your specified users experience issues.
@@ -97,6 +97,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
   | Microsoft eCDN |Yes |[How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant)|No end user control |
   | Prevent copying chat content to clipboard |Yes, use the Teams admin center to add or delete chat content copying restrictions in your meeting templates. Use the Microsoft Purview portal to turn labels with chat content copying restrictions on or off.| [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md) | No end-user control |
   | Prevent users from sharing content in external meetings|Yes| [Prevent users from sharing content in external meetings](block-external-content-share.md) | No end-user control |
+  | Priority account chat controls|Yes| [Allow users to block Microsoft Teams chat messages](block-incoming-chats.md) | No end-user documentation |
   | Real-time telemetry and retention|No, contact support for assistance.| [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md#where-to-find-per-user-real-time-troubleshooting-telemetry) | No end-user control |
   | Restrict who can record | Yes, use the Teams admin center to add or delete recording restrictions in your meeting templates. Use the Microsoft Purview portal to turn labels with recording restrictions on or off.|[Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
   | Screen sharing quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting screen sharing issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-screen-sharing) | No end-user control |
