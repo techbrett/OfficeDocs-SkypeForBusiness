@@ -57,6 +57,8 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Advanced collaboration analytics** - View external collaboration activity data on your users, teams, federated domains, channels, and guests.
 
+- **Priority account chat controls​** - Allows an IT Admin to assign a policy to specific users, granting them the ability to block incoming 1:1 chats from people within the organization. 
+
 - **Audio quality alerts** - Set up alerts for in-progress meeting audio issues and get notified immediately when your specified users experience issues.
 
 - **Custom user policy packages** - Create policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.
