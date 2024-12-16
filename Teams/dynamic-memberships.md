@@ -1,7 +1,7 @@
 ---
 title: Overview of dynamic membership for teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: jtremper
 ms.reviewer: arnavgupta
 ms.date: 10/19/2018
