@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
-ms.date: 12/10/2024
+ms.date: 12/17/2024
 search.appverid: MET150
 searchScope: 
   - Microsoft Teams
@@ -106,7 +106,7 @@ The following sections walk through how to form the request in more detail.
 
 ### How to define the properties in the request
 
-A specific type of attachment differentiates an app-powered task from a standard task. The attachment must be of type `TeamsHostedApp` and must contain a specially formatted link (reference URL) to the destination experience in the Teams app. This signifies to Planner that it's an app-powered task.
+A specific type of attachment differentiates an app-powered task from a standard task. The attachment must be of type `TeamsHostedApp` and must contain a specially formatted link (reference URL) to the destination experience in the Teams app. This signifies to Planner that the task is an app-powered task.
 
 Keep in mind that the API refers to these attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
 
@@ -184,11 +184,11 @@ To define the attachment, specify the following properties in `"references"` in 
 |`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to construct and encode the URL, see the [Step 1: Configure the reference URL](#step-1-configure-the-reference-url) section of this article.|
 |`alias`|The name of your Teams app. When a user opens the task, they see a message that says, “Complete this task in \<alias>, and a **Start task** button to jump to the destination experience.|
 |`previewPriority`|Leave as `!`.|
-|`type`| Set to `TeamsHostedApp`. This is what signifies to Planner that it's an app-powered task.|
+|`type`| Set to `TeamsHostedApp`. This is what signifies to Planner that the task is an app-powered task.|
 
 ## Example
 
-This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the example reference URL from the [Step 1: Configure the reference URL](#step-1-configure-the-reference-url) section earlier in this article.
+This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the example reference URL from the [Step 1: Configure the reference URL](#step-1-configure-the-reference-url) section of this article.
 
 **Request**
 
@@ -226,7 +226,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
 ```
 
 > [!NOTE]
-> This example reference URL was chosen as an easy way to test the app-powered task experience using an app that's available in many organizations' environments. Keep in mind that with this example reference URL, users won't be able to complete the task. This is because the YouTube app isn't integrated with app-powered tasks and doesn't make an API call to mark the task complete after the video is played.
+> This example reference URL was chosen as an easy way to test the app-powered tasks experience using an app that's available in many organizations' environments. Keep in mind that with this example reference URL, users won't be able to complete the task. This is because the YouTube app isn't integrated with app-powered tasks and doesn't make an API call to mark the task complete after the video is played.
 
 ### What this looks like in the Planner app
 
