@@ -115,7 +115,7 @@ If you've been using live events for your organization, you might want to unders
 |Co-organizer capacity|N/A|10|10|
 |CVI support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Default audio and video off|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Download translated transcripts|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Download translated transcripts|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Duration|Four hours|30 hours|30 hours|
 |eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
 |DVR|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
