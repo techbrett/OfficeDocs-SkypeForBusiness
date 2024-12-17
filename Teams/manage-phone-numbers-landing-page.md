@@ -3,8 +3,8 @@ title: "Manage phone numbers for your organization"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: davlick, roykuntz, jenstr
-ms.date: 08/10/2023
+ms.reviewer: pavellatif
+ms.date: 12/17/2024
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
