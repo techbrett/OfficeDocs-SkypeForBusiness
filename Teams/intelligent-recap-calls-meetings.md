@@ -86,7 +86,7 @@ Your users can access the following AI powered features for their meetings throu
 - Speaker timeline markers show who spoke during the meeting, when they spoke, and allows your users to jump to that moment.
 - Meeting chapters divide the meeting into chapters, and meeting topics that allow your users to jump to a point in the meeting when a certain topic was discussed.
 
-:::image type="content" source="media/i-recap-meetings-small.png" alt-text="Screenshot of intelligent meeting recap from the recap tab." lightbox="media/i-recap-meetings-expand.png":::
+:::image type="content" source="media/new-i-recap-meetings-small.png" alt-text="Screenshot of intelligent meeting recap from the recap tab." lightbox="media/new-i-recap-meetings-expand.png":::
 
 ## Supported meetings and call types
 
