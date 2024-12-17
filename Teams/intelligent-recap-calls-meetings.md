@@ -92,7 +92,7 @@ Your users can access the following AI powered features for their meetings throu
 
 Intelligent recap is supported on the following types of meetings and calls:
 
-- Meetings: Meetings scheduled in the Teams client, Meetings scheduled in Outlook, meet now
+- Meetings: Meetings scheduled in the Teams client, meetings scheduled in Outlook, meet now
 - Calls: PSTN, 1:1, group peer-to-peer
 
 ## Data and privacy
