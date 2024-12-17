@@ -226,7 +226,7 @@ POST https://graph.microsoft.com/beta/solutions/businessScenarios/ccd5aa8aebd048
 ```
 
 > [!NOTE]
-> With this example reference URL, it will not be possible for a user to complete the task. The YouTube app is not integrated with app-powered tasks and does not make an API call to mark the task complete once the video has been played. This able to mark the task completed. This example reference URL was chosen as an easy to test the app-powered task experience using an app that's available in many organizations' environments.
+> This example reference URL was chosen as an easy way to test the app-powered task experience using an app that's available in many organizations' environments. Keep in mind that with this example reference URL, users won't be able to complete the task. This is because the YouTube app isn't integrated with app-powered tasks and doesn't make an API call to mark the task complete after the video is played.
 
 ### What this looks like in the Planner app
 
