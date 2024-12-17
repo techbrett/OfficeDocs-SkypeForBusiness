@@ -38,11 +38,11 @@ You might want the simplest solution&mdash;Microsoft Teams Phone with Calling Pl
 
 If you answer yes to the following, then Teams Phone with Calling Plan is the right solution for you:
 
-- Calling Plan is available in your region. [Confirm Microsoft Calling Plan availability here](calling-plan-overview.md)
+- Calling Plan is available in your region. To confirm Calling Plan availability, see [Confirm Microsoft Calling Plan availability](calling-plan-overview.md).
 - You don't need to retain your current PSTN carrier.
 - You want to use Microsoft-managed access to the PSTN.
 
-If you’re a small to medium business (300 or fewer people), Microsoft now bundles Teams Phone with a Domestic Calling Plan. 
+If you're a small to medium business (300 or fewer people), Microsoft now bundles Teams Phone with a Domestic Calling Plan. 
 
 However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need to accommodate existing, on-premises telephony infrastructure. Microsoft can solve for any PSTN or on-premises integration, with a variety of integration options.
 
@@ -81,7 +81,7 @@ Next, consider which of these other configurations you might need:
 
 Some of the sections in this and related articles are pertinent depending on your existing deployment and requirements, for example:
 
-- **Location-Based Routing** is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
+- **Location-Based Routing** is only required for Direct Routing customers in geographic locations that don't allow toll bypass.
 - **Phone number management** is only required for Microsoft Calling Plan customers.
 
 | Depending on your requirements | Description |
@@ -89,9 +89,9 @@ Some of the sections in this and related articles are pertinent depending on you
 | [**Phone number management**](pstn-connectivity.md#phone-number-management) | How to get and manage phone numbers differs depending on your PSTN connectivity option. Read this section if you need to obtain phone numbers, transfer existing numbers, obtain service numbers, and so on. |
 | [**Call routing and dial plans**](pstn-connectivity.md#call-routing-and-dial-plans) | How to configure and manage dial plans that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. Read this section if you need to understand what dial plans are and whether you need to specify dial plans for your organization.|
 | [**Emergency calling**](pstn-connectivity.md#emergency-calling) | How to manage and configure emergency calling differs depending on your PSTN connectivity option. Read this section if you need to understand how to manage emergency calling for your organization. |
-| [**Location-Based Routing for Direct Routing**](pstn-connectivity.md#location-based-routing-for-direct-routing) |How to use Location-Based Routing (LBR) to restrict toll bypass for Microsoft Teams users based on their geographic location. Read this section if your organization is using Direct Routing at a location that doesn't allow toll bypass.
+| [**Location-Based Routing for Direct Routing**](pstn-connectivity.md#location-based-routing-for-direct-routing) |How to use Location-Based Routing (LBR) to restrict toll bypass for Microsoft Teams users based on their geographic location. Read this section if your organization is using Direct Routing at a location that doesn't allow toll bypass. |
 | [**Network topology for cloud voice features**](pstn-connectivity.md#network-topology-for-voice-features) | If your organization is deploying Location-Based Routing (LBR) for Direct Routing or dynamic emergency calling, you must configure network settings for these features in Microsoft Teams. Read this section if you're implementing LBR for Direct Routing, or if you're implementing dynamic emergency calling with Calling Plan or Direct Routing. |
-| [**Upgrade your existing Skype for Business voice solution**](#upgrade-your-existing-skype-for-business-voice-solution-to-teams) | What you need to think about when upgrading your voice solution to Teams. Read this section if you're upgrading from an existing Skype for Business deployment to Teams.
+| [**Upgrade your existing Skype for Business voice solution**](#upgrade-your-existing-skype-for-business-voice-solution-to-teams) | What you need to think about when upgrading your voice solution to Teams. Read this section if you're upgrading from an existing Skype for Business deployment to Teams. |
 
 ## Teams Phone
 
