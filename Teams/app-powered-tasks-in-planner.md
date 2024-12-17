@@ -106,7 +106,7 @@ The following sections walk through how to form the request in more detail.
 
 ### How to define the properties in the request
 
-What differentiates an app-powered task from a standard task is the presence of a specific attachment. The attachment contains a link (reference URL) to the destination experience in the Teams app, which enables Planner to recognize a task as an app-powered task.
+A specific type of attachment differentiates an app-powered task from a standard task. The attachment must be of type `TeamsHostedApp` and must contain a specially formatted link (reference URL) to the destination experience in the Teams app. This signifies to Planner that it's an app-powered task.
 
 Keep in mind that the API refers to these attachments as [references](/graph/api/resources/plannerexternalreferences?view=graph-rest-beta).
 
@@ -127,7 +127,7 @@ To construct the reference URL, specify the following parameters.
 |Parameter |Description |
 |---------|---------|
 |`Teams-app-Id`|The app ID of the Teams app you're integrating with the task.|
-|`URL-to-destination-experience`|The URL that points to the specific experience in your destination Teams app that you want users to see when they open the task. The domain of the URL must be a valid domain for the app ID. |
+|`URL-to-destination-experience`|The URL that points to the target experience in your destination Teams app that you want users to see when they open the task. For security reasons, the URL must point to a valid domain associated with the Teams app, which is represented by the app ID you provide.|
 |`page-title`| The title that should appear at the top of the screen when the user is shown the URL to the destination experience.|
 
 Here's an example of a reference URL before encoding:
@@ -184,11 +184,11 @@ To define the attachment, specify the following properties in `"references"` in 
 |`reference-URL`| The URL to the destination experience, in Stageview Modal link syntax. For details on how to construct and encode the URL, see the [Step 1: Configure the reference URL](#step-1-configure-the-reference-url) section of this article.|
 |`alias`|The name of your Teams app. When a user opens the task, they see a message that says, “Complete this task in \<alias>, and a **Start task** button to jump to the destination experience.|
 |`previewPriority`|Leave as `!`.|
-|`type`| Set to `TeamsHostedApp`.|
+|`type`| Set to `TeamsHostedApp`. This is what signifies to Planner that it's an app-powered task.|
 
 ## Example
 
-This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the example reference URL from earlier in this article.
+This example shows how to create an app-powered task named "Review security practices presentation" and assign it to a user named Adele Vance (user ID 44ee44ee-ff55-aa66-bb77-88cc88cc88cc). This request uses the example reference URL from the [Step 1: Configure the reference URL](#step-1-configure-the-reference-url) section earlier in this article.
 
 **Request**
 
