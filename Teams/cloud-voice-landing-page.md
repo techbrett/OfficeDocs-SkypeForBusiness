@@ -91,8 +91,7 @@ Some of the sections in this and related articles are pertinent depending on you
 | [**Emergency calling**](pstn-connectivity.md#emergency-calling) | How to manage and configure emergency calling differs depending on your PSTN connectivity option. Read this section if you need to understand how to manage emergency calling for your organization. |
 | [**Location-Based Routing for Direct Routing**](pstn-connectivity.md#location-based-routing-for-direct-routing) |How to use Location-Based Routing (LBR) to restrict toll bypass for Microsoft Teams users based on their geographic location. Read this section if your organization is using Direct Routing at a location that doesn't allow toll bypass.
 | [**Network topology for cloud voice features**](pstn-connectivity.md#network-topology-for-voice-features) | If your organization is deploying Location-Based Routing (LBR) for Direct Routing or dynamic emergency calling, you must configure network settings for these features in Microsoft Teams. Read this section if you're implementing LBR for Direct Routing, or if you're implementing dynamic emergency calling with Calling Plan or Direct Routing. |
-| [**Migrate your existing voice solution**](#migrate-your-existing-voice-solution-to-teams) | What you need to think about when migrating your voice solution to Teams.  Read this section if you're migrating from an existing voice solution to Teams. 
-
+| [**Upgrade your existing Skype for Business voice solution**](#Upgrade-your-existing-Skype-for-Business-voice-solution-to-Teams) | What you need to think about when upgrading your voice solution to Teams. Read this section if you're upgrading from an existing Skype for Business deployment to Teams.
 
 ## Teams Phone
 
