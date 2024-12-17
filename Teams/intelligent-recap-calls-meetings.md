@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: weizxue, nijait
-ms.date: 12/13/2024
+ms.date: 12/17/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -64,13 +64,13 @@ Intelligent call recap uses AI to allow your users to focus during their calls a
 
 Your users can access AI generated notes and recommended tasks for PSTN calls through the **Recap** button in the Calls app in Teams.
 
-:::image type="content" source="media/ir-calls-small.png" alt-text="Screenshot of intelligent call recap from the recap tab." lightbox="media/ir-calls-expand.png":::
+:::image type="content" source="media/i-recap-pstn-small.png" alt-text="Screenshot of intelligent call for PSTN calls in the Calls app." lightbox="media/i-recap-pstn-expand.png":::
 
 ### 1:1 and group peer-to-peer calls
 
 Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
 
-:::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of intelligent call recap from the recap tab." lightbox="media/intelligent-call-recap-expand.png":::
+:::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of intelligent call recap button in the call's chat." lightbox="media/intelligent-call-recap-expand.png":::
 
 :::image type="content" source="media/intelligent-call-recap-2-small.png" alt-text="Screenshot of intelligent call recap from the call's chat." lightbox="media/intelligent-call-recap-2-expand.png":::
 
@@ -86,7 +86,7 @@ Your users can access the following AI powered features for their meetings throu
 - Speaker timeline markers show who spoke during the meeting, when they spoke, and allows your users to jump to that moment.
 - Meeting chapters divide the meeting into chapters, and meeting topics that allow your users to jump to a point in the meeting when a certain topic was discussed.
 
-:::image type="content" source="media/intelligent-meeting-recap-small.png" alt-text="Screenshot of intelligent meeting recap from the recap tab." lightbox="media/intelligent-meeting-recap-expand.png":::
+:::image type="content" source="media/i-recap-meetings-small.png" alt-text="Screenshot of intelligent meeting recap from the recap tab." lightbox="media/i-recap-meetings-expand.png":::
 
 ## Supported meetings and call types
 
