@@ -84,7 +84,7 @@ We recommend that you visit the vendor's web site for the latest information.
             <td align ="center" valign="middle">&#x2714;+S</td>
         </tr>
         <tr align="left" valign="top">
-            <td><a href="http://bressner.com/ucfeaturebox-advanced-unified-box-communications/">Bressner</a></td>
+            <td><a href="https://www.bressner.de/en/products/unified-communications-en/">Bressner</a></td>
             <td>UCFeatureBox UCFB-xxx</td>
             <td>r1.8-422960M</td>
             <td>Basic Gateway</td>

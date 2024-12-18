@@ -54,7 +54,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Interoute](https://www.uni-tel.co.uk/product-type/sip-trunks)  | Interoute One |  |
 |[ipvision a/s](http://www.ipvision.dk/microsoft-lync/)  | VIP Trunk |&#x2714;  |
 |[Kordia](http://www.kordia.co.nz/)  | Onkor Voice | &#x2714; |
-|[Level 3](https://www.lumen.com/communications/sip-trunking.html)  |Level 3 Communications SIP Trunking  |  |
+|[Level 3](https://www.lumen.com/en-us/communications/sip-trunking.html)  |Level 3 Communications SIP Trunking  |  |
 |Magnetic North  |Cloud PBX  |  |
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications)  | Intelligent SIP Trunk |  |
 |[One Source Networks](http://www.onesourcenetworks.com/lync-trunking/)  | Lync Trunking | &#x2714; |
@@ -63,7 +63,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Phonero](http://www.phonero.no/)  | Phonero SIP-trunk |  |
 |[Pure-IP](http://pure-ip.com)  |OneLync SIP Trunks  | &#x2714; |
 |[QSC AG](https://www.qsc.com)  |IPfonie extended link  |  |
-|[Redwood Technologies](http://www.redwoodtech.com/products/microsoft-lync/)  | SIP Trunk |  |
+|[Redwood Technologies](http://www.redwoodtech.com/productjs/microsoft-lync/)  | SIP Trunk |  |
 |[Rogers Business Solutions](http://business.rogers.com/)  | Rogers Business Solutions (RBS) SIP Trunking |  |
 |SBC Europe  | SIP Trunking for Microsoft Lync (2013) |  |
 |[SoTel Systems, LLC](http://www.sotelsystems.com/)  | SIP Trunking |  |
