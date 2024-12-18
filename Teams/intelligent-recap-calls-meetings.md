@@ -70,9 +70,9 @@ Your users can access AI generated notes and recommended tasks for PSTN calls th
 
 Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
 
-:::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of intelligent call recap button in the call's chat." lightbox="media/intelligent-call-recap-expand.png":::
+:::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of the intelligent call recap button in the call's chat." lightbox="media/intelligent-call-recap-expand.png":::
 
-:::image type="content" source="media/intelligent-call-recap-2-small.png" alt-text="Screenshot of intelligent call recap from the call's chat." lightbox="media/intelligent-call-recap-2-expand.png":::
+:::image type="content" source="media/intelligent-call-recap-2-small.png" alt-text="Screenshot of the intelligent call recap tab from the call's chat." lightbox="media/intelligent-call-recap-2-expand.png":::
 
 ## Intelligent meeting recap
 
