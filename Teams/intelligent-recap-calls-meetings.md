@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: weizxue, nijait
-ms.date: 12/17/2024
+ms.date: 12/18/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
