@@ -42,7 +42,7 @@ You can use the Teams admin center to configure call forward and unanswered sett
 
 1. In the Teams admin center, go to **Users** > **Manage users** and select a licensed user.
 
-2. On the user details page, go to the **Voice** tab. If the **Voice** tab isn't visible, the user doesn't have a Microsoft Teams Phone license assigned. For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing).
+2. On the user details page, go to the **Voice** tab. If the **Voice** tab isn't visible, the user doesn't have a Microsoft Teams Phone license assigned. For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 3. To configure immediate call forward settings, under **Call answering rules**, select:
   
