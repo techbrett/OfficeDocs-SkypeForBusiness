@@ -76,12 +76,12 @@ Your users can access AI generated notes and recommended tasks for 1:1 and group
 
 ## Intelligent meeting recap
 
-Intelligent meeting recap uses AI to allow your users to focus during their meetings, find key information, access highlights, and save time on follow-ups.
-Your users can access the following AI powered features for their meetings through the **Recap** tab in the Teams calendar and chat:
+Intelligent meeting recap uses AI to help your users focus on the meeting discussion instead of taking notes. This feature allows them to find key information, access highlights, and save time on follow-ups.
+
+After the meeting ends, our users can access the following AI powered features for their meetings through the **Recap** tab in the Teams calendar and chat:
 
 - AI meeting notes
 - AI recommended tasks
-- Personalized highlights allow your users to find the most important information, even if they missed the meeting.
 - Personalized timeline markers show when users' names were mentioned, when screens were shared, and when they joined or left the meeting.
 - Speaker timeline markers show who spoke during the meeting, when they spoke, and allows your users to jump to that moment.
 - Meeting chapters divide the meeting into chapters, and meeting topics that allow your users to jump to a point in the meeting when a certain topic was discussed.
