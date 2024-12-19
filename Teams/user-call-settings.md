@@ -50,7 +50,7 @@ You can use the Teams admin center to configure call forward and unanswered sett
    - **Ring the user's devices** to use simultaneous ringing and ring the user's devices first. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
 
      > [!NOTE]
-     > You must turn on the **Voice** > **Calling policies** settings for **Call forwarding and simultaneous ringing to people in organization** or **Call forwarding and simultaneous ringing to external phone numbers** for these call forward types and destinations to be available for simultaneous ringing. These settings is on by default.
+     > You must turn on the **Voice** > **Calling policies** settings for **Call forwarding and simultaneous ringing to people in organization** or **Call forwarding and simultaneous ringing to external phone numbers** for these call forward types and destinations to be available for simultaneous ringing. These settings are on by default.
 
 4. To configure unanswered settings, select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
