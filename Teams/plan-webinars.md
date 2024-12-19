@@ -103,7 +103,7 @@ A Teams Premium subscription includes the following features for webinars:
 |Custom meeting templates                         |                       |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                         |
 |Admin created custom meeting backgrounds                         |                       |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                         |
 
-<sup>1</sup> - After four hours, the webinar starts a new recording. For example, in an 8 hour webinar, there will be two recordings.
+<sup>1</sup> - After four hours, the webinar starts a new recording. For example, a webinar that lasts 8 hours webinar has two recordings.
 
 ## Webinar control comparison
 
