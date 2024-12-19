@@ -42,13 +42,12 @@ You can use the Teams admin center to configure call forward and unanswered sett
 
 1. In the Teams admin center, go to **Users** > **Manage users** and select a licensed user.
 
-2. On the user details page, go to the **Voice** tab. If the **Voice** tab isn't visible, the user doesn't have a Microsoft Teams Phone license assigned. For more information, see [Microsoft Teams add-on licensing](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+2. On the user details page, go to the **Voice** tab. If the **Voice** tab isn't visible, the user doesn't have a Microsoft Teams Phone license assigned. For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 3. To configure immediate call forward settings, under **Call answering rules**, select:
   
    - **Be immediately forwarded** so that calls to the user don't ring their devices.
-   - **Ring the user's devices** to use simultaneous ringing and ring the user's devices first.
-     - In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
+   - **Ring the user's devices** to use simultaneous ringing and ring the user's devices first. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
 
      > [!NOTE]
      > You must turn on the **Voice** > **Calling policies** settings for **Call forwarding and simultaneous ringing to people in organization** or **Call forwarding and simultaneous ringing to external phone numbers** for these call forward types and destinations to be available for simultaneous ringing. These settings is on by default.
