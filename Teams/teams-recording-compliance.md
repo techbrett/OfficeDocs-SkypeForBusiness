@@ -143,7 +143,7 @@ The recording bot has the following requirements:
 
 - Recorder bot must run on a Windows Virtual Machine and be deployed in Azure
 - Recorder bot outbound firewall destination IP address must be open to the [Azure public IP range](https://www.microsoft.com/download/details.aspx?id=56519)
-- Recorder bot inbound firewall source IP address must be open to the [Teams IP range](https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- Recorder bot inbound firewall source IP address must be open to the [Teams IP range](https://www.learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 For a sample of developing a compliance recording bot, see [deploying and testing a sample bot](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot#bot-registration).
 
