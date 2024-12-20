@@ -149,7 +149,9 @@ For information about the latest Teams app releases, see [What's new in Microsof
 | Audiocodes RX-Pad | `2.2.311` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`|`N/A`|`N/A`| `1.0.0.202306202019.product` | October 17, 2023|
 | Audiocodes RXV81 | `2.0.369` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`|`N/A`|`N/A`| `1.0.0.202305022347.product` | July 24, 2023|
 | Audiocodes RX-Pad | `2.0.369` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`|`N/A`|`N/A`| `1.0.0.202305022347.product` | July 24, 2023|
-| Audiocodes RXV81 | `2.0.268` | N/A |`1449/1.0.96.2023041207`| `5.0.5484.0`|`N/A`|`N/A`| `1.0.0.202301162118.product` | May 30, 2023 |#### Cisco
+| Audiocodes RXV81 | `2.0.268` | N/A |`1449/1.0.96.2023041207`| `5.0.5484.0`|`N/A`|`N/A`| `1.0.0.202301162118.product` | May 30, 2023 |
+
+#### Cisco
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
