@@ -139,6 +139,12 @@ Compliance recording notifications are supported for the Teams client experience
 
 The solution for Teams compliance recording is achieved through Microsoft’s third-party partners who develop compliance recording bots, and pair the bot with their recording solution. Each partner solution varies, but each partner uses the same key Graph APIs, an application instance, and a compliance recording policy.
 
+The recording bot has the following requirements:
+
+- Recorder bot must run on a Windows Virtual Machine and be deployed in Azure
+- Recorder bot outbound firewall destination IP address must be open to the ([Azure public IP range](https://www.microsoft.com/download/details.aspx?id=56519))
+- Recorder bot inbound firewall source IP address must be open to the [Teams IP range](https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
+
 For a sample of developing a compliance recording bot, see [deploying and testing a sample bot](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot#bot-registration).
 
 ## Third-party compliance recording partners
