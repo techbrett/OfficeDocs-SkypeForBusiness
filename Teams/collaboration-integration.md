@@ -76,7 +76,7 @@ Once you integrated your custom application with Microsoft 365, you can export d
 
 ### Direct messages, group messages, and meeting messages
 
-Teams includes direct messages (one-to-one chats), group chats, and chats associated with meetings. Messages in Teams may contain pain text, rich HTML, images, links, etc. Microsoft documents and makes available the APIs necessary to export this data out of Microsoft Teams:
+Teams includes direct messages (one-to-one chats), group chats, and chats associated with meetings. Messages in Teams may contain plain text, rich HTML, images, links, etc. Microsoft documents and makes available the APIs necessary to export this data out of Microsoft Teams:
 
 - [List Chats](/graph/api/chat-list).
 - [Get Chat](/graph/api/chat-get).
