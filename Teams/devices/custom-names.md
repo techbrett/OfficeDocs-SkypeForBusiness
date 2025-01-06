@@ -44,9 +44,9 @@ To set up and manage custom names for your Teams panels:
 > [!NOTE]
 > Within 24 hours of the custom name being updated to a name other than the GAL one, the Teams panel home screen reflects the new name. The home screen will also have a tooltip that, when selected, will show the user the GAL name.
 
-![Home screen of Teams panel with the custom name.](media/custom-names/image.png)
+> :::image type="content" source="media/custom-names/image.png" alt-text="Screenshot of the home screen of the Teams panel with the custom name." lightbox="media/custom-names/image.png":::
 
-![Dialogue box showing the full conference room name.](media/custom-names/image1.png)
+> :::image type="content" source="media/custom-names/image1.png" alt-text="Screenshot of the dialogue box showing the full conference room name." lightbox="media/custom-names/image1.png":::
 
 In Teams admin settings, an admin can view the GAL name and custom name if one has been applied under **Device settings** > **Display name**. It isn't possible to edit the name in these admin settings. Editing can only be done in the Teams Rooms Pro Management portal.
 
