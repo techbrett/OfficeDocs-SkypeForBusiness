@@ -75,7 +75,7 @@ Until October 14, 2025, Teams Rooms and Teams Rooms Pro Management software will
 
 Please utilize the Teams Rooms Pro Management Room Inventory export or the Windows 11 readiness checker to identify devices that will need action. Devices running on Windows OS version 10.0.19045 or lower must be updated to Windows 11, if eligible, or replaced to continue receiving Teams Rooms and Teams Rooms Pro Management support and updates.
 
-Most Teams Rooms devices running Windows 10 were automatically upgraded to Windows 11. However, certified Teams Rooms devices such as Lenovo Hub 500 (i5-7500T), HP Slice G2, (i5-7500T) Yealink NUC – NUC7i5DNKE (i5-7300U), Surface Pro 5 (i5-7300U), and Crestron Skull Canyon (i7-6770HQ) can't be upgraded to Windows 11 and will need to be replaced. This is not an exhaustive list. Please contact your device manufacturer for the specific models that are impacted.
+Most Teams Rooms devices running Windows 10 were automatically upgraded to Windows 11. However, certified Teams Rooms devices such as Lenovo Hub 500 (i5-7500T), HP Slice G2, (i5-7500T), Yealink NUC – NUC7i5DNKE (i5-7300U), Surface Pro 5 (i5-7300U), and Crestron Skull Canyon (i7-6770HQ) can't be upgraded to Windows 11 and will need to be replaced. This is not an exhaustive list. Please contact your device manufacturer for the specific models that are impacted.
 
 Find additional details on the Teams Rooms app OS support. Also, see [Microsoft product lifecycle notices for Windows 10 Enterprise](/lifecycle/products/windows-10-enterprise-and-education) and [Windows10 IoT Enterprise](/lifecycle/products/windows-10-iot-enterprise).
 
