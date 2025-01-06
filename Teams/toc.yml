@@ -1393,7 +1393,9 @@ items:
                       href: rooms/custom-backgrounds.md
                     - name: Content camera
                       href: rooms/content-camera.md
-                    - name: Coordinated meetings
+                    - name: Multiple camera view
+                      href: rooms/multicamera-view.md
+                    - name: Coordinated meetings                    
                       href: rooms/coordinated-meetings.md
                     - name: Intelligent speaker
                       items:
