@@ -562,6 +562,12 @@ items:
           href: browser-logs-and-tracing-for-teams.md
         - name: How to look up your support PIN
           href: support-pin.md
+    - name: Migration
+      items:
+        - name: Migrate from Slack to Teams
+          href: migrate-slack-to-teams.md
+        - name: Migration from Teams
+          href: migration-from-teams.md
 
 - name: Teams, chats, and channels
   items:
@@ -602,8 +608,6 @@ items:
             href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
-          - name: Migrate from Slack to Teams
-            href: migrate-slack-to-teams.md
           - name: Manage tags in Teams
             href: manage-tags.md
           - name: View analytics in Teams
@@ -802,10 +806,8 @@ items:
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
               href: meeting-transcription-captions.md
-            - name: Meeting recording storage and permissions in OneDrive and SharePoint
+            - name: Meeting recording and transcript storage and permissions
               href: tmr-meeting-recording-change.md
-            - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
-              href: delete-exchange-online-transcripts.md
         - name: Integration
           items:
             - name: eCDN
