@@ -1,7 +1,7 @@
 ---
 title: Manage your apps in the Microsoft Teams admin center
-author: ashishguptaiitb
-ms.author: guptaashish
+author: surbhigupta12
+ms.author: surbhigupta
 manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
@@ -34,7 +34,7 @@ If your organization uses [app centric management](app-centric-management.md) (w
 
 To use Teams admin center, you must have a Teams Administrator role. Some admins with a higher privilege role can accomplish app governance tasks but we recommend using the lower privilege role where possible. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
 
-App developers [extend Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/) by creating Copilot agents, for example, Microsoft Teams message extension or a Power Platform connector. These Copilot agents increase user productivity across daily tasks and workflows. Admins manage Copilot agents in the [Integrated apps page](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps) of the Microsoft 365 admin center.
+App developers [extend Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/) by creating copilot agents, for example, Microsoft Teams message extension or a Power Platform connector. These copilot agents increase user productivity across daily tasks and workflows. Admins manage copilot agents in the [Integrated apps page](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps) of the Microsoft 365 admin center.
 
 > [!NOTE]
 > You can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
@@ -64,6 +64,16 @@ App management tasks that are supported on other portals are in the table below.
 | Manage licenses and subscriptions of third-party apps in Microsoft 365 admin center | [Microsoft 365 admin center](https://admin.microsoft.com/#/licenses) | [Manage third-party app subscriptions](/microsoft-365/commerce/manage-saas-apps) |
 | Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
 | Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Microsoft Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Microsoft Entra admin center](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
+
+## Export app catalog as CSV
+
+As an admin, you can export the entire app catalog of your org from the Teams admin center. It can help you to coordinate with admin and security teams to evaluate apps, verify app availability, verify app status, and more.
+
+:::image type="content" source="media/export-app-catalog-csv2.png" alt-text="Screenshot showing the option to export the app catalog as a CSV file.":::
+
+If you're using [app centric management](app-centric-management.md), then in addition to all the information that is available on the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps), the CSV also contains the user IDs and group IDs of users or groups for whom apps are made available by you.
+
+:::image type="content" source="media/export-app-catalog-csv1.png" alt-text="Screenshot showing the columns in the exported CSV file.":::
 
 ## Allow or block apps
 
