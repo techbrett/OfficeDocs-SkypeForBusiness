@@ -126,7 +126,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Connected peripheral health monitoring | Available | Not available |
 | | Remote Access | Available | Not available |
 | | Partner Delegation | Available | Available |
-| | Autopilot + Autologin | Available | Not available |
+| | Autopilot + Autologin | Available | Available |
 | | One Time Passcode | Available | Not available |
 | | ServiceNow Integration | Available | Available |
 | | Device grouping & Role-based access control | Available | Available |
