@@ -35,7 +35,7 @@ Brainstorm effortlessly in the office by tapping the **Whiteboard** button on th
 
 Temporary whiteboard example:
 
-:::image type="content" source="./media/whiteboard-rooms/whiteboard-image-1.png" alt-text="Whiteboard example for content that isn't save to OneDrive for Business.":::
+:::image type="content" source="../media/whiteboard-rooms/whiteboard-image-1.png" alt-text="Whiteboard example for content that isn't save to OneDrive for Business.":::
 
 > [!WARNING]
 > Users get an error to save the Whiteboard if they invite a participant who doesn't have OneDrive or has invited an guest.
@@ -44,7 +44,7 @@ Temporary whiteboard example:
 
 Once it's saved to a participant's OneDrive for Business:
 
-:::image type="content" source="./media/whiteboard-rooms/whiteboard-image-2.png" alt-text="Whiteboard example for content that is saved to OneDrive for Business.":::
+:::image type="content" source="../media/whiteboard-rooms/whiteboard-image-2.png" alt-text="Whiteboard example for content that is saved to OneDrive for Business.":::
 
 > [!NOTE]
 > Upon selecting **Start meeting**, Teams Rooms users can invite others to the meeting. A participant not joining through a Teams Rooms device must join for the Whiteboard to become collaborative. Whiteboard collaboration between two Teams Rooms only isn't supported.
