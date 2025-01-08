@@ -176,6 +176,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Singapore
 - South Africa
 - South Korea
+- Sweden
 - Switzerland
 - UAE
 - United Kingdom
