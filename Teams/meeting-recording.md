@@ -109,7 +109,7 @@ Follow these steps in the Teams admin center to turn explicit consent on or off 
 4. Either select an existing policy or create a new one.
 5. Within your chosen policy, navigate to the **Recording & Transcription** section.
 6. Toggle the **Require participant agreement for recording and transcription** setting **On** or **Off**.
-7. Select Save.
+7. Select **Save**.
 
 #### Manage explicit consent through PowerShell
 
