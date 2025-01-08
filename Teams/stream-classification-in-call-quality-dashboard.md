@@ -61,7 +61,7 @@ The video stream is marked  _Good_ or _Poor_ based on the value of a classifier 
 |  |  |  |  |  |  |  |
 
 ### Video Classifier
-A video stream is marked as _Good_ or _Poor_ based on the value of the first available metric in the following order:
+A video stream is marked as _Good_ or _Poor_ based on the value of the first available metric in the following order, assuming the stream's Packet Utilization is > 500 packets:
 
 |Step #|Metric|Condition |Classification if Condition is True |Classification if Condition is False |Classification if Metric is Unavailable |Explanation |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
