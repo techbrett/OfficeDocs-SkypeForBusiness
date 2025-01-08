@@ -6,6 +6,7 @@ manager: pamgreen
 ms.reviewer:  yoojinjung 
 ms.date: 01/08/2025  
 ms.topic: article
+audience: admin
 ms.service: msteams  
 ms.subservice: itpro-rooms  
 ms.localizationpriority: medium
@@ -16,10 +17,8 @@ ms.collection:
 ms.custom: QuickDraft  
 search.appverid: MET150  
 f1.keywords:
-  - NOCSH   
-audience: admin
-ai-usage:  
-- ai-assisted  
+    - NOCSH   
+
 description: Learn how to use Microsoft Whiteboard on Microsoft Teams Rooms to enhance collaboration during and outside of scheduled meetings.
 ---  
 
