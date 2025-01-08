@@ -18,7 +18,6 @@ ms.custom: QuickDraft
 search.appverid: MET150  
 f1.keywords:
     - NOCSH   
-
 description: Learn how to use Microsoft Whiteboard on Microsoft Teams Rooms to enhance collaboration during and outside of scheduled meetings.
 ---  
 
