@@ -68,9 +68,6 @@ The feature is available in Worldwide and GCC environments.
 
 Even if the **Start Whiteboard** feature is disabled and/or your Teams Rooms device isn't a Touch board device like Surface Hub 3, you can view and follow whiteboards shared by remote participants in a meeting. It mirrors a remote participant's view when the remote participant uses the [Follow me](https://support.microsoft.com/office/guide-participants-through-a-whiteboard-with-follow-e5950c68-4fe1-4567-b39f-8fe523abc67a) feature on the whiteboard.
 
-> [!NOTE]
-> If you want to disable the **Start Whiteboard** feature, apply `false` paremeter to the XML file.
-
 ## Whiteboard on Teams Rooms on Android
 
 The **Start Whiteboard** feature is enabled by default for any Teams Rooms on Android devices. We recommend enabling the Start Whiteboard feature only for Touch board devices because they are certified for the best whiteboarding experience. When the feature is enabled: 
