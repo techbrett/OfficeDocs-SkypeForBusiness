@@ -1,20 +1,23 @@
 ---  
 title: "Whiteboard on Teams Rooms" 
-description:  
 author: tonysmit
 ms.author: mstonysmith
 manager: pamgreen
-ms.date: 12/13/2024  
-ms.topic:  
-ms.service: msteams  
-ms.subservice: itpro-devices + itpro-rooms  
-ms.localizationpriority:  
-ms.collection:  
-ms.custom: QuickDraft  
 ms.reviewer:  yoojinjung 
+ms.date: 01/08/2025  
+ms.topic: article
+ms.service: msteams  
+ms.subservice: itpro-rooms  
+ms.localizationpriority: medium
+ms.collection:
+  - M365-collaboration
+  - teams-rooms-consoles
+  - Tier1
+ms.custom: QuickDraft  
 search.appverid: MET150  
-f1.keywords:  
-audience:  
+f1.keywords:
+  - NOCSH   
+audience: admin
 ai-usage:  
 - ai-assisted  
 description: Learn how to use Microsoft Whiteboard on Microsoft Teams Rooms to enhance collaboration during and outside of scheduled meetings.
