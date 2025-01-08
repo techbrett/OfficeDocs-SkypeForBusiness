@@ -37,7 +37,7 @@ Brainstorm effortlessly in the office by tapping the **Whiteboard** button on th
 
 Temporary whiteboard example:
 
-:::image type="content" source="/media/whiteboard-rooms/whiteboard-image-1.png" alt-text="Whiteboard example for content that isn't save to OneDrive for Business.":::
+:::image type="content" source="./media/whiteboard-rooms/whiteboard-image-1.png" alt-text="Whiteboard example for content that isn't save to OneDrive for Business.":::
 
 > [!WARNING]
 > Users get an error to save the Whiteboard if they invite a participant who doesn't have OneDrive or has invited an guest.
@@ -46,7 +46,7 @@ Temporary whiteboard example:
 
 Once it's saved to a participant's OneDrive for Business:
 
-:::image type="content" source="/media/whiteboard-rooms/whiteboard-image-2.png" alt-text="Whiteboard example for content that is saved to OneDrive for Business.":::
+:::image type="content" source="./media/whiteboard-rooms/whiteboard-image-2.png" alt-text="Whiteboard example for content that is saved to OneDrive for Business.":::
 
 > [!NOTE]
 > Upon selecting **Start meeting**, Teams Rooms users can invite others to the meeting. A participant not joining through a Teams Rooms device must join for the Whiteboard to become collaborative. Whiteboard collaboration between two Teams Rooms only isn't supported.
@@ -81,9 +81,10 @@ The **Start Whiteboard** feature is enabled by default for any Teams Rooms on An
 
 Even if the **Start Whiteboard** feature is disabled on your Teams Rooms on Android device, you can view and follow whiteboards shared by remote participants in a meeting. It mirrors a remote participant's view when the remote participant uses the [Follow me](https://support.microsoft.com/office/guide-participants-through-a-whiteboard-with-follow-e5950c68-4fe1-4567-b39f-8fe523abc67a) feature on the whiteboard.
 
-**Note:** If needed, you can disable the **Start Whiteboard** feature via the admin setting on your device or by applying a configuration profile in Teams Admin Center under **Allow room to use Microsoft Whiteboard** setting in the **Meeting settings** section.
+> [!NOTE]
+> If needed, you can disable the **Start Whiteboard** feature via the admin setting on your device or by applying a configuration profile in Teams Admin Center under **Allow room to use Microsoft Whiteboard** setting in the **Meeting settings** section.
 
 ## Related articles
 
-- [Microsoft Teams Rooms](/Teams/rooms/rooms-plan.md)
+- [Microsoft Teams Rooms](rooms-plan.md)
 - [Microsoft Whiteboard](https://microsoft-whiteboard.office.com)
