@@ -27,7 +27,7 @@ Microsoft Whiteboard on Microsoft Teams Rooms is a tool for enhancing collaborat
 
 For more information on Microsoft Whiteboard, see [Introduction to Microsoft Whiteboard](/microsoft-365/whiteboard).
 
-## Outside of a Meeting
+## Outside of a meeting
 
 Brainstorm effortlessly in the office by tapping the **Whiteboard** button on the home screen. With a single touch, Microsoft Whiteboard launches, enabling collaboration outside of a Teams meeting.
 
@@ -47,7 +47,7 @@ Once it's saved to a participant's OneDrive for Business:
 > [!NOTE]
 > Upon selecting **Start meeting**, Teams Rooms users can invite others to the meeting. A participant not joining through a Teams Rooms device must join for the Whiteboard to become collaborative. Whiteboard collaboration between two Teams Rooms only isn't supported.
 
-## In a Meeting
+## In a meeting
 
 When a remote participant shares a whiteboard in a meeting, Teams Rooms displays it in the shared content area.
 
@@ -66,7 +66,8 @@ The **Start whiteboard** feature is enabled by default for Touch board devices l
 
 Even if the **Start Whiteboard** feature is disabled and/or your Teams Rooms device isn't a Touch board device like Surface Hub 3, you can view and follow whiteboards shared by remote participants in a meeting. It mirrors a remote participant's view when the remote participant uses the [Follow me](https://support.microsoft.com/office/guide-participants-through-a-whiteboard-with-follow-e5950c68-4fe1-4567-b39f-8fe523abc67a) feature on the whiteboard.
 
-**Note:** If you want to disable the **Start Whiteboard** feature, please apply this XML: `false`
+> [!NOTE]
+> If you want to disable the **Start Whiteboard** feature, please apply this XML: `false`
 
 ## Whiteboard on Teams Rooms on Android
 
