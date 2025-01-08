@@ -85,4 +85,4 @@ Even if the **Start Whiteboard** feature is disabled on your Teams Rooms on Andr
 ## Related articles
 
 - [Microsoft Teams Rooms](rooms-plan.md)
-- [Set ip and use Microsoft Whiteboard](/surface-hub/whiteboard-collaboration)
+- [Set up and use Microsoft Whiteboard](/surface-hub/whiteboard-collaboration)
