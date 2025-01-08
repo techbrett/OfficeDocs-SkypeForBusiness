@@ -86,4 +86,4 @@ Even if the **Start Whiteboard** feature is disabled on your Teams Rooms on Andr
 ## Related articles
 
 - [Microsoft Teams Rooms](rooms-plan.md)
-- [Microsoft Whiteboard](https://microsoft-whiteboard.office.com)
+- [Microsoft Whiteboard](/microsoft-365/microsoft-whiteboard/digital-whiteboard-app)
