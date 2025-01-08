@@ -1,7 +1,7 @@
 ---  
 title: "Whiteboard on Teams Rooms" 
-author: tonysmit
-ms.author: mstonysmith
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer:  yoojinjung 
 ms.date: 01/08/2025  
