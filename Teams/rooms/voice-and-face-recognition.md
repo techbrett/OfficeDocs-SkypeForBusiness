@@ -99,7 +99,7 @@ The voice and face data for users is encrypted at rest and in transit and is pro
 
 ## Data retention
 
-When a user is enrolled in the feature and has an active Teams account, Microsoft keeps their voice and face profiles. Their voice and face profile is removed right away if they unenroll from the feature. Their voice and face profile is removed within 90 days if their Teams account is deleted. Admins can download voice and face profiles of users manually, using the Teams Admin Center. 
+When a user is enrolled in the feature and has an active Teams account, Microsoft keeps their voice and face profiles. Their voice and face profile is removed right away if they unenroll from the feature. Their voice and face profile is removed within 90 days if their Teams account is deleted. 
 
 If users enroll their voice or face profile, they can always choose to unenroll it later, even if the current assigned admin policy doesn't let them enroll.
 
@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Disabled
 > [!NOTE]
 > A new `csTeamsAIPolicy` for Microsoft Teams, now available via Microsoft PowerShell, will take effect in mid-January 2025. This policy will replace the existing enrollment setting in `csTeamsMeetingPolicy` and includes two settings: `EnrollFace` and `EnrollVoice`.
 > To help you get started, review:
-> - [Set-CsTeamsAIPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn](/powershell/module/teams/set-csteamsaipolicy)
+> - [Set-CsTeamsAIPolicy (MicrosoftTeamsPowerShell)](/powershell/module/teams/set-csteamsaipolicy)
 Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
 
 ```powershell
@@ -154,8 +154,6 @@ Admins can manage how voice and face profiles are used to turn off Voice Isolati
 
   -VoiceIsolation Disabled
 ```
-
- 
 
 To prevent recognition of users in meeting rooms, admins can turn off (default) face and voice identification on the Microsoft Teams room account in the meeting policy.
 

@@ -1,7 +1,7 @@
 ---
 title: Manage Microsoft 365 connectors and custom connectors
-author: ashishguptaiitb
-ms.author: guptaashish
+author: surbhigupta12
+ms.author: surbhigupta
 manager: prkosh
 ms.topic: article
 ms.service: msteams
@@ -46,6 +46,8 @@ To update the URL, follow these steps:
 1. Go to **Manage channel** in a Teams channel, select **Edit** under the Connectors option, and select **Configured** section. Check the existing connector connections on this page.
 
    :::image type="content" source="media/manage-channel-option.png" alt-text="Screenshot showing the manage channel option in Teams.":::
+
+   :::image type="content" source="media/manage-channel-option2.png" alt-text="Screenshot showing the configured section for the existing connector connections in a team.":::
 
 1. Update only those connections that display `Attention required` under the **Manage** option.
 

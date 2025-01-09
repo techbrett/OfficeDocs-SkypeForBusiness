@@ -3,8 +3,6 @@ items:
   href: teams-overview.md
 - name: Teams Premium overview
   href: enhanced-teams-experience.md
-- name: Set up Facilitator for AI notes
-  href: facilitator-teams.md
 - name: Get started
   items:
     - name: Deployment overview
@@ -564,6 +562,12 @@ items:
           href: browser-logs-and-tracing-for-teams.md
         - name: How to look up your support PIN
           href: support-pin.md
+    - name: Migration
+      items:
+        - name: Migrate from Slack to Teams
+          href: migrate-slack-to-teams.md
+        - name: Migration from Teams
+          href: migration-from-teams.md
 
 - name: Teams, chats, and channels
   items:
@@ -604,8 +608,6 @@ items:
             href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
-          - name: Migrate from Slack to Teams
-            href: migrate-slack-to-teams.md
           - name: Manage tags in Teams
             href: manage-tags.md
           - name: View analytics in Teams
@@ -804,10 +806,8 @@ items:
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
               href: meeting-transcription-captions.md
-            - name: Meeting recording storage and permissions in OneDrive and SharePoint
+            - name: Meeting recording and transcript storage and permissions
               href: tmr-meeting-recording-change.md
-            - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
-              href: delete-exchange-online-transcripts.md
         - name: Integration
           items:
             - name: eCDN
@@ -1307,8 +1307,8 @@ items:
               href: what-are-communications-credits.md
             - name: Set up Communications Credits for your organization
               href: set-up-communications-credits-for-your-organization.md
-            - name: Add funds and manage Communications Credits
-              href: add-funds-and-manage-communications-credits.md
+            - name: Turn off Communication Credits auto recharge
+              href: turn-off-communication-credits-auto-recharge-mca-customers.md
         - name: Emergency numbers country reference
           href: emergency-numbers-reference.md
         - name: Microsoft Teams call flows
@@ -1395,6 +1395,8 @@ items:
                       href: rooms/content-camera.md
                     - name: Coordinated meetings
                       href: rooms/coordinated-meetings.md
+                    - name: Whiteboard in Teams Rooms
+                      href: rooms/whiteboard-rooms.md
                     - name: Intelligent speaker
                       items:
                         - name: Voice and face recognition
@@ -1425,6 +1427,8 @@ items:
                       href: devices/reserving-rooms-with-a-qr-code.md
                     - name: Custom backgrounds on Teams panels
                       href: devices/custom-background-panels.md
+                    - name: Custom name for Teams panels
+                      href: devices/custom-names.md
             - name: Surface Hub (legacy)
               items: 
                 - name: Manage Microsoft Teams settings
@@ -1679,6 +1683,27 @@ items:
         - name: Hot desking Teams displays
           href: devices/hot-desking-teams-displays.md
 
+- name: AI, Copilot, and agents in Teams
+  items:
+    - name: AI features in Teams
+      items:
+      - name: Manage transcriptions and captions for Teams meetings
+        href: meeting-transcription-captions.md
+      - name: Manage voice isolation for calls and meetings
+        href: voice-isolation.md
+      - name: Set up AI recommendations for educators
+        href: institution-settings.md
+    - name: Copilot in Teams
+      items:
+        - name: Manage Copilot in Teams meetings and events
+          href: copilot-teams-transcription.md
+        - name: Teams Rooms and Copilot overview
+          href: rooms/copilot-admin-mtr.md
+    - name: Agents for Teams
+      items:
+        - name: Set up Facilitator for AI notes
+          href: facilitator-teams.md
+
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
@@ -1715,6 +1740,8 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
+        - name: Troubleshoot Walkie Talkie issues
+          href: walkie-talkie-troubleshoot.md
     - name: Manage partner apps
       items:
         - name: Understand partner apps

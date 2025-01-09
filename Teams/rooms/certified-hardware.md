@@ -36,10 +36,7 @@ The Microsoft Teams Devices Certification Program ensures certified devices meet
 >[!Important]
 >The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
 
-Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites. For additional certification information specific to **Teams Rooms for Android** see details below.  
-
-For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md). 
-
+  
 To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
 
 Numerous certified peripherals, from speakers to microphones and cameras, are available for use with Teams Rooms systems. Select the **Peripherals** tab for a complete list of peripherals and links to their respective product sites.
@@ -209,6 +206,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |||
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |||
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.html) with [Mic Pods](https://www.logitech.com/products/video-conferencing/accessories/mic-pod-for-rally.html) | Logi CollabOS: 1.10.425 <br/> Mic pods: 2.1.4 |  |  |||
+| [Logitech Rally Bar No Radio](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001669.html) | Logi CollabOS: 1.13.127 |  |  |  |  |
 | [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |||
 | [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |||
 | [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |||
@@ -229,6 +227,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.8.269710 |  |  | &#x2714; |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |||
 | [Owl Labs Meeting Owl 3](https://owllabs.com/products/meeting-owl-3) | 6.4.10.42 |  |  |||
+| [Owl Labs Owl Bar](https://owllabs.com/products/owl-bar) | 6.6.24.43 |  |  |  |  |
 | [Panasonic 360 degree camera speakerphone PressIT360](https://panasonic.net/cns/prodisplays/products/ty-csp1/) | 0.0.7904.54 |  |  |||
 | [Pansonic AW-UE4 camera](https://pro-av.panasonic.net/products/aw-ue4/) | 02.03 |  |  |||
 | [Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html) | 1.2.0 |  |  |||
@@ -268,12 +267,13 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yealink UVC86](https://www.yealink.com/product/camera-uvc86) | 151.410.0.5 |  |  |||
 | Yealink MSpeech | 136.410.0.19 |  |  |  | &#x2714; |
 | Yealink CM20 Ceiling Audio Kit | Yealink RoomConnect Software: 2.33.43.0 <br/> AVHub: 153.433.0.15 <br/> CM20: 294.410.0.35 <br/> CS10: 298.410.0.40 |  |  |||
+| Yealink CM50 Premium Ceiling Audio Kit | AP08: 294.420.0.10 <br/> CM50: 294.420.0.10 <br/> CS10-D: 298.420.0.5 |  |  |||
 | Shure Microflex Ecosystem<sup>1</sup>:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + <br/>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + <br/>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, <br/> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, <br/> MXN5W-C: FW 1.0.4 |  |  |||
 |Shure Microflex Ecosystem<sup>1</sup>: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + <br/>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + <br/>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, <br/>MXN5W-C: FW 1.0.4 |  |  |||
 | Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPXD2 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter:  1.1.0.236 <br/>MXWAPXD2: 1.1.0.236 <br/>MXN5W-C: 1.5.21.0 |  |  |||
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
-| Sennheiser TC Bar M | 0.9.17 |  |  |||
-| Sennheiser TC Bar S | 0.9.17 |  |  |||
+| Sennheiser TC Bar M | 1.1.7 |  |  |||
+| Sennheiser TC Bar S | 1.1.7 |  |  |||
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;<br/>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;<br/>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 <br/> TCC2: 1.3.3 <br/>EX-UBT: 3.12.0.15 |  |  |||
 | [Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+<br/>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+<br/>Biamp Desono C-IC6 ceiling mounted loudspeaker | Audio FW version: 3.15 |  |  |||
 | [Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ <br/>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+<br/>[Ex-UBT]() | Audio FW version: 3.15 |  |  |||
