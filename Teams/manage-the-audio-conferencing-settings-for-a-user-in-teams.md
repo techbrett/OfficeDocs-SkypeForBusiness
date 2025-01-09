@@ -33,8 +33,10 @@ As an admin, you can edit Audio Conferencing settings like the provider, default
 
 ## Using the Microsoft Teams admin center
 
-1. In the left navigation, select **Users**, and then select on the name of the user you want to manage.
-2. Under **Audio Conferencing** in the **Account** tab, edit any of the following settings:
+1. Open the Teams admin center.
+2. Expand **Users** from the navigation pane and select **Manage users**.
+3. Select the name of the user you want to manage.
+4. Under **Audio Conferencing** in the **Account** tab, edit any of the following settings:
 :::image type="content" source="media/new-ac-user-small.png" alt-text="Screenshot of Audio Conferencing settings for a user in the Microsoft Teams Admin Center" lightbox="media/new-ac-user-expand.png":::
 
 | Setting | Description |
