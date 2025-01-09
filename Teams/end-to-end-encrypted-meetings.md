@@ -31,7 +31,7 @@ End-to-end encryption is the encryption of information at its origin and decrypt
 
 End-to-end encrypted meetings can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac or they are on a mobile device with the latest update for iOS and Android.
 
-Web, Virtual Desktop (VDI), and Cloud Video Interoperability(CVI) devices aren't currently supported. Participants trying to join an end-to-end encrypted meeting from one of these platforms are blocked.
+Web, Virtual Desktop (VDI), and Cloud Video Interoperability(CVI) devices aren't currently supported. Participants trying to join an end-to-end encrypted meeting from one of these platforms is blocked.
 
 A maximum of 200 participants can attend an end-to-end encrypted meeting.
 
@@ -74,7 +74,7 @@ If your organization uses compliance recording for 1:1 calls, end-to-end encrypt
 
 ## Manage who can create meetings with end-to-end encryption
 
-End-to-end meeting encryption is controlled by Teams admin enhanced encryption policies. It is on by default in the Global (Org-wide default) policy, giving meeting organizers who have a Teams Premium license the ability to schedule meetings, including channel meetings, that use end-to-end encryption. You can update the default policy or create additional policies as needed to manage end-to-end meeting encryption for different users.
+The Teams admin enhanced encryption policies control end-to-end meeting encryption. It is on by default in the Global (Org-wide default) policy, allowing meeting organizers with a Teams Premium license to schedule meetings, including channel meetings, that use end-to-end encryption. You can update the default policy or create more policies as needed.
 
 If the policy is turned on for a meeting organizer, you can enforce end-to-end meeting encryption by using a meeting template. Sensitivity labels can enforce end-to-end encryption even if the policy isn't enabled for the meeting organizer.
 
