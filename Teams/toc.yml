@@ -614,6 +614,8 @@ items:
             href: create-an-org-wide-team.md
           - name: Create people manager teams
             href: create-manager-directs-teams.md
+          - name: Set up dynamic membership
+            href: dynamic-memberships.md
            
       - name: Manage teams
         items:

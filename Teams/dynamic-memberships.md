@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: arnavgupta
-ms.date: 12/19/2024
+ms.date: 01/09/2025
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
