@@ -33,19 +33,21 @@ Brainstorm effortlessly in the office by tapping the **Whiteboard** button on th
 
 - **Temporary Whiteboards:** Since resource accounts don't have OneDrive, starting a whiteboard from Teams Rooms creates a temporary session. To save your work, select the **Save** button and invite your Teams work account. This ensures the whiteboard is saved in your OneDrive for Business.
 
-Temporary whiteboard example:
-![Whiteboard example for content that isn't save to OneDrive for Business.](media/whiteboard-rooms/whiteboard-image-1.png)
+    Temporary whiteboard example:
+  
+    ![Whiteboard example for content that isn't saved to OneDrive for Business.](media/whiteboard-rooms/whiteboard-image-1.png)
 
-> [!WARNING]
-> Users get an error to save the Whiteboard if they invite a participant who doesn't have OneDrive or has invited a guest.
+  > [!WARNING]
+  > Users get an error to save the Whiteboard if they invite a participant who doesn't have OneDrive or has invited a guest.
 
 - **Switch to online collaboration:** Transition seamlessly from local to online collaboration by selecting **Start meeting** on the whiteboarding screen. This initiates an ad-hoc meeting and presents a temporary whiteboard. Add participants to the meeting and collaborate in real-time. The temporary whiteboard is saved to the OneDrive of the first participant, in the same tenant, who doesn't join through a Teams Rooms device. Participants get an email from the whiteboard owner with a link to the whiteboard. Additionally, participants can access the whiteboard in the meeting chat's **Meeting Whiteboard** tab menu.
 
-Once it's saved to a participant's OneDrive for Business:
-![Whiteboard example for content that is saved to OneDrive for Business.](media/whiteboard-rooms/whiteboard-image-2.png)
+  Once it's saved to a participant's OneDrive for Business:
+  
+  ![Whiteboard example for content that is saved to OneDrive for Business.](media/whiteboard-rooms/whiteboard-image-2.png)
 
-> [!NOTE]
-> Upon selecting **Start meeting**, Teams Rooms users can invite others to the meeting. A participant not joining through a Teams Rooms device must join for the Whiteboard to become collaborative. Whiteboard collaboration between two Teams Rooms only isn't supported.
+  > [!NOTE]
+  > Upon selecting **Start meeting**, Teams Rooms users can invite others to the meeting. A participant not joining through a Teams Rooms device must join for the Whiteboard to become collaborative. Whiteboard collaboration between two Teams Rooms only isn't supported.
 
 ## In a meeting
 
