@@ -245,7 +245,7 @@ Teams meeting recordings are stored in the organizer's OneDrive and SharePoint s
 
 ## Troubleshooting
 
-To learn about why users are can't record meeting see [I can't record a meeting in Microsoft Teams](https://support.microsoft.com/office/i-can-t-record-a-meeting-in-microsoft-teams-f35329c2-57b1-487f-b5e3-70a7efb0945b).</br>
+To learn about why users can't record meeting, see [I can't record a meeting in Microsoft Teams](https://support.microsoft.com/office/i-can-t-record-a-meeting-in-microsoft-teams-f35329c2-57b1-487f-b5e3-70a7efb0945b).</br>
 To learn how to use diagnostic tools, see [Issues that affect meeting recordings](/microsoftteams/troubleshoot/meetings/troubleshoot-meeting-recording-issues).
 
 ## Related topics
