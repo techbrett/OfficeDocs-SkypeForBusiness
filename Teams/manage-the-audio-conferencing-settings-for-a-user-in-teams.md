@@ -43,7 +43,7 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
 |**PIN** |Select **Reset PIN** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md). |
 |**Default conferencing toll phone number** (required) |The numbers set on the audio conferencing bridge. Format the numbers as you want them to appear in Teams meeting requests. To change the default toll number, select **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, select a number under **Toll number**. You can also set phone numbers by adding them to the **`-Set-CsTeamsAudioConferencingPolicy`** and assigning the policy to your users. Phone numbers added to the policy take precedence over the phone numbers set using **Default conferencing Toll phone number**. If no phone numbers are added to the **`-Set-CsTeamsAudioConferencingPolicy`**, then the phone number set using **Default conferencing Toll phone number** is displayed in Microsoft Teams meeting requests. |
 |**Invites from this user can include toll-free number**|This setting can only be changed using the **`-Set-CsTeamsAudioConferencingPolicy`**. |
-|**Unauthenticated users can be the first person in the meeting**|To change this setting, toggle **Unauthenticated users can be the first person in the meeting** On or Off.
+|**Unauthenticated users can be the first person in the meeting**|To change this setting, toggle **Unauthenticated users can be the first person in the meeting** **On** or **Off.**|
 |**Dial-out permissions**|To change this setting, select **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, choose an option under **Dial-out from meetings**.|
 
 > [!NOTE]
