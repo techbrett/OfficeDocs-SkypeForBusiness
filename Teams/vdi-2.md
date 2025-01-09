@@ -387,6 +387,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
        - If the presenter maximizes the call monitor (which destroys the self preview of what the presenter is sharing).
   - Stopping and resharing the window should resolve the issue.
   - This issue has been resolved in new Teams 24335.206.X.X or higher versions.
+- If you're on a video call and you open the Start menu on the virtual machine, a blank screen shows in the Teams meeting window instead of the video feed.
 
 #### Citrix virtual channel allow list
 
