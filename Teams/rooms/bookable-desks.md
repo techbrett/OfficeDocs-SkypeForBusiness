@@ -25,7 +25,7 @@ description: Helps admins set up Bookable Desks for their Microsoft Teams organi
 
 # Setting up Bookable Desks in Microsoft Teams
 
-Unlock the full potential of your desks with Microsoft Teams. Bookable desks in Microsoft Teams are designed to enhance the efficiency of your organization by enabling users to seamlessly reserve desks while providing you with the tools to understand and manage those spaces.
+Unlock the full potential of your desks with Microsoft Teams. Bookable desks in Microsoft Teams are designed to enhance the efficiency of your organization by enabling users to seamlessly reserve desks upon plug-in to peripherals while providing you with the tools to understand and manage those spaces.
 
 ## Overview of steps  
 
@@ -45,14 +45,13 @@ To set up and use Bookable Desks in your organization, you must perform these ta
 
 - Confirm that you have access to the Microsoft Teams Pro Management portal.
 
-- Create and set up the required resource accounts found in Step 2.
 - Ensure that your users have access to the new version of Microsoft Teams desktop app on Windows or Mac.
 
 ## Step 2 - Create Desk Pool Accounts
 
 Desk pool accounts, known as **'workspaces'** in Exchange, are slightly different from room accounts. The capacity of a desk pool represents the number of seats in that pool and is set by the admin. The pool can be reserved by multiple users at the same time until all seats (the capacity) are taken. For example, the capacity on a desk pool is set to 2. User A and User B are both able to reserve it from 8am to 5pm, and the remaining capacity will be 0. This means that a third user won't be able to reserve it between 8am and 5pm.
 
-To create a desk pool account, you'll need to set up the workspace resource account in Exchange. To ensure compatibility, we recommend following the steps outlined in [Configure desk booking - Microsoft Places | Microsoft Learn](/microsoft-365/places/configure-desk-booking?branch=main#configure-desk-pools).
+To create a desk pool account, you'll need to set up the workspace resource account in Exchange. We recommend following the steps outlined in [Configure desk booking](/microsoft-365/places/configure-desk-booking?branch=main#configure-desk-pools).
 
 After you create the account, allow 24 to 48 hours for the account to appear in Outlook, Teams, and Teams Rooms Pro Management Portal.
 
@@ -60,7 +59,7 @@ After you create the account, allow 24 to 48 hours for the account to appear in 
 
 Next, to ensure a seamless user experience, peripherals such as the monitors on the physical desks need to be associated or linked to the desk pool account you created earlier. To do this, you need to identify the peripherals based on their unique information such as product ID, vendor ID, and serial number.
 
-You can use a free PowerShell script to fetch the details of a peripheral and ensure they're mapped to the corresponding desk pool accounts in the Teams Rooms Pro Management portal. The PowerShell script is located [here ](https://www.microsoft.com/en-us/download/details.aspx?id=106063)to download, and for detailed step-by-step instructions, see [Add peripherals to inventory - Microsoft Teams | Microsoft Learn](/microsoftteams/rooms/get-peripheral-information).
+You can use a free PowerShell script to fetch the details of a peripheral and ensure they're mapped to the corresponding desk pool accounts in the Teams Rooms Pro Management portal. The PowerShell script is located [here ](https://www.microsoft.com/en-us/download/details.aspx?id=106063)to download, and for detailed step-by-step instructions, see [Add peripherals to inventory](/microsoftteams/rooms/get-peripheral-information).
 
 ## Step 4 - Enable additional features for users
 
@@ -68,7 +67,7 @@ You have the option to [enable the automatic work location update policy](/power
 
 ## Step 5 - Test the end user experience
 
-Wait 24 hours after associating to test this experience. After that point, ensure that you're signed into Teams on a Windows or Mac laptop. Upon plugging the laptop into a peripheral you associated to a desk pool account and assuming there are seats available to book, you should receive an activity feed notification that 'The space is reserved and ready for you' along with a booking in your calendar. You can also reserve the desk for a future time slot. To learn more on the end user experience, see [First things to know about bookable desks in Microsoft Teams - Microsoft Support](https://support.microsoft.com/en-us/office/first-things-to-know-about-bookable-desks-in-microsoft-teams-5d10c217-1205-48a1-a883-ff4533f4ae71?preview=true)
+Wait 24 hours after associating to test this experience. After that point, ensure that you're signed into Teams on a Windows or Mac laptop. Upon plugging the laptop into a peripheral you associated to a desk pool account and assuming there are seats available to book, you should receive an activity feed notification that 'The space is reserved and ready for you' along with a booking in your calendar. You can also reserve the desk for a future time slot. To learn more on the end user experience, see [First things to know about bookable desks in Microsoft Teams](https://support.microsoft.com/en-us/office/first-things-to-know-about-bookable-desks-in-microsoft-teams-5d10c217-1205-48a1-a883-ff4533f4ae71?preview=true).
 
 ## Frequently asked questions
 
@@ -82,7 +81,7 @@ Wait 24 hours after associating to test this experience. After that point, ensur
 
 **Question:** **Is the bookable desks feature available on Classic (old Teams) and new Teams?**
 
-**Answer**: No, the bookable desk experience is only available on the new Teams client. To download and switch to the latest Teams client see, [New Microsoft Teams – Microsoft Adoption](https://adoption.microsoft.com/en-us/new-microsoft-teams/)
+**Answer**: No, the bookable desk experience is only available on the new Teams client. To download and switch to the latest Teams client see, [New Microsoft Teams](https://adoption.microsoft.com/en-us/new-microsoft-teams/).
 
 **Question: Does Bookable** **desks work with Microsoft Places?**
 
