@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: maahma
-ms.date: 12/15/2023
+ms.date: 1/9/2024
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -35,7 +35,7 @@ Web, Virtual Desktop (VDI), and Cloud Video Interoperability(CVI) devices aren't
 
 A maximum of 200 participants can attend an end-to-end encrypted meeting.
 
-> [!Note]
+> [!NOTE]
 > End-to-end meeting encryption requires Teams Premium.
 
 If you don't enable end-to-end encryption, Teams still secures meetings using encryption based on industry standards. Data exchanged during meetings is always secure while in transit and at rest. For more information, see [Media encryption for Teams](teams-security-guide.md#media-encryption).
@@ -78,7 +78,7 @@ End-to-end meeting encryption is controlled by Teams admin enhanced encryption p
 
 If the policy is turned on for a meeting organizer, you can enforce end-to-end meeting encryption by using a meeting template. Sensitivity labels can enforce end-to-end encryption even if the policy isn't enabled for the meeting organizer.
 
-To manage the end-to-end meeting encryption policy
+To manage the end-to-end meeting encryption policy, follow these steps:
 
 1. In the Teams admin center, select **Enhanced encryption policy**.
 
@@ -90,6 +90,5 @@ To manage the end-to-end meeting encryption policy
 
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
-
-[Use end-to-end encryption for one-to-one Microsoft Teams calls](teams-end-to-end-encryption.md)
+- [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+- [Use end-to-end encryption for one-to-one Microsoft Teams calls](teams-end-to-end-encryption.md)
