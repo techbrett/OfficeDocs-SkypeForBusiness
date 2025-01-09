@@ -1395,6 +1395,8 @@ items:
                       href: rooms/content-camera.md
                     - name: Coordinated meetings
                       href: rooms/coordinated-meetings.md
+                    - name: Whiteboard in Teams Rooms
+                      href: rooms/whiteboard-rooms.md
                     - name: Intelligent speaker
                       items:
                         - name: Voice and face recognition
