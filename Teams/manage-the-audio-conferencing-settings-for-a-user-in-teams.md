@@ -29,7 +29,7 @@ description: An admin can edit the Teams Audio Conferencing settings, including 
 
 # Manage the Audio Conferencing settings for a user in Microsoft Teams
 
-As an admin, you can edit Audio Conferencing settings like the provider, default toll or toll-free number, conference ID, or PIN for each user in your organization. To edit settings for your organization, see [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+As an admin, you can edit Audio Conferencing settings for each user in your organization. To edit settings for your organization, see [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
 ## Using the Microsoft Teams admin center
 
