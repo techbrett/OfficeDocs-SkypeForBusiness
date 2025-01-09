@@ -58,7 +58,7 @@ As an admin, you can manage the following recording policies:
 - [Block or allow download of channel meeting recordings](#block-or-allow-download-of-channel-meeting-recordings)
 - [Expiration policy](#expiration-policy)
 - [Set a custom privacy policy URL](#set-a-custom-privacy-policy-url)
-- [Meeting recording diagnostic tools](#meeting-recording-diagnostic-tools)
+- [Meeting recording diagnostic tools](/microsoftteams/troubleshoot/meetings/troubleshoot-meeting-recording-issues)
 
 ## External participants
 
