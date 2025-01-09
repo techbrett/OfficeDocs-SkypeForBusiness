@@ -24,7 +24,7 @@ description: Learn to manage meeting and event policy settings in Teams and use 
 ---
 # Manage meeting and event policies in Microsoft Teams
 
-**APPLIES TO:** ![Image of a checkmark for yes](media/circle-check.png) Meetings ![Image of a checkmark for yes](media/circle-check.png) Webinars ![Image of a checkmark for yes](media/circle-check.png) Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
 
 As an admin, you can use meeting and event policies to control the features that are available to organizers and participants of meetings, webinars, and town halls in your organization. Depending on the feature, you can manage meeting policies in the Microsoft Teams admin center or through [PowerShell](teams-powershell-overview.md).
 
@@ -48,6 +48,7 @@ Policies are implemented in one of the following ways:
 
 > [!NOTE]
 > Once you create a policy, its name can't be changed.
+> To access this policy in the new experience, navigate to Settings & policies. [Unified policies and settings management](/microsoftteams/unified-policies-settings-management-teams-admin-center)
 
 This video shows the steps to create and assign a custom meeting policy to a user (or users).
 
@@ -78,7 +79,9 @@ This video shows the steps to edit an organizational-wide default meeting policy
 
 ## Related topics
 
+- [Unified policies and settings management](/microsoftteams/unified-policies-settings-management-teams-admin-center)
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)
+

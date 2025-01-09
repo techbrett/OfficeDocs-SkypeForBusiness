@@ -18,7 +18,7 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 search.appverid: MET150
-description: This article describes the Cloud IntelliFrame feature.
+description: This article describes the Cloud IntelliFrame feature for Teams Rooms.
 ---
 
 # Cloud IntelliFrame
@@ -30,15 +30,15 @@ Cloud IntelliFrame is a new experience that allows online meeting attendees to s
 > [!IMPORTANT]
 > Install appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
 
-All Microsoft Teams Rooms on Windows with a Pro license equipped with cameras (specified in [Supported cameras](#supported-cameras)) automatically opt-in to Cloud IntelliFrame. Online participants on Microsoft Teams Desktop (Windows and Mac) will see the IntelliFrame video feed as a secondary option from rooms with these cameras.
+All Microsoft Teams Rooms on Windows with a Pro license equipped with cameras (see: [Cameras enabled by default](#cameras-enabled-by-default)) automatically opt-in to Cloud IntelliFrame. Online participants on Microsoft Teams Desktop (Windows and Mac) will see the IntelliFrame video feed as a secondary option from rooms with these cameras.
 
 Cloud IntelliFrame shows the smart feed when there are nine or less people in the room. It automatically switches between the standard room view and IntelliFrame view based on in-room activity. For example, if someone enters the meeting room, the view would automatically switch to standard room view until the individual settles down.
 
 :::image type="content" source="../media/video-conference.png" alt-text="Screenshot that shows how a video conference looks like." lightbox="../media/video-conference.png":::
 
-People in the room can disable IntelliFrame by using the in-meeting settings on the console. These settings turn off Cloud IntelliFrame and enable a switchback to standard view for the room. All online attendees would then see the standard view from the room.
+People in the room can disable IntelliFrame by using the in-meeting settings on the console. These settings turn off Cloud IntelliFrame and switch back to standard view of the room. All online attendees would then see the standard view of the room.
 
-:::image type="content" source="../media/standard-view-of-teams-room.png" alt-text="Screenshot that shows how the standard view of a Teams room looks on a computer." lightbox="../media/standard-view-of-teams-room.png":::
+:::image type="content" source="../media/standard-view-of-teams-room.png" alt-text="Screenshot that shows how the standard view of a Teams Room looks on a computer." lightbox="../media/standard-view-of-teams-room.png":::
 
 People on Teams Desktop can also toggle IntelliFrame on/off by right-clicking on the room's video tile and selecting **Turn off IntelliFrame**. This option switches off the IntelliFrame view just on their Teams client.
 
@@ -52,29 +52,26 @@ The following table provides information about which client can view Cloud Intel
 |---------|---------|
 |Windows     |   Available      |
 |Mac     |        Available |
-|iOS     |    Coming Soon     |
-|Android     |  Coming Soon       |
+|iOS     |    Available     |
+|Android     |  Available       |
 |Web     |      Available   |
 |Teams Rooms on Windows     |    Available     |
-|Teams Rooms on Android     |     Coming Soon    |
-|Teams Display     |   Coming Soon      |
+|Teams Rooms on Android     |     Available    |
 
 ### Data Retention
 
-Cloud IntelliFrame runs on Azure and is fully compliant with M365 data processing with full separation between tenant boundaries. The infrastructure of Cloud IntelliFrame is no different from the infrastructure we use to record Teams Meetings.
+Cloud IntelliFrame runs on Azure and is fully compliant with Microsoft 365 data processing with full separation between organizational boundaries. The infrastructure of Cloud IntelliFrame is no different from the infrastructure we use to record Teams Meetings.
 
- Cloud IntelliFrame does not store meeting data or any identifiable information. The only data we log is what is needed to improve the service (for example, how long did it take to switch from room view to gallery, how often does the view layout change during the meeting), and to understand how Cloud IntelliFrame was used (for example, are end-users enabling/disabling it?).
+Cloud IntelliFrame doesn't store meeting data or any identifiable information. The only data we log is what is needed to improve the service (for example, how long did it take to switch from room view to gallery, how often does the view layout change during the meeting), and to understand how Cloud IntelliFrame was used (for example, are end-users enabling/disabling it?).
 
-### Supported cameras
+## Cameras enabled by default
 
-The following camera models when deployed in Microsoft Teams Rooms on Windows with a Pro license automatically use the Cloud IntelliFrame:
+The following camera models don't have their own built in intelligence. When deployed in Microsoft Teams Rooms on Windows with a Pro license, Teams Rooms automatically enables Cloud IntelliFrame:
 
 - AVer CAM520 Pro 
 - AVer CAM520 Pro2
 - Crestron P12
-
 - Crestron P20
-
 - Jabra PanaCast 
 - Lenovo ThinkSmart One
 - Logitech BRIO
@@ -86,7 +83,7 @@ The following camera models when deployed in Microsoft Teams Rooms on Windows wi
 - Logitech Webcam C925e
 - Logitech Webcam C920
 - Logitech Webcam C930e
-- Microsoft® LifeCam Studio
+- Microsoft LifeCam Studio
 - Poly EagleEye CUBE
 - Polycom EagleEye IV
 - Surface Hub Smart Camera
@@ -113,6 +110,42 @@ To switch off Cloud IntelliFrame in a room, perform the following steps:
 
 1. Restart the console for the configuration changes to take effect.
 
+## Override Default Settings
+
+Admins have granular control over Cloud IntelliFrame's end-user behavior. These settings can be configured either through XML or directly from the in-room console:
+
+#### XML Settings
+
+|Setting|Values|Purpose|
+| -------- | -------- | -------- |
+| EnableCloudIntelliFrame|True / False   |Enable or disable Cloud IntelliFrame for this room.|
+|EnableCIFOnByDefault|True / False|Enable by default or allow room users to manually switch it on.|
+|EnableCIFOnSupportedCamerasOnly|True / False|Restrict to supported cameras or allow any camera.|
+
+#### Console Setting
+
+To modify Cloud IntellIFrame settings via the console, navigate to **Settings > Peripherals > Cameras > Cloud intelliFrame** to:
+
+- Enable or disable Cloud IntelliFrame
+
+- Configure whether Cloud IntelliFrame is on by default or if in-room users can manually enable it
+
+- Override the default setting to allow Cloud IntelliFrame to work on any camera
+
+![Console setting: Cloud IntelliFrame is on for this room using supported camera.](media/cloud-intelliframe/on,-supported-cameras-only,-supported-camera-selected.png)
+
+When using an unsupported camera, the console settings appear as below. Even though Cloud IntelliFrame setting is on, the experience isn't enabled for the room because it's using an unsupported camera. 
+
+![Cloud IntelliFrame disabled for unsupported camera.](media/cloud-intelliframe/on,-supported-cameras-only,-unsupported-camera-in-use.png)
+
+Uncheck the unsupported cameras only setting to override the supported camera list and enable Cloud IntelliFrame for a room with any camera:
+
+![Cloud intelliFrame enabled for unsupported camera via override.](media/cloud-intelliframe/on,-all-cameras,-unsupported-camera-in-use.png)
+
+When enabling Cloud IntelliFrame on a nonsupported camera, ensure that other AI features (for example, Speaker Tracking, Grid View) are turned off, as they can interfere with Cloud IntelliFrame.
+
 > [!IMPORTANT]
-> You are responsible for compliance with local laws and regulations when you enable Cloud IntelliFrame in a particular jurisdiction, including with respect to obligations around notice, consent, and data retention. These obligations may include installing appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
-> Cloud IntelliFrame does not have the capacity to identify particular individuals, due to the uncertainty regarding the scope of “biometrics” in the State of Illinois law; therefore, Cloud IntelliFrame is not intended for use in Illinois.
+> You're responsible for compliance with local laws and regulations when you enable Cloud IntelliFrame in a particular jurisdiction, including with respect to obligations around notice, consent, and data retention. These obligations may include installing appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
+> Cloud IntelliFrame doesn't have the capacity to identify particular individuals, due to the uncertainty regarding the scope of “biometrics” in the State of Illinois law; therefore, Cloud IntelliFrame isn't intended for use in Illinois.
+> When enabling Cloud IntelliFrame on a nonsupported camera, ensure that other AI features (for example, Speaker Tracking, Grid View) are turned off, as they can interfere with Cloud IntelliFrame.
+
