@@ -44,7 +44,7 @@ Direct Routing complies with RFC standards.  The SBC connected to Direct Routing
 The following standards are applicable to devices that support only non-media bypass mode:
 
 - [RFC 3261 SIP](https://tools.ietf.org/html/rfc3261): Session Initiation Protocol
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Private Extension to the Session Initiation Protocol for asserted identity within Trusted Networks--Sections about handling P-Asserted-Identity header. Direct Routing sends P-Asserted-Identity with Privacy ID headers. 
+- [RFC 3325](https://www.ietf.org/rfc/rfc3325.txt) Private Extension to the Session Initiation Protocol for asserted identity within Trusted Networks--Sections about handling P-Asserted-Identity header. Direct Routing sends P-Asserted-Identity with Privacy ID headers. 
 - [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) An extension to Session Initiation Protocol (SIP) for required History Information. See also: Routing SIP Protocol description for more information.
 - [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) The Session Initiation Protocol Referred-By mechanism
 - [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) The Session Initiation Protocol (SIP) "Replaces" Header 
