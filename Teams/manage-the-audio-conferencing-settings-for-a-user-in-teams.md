@@ -1,5 +1,5 @@
 ---
-title: Manage Audio Conferencing settings for users
+title:  Manage the Audio Conferencing settings for a user in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -24,12 +24,12 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: A Microsoft 365 or Office 365 admin can edit the Teams Audio Conferencing settings, including provider, default toll or toll-free number, conference ID, or PIN for a user.
+description: An admin can edit the Teams Audio Conferencing settings, including provider, default toll or toll-free number, conference ID, or PIN for a user.
 ---
 
 # Manage the Audio Conferencing settings for a user in Microsoft Teams
 
-As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+As an admin, you can edit Audio Conferencing settings like the provider, default toll or toll-free number, conference ID, or PIN for each user in your organization. To edit settings for your organization, see [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
 ## Using the Microsoft Teams admin center
 
@@ -41,7 +41,7 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
 |:-----|:-----|
 |**Send conference info in email**  |Select this link to instantly send an email to the user with their audio conferencing phone number. This email doesn't include the PIN.For more information, see [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
 |**PIN** |Select **Reset PIN** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md). |
-|**Default conferencing toll phone number** (required) |Set the numbers on the audio conferencing bridge and format them as you want them to appear in Teams meeting invitations. To change the default toll number, select **Edit** next to **Audio Conferencing.** In the **Audio Conferencing** pane, choose a number under **Toll number.** You can also set phone numbers by adding them to the **`-Set-CsTeamsAudioConferencingPolicy`** and assigning the policy to your users. Phone numbers added to the policy take precedence over those set using the **Default conferencing Toll phone number**. If no phone numbers are added to the **`-Set-CsTeamsAudioConferencingPolicy`**, the phone number set with **Default conferencing Toll phone number** is shown on Microsoft Teams meeting invitations.|
+|**Default conferencing toll phone number** (required) |Set the numbers on the audio conferencing bridge and format them as you want them to appear in Teams meeting invitations. To change the default toll number, select **Edit** next to **Audio Conferencing.** In the **Audio Conferencing** pane, choose a number under **Toll number.** You can also set phone numbers by adding them to the **`-Set-CsTeamsAudioConferencingPolicy`** and assigning the policy to your users. Phone numbers added to the policy take precedence over numbers set using the **Default conferencing Toll phone number**. If no phone numbers are added to the **`-Set-CsTeamsAudioConferencingPolicy`**, the phone number set with **Default conferencing Toll phone number** is shown on Microsoft Teams meeting invitations.|
 |**Invites from this user can include toll-free number**|This setting can only be changed using the **`-Set-CsTeamsAudioConferencingPolicy`**. |
 |**Unauthenticated users can be the first person in the meeting**|To change this setting, toggle **Unauthenticated users can be the first person in the meeting** **On** or **Off.**|
 |**Dial-out permissions**|To change this setting, select **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, choose an option under **Dial-out from meetings**.|
