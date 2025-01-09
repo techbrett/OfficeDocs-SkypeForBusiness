@@ -34,7 +34,6 @@ When a shared channel is created, it's linked to the parent team and can't be mo
 
 [Compare shared channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
-
 ## Getting started with shared channels
 
 Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies).
@@ -195,7 +194,7 @@ All the actions performed for [existing audit events](/microsoft-365/compliance/
 
 For information about how to prepare your app for shared channels, see [Microsoft Teams Connect shared channels](/microsoftteams/platform/concepts/build-and-test/shared-channels).
 
-The following apps are supported for use in shared channels. 
+The following apps are supported for use in shared channels.
 
 - Activity
 - Adobe Acrobat Sign
@@ -256,14 +255,9 @@ The following apps are supported for use in shared channels.
 
 ## Related topics
 
-[Limits for shared channels](limits-specifications-teams.md#limits-for-shared-channels)
-
-[B2B direct connect overview](/azure/active-directory/external-identities/b2b-direct-connect-overview)
-
-[Configure cross-tenant access settings for B2B direct connect](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-direct-connect)
-
-[Overview of teams and channels in Teams](teams-channels-overview.md)
-
-[Private channels in Microsoft Teams](/microsoftteams/private-channels)
-
-[Shared channels in Microsoft Teams - Microsoft Mechanics](https://youtu.be/rE_QTfkOtnc)
+- [Limits for shared channels](limits-specifications-teams.md#limits-for-shared-channels)
+- [B2B direct connect overview](/azure/active-directory/external-identities/b2b-direct-connect-overview)
+- [Configure cross-tenant access settings for B2B direct connect](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-direct-connect)
+- [Overview of teams and channels in Teams](teams-channels-overview.md)
+- [Private channels in Microsoft Teams](/microsoftteams/private-channels)
+- [Shared channels in Microsoft Teams - Microsoft Mechanics](https://youtu.be/rE_QTfkOtnc)

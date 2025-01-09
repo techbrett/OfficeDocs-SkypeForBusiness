@@ -1,7 +1,7 @@
 ---
 title: Integrate custom collaboration applications with Microsoft 365
 ms.reviewer: daro
-ms.date: 09/27/2023
+ms.date: 01/09/2025
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
@@ -27,7 +27,7 @@ This article provides an overview of collaboration-related integrations in Micro
 
 Microsoft 365 provides standard application programming interfaces (APIs) to all developers to enable integrations, including the functionality relied upon by Microsoft product and services for such integrations. Developers can use these APIs to create many similar experiences in their own applications.
 
-#### User account management
+### User account management
 
 Microsoft 365 uses Microsoft Entra ID for authentication and authorization of users, including people outside your organization (B2B guests), and for maintaining user profile information.
 
@@ -35,19 +35,19 @@ Microsoft Entra authentication is used by Microsoft 365 web applications such as
 
 Microsoft documents and makes available the APIs necessary to create these experiences in your custom applications:
 
--	[person resource type](/graph/api/resources/person)
--	[List directReports](/graph/api/user-list-directreports)
--	[List manager](/graph/api/user-list-manager)
+- [Person resource type](/graph/api/resources/person)
+- [List directReports](/graph/api/user-list-directreports)
+- [List manager](/graph/api/user-list-manager)
 
 Microsoft 365 groups are used to give groups of users access to a set of related applications, including SharePoint, Planner, and Teams. Microsoft documents and makes available the APIs necessary to create these experiences in your custom applications:
 
--	[group resource type](/graph/api/resources/group)
+- [Group resource type](/graph/api/resources/group)
 
 #### Calendar management
 
 Microsoft 365 uses Exchange Online to manage users’ mailboxes and calendars. Mail and calendar information is made available to users in applications such as Outlook and Teams. Microsoft documents and makes available the APIs necessary to create these experiences in your custom applications:
 
--	[calendar resource type](/graph/api/resources/calendar)
+- [Calendar resource type](/graph/api/resources/calendar)
 
 #### File management
 
@@ -57,15 +57,15 @@ Microsoft 365 uses insights to provide lists of documents that are trending, or 
 
 Microsoft documents and makes available the APIs necessary to create these experiences in custom applications:
 
--	[Working with files in Microsoft Graph](/graph/api/resources/onedrive)
--	[Permission resource type](/graph/api/resources/permission)
--	[officeGraphInsights resource type](/graph/api/resources/officegraphinsights)
+- [Working with files in Microsoft Graph](/graph/api/resources/onedrive)
+- [Permission resource type](/graph/api/resources/permission)
+- [officeGraphInsights resource type](/graph/api/resources/officegraphinsights)
 
 #### Search
 
 Microsoft 365 uses a unified search engine to cover many different experiences from a single interface. This can be extended to other applications by using the Microsoft Search API. Microsoft documents and makes available the APIs necessary to create these experiences in your custom applications:
 
--	[Overview of the Microsoft Search API in Microsoft Graph](/graph/search-concept-overview)
+- [Overview of the Microsoft Search API in Microsoft Graph](/graph/search-concept-overview)
 
 ## Exporting Messages and other Media from Microsoft Teams
 
@@ -74,17 +74,17 @@ Once you’ve integrated your custom application with Microsoft 365, you can exp
 > [!NOTE]
 > Some of the APIs listed below are metered and have costs associated with their use.
 
-#### Direct messages, group messages, and meeting messages
+### Direct messages, group messages, and meeting messages
 
 Teams includes direct messages (1-on-1 chats), group chats, and chats associated with meetings. Messages in Teams may contain pain text, rich HTML, images, links, etc. Microsoft documents and makes available the APIs necessary to export this data out of Microsoft Teams:
 
--	[List Chats](/graph/api/chat-list)
--	[Get Chat](/graph/api/chat-get)
--	[List members of a Chat](/graph/api/chat-list-members)
--	[Get chatMessage in a channel or chat](/graph/api/chatmessage-get)
--	[chats: getAllMessages](/graph/api/chats-getallmessages)
+- [List Chats](/graph/api/chat-list)
+- [Get Chat](/graph/api/chat-get)
+- [List members of a Chat](/graph/api/chat-list-members)
+- [Get chatMessage in a channel or chat](/graph/api/chatmessage-get)
+- [chats: getAllMessages](/graph/api/chats-getallmessages)
 
-#### Channel posts
+### Channel posts
 
 Channel posts, also known as threaded conversations, are conversations that occur in a Teams channel. Microsoft documents and makes available the APIs necessary to export this data out of Teams:
 
@@ -97,7 +97,7 @@ Channel posts, also known as threaded conversations, are conversations that occu
 -	[Get chatMessage in a channel or chat](/graph/api/chatmessage-get)
 -	[channel: getAllMessages](/graph/api/channel-getallmessages)
 
-#### Meeting recordings and transcripts
+### Meeting recordings and transcripts
 
 Recordings of Teams meetings and calls are stored in OneDrive or SharePoint. Microsoft documents and makes available the APIs necessary to export this data out of Teams:
 
