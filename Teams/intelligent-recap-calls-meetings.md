@@ -41,7 +41,7 @@ Intelligent recap is automatically available to users in your organization with 
 
 - You must assign your users a Microsoft 365 subscription that includes Teams or a Microsoft 365 (no Teams) subscription with a separate Teams license.
 - You must assign a Teams Premium license or Microsoft 365 Copilot license to your users.
-- For Public Switched Telephone Network (PSTN) calls, you must also assign a Teams Phone license to your users. For information on Teams Phone licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+- For Public Switched Telephone Network (PSTN) calls, you must also assign a Teams Phone license and have a calling plan for your users. For information on Teams Phone licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). To learn more about PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
 ### Policies
 
@@ -62,7 +62,7 @@ Intelligent call recap uses AI to allow your users to focus during their calls a
 
 ### PSTN calls
 
-PSTN calls are made and received using a phone number and require a Teams Phone license. Your users can access AI generated notes and recommended tasks for PSTN calls through the **Recap** button in the Calls app in Teams.
+PSTN calls are made and received using a phone number. Your users can access AI generated notes and recommended tasks for PSTN calls through the **Recap** button in the Calls app in Teams.
 
 :::image type="content" source="media/i-recap-pstn-small.png" alt-text="Screenshot of intelligent call for PSTN calls in the Calls app." lightbox="media/i-recap-pstn-expand.png":::
 
