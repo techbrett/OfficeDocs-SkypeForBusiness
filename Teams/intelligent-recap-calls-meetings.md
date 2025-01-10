@@ -41,7 +41,7 @@ Intelligent recap is automatically available to users in your organization with 
 
 - You must assign your users a Microsoft 365 subscription that includes Teams or a Microsoft 365 (no Teams) subscription with a separate Teams license.
 - You must assign a Teams Premium license or Microsoft 365 Copilot license to your users.
-- For Public Switched Telephone Network (PSTN) calls, you must also assign a Teams Phone license to your users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+- For Public Switched Telephone Network (PSTN) calls, you must also assign a Teams Phone license to your users. For information on Teams Phone licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ### Policies
 
