@@ -54,7 +54,7 @@ To allow your users to use intelligent recap, you must turn on transcription:
 
 #### Recording
 
-For the full meeting recap experience, you must assign a policy that allows recording for your users. If recording is turned off, users experience recap without the recording, speakers, topics, and chapters. To turn on recording for meetings, see [Manage Teams recording policies for meetings and events](meeting-recording.md#allow-or-prevent-users-from-recording-meetings).
+For the full recap experience for meetings, you must assign a policy that allows recording for your users. If recording is turned off, users experience recap without the recording, speakers, topics, and chapters. To turn on recording for meetings, see [Manage Teams recording policies for meetings and events](meeting-recording.md#allow-or-prevent-users-from-recording-meetings).
 
 ## Intelligent call recap
 
