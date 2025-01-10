@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: weizxue, nijait
-ms.date: 12/18/2024
+ms.date: 1/10/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ ms.collection:
   - highpri
   - Tier1
   - m365initiative-voice
-description: Learn how to manage Microsoft 365 Copilot in Teams meetings and events admin policies in the Teams admin center. Learn how to manage transcripts and transcription for Copilot Microsoft Teams meetings and events.
+description: Learn how to manage Intelligent recap for Teams calls and meetings. Understand the licenses your users need to use intelligent recap for VoIP and PSTN calls.
 ---
 
 # Intelligent recap for Teams calls and meetings
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls
 
-Intelligent recap for Microsoft Teams calls and meetings uses AI technology to improve your users’ productivity and efficiency. This article is designed to guide you, as an admin, in understanding intelligent recap’s prerequisites and capabilities.
+Intelligent recap for Microsoft Teams uses AI technology to improve your users’ productivity and efficiency. This article is designed to guide you, as an admin, in understanding intelligent recap’s prerequisites and capabilities.
 
 To learn more about how your users use intelligent recap in their meetings, see [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap).
 
@@ -50,7 +50,7 @@ Intelligent recap is automatically available to users in your organization with 
 To allow your users to use intelligent recap, you must turn on transcription:
 
 - PSTN calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
-- Meetings, 1:1 and group peer-to-peer calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
+- Meetings, 1:1 and group peer-to-peer VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
 
 #### Recording
 
@@ -62,13 +62,13 @@ Intelligent call recap uses AI to allow your users to focus during their calls a
 
 ### PSTN calls
 
-Your users can access AI generated notes and recommended tasks for PSTN calls through the **Recap** button in the Calls app in Teams.
+PSTN calls are made and received using a phone number and require a Teams Phone license. Your users can access AI generated notes and recommended tasks for PSTN calls through the **Recap** button in the Calls app in Teams.
 
 :::image type="content" source="media/i-recap-pstn-small.png" alt-text="Screenshot of intelligent call for PSTN calls in the Calls app." lightbox="media/i-recap-pstn-expand.png":::
 
-### 1:1 and group peer-to-peer calls
+### 1:1 and group peer-to-peer VoIP calls
 
-Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
+1:1 and group peer-to-peer VoIP are made between Teams users. Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
 
 :::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of the intelligent call recap button in the call's chat." lightbox="media/intelligent-call-recap-expand.png":::
 
@@ -94,6 +94,13 @@ Intelligent recap is supported on the following types of meetings and calls:
 
 - Meetings: Meetings scheduled in the Teams client, meetings scheduled in Outlook, meet now
 - Calls: PSTN, 1:1, group peer-to-peer
+
+## Supported platforms
+
+Intelligent recap is supported on the following platforms:
+
+- Desktop
+- Mobile
 
 ## Data and privacy
 
