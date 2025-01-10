@@ -1,12 +1,12 @@
 ---
 title: Predefined meeting templates in Microsoft Teams
-ms.author: jtremper
-author: jacktremper
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: janineco
-ms.date: 11/19/2024
+ms.reviewer: idilates
+ms.date: 12/19/2024
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -36,12 +36,12 @@ The Virtual appointment meeting template comes with the following options. You c
 |:-----|:------------|:---------|:----------|
 |***Security***||||
 |Apply sensitivity label|None|Visible|Unlocked|
-|Who can bypass the lobby|Everyone|Visible|Unlocked|
+|Who can bypass the lobby|People in my org and guests|Visible|Unlocked|
 |People dialing in can bypass the lobby|Off|Visible|Unlocked|
 |End-to-end encryption|Off|Visible|Unlocked|
 |Enable watermark for screenshare|Off|Visible|Unlocked|
 |Enable watermark for video|Off|Visible|Unlocked|
-|Restrict participants from copying or forwarding meeting chat messages|Off|Visible|Unlocked|
+|Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts|Off|Visible|Unlocked|
 |***Audio and video***||||
 |Allow mic for attendees|On|Visible|Unlocked|
 |Allow camera for attendees|On|Visible|Unlocked|
@@ -52,7 +52,7 @@ The Virtual appointment meeting template comes with the following options. You c
 |***Roles***||||
 |Announce when people dialing in join and leave|Off|Visible|Unlocked|
 |***Meeting engagement***||||
-|Allow meeting chat|On during the meeting only|Visible|Unlocked|
+|Meeting chat|On during the meeting only|Visible|Unlocked|
 |Allow reactions|Off|Visible|Unlocked|
 |Q&A|Off|Visible|Unlocked|
 |Manage what attendees see|Off|Visible|Unlocked|
@@ -61,7 +61,7 @@ To learn more, see [Manage the Virtual appointment meeting template in Teams](vi
 
 ## Controlled-content meeting
 
-The controlled-content meeting template comes with the following options. You can edit this template if your organization has Teams Premium.
+The controlled content meeting template is only available to meeting organizers who have a Teams Premium license. This template comes with the following options:
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
