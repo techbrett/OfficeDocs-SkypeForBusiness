@@ -39,7 +39,7 @@ Intelligent recap is automatically available to users in your organization with 
 
 ### Licensing
 
-- You must assign users a Microsoft 365 subscription that includes Teams or a Microsoft 365 (no Teams) subscription with a separate Teams license.
+- You must assign your users a Microsoft 365 subscription that includes Teams or a Microsoft 365 (no Teams) subscription with a separate Teams license.
 - You must assign a Teams Premium license or Microsoft 365 Copilot license to your users.
 - For Public Switched Telephone Network (PSTN) calls, you must also assign a Teams Phone license to your users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
@@ -49,7 +49,7 @@ Intelligent recap is automatically available to users in your organization with 
 
 To allow your users to use intelligent recap, you must turn on transcription:
 
-- PSTN, 1:1 peer-to-peer VoIP calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
+- PSTN, 1:1 peer-to-peer Voice over Internet Protocol (VoIP) calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
 - Meetings and group peer-to-peer VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
 
 #### Recording
@@ -68,7 +68,7 @@ PSTN calls are made and received using a phone number and require a Teams Phone 
 
 ### 1:1 and group peer-to-peer VoIP calls
 
-1:1 and group peer-to-peer VoIP are made between Teams users. Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
+1:1 and group peer-to-peer VoIP calls are made between Teams users. Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
 
 :::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of the intelligent call recap button in the call's chat." lightbox="media/intelligent-call-recap-expand.png":::
 
