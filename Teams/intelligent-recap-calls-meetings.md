@@ -49,8 +49,8 @@ Intelligent recap is automatically available to users in your organization with 
 
 To allow your users to use intelligent recap, you must turn on transcription:
 
-- PSTN calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
-- Meetings, 1:1 and group peer-to-peer VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
+- PSTN,  1:1 peer-to-peer VoIP calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
+- Meetings and group peer-to-peer VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
 
 #### Recording
 
