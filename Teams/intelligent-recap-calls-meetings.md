@@ -50,7 +50,7 @@ Intelligent recap is automatically available to users in your organization with 
 To allow your users to use intelligent recap, you must turn on transcription:
 
 - PSTN, 1:1 peer-to-peer Voice over Internet Protocol (VoIP) calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
-- Meetings and group peer-to-peer VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
+- Meetings and group VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
 
 #### Recording
 
@@ -66,9 +66,9 @@ PSTN calls are made and received using a phone number and require a Teams Phone 
 
 :::image type="content" source="media/i-recap-pstn-small.png" alt-text="Screenshot of intelligent call for PSTN calls in the Calls app." lightbox="media/i-recap-pstn-expand.png":::
 
-### 1:1 and group peer-to-peer VoIP calls
+### 1:1 peer-to-peer and group VoIP calls
 
-1:1 and group peer-to-peer VoIP calls are made between Teams users. Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
+1:1 peer-to-peer and group VoIP calls are made between Teams users. Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
 
 :::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of the intelligent call recap button in the call's chat." lightbox="media/intelligent-call-recap-expand.png":::
 
