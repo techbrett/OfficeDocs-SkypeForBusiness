@@ -66,15 +66,16 @@ To get the most out of your organization-wide team, we recommend that team owner
 Reduce channel noise by having only team owners post to the first created channel of the team.
 
 1. Go to the team, select **... More options** > **Manage team**.
-2. On the **Settings** tab, select **Permissions**, and then select **Only owners can post messages**.
+1. On the **Settings** tab, select **Permissions**, and then select **Only owners can post messages**.
 
 ### Turn off @team and @[team name] mentions
 
 Reduce @mentions to keep them from overloading the entire organization.
 
-1. Go to the team and select **... More options** > **Manage Team**. On the **Channels** tab, locate the first created channel with the home icon.
-2. Select **... More options** > **Manage Channel**.
-3. On the **Settings** tab, select **@mentions** > turn off **Show members the option to @team or @[team name]**.
+1. Go to the team and select **... More options** > **Manage team**. 
+1. On the **Channels** tab, locate the first created channel with the home icon.
+1. Select **... More options** > **Manage channel**.
+1. On the **Settings** tab, select **@mentions** and turn off **Show members the option to @team or @[team name]**.
 
 ### Recommend important channels
 
