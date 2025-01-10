@@ -79,7 +79,7 @@ Reduce @mentions to keep them from overloading the entire organization.
 
 ### Recommend important channels
 
-Mark important channels as "recommended" to ensure everyone in your organization engages in specific conversations. To learn more, see [Auto-favorite channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+Mark important channels as "Recommend that people show this channel in their channel lists" to ensure everyone in your organization engages in specific conversations. To learn more, see [Recommend channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 
 ### Set up channel moderation
 
