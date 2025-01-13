@@ -40,7 +40,7 @@ For each option in the template, you can define the following:
 Watch this video for a walkthrough of the procedures described in this article.
 <br>
 <br>
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW11u1o]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=08de04c0-50de-4f11-849d-849a0c2b1bfb]
 
 ## Create a custom meeting template
 
