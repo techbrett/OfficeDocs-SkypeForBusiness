@@ -189,6 +189,9 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 
    :::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
 
+> [!NOTE]
+> Teamsbootstrapper.exe logs are located in C:\WINDOWS\Temp\teamsprovision.log.xxxxxxxx.
+
 ### Option 2: Install both apps 'side by side'
 
 Let the user switch between them by using the toggle on the top left of the Teams UI.
