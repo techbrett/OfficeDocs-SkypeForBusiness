@@ -751,6 +751,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2025010301](#144910962025010301-january-2025) | January 2025 |
 |[1449/1.0.96.2024110701](#144910962024110701-november-2024) | November 2024 |
 |[1449/1.0.96.2024101004](#144910962024101004-october-2024) | October 2024 |
 |[1449/1.0.96.2024091202](#144910962024091202-september-2024) | September 2024 |
@@ -783,6 +784,24 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2025010301 (January 2025)
+
+Introduced in this update: 
+
+- **Required updates coming to the session flows:** Starting June 2025, clients more than 5 months old will no longer work.
+
+Resolved Issues:
+
+- Resolved an issue where touch screen controls were shown on the Front of Room display after the feature is disabled in settings. 
+-	Resolved an issue where some Logi Rally Bar systems failed to swap screens [PM3.1]after restart.
+-	Fixed an issue where some backgrounds weren’t being applied when set on Teams admin center.
+-	Resolved an issue where chat bubbles were not being displayed on some Front of room displays.
+-	Resolved an issue where chats were not being refreshed on the display.
+-	Resolved an issue where content sharing in meetings would stop in a dual display setup.
+-	Resolved an issue where some meeting participants might be displayed as Unverified even when they shouldn’t be.
+
+
 
 ### 1449/1.0.96.2024110701 (November 2024)
 
