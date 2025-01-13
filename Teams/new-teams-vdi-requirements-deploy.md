@@ -431,7 +431,7 @@ Other than the folders in this section, we don't recommend excluding additional 
 
 ## New Teams and Outlook integration
 
-When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
+When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this selection lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
 
 For example, Outlook goes through the discovery process outlined here to integrate with the default IM client application:  [Integrating IM applications with Office](/office/client-developer/shared/integrating-im-applications-with-office#discovering-the-im-application)
 
