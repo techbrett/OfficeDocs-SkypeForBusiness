@@ -93,6 +93,10 @@ When you turn on the organization-wide or per-organizer **Anonymous participants
 
 If anonymous users can't join meetings in your organization, you can require them to verify their identities to join. To require anonymous attendees to verify their identity to join meetings, you must turn off the **Anonymous participants can join a meeting** setting for your organization or specific organizers. When the **Anonymous users can join a meeting after verifying** setting is set to **By email code**, organizers with a Teams Premium license can create meetings where anonymous users are prompted to set up a one-time passcode (OTP) that gets sent to their email. To use this feature for meetings, organizers must turn off the **Require unverified users to verify before joining setting** in their **Meeting options**.
 
+:::image type="content" source="media/prejoin-email-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/prejoin-email-expand.png":::
+
+:::image type="content" source="media/prejoin-mobile-code-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/prejoin-mobile-code-expand.png":::
+
 To manage whether unverified anonymous attendees can verify themselves with an OTP to join meetings, follow these steps:
 
 1. Go to the Teams admin center.
