@@ -129,7 +129,7 @@ You can nest Auto attendants and Call queues in two ways:
 For more information, see [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues).
 
 > [!NOTE]
-> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
+> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), are consumed. Without a Calling Plan or Communication Credits, the call fails.
 >
 > Direct Routing service numbers for Auto attendant and Call queues are supported for Microsoft Teams users and call agents only.
 >
@@ -137,7 +137,7 @@ For more information, see [Nested Auto attendants and Call queues](#nested-auto-
 >
 > In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 >
-> New Commerce Experience customers are not yet supported for resources accounts when an auto attendant or call queue needs to transfer calls to an external number.
+> New Commerce Experience customers aren't supported yet for resource accounts when an auto attendant or call queue needs to transfer calls to an external number.
 
 ## Business decisions
 
