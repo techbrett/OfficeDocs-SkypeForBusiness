@@ -82,7 +82,7 @@ Changes to meeting policies might take up to 24 hours to take effect.
 > [!NOTE]
 > This feature is currently in Public Preview.
 
-When you turn on the organization-wide or per-organizer **Anonymous participants can join a meeting** setting, your organizers see the **Unverified participants can join the meeting** setting in their **Meeting options**. The **Unverified participants can join the meeting** setting is **On** by default, but your organizers can turn this setting **Off** for specific meetings to restrict access. If you turn off the organization-wide or using per-organizer **Anonymous participants can join a meeting** policy setting, organizers don’t have this meeting option.
+When you turn on the organization-wide or per-organizer **Anonymous participants can join a meeting** setting, your organizers see the **Unverified participants can join the meeting** setting in their **Meeting options**. This setting is turned On by default, allowing unverified participants to join meetings. However, organizers can choose to turn this setting off for specific meetings to restrict access. If you turn off the organization-wide or using per-organizer **Anonymous participants can join a meeting** policy setting, organizers don’t have this meeting option.
 
 ## Anonymous users can join a meeting after verifying with an email code (Public Preview for Teams Premium) 
 
