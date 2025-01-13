@@ -148,7 +148,7 @@ To learn more on the latest requirements and instructions, including how to conf
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
 >[!IMPORTANT]
->You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+>You must use the latest version of the bootstrapper.exe. If .exe was already downloaded, check **Properties > Details > Product version** for your version and compare it to the properties on the latest download.
 
 > [!NOTE]
 > Make sure you have these KBs in your system, as they address many [policy settings restricting download and installation](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues#policy-settings-restricting-download--install) of new Teams.
