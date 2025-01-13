@@ -312,7 +312,7 @@ The auto-start behavior of Teams is controlled by three components:
 "SupportUwpStartupTasks"=dword:00000000
 ```
 
-This registry setting causes the option to be unavailable in the operation systems under **Settings** > **Apps** > **Installed Apps**. In order to change this, create the regkeys with the values as shown below:
+This registry setting causes the option to be unavailable in the operation systems under **Settings** > **Apps** > **Installed Apps**. In order to change this setting, create the regkeys with the values as shown below:
 
 ```Registry editor
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
