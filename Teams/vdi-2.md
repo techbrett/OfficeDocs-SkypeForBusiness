@@ -321,6 +321,7 @@ This policy is now expanded with an additional argument as the only configuratio
 |Share system audio                |Yes                                                             |Yes                           |
 |Secondary ringer                  |Yes                                                             |Yes                           |
 |Background blurring               |Yes                                                             |Yes                           |
+|Annotations                       |Only as presenter                                               |No                            |
 
 ## SlimCore user profile on the endpoint
 
