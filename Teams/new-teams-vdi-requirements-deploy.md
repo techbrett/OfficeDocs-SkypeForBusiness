@@ -244,7 +244,7 @@ For Windows Server 2019, the only supported installation method is:
 Dism /Online /Add-ProvisionedAppxPackage /PackagePath:<MSIX package path> /SkipLicense
 ```
 
-Make sure sideloading is enabled, and that WebView2 is installed. See 'Requirements' section above.
+Make sure sideloading is enabled, and that WebView2 is installed. See the [Requirements](#requirements) section.
 
 The /SkipLicense command is needed because the MSIX package isn't considered a "Store Package" (since it wasn't downloaded from the store). Therefore, for the Dism installation command to succeed, you need to enable this policy as well during installation time:
 Computer Configuration > Administrative Templates > Windows Components > App Package Deployment > **Allow all trusted apps to install**.
