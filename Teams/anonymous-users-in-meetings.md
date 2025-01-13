@@ -91,7 +91,7 @@ When the Anonymous users can join a meeting unverified setting is turned off and
 > [!NOTE]
 > This feature is currently in Public Preview and requires organizers to have a Teams Premium license.
 >
-> Anonymous users can join a meeting after verifying with an email code isn't supported for webinars or town halls.
+> This feature isn't supported for webinars or town halls.
 
 If anonymous users can't join meetings in your organization, you can require them to verify their identities to join. To require anonymous attendees to verify their identity to join meetings, you must turn off the **Anonymous participants can join a meeting** setting for your organization or specific organizers. When the **Anonymous users can join a meeting after verifying** setting is set to **By email code**, organizers with a Teams Premium license can create meetings where anonymous users are prompted to set up a one-time passcode (OTP) that gets sent to their email. To use this feature for meetings, organizers must turn off the **Require unverified users to verify before joining setting** in their **Meeting options**.
 
