@@ -108,7 +108,7 @@ To manage whether unverified anonymous attendees can verify themselves with a on
 
 ### Manage whether anonymous participants can join meetings
 
-The **`-DisableAnonymousJoin`** parameter controls whether anonymous users can join meetings across the entire organization, while the **`-AllowAnonymousUsersToJoinMeeting`** parameter controls this setting at the user or group level. You can use these parameters together to manage how anonymous users join meetings in your organization. For example, if you set **`-DisableAnonymousJoin`** to false for the organization, anonymous users can join meetings in your organization. However, if you set **`-AllowAnonymousUsersToJoinMeeting`** to false for a specific user, that user can't create meetings that anonymous users can attend, even though the organization-wide setting allows it.
+The **`-DisableAnonymousJoin`** parameter controls whether anonymous users can join meetings for your organization, while the **`-AllowAnonymousUsersToJoinMeeting`** parameter controls this setting at the user or group level. You can use these parameters together to manage how anonymous users join meetings in your organization. For example, when you set **`-DisableAnonymousJoin`** to false for the organization, anonymous users can join meetings in your organization. If you also set **`-AllowAnonymousUsersToJoinMeeting`** to false for a specific user, that user can't create meetings that anonymous users can attend, even though the organization-wide setting allows it.
 
 #### For your organization
 
