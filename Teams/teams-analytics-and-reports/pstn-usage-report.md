@@ -6,8 +6,8 @@ manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
-ms.date: 12/21/2018
+ms.reviewer: dantelo
+ms.date: 01/14/2025
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
