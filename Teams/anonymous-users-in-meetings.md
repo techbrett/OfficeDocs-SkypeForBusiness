@@ -89,7 +89,7 @@ When you turn on the organization-wide or per-organizer **Anonymous users can jo
 
 You can require anonymous users to verify their identities to join meetings in your organization.
 
-When you set **Anonymous users can join a meeting after verifying** to **By email code** and the meeting organizer toggles the **Unverified participants can join the meeting** setting to **Off** in their **Meeting options**, anonymous users are prompted to set up a one-time passcode that gets sent to their email to join the meeting.
+When you set **Anonymous users can join a meeting after verifying** to **By email code** and the meeting organizer toggles the **Unverified participants can join the meeting** setting to **Off** in their **Meeting options**, unverified anonymous users are prompted to set up a one-time passcode that gets sent to their email to join the meeting.
 
 If you turn off the **Anonymous users can join a meeting unverified** setting and **Anonymous users can join a meeting after verifying** is set to **No**, anonymous users can't join any meetings in your organization.
 
