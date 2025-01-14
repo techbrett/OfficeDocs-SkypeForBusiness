@@ -184,7 +184,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Crestron Flex Hub](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-HUB-DR1) + [Crestron Flex Pods](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-POD-B-DR1) | 1.13.0113 |  |  |||
 | HP Presence See Camera | 1.0.23.0 |  |  |||
 | [:::no-loc text="Huddly"::: Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |||
-| [Huddly Crew AI-directed multi-camera system](https://www.huddly.com/conference-cameras/crew/) | 1.5.19 |  |  |||
+| [Huddly Crew AI-directed multi-camera system](https://www.huddly.com/conference-cameras/crew/) | 1.8.10 |  |  |||
 | [:::no-loc text="Huddly"::: IQ](https://www.huddly.com/conference-cameras/iq/) | 1.3.22 |  |  |||
 | [:::no-loc text="Huddly"::: IQ Lite](https://www.huddly.com/conference-cameras/iq/) | 1.3.29 |  |  |||
 | [:::no-loc text="Huddly"::: IQ Camera](https://www.huddly.com/conference-cameras/iq/) | 1.3.27 |  |  |||
