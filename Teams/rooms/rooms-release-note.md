@@ -144,7 +144,7 @@ Introduced in this update:
 - **Integration between Report a Problem and Pro Portal Management:** Admins can configure for easier tracking, via SendFeedbackToPMP XML setting, that when a user sends feedback through Report a Problem from a room with a Microsoft Teams Pro license, each feedback creates an event in the Teams Rooms Pro Management portal. 
 
   > [!IMPORTANT]
-  > Note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
+  > Note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtime version 110.0.1587.63 or higher is installed, these devices will be missing some features.
 
 ### 4.19.82.0 (1/31/2024)
 
