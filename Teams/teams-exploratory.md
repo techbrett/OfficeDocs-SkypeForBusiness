@@ -71,7 +71,7 @@ Your organization isn't eligible for this offer if you're a Syndication Partner 
 
 ## How users sign up for the Teams Exploratory experience
 
-Eligible users can sign up for the Teams Exploratory experience by signing into Teams from the desktop or web at [teams.microsoft.com](https://teams.microsoft.com). At this time, enabling Teams Exploratory through mobile isn't supported. When they sign up, they'll be assigned this license automatically, and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.
+Eligible users can sign up for the Teams Exploratory experience by signing into Teams from the desktop or web at [teams.microsoft.com](https://teams.microsoft.com). When they sign up, they'll be assigned this license automatically, and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.
 
 ## Manage the Teams Exploratory experience
 
