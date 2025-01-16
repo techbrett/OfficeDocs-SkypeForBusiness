@@ -75,7 +75,7 @@ Remote participants can view up to four camera feeds simultaneously in Gallery v
 :::image type="content" source="/microsoftteams/rooms/media/multicamera/camera2.png" alt-text="Screenshot of what a Teams Rooms display from camera 2 looks like when multiple cameras aren't used." lightbox="/microsoftteams/rooms/media/multicamera/camera2-hi-res.png":::
 
 **Example of a 2-camera view**
-:::image type="content" source="./microsoftteams/rooms/media/multicamera/default-camera.png" alt-text="Screenshot of what a Teams Rooms display looks like when multiple cameras are used." lightbox="/microsoftteams/rooms/media/multicamera/default-camera-hi-res.png":::
+:::image type="content" source="/microsoftteams/rooms/media/multicamera/default-camera.png" alt-text="Screenshot of what a Teams Rooms display looks like when multiple cameras are used." lightbox="/microsoftteams/rooms/media/multicamera/default-camera-hi-res.png":::
 
 ## Related Articles
 
