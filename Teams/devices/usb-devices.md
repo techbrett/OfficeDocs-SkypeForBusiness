@@ -332,8 +332,4 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | **Manufacturer**      | **Model**                                                    | **Qualified**       | **Certified Program**                                           |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Lenovo               |4k Pro Webcam                                              |12/6/2024       |Certified for Microsoft Teams                           |
-|Lenovo               |QHD Webcam                                                 |12/6/2024       |Certified for Microsoft Teams                           | 
-|Yealink              |BH74 Headset                                               |9/25/2024       |Certified for Microsoft Teams                           |
-|EPOS                 |IMPACT 460T                                                |8/5/2024        |Certified for Microsoft Teams                           |
-|EPOS                 |IMPACT 430T                                                |8/5/2024        |Certified for Microsoft Teams                           |
+|Logitech|Zone Wireless 2 Headset                                            |01/13/2025       |Certified for Microsoft Teams                             |
