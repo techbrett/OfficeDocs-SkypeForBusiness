@@ -21,7 +21,7 @@ search.appverid: MET150
 f1.keywords: 
   - NOCSH 
 ai-usage:  
-- ai-assisted
+  - ai-assisted
 Description: This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
 ---  
 
