@@ -79,6 +79,6 @@ Remote participants can view up to four camera feeds simultaneously in Gallery v
 
 ## Related Articles
 
-- [Microsoft Teams Rooms Licensing](/microsoftteams/rooms/rooms-licensing)
-- [Microsoft Teams Rooms Setup](/microsoftteams/rooms/rooms-setup)
-- [Admin Guide for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-admin) |
+- [Microsoft Teams Rooms Licensing](rooms-licensing.md)
+- [Content cameras](content-camera?tabs=Windows.md)
+- [Microsoft Teams Rooms planning and guidance](/microsoftteams/rooms/room-planning-guidance)
