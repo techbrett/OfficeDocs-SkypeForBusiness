@@ -1519,6 +1519,8 @@ items:
               items:
                 - name: Preparing your network
                   href: rooms/rooms-prep.md
+                - name: 802.1x network authentication
+                  href: rooms/802-1x-authentication.md
                 - name: Quality of Service (QoS) for Teams Rooms
                   href: devices/qos-on-teams-devices.md
                 - name: Intune Enrollment for Windows
