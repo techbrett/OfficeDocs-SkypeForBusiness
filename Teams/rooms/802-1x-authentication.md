@@ -45,7 +45,7 @@ Ensure that your network devices and AAA/RADIUS server are enabled for 802.1x LA
 
 ### Step 2: Configure Intune for Certification Distribution and Authentication
 
-Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune. For detailed instructions, refer to [Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune](/intune/protect/certficates-profile-pkcs).
+Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune. For detailed instructions, refer to [Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune](/mem/intune/protect/certificates-pfx-configure).
 
 ### Step 3: Create a Wired Network Profile within Intune
 
@@ -57,12 +57,12 @@ Ensure your Teams Rooms devices are enrolled in Intune. For detailed instruction
 
 ### Step 5: Configure EAP on Your Teams Rooms on Windows
 
-Configure Extensible Authentication Protocol (EAP) on your Teams Rooms on Windows. For detailed instructions, refer to [Configure EAP profiles and settings in Windows](/windows/security/operating-system-security/network-security/vpn/vpn-authentication).
+Configure Extensible Authentication Protocol (EAP) on your Teams Rooms on Windows. For detailed instructions, refer to [Configure EAP profiles and settings in Windows](/windows-server/networking/technologies/extensible-authentication-protocol/configure-eap-profiles?tabs=netsh-wifi%2Cpowershell-vpn%2Csettings-wifi%2Cgroup-policy-wifi).
 
 With these steps in place, your 802.1x environment and Teams Rooms on Windows devices will be configured to ensure your Teams Rooms devices are managed and identified on your network.
 
 ## Related Articles
 
-- [Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune](/intune/protect/certficates-profile-pkcs)
-- [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune</a></li>](/intune/configuration/wi-fi-settings-windows)
--[Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager](https://techcommunity.microsoft.com/t5/microsoft-teams/enrolling-microsoft-teams-rooms-on-windows-devices-with-microsoft/ba-p/1744120)
+- [Troubleshooting PKCS certificate deployment in Intune](/mem/intune/certificates/troubleshoot-pkcs-certificate-profiles)
+- [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune](/mem/intune/configuration/wired-networks-configure)
+- [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager](https://techcommunity.microsoft.com/t5/microsoft-teams/enrolling-microsoft-teams-rooms-on-windows-devices-with-microsoft/ba-p/1744120)
