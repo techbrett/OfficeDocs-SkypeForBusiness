@@ -21,11 +21,10 @@ description: Learn about how admins can control for voice recognition (voice pro
 ---
 # Manage voice recognition technology controls for an Intelligent Speaker
 
-This article provides guidance on how admins can enable Rooms for voice recognition and live transcription. As an admin, you have the ability to adjust the extent to which your organization lets users utilize voice recognition and Intelligent Speakers capabilities.
+This article provides guidance on how admins can enable voice recognition and live transcription for meetings that are held. As an admin, you have the ability to adjust the extent to which your organization lets users utilize voice recognition and Intelligent Speakers capabilities.
 
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#in-meeting-transcription-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
-
 > [!NOTE]
 > **Teams Rooms:** Intelligent Speakers are available to customers with Teams Room Pro licenses.​​
 > **BYOD Rooms:** Intelligent Speakers available in rooms where the room host has either a Microsoft Teams Premium or Copilot license
@@ -56,7 +55,7 @@ To enable speaker recognition for your employees, you can set up a voice profile
 #### Teams Rooms:
 
 - Teams Rooms on Windows
-- Room account should have Teams Room Pro license.
+- Room resource account should have a Teams Room Pro license assigned.
 
 - To ensure best precision for the transcript, we suggest limiting the number of in person attendees to a maximum of 10 people.
 - People to be identified in the room, need to be enrolled with their voice profile and be invited to the scheduled meeting.
