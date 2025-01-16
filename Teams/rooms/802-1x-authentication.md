@@ -49,7 +49,7 @@ Use a PKCS certificate profile to provision devices with certificates in Microso
 
 ### Step 3: Create a Wired Network Profile within Intune
 
-Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune. For detailed instructions, refer to [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune](/intune/configuration/wi-fi-settings-windows).
+Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune. For detailed instructions, refer to [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune](/mem/intune/configuration/wi-fi-settings-windows).
 
 ### Step 4: Enroll Your Teams Rooms Devices to Intune
 
@@ -63,6 +63,6 @@ With these steps in place, your 802.1x environment and Teams Rooms on Windows de
 
 ## Related Articles
 
-- [Troubleshooting PKCS certificate deployment in Intune](/mem/intune/certificates/troubleshoot-pkcs-certificate-profiles)
+- [Troubleshooting PKCS certificate deployment in Intune](/troubleshoot/mem/intune/certificates/troubleshoot-pkcs-certificate-profiles)
 - [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune](/mem/intune/configuration/wired-networks-configure)
 - [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager](https://techcommunity.microsoft.com/t5/microsoft-teams/enrolling-microsoft-teams-rooms-on-windows-devices-with-microsoft/ba-p/1744120)
