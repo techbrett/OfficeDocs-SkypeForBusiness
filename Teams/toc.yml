@@ -1390,8 +1390,11 @@ items:
             - name: Teams displays certified devices
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
-              href: devices/usb-devices.md
               items:
+                - name: Certified personal peripherals
+                  href: devices/usb-devices.md
+                - name: Certified Native Bluetooth devices
+                  href: devices/bluetooth-devices.md
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals
     - name: Teams Rooms and panels
@@ -1424,7 +1427,9 @@ items:
                       href: rooms/custom-backgrounds.md
                     - name: Content camera
                       href: rooms/content-camera.md
-                    - name: Coordinated meetings
+                    - name: Multiple camera view
+                      href: rooms/multicamera-view.md
+                    - name: Coordinated meetings                    
                       href: rooms/coordinated-meetings.md
                     - name: Whiteboard in Teams Rooms
                       href: rooms/whiteboard-rooms.md
