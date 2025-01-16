@@ -366,6 +366,29 @@ items:
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
+- name: AI, Copilot, and agents in Teams
+  items:
+    - name: AI features in Teams
+      items:
+      - name: Manage transcriptions and captions for Teams meetings
+        href: meeting-transcription-captions.md
+      - name: Manage voice isolation for calls and meetings
+        href: voice-isolation.md
+      - name: Data, privacy, and security for intelligent recap
+        href: /privacy/intelligent-recap.md
+      - name: Set up AI recommendations for educators
+        href: institution-settings.md
+    - name: Copilot in Teams
+      items:
+        - name: Manage Copilot in Teams meetings and events
+          href: copilot-teams-transcription.md
+        - name: Teams Rooms and Copilot overview
+          href: rooms/copilot-admin-mtr.md
+    - name: Agents for Teams
+      items:
+        - name: Set up Facilitator for AI notes
+          href: facilitator-teams.md
+
 - name: Manage and monitor Teams
   items: 
     - name: Overview
@@ -597,6 +620,8 @@ items:
             href: create-an-org-wide-team.md
           - name: Create people manager teams
             href: create-manager-directs-teams.md
+          - name: Set up dynamic membership
+            href: dynamic-memberships.md
            
       - name: Manage teams
         items:
@@ -1686,29 +1711,6 @@ items:
           href: devices/teams-displays.md
         - name: Hot desking Teams displays
           href: devices/hot-desking-teams-displays.md
-
-- name: AI, Copilot, and agents in Teams
-  items:
-    - name: AI features in Teams
-      items:
-      - name: Intelligent recap for Teams calls and meetings
-        href: intelligent-recap-calls-meetings.md
-      - name: Manage transcriptions and captions for Teams meetings
-        href: meeting-transcription-captions.md
-      - name: Manage voice isolation for calls and meetings
-        href: voice-isolation.md
-      - name: Set up AI recommendations for educators
-        href: institution-settings.md
-    - name: Copilot in Teams
-      items:
-        - name: Manage Copilot in Teams meetings and events
-          href: copilot-teams-transcription.md
-        - name: Teams Rooms and Copilot overview
-          href: rooms/copilot-admin-mtr.md
-    - name: Agents for Teams
-      items:
-        - name: Set up Facilitator for AI notes
-          href: facilitator-teams.md
 
 - name: Manage apps in Teams
   items: 

@@ -92,6 +92,11 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 - Per-user installation of CWA isn't supported.
 - If no CWA is found on the endpoint, installation is stopped.
 
+|Release note version |Details  |
+|---------------------|---------|
+|2024.41.1.1          |October 2024</br>-When using SlimCore in multimonitor set ups, a Citrix user is unable to share entire screen or individual monitors.</br>-Attempts a [Reset-AppxPackage](/powershell/module/appx/reset-appxpackage) if SlimCoreVdi MSIX package registrations fail after the virtual channel is established. |
+|2024.32.X.X          |August 2024</br>-Plugin now attempts a Reset-AppxPackage for SlimCoreVdi MSIX package, in case AppExecution alias is missing. |
+
 ### Step 3: SlimCore MSIX staging and registration on the endpoint
 
 The plugin silently executes this step, without user or admin intervention. The staging and registration relies on the App Readiness Service (ARS) on the endpoint. It's possible that the MSIX package installation is blocked by registry keys set by a Group Policy or a third-party tool. For a complete list of applicable registry keys, see [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix).
@@ -321,6 +326,7 @@ This policy is now expanded with an additional argument as the only configuratio
 |Share system audio                |Yes                                                             |Yes                           |
 |Secondary ringer                  |Yes                                                             |Yes                           |
 |Background blurring               |Yes                                                             |Yes                           |
+|Annotations                       |Only as presenter                                               |No                            |
 
 ## SlimCore user profile on the endpoint
 
