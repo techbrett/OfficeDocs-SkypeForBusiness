@@ -27,7 +27,7 @@ Description: This article provides a comprehensive overview of Native Bluetooth 
 
 # Native Bluetooth personal peripherals for Microsoft Teams
 
-Native Bluetooth personal peripherals refer to personal headsets or speakerphones that are directly paired and connected to the integrated Bluetooth radio of a host device, such as a PC or mobile phone, without requiring an adapter or dongle. This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
+Native Bluetooth personal peripherals refer to personal headsets or speakerphones that are directly paired and connected to the integrated Bluetooth radio of a host device, such as a PC or mobile phone, without requiring an adapter or also called a dongle. This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
 
 To see a list of supported Bluetooth personal peripherals, see [Certified personal peripherals](/microsoftteams/devices/usb-devices).
 
@@ -35,8 +35,10 @@ To see a list of supported Bluetooth personal peripherals, see [Certified person
 
 The certification program ensures that audio personal peripherals offer rich audio quality and full functionality with the Teams app experience. Functionalities included in this certification are:
 
+- Audio quality
 - Calling
-- Mute and Teams button actions
+- Mute
+- Teams button
 
 Certified devices work with plug & play functionality with no extra configuration required and offer call control with Microsoft Teams. They also offer Mute sync status between the device and the Teams desktop client and vice versa. The certification program scope includes the use of the Teams desktop client only.
 
