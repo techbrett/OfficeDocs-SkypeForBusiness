@@ -1,6 +1,5 @@
 ---  
 title: "Certified Native BlueTooth Devices"  
-description:  
 author: mstonysmith
 ms.author: tonysmit  
 manager: pamgreen
@@ -30,6 +29,8 @@ Description: This article provides a comprehensive overview of Native Bluetooth 
 
 Native Bluetooth personal peripherals refer to personal headsets or speakerphones that are directly paired and connected to the integrated Bluetooth radio of a host device, such as a PC or mobile phone, without requiring an adapter or dongle. This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
 
+To see a list of supported Bluetooth personal peripherals, see [Certified personal peripherals](/microsoftteams/devices/usb-devices).
+
 ## Certification requirements
 
 The certification program ensures that audio personal peripherals offer rich audio quality and full functionality with the Teams app experience. Functionalities included in this certification are:
@@ -45,7 +46,7 @@ To pair a Native Bluetooth Peripheral to your Windows 11 PC, start by ensuring t
 
 1. Place the peripheral in pairing mode following the instructions from the manufacturer.
 2. If the peripheral and your Windows PC support Swift Pair, you may see a notification prompting you to pair the device with a single select.
-3. If you don't see this notification when the device enters pairing mode, the device can be paired manually through the **Settings** app. For more information about pairing Bluetooth peripherals with Windows, see [Pair a Bluetooth device in Windows - Microsoft Support](https://support.microsoft.com//windows/pair-a-bluetooth-device-in-windows-7ca797b4-2289-2f52-5a5c-6ee5fd3b2333).
+3. If you don't see this notification when the device enters pairing mode, the device can be paired manually through the **Settings** app. For more information about pairing Bluetooth peripherals with Windows, see [Pair a Bluetooth device in Windows - Microsoft Support](https://support.microsoft.com/windows/pair-a-bluetooth-device-in-windows-2be7b51f-6ae9-b757-a3b9-95ee40c3e242).
 
 ## Minimum Requirements
 
@@ -108,12 +109,12 @@ PCs that don't come with integrated Bluetooth radios and use aftermarket USB Blu
 
 This certification is currently for Classic Bluetooth devices. The Microsoft Teams Certification Program has not started certifying Bluetooth Low Energy (LE) Audio headsets yet. We will update this article when the time comes. We do not anticipate issues with headsets that support both Classic Bluetooth and Bluetooth LE Audio, but the latter mode is not certified for Teams.
 
-For a list of certified Native Bluetooth peripherals, visit the [Native Bluetooth certified peripherals link page](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices).
+For a list of certified Native Bluetooth peripherals, visit the [Native Bluetooth certified peripherals link page](https://www.microsoft.com/microsoft-teams/across-devices/devices).
 
 ## Troubleshooting
 
 The performance of a peripheral in Native Bluetooth mode is impacted by the Bluetooth radio on the host PC. We recommend installing the latest firmware updates for both peripherals and Bluetooth radio.
 
-If problems persist, start by reviewing the Bluetooth troubleshooting steps at [Fix Bluetooth problems in Windows - Microsoft Support](https://support.microsoft.com/en-us/help/14169/windows-10-fix-bluetooth-problems).
+If problems persist, start by reviewing the Bluetooth troubleshooting steps at [Fix Bluetooth problems in Windows - Microsoft Support](https://support.microsoft.com/help/14169/windows-10-fix-bluetooth-problems).
 
 A small portion of users may need to continue to use a USB dongle to connect to the peripheral instead of using a Native Bluetooth connection to their Windows PC. This can happen in scenarios such as working in a high-density wireless environment, if the PC's Bluetooth radio is heavily used by multiple paired devices, or with certain PCs with older Bluetooth radios that are no longer receiving manufacturer support.
