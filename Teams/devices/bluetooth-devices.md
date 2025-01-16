@@ -22,7 +22,7 @@ f1.keywords:
   - NOCSH 
 ai-usage:  
 - ai-assisted
-Description: This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
+description: This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
 ---  
 
 # Native Bluetooth personal peripherals for Microsoft Teams
