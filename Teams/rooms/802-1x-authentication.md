@@ -27,12 +27,13 @@ description: This article serves as a comprehensive guide to assist you in confi
 # Implementing 802.1x Authentication for Microsoft Teams Rooms on Windows
 
 For customers looking to implement 802.1x in network environments especially Zero Trust networks, Microsoft Teams Rooms for Windows offers support similar to that of other Windows devices. This article outlines the necessary steps for setting up and deploying 802.1x authentication.
+
 > [!IMPORTANT]
-> 802.1x authentication is currently not supported on Teams Rooms for Android. Verify your Android device's support for 802.1x on wired connections with your Teams Rooms evice OEM.
+> 802.1x authentication is currently not supported on Teams Rooms for Android. Verify your Android device's support for 802.1x on wired connections with your Teams Rooms device OEM.
 
 ## Prerequisites
 
-Before you begin, ensure that your network devices and AAA/RADIUS server are enabled for 802.1x LAN authentication. Configuration details will vary depending upon your chosen vendor for these solutions. Note that 802.1x is currently not supported on Teams Rooms for Android due to the lack of support for LAN profiles in Intune for Android. Refer to your device manufacturer to verify that your device can operate in a 802.1x LAN environment.
+Before you begin, ensure that your network devices and AAA/RADIUS server are enabled for 802.1x LAN authentication. Configuration details vary depending upon your chosen vendor for these solutions. 802.1x is currently not supported on Teams Rooms for Android due to the lack of support for LAN profiles in Intune for Android. Refer to your device manufacturer to verify that your device can operate in a 802.1x LAN environment.
 
 ## Steps to Configure 802.1x Authentication
 
@@ -40,15 +41,15 @@ The following steps assume a ground up configuration to enable 802.1x for your T
 
 ### Step 1: Enable 802.1x LAN Authentication
 
-Ensure that your network devices and AAA/RADIUS server are enabled for 802.1x LAN authentication. Configuration details will vary depending on your chosen vendor for these solutions.
+Ensure that your network devices and AAA/RADIUS server are enabled for 802.1x LAN authentication. Configuration details vary depending on your chosen vendor for these solutions.
 
 ### Step 2: Configure Intune for Certification Distribution and Authentication
 
-Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune. For detailed instructions, refer to [Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune](/mem/intune/protect/certficates-profile-pkcs).
+Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune. For detailed instructions, refer to [Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune](/intune/protect/certficates-profile-pkcs).
 
 ### Step 3: Create a Wired Network Profile within Intune
 
-Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune. For detailed instructions, refer to [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune](/mem/intune/configuration/wi-fi-settings-windows).
+Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune. For detailed instructions, refer to [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune](/intune/configuration/wi-fi-settings-windows).
 
 ### Step 4: Enroll Your Teams Rooms Devices to Intune
 
@@ -62,6 +63,6 @@ With these steps in place, your 802.1x environment and Teams Rooms on Windows de
 
 ## Related Articles
 
-- [Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune](/mem/intune/protect/certficates-profile-pkcs)
-- [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune</a></li>](/mem/intune/configuration/wi-fi-settings-windows)
+- [Use a PKCS certificate profile to provision devices with certificates in Microsoft Intune](/intune/protect/certficates-profile-pkcs)
+- [Configure 802.1x wired network settings for macOS and Windows devices in Microsoft Intune</a></li>](/intune/configuration/wi-fi-settings-windows)
 -[Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager](https://techcommunity.microsoft.com/t5/microsoft-teams/enrolling-microsoft-teams-rooms-on-windows-devices-with-microsoft/ba-p/1744120)
