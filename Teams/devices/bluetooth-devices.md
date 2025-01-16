@@ -34,7 +34,6 @@ To see a list of supported Bluetooth personal peripherals, see [Certified person
 
 The certification program ensures that audio personal peripherals offer rich audio quality and full functionality with the Teams app experience. Functionalities included in this certification are:
 
-- Audio quality
 - Calling
 - Mute
 - Teams button
