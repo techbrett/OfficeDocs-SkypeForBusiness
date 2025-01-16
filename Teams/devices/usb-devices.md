@@ -328,8 +328,6 @@ If you're a manufacturer and want to join the certification program, see [How to
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
-@sofia - please replace the entries in the table with the bluetooth ones.
-
 | **Manufacturer**      | **Model**                                                    | **Qualified**       | **Certified Program**                                           |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |Logitech|Zone Wireless 2 Headset                                            |01/13/2025       |Certified for Microsoft Teams                             |
