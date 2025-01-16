@@ -25,10 +25,11 @@ This article provides guidance on how admins can enable voice recognition and li
 
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#in-meeting-transcription-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
+
 > [!NOTE]
-> **Teams Rooms:** Intelligent Speakers are available to customers with Teams Room Pro licenses.​​
-> **BYOD Rooms:** Intelligent Speakers available in rooms where the room host has either a Microsoft Teams Premium or Copilot license
-> Selected devices under legacy Microsoft Teams Rooms Premium licenses will continue to be supported.
+> - **Teams Rooms:** Intelligent Speakers are available to customers with Teams Room Pro licenses.​​
+> - **BYOD Rooms:** Intelligent Speakers available in rooms where the room host has either a Microsoft Teams Premium or Copilot license.
+> - Selected devices under legacy Microsoft Teams Rooms Premium licenses will continue to be supported.
 
 ## Optimizing Transcription Precision with Intelligent Speakers
 
@@ -97,7 +98,7 @@ The following are the required policies to set an Intelligent Speaker and user r
 
 |Policy|Description|Values and Behavior|
 |-|-|-|
-|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.<li></ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
+|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.</ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
 |AllowTranscription|Required for BYOD user and Teams Room accounts.|**True** and **False**|
 
 In the Teams admin center, set the **Transcription** policy. Settings are **Off** by default.
