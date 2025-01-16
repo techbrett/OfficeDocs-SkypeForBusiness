@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: weizxue, nijait
-ms.date: 1/10/2024
+ms.date: 1/16/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -68,7 +68,7 @@ PSTN calls are made and received using a phone number. Your users can access AI 
 
 ### 1:1 peer-to-peer and group VoIP calls
 
-1:1 peer-to-peer and group VoIP calls are made between Teams users. Your users can access AI generated notes and recommended tasks for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
+1:1 peer-to-peer and group VoIP calls are made between Teams users. Your users can access AI generated notes, recommended tasks, speakers, topics, mentions, and chapters for 1:1 and group peer-to-peer calls through the **Recap** button in the call’s chat in Teams.
 
 :::image type="content" source="media/intelligent-call-recap-small.png" alt-text="Screenshot of the intelligent call recap button in the call's chat." lightbox="media/intelligent-call-recap-expand.png":::
 
