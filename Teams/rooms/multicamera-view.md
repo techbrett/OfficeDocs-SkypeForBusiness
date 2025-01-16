@@ -27,7 +27,7 @@ description:  Learn how to set up and manage multiple cameras in Microsoft Teams
 
 ## Prerequisites
 
-- Teams Rooms resource account with an assigned Microsoft Teams Rooms Pro license. For more information, see [Microsoft Teams Rooms Licensing](https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-licensing).
+- Teams Rooms resource account with an assigned Microsoft Teams Rooms Pro license. For more information, see [Microsoft Teams Rooms Licensing](/microsoftteams/rooms/rooms-licensing).
 - Teams Rooms on Windows version 5.3 or later installed.
 - Connect a maximum of four Teams certified single stream USB camera peripherals. Multi-stream intelligent cameras aren't supported.
 
@@ -76,6 +76,6 @@ Remote participants can view up to four camera feeds simultaneously in Gallery v
 
 ## Related Articles
 
-- [Microsoft Teams Rooms Licensing](https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-licensing)
-- [Microsoft Teams Rooms Setup](https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-setup)
-- [Admin Guide for Microsoft Teams Rooms](https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-admin) |
+- [Microsoft Teams Rooms Licensing](/microsoftteams/rooms/rooms-licensing)
+- [Microsoft Teams Rooms Setup](/microsoftteams/rooms/rooms-setup)
+- [Admin Guide for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-admin) |
