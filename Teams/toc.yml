@@ -1384,8 +1384,11 @@ items:
             - name: Teams displays certified devices
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
-              href: devices/usb-devices.md
               items:
+                - name: Certified personal peripherals
+                  href: devices/usb-devices.md
+                - name: Certified Native Bluetooth devives
+                  href: devices/bluetooth-devices.md
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals
     - name: Teams Rooms and panels
