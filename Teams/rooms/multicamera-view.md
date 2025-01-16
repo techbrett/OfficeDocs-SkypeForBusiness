@@ -69,13 +69,13 @@ There are two ways to set up multiple camera views:
 Remote participants can view up to four camera feeds simultaneously in Gallery view. Each camera view is displayed in a 16:9 aspect ratio in equal size within the optimized room video tile. Using the carousel navigation, remote participants can switch camera views for their view only. When content is shared, the default camera view is shown with the ability to navigate to one camera view at a time.
 
 **Camera 1**
-:::image type="content" source="/media/multicamera/camera1.png" alt-text="Screenshot of what a Teams Rooms display from camera 1 looks like when multiple cameras aren't used." lightbox="/media/multicamera/camera1-hi-res.png":::
+:::image type="content" source="./media/multicamera/camera1.png" alt-text="Screenshot of what a Teams Rooms display from camera 1 looks like when multiple cameras aren't used." lightbox="./media/multicamera/camera1-hi-res.png":::
 
 **Camera 2**
-:::image type="content" source="/media/multicamera/camera2.png" alt-text="Screenshot of what a Teams Rooms display from camera 2 looks like when multiple cameras aren't used." lightbox="/media/multicamera/camera2-hi-res.png":::
+:::image type="content" source="./media/multicamera/camera2.png" alt-text="Screenshot of what a Teams Rooms display from camera 2 looks like when multiple cameras aren't used." lightbox="./media/multicamera/camera2-hi-res.png":::
 
 **Example of a 2-camera view**
-:::image type="content" source="/media/multicamera/default-camera.png" alt-text="Screenshot of what a Teams Rooms display looks like when multiple cameras are used." lightbox="/media/multicamera/default-camera-hi-res.png":::
+:::image type="content" source="./media/multicamera/default-camera.png" alt-text="Screenshot of what a Teams Rooms display looks like when multiple cameras are used." lightbox="./media/multicamera/default-camera-hi-res.png":::
 
 ## Related Articles
 
