@@ -57,7 +57,7 @@ Ensure your Teams Rooms devices are enrolled in Intune. For detailed instruction
 
 ### Step 5: Configure EAP on Your Teams Rooms on Windows
 
-Configure Extensible Authentication Protocol (EAP) on your Teams Rooms on Windows. For detailed instructions, refer to [Configure EAP profiles and settings in Windows](/windows/security/identity-protection/vpn/vpn-eap-configure).
+Configure Extensible Authentication Protocol (EAP) on your Teams Rooms on Windows. For detailed instructions, refer to [Configure EAP profiles and settings in Windows](/windows/security/operating-system-security/network-security/vpn/vpn-authentication).
 
 With these steps in place, your 802.1x environment and Teams Rooms on Windows devices will be configured to ensure your Teams Rooms devices are managed and identified on your network.
 
