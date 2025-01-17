@@ -307,7 +307,7 @@ If you have a 3PIP or SIP device, you must have the following:
 > Gigaset Handsets receive firmware updates over the air from Gigaset IP-DECT servers. All Gigaset PRO DECT Handset models are compatible with Microsoft Teams SIP Gateway.
 
 > [!NOTE]
-> For Yealink DECT Base Stations, please use the appropriate region specific firmware version from the list to have the best calling experience.
+> For Yealink DECT Base Stations, use the appropriate region specific firmware version from the list to have the best calling experience.
 
 > [!NOTE]
 > For support queries, customers using IP-DECT systems with Teams SIP Gateway should reach out to their DECT manufacturer or their implementation channel partners.
@@ -324,11 +324,11 @@ If you have a 3PIP or SIP device, you must have the following:
 > [!NOTE]
 > Customers should contact their Tango Extend Reseller for support queries related to Tango Extend eSIM endpoints. Help and Support information are provided in the Tango Extend Teams App.
 >
-> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and this uses the Teams number. Teams isn't notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
+> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and uses the Teams number. Teams isn't notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
 >
 > **Tango Extend Supported Features** - Sign-in/out using Tango Extend Teams App with Teams policy sync, Make/receive calls with hold/resume and DTMF, dial-in to meeting, request to join, voicemail and MWI, Teams DND and Call Forwarding.
 >
 > **Currently Unsupported Features** - Sign-out / sign-in currently creates redundant (signed out) entries for the eSIM endpoint in Teams Admin Center.
-> Remote Sign-in from TAC is currently not supported by Tango Extend.
-> Teams mobile client – If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls will prioritize the Teams mobile client.
-> Call transfer – where presented by mobile dialler menu option this isn't supported by Tango Extend.
+> Tango Extend does not support remote sign-in from TAC.
+> If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls prioritize the Teams mobile client.
+> Tango Extend does not support call transfer when presented by the mobile dialer menu option.
