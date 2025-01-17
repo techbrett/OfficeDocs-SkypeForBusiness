@@ -107,7 +107,7 @@ PCs that don't come with integrated Bluetooth radios and use aftermarket USB Blu
 
 This certification is currently for Classic Bluetooth devices. The Microsoft Teams Certification Program has not started certifying Bluetooth Low Energy (LE) Audio headsets yet. We will update this article when the time comes. We do not anticipate issues with headsets that support both Classic Bluetooth and Bluetooth LE Audio, but the latter mode is not certified for Teams.
 
-To see a list of supported Bluetooth personal peripherals, see [Certified personal peripherals](usb-devices.md?tabs=bluetooth).
+To see a list of supported Bluetooth personal peripherals, see [Certified personal peripherals](usb-devices?tabs=bluetooth#tabpanel_1_bluetooth).
 
 
 ## Troubleshooting
