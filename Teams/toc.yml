@@ -654,6 +654,8 @@ items:
           href: supervised-chat-non-edu.md
         - name: Block incoming chat messages
           href: block-incoming-chats.md
+        - name: Set up Live chat in Teams
+          href: set-up-live-chat.md
     - name: Channels
       items:
         - name: Overview of channels

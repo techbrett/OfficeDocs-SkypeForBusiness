@@ -1,4 +1,4 @@
----  
+---
 title: "Certified Native BlueTooth Devices"  
 author: mstonysmith
 ms.author: tonysmit  
@@ -22,13 +22,11 @@ f1.keywords:
   - NOCSH 
 ai-usage: ai-assisted
 description: This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
----  
-
+---
+  
 # Native Bluetooth personal peripherals for Microsoft Teams
 
 Native Bluetooth personal peripherals refer to personal headsets or speakerphones that are directly paired and connected to the integrated Bluetooth radio of a host device, such as a PC or mobile phone, without requiring an adapter or also called a dongle. This article provides a comprehensive overview of Native Bluetooth personal peripherals and outlines the certification requirements necessary for compatibility with Microsoft Teams.
-
-To see a list of supported Bluetooth personal peripherals, see [Certified personal peripherals](usb-devices.md?tabs=usb).
 
 ## Certification requirements
 
@@ -109,7 +107,7 @@ PCs that don't come with integrated Bluetooth radios and use aftermarket USB Blu
 
 This certification is currently for Classic Bluetooth devices. The Microsoft Teams Certification Program has not started certifying Bluetooth Low Energy (LE) Audio headsets yet. We will update this article when the time comes. We do not anticipate issues with headsets that support both Classic Bluetooth and Bluetooth LE Audio, but the latter mode is not certified for Teams.
 
-To see a list of supported Bluetooth personal peripherals, see [Certified personal peripherals](usb-devices.md?tabs=usb).
+To see a list of supported Bluetooth personal peripherals, see [Certified personal peripherals](usb-devices.md?tabs=bluetooth#tabpanel_1_bluetooth).
 
 
 ## Troubleshooting
